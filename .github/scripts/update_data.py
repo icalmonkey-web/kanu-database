@@ -4,7 +4,6 @@ import re
 from datetime import datetime
 import requests
 from google import genai
-from google.genai import types
 
 # 1. 初始化最新 Gemini Client
 api_key = os.environ.get("GEMINI_API_KEY", "")
@@ -12,6 +11,15 @@ if not api_key:
     raise ValueError("GEMINI_API_KEY is not set in environment secrets!")
 
 client = genai.Client(api_key=api_key)
+
+# 優先順序：從最新最強的開始嘗試，失敗則自動向下遞補備援
+CANDIDATE_MODELS = [
+    "gemini-3.8-flash",
+    "gemini-3.6-flash",
+    "gemini-3.5-flash-lite",
+    "gemini-2.5-flash",
+    "gemini-1.5-flash"
+]
 
 # 2. 監控的銀行入口
 BANK_PORTALS = [
@@ -30,6 +38,24 @@ def fetch_markdown_via_jina(target_url):
     except Exception as e:
         print(f"Fetch failed for {target_url}: {e}")
     return ""
+
+def call_gemini_with_fallback(prompt):
+    """依序嘗試最新模型，成功即回傳，失敗則自動順延"""
+    for model_name in CANDIDATE_MODELS:
+        try:
+            print(f"嘗試使用模型: {model_name}...")
+            response = client.models.generate_content(
+                model=model_name,
+                contents=prompt
+            )
+            if response and response.text:
+                print(f"成功透過 {model_name} 解析內容！")
+                return response.text
+        except Exception as err:
+            print(f"模型 {model_name} 無法使用或回傳錯誤: {err}")
+            continue
+    print("所有備選模型皆嘗試失敗。")
+    return None
 
 def parse_with_ai(bank_name, raw_content):
     """使用 Gemini 解析活動、回饋率與除外條款"""
@@ -72,18 +98,18 @@ def parse_with_ai(bank_name, raw_content):
 網頁內容如下：
 {raw_content[:5000]}
 """
+    raw_response = call_gemini_with_fallback(prompt)
+    if not raw_response:
+        return None
+
     try:
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt
-        )
-        text = response.text.strip()
+        text = raw_response.strip()
         text = re.sub(r"^```json\s*", "", text, flags=re.IGNORECASE)
         text = re.sub(r"^```\s*", "", text)
         text = re.sub(r"\s*```$", "", text)
         return json.loads(text.strip())
     except Exception as e:
-        print(f"AI parse error for {bank_name}: {e}")
+        print(f"AI JSON 解析失敗 ({bank_name}): {e}")
         return None
 
 def main():
@@ -95,13 +121,13 @@ def main():
             with open(db_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
         except Exception as e:
-            print(f"Failed to read existing data.json: {e}")
+            print(f"讀取既有 data.json 失敗: {e}")
 
     existing_card_names = {c["cardName"] for c in data.get("cards", [])}
     has_updates = False
 
     for portal in BANK_PORTALS:
-        print(f"Fetching {portal['bank']}...")
+        print(f"\n開始抓取 {portal['bank']}...")
         raw_text = fetch_markdown_via_jina(portal["url"])
         if not raw_text:
             continue
@@ -126,9 +152,9 @@ def main():
         data["lastUpdated"] = datetime.utcnow().isoformat() + "Z"
         with open(db_path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        print("data.json successfully updated with new version:", data["version"])
+        print("\ndata.json 已成功更新版本:", data["version"])
     else:
-        print("No new data to update. Kept existing database.")
+        print("\n資料無異動，保留既有資料庫。")
 
 if __name__ == "__main__":
     main()
