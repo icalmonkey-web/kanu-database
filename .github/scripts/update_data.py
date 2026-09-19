@@ -119,18 +119,16 @@ def call_gemini(prompt):
 def parse_full_bank_cards(bank_name, raw_content):
     """指示 AI 提取整家銀行的所有信用卡及權益規則"""
     prompt = f"""
-你現在是專業金融與信用卡條款審查專家。請自主研讀以下【{bank_name}】的網頁文字，並提取出所有信用卡、權益回饋與需登錄活動。
+你現在是專業金融與消費語意理解專家。請自主研讀以下【{bank_name}】的信用卡權益與活動條款。
+請完整提取此頁面中所有信用卡、權益回饋規則與需要登錄的活動。
 
-請特別依據銀行條款原文，【自主判斷】每項回饋的適用範圍：
-1. 若條款表明「全通路/不限通路/所有網路交易/一般消費全涵蓋」：
-   - 請將 scope 設定為 "ALL"。
-   - 請由你發揮專業知識，自由聯想並展開台灣消費者常用的相關搜尋詞（包含中文、英文、同義詞、常見知名店家），填入 searchKeywords。
-2. 若條款表明「限指定特店/精選通路/僅下列商家適用」：
-   - 請將 scope 設定為 "SPECIFIC"。
-   - matchedMerchants 請嚴格依據內文列出官方特約店家清單（不可自行捏造未列出的商家）。
-   - searchKeywords 僅展開這些被列入的特約店家名稱及其常見簡稱或同義詞。
+特別要求：所有回饋通路的關聯詞與搜尋關鍵字，請【完全由你自主研判與聯想】，絕不設限：
+1. 通路特徵萃取：從條款中找出該回饋所屬的消費領域、官方提及的品牌、適用範圍（全領域通用或限定名單）。
+2. 自主語意聯想（searchKeywords）：請站在台灣消費者的角度，自主發想若有人想享受這項權益，會在搜尋框輸入什麼詞彙？
+   - 請自主聯想相關的所有中文詞、英文詞、常用口語、生活消費情境、該領域的代表性品牌與店家名稱（以逗號分隔）。
+3. 排除條件萃取（excludedKeywords）：自主找出條款中明確說明「不計入回饋」的消費項目、產業類別或特店。
 
-嚴格輸出純 JSON 格式：
+嚴格輸出合法純 JSON 格式：
 {{
   "cards": [
     {{
@@ -139,32 +137,32 @@ def parse_full_bank_cards(bank_name, raw_content):
       "cardName": "信用卡全名",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
-      "descTag": "特色簡述"
+      "descTag": "AI提取之核心亮點(10字內)"
     }}
   ],
   "rules": [
     {{
       "id": "規則唯一識別碼",
       "cardId": "對應卡片id",
-      "title": "回饋活動或權益名稱",
-      "scope": "ALL 或 SPECIFIC",
-      "matchedMerchants": ["此規則適用的特約店家或通路名稱"],
-      "searchKeywords": "AI 自主發想展開的搜尋詞(以逗號分隔)",
+      "title": "回饋活動或權益全稱",
+      "scope": "ALL(該消費領域全涵蓋) 或 SPECIFIC(限特約名單)",
+      "matchedMerchants": ["條款原文中實際列出的特約品牌或店家清單(若無則填空陣列)"],
+      "searchKeywords": "AI自主聯想之所有相關搜尋詞、情境詞、中英文同義詞(以逗號分隔)",
       "baseRate": 1.0,
       "promoRate": 2.0,
       "capAmount": 500,
       "needReg": false,
-      "regDeadline": "登錄時間或截止說明",
-      "quotaInfo": "名額限制或門檻說明",
-      "excludedKeywords": ["條款中明確排除不給回饋的項目(如超商、全聯、水電公用事業、稅款)"]
+      "regDeadline": "登錄截止日或開放時限",
+      "quotaInfo": "名額限制或條件門檻",
+      "excludedKeywords": ["條款中明確排除不回饋之項目"]
     }}
   ]
 }}
 
 注意事項：
-1. 數值（baseRate, promoRate, capAmount）請填數字或 null。
-2. 若有「登錄」或「名額限制」，務必將 needReg 設為 true。
-3. 輸出必須是合法純 JSON，絕不包含任何額外開場白或 markdown 語法。
+1. 數值（baseRate, promoRate, capAmount）請填純數字或 null。
+2. 若需登錄或名額有限，務必將 needReg 標記為 true。
+3. 輸出必須為標準純 JSON，絕不夾帶任何 ```json 或額外開場白。
 
 網頁內容如下：
 {raw_content[:12000]}
