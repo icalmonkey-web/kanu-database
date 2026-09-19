@@ -1,6 +1,6 @@
 {
-  "version": "2026.09.19-v145144",
-  "lastUpdated": "2026-09-19T14:51:44.518971Z",
+  "version": "2026.09.19-v150144",
+  "lastUpdated": "2026-09-19T15:01:44.416295Z",
   "cards": [
     {
       "id": "c1",
@@ -11,12 +11,12 @@
       "descTag": "精選通路 3% 小樹點無上限"
     },
     {
-      "id": "card_國泰世華_01",
+      "id": "cathay_cube",
       "bank": "國泰世華",
       "cardName": "CUBE信用卡",
-      "themeBg": "linear-gradient(135deg, #0575e6 0%, #00f260 100%)",
+      "themeBg": "linear-gradient(135deg, #008736 0%, #00b140 100%)",
       "textColor": "#ffffff",
-      "descTag": "權益天天切換最高3%回饋無上限"
+      "descTag": "指定通路3%無上限"
     },
     {
       "id": "card_玉山銀行_01",
@@ -25,6 +25,30 @@
       "themeBg": "linear-gradient(135deg, #005c53 0%, #042940 100%)",
       "textColor": "#ffffff",
       "descTag": "網購與行動支付3%、指定數位訂閱10%"
+    },
+    {
+      "id": "esun_ubear",
+      "bank": "玉山銀行",
+      "cardName": "玉山 U Bear 信用卡",
+      "themeBg": "linear-gradient(135deg, #ffd100 0%, #ff8c00 100%)",
+      "textColor": "#2d2d2d",
+      "descTag": "網購行動支付3%"
+    },
+    {
+      "id": "taishin_gogo",
+      "bank": "台新銀行",
+      "cardName": "@GoGo御璽卡",
+      "themeBg": "linear-gradient(135deg, #111111 0%, #3a3d40 100%)",
+      "textColor": "#ffffff",
+      "descTag": "網購Pay最高6%"
+    },
+    {
+      "id": "fubon_costco",
+      "bank": "台北富邦",
+      "cardName": "富邦Costco聯名卡",
+      "themeBg": "linear-gradient(135deg, #005a9c 0%, #002c6c 100%)",
+      "textColor": "#ffffff",
+      "descTag": "好多金回饋最高3%"
     }
   ],
   "rules": [
@@ -126,6 +150,319 @@
       "needReg": false,
       "regDeadline": null,
       "excludedKeywords": []
+    },
+    {
+      "id": "cube_play_digital",
+      "cardId": "cathay_cube",
+      "title": "玩數位權益方案",
+      "category": "網購, 串流, Google Play, App Store, 蝦皮, momo",
+      "baseRate": 0.3,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "水電費",
+        "學費",
+        "稅款"
+      ]
+    },
+    {
+      "id": "cube_eat_shop",
+      "cardId": "cathay_cube",
+      "title": "樂饗購權益方案",
+      "category": "餐飲, 百貨, 外送, 遠東SOGO, 新光三越, Uber Eats, Foodpanda",
+      "baseRate": 0.3,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "水電費",
+        "學費",
+        "稅款"
+      ]
+    },
+    {
+      "id": "cube_travel",
+      "cardId": "cathay_cube",
+      "title": "趣旅行權益方案",
+      "category": "旅遊, 航空, 飯店, 日本, 韓國, 泰國, 新加坡, 叫車",
+      "baseRate": 0.3,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "水電費",
+        "學費",
+        "稅款"
+      ]
+    },
+    {
+      "id": "cube_selected",
+      "cardId": "cathay_cube",
+      "title": "集精選權益方案",
+      "category": "量販, 加油, 家樂福, 台灣中油, 高鐵",
+      "baseRate": 0.3,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "水電費",
+        "學費",
+        "稅款"
+      ]
+    },
+    {
+      "id": "cube_app_rewards",
+      "cardId": "cathay_cube",
+      "title": "CUBE App領券加碼活動",
+      "category": "網購, 百貨, 加碼",
+      "baseRate": 3.0,
+      "promoRate": 5.0,
+      "capAmount": 300,
+      "needReg": true,
+      "regDeadline": "2024/12/31",
+      "excludedKeywords": [
+        "全聯",
+        "水電費",
+        "學費",
+        "稅款"
+      ]
+    },
+    {
+      "id": "esun_ubear_online",
+      "cardId": "esun_ubear",
+      "title": "網購消費最優3%回饋",
+      "category": "網購, momo, 蝦皮, 淘寶, PChome, 國內外網購",
+      "baseRate": 1.0,
+      "promoRate": 3.0,
+      "capAmount": 200,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "水電費",
+        "學費",
+        "稅款"
+      ]
+    },
+    {
+      "id": "esun_ubear_mobile_pay",
+      "cardId": "esun_ubear",
+      "title": "行動支付最優3%回饋",
+      "category": "行動支付, 街口, LINE Pay, 悠遊付, Pi拍錢包",
+      "baseRate": 1.0,
+      "promoRate": 3.0,
+      "capAmount": 200,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "水電費",
+        "學費",
+        "稅款"
+      ]
+    },
+    {
+      "id": "esun_ubear_digital_subscription",
+      "cardId": "esun_ubear",
+      "title": "指定數位訂閱最優10%回饋",
+      "category": "數位訂閱, ChatGPT, Netflix, Spotify, Steam, Disney+",
+      "baseRate": 1.0,
+      "promoRate": 10.0,
+      "capAmount": 100,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "水電費",
+        "學費",
+        "稅款"
+      ]
+    },
+    {
+      "id": "esun_ubear_new_user",
+      "cardId": "esun_ubear",
+      "title": "新戶申辦首刷最高23%回饋",
+      "category": "新戶, 首刷禮",
+      "baseRate": null,
+      "promoRate": 23.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "水電費",
+        "學費",
+        "稅款"
+      ]
+    },
+    {
+      "id": "gogo_online_pay",
+      "cardId": "taishin_gogo",
+      "title": "網購/Pay/影音最高6%",
+      "category": "網購, 行動支付, 街口, LINE Pay, 影音",
+      "baseRate": 1.0,
+      "promoRate": 6.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "水電費",
+        "學費",
+        "稅款"
+      ]
+    },
+    {
+      "id": "gogo_dining_gym",
+      "cardId": "taishin_gogo",
+      "title": "餐飲/健身/按摩最高3%",
+      "category": "餐飲, 健身, 按摩",
+      "baseRate": 1.0,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "水電費",
+        "學費",
+        "稅款"
+      ]
+    },
+    {
+      "id": "gogo_pxpay",
+      "cardId": "taishin_gogo",
+      "title": "期間限定：全聯PX Pay享最高3%",
+      "category": "全聯, PX Pay",
+      "baseRate": 1.0,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "7-11",
+        "全家",
+        "水電費",
+        "學費",
+        "稅款"
+      ]
+    },
+    {
+      "id": "gogo_general",
+      "cardId": "taishin_gogo",
+      "title": "一般消費最高1%",
+      "category": "一般消費",
+      "baseRate": 0.5,
+      "promoRate": 1.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "水電費",
+        "學費",
+        "稅款"
+      ]
+    },
+    {
+      "id": "costco_store_spend",
+      "cardId": "fubon_costco",
+      "title": "Costco賣場內消費回饋",
+      "category": "Costco, 賣場, 實體通路",
+      "baseRate": 2.0,
+      "promoRate": 2.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "水電費",
+        "學費",
+        "稅款"
+      ]
+    },
+    {
+      "id": "costco_online_spend",
+      "cardId": "fubon_costco",
+      "title": "Costco線上購物回饋",
+      "category": "網購, Costco線上購物",
+      "baseRate": 3.0,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "水電費",
+        "學費",
+        "稅款"
+      ]
+    },
+    {
+      "id": "costco_gas_spend",
+      "cardId": "fubon_costco",
+      "title": "Costco自助加油回饋",
+      "category": "加油, Costco加油",
+      "baseRate": 3.0,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "水電費",
+        "學費",
+        "稅款"
+      ]
+    },
+    {
+      "id": "costco_outside_spend",
+      "cardId": "fubon_costco",
+      "title": "店外一般消費回饋",
+      "category": "一般消費",
+      "baseRate": 1.0,
+      "promoRate": 1.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "水電費",
+        "學費",
+        "稅款",
+        "保費"
+      ]
     }
   ],
   "commonExclusions": [
