@@ -14,11 +14,17 @@ if not api_key:
 
 client = genai.Client(api_key=api_key)
 
-# 依 Google 官方提示，優先使用 3.6-flash，備援 1.5 系列
+# 依指定清單配置完整候選模型順序
 CANDIDATE_MODELS = [
+    "gemini-3.8-flash",
+    "gemini-3.7-flash",
     "gemini-3.6-flash",
-    "gemini-1.5-flash",
-    "gemini-1.5-pro"
+    "gemini-3.5-flash",
+    "gemini-3.5-flash-lite",
+    "gemini-3-flash-preview",
+    "gemini-3.1-flash-lite",
+    "gemini-3.1-flash-live-preview",
+    "gemini-2.5-flash-lite"
 ]
 
 FULL_MARKET_PORTALS = [
@@ -101,6 +107,8 @@ def extract_cards_with_gemini(bank_name, web_text):
 {web_text[:12000]}
 """
     response_text = None
+    used_model = None
+
     for model_name in CANDIDATE_MODELS:
         try:
             res = client.models.generate_content(
@@ -113,9 +121,9 @@ def extract_cards_with_gemini(bank_name, web_text):
             )
             if res and res.text:
                 response_text = res.text
+                used_model = model_name
                 break
-        except Exception as e:
-            # 若當前模型拋出 404 或不可用，自動切換下一個模型嘗試
+        except Exception:
             continue
 
     if not response_text:
@@ -124,7 +132,9 @@ def extract_cards_with_gemini(bank_name, web_text):
 
     try:
         clean = response_text.strip()
-        return json.loads(clean)
+        data = json.loads(clean)
+        print(f"    🤖 成功調用模型 [{used_model}] 提取資料！")
+        return data
     except Exception as e:
         print(f"    ❌ JSON 解析失敗 ({bank_name}): {e}")
         return None
