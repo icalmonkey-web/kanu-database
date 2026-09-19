@@ -1,4 +1,3 @@
-.github/scripts/update_data.py
 import os
 import json
 import re
