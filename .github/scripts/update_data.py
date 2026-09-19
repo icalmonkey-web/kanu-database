@@ -1,24 +1,21 @@
 import os
 import json
 import re
+import time
 from datetime import datetime
+from playwright.sync_api import sync_playwright
 from google import genai
 from google.genai import types
 
-# 1. 初始化 AI 客戶端
+# ==================== 1. 初始化 AI 客戶端 ====================
 api_key = os.environ.get("GEMINI_API_KEY", "")
 if not api_key:
     raise ValueError("GEMINI_API_KEY 環境變數未設定！")
 
 client = genai.Client(api_key=api_key)
+TARGET_MODEL = "gemini-2.5-flash"
 
-# 依 Google 官方建議設定最新模型順序
-CANDIDATE_MODELS = [
-    "gemini-2.5-flash",
-    "gemini-1.5-flash"
-]
-
-# 2. 各大銀行官方信用卡總覽完整正確網址 (乾淨無省略)
+# 各大銀行官方信用卡總覽入口
 FULL_MARKET_PORTALS = [
     {"bank": "國泰世華", "url": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/"},
     {"bank": "玉山銀行", "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card"},
@@ -38,14 +35,31 @@ def normalize_card_name(name):
     n = re.sub(r"(信用卡|御璽卡|鈦金卡|晶緻卡|無限卡|世界卡|白金卡|商務卡|聯名卡|卡)$", "", n)
     return n
 
-def ask_gemini_to_read_url(bank_name, target_url):
+# ==================== 2. Playwright 抓取真實渲染文字 ====================
+def fetch_page_content(page, target_url):
+    try:
+        page.goto(target_url, wait_until="domcontentloaded", timeout=30000)
+        time.sleep(2)
+        # 滾動觸發動態資料
+        page.evaluate("window.scrollBy(0, 1500)")
+        time.sleep(1.5)
+        page.evaluate("window.scrollBy(0, 2500)")
+        time.sleep(1.5)
+        
+        visible_text = page.inner_text("body")
+        clean_text = re.sub(r"\s+", " ", visible_text).strip()
+        return clean_text
+    except Exception as e:
+        print(f"    ⚠️ 瀏覽器抓取異常: {e}")
+        return ""
+
+# ==================== 3. Gemini 結構化解析 ====================
+def extract_cards_with_gemini(bank_name, web_text):
     prompt = f"""
-你現在是專業金融情報專家。請你針對【{bank_name}】官方信用卡專區進行深度檢索與研讀：
-目標官方網址：{target_url}
+你現在是專業金融信用卡資料分析專家。以下是透過瀏覽器完整抓取自【{bank_name}】官方網頁的文字內容。
+請仔細研讀文字，提取出該頁面介紹的所有「信用卡名稱」與「回饋權益/加碼登錄活動」。
 
-請依據該網址及該銀行官方最新發布的權益資訊，自主萃取出該頁面介紹的所有「信用卡全名」、「核心消費回饋」與「需要登錄的加碼活動」。
-
-請嚴格輸出純 JSON 格式：
+請嚴格輸出合法純 JSON 格式：
 {{
   "cards": [
     {{
@@ -54,7 +68,7 @@ def ask_gemini_to_read_url(bank_name, target_url):
       "cardName": "信用卡全名",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
-      "descTag": "核心亮點(10字內)"
+      "descTag": "核心特色簡述(10字內)"
     }}
   ],
   "rules": [
@@ -71,59 +85,38 @@ def ask_gemini_to_read_url(bank_name, target_url):
       "needReg": false,
       "regDeadline": "登錄說明",
       "quotaInfo": "名額限制",
-      "excludedKeywords": ["明確排除不回饋項目"]
+      "excludedKeywords": ["明確排除項目"]
     }}
   ]
 }}
 
 原則：
-1. 數值請填純數字或 null。
-2. 若需登錄請將 needReg 標記為 true。
-3. 輸出必須為合法純 JSON，絕不包含 ```json 或任何多餘文字。
+1. 請至少找出 1 張信用卡與其對應之回饋。
+2. 數值請填純數字或 null。
+3. 若需登錄請將 needReg 標記為 true。
+
+網頁文字內容如下：
+{web_text[:12000]}
 """
-    response = None
-    for model_name in CANDIDATE_MODELS:
-        try:
-            response = client.models.generate_content(
-                model=model_name,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    tools=[types.Tool(google_search=types.GoogleSearch())],
-                    temperature=0.2
-                )
-            )
-            if response and response.text:
-                break
-        except Exception as err:
-            # 若帶有 google_search 報錯，嘗試免工具直接生成
-            try:
-                response = client.models.generate_content(
-                    model=model_name,
-                    contents=prompt
-                )
-                if response and response.text:
-                    break
-            except Exception:
-                continue
-
-    if not response or not response.text:
-        return None
-
     try:
-        raw = response.text.strip()
-        clean = re.sub(r"^```(json)?", "", raw, flags=re.IGNORECASE)
-        clean = re.sub(r"```$", "", clean.strip())
+        response = client.models.generate_content(
+            model=TARGET_MODEL,
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json",
+                temperature=0.1
+            )
+        )
+        if not response or not response.text:
+            print(f"    ❌ AI 回應為空 ({bank_name})")
+            return None
 
-        start_idx = clean.find("{")
-        end_idx = clean.rfind("}")
-        if start_idx != -1 and end_idx != -1:
-            clean = clean[start_idx:end_idx+1]
-
-        return json.loads(clean.strip())
+        return json.loads(response.text.strip())
     except Exception as e:
-        print(f"    ❌ JSON 解析失敗 ({bank_name}): {e}")
+        print(f"    ❌ AI 解析或 JSON 轉換失敗 ({bank_name}): {e}")
         return None
 
+# ==================== 4. 主程式 ====================
 def main():
     db_path = "data.json"
     data = {
@@ -151,43 +144,62 @@ def main():
         except Exception:
             pass
 
-    for portal in FULL_MARKET_PORTALS:
-        bank = portal["bank"]
-        url = portal["url"]
-        print(f"\n==============================")
-        # 印出完整不截斷的網址
-        print(f"直接交由 Gemini 聯網研讀: [{bank}] {url}")
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--disable-blink-features=AutomationControlled", "--no-sandbox"]
+        )
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            locale="zh-TW",
+            viewport={"width": 1440, "height": 900}
+        )
+        page = context.new_page()
 
-        result = ask_gemini_to_read_url(bank, url)
-        if not result or not result.get("cards"):
-            print(f"  - 跳過 {bank}（未能取得有效卡片內容）")
-            continue
+        for portal in FULL_MARKET_PORTALS:
+            bank = portal["bank"]
+            url = portal["url"]
+            print(f"\n==============================")
+            print(f"瀏覽器動態加載: [{bank}] {url}")
 
-        id_map = {}
-        for c in result.get("cards", []):
-            raw_name = c.get("cardName", "").strip()
-            if not raw_name:
+            web_text = fetch_page_content(page, url)
+            if not web_text or len(web_text) < 150:
+                print(f"  - 跳過 {bank}（未能取得網頁文字內容）")
                 continue
-            norm_key = f"{bank}_{normalize_card_name(raw_name)}"
-            if norm_key not in cards_map:
-                std_id = f"card_{bank}_{len(cards_map) + 1}"
-                c["id"] = std_id
-                cards_map[norm_key] = c
-                print(f"  + 新卡入庫: [{bank}] {raw_name}")
-            id_map[c.get("id")] = cards_map[norm_key]["id"]
 
-        for r in result.get("rules", []):
-            title = r.get("title", "").strip()
-            if not title:
+            print(f"  🌐 成功抓取 {len(web_text)} 字元，交付 Gemini 結構化...")
+            result = extract_cards_with_gemini(bank, web_text)
+            if not result or not result.get("cards"):
+                print(f"  - 跳過 {bank}（未能成功提取卡片）")
                 continue
-            if r.get("cardId") in id_map:
-                r["cardId"] = id_map[r["cardId"]]
-            rule_key = f"{r.get('cardId')}_{title}"
-            rules_map[rule_key] = r
-            if r.get("needReg"):
-                print(f"  🔥 登錄活動: {title}")
-            else:
-                print(f"  + 權益條款: {title}")
+
+            id_map = {}
+            for c in result.get("cards", []):
+                raw_name = c.get("cardName", "").strip()
+                if not raw_name:
+                    continue
+                norm_key = f"{bank}_{normalize_card_name(raw_name)}"
+                if norm_key not in cards_map:
+                    std_id = f"card_{bank}_{len(cards_map) + 1}"
+                    c["id"] = std_id
+                    cards_map[norm_key] = c
+                    print(f"  + 新卡入庫: [{bank}] {raw_name}")
+                id_map[c.get("id")] = cards_map[norm_key]["id"]
+
+            for r in result.get("rules", []):
+                title = r.get("title", "").strip()
+                if not title:
+                    continue
+                if r.get("cardId") in id_map:
+                    r["cardId"] = id_map[r["cardId"]]
+                rule_key = f"{r.get('cardId')}_{title}"
+                rules_map[rule_key] = r
+                if r.get("needReg"):
+                    print(f"  🔥 登錄活動: {title}")
+                else:
+                    print(f"  + 權益條款: {title}")
+
+        browser.close()
 
     data["cards"] = list(cards_map.values())
     data["rules"] = list(rules_map.values())
