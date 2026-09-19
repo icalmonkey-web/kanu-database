@@ -119,53 +119,35 @@ def call_gemini(prompt):
 def parse_full_bank_cards(bank_name, raw_content):
     """指示 AI 提取整家銀行的所有信用卡及權益規則"""
     prompt = f"""
-你現在是專業金融與消費語意理解專家。請自主研讀以下【{bank_name}】的信用卡權益與活動條款。
-請完整提取此頁面中所有信用卡、權益回饋規則與需要登錄的活動。
+你現在是專業金融與消費語意理解專家。請研讀【{bank_name}】信用卡權益條款，提取規則時請進行「領域與實體結構化」：
 
-特別要求：所有回饋通路的關聯詞與搜尋關鍵字，請【完全由你自主研判與聯想】，絕不設限：
-1. 通路特徵萃取：從條款中找出該回饋所屬的消費領域、官方提及的品牌、適用範圍（全領域通用或限定名單）。
-2. 自主語意聯想（searchKeywords）：請站在台灣消費者的角度，自主發想若有人想享受這項權益，會在搜尋框輸入什麼詞彙？
-   - 請自主聯想相關的所有中文詞、英文詞、常用口語、生活消費情境、該領域的代表性品牌與店家名稱（以逗號分隔）。
-3. 排除條件萃取（excludedKeywords）：自主找出條款中明確說明「不計入回饋」的消費項目、產業類別或特店。
-
-嚴格輸出合法純 JSON 格式：
+嚴格輸出純 JSON 格式：
 {{
-  "cards": [
-    {{
-      "id": "英數唯一識別碼",
-      "bank": "{bank_name}",
-      "cardName": "信用卡全名",
-      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
-      "textColor": "#ffffff",
-      "descTag": "AI提取之核心亮點(10字內)"
-    }}
-  ],
+  "cards": [ ... ],
   "rules": [
     {{
       "id": "規則唯一識別碼",
       "cardId": "對應卡片id",
-      "title": "回饋活動或權益全稱",
-      "scope": "ALL(該消費領域全涵蓋) 或 SPECIFIC(限特約名單)",
-      "matchedMerchants": ["條款原文中實際列出的特約品牌或店家清單(若無則填空陣列)"],
-      "searchKeywords": "AI自主聯想之所有相關搜尋詞、情境詞、中英文同義詞(以逗號分隔)",
+      "title": "回饋活動名稱",
+      "domain": "主要領域(如: 餐飲, 國外/旅遊, 網購/電商, 行動支付, 交通, 一般消費)",
+      "scope": "ALL(該領域全通用) 或 SPECIFIC(僅限官方特約名單)",
+      "matchedMerchants": ["條款原文中明確提及之品牌或特定店家名單"],
+      "searchKeywords": "AI自主聯想之5至8個核心情境搜尋詞與中英文頂級代表品牌(以逗號分隔)",
       "baseRate": 1.0,
       "promoRate": 2.0,
       "capAmount": 500,
       "needReg": false,
-      "regDeadline": "登錄截止日或開放時限",
-      "quotaInfo": "名額限制或條件門檻",
-      "excludedKeywords": ["條款中明確排除不回饋之項目"]
+      "regDeadline": "登錄截止或時限說明",
+      "quotaInfo": "名額限制",
+      "excludedKeywords": ["條款明確排除之項目(如超商、全聯、水電公用事業、繳稅)"]
     }}
   ]
 }}
 
-注意事項：
-1. 數值（baseRate, promoRate, capAmount）請填純數字或 null。
-2. 若需登錄或名額有限，務必將 needReg 標記為 true。
-3. 輸出必須為標準純 JSON，絕不夾帶任何 ```json 或額外開場白。
-
-網頁內容如下：
-{raw_content[:12000]}
+原則：
+1. 若 scope 為 ALL，searchKeywords 請聚焦該領域的通用代名詞與最常見頂級品牌（控制在 10 個詞以內），不必列出所有小店。
+2. 若 scope 為 SPECIFIC，matchedMerchants 必須忠實列出條款所有特約品牌。
+3. 輸出純 JSON，絕不夾帶任何額外符號或說明。
 """
     raw_response = call_gemini(prompt)
     if not raw_response:
