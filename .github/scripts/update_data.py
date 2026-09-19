@@ -7,15 +7,20 @@ from playwright.sync_api import sync_playwright
 from google import genai
 from google.genai import types
 
-# ==================== 1. 初始化 AI 客戶端 ====================
+# 1. 初始化 AI 客戶端
 api_key = os.environ.get("GEMINI_API_KEY", "")
 if not api_key:
     raise ValueError("GEMINI_API_KEY 環境變數未設定！")
 
 client = genai.Client(api_key=api_key)
-TARGET_MODEL = "gemini-2.5-flash"
 
-# 各大銀行官方信用卡總覽入口
+# 依 Google 官方提示，優先使用 3.6-flash，備援 1.5 系列
+CANDIDATE_MODELS = [
+    "gemini-3.6-flash",
+    "gemini-1.5-flash",
+    "gemini-1.5-pro"
+]
+
 FULL_MARKET_PORTALS = [
     {"bank": "國泰世華", "url": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/"},
     {"bank": "玉山銀行", "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card"},
@@ -35,12 +40,10 @@ def normalize_card_name(name):
     n = re.sub(r"(信用卡|御璽卡|鈦金卡|晶緻卡|無限卡|世界卡|白金卡|商務卡|聯名卡|卡)$", "", n)
     return n
 
-# ==================== 2. Playwright 抓取真實渲染文字 ====================
 def fetch_page_content(page, target_url):
     try:
-        page.goto(target_url, wait_until="domcontentloaded", timeout=30000)
+        page.goto(target_url, wait_until="domcontentloaded", timeout=35000)
         time.sleep(2)
-        # 滾動觸發動態資料
         page.evaluate("window.scrollBy(0, 1500)")
         time.sleep(1.5)
         page.evaluate("window.scrollBy(0, 2500)")
@@ -50,10 +53,9 @@ def fetch_page_content(page, target_url):
         clean_text = re.sub(r"\s+", " ", visible_text).strip()
         return clean_text
     except Exception as e:
-        print(f"    ⚠️ 瀏覽器抓取異常: {e}")
+        print(f"    ⚠️ 網頁加載異常: {e}")
         return ""
 
-# ==================== 3. Gemini 結構化解析 ====================
 def extract_cards_with_gemini(bank_name, web_text):
     prompt = f"""
 你現在是專業金融信用卡資料分析專家。以下是透過瀏覽器完整抓取自【{bank_name}】官方網頁的文字內容。
@@ -98,25 +100,35 @@ def extract_cards_with_gemini(bank_name, web_text):
 網頁文字內容如下：
 {web_text[:12000]}
 """
-    try:
-        response = client.models.generate_content(
-            model=TARGET_MODEL,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json",
-                temperature=0.1
+    response_text = None
+    for model_name in CANDIDATE_MODELS:
+        try:
+            res = client.models.generate_content(
+                model=model_name,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json",
+                    temperature=0.1
+                )
             )
-        )
-        if not response or not response.text:
-            print(f"    ❌ AI 回應為空 ({bank_name})")
-            return None
+            if res and res.text:
+                response_text = res.text
+                break
+        except Exception as e:
+            # 若當前模型拋出 404 或不可用，自動切換下一個模型嘗試
+            continue
 
-        return json.loads(response.text.strip())
-    except Exception as e:
-        print(f"    ❌ AI 解析或 JSON 轉換失敗 ({bank_name}): {e}")
+    if not response_text:
+        print(f"    ❌ 所有候選模型皆無法取得有效回應 ({bank_name})")
         return None
 
-# ==================== 4. 主程式 ====================
+    try:
+        clean = response_text.strip()
+        return json.loads(clean)
+    except Exception as e:
+        print(f"    ❌ JSON 解析失敗 ({bank_name}): {e}")
+        return None
+
 def main():
     db_path = "data.json"
     data = {
