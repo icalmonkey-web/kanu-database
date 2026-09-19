@@ -1,96 +1,28 @@
 {
-  "version": "2026.09.19-v151255",
+  "version": "2026.09.19-v155306",
   "cards": [
     {
       "id": "card_國泰世華_1",
       "bank": "國泰世華",
-      "cardName": "CUBE卡",
-      "themeBg": "linear-gradient(135deg, #00a854 0%, #00703c 100%)",
+      "cardName": "CUBE 卡",
+      "themeBg": "linear-gradient(135deg, #008000 0%, #115e59 100%)",
       "textColor": "#ffffff",
-      "descTag": "玩數位趣旅行"
-    },
-    {
-      "id": "card_台新銀行_2",
-      "bank": "台新銀行",
-      "cardName": "@GoGo御璽卡",
-      "themeBg": "linear-gradient(135deg, #cc1c24 0%, #f05a28 100%)",
-      "textColor": "#ffffff",
-      "descTag": "網購Pay最高6%"
+      "descTag": "網購旅遊推薦"
     }
   ],
   "rules": [
     {
       "id": "cube_concert_priority",
       "cardId": "cathay_cube",
-      "title": "CUBE卡演唱會優先購票",
-      "category": "演唱會, 娛樂, 購票, 拓元, 寬宏",
+      "title": "CUBE卡 演唱會優先購票",
+      "category": "演唱會, 娛樂, 購票",
       "baseRate": null,
       "promoRate": null,
-      "capAmount": null,
-      "needReg": false,
-      "regDeadline": "依各演唱會活動公告為準",
-      "quotaInfo": "限量售完為止",
-      "regUrl": "https://www.cathay-cube.com.tw/cathaybk/personal/event/overview",
-      "excludedKeywords": []
-    },
-    {
-      "id": "cathay_online_shopping_discount",
-      "cardId": "bank_all",
-      "title": "網購消費現折優惠",
-      "category": "網購, 網購現折, 電商, 網拍",
-      "baseRate": null,
-      "promoRate": null,
-      "capAmount": null,
-      "needReg": false,
-      "regDeadline": "依各網購平台活動公告為準",
-      "quotaInfo": "名額有限，送完為止",
-      "regUrl": "https://www.cathay-cube.com.tw/cathaybk/personal/event/overview",
-      "excludedKeywords": [
-        "全聯",
-        "7-11",
-        "全家"
-      ]
-    },
-    {
-      "id": "cathay_airline_promo_code",
-      "cardId": "bank_all",
-      "title": "航空指定優惠碼",
-      "category": "航空, 機票, 國外旅遊, 航空公司",
-      "baseRate": null,
-      "promoRate": null,
-      "capAmount": null,
-      "needReg": false,
-      "regDeadline": "依各航線活動公告為準",
-      "quotaInfo": "限量優惠碼",
-      "regUrl": "https://www.cathay-cube.com.tw/cathaybk/personal/event/overview",
-      "excludedKeywords": []
-    },
-    {
-      "id": "cathay_drugstore_discount",
-      "cardId": "bank_all",
-      "title": "指定藥妝店消費折扣",
-      "category": "藥妝, 藥妝店, 美妝, 屈臣氏, 康是美",
-      "baseRate": null,
-      "promoRate": null,
-      "capAmount": null,
-      "needReg": false,
-      "regDeadline": "依各藥妝活動公告為準",
-      "quotaInfo": "數量有限，送完為止",
-      "regUrl": "https://www.cathay-cube.com.tw/cathaybk/personal/event/overview",
-      "excludedKeywords": []
-    },
-    {
-      "id": "taishin_gogo_online_pay",
-      "cardId": "taishin_gogo",
-      "title": "網購/行動支付/影音最高6%",
-      "category": "網購, 網路購物, 蝦皮, momo, 行動支付, LINE Pay, 街口支付, 全支付, 影音, Netflix, Disney+, YouTube, 串流",
-      "baseRate": 1.0,
-      "promoRate": 6.0,
       "capAmount": null,
       "needReg": false,
       "regDeadline": null,
-      "quotaInfo": null,
-      "regUrl": null,
+      "quotaInfo": "優先購票資格",
+      "regUrl": "https://www.cathay-cube.com.tw/cathaybk/personal/event/overview",
       "excludedKeywords": [
         "全聯",
         "7-11",
@@ -100,17 +32,17 @@
       ]
     },
     {
-      "id": "taishin_gogo_dining_gym",
-      "cardId": "taishin_gogo",
-      "title": "餐飲/健身/按摩最高3%",
-      "category": "餐飲, 餐廳, 美食, 健身, 運動, 按摩",
-      "baseRate": 1.0,
-      "promoRate": 3.0,
+      "id": "cube_online_shopping_discount",
+      "cardId": "cathay_cube",
+      "title": "網購現折優惠",
+      "category": "網購, 購物, 線上購物",
+      "baseRate": null,
+      "promoRate": null,
       "capAmount": null,
       "needReg": false,
       "regDeadline": null,
       "quotaInfo": null,
-      "regUrl": null,
+      "regUrl": "https://www.cathay-cube.com.tw/cathaybk/personal/event/overview",
       "excludedKeywords": [
         "全聯",
         "7-11",
@@ -120,18 +52,19 @@
       ]
     },
     {
-      "id": "taishin_gogo_pxpay",
-      "cardId": "taishin_gogo",
-      "title": "期間限定全聯PX Pay最高3%",
-      "category": "全聯, PX Pay, 超市",
-      "baseRate": 1.0,
-      "promoRate": 3.0,
+      "id": "cube_aviation_promo_code",
+      "cardId": "cathay_cube",
+      "title": "航空優惠碼折抵",
+      "category": "機票, 航空, 旅遊, 出國",
+      "baseRate": null,
+      "promoRate": null,
       "capAmount": null,
       "needReg": false,
       "regDeadline": null,
-      "quotaInfo": "期間限定",
-      "regUrl": null,
+      "quotaInfo": null,
+      "regUrl": "https://www.cathay-cube.com.tw/cathaybk/personal/event/overview",
       "excludedKeywords": [
+        "全聯",
         "7-11",
         "全家",
         "水電費",
@@ -139,17 +72,17 @@
       ]
     },
     {
-      "id": "taishin_gogo_general",
-      "cardId": "taishin_gogo",
-      "title": "一般消費最高1%",
-      "category": "一般消費, 百貨, 實體店家",
-      "baseRate": 1.0,
-      "promoRate": 1.0,
+      "id": "cube_drugstore_discount",
+      "cardId": "cathay_cube",
+      "title": "藥妝店專屬折扣",
+      "category": "藥妝, 藥局, 美妝, 購物",
+      "baseRate": null,
+      "promoRate": null,
       "capAmount": null,
       "needReg": false,
       "regDeadline": null,
       "quotaInfo": null,
-      "regUrl": null,
+      "regUrl": "https://www.cathay-cube.com.tw/cathaybk/personal/event/overview",
       "excludedKeywords": [
         "全聯",
         "7-11",
@@ -177,5 +110,5 @@
       "message": "超商實體刷卡多數排除一般回饋，建議改用指定行動支付綁定。"
     }
   ],
-  "lastUpdated": "2026-09-19T15:12:55.495569Z"
+  "lastUpdated": "2026-09-19T15:53:06.050663Z"
 }
