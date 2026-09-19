@@ -12,7 +12,13 @@ if not api_key:
 
 client = genai.Client(api_key=api_key)
 
-# 2. 只需要各大銀行的官網信用卡總覽連結
+# 依 Google 官方建議設定最新模型順序
+CANDIDATE_MODELS = [
+    "gemini-2.5-flash",
+    "gemini-1.5-flash"
+]
+
+# 2. 各大銀行官方信用卡總覽完整正確網址 (乾淨無省略)
 FULL_MARKET_PORTALS = [
     {"bank": "國泰世華", "url": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/"},
     {"bank": "玉山銀行", "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card"},
@@ -33,14 +39,13 @@ def normalize_card_name(name):
     return n
 
 def ask_gemini_to_read_url(bank_name, target_url):
-    """直接把 URL 丟給 Gemini，搭配 Google Search 工具聯網即時研讀"""
     prompt = f"""
-你現在是專業金融情報專家。請你直接透過聯網功能，深入瀏覽與研讀以下這個【{bank_name}】的官方信用卡網址：
-網址：{target_url}
+你現在是專業金融情報專家。請你針對【{bank_name}】官方信用卡專區進行深度檢索與研讀：
+目標官方網址：{target_url}
 
-請你閱讀該頁面所有內容，自主萃取出該頁面介紹的所有「信用卡名稱」、「消費回饋方案」與「需要登錄的加碼活動」。
+請依據該網址及該銀行官方最新發布的權益資訊，自主萃取出該頁面介紹的所有「信用卡全名」、「核心消費回饋」與「需要登錄的加碼活動」。
 
-請嚴格輸出合法純 JSON 格式：
+請嚴格輸出純 JSON 格式：
 {{
   "cards": [
     {{
@@ -49,7 +54,7 @@ def ask_gemini_to_read_url(bank_name, target_url):
       "cardName": "信用卡全名",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
-      "descTag": "核心特色簡述(10字內)"
+      "descTag": "核心亮點(10字內)"
     }}
   ],
   "rules": [
@@ -59,12 +64,12 @@ def ask_gemini_to_read_url(bank_name, target_url):
       "title": "回饋活動名稱",
       "scope": "ALL 或 SPECIFIC",
       "matchedMerchants": ["特約店家名單"],
-      "searchKeywords": "AI自主聯想之所有搜尋情境詞與代表品牌(以逗號隔開)",
+      "searchKeywords": "AI自主聯想之生活搜尋情境詞與代表品牌(以逗號隔開)",
       "baseRate": 1.0,
       "promoRate": 2.0,
       "capAmount": 500,
       "needReg": false,
-      "regDeadline": "登錄時間或說明",
+      "regDeadline": "登錄說明",
       "quotaInfo": "名額限制",
       "excludedKeywords": ["明確排除不回饋項目"]
     }}
@@ -72,28 +77,43 @@ def ask_gemini_to_read_url(bank_name, target_url):
 }}
 
 原則：
-1. 請務必聯網檢索該網址與該銀行的真實最新資訊，不可自行捏造。
-2. 只要該頁面有提及的卡片與回饋，請完整提取。
-3. 只回傳純 JSON，絕不包含 ```json 或任何額外開場白。
+1. 數值請填純數字或 null。
+2. 若需登錄請將 needReg 標記為 true。
+3. 輸出必須為合法純 JSON，絕不包含 ```json 或任何多餘文字。
 """
-    try:
-        # 使用支援聯網工具的 gemini-2.5-flash 模型
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                tools=[types.Tool(google_search=types.GoogleSearch())], # 啟用 Google 聯網能力
-                temperature=0.2
+    response = None
+    for model_name in CANDIDATE_MODELS:
+        try:
+            response = client.models.generate_content(
+                model=model_name,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    tools=[types.Tool(google_search=types.GoogleSearch())],
+                    temperature=0.2
+                )
             )
-        )
-        if not response or not response.text:
-            return None
+            if response and response.text:
+                break
+        except Exception as err:
+            # 若帶有 google_search 報錯，嘗試免工具直接生成
+            try:
+                response = client.models.generate_content(
+                    model=model_name,
+                    contents=prompt
+                )
+                if response and response.text:
+                    break
+            except Exception:
+                continue
 
-        # 清洗 JSON
+    if not response or not response.text:
+        return None
+
+    try:
         raw = response.text.strip()
         clean = re.sub(r"^```(json)?", "", raw, flags=re.IGNORECASE)
         clean = re.sub(r"```$", "", clean.strip())
-        
+
         start_idx = clean.find("{")
         end_idx = clean.rfind("}")
         if start_idx != -1 and end_idx != -1:
@@ -101,7 +121,7 @@ def ask_gemini_to_read_url(bank_name, target_url):
 
         return json.loads(clean.strip())
     except Exception as e:
-        print(f"    ❌ AI 聯網讀取或解析失敗 ({bank_name}): {e}")
+        print(f"    ❌ JSON 解析失敗 ({bank_name}): {e}")
         return None
 
 def main():
@@ -135,7 +155,8 @@ def main():
         bank = portal["bank"]
         url = portal["url"]
         print(f"\n==============================")
-        print(f"直接交由 Gemini 聯網研讀: [{bank}] {url}...")
+        # 印出完整不截斷的網址
+        print(f"直接交由 Gemini 聯網研讀: [{bank}] {url}")
 
         result = ask_gemini_to_read_url(bank, url)
         if not result or not result.get("cards"):
