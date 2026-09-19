@@ -3,17 +3,17 @@ import json
 import re
 from datetime import datetime
 import requests
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 
-# 1. 初始化 Gemini API
+# 1. 初始化最新 Gemini Client
 api_key = os.environ.get("GEMINI_API_KEY", "")
 if not api_key:
     raise ValueError("GEMINI_API_KEY is not set in environment secrets!")
 
-genai.configure(api_key=api_key)
-model = genai.GenerativeModel("gemini-1.5-flash")
+client = genai.Client(api_key=api_key)
 
-# 2. 監控的銀行入口（示範銀行入口，可隨時擴充）
+# 2. 監控的銀行入口
 BANK_PORTALS = [
     {"bank": "國泰世華", "url": "https://www.cathaybk.com.tw/cathaybk/personal/event/overview/"},
     {"bank": "玉山銀行", "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops"}
@@ -73,9 +73,11 @@ def parse_with_ai(bank_name, raw_content):
 {raw_content[:5000]}
 """
     try:
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt
+        )
         text = response.text.strip()
-        # 清除可能夾帶的 Markdown 程式碼區塊標籤
         text = re.sub(r"^```json\s*", "", text, flags=re.IGNORECASE)
         text = re.sub(r"^```\s*", "", text)
         text = re.sub(r"\s*```$", "", text)
@@ -88,7 +90,6 @@ def main():
     db_path = "data.json"
     data = {"version": "2026.09.20-v1", "cards": [], "rules": [], "commonExclusions": []}
 
-    # 讀取現有 data.json
     if os.path.exists(db_path):
         try:
             with open(db_path, "r", encoding="utf-8") as f:
@@ -109,20 +110,17 @@ def main():
         if not result:
             continue
 
-        # 合併卡片（避免重複新增相同卡名）
         for card in result.get("cards", []):
             if card.get("cardName") and card["cardName"] not in existing_card_names:
                 data.setdefault("cards", []).append(card)
                 existing_card_names.add(card["cardName"])
                 has_updates = True
 
-        # 合併回饋規則
         for rule in result.get("rules", []):
             if rule.get("title"):
                 data.setdefault("rules", []).append(rule)
                 has_updates = True
 
-    # 若有更新則調升版本號並存檔
     if has_updates or not os.path.exists(db_path):
         data["version"] = datetime.utcnow().strftime("%Y.%m.%d-v%H%M")
         data["lastUpdated"] = datetime.utcnow().isoformat() + "Z"
