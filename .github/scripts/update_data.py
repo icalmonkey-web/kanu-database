@@ -12,14 +12,12 @@ if not api_key:
 
 client = genai.Client(api_key=api_key)
 
-# 優先順序：使用穩定高效模型
 CANDIDATE_MODELS = [
     "gemini-2.5-flash",
     "gemini-3.5-flash",
     "gemini-1.5-flash"
 ]
 
-# 擴充為全市場熱門神卡入口（國泰、玉山、台新、富邦、聯邦）
 BANK_PORTALS = [
     {
         "bank": "國泰世華",
@@ -39,11 +37,22 @@ BANK_PORTALS = [
     }
 ]
 
+def normalize_card_name(name):
+    """
+    卡片名稱正規化：
+    移除空格、英文字母轉大寫、去除後綴字（信用卡、卡、御璽卡、鈦金卡、白金卡），
+    確保 'CUBE 卡' 與 'CUBE信用卡' 視為同一個識別 Key。
+    """
+    if not name:
+        return ""
+    n = re.sub(r"\s+", "", name).upper()
+    n = re.sub(r"(信用卡|御璽卡|鈦金卡|晶緻卡|無限卡|白金卡|卡)$", "", n)
+    return n
+
 def fetch_content(target_url):
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     }
-    # 優先嘗試 Jina Reader 轉換為純文字
     try:
         jina_url = f"https://r.jina.ai/{target_url}"
         res = requests.get(jina_url, headers=headers, timeout=25)
@@ -52,7 +61,6 @@ def fetch_content(target_url):
     except Exception:
         pass
 
-    # 備援直連抓取
     try:
         res = requests.get(target_url, headers=headers, timeout=20)
         if res.status_code == 200:
@@ -96,8 +104,8 @@ def parse_bank_data(bank_name, content):
       "baseRate": 1.0,
       "promoRate": 2.0,
       "capAmount": 500,
-      "needReg": true或false,
-      "regDeadline": "登錄截止日或活動結束日(例如 2026/10/31)",
+      "needReg": false,
+      "regDeadline": "2026/12/31",
       "excludedKeywords": ["全聯", "7-11", "全家", "水電費", "學費", "稅款"]
     }}
   ]
@@ -123,23 +131,22 @@ def parse_bank_data(bank_name, content):
 
 def main():
     db_path = "data.json"
-    data = {"version": "2026.09.20-v0", "cards": [], "rules": [], "commonExclusions": [
-        {"keywords": ["全聯", "pxmart"], "message": "全聯福利中心多數信用卡列為非一般消費，不給予一般回饋。"},
-        {"keywords": ["7-11", "全家", "超商", "便利商店"], "message": "超商實體刷卡多數排除一般回饋，建議改用指定行動支付綁定。"}
-    ]}
+    data = {
+        "version": "2026.09.20-v0",
+        "cards": [],
+        "rules": [],
+        "commonExclusions": [
+            {"keywords": ["全聯", "pxmart"], "message": "全聯福利中心多數信用卡列為非一般消費，不給予一般回饋。"},
+            {"keywords": ["7-11", "全家", "超商", "便利商店"], "message": "超商實體刷卡多數排除一般回饋，建議改用指定行動支付綁定。"}
+        ]
+    }
 
-    if os.path.exists(db_path):
-        try:
-            with open(db_path, "r", encoding="utf-8") as f:
-                data = json.load(f)
-        except Exception:
-            pass
-
-    cards_map = {c["cardName"]: c for c in data.get("cards", [])}
-    rules_map = {r["title"]: r for r in data.get("rules", [])}
+    # 以「正規化後的銀行+卡名」為唯一 Key 進行去重
+    cards_dict = {}
+    rules_dict = {}
 
     for portal in BANK_PORTALS:
-        print(f"抓取 {portal['bank']}...")
+        print(f"開始抓取: {portal['bank']}...")
         text = fetch_content(portal["url"])
         if not text:
             continue
@@ -147,25 +154,44 @@ def main():
         if not res:
             continue
 
+        # ID 映射表，將爬出的舊 ID 導向標準卡片 ID
+        id_map = {}
+
         for c in res.get("cards", []):
-            if c.get("cardName"):
-                cards_map[c["cardName"]] = c
-                print(f"  + 卡片: {c['cardName']}")
+            raw_name = c.get("cardName", "").strip()
+            if not raw_name:
+                continue
+            norm_key = f"{portal['bank']}_{normalize_card_name(raw_name)}"
+            
+            # 若已存在相似卡片，保留更精準的資訊並複用其 ID
+            if norm_key not in cards_dict:
+                std_id = f"card_{portal['bank']}_{len(cards_dict) + 1}"
+                c["id"] = std_id
+                cards_dict[norm_key] = c
+            id_map[c.get("id")] = cards_dict[norm_key]["id"]
+            print(f"  + 卡片收錄/去重整合: {cards_dict[norm_key]['cardName']}")
 
         for r in res.get("rules", []):
-            if r.get("title"):
-                rules_map[r["title"]] = r
-                print(f"  + 規則/登錄: {r['title']}")
+            title = r.get("title", "").strip()
+            if not title:
+                continue
+            # 更新規則指向的 cardId
+            if r.get("cardId") in id_map:
+                r["cardId"] = id_map[r["cardId"]]
+            
+            rule_key = f"{r.get('cardId')}_{title}"
+            rules_dict[rule_key] = r
+            print(f"  + 規則收錄: {title}")
 
-    data["cards"] = list(cards_map.values())
-    data["rules"] = list(rules_map.values())
+    data["cards"] = list(cards_dict.values())
+    data["rules"] = list(rules_dict.values())
     data["version"] = datetime.utcnow().strftime("%Y.%m.%d-v%H%M%S")
     data["lastUpdated"] = datetime.utcnow().isoformat() + "Z"
 
     with open(db_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print(f"\n成功！總卡片數: {len(data['cards'])}, 總規則數: {len(data['rules'])}")
+    print(f"\n[完成] data.json 淨化完成！去重後總卡片數: {len(data['cards'])}, 總規則數: {len(data['rules'])}")
 
 if __name__ == "__main__":
     main()
