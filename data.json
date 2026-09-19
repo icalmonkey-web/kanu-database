@@ -1,16 +1,158 @@
 {
-  "version": "2026.09.19-v155306",
+  "version": "2026.09.19-v155935",
+  "lastUpdated": "2026-09-19T15:59:35.209319Z",
   "cards": [
     {
-      "id": "card_國泰世華_1",
+      "id": "card_cathay_cube",
       "bank": "國泰世華",
-      "cardName": "CUBE 卡",
-      "themeBg": "linear-gradient(135deg, #008000 0%, #115e59 100%)",
+      "cardName": "CUBE卡",
+      "themeBg": "linear-gradient(135deg, #1c4e36 0%, #297451 100%)",
       "textColor": "#ffffff",
-      "descTag": "網購旅遊推薦"
+      "descTag": "精選權益天天切換 3% 無上限"
+    },
+    {
+      "id": "card_esun_ubear",
+      "bank": "玉山銀行",
+      "cardName": "玉山 U Bear卡",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "網購與行動支付最高 3%"
+    },
+    {
+      "id": "card_taishin_gogo",
+      "bank": "台新銀行",
+      "cardName": "@GoGo卡",
+      "themeBg": "linear-gradient(135deg, #232526 0%, #414345 100%)",
+      "textColor": "#ffffff",
+      "descTag": "行動支付與指定網購最高 3.8%"
+    },
+    {
+      "id": "card_fubon_costco",
+      "bank": "台北富邦",
+      "cardName": "富邦 Costco聯名卡",
+      "themeBg": "linear-gradient(135deg, #0d324d 0%, #7f5a83 100%)",
+      "textColor": "#ffffff",
+      "descTag": "Costco 店內 2%、加油最高 3%"
+    },
+    {
+      "id": "card_國泰世華_5",
+      "bank": "國泰世華",
+      "cardName": "國泰世華 CUBE 信用卡",
+      "themeBg": "linear-gradient(135deg, #113023 0%, #05140e 100%)",
+      "textColor": "#d4af37",
+      "descTag": "五大權益天天自主切換，指定消費享 3% 回饋無上限"
     }
   ],
   "rules": [
+    {
+      "id": "rule_cube_online",
+      "cardId": "card_cathay_cube",
+      "title": "玩數位精選網購回饋",
+      "category": "網購, 蝦皮, momo, PChome, 酷澎, 博客來",
+      "baseRate": 0.3,
+      "promoRate": 2.7,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": "2026/12/31",
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "繳稅",
+        "水電費",
+        "學費"
+      ]
+    },
+    {
+      "id": "rule_cube_japan_reg",
+      "cardId": "card_cathay_cube",
+      "title": "日本實體消費加碼登錄活動",
+      "category": "日本, 國外實體, 海外消費",
+      "baseRate": 0.3,
+      "promoRate": 4.7,
+      "capAmount": 1000,
+      "needReg": true,
+      "regDeadline": "每月1日 16:00 開放登錄 (限量10,000名)",
+      "excludedKeywords": [
+        "網購",
+        "儲值"
+      ]
+    },
+    {
+      "id": "rule_ubear_online",
+      "cardId": "card_esun_ubear",
+      "title": "指定網購與行動支付最高 3%",
+      "category": "網購, momo, 蝦皮, LINE Pay, 街口支付",
+      "baseRate": 1.0,
+      "promoRate": 2.0,
+      "capAmount": 200,
+      "needReg": false,
+      "regDeadline": "2026/12/31",
+      "excludedKeywords": [
+        "全聯",
+        "超商",
+        "公用事業代繳"
+      ]
+    },
+    {
+      "id": "rule_ubear_sub_reg",
+      "cardId": "card_esun_ubear",
+      "title": "影音娛樂指定加碼登錄活動",
+      "category": "Netflix, Spotify, Disney+, YouTube Premium",
+      "baseRate": 1.0,
+      "promoRate": 9.0,
+      "capAmount": 100,
+      "needReg": true,
+      "regDeadline": "2026/12/31 前需登錄一次",
+      "excludedKeywords": [
+        "非官方直營訂閱"
+      ]
+    },
+    {
+      "id": "rule_gogo_digital",
+      "cardId": "card_taishin_gogo",
+      "title": "指定行動支付與網購 3.8%",
+      "category": "LINE Pay, 全盈+PAY, 台新Pay, 網購, 蝦皮",
+      "baseRate": 0.5,
+      "promoRate": 3.3,
+      "capAmount": 1000,
+      "needReg": false,
+      "regDeadline": "2026/12/31",
+      "excludedKeywords": [
+        "全聯",
+        "便利商店",
+        "停車費",
+        "罰鍰"
+      ]
+    },
+    {
+      "id": "rule_gogo_fest_reg",
+      "cardId": "card_taishin_gogo",
+      "title": "Richart 狂歡節限時滿額登錄加碼",
+      "category": "百貨, 餐廳, 網購, 旅行社",
+      "baseRate": 0.5,
+      "promoRate": 5.5,
+      "capAmount": 500,
+      "needReg": true,
+      "regDeadline": "每週三 10:00 限量登錄 (限前2,000名)",
+      "excludedKeywords": [
+        "一般消費除外條款"
+      ]
+    },
+    {
+      "id": "rule_fubon_costco",
+      "cardId": "card_fubon_costco",
+      "title": "Costco賣場與線上購物滿額回饋",
+      "category": "Costco, 好市多, Costco線上購物, 加油",
+      "baseRate": 1.0,
+      "promoRate": 2.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": "2026/12/31",
+      "excludedKeywords": [
+        "好市多賣場外非一般消費"
+      ]
+    },
     {
       "id": "cube_concert_priority",
       "cardId": "cathay_cube",
@@ -90,6 +232,75 @@
         "水電費",
         "繳稅"
       ]
+    },
+    {
+      "id": "cube_digital",
+      "cardId": "cathay_cube",
+      "title": "玩數位方案",
+      "category": "網購, 蝦皮, momo, PChome, 淘寶, 串流影音, Netflix, Disney+, Spotify, App Store, Google Play",
+      "baseRate": 0.3,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "水電費",
+        "繳稅"
+      ]
+    },
+    {
+      "id": "cube_shopping",
+      "cardId": "cathay_cube",
+      "title": "樂饗購方案",
+      "category": "百貨, 遠東百貨, SOGO, 微風, 新光三越, 餐廳, 國內餐飲, 外送, Uber Eats, Foodpanda, 藥妝, 康是美, 屈臣氏",
+      "baseRate": 0.3,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "水電費",
+        "繳稅"
+      ]
+    },
+    {
+      "id": "cube_travel",
+      "cardId": "cathay_cube",
+      "title": "趣旅行方案",
+      "category": "國外消費, 日本, 韓國, 泰國, 新加坡, 旅遊, 航空公司, 機票, 國內外飯店, 訂房網站, Agoda, Booking.com, 叫車, Uber, 台灣大車隊",
+      "baseRate": 0.3,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "水電費",
+        "繳稅"
+      ]
+    },
+    {
+      "id": "cube_select",
+      "cardId": "cathay_cube",
+      "title": "集精選方案",
+      "category": "超商, 7-11, 全家, 全聯, 加油, 台灣中油, 高鐵, 國內餐飲, 麥當勞, 星巴克",
+      "baseRate": 0.3,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "水電費",
+        "繳稅"
+      ]
     }
   ],
   "commonExclusions": [
@@ -109,6 +320,5 @@
       ],
       "message": "超商實體刷卡多數排除一般回饋，建議改用指定行動支付綁定。"
     }
-  ],
-  "lastUpdated": "2026-09-19T15:53:06.050663Z"
+  ]
 }
