@@ -1,9 +1,9 @@
-name: 自動更新信用卡資料庫 (Playwright + AI)
+name: 自動更新信用卡資料庫 (Gemini 聯網原生解析)
 
 on:
   schedule:
-    - cron: '0 18 * * *' # 每天台灣時間凌晨 02:00 自動執行 (UTC 18:00)
-  workflow_dispatch:      # 支援手動按鈕立即執行
+    - cron: '0 18 * * *' # 每天台灣時間凌晨 02:00
+  workflow_dispatch:      # 支援手動點擊執行
 
 jobs:
   scrape-and-update:
@@ -18,13 +18,12 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 安裝 Python 套件與 Playwright 瀏覽器
+      - name: 安裝 Python 套件
         run: |
           python -m pip install --upgrade pip
-          pip install google-genai requests playwright
-          playwright install chromium --with-deps
+          pip install google-genai
 
-      - name: 執行 Playwright 渲染爬蟲與 AI 資料結構化
+      - name: 執行 Gemini 聯網讀取與資料結構化
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
@@ -36,9 +35,9 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
           if git diff --staged --quiet; then
-            echo "資料庫內容無變更，跳過 Commit。"
+            echo "資料庫無變更。"
           else
             git commit -m "chore: 自動更新信用卡權益與登錄活動資料庫 [skip ci]"
             git push
-            echo "✅ 成功將最新資料發布至 GitHub！"
+            echo "✅ 成功發布最新資料！"
           fi
