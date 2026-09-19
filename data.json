@@ -1,5 +1,5 @@
 {
-  "version": "2026.09.19-v162449",
+  "version": "2026.09.19-v164507",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -120,17 +120,23 @@
     {
       "id": "rule_ubear_online",
       "cardId": "card_esun_ubear",
-      "title": "指定網購與行動支付最高 3%",
-      "category": "網購, momo, 蝦皮, LINE Pay, 街口支付",
+      "title": "指定網路消費最高3%現金回饋",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "網購,線上購物,淘寶,momo購物,蝦皮購物,PChome,Yahoo購物,東森購物,台灣大哥大費率,遠傳電信費率,中華電信線上繳費,外送,Uber Eats,Foodpanda",
       "baseRate": 1.0,
       "promoRate": 2.0,
       "capAmount": 200,
       "needReg": false,
-      "regDeadline": "2026/12/31",
+      "regDeadline": null,
+      "quotaInfo": "加碼2%回饋每期帳單上限200元，直接折抵當期帳單",
       "excludedKeywords": [
-        "全聯",
-        "超商",
-        "公用事業代繳"
+        "保費",
+        "稅款",
+        "便利商店",
+        "學雜費",
+        "公用事業費用",
+        "政府規費"
       ]
     },
     {
@@ -274,75 +280,6 @@
     },
     {
       "id": "cube_digital",
-      "cardId": "cathay_cube",
-      "title": "玩數位方案",
-      "category": "網購, 蝦皮, momo, PChome, 淘寶, 串流影音, Netflix, Disney+, Spotify, App Store, Google Play",
-      "baseRate": 0.3,
-      "promoRate": 3.0,
-      "capAmount": null,
-      "needReg": false,
-      "regDeadline": null,
-      "excludedKeywords": [
-        "全聯",
-        "7-11",
-        "全家",
-        "水電費",
-        "繳稅"
-      ]
-    },
-    {
-      "id": "cube_shopping",
-      "cardId": "cathay_cube",
-      "title": "樂饗購方案",
-      "category": "百貨, 遠東百貨, SOGO, 微風, 新光三越, 餐廳, 國內餐飲, 外送, Uber Eats, Foodpanda, 藥妝, 康是美, 屈臣氏",
-      "baseRate": 0.3,
-      "promoRate": 3.0,
-      "capAmount": null,
-      "needReg": false,
-      "regDeadline": null,
-      "excludedKeywords": [
-        "全聯",
-        "7-11",
-        "全家",
-        "水電費",
-        "繳稅"
-      ]
-    },
-    {
-      "id": "cube_travel",
-      "cardId": "cathay_cube",
-      "title": "趣旅行方案",
-      "category": "國外消費, 日本, 韓國, 泰國, 新加坡, 旅遊, 航空公司, 機票, 國內外飯店, 訂房網站, Agoda, Booking.com, 叫車, Uber, 台灣大車隊",
-      "baseRate": 0.3,
-      "promoRate": 3.0,
-      "capAmount": null,
-      "needReg": false,
-      "regDeadline": null,
-      "excludedKeywords": [
-        "全聯",
-        "7-11",
-        "全家",
-        "水電費",
-        "繳稅"
-      ]
-    },
-    {
-      "id": "cube_select",
-      "cardId": "cathay_cube",
-      "title": "集精選方案",
-      "category": "超商, 7-11, 全家, 全聯, 加油, 台灣中油, 高鐵, 國內餐飲, 麥當勞, 星巴克",
-      "baseRate": 0.3,
-      "promoRate": 3.0,
-      "capAmount": null,
-      "needReg": false,
-      "regDeadline": null,
-      "excludedKeywords": [
-        "水電費",
-        "繳稅"
-      ]
-    },
-    {
-      "id": "cube_digital",
       "cardId": "card_cathay_cube",
       "title": "CUBE卡【玩數位】最優3%小樹點回饋",
       "scope": "SPECIFIC",
@@ -372,34 +309,21 @@
       ]
     },
     {
-      "id": "cube_gourmet",
-      "cardId": "card_cathay_cube",
-      "title": "CUBE卡【樂饗購】最優3%小樹點回饋",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "遠東SOGO",
-        "新光三越",
-        "微風廣場",
-        "誠品生活",
-        "海外餐飲",
-        "國內餐飲",
-        "Uber Eats",
-        "foodpanda",
-        "星巴克"
-      ],
-      "searchKeywords": "聚餐,吃牛排,下午茶,約會餐廳,外送APP,叫外送,百貨公司周年慶,買衣服,買美妝,星巴克咖啡",
+      "id": "cube_shopping",
+      "cardId": "cathay_cube",
+      "title": "樂饗購方案",
+      "category": "百貨, 遠東百貨, SOGO, 微風, 新光三越, 餐廳, 國內餐飲, 外送, Uber Eats, Foodpanda, 藥妝, 康是美, 屈臣氏",
       "baseRate": 0.3,
       "promoRate": 3.0,
       "capAmount": null,
       "needReg": false,
-      "regDeadline": "免登錄，需透過CUBE App切換為「樂饗購」權益方案",
-      "quotaInfo": "無上限",
+      "regDeadline": null,
       "excludedKeywords": [
-        "大潤發",
-        "家樂福",
-        "學校食堂",
-        "便利商店內餐飲",
-        "美食街非獨立開立發票之攤位"
+        "全聯",
+        "7-11",
+        "全家",
+        "水電費",
+        "繳稅"
       ]
     },
     {
@@ -459,6 +383,37 @@
         "菸品消費",
         "中油加盟站(部分)",
         "全聯PX Pay第三方支付綁定非本卡"
+      ]
+    },
+    {
+      "id": "cube_gourmet",
+      "cardId": "card_cathay_cube",
+      "title": "CUBE卡【樂饗購】最優3%小樹點回饋",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "遠東SOGO",
+        "新光三越",
+        "微風廣場",
+        "誠品生活",
+        "海外餐飲",
+        "國內餐飲",
+        "Uber Eats",
+        "foodpanda",
+        "星巴克"
+      ],
+      "searchKeywords": "聚餐,吃牛排,下午茶,約會餐廳,外送APP,叫外送,百貨公司周年慶,買衣服,買美妝,星巴克咖啡",
+      "baseRate": 0.3,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": "免登錄，需透過CUBE App切換為「樂饗購」權益方案",
+      "quotaInfo": "無上限",
+      "excludedKeywords": [
+        "大潤發",
+        "家樂福",
+        "學校食堂",
+        "便利商店內餐飲",
+        "美食街非獨立開立發票之攤位"
       ]
     },
     {
@@ -565,28 +520,6 @@
       ]
     },
     {
-      "id": "rule_ubear_online",
-      "cardId": "card_esun_ubear",
-      "title": "指定網路消費最高3%現金回饋",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "網購,線上購物,淘寶,momo購物,蝦皮購物,PChome,Yahoo購物,東森購物,台灣大哥大費率,遠傳電信費率,中華電信線上繳費,外送,Uber Eats,Foodpanda",
-      "baseRate": 1.0,
-      "promoRate": 2.0,
-      "capAmount": 200,
-      "needReg": false,
-      "regDeadline": null,
-      "quotaInfo": "加碼2%回饋每期帳單上限200元，直接折抵當期帳單",
-      "excludedKeywords": [
-        "保費",
-        "稅款",
-        "便利商店",
-        "學雜費",
-        "公用事業費用",
-        "政府規費"
-      ]
-    },
-    {
       "id": "rule_ubear_entertainment",
       "cardId": "card_esun_ubear",
       "title": "指定娛樂影音平台最高13%現金回饋",
@@ -646,28 +579,28 @@
         "全聯",
         "pxmart"
       ],
-      "message": "全聯福利中心多數銀行排除一般消費回饋。"
+      "message": "全聯大部分信用卡列為「非一般消費」無回饋。"
     },
     {
       "keywords": [
         "7-11",
         "全家",
-        "萊爾富",
-        "OK",
-        "超商"
+        "超商",
+        "便利商店"
       ],
-      "message": "超商實體刷卡多數排除一般回饋，需搭配指定行動支付或特定卡片。"
+      "message": "超商實體刷卡多列為排除名單，建議搭配指定行動支付。"
     },
     {
       "keywords": [
-        "繳稅",
-        "水電",
+        "水費",
+        "電費",
         "瓦斯",
+        "公用事業",
         "學費",
-        "停車費"
+        "稅款"
       ],
-      "message": "公用事業規費與稅款多數全額排除回饋。"
+      "message": "政府規費、公用事業水電瓦斯多數信用卡皆排除回饋。"
     }
   ],
-  "lastUpdated": "2026-09-19T16:24:49.999963Z"
+  "lastUpdated": "2026-09-19T16:45:07.021742Z"
 }
