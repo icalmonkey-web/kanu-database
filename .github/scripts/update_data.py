@@ -119,10 +119,18 @@ def call_gemini(prompt):
 def parse_full_bank_cards(bank_name, raw_content):
     """指示 AI 提取整家銀行的所有信用卡及權益規則"""
     prompt = f"""
-你現在是專業金融信用卡專家。請徹底分析【{bank_name}】的信用卡總覽網頁內容。
-這是一個包含多張信用卡的目錄頁，請盡可能找出此頁面中「所有出現的信用卡」及其權益、回饋規則、需要登錄的活動。
+你現在是專業金融與信用卡條款審查專家。請自主研讀以下【{bank_name}】的網頁文字，並提取出所有信用卡、權益回饋與需登錄活動。
 
-請嚴格輸出符合以下 JSON 規格的純字串：
+請特別依據銀行條款原文，【自主判斷】每項回饋的適用範圍：
+1. 若條款表明「全通路/不限通路/所有網路交易/一般消費全涵蓋」：
+   - 請將 scope 設定為 "ALL"。
+   - 請由你發揮專業知識，自由聯想並展開台灣消費者常用的相關搜尋詞（包含中文、英文、同義詞、常見知名店家），填入 searchKeywords。
+2. 若條款表明「限指定特店/精選通路/僅下列商家適用」：
+   - 請將 scope 設定為 "SPECIFIC"。
+   - matchedMerchants 請嚴格依據內文列出官方特約店家清單（不可自行捏造未列出的商家）。
+   - searchKeywords 僅展開這些被列入的特約店家名稱及其常見簡稱或同義詞。
+
+嚴格輸出純 JSON 格式：
 {{
   "cards": [
     {{
@@ -131,30 +139,32 @@ def parse_full_bank_cards(bank_name, raw_content):
       "cardName": "信用卡全名",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
-      "descTag": "核心亮點(例如: 網購3%、海外5%)"
+      "descTag": "特色簡述"
     }}
   ],
   "rules": [
     {{
       "id": "規則唯一識別碼",
-      "cardId": "對應卡片的id",
-      "title": "回饋權益或活動名稱",
-      "category": "適用通路關鍵字(請展開常見同義詞，以逗號分隔，例如: 網購, 蝦皮, momo, 日本, 加油, 餐飲, 超商)",
+      "cardId": "對應卡片id",
+      "title": "回饋活動或權益名稱",
+      "scope": "ALL 或 SPECIFIC",
+      "matchedMerchants": ["此規則適用的特約店家或通路名稱"],
+      "searchKeywords": "AI 自主發想展開的搜尋詞(以逗號分隔)",
       "baseRate": 1.0,
       "promoRate": 2.0,
       "capAmount": 500,
       "needReg": false,
-      "regDeadline": "登錄時間或截止日說明",
-      "quotaInfo": "限量名額或門檻說明",
-      "excludedKeywords": ["全聯", "7-11", "全家", "水電費", "繳稅"]
+      "regDeadline": "登錄時間或截止說明",
+      "quotaInfo": "名額限制或門檻說明",
+      "excludedKeywords": ["條款中明確排除不給回饋的項目(如超商、全聯、水電公用事業、稅款)"]
     }}
   ]
 }}
-重要提取原則：
-1. 請盡可能列出本頁包含的「所有信用卡」，不要只抓第一張。
-2. 若有標註登錄、限量名額、限時加碼，務必設定 needReg 為 true。
-3. baseRate, promoRate, capAmount 必須為數字或 null。
-4. 只回傳合法純 JSON，絕不包含 ```json 或額外解說。
+
+注意事項：
+1. 數值（baseRate, promoRate, capAmount）請填數字或 null。
+2. 若有「登錄」或「名額限制」，務必將 needReg 設為 true。
+3. 輸出必須是合法純 JSON，絕不包含任何額外開場白或 markdown 語法。
 
 網頁內容如下：
 {raw_content[:12000]}
