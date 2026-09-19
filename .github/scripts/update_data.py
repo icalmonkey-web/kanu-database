@@ -135,22 +135,24 @@ def discover_event_links(page, portal_url, pattern, max_links=8):
 def extract_with_gemini(bank_name, content, is_event_detail=False):
     role_desc = "活動詳情分析專家" if is_event_detail else "信用卡型錄審查專家"
     prompt = f"""
-你現在是台灣信用卡{role_desc}。以下是自【{bank_name}】官方網頁抓取的純文字。
-請分析提取「信用卡名稱」與「回饋權益/加碼活動」。
+你現在是台灣頂尖金融條款與信用卡精算專家。
+以下是透過瀏覽器抓取自【{bank_name}】官方網頁的純文字內容。
 
-包含四類活動：
-1. 基礎常態權益 (BASE_BENEFIT, needReg: false)
-2. 免登錄最新促銷活動 (DIRECT_PROMOTION, needReg: false)
-3. 需登錄之活動 (REG_PROMOTION, needReg: true)
-4. 特定地區加碼(如日本、韓國、海外加碼) (EXTRA_BOOST)
+請研讀內容，提取信用卡與權益規則，並依據以下【精確關聯與防幻覺鐵律】處理 searchKeywords：
 
-【searchKeywords 強制展開】：
-每筆規則必須自主聯想至少 10 個常用搜尋字詞（以逗號隔開）：
-- 現金回饋、點數、刷卡金
-- 若為國外/指定國家，必須展開 [國外, 海外, 出國, 日本, 韓國, 機票, 飯店, 免稅店, 國外回饋]
-- 日常消費場景 [餐廳, 吃飯, 外送, 加油, 網購, 無腦刷]
+【嚴格邊界約束（防止胡亂腦補）】：
+1. 若活動為「指定特店 / 百大特店 / 特約通路」（scope: SPECIFIC）：
+   - matchedMerchants：必須完全依據內文列出官方特約店家（例如有 LINE Pay、街口、momo，就只列這些）。
+   - searchKeywords 聯想範圍【嚴格受限於特約名單內】：
+     * 只能為名單內確有的店家展開別名、中英文、縮寫、支付形態與拼音（例如：名單有 LINE Pay -> 展開 linepay, 連線支付, 行動支付；名單有 momo -> 展開 富邦momo, momo購物, 網購）。
+     * 【嚴禁憑空捏造】：若特約名單中【沒有】悠遊卡、一卡通、全聯、家樂福，就【絕對不能】出現在 searchKeywords 裡！
+2. 若活動為「廣義全通路」（scope: ALL，例如不限店家之海外實體消費、全台一般消費）：
+   - 才能自主展開該情境的大範圍生活詞（如出國、免稅店、外幣、日幣、韓元、機票、飯店）。
+3. 方案門檻必須誠實交代（quotaInfo）：
+   - 卡片若有方案分級（如簡單選、任意選、UP選，或集精選、切換方案）：
+   - 必須清楚註明各方案門檻與加碼差異，不可只寫最高趴數。
 
-嚴格輸出純 JSON 格式：
+嚴格輸出合法純 JSON 格式：
 {{
   "cards": [
     {{
@@ -159,31 +161,31 @@ def extract_with_gemini(bank_name, content, is_event_detail=False):
       "cardName": "信用卡全名或全卡友",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
-      "descTag": "特色簡述"
+      "descTag": "核心特色簡述(10字內)"
     }}
   ],
   "rules": [
     {{
       "id": "規則唯一碼",
       "cardId": "對應卡片的id",
-      "title": "回饋活動名稱",
+      "title": "回饋活動名稱(方案標明)",
       "activityType": "BASE_BENEFIT 或 DIRECT_PROMOTION 或 REG_PROMOTION 或 EXTRA_BOOST",
       "scope": "ALL 或 SPECIFIC",
-      "matchedMerchants": ["特約品牌或適用國家清單"],
-      "searchKeywords": "至少10個深度聯想詞、國家名、口語詞(以逗號隔開)",
+      "matchedMerchants": ["條款內確實出現之特約品牌清單"],
+      "searchKeywords": "依據名單實體展開之精確別名、中英文與生活情境詞(嚴禁無中生有，以逗號隔開)",
       "baseRate": 1.0,
       "promoRate": 2.0,
       "capAmount": 500,
       "needReg": false,
-      "regDeadline": "登錄時間或活動期限",
-      "quotaInfo": "名額限制說明",
+      "regDeadline": "登錄時間或方案適用期",
+      "quotaInfo": "明確門檻說明(例: 簡單選人人享/任意選需指定特店/UP選需任務門檻)",
       "excludedKeywords": ["明確排除項目"]
     }}
   ]
 }}
 
-網頁文字：
-{content[:12000]}
+網頁文字如下：
+{content[:14000]}
 """
     response_text = None
     for model_name in CANDIDATE_MODELS:
