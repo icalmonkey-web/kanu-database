@@ -1,5 +1,5 @@
 {
-  "version": "2026.09.19-v171201",
+  "version": "2026.09.19-v171705",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -80,6 +80,62 @@
       "themeBg": "linear-gradient(135deg, #243B55 0%, #141E30 100%)",
       "textColor": "#ffffff",
       "descTag": "日本最高8.5%"
+    },
+    {
+      "id": "card_永豐銀行_11",
+      "bank": "永豐銀行",
+      "cardName": "永豐銀行 DAWHO現金回饋信用卡",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "國外6%國內5%"
+    },
+    {
+      "id": "card_永豐銀行_12",
+      "bank": "永豐銀行",
+      "cardName": "永豐銀行 現金回饋Green卡",
+      "themeBg": "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)",
+      "textColor": "#ffffff",
+      "descTag": "綠色通路5%"
+    },
+    {
+      "id": "card_永豐銀行_13",
+      "bank": "永豐銀行",
+      "cardName": "永豐銀行 幣倍卡",
+      "themeBg": "linear-gradient(135deg, #f857a6 0%, #ff5858 100%)",
+      "textColor": "#ffffff",
+      "descTag": "新申辦享8%"
+    },
+    {
+      "id": "card_永豐銀行_14",
+      "bank": "永豐銀行",
+      "cardName": "永豐銀行 保倍卡",
+      "themeBg": "linear-gradient(135deg, #4b6cb7 0%, #182848 100%)",
+      "textColor": "#ffffff",
+      "descTag": "保費1.2%無上限"
+    },
+    {
+      "id": "card_永豐銀行_15",
+      "bank": "永豐銀行",
+      "cardName": "永豐銀行 現金回饋JCB卡",
+      "themeBg": "linear-gradient(135deg, #cc2b5e 0%, #753a88 100%)",
+      "textColor": "#ffffff",
+      "descTag": "特選通路5%"
+    },
+    {
+      "id": "card_永豐銀行_16",
+      "bank": "永豐銀行",
+      "cardName": "永豐銀行 DAWAY卡",
+      "themeBg": "linear-gradient(135deg, #00c6ff 0%, #0072ff 100%)",
+      "textColor": "#ffffff",
+      "descTag": "LINE POINTS神卡"
+    },
+    {
+      "id": "card_永豐銀行_17",
+      "bank": "永豐銀行",
+      "cardName": "永豐銀行 SPORT卡",
+      "themeBg": "linear-gradient(135deg, #f12711 0%, #f5af19 100%)",
+      "textColor": "#ffffff",
+      "descTag": "新戶最高25%"
     }
   ],
   "rules": [
@@ -571,6 +627,112 @@
         "非指定日本通路",
         "國外網購非日本特店"
       ]
+    },
+    {
+      "id": "rule_dawho_1",
+      "cardId": "永豐銀行_1",
+      "title": "DAWHO現金回饋優惠",
+      "scope": "ALL",
+      "matchedMerchants": [
+        "國內消費",
+        "國外消費"
+      ],
+      "searchKeywords": "DAWHO, 大戶, 現金回饋, 國內刷卡, 國外刷卡, 海外消費",
+      "baseRate": 1.0,
+      "promoRate": 6.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "quotaInfo": null,
+      "excludedKeywords": []
+    },
+    {
+      "id": "rule_green_1",
+      "cardId": "永豐銀行_2",
+      "title": "精選綠色通路加碼回饋",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "精選綠色通路"
+      ],
+      "searchKeywords": "綠色通路, 環保店家, 有機購物, Green卡",
+      "baseRate": 1.0,
+      "promoRate": 5.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "quotaInfo": null,
+      "excludedKeywords": []
+    },
+    {
+      "id": "rule_dualcurrency_1",
+      "cardId": "永豐銀行_3",
+      "title": "幣倍卡新申辦優惠",
+      "scope": "ALL",
+      "matchedMerchants": [
+        "國內消費",
+        "海外消費"
+      ],
+      "searchKeywords": "幣倍卡, 雙幣卡, 外幣刷卡, 海外消費, 新戶申辦",
+      "baseRate": 1.0,
+      "promoRate": 8.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "quotaInfo": null,
+      "excludedKeywords": []
+    },
+    {
+      "id": "rule_insurance_1",
+      "cardId": "永豐銀行_4",
+      "title": "保費1.2%現金回饋無上限",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "人壽保險",
+        "產物保險"
+      ],
+      "searchKeywords": "保費, 扣繳保費, 人壽保險, 產險, 保險費",
+      "baseRate": 1.2,
+      "promoRate": 1.2,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "quotaInfo": null,
+      "excludedKeywords": []
+    },
+    {
+      "id": "rule_jcb_1",
+      "cardId": "永豐銀行_5",
+      "title": "JCB卡特選通路加碼",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "JCB特選通路"
+      ],
+      "searchKeywords": "JCB, 特選通路, 現金回饋, 日韓消費",
+      "baseRate": 1.0,
+      "promoRate": 5.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "quotaInfo": null,
+      "excludedKeywords": []
+    },
+    {
+      "id": "rule_sport_1",
+      "cardId": "永豐銀行_7",
+      "title": "SPORT卡運動賺回饋新戶優惠",
+      "scope": "ALL",
+      "matchedMerchants": [
+        "一般消費",
+        "指定運動通路"
+      ],
+      "searchKeywords": "SPORT, 運動, 汗水不白費, 新戶首刷, 健身",
+      "baseRate": 1.0,
+      "promoRate": 25.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "quotaInfo": null,
+      "excludedKeywords": []
     }
   ],
   "commonExclusions": [
@@ -602,5 +764,5 @@
       "message": "政府規費、公用事業水電瓦斯多數信用卡皆排除回饋。"
     }
   ],
-  "lastUpdated": "2026-09-19T17:12:01.327874Z"
+  "lastUpdated": "2026-09-19T17:17:05.734856Z"
 }
