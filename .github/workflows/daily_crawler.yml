@@ -1,4 +1,3 @@
-.github/workflows/update.yml
 name: 自動更新信用卡資料庫 (Playwright + AI)
 
 on:
