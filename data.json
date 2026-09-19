@@ -1,6 +1,5 @@
 {
-  "version": "2026.09.19-v155935",
-  "lastUpdated": "2026-09-19T15:59:35.209319Z",
+  "version": "2026.09.19-v162449",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -41,6 +40,46 @@
       "themeBg": "linear-gradient(135deg, #113023 0%, #05140e 100%)",
       "textColor": "#d4af37",
       "descTag": "五大權益天天自主切換，指定消費享 3% 回饋無上限"
+    },
+    {
+      "id": "card_國泰世華_6",
+      "bank": "國泰世華",
+      "cardName": "蝦皮購物聯名卡",
+      "themeBg": "linear-gradient(135deg, #ea580c 0%, #f97316 100%)",
+      "textColor": "#ffffff",
+      "descTag": "蝦皮消費最高26%"
+    },
+    {
+      "id": "card_國泰世華_7",
+      "bank": "國泰世華",
+      "cardName": "長榮航空聯名卡",
+      "themeBg": "linear-gradient(135deg, #047857 0%, #065f46 100%)",
+      "textColor": "#ffffff",
+      "descTag": "最速10元累積1哩"
+    },
+    {
+      "id": "card_國泰世華_8",
+      "bank": "國泰世華",
+      "cardName": "亞洲萬里通聯名卡",
+      "themeBg": "linear-gradient(135deg, #0e7490 0%, #155e75 100%)",
+      "textColor": "#ffffff",
+      "descTag": "消費生活圈哩程加速"
+    },
+    {
+      "id": "card_玉山銀行_9",
+      "bank": "玉山銀行",
+      "cardName": "玉山 Unicard 信用卡",
+      "themeBg": "linear-gradient(135deg, #0093E9 0%, #80D0C7 100%)",
+      "textColor": "#ffffff",
+      "descTag": "自選百大特店5%"
+    },
+    {
+      "id": "card_玉山銀行_10",
+      "bank": "玉山銀行",
+      "cardName": "玉山熊本熊信用卡",
+      "themeBg": "linear-gradient(135deg, #243B55 0%, #141E30 100%)",
+      "textColor": "#ffffff",
+      "descTag": "日本最高8.5%"
     }
   ],
   "rules": [
@@ -301,6 +340,304 @@
         "水電費",
         "繳稅"
       ]
+    },
+    {
+      "id": "cube_digital",
+      "cardId": "card_cathay_cube",
+      "title": "CUBE卡【玩數位】最優3%小樹點回饋",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Google Play",
+        "App Store",
+        "蝦皮購物",
+        "momo購物網",
+        "PChome線上購物",
+        "Yahoo奇摩購物中心",
+        "Coupang 酷澎",
+        "博客來"
+      ],
+      "searchKeywords": "網購,線上購物,電商,手機課金,App消費,手遊儲值,買書,海外網購,酷澎買零食,雙11,淘寶,買手機,3C配件",
+      "baseRate": 0.3,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": "免登錄，需透過CUBE App切換為「玩數位」權益方案",
+      "quotaInfo": "無上限",
+      "excludedKeywords": [
+        "退貨款",
+        "預借現金",
+        "分期付款",
+        "各項代繳費用",
+        "超商消費"
+      ]
+    },
+    {
+      "id": "cube_gourmet",
+      "cardId": "card_cathay_cube",
+      "title": "CUBE卡【樂饗購】最優3%小樹點回饋",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "遠東SOGO",
+        "新光三越",
+        "微風廣場",
+        "誠品生活",
+        "海外餐飲",
+        "國內餐飲",
+        "Uber Eats",
+        "foodpanda",
+        "星巴克"
+      ],
+      "searchKeywords": "聚餐,吃牛排,下午茶,約會餐廳,外送APP,叫外送,百貨公司周年慶,買衣服,買美妝,星巴克咖啡",
+      "baseRate": 0.3,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": "免登錄，需透過CUBE App切換為「樂饗購」權益方案",
+      "quotaInfo": "無上限",
+      "excludedKeywords": [
+        "大潤發",
+        "家樂福",
+        "學校食堂",
+        "便利商店內餐飲",
+        "美食街非獨立開立發票之攤位"
+      ]
+    },
+    {
+      "id": "cube_travel",
+      "cardId": "card_cathay_cube",
+      "title": "CUBE卡【趣旅行】最優3%小樹點回饋",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "全球航空公司",
+        "國內外飯店",
+        "KKday",
+        "Klook",
+        "Agoda",
+        "Booking.com",
+        "Hotels.com",
+        "Expedia",
+        "高鐵",
+        "Uber",
+        "LINE TAXI"
+      ],
+      "searchKeywords": "買機票,出國旅遊,自由行,訂房網,國內民宿,租車自駕,日本旅遊,搭高鐵,叫計程車,叫車APP,一日遊",
+      "baseRate": 0.3,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": "免登錄，需透過CUBE App切換為「趣旅行」權益方案",
+      "quotaInfo": "無上限",
+      "excludedKeywords": [
+        "旅行社代收轉付(部分排除)",
+        "航空公司非機票消費",
+        "高鐵定期票"
+      ]
+    },
+    {
+      "id": "cube_select",
+      "cardId": "card_cathay_cube",
+      "title": "CUBE卡【集精選】指定通路3%小樹點回饋",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "全家便利商店",
+        "7-ELEVEN",
+        "全聯福利中心",
+        "台灣中油",
+        "高鐵",
+        "麥當勞",
+        "星巴克"
+      ],
+      "searchKeywords": "超商買咖啡,超商取貨付款,全聯買菜,生鮮超市,中油加油,直營站,速食店,早餐,高鐵票",
+      "baseRate": 0.3,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": "免登錄，需透過CUBE App切換為「集精選」權益方案",
+      "quotaInfo": "無上限",
+      "excludedKeywords": [
+        "超商代收代售費用",
+        "菸品消費",
+        "中油加盟站(部分)",
+        "全聯PX Pay第三方支付綁定非本卡"
+      ]
+    },
+    {
+      "id": "shopee_reward",
+      "cardId": "cathay_shopee",
+      "title": "蝦皮購物聯名卡最高26%蝦幣回饋",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "蝦皮購物",
+        "蝦皮商城",
+        "蝦皮超市"
+      ],
+      "searchKeywords": "蝦皮店到店,免運券,雙11,蝦幣回饋,網購推薦,蝦皮海外,蝦皮直送",
+      "baseRate": 1.0,
+      "promoRate": 26.0,
+      "capAmount": null,
+      "needReg": true,
+      "regDeadline": "每月活動需至蝦皮購物App登錄",
+      "quotaInfo": "部分高額回饋活動有名額限制，需搶登錄",
+      "excludedKeywords": [
+        "蝦皮儲值金",
+        "虛擬商品",
+        "服務性商品",
+        "退貨交易"
+      ]
+    },
+    {
+      "id": "eva_mileage_earn",
+      "cardId": "cathay_eva",
+      "title": "長榮航空聯名卡最優10元累積1哩",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "長榮航空官網機票購買",
+        "長榮航空機上免稅品",
+        "長榮樂e購"
+      ],
+      "searchKeywords": "長榮航空,商務艙,機場貴賓室,出國買機票,ANA哩程,星盟航空,哩程累積",
+      "baseRate": null,
+      "promoRate": null,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": "無",
+      "quotaInfo": "無上限",
+      "excludedKeywords": [
+        "機票退票",
+        "預借現金",
+        "各稅款繳納"
+      ]
+    },
+    {
+      "id": "asiamiles_earn",
+      "cardId": "cathay_asiamiles",
+      "title": "亞洲萬里通聯名卡最優15元累積1哩",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "國泰航空機票",
+        "亞洲萬里通特約商戶"
+      ],
+      "searchKeywords": "亞萬,國泰航空,里數累積,免費機票兌換,寰宇一家,哩程卡",
+      "baseRate": null,
+      "promoRate": null,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": "無",
+      "quotaInfo": "無上限",
+      "excludedKeywords": [
+        "稅款",
+        "水電費",
+        "學雜費",
+        "公共事業費用"
+      ]
+    },
+    {
+      "id": "rule_unicard_simple",
+      "cardId": "esun_unicard",
+      "title": "Unicard 簡單選方案百大特店最高3.5%回饋",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "LINE Pay",
+        "街口支付",
+        "悠遊付",
+        "momo購物網",
+        "蝦皮購物",
+        "家樂福",
+        "大潤發",
+        "新光三越",
+        "SOGO",
+        "微風廣場"
+      ],
+      "searchKeywords": "行動支付,網路購物,掃碼支付,百貨公司,量販店,LINE Pay,街口,momo,蝦皮,家樂福,Unicard,玉山新卡,日常消費,週末採買",
+      "baseRate": 1.0,
+      "promoRate": 2.5,
+      "capAmount": 500,
+      "needReg": false,
+      "regDeadline": null,
+      "quotaInfo": "無名額限制，加碼部分每月上限500點玉山e point",
+      "excludedKeywords": [
+        "便利商店",
+        "全聯福利中心",
+        "菸酒購買",
+        "繳稅",
+        "學雜費",
+        "公用事業費"
+      ]
+    },
+    {
+      "id": "rule_ubear_online",
+      "cardId": "card_esun_ubear",
+      "title": "指定網路消費最高3%現金回饋",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "網購,線上購物,淘寶,momo購物,蝦皮購物,PChome,Yahoo購物,東森購物,台灣大哥大費率,遠傳電信費率,中華電信線上繳費,外送,Uber Eats,Foodpanda",
+      "baseRate": 1.0,
+      "promoRate": 2.0,
+      "capAmount": 200,
+      "needReg": false,
+      "regDeadline": null,
+      "quotaInfo": "加碼2%回饋每期帳單上限200元，直接折抵當期帳單",
+      "excludedKeywords": [
+        "保費",
+        "稅款",
+        "便利商店",
+        "學雜費",
+        "公用事業費用",
+        "政府規費"
+      ]
+    },
+    {
+      "id": "rule_ubear_entertainment",
+      "cardId": "card_esun_ubear",
+      "title": "指定娛樂影音平台最高13%現金回饋",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Netflix",
+        "Disney+",
+        "Spotify",
+        "Nintendo",
+        "PlayStation"
+      ],
+      "searchKeywords": "影音串流,追劇平台,線上音樂,遊戲機刷卡,課金,Netflix,Disney+,Spotify,任天堂Switch,PlayStation5,PS5,NS遊戲",
+      "baseRate": 1.0,
+      "promoRate": 12.0,
+      "capAmount": 200,
+      "needReg": false,
+      "regDeadline": null,
+      "quotaInfo": "每期帳單上限200元，直接折抵當期帳單",
+      "excludedKeywords": [
+        "非指定影音平台",
+        "代購商",
+        "實體通路購卡"
+      ]
+    },
+    {
+      "id": "rule_kumamon_japan",
+      "cardId": "esun_kumamon",
+      "title": "日本地區消費與指定通路最高8.5%優惠",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "日本航空",
+        "JR東日本",
+        "SUICA",
+        "PASMO",
+        "Bic Camera",
+        "Don Quijote 唐吉訶德",
+        "松本清"
+      ],
+      "searchKeywords": "日本旅遊,日本自由行,日本刷卡,藥妝店,日本電器,西瓜卡加值,JR Pass,驚安殿堂,唐吉訶德,BIC CAMERA,熊本熊卡,雙幣卡,免手續費",
+      "baseRate": 1.0,
+      "promoRate": 7.5,
+      "capAmount": 500,
+      "needReg": false,
+      "regDeadline": null,
+      "quotaInfo": "日本指定通路加碼5%回饋，每期上限500元",
+      "excludedKeywords": [
+        "台灣國內消費",
+        "非日本地區消費",
+        "非指定日本通路",
+        "國外網購非日本特店"
+      ]
     }
   ],
   "commonExclusions": [
@@ -309,16 +646,28 @@
         "全聯",
         "pxmart"
       ],
-      "message": "全聯福利中心多數信用卡列為非一般消費，不給予一般回饋。"
+      "message": "全聯福利中心多數銀行排除一般消費回饋。"
     },
     {
       "keywords": [
         "7-11",
         "全家",
-        "超商",
-        "便利商店"
+        "萊爾富",
+        "OK",
+        "超商"
       ],
-      "message": "超商實體刷卡多數排除一般回饋，建議改用指定行動支付綁定。"
+      "message": "超商實體刷卡多數排除一般回饋，需搭配指定行動支付或特定卡片。"
+    },
+    {
+      "keywords": [
+        "繳稅",
+        "水電",
+        "瓦斯",
+        "學費",
+        "停車費"
+      ],
+      "message": "公用事業規費與稅款多數全額排除回饋。"
     }
-  ]
+  ],
+  "lastUpdated": "2026-09-19T16:24:49.999963Z"
 }
