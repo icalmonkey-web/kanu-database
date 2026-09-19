@@ -1,0 +1,38 @@
+{
+  "version": "2026.09.20-v1",
+  "lastUpdated": "2026-09-20T12:00:00Z",
+  "cards": [
+    {
+      "id": "c1",
+      "bank": "國泰世華",
+      "cardName": "CUBE 卡",
+      "themeBg": "linear-gradient(135deg, #1c4e36 0%, #297451 100%)",
+      "textColor": "#ffffff",
+      "descTag": "精選通路 3% 小樹點無上限"
+    }
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "cardId": "c1",
+      "title": "momo 購物精選",
+      "category": "momo, 網購, 電商, 購物, 買東西",
+      "baseRate": 3.0,
+      "promoRate": 2.0,
+      "capAmount": 600,
+      "needReg": true,
+      "regDeadline": "2026/10/31",
+      "excludedKeywords": ["全聯", "7-11", "全家", "超商", "水費", "電費", "學費", "稅款"]
+    }
+  ],
+  "commonExclusions": [
+    {
+      "keywords": ["全聯", "pxmart"],
+      "message": "全聯多數信用卡列為「非一般消費」不給予回饋，建議使用指定權益切換或行動支付。"
+    },
+    {
+      "keywords": ["7-11", "全家", "超商", "便利商店"],
+      "message": "超商實體刷卡通常排除一般回饋，建議改綁指定行動支付享有加碼。"
+    }
+  ]
+}
