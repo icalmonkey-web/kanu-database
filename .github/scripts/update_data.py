@@ -1,56 +1,136 @@
 import os
 import json
+import re
+from datetime import datetime
 import requests
 import google.generativeai as genai
-from datetime import datetime
 
-# 設定 Gemini API Key (由 GitHub Secrets 免費提供)
-genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+# 1. 初始化 Gemini API
+api_key = os.environ.get("GEMINI_API_KEY", "")
+if not api_key:
+    raise ValueError("GEMINI_API_KEY is not set in environment secrets!")
+
+genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
-# 要監控的各銀行活動專區入口網址
+# 2. 監控的銀行入口（示範銀行入口，可隨時擴充）
 BANK_PORTALS = [
     {"bank": "國泰世華", "url": "https://www.cathaybk.com.tw/cathaybk/personal/event/overview/"},
-    {"bank": "玉山銀行", "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops"},
+    {"bank": "玉山銀行", "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops"}
 ]
 
 def fetch_markdown_via_jina(target_url):
-    # 使用 Jina Reader 免費將任何網頁轉成乾淨文字
+    """利用 Jina Reader 免費將網頁轉為 Markdown 文字"""
     jina_url = f"https://r.jina.ai/{target_url}"
     headers = {"User-Agent": "Mozilla/5.0"}
-    res = requests.get(jina_url, headers=headers, timeout=20)
-    return res.text if res.status_code == 200 else ""
+    try:
+        res = requests.get(jina_url, headers=headers, timeout=25)
+        if res.status_code == 200:
+            return res.text
+    except Exception as e:
+        print(f"Fetch failed for {target_url}: {e}")
+    return ""
 
 def parse_with_ai(bank_name, raw_content):
-    prompt = f"""
-    你現在是專業信用卡資料庫工程師。請分析以下【{bank_name}】的活動網頁文字內容。
-    請提取有效信用卡活動，並依照下列 JSON 格式輸出：
-    {{
-      "cards": [
-        {{ "id": "唯一英文數字", "bank": "{bank_name}", "cardName": "卡名", "descTag": "特色標籤" }}
-      ],
-      "rules": [
-        {{
-          "id": "唯一編號",
-          "title": "活動名稱",
-          "category": "適用通路關鍵字(請主動擴充同義詞，用逗號隔開)",
-          "baseRate": 數字,
-          "promoRate": 數字,
-          "capAmount": 上限數字或 null,
-          "needReg": true或false,
-          "regDeadline": "截止時間或永久",
-          "excludedKeywords": ["條款中載明排除的所有不回饋通路"]
-        }}
-      ]
-    }}
-    只需輸出純 JSON 字串，不要包含任何額外說明。
-    網頁內容如下：
-    {raw_content[:6000]}
-    """
-    response = model.generate_content(prompt)
-    clean_json = response.text.replace("
-```json", "").replace("```", "").strip()
-    return json.loads(clean_json)
+    """使用 Gemini 解析活動、回饋率與除外條款"""
+    if not raw_content or len(raw_content.strip()) < 100:
+        return None
 
-# 主流程：讀取舊資料 -> 抓取新資料 -> 比對合併 -> 寫回
-# 若有更新，將 version 改為今日時間戳，如 "2026.09.20-v2"
+    prompt = f"""
+你現在是專業信用卡資料庫分析師。請分析以下【{bank_name}】的活動網頁文字內容。
+請提取有效信用卡活動，並嚴格依照下列 JSON 格式輸出：
+{{
+  "cards": [
+    {{
+      "id": "英數唯一識別碼",
+      "bank": "{bank_name}",
+      "cardName": "信用卡全名",
+      "themeBg": "linear-gradient(135deg, #1c4e36 0%, #297451 100%)",
+      "textColor": "#ffffff",
+      "descTag": "特色簡述"
+    }}
+  ],
+  "rules": [
+    {{
+      "id": "規則唯一識別碼",
+      "cardId": "對應上方卡片的id",
+      "title": "活動或權益簡稱",
+      "category": "適用通路關鍵字(請主動擴充常見搜尋同義詞，以逗號分隔)",
+      "baseRate": 1.0,
+      "promoRate": 2.0,
+      "capAmount": 500,
+      "needReg": false,
+      "regDeadline": "永久或日期",
+      "excludedKeywords": ["注意事項中載明排除的所有通路"]
+    }}
+  ]
+}}
+注意事項：
+1. 數值請輸出純數字（如 3.0，capAmount 若無上限請填 null）。
+2. 只輸出純 JSON，不要包含任何 markdown 標記或解說文字。
+
+網頁內容如下：
+{raw_content[:5000]}
+"""
+    try:
+        response = model.generate_content(prompt)
+        text = response.text.strip()
+        # 清除可能夾帶的 Markdown 程式碼區塊標籤
+        text = re.sub(r"^```json\s*", "", text, flags=re.IGNORECASE)
+        text = re.sub(r"^```\s*", "", text)
+        text = re.sub(r"\s*```$", "", text)
+        return json.loads(text.strip())
+    except Exception as e:
+        print(f"AI parse error for {bank_name}: {e}")
+        return None
+
+def main():
+    db_path = "data.json"
+    data = {"version": "2026.09.20-v1", "cards": [], "rules": [], "commonExclusions": []}
+
+    # 讀取現有 data.json
+    if os.path.exists(db_path):
+        try:
+            with open(db_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception as e:
+            print(f"Failed to read existing data.json: {e}")
+
+    existing_card_names = {c["cardName"] for c in data.get("cards", [])}
+    has_updates = False
+
+    for portal in BANK_PORTALS:
+        print(f"Fetching {portal['bank']}...")
+        raw_text = fetch_markdown_via_jina(portal["url"])
+        if not raw_text:
+            continue
+
+        result = parse_with_ai(portal["bank"], raw_text)
+        if not result:
+            continue
+
+        # 合併卡片（避免重複新增相同卡名）
+        for card in result.get("cards", []):
+            if card.get("cardName") and card["cardName"] not in existing_card_names:
+                data.setdefault("cards", []).append(card)
+                existing_card_names.add(card["cardName"])
+                has_updates = True
+
+        # 合併回饋規則
+        for rule in result.get("rules", []):
+            if rule.get("title"):
+                data.setdefault("rules", []).append(rule)
+                has_updates = True
+
+    # 若有更新則調升版本號並存檔
+    if has_updates or not os.path.exists(db_path):
+        data["version"] = datetime.utcnow().strftime("%Y.%m.%d-v%H%M")
+        data["lastUpdated"] = datetime.utcnow().isoformat() + "Z"
+        with open(db_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print("data.json successfully updated with new version:", data["version"])
+    else:
+        print("No new data to update. Kept existing database.")
+
+if __name__ == "__main__":
+    main()
