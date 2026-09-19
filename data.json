@@ -1,6 +1,6 @@
 {
-  "version": "2026.09.20-v1",
-  "lastUpdated": "2026-09-20T12:00:00Z",
+  "version": "2026.09.19-v145144",
+  "lastUpdated": "2026-09-19T14:51:44.518971Z",
   "cards": [
     {
       "id": "c1",
@@ -9,6 +9,22 @@
       "themeBg": "linear-gradient(135deg, #1c4e36 0%, #297451 100%)",
       "textColor": "#ffffff",
       "descTag": "精選通路 3% 小樹點無上限"
+    },
+    {
+      "id": "card_國泰世華_01",
+      "bank": "國泰世華",
+      "cardName": "CUBE信用卡",
+      "themeBg": "linear-gradient(135deg, #0575e6 0%, #00f260 100%)",
+      "textColor": "#ffffff",
+      "descTag": "權益天天切換最高3%回饋無上限"
+    },
+    {
+      "id": "card_玉山銀行_01",
+      "bank": "玉山銀行",
+      "cardName": "玉山U Bear卡",
+      "themeBg": "linear-gradient(135deg, #005c53 0%, #042940 100%)",
+      "textColor": "#ffffff",
+      "descTag": "網購與行動支付3%、指定數位訂閱10%"
     }
   ],
   "rules": [
@@ -22,16 +38,111 @@
       "capAmount": 600,
       "needReg": true,
       "regDeadline": "2026/10/31",
-      "excludedKeywords": ["全聯", "7-11", "全家", "超商", "水費", "電費", "學費", "稅款"]
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "超商",
+        "水費",
+        "電費",
+        "學費",
+        "稅款"
+      ]
+    },
+    {
+      "id": "rule_國泰世華_01",
+      "cardId": "card_國泰世華_01",
+      "title": "三大權益方案 (玩數位、樂饗購、趣旅行)",
+      "category": "網購,線上購物,數碼,餐廳,美食,外送,百貨,商場,旅遊,住宿,訂房,航空,機票,高鐵,叫車,計程車",
+      "baseRate": 0.3,
+      "promoRate": 3.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "水電費",
+        "繳稅",
+        "學費",
+        "罰單",
+        "公用事業費"
+      ]
+    },
+    {
+      "id": "rule_國泰世華_02",
+      "cardId": "card_國泰世華_01",
+      "title": "一般消費基本回饋",
+      "category": "一般消費,不限通路",
+      "baseRate": 0.3,
+      "promoRate": null,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": [
+        "全聯",
+        "7-11",
+        "全家",
+        "水電費",
+        "繳稅",
+        "學費",
+        "罰單",
+        "公用事業費"
+      ]
+    },
+    {
+      "id": "rule_玉山銀行_01",
+      "cardId": "card_玉山銀行_01",
+      "title": "網購與行動支付回饋",
+      "category": "網購, 行動支付, 網路購物, 線上購物, 電商, 行動錢包",
+      "baseRate": 1.0,
+      "promoRate": 2.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": []
+    },
+    {
+      "id": "rule_玉山銀行_02",
+      "cardId": "card_玉山銀行_01",
+      "title": "指定數位影音與娛樂訂閱",
+      "category": "ChatGPT, Netflix, Steam, 數位訂閱, 串流影音, 遊戲平台, 線上訂閱",
+      "baseRate": 1.0,
+      "promoRate": 9.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": []
+    },
+    {
+      "id": "rule_玉山銀行_03",
+      "cardId": "card_玉山銀行_01",
+      "title": "新戶首刷活動",
+      "category": "新戶首刷, 新戶限定, 首刷禮",
+      "baseRate": null,
+      "promoRate": 23.0,
+      "capAmount": null,
+      "needReg": false,
+      "regDeadline": null,
+      "excludedKeywords": []
     }
   ],
   "commonExclusions": [
     {
-      "keywords": ["全聯", "pxmart"],
+      "keywords": [
+        "全聯",
+        "pxmart"
+      ],
       "message": "全聯多數信用卡列為「非一般消費」不給予回饋，建議使用指定權益切換或行動支付。"
     },
     {
-      "keywords": ["7-11", "全家", "超商", "便利商店"],
+      "keywords": [
+        "7-11",
+        "全家",
+        "超商",
+        "便利商店"
+      ],
       "message": "超商實體刷卡通常排除一般回饋，建議改綁指定行動支付享有加碼。"
     }
   ]
