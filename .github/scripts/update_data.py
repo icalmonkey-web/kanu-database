@@ -25,8 +25,8 @@ RUN_STATS = {
 }
 
 CANDIDATE_MODELS = [
-    os.environ.get("GEMINI_MODEL", "gemini-2.5-flash"),
-    "gemini-2.5-flash-lite",
+    os.environ.get("GEMINI_MODEL", "gemini-3.6-flash"),
+    "gemini-3.5-flash-lite",
 ]
 
 # 核心入口：包含卡片總覽與活動大廳
