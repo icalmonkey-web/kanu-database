@@ -1,5 +1,5 @@
 {
-  "version": "2026.09.22-v142556",
+  "version": "2026.09.22-v154022",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -552,6 +552,22 @@
       "themeBg": "linear-gradient(135deg, #ed213a 0%, #93291e 100%)",
       "textColor": "#ffffff",
       "descTag": "推薦好友送好禮"
+    },
+    {
+      "id": "card_永豐銀行_70",
+      "bank": "永豐銀行",
+      "cardName": "永豐銀行全卡友(指定卡別除外)",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "Apple Pay與指定支付活動"
+    },
+    {
+      "id": "card_安泰銀行_71",
+      "bank": "安泰銀行",
+      "cardName": "安泰銀行信用卡",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "安泰信用卡服務"
     }
   ],
   "rules": [
@@ -577,7 +593,7 @@
       "rewardAmount": 2.7,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.580813Z"
+      "fetchedAt": "2026-09-22T15:40:22.922196Z"
     },
     {
       "id": "rule_cube_japan_reg",
@@ -597,7 +613,7 @@
       "rewardAmount": 4.7,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.580824Z"
+      "fetchedAt": "2026-09-22T15:40:22.922205Z"
     },
     {
       "id": "rule_ubear_online",
@@ -624,7 +640,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.580827Z"
+      "fetchedAt": "2026-09-22T15:40:22.922208Z"
     },
     {
       "id": "rule_ubear_sub_reg",
@@ -643,7 +659,7 @@
       "rewardAmount": 9.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.580837Z"
+      "fetchedAt": "2026-09-22T15:40:22.922216Z"
     },
     {
       "id": "rule_gogo_digital",
@@ -665,7 +681,7 @@
       "rewardAmount": 3.3,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.580842Z"
+      "fetchedAt": "2026-09-22T15:40:22.922220Z"
     },
     {
       "id": "rule_gogo_fest_reg",
@@ -684,7 +700,7 @@
       "rewardAmount": 5.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.580846Z"
+      "fetchedAt": "2026-09-22T15:40:22.922223Z"
     },
     {
       "id": "rule_fubon_costco",
@@ -703,7 +719,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.580851Z"
+      "fetchedAt": "2026-09-22T15:40:22.922227Z"
     },
     {
       "id": "cube_concert_priority",
@@ -728,7 +744,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581061Z"
+      "fetchedAt": "2026-09-22T15:40:22.922229Z"
     },
     {
       "id": "cube_online_shopping_discount",
@@ -753,7 +769,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581071Z"
+      "fetchedAt": "2026-09-22T15:40:22.922232Z"
     },
     {
       "id": "cube_aviation_promo_code",
@@ -778,7 +794,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581075Z"
+      "fetchedAt": "2026-09-22T15:40:22.922234Z"
     },
     {
       "id": "cube_drugstore_discount",
@@ -803,7 +819,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581080Z"
+      "fetchedAt": "2026-09-22T15:40:22.922235Z"
     },
     {
       "id": "cube_digital",
@@ -838,7 +854,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581085Z"
+      "fetchedAt": "2026-09-22T15:40:22.922238Z"
     },
     {
       "id": "cube_shopping",
@@ -861,7 +877,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581088Z"
+      "fetchedAt": "2026-09-22T15:40:22.922240Z"
     },
     {
       "id": "cube_travel",
@@ -897,7 +913,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581091Z"
+      "fetchedAt": "2026-09-22T15:40:22.922243Z"
     },
     {
       "id": "cube_select",
@@ -930,7 +946,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581094Z"
+      "fetchedAt": "2026-09-22T15:40:22.922245Z"
     },
     {
       "id": "cube_gourmet",
@@ -966,7 +982,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581097Z"
+      "fetchedAt": "2026-09-22T15:40:22.922246Z"
     },
     {
       "id": "shopee_reward",
@@ -995,7 +1011,7 @@
       "rewardAmount": 26.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581100Z"
+      "fetchedAt": "2026-09-22T15:40:22.922248Z"
     },
     {
       "id": "eva_mileage_earn",
@@ -1023,7 +1039,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581105Z"
+      "fetchedAt": "2026-09-22T15:40:22.922250Z"
     },
     {
       "id": "asiamiles_earn",
@@ -1051,7 +1067,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581110Z"
+      "fetchedAt": "2026-09-22T15:40:22.922252Z"
     },
     {
       "id": "rule_unicard_simple",
@@ -1089,7 +1105,7 @@
       "rewardAmount": 2.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581112Z"
+      "fetchedAt": "2026-09-22T15:40:22.922254Z"
     },
     {
       "id": "rule_ubear_entertainment",
@@ -1119,7 +1135,7 @@
       "rewardAmount": 12.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581114Z"
+      "fetchedAt": "2026-09-22T15:40:22.922255Z"
     },
     {
       "id": "rule_kumamon_japan",
@@ -1140,7 +1156,7 @@
       "rewardAmount": 8.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581116Z"
+      "fetchedAt": "2026-09-22T15:40:22.922257Z"
     },
     {
       "id": "rule_dawho_1",
@@ -1164,7 +1180,7 @@
       "rewardAmount": 6.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581118Z"
+      "fetchedAt": "2026-09-22T15:40:22.922258Z"
     },
     {
       "id": "rule_green_1",
@@ -1189,7 +1205,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581120Z"
+      "fetchedAt": "2026-09-22T15:40:22.922260Z"
     },
     {
       "id": "rule_dualcurrency_1",
@@ -1212,7 +1228,7 @@
       "rewardAmount": 8.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581122Z"
+      "fetchedAt": "2026-09-22T15:40:22.922261Z"
     },
     {
       "id": "rule_insurance_1",
@@ -1235,7 +1251,7 @@
       "rewardAmount": 1.2,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581125Z"
+      "fetchedAt": "2026-09-22T15:40:22.922263Z"
     },
     {
       "id": "rule_jcb_1",
@@ -1260,7 +1276,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581127Z"
+      "fetchedAt": "2026-09-22T15:40:22.922264Z"
     },
     {
       "id": "rule_sport_1",
@@ -1284,7 +1300,7 @@
       "rewardAmount": 25.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581128Z"
+      "fetchedAt": "2026-09-22T15:40:22.922265Z"
     },
     {
       "id": "rule_dual_1",
@@ -1305,7 +1321,7 @@
       "rewardAmount": 1.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581131Z"
+      "fetchedAt": "2026-09-22T15:40:22.922267Z"
     },
     {
       "id": "rule_bao_1",
@@ -1329,7 +1345,7 @@
       "rewardAmount": 1.2,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581133Z"
+      "fetchedAt": "2026-09-22T15:40:22.922269Z"
     },
     {
       "id": "rule_daway_1",
@@ -1354,7 +1370,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581135Z"
+      "fetchedAt": "2026-09-22T15:40:22.922270Z"
     },
     {
       "id": "sinopac_dept_01",
@@ -1387,7 +1403,7 @@
       "rewardAmount": 1400.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581143Z"
+      "fetchedAt": "2026-09-22T15:40:22.922274Z"
     },
     {
       "id": "sinopac_installment_01",
@@ -1415,7 +1431,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581148Z"
+      "fetchedAt": "2026-09-22T15:40:22.922276Z"
     },
     {
       "id": "sinopac_installment_02",
@@ -1443,7 +1459,7 @@
       "rewardAmount": 300.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581161Z"
+      "fetchedAt": "2026-09-22T15:40:22.922279Z"
     },
     {
       "id": "SINO_APPLE_PAY_2026",
@@ -1471,7 +1487,7 @@
       "rewardAmount": 10000.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581166Z"
+      "fetchedAt": "2026-09-22T15:40:22.922281Z"
     },
     {
       "id": "SINO_SUPER_PAY_2026",
@@ -1507,7 +1523,7 @@
       "rewardAmount": 200.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581171Z"
+      "fetchedAt": "2026-09-22T15:40:22.922284Z"
     },
     {
       "id": "SINO_MRT_100_2026",
@@ -1536,7 +1552,7 @@
       "rewardAmount": 100.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581175Z"
+      "fetchedAt": "2026-09-22T15:40:22.922286Z"
     },
     {
       "id": "sinopac_opera_house_discount",
@@ -1559,7 +1575,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581178Z"
+      "fetchedAt": "2026-09-22T15:40:22.922289Z"
     },
     {
       "id": "sinopac_selected_hotel_discount",
@@ -1584,7 +1600,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581181Z"
+      "fetchedAt": "2026-09-22T15:40:22.922290Z"
     },
     {
       "id": "sinopac_ec_shopping_202609",
@@ -1636,7 +1652,7 @@
       "rewardAmount": 20000.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581187Z"
+      "fetchedAt": "2026-09-22T15:40:22.922294Z"
     },
     {
       "id": "sinopac_mrt_applepay_2026",
@@ -1672,7 +1688,7 @@
       "rewardAmount": 100.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581191Z"
+      "fetchedAt": "2026-09-22T15:40:22.922296Z"
     },
     {
       "id": "rule_travel_2026",
@@ -1733,7 +1749,7 @@
       "rewardAmount": 10000.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581198Z"
+      "fetchedAt": "2026-09-22T15:40:22.922299Z"
     },
     {
       "id": "rule_overseas_2026",
@@ -1765,7 +1781,7 @@
       "rewardAmount": 4.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581201Z"
+      "fetchedAt": "2026-09-22T15:40:22.922301Z"
     },
     {
       "id": "rule_birthday_overseas_dining",
@@ -1796,7 +1812,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581205Z"
+      "fetchedAt": "2026-09-22T15:40:22.922304Z"
     },
     {
       "id": "cube_base",
@@ -1823,7 +1839,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581210Z"
+      "fetchedAt": "2026-09-22T15:40:22.922306Z"
     },
     {
       "id": "asia_miles_base",
@@ -1847,7 +1863,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581212Z"
+      "fetchedAt": "2026-09-22T15:40:22.922307Z"
     },
     {
       "id": "shopee_base",
@@ -1870,7 +1886,7 @@
       "rewardAmount": 20.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581214Z"
+      "fetchedAt": "2026-09-22T15:40:22.922308Z"
     },
     {
       "id": "eva_base",
@@ -1894,7 +1910,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581216Z"
+      "fetchedAt": "2026-09-22T15:40:22.922309Z"
     },
     {
       "id": "world_base",
@@ -1921,7 +1937,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581217Z"
+      "fetchedAt": "2026-09-22T15:40:22.922311Z"
     },
     {
       "id": "cash_back_foreign",
@@ -1942,7 +1958,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581220Z"
+      "fetchedAt": "2026-09-22T15:40:22.922312Z"
     },
     {
       "id": "business_base",
@@ -1965,7 +1981,7 @@
       "rewardAmount": 0.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581222Z"
+      "fetchedAt": "2026-09-22T15:40:22.922314Z"
     },
     {
       "id": "dual_currency_foreign",
@@ -1986,7 +2002,7 @@
       "rewardAmount": 1.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581224Z"
+      "fetchedAt": "2026-09-22T15:40:22.922315Z"
     },
     {
       "id": "cathay_base_rule_01",
@@ -2013,7 +2029,7 @@
       "rewardAmount": 0.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581226Z"
+      "fetchedAt": "2026-09-22T15:40:22.922316Z"
     },
     {
       "id": "RULE_AUTUMN_TOUR",
@@ -2037,7 +2053,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581230Z"
+      "fetchedAt": "2026-09-22T15:40:22.922319Z"
     },
     {
       "id": "RULE_GARDEN_CITY",
@@ -2060,7 +2076,7 @@
       "rewardAmount": 4.3,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581235Z"
+      "fetchedAt": "2026-09-22T15:40:22.922322Z"
     },
     {
       "id": "RULE_KOREAN_AIR",
@@ -2083,7 +2099,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581241Z"
+      "fetchedAt": "2026-09-22T15:40:22.922325Z"
     },
     {
       "id": "RULE_COUPANG",
@@ -2107,7 +2123,7 @@
       "rewardAmount": 2500.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581248Z"
+      "fetchedAt": "2026-09-22T15:40:22.922328Z"
     },
     {
       "id": "RULE_TOKYO_MARATHON",
@@ -2130,7 +2146,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581252Z"
+      "fetchedAt": "2026-09-22T15:40:22.922330Z"
     },
     {
       "id": "RULE_GOYARD",
@@ -2154,7 +2170,7 @@
       "rewardAmount": 3.3,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581256Z"
+      "fetchedAt": "2026-09-22T15:40:22.922333Z"
     },
     {
       "id": "RULE_PX_MART",
@@ -2177,7 +2193,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581260Z"
+      "fetchedAt": "2026-09-22T15:40:22.922336Z"
     },
     {
       "id": "RULE_TAIPEI_101",
@@ -2200,7 +2216,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581264Z"
+      "fetchedAt": "2026-09-22T15:40:22.922339Z"
     },
     {
       "id": "RULE_COSMED",
@@ -2223,7 +2239,7 @@
       "rewardAmount": 200.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581270Z"
+      "fetchedAt": "2026-09-22T15:40:22.922341Z"
     },
     {
       "id": "cathay_default_base",
@@ -2249,7 +2265,7 @@
       "rewardAmount": 0.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581275Z"
+      "fetchedAt": "2026-09-22T15:40:22.922343Z"
     },
     {
       "id": "cube_extra_japan_korea",
@@ -2277,7 +2293,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581281Z"
+      "fetchedAt": "2026-09-22T15:40:22.922346Z"
     },
     {
       "id": "rule_unicard_1",
@@ -2300,7 +2316,7 @@
       "rewardAmount": 20.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581283Z"
+      "fetchedAt": "2026-09-22T15:40:22.922347Z"
     },
     {
       "id": "rule_unicard_2",
@@ -2327,7 +2343,7 @@
       "rewardAmount": 4.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581285Z"
+      "fetchedAt": "2026-09-22T15:40:22.922348Z"
     },
     {
       "id": "rule_kumamon_1",
@@ -2350,7 +2366,7 @@
       "rewardAmount": 8.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581287Z"
+      "fetchedAt": "2026-09-22T15:40:22.922350Z"
     },
     {
       "id": "RULE_KUMAMON_PAYPAY",
@@ -2374,7 +2390,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581289Z"
+      "fetchedAt": "2026-09-22T15:40:22.922352Z"
     },
     {
       "id": "rule_ubear_1",
@@ -2397,7 +2413,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581291Z"
+      "fetchedAt": "2026-09-22T15:40:22.922353Z"
     },
     {
       "id": "rule_pi_1",
@@ -2420,7 +2436,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581292Z"
+      "fetchedAt": "2026-09-22T15:40:22.922355Z"
     },
     {
       "id": "rule_starlux_1",
@@ -2443,7 +2459,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581294Z"
+      "fetchedAt": "2026-09-22T15:40:22.922357Z"
     },
     {
       "id": "rule_ezfly_1",
@@ -2466,7 +2482,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581296Z"
+      "fetchedAt": "2026-09-22T15:40:22.922358Z"
     },
     {
       "id": "rule_ezfly_2",
@@ -2492,7 +2508,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581298Z"
+      "fetchedAt": "2026-09-22T15:40:22.922359Z"
     },
     {
       "id": "rule_unicard_01",
@@ -2517,7 +2533,7 @@
       "rewardAmount": 4.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581299Z"
+      "fetchedAt": "2026-09-22T15:40:22.922360Z"
     },
     {
       "id": "RULE_KUMAMON_JAPAN",
@@ -2540,7 +2556,7 @@
       "rewardAmount": 8.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581301Z"
+      "fetchedAt": "2026-09-22T15:40:22.922361Z"
     },
     {
       "id": "RULE_PI_NEW",
@@ -2563,7 +2579,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581304Z"
+      "fetchedAt": "2026-09-22T15:40:22.922363Z"
     },
     {
       "id": "RULE_PI_BASE",
@@ -2586,7 +2602,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581306Z"
+      "fetchedAt": "2026-09-22T15:40:22.922365Z"
     },
     {
       "id": "rule_dual_01",
@@ -2610,7 +2626,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581308Z"
+      "fetchedAt": "2026-09-22T15:40:22.922366Z"
     },
     {
       "id": "esun_general_service",
@@ -2633,7 +2649,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581312Z"
+      "fetchedAt": "2026-09-22T15:40:22.922368Z"
     },
     {
       "id": "RULE_UNICARD_01",
@@ -2658,7 +2674,7 @@
       "rewardAmount": 4.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581314Z"
+      "fetchedAt": "2026-09-22T15:40:22.922369Z"
     },
     {
       "id": "rule_wallet_japan",
@@ -2681,7 +2697,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581318Z"
+      "fetchedAt": "2026-09-22T15:40:22.922370Z"
     },
     {
       "id": "rule_shopping_99",
@@ -2705,7 +2721,7 @@
       "rewardAmount": 5700.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581324Z"
+      "fetchedAt": "2026-09-22T15:40:22.922372Z"
     },
     {
       "id": "rule_trip_jcb",
@@ -2728,7 +2744,7 @@
       "rewardAmount": 14.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581326Z"
+      "fetchedAt": "2026-09-22T15:40:22.922374Z"
     },
     {
       "id": "rule_trip_visa",
@@ -2751,7 +2767,7 @@
       "rewardAmount": 8.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581335Z"
+      "fetchedAt": "2026-09-22T15:40:22.922376Z"
     },
     {
       "id": "rule_overseas_rimowa",
@@ -2774,7 +2790,7 @@
       "rewardAmount": 1.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581337Z"
+      "fetchedAt": "2026-09-22T15:40:22.922377Z"
     },
     {
       "id": "rule_pxpay_tax",
@@ -2797,7 +2813,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581339Z"
+      "fetchedAt": "2026-09-22T15:40:22.922378Z"
     },
     {
       "id": "rule_tuition",
@@ -2819,7 +2835,7 @@
       "rewardType": "installment",
       "rewardUnit": "months",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581343Z"
+      "fetchedAt": "2026-09-22T15:40:22.922380Z"
     },
     {
       "id": "RULE_UNICARD_GAS",
@@ -2843,7 +2859,7 @@
       "rewardAmount": 3.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581345Z"
+      "fetchedAt": "2026-09-22T15:40:22.922381Z"
     },
     {
       "id": "rule_fukuoka_dutyfree",
@@ -2866,7 +2882,7 @@
       "rewardAmount": 9.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581346Z"
+      "fetchedAt": "2026-09-22T15:40:22.922382Z"
     },
     {
       "id": "ESUN_AUTO_DEBIT_2026Q3",
@@ -2891,7 +2907,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581350Z"
+      "fetchedAt": "2026-09-22T15:40:22.922384Z"
     },
     {
       "id": "ESUN_CARBON_LOTTERY",
@@ -2912,7 +2928,7 @@
       "rewardAmount": 10000.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581355Z"
+      "fetchedAt": "2026-09-22T15:40:22.922387Z"
     },
     {
       "id": "RULE_UNICARD_NEW",
@@ -2935,7 +2951,7 @@
       "rewardAmount": 20.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581358Z"
+      "fetchedAt": "2026-09-22T15:40:22.922389Z"
     },
     {
       "id": "RULE_DUAL_EUR_USA",
@@ -2959,7 +2975,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581360Z"
+      "fetchedAt": "2026-09-22T15:40:22.922390Z"
     },
     {
       "id": "esun_general_benefit",
@@ -2982,7 +2998,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581363Z"
+      "fetchedAt": "2026-09-22T15:40:22.922392Z"
     },
     {
       "id": "RULE_JP_LOTTERY",
@@ -3005,7 +3021,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581367Z"
+      "fetchedAt": "2026-09-22T15:40:22.922393Z"
     },
     {
       "id": "RULE_SHOPPING_99",
@@ -3028,7 +3044,7 @@
       "rewardAmount": 5700.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581372Z"
+      "fetchedAt": "2026-09-22T15:40:22.922396Z"
     },
     {
       "id": "RULE_OVERSEAS_TRAVEL",
@@ -3051,7 +3067,7 @@
       "rewardAmount": 1.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581374Z"
+      "fetchedAt": "2026-09-22T15:40:22.922397Z"
     },
     {
       "id": "RULE_JCB_HOTEL",
@@ -3075,7 +3091,7 @@
       "rewardAmount": 14.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581376Z"
+      "fetchedAt": "2026-09-22T15:40:22.922398Z"
     },
     {
       "id": "ESUN_CARBON_LOTTERY_2026",
@@ -3096,7 +3112,7 @@
       "rewardAmount": 10000.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581381Z"
+      "fetchedAt": "2026-09-22T15:40:22.922400Z"
     },
     {
       "id": "j_card_base",
@@ -3119,7 +3135,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581383Z"
+      "fetchedAt": "2026-09-22T15:40:22.922402Z"
     },
     {
       "id": "j_card_extra",
@@ -3144,7 +3160,7 @@
       "rewardAmount": 6.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581385Z"
+      "fetchedAt": "2026-09-22T15:40:22.922403Z"
     },
     {
       "id": "diamond_insurance_base",
@@ -3167,7 +3183,7 @@
       "rewardAmount": 0.7,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581387Z"
+      "fetchedAt": "2026-09-22T15:40:22.922404Z"
     },
     {
       "id": "rich_life_base",
@@ -3190,7 +3206,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581388Z"
+      "fetchedAt": "2026-09-22T15:40:22.922406Z"
     },
     {
       "id": "costco_base",
@@ -3213,7 +3229,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581390Z"
+      "fetchedAt": "2026-09-22T15:40:22.922407Z"
     },
     {
       "id": "guardians_braves_base",
@@ -3238,7 +3254,7 @@
       "rewardAmount": 50.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581392Z"
+      "fetchedAt": "2026-09-22T15:40:22.922408Z"
     },
     {
       "id": "momo_card_base",
@@ -3262,7 +3278,7 @@
       "rewardAmount": 7.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581394Z"
+      "fetchedAt": "2026-09-22T15:40:22.922409Z"
     },
     {
       "id": "open_possible_base",
@@ -3287,7 +3303,7 @@
       "rewardAmount": 3.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581395Z"
+      "fetchedAt": "2026-09-22T15:40:22.922410Z"
     },
     {
       "id": "rule_gogo_01",
@@ -3310,7 +3326,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581400Z"
+      "fetchedAt": "2026-09-22T15:40:22.922411Z"
     },
     {
       "id": "rule_domestic_base",
@@ -3335,7 +3351,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581404Z"
+      "fetchedAt": "2026-09-22T15:40:22.922414Z"
     },
     {
       "id": "rule_foreign_store",
@@ -3360,7 +3376,7 @@
       "rewardAmount": 2.8,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581408Z"
+      "fetchedAt": "2026-09-22T15:40:22.922416Z"
     },
     {
       "id": "rule_icash_transit",
@@ -3385,7 +3401,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581412Z"
+      "fetchedAt": "2026-09-22T15:40:22.922419Z"
     },
     {
       "id": "rule_car_rental",
@@ -3408,7 +3424,7 @@
       "rewardAmount": 8.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581415Z"
+      "fetchedAt": "2026-09-22T15:40:22.922421Z"
     },
     {
       "id": "rule_designated_driver",
@@ -3431,7 +3447,7 @@
       "rewardAmount": 6.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581419Z"
+      "fetchedAt": "2026-09-22T15:40:22.922423Z"
     },
     {
       "id": "rule_tree_pharmacy",
@@ -3454,7 +3470,7 @@
       "rewardAmount": 6.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581422Z"
+      "fetchedAt": "2026-09-22T15:40:22.922425Z"
     },
     {
       "id": "rule_foodpanda",
@@ -3477,7 +3493,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581426Z"
+      "fetchedAt": "2026-09-22T15:40:22.922428Z"
     },
     {
       "id": "rule_new_user",
@@ -3498,7 +3514,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581430Z"
+      "fetchedAt": "2026-09-22T15:40:22.922431Z"
     },
     {
       "id": "rule_cat_litter",
@@ -3521,7 +3537,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581433Z"
+      "fetchedAt": "2026-09-22T15:40:22.922433Z"
     },
     {
       "id": "rule_shopback",
@@ -3547,7 +3563,7 @@
       "rewardAmount": 7.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581437Z"
+      "fetchedAt": "2026-09-22T15:40:22.922435Z"
     },
     {
       "id": "rule_travel_boost",
@@ -3575,7 +3591,7 @@
       "rewardAmount": 25.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581439Z"
+      "fetchedAt": "2026-09-22T15:40:22.922436Z"
     },
     {
       "id": "DAWHO_RULE",
@@ -3596,7 +3612,7 @@
       "rewardAmount": 6.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581440Z"
+      "fetchedAt": "2026-09-22T15:40:22.922438Z"
     },
     {
       "id": "GREEN_RULE",
@@ -3617,7 +3633,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581442Z"
+      "fetchedAt": "2026-09-22T15:40:22.922439Z"
     },
     {
       "id": "CURRENCY_RULE",
@@ -3638,7 +3654,7 @@
       "rewardAmount": 8.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581444Z"
+      "fetchedAt": "2026-09-22T15:40:22.922440Z"
     },
     {
       "id": "INSURANCE_RULE",
@@ -3659,7 +3675,7 @@
       "rewardAmount": 1.2,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581445Z"
+      "fetchedAt": "2026-09-22T15:40:22.922441Z"
     },
     {
       "id": "JCB_RULE",
@@ -3680,7 +3696,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581447Z"
+      "fetchedAt": "2026-09-22T15:40:22.922442Z"
     },
     {
       "id": "DAWAY_RULE",
@@ -3701,7 +3717,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581449Z"
+      "fetchedAt": "2026-09-22T15:40:22.922443Z"
     },
     {
       "id": "SPORT_RULE",
@@ -3722,7 +3738,7 @@
       "rewardAmount": 25.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581450Z"
+      "fetchedAt": "2026-09-22T15:40:22.922444Z"
     },
     {
       "id": "RULE_APPLE_PAY_DRAW",
@@ -3750,7 +3766,7 @@
       "rewardAmount": 10000.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581455Z"
+      "fetchedAt": "2026-09-22T15:40:22.922447Z"
     },
     {
       "id": "RULE_MONTHLY_SUPER_PAY",
@@ -3786,7 +3802,7 @@
       "rewardAmount": 200.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581461Z"
+      "fetchedAt": "2026-09-22T15:40:22.922449Z"
     },
     {
       "id": "RULE_MRT_100",
@@ -3815,7 +3831,7 @@
       "rewardAmount": 100.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581464Z"
+      "fetchedAt": "2026-09-22T15:40:22.922451Z"
     },
     {
       "id": "rule_2026_09_shopping",
@@ -3871,7 +3887,7 @@
       "rewardAmount": 20000.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581472Z"
+      "fetchedAt": "2026-09-22T15:40:22.922456Z"
     },
     {
       "id": "RULE_TRAVEL_2026Q3",
@@ -3934,7 +3950,7 @@
       "rewardAmount": 10000.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581477Z"
+      "fetchedAt": "2026-09-22T15:40:22.922458Z"
     },
     {
       "id": "RULE_OVERSEAS_2026Q3",
@@ -3967,7 +3983,7 @@
       "rewardAmount": 4.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581480Z"
+      "fetchedAt": "2026-09-22T15:40:22.922459Z"
     },
     {
       "id": "RULE_OVERSEAS_DINING_2026Q3",
@@ -4002,7 +4018,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581483Z"
+      "fetchedAt": "2026-09-22T15:40:22.922461Z"
     },
     {
       "id": "apple_pay_mrt_2026Q3",
@@ -4034,7 +4050,7 @@
       "rewardAmount": 100.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581486Z"
+      "fetchedAt": "2026-09-22T15:40:22.922463Z"
     },
     {
       "id": "rule_ohotel",
@@ -4057,7 +4073,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581492Z"
+      "fetchedAt": "2026-09-22T15:40:22.922465Z"
     },
     {
       "id": "rule_caesarmetro",
@@ -4080,7 +4096,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581495Z"
+      "fetchedAt": "2026-09-22T15:40:22.922466Z"
     },
     {
       "id": "rule_npac",
@@ -4103,7 +4119,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581498Z"
+      "fetchedAt": "2026-09-22T15:40:22.922468Z"
     },
     {
       "id": "rule_jingying",
@@ -4126,7 +4142,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581501Z"
+      "fetchedAt": "2026-09-22T15:40:22.922469Z"
     },
     {
       "id": "rule_dept_sogo_fev",
@@ -4160,7 +4176,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581505Z"
+      "fetchedAt": "2026-09-22T15:40:22.922470Z"
     },
     {
       "id": "rule_installment_boost",
@@ -4181,7 +4197,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581509Z"
+      "fetchedAt": "2026-09-22T15:40:22.922473Z"
     },
     {
       "id": "cube_rule_1",
@@ -4208,7 +4224,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581513Z"
+      "fetchedAt": "2026-09-22T15:40:22.922475Z"
     },
     {
       "id": "shopee_rule_1",
@@ -4231,7 +4247,7 @@
       "rewardAmount": 20.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581516Z"
+      "fetchedAt": "2026-09-22T15:40:22.922476Z"
     },
     {
       "id": "asia_miles_rule_1",
@@ -4255,7 +4271,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581520Z"
+      "fetchedAt": "2026-09-22T15:40:22.922478Z"
     },
     {
       "id": "eva_rule_1",
@@ -4279,7 +4295,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581524Z"
+      "fetchedAt": "2026-09-22T15:40:22.922479Z"
     },
     {
       "id": "cash_back_rule_1",
@@ -4300,7 +4316,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581526Z"
+      "fetchedAt": "2026-09-22T15:40:22.922481Z"
     },
     {
       "id": "dual_currency_rule_1",
@@ -4321,7 +4337,7 @@
       "rewardAmount": 1.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581529Z"
+      "fetchedAt": "2026-09-22T15:40:22.922482Z"
     },
     {
       "id": "RULE_CUBE_TRAVEL",
@@ -4342,7 +4358,7 @@
       "rewardAmount": 3.3,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581533Z"
+      "fetchedAt": "2026-09-22T15:40:22.922485Z"
     },
     {
       "id": "RULE_ALLPAY_JP_KR",
@@ -4366,7 +4382,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581540Z"
+      "fetchedAt": "2026-09-22T15:40:22.922488Z"
     },
     {
       "id": "RULE_ALLPAY_SPECIFIC",
@@ -4389,7 +4405,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581545Z"
+      "fetchedAt": "2026-09-22T15:40:22.922490Z"
     },
     {
       "id": "unicard_wallet",
@@ -4412,7 +4428,7 @@
       "rewardAmount": 20.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581550Z"
+      "fetchedAt": "2026-09-22T15:40:22.922492Z"
     },
     {
       "id": "unicard_merchant",
@@ -4439,7 +4455,7 @@
       "rewardAmount": 4.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581552Z"
+      "fetchedAt": "2026-09-22T15:40:22.922493Z"
     },
     {
       "id": "kumamon_jp",
@@ -4460,7 +4476,7 @@
       "rewardAmount": 8.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581554Z"
+      "fetchedAt": "2026-09-22T15:40:22.922495Z"
     },
     {
       "id": "ubear_digital",
@@ -4483,7 +4499,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581556Z"
+      "fetchedAt": "2026-09-22T15:40:22.922496Z"
     },
     {
       "id": "pi_general",
@@ -4504,7 +4520,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581558Z"
+      "fetchedAt": "2026-09-22T15:40:22.922497Z"
     },
     {
       "id": "ezfly_merchant",
@@ -4527,7 +4543,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581560Z"
+      "fetchedAt": "2026-09-22T15:40:22.922498Z"
     },
     {
       "id": "ESUN_GREEN_LOTTERY_2026",
@@ -4548,7 +4564,7 @@
       "rewardAmount": 10000.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581566Z"
+      "fetchedAt": "2026-09-22T15:40:22.922501Z"
     },
     {
       "id": "ESUN_DIGITAL_ACCOUNT_2026",
@@ -4569,7 +4585,7 @@
       "rewardAmount": 500.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581572Z"
+      "fetchedAt": "2026-09-22T15:40:22.922504Z"
     },
     {
       "id": "unicard_01",
@@ -4592,7 +4608,7 @@
       "rewardAmount": 20.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581574Z"
+      "fetchedAt": "2026-09-22T15:40:22.922505Z"
     },
     {
       "id": "kumamon_01",
@@ -4615,7 +4631,7 @@
       "rewardAmount": 8.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581577Z"
+      "fetchedAt": "2026-09-22T15:40:22.922507Z"
     },
     {
       "id": "kumamon_02",
@@ -4638,7 +4654,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581580Z"
+      "fetchedAt": "2026-09-22T15:40:22.922508Z"
     },
     {
       "id": "pi_01",
@@ -4659,7 +4675,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581582Z"
+      "fetchedAt": "2026-09-22T15:40:22.922510Z"
     },
     {
       "id": "dual_01",
@@ -4683,7 +4699,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581584Z"
+      "fetchedAt": "2026-09-22T15:40:22.922511Z"
     },
     {
       "id": "unicard_1",
@@ -4706,7 +4722,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581586Z"
+      "fetchedAt": "2026-09-22T15:40:22.922512Z"
     },
     {
       "id": "rule_unicard_gas",
@@ -4730,7 +4746,7 @@
       "rewardAmount": 3.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581589Z"
+      "fetchedAt": "2026-09-22T15:40:22.922514Z"
     },
     {
       "id": "rule_general_travel",
@@ -4751,7 +4767,7 @@
       "rewardAmount": 1.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581592Z"
+      "fetchedAt": "2026-09-22T15:40:22.922515Z"
     },
     {
       "id": "rule_general_insurance",
@@ -4774,7 +4790,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581594Z"
+      "fetchedAt": "2026-09-22T15:40:22.922517Z"
     },
     {
       "id": "rule_general_service",
@@ -4795,7 +4811,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581597Z"
+      "fetchedAt": "2026-09-22T15:40:22.922518Z"
     },
     {
       "id": "ESUN_AUTO_DEBIT_5PCT",
@@ -4820,7 +4836,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581601Z"
+      "fetchedAt": "2026-09-22T15:40:22.922521Z"
     },
     {
       "id": "dualcurrency_01",
@@ -4844,7 +4860,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581603Z"
+      "fetchedAt": "2026-09-22T15:40:22.922522Z"
     },
     {
       "id": "RULE_TRIP_JCB",
@@ -4867,7 +4883,7 @@
       "rewardAmount": 14.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581605Z"
+      "fetchedAt": "2026-09-22T15:40:22.922524Z"
     },
     {
       "id": "RULE_TRIP_VISA",
@@ -4890,7 +4906,7 @@
       "rewardAmount": 8.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581607Z"
+      "fetchedAt": "2026-09-22T15:40:22.922525Z"
     },
     {
       "id": "RULE_OVERSEAS_15",
@@ -4911,7 +4927,7 @@
       "rewardAmount": 1.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581609Z"
+      "fetchedAt": "2026-09-22T15:40:22.922526Z"
     },
     {
       "id": "RULE_ALLOPAY_TAX",
@@ -4934,7 +4950,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581611Z"
+      "fetchedAt": "2026-09-22T15:40:22.922528Z"
     },
     {
       "id": "RULE_TUITION_WORLD",
@@ -4955,7 +4971,7 @@
       "rewardAmount": 0.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581614Z"
+      "fetchedAt": "2026-09-22T15:40:22.922530Z"
     },
     {
       "id": "RULE_UNICARD_PETROL",
@@ -4979,7 +4995,7 @@
       "rewardAmount": 3.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581616Z"
+      "fetchedAt": "2026-09-22T15:40:22.922531Z"
     },
     {
       "id": "rule_esun_general",
@@ -5000,7 +5016,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581619Z"
+      "fetchedAt": "2026-09-22T15:40:22.922533Z"
     },
     {
       "id": "j_card_overseas",
@@ -5021,7 +5037,7 @@
       "rewardAmount": 6.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581620Z"
+      "fetchedAt": "2026-09-22T15:40:22.922535Z"
     },
     {
       "id": "j_card_domestic",
@@ -5042,7 +5058,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581622Z"
+      "fetchedAt": "2026-09-22T15:40:22.922536Z"
     },
     {
       "id": "diamond_insurance_card_base",
@@ -5065,7 +5081,7 @@
       "rewardAmount": 0.7,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581624Z"
+      "fetchedAt": "2026-09-22T15:40:22.922537Z"
     },
     {
       "id": "rich_life_card_base",
@@ -5090,7 +5106,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581625Z"
+      "fetchedAt": "2026-09-22T15:40:22.922538Z"
     },
     {
       "id": "costco_card_base",
@@ -5113,7 +5129,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581627Z"
+      "fetchedAt": "2026-09-22T15:40:22.922539Z"
     },
     {
       "id": "guardians_braves_card_base",
@@ -5139,7 +5155,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581629Z"
+      "fetchedAt": "2026-09-22T15:40:22.922540Z"
     },
     {
       "id": "open_possible_card_base",
@@ -5164,7 +5180,7 @@
       "rewardAmount": 3.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581631Z"
+      "fetchedAt": "2026-09-22T15:40:22.922541Z"
     },
     {
       "id": "rule_base_domestic",
@@ -5185,7 +5201,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581637Z"
+      "fetchedAt": "2026-09-22T15:40:22.922544Z"
     },
     {
       "id": "rule_overseas_physical",
@@ -5209,7 +5225,7 @@
       "rewardAmount": 1.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581640Z"
+      "fetchedAt": "2026-09-22T15:40:22.922545Z"
     },
     {
       "id": "rule_i_cash",
@@ -5234,7 +5250,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581646Z"
+      "fetchedAt": "2026-09-22T15:40:22.922548Z"
     },
     {
       "id": "rule_geshan",
@@ -5257,7 +5273,7 @@
       "rewardAmount": 8.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581650Z"
+      "fetchedAt": "2026-09-22T15:40:22.922550Z"
     },
     {
       "id": "rule_taiwan_taiche",
@@ -5280,7 +5296,7 @@
       "rewardAmount": 6.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581654Z"
+      "fetchedAt": "2026-09-22T15:40:22.922553Z"
     },
     {
       "id": "rule_dashu",
@@ -5303,7 +5319,7 @@
       "rewardAmount": 6.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581658Z"
+      "fetchedAt": "2026-09-22T15:40:22.922555Z"
     },
     {
       "id": "rule_bobo_cat",
@@ -5326,7 +5342,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581661Z"
+      "fetchedAt": "2026-09-22T15:40:22.922558Z"
     },
     {
       "id": "rule_travel",
@@ -5353,7 +5369,7 @@
       "rewardAmount": 25.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581664Z"
+      "fetchedAt": "2026-09-22T15:40:22.922559Z"
     },
     {
       "id": "rule-dawho-01",
@@ -5374,7 +5390,7 @@
       "rewardAmount": 6.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581666Z"
+      "fetchedAt": "2026-09-22T15:40:22.922560Z"
     },
     {
       "id": "rule-green-01",
@@ -5397,7 +5413,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581668Z"
+      "fetchedAt": "2026-09-22T15:40:22.922561Z"
     },
     {
       "id": "rule-dualcurrency-01",
@@ -5418,7 +5434,7 @@
       "rewardAmount": 8.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581669Z"
+      "fetchedAt": "2026-09-22T15:40:22.922562Z"
     },
     {
       "id": "rule-bao-01",
@@ -5439,7 +5455,7 @@
       "rewardAmount": 1.2,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581671Z"
+      "fetchedAt": "2026-09-22T15:40:22.922564Z"
     },
     {
       "id": "rule-jcb-cashback-01",
@@ -5462,7 +5478,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581672Z"
+      "fetchedAt": "2026-09-22T15:40:22.922565Z"
     },
     {
       "id": "rule-daway-01",
@@ -5483,7 +5499,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581674Z"
+      "fetchedAt": "2026-09-22T15:40:22.922566Z"
     },
     {
       "id": "rule-sport-01",
@@ -5504,7 +5520,7 @@
       "rewardAmount": 25.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581676Z"
+      "fetchedAt": "2026-09-22T15:40:22.922567Z"
     },
     {
       "id": "sinopac_ap_draw_2026",
@@ -5534,7 +5550,7 @@
       "rewardAmount": 10000.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581681Z"
+      "fetchedAt": "2026-09-22T15:40:22.922569Z"
     },
     {
       "id": "sinopac_super_pay_2026",
@@ -5570,7 +5586,7 @@
       "rewardAmount": 2.85,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581685Z"
+      "fetchedAt": "2026-09-22T15:40:22.922572Z"
     },
     {
       "id": "sinopac_mrt_ap_2026",
@@ -5600,7 +5616,7 @@
       "rewardAmount": 100.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581688Z"
+      "fetchedAt": "2026-09-22T15:40:22.922574Z"
     },
     {
       "id": "rule_travel_2026Q3",
@@ -5662,7 +5678,7 @@
       "rewardAmount": 10000.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581693Z"
+      "fetchedAt": "2026-09-22T15:40:22.922576Z"
     },
     {
       "id": "rule_overseas_physical_2026Q3",
@@ -5692,7 +5708,7 @@
       "rewardAmount": 4.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581696Z"
+      "fetchedAt": "2026-09-22T15:40:22.922578Z"
     },
     {
       "id": "rule_birthday_restaurant_2026Q3",
@@ -5721,7 +5737,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581699Z"
+      "fetchedAt": "2026-09-22T15:40:22.922579Z"
     },
     {
       "id": "rule_dept_2026",
@@ -5755,7 +5771,7 @@
       "rewardAmount": 1400.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581705Z"
+      "fetchedAt": "2026-09-22T15:40:22.922582Z"
     },
     {
       "id": "rule_installment_1",
@@ -5778,7 +5794,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581711Z"
+      "fetchedAt": "2026-09-22T15:40:22.922585Z"
     },
     {
       "id": "rule_installment_2",
@@ -5799,7 +5815,7 @@
       "rewardAmount": 300.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581717Z"
+      "fetchedAt": "2026-09-22T15:40:22.922587Z"
     },
     {
       "id": "rule_2026_9_net_shopping",
@@ -5856,7 +5872,7 @@
       "rewardAmount": 20000.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581724Z"
+      "fetchedAt": "2026-09-22T15:40:22.922590Z"
     },
     {
       "id": "apple_pay_metro_2026Q3",
@@ -5887,7 +5903,7 @@
       "rewardAmount": 100.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581728Z"
+      "fetchedAt": "2026-09-22T15:40:22.922592Z"
     },
     {
       "id": "RULE_OHIO_HOTEL",
@@ -5910,7 +5926,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581731Z"
+      "fetchedAt": "2026-09-22T15:40:22.922594Z"
     },
     {
       "id": "RULE_CAESAR_METRO",
@@ -5933,7 +5949,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581735Z"
+      "fetchedAt": "2026-09-22T15:40:22.922595Z"
     },
     {
       "id": "RULE_NT_OPERA",
@@ -5956,7 +5972,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581737Z"
+      "fetchedAt": "2026-09-22T15:40:22.922597Z"
     },
     {
       "id": "RULE_JING_YING",
@@ -5979,7 +5995,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581740Z"
+      "fetchedAt": "2026-09-22T15:40:22.922598Z"
     },
     {
       "id": "shopee_promo",
@@ -6002,7 +6018,7 @@
       "rewardAmount": 20.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581743Z"
+      "fetchedAt": "2026-09-22T15:40:22.922599Z"
     },
     {
       "id": "rule_line_pay_task",
@@ -6025,7 +6041,7 @@
       "rewardAmount": 50.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581749Z"
+      "fetchedAt": "2026-09-22T15:40:22.922601Z"
     },
     {
       "id": "RULE_ATM_01",
@@ -6048,7 +6064,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581755Z"
+      "fetchedAt": "2026-09-22T15:40:22.922604Z"
     },
     {
       "id": "RULE_HILIFE_01",
@@ -6071,7 +6087,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581760Z"
+      "fetchedAt": "2026-09-22T15:40:22.922606Z"
     },
     {
       "id": "rule_cube_autumn",
@@ -6095,7 +6111,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581766Z"
+      "fetchedAt": "2026-09-22T15:40:22.922609Z"
     },
     {
       "id": "rule_cube_gardencity",
@@ -6118,7 +6134,7 @@
       "rewardAmount": 4.3,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581770Z"
+      "fetchedAt": "2026-09-22T15:40:22.922611Z"
     },
     {
       "id": "rule_cube_korean_air",
@@ -6141,7 +6157,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581777Z"
+      "fetchedAt": "2026-09-22T15:40:22.922614Z"
     },
     {
       "id": "rule_coupang",
@@ -6164,7 +6180,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581783Z"
+      "fetchedAt": "2026-09-22T15:40:22.922616Z"
     },
     {
       "id": "rule_goyard",
@@ -6188,7 +6204,7 @@
       "rewardAmount": 3.3,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581786Z"
+      "fetchedAt": "2026-09-22T15:40:22.922619Z"
     },
     {
       "id": "rule_pxmart",
@@ -6211,7 +6227,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581790Z"
+      "fetchedAt": "2026-09-22T15:40:22.922621Z"
     },
     {
       "id": "rule_taipei_101",
@@ -6234,7 +6250,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581794Z"
+      "fetchedAt": "2026-09-22T15:40:22.922623Z"
     },
     {
       "id": "rule_cosmed_eshop_1",
@@ -6257,7 +6273,7 @@
       "rewardAmount": 100.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581799Z"
+      "fetchedAt": "2026-09-22T15:40:22.922626Z"
     },
     {
       "id": "rule_cosmed_eshop_2",
@@ -6280,7 +6296,7 @@
       "rewardAmount": 200.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581805Z"
+      "fetchedAt": "2026-09-22T15:40:22.922628Z"
     },
     {
       "id": "unicard_specific",
@@ -6307,7 +6323,7 @@
       "rewardAmount": 4.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581807Z"
+      "fetchedAt": "2026-09-22T15:40:22.922629Z"
     },
     {
       "id": "kumamon_japan",
@@ -6330,7 +6346,7 @@
       "rewardAmount": 8.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581808Z"
+      "fetchedAt": "2026-09-22T15:40:22.922630Z"
     },
     {
       "id": "ezfly_travel",
@@ -6353,7 +6369,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581810Z"
+      "fetchedAt": "2026-09-22T15:40:22.922632Z"
     },
     {
       "id": "RULE_OVERSEAS_PHYSICAL",
@@ -6374,7 +6390,7 @@
       "rewardAmount": 1.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581812Z"
+      "fetchedAt": "2026-09-22T15:40:22.922633Z"
     },
     {
       "id": "RULE_E_SUN_WALLET_ALLPAY",
@@ -6397,7 +6413,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581815Z"
+      "fetchedAt": "2026-09-22T15:40:22.922634Z"
     },
     {
       "id": "piwallet_01",
@@ -6418,7 +6434,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581817Z"
+      "fetchedAt": "2026-09-22T15:40:22.922636Z"
     },
     {
       "id": "piwallet_02",
@@ -6439,7 +6455,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581819Z"
+      "fetchedAt": "2026-09-22T15:40:22.922637Z"
     },
     {
       "id": "unicard_rule_1",
@@ -6464,7 +6480,7 @@
       "rewardAmount": 4.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581821Z"
+      "fetchedAt": "2026-09-22T15:40:22.922639Z"
     },
     {
       "id": "unicard_100_stores",
@@ -6487,7 +6503,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581824Z"
+      "fetchedAt": "2026-09-22T15:40:22.922640Z"
     },
     {
       "id": "unicard_new",
@@ -6510,7 +6526,7 @@
       "rewardAmount": 20.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581826Z"
+      "fetchedAt": "2026-09-22T15:40:22.922642Z"
     },
     {
       "id": "kumamon_paypay",
@@ -6533,7 +6549,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581829Z"
+      "fetchedAt": "2026-09-22T15:40:22.922643Z"
     },
     {
       "id": "pi_new",
@@ -6554,7 +6570,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581833Z"
+      "fetchedAt": "2026-09-22T15:40:22.922645Z"
     },
     {
       "id": "pi_base",
@@ -6575,7 +6591,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581835Z"
+      "fetchedAt": "2026-09-22T15:40:22.922646Z"
     },
     {
       "id": "dual_currency_eur_us",
@@ -6599,7 +6615,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581838Z"
+      "fetchedAt": "2026-09-22T15:40:22.922647Z"
     },
     {
       "id": "RULE_ALLPAY_TAX",
@@ -6622,7 +6638,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581840Z"
+      "fetchedAt": "2026-09-22T15:40:22.922648Z"
     },
     {
       "id": "RULE_WORLD_TUITION",
@@ -6645,7 +6661,7 @@
       "rewardAmount": 0.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581841Z"
+      "fetchedAt": "2026-09-22T15:40:22.922649Z"
     },
     {
       "id": "RULE_FUKUOKA_DUTYFREE",
@@ -6668,7 +6684,7 @@
       "rewardAmount": 9.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581843Z"
+      "fetchedAt": "2026-09-22T15:40:22.922651Z"
     },
     {
       "id": "rule_j_card_travel",
@@ -6689,7 +6705,7 @@
       "rewardAmount": 6.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581845Z"
+      "fetchedAt": "2026-09-22T15:40:22.922652Z"
     },
     {
       "id": "rule_j_card_domestic",
@@ -6710,7 +6726,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581848Z"
+      "fetchedAt": "2026-09-22T15:40:22.922653Z"
     },
     {
       "id": "rule_insurance_card",
@@ -6733,7 +6749,7 @@
       "rewardAmount": 0.7,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581850Z"
+      "fetchedAt": "2026-09-22T15:40:22.922655Z"
     },
     {
       "id": "rule_rich_life",
@@ -6758,7 +6774,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581852Z"
+      "fetchedAt": "2026-09-22T15:40:22.922656Z"
     },
     {
       "id": "rule_costco_card",
@@ -6781,7 +6797,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581854Z"
+      "fetchedAt": "2026-09-22T15:40:22.922657Z"
     },
     {
       "id": "rule_braves_card",
@@ -6807,7 +6823,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581857Z"
+      "fetchedAt": "2026-09-22T15:40:22.922659Z"
     },
     {
       "id": "rule_momo_card_channel",
@@ -6831,7 +6847,7 @@
       "rewardAmount": 7.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581859Z"
+      "fetchedAt": "2026-09-22T15:40:22.922660Z"
     },
     {
       "id": "rule_open_possible_telecom",
@@ -6856,7 +6872,7 @@
       "rewardAmount": 3.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581861Z"
+      "fetchedAt": "2026-09-22T15:40:22.922662Z"
     },
     {
       "id": "rule_open_possible_overseas",
@@ -6877,7 +6893,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581863Z"
+      "fetchedAt": "2026-09-22T15:40:22.922663Z"
     },
     {
       "id": "lp-base-general",
@@ -6903,7 +6919,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581870Z"
+      "fetchedAt": "2026-09-22T15:40:22.922666Z"
     },
     {
       "id": "lp-overseas-physical",
@@ -6928,7 +6944,7 @@
       "rewardAmount": 1.8,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581874Z"
+      "fetchedAt": "2026-09-22T15:40:22.922668Z"
     },
     {
       "id": "lp-ipass-transport",
@@ -6955,7 +6971,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581877Z"
+      "fetchedAt": "2026-09-22T15:40:22.922670Z"
     },
     {
       "id": "lp-visa-carplus",
@@ -6978,7 +6994,7 @@
       "rewardAmount": 7.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581881Z"
+      "fetchedAt": "2026-09-22T15:40:22.922673Z"
     },
     {
       "id": "lp-visa-twdaidrive",
@@ -7001,7 +7017,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581885Z"
+      "fetchedAt": "2026-09-22T15:40:22.922675Z"
     },
     {
       "id": "lp-bobo-cat",
@@ -7024,7 +7040,7 @@
       "rewardAmount": 9.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581888Z"
+      "fetchedAt": "2026-09-22T15:40:22.922678Z"
     },
     {
       "id": "lp-travel-partners",
@@ -7052,7 +7068,7 @@
       "rewardAmount": 24.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581891Z"
+      "fetchedAt": "2026-09-22T15:40:22.922679Z"
     },
     {
       "id": "lp-shopback-sports",
@@ -7078,7 +7094,7 @@
       "rewardAmount": 6.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581895Z"
+      "fetchedAt": "2026-09-22T15:40:22.922682Z"
     },
     {
       "id": "lp-greattree-pharmacy",
@@ -7101,7 +7117,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581899Z"
+      "fetchedAt": "2026-09-22T15:40:22.922684Z"
     },
     {
       "id": "lp-foodpanda-discount",
@@ -7124,7 +7140,7 @@
       "rewardAmount": 7.69,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581903Z"
+      "fetchedAt": "2026-09-22T15:40:22.922687Z"
     },
     {
       "id": "lp-new-cardholder",
@@ -7147,7 +7163,7 @@
       "rewardAmount": 300.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581909Z"
+      "fetchedAt": "2026-09-22T15:40:22.922690Z"
     },
     {
       "id": "DAWHO_RULE_1",
@@ -7168,7 +7184,7 @@
       "rewardAmount": 6.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581911Z"
+      "fetchedAt": "2026-09-22T15:40:22.922691Z"
     },
     {
       "id": "GREEN_RULE_1",
@@ -7189,7 +7205,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581913Z"
+      "fetchedAt": "2026-09-22T15:40:22.922692Z"
     },
     {
       "id": "CURRENCY_RULE_1",
@@ -7210,7 +7226,7 @@
       "rewardAmount": 8.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581915Z"
+      "fetchedAt": "2026-09-22T15:40:22.922693Z"
     },
     {
       "id": "BAO_BEI_RULE_1",
@@ -7231,7 +7247,7 @@
       "rewardAmount": 1.2,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581916Z"
+      "fetchedAt": "2026-09-22T15:40:22.922694Z"
     },
     {
       "id": "JCB_RULE_1",
@@ -7252,7 +7268,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581918Z"
+      "fetchedAt": "2026-09-22T15:40:22.922695Z"
     },
     {
       "id": "DAWAY_RULE_1",
@@ -7275,7 +7291,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581919Z"
+      "fetchedAt": "2026-09-22T15:40:22.922696Z"
     },
     {
       "id": "SPORT_RULE_1",
@@ -7296,7 +7312,7 @@
       "rewardAmount": 25.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581921Z"
+      "fetchedAt": "2026-09-22T15:40:22.922698Z"
     },
     {
       "id": "sino_dept_sogo",
@@ -7326,7 +7342,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581926Z"
+      "fetchedAt": "2026-09-22T15:40:22.922699Z"
     },
     {
       "id": "sino_dept_feds",
@@ -7353,7 +7369,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.581999Z"
+      "fetchedAt": "2026-09-22T15:40:22.922701Z"
     },
     {
       "id": "sino_dept_breeze",
@@ -7375,7 +7391,7 @@
       "rewardType": "installment",
       "rewardUnit": "months",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582008Z"
+      "fetchedAt": "2026-09-22T15:40:22.922702Z"
     },
     {
       "id": "sino_installment_gift1",
@@ -7402,7 +7418,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582017Z"
+      "fetchedAt": "2026-09-22T15:40:22.922705Z"
     },
     {
       "id": "sino_installment_gift2",
@@ -7429,7 +7445,7 @@
       "rewardAmount": 300.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582024Z"
+      "fetchedAt": "2026-09-22T15:40:22.922708Z"
     },
     {
       "id": "sinopac_ntt_discount",
@@ -7452,7 +7468,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582027Z"
+      "fetchedAt": "2026-09-22T15:40:22.922709Z"
     },
     {
       "id": "sinopac_selected_hotel_privilege",
@@ -7477,7 +7493,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582031Z"
+      "fetchedAt": "2026-09-22T15:40:22.922710Z"
     },
     {
       "id": "sinopac_metro_applepay_2026q3",
@@ -7510,7 +7526,7 @@
       "rewardAmount": 100.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582036Z"
+      "fetchedAt": "2026-09-22T15:40:22.922712Z"
     },
     {
       "id": "sinopac_birthday_dining_2026q3",
@@ -7542,7 +7558,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582046Z"
+      "fetchedAt": "2026-09-22T15:40:22.922714Z"
     },
     {
       "id": "rule_cube_1",
@@ -7569,7 +7585,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582051Z"
+      "fetchedAt": "2026-09-22T15:40:22.922716Z"
     },
     {
       "id": "rule_shopee_1",
@@ -7592,7 +7608,7 @@
       "rewardAmount": 20.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582054Z"
+      "fetchedAt": "2026-09-22T15:40:22.922771Z"
     },
     {
       "id": "rule_amiamoy_1",
@@ -7615,7 +7631,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582059Z"
+      "fetchedAt": "2026-09-22T15:40:22.922773Z"
     },
     {
       "id": "rule_eva_1",
@@ -7638,7 +7654,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582064Z"
+      "fetchedAt": "2026-09-22T15:40:22.922775Z"
     },
     {
       "id": "rule_cashback_1",
@@ -7659,7 +7675,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582066Z"
+      "fetchedAt": "2026-09-22T15:40:22.922777Z"
     },
     {
       "id": "pxpayplus_crossborder_kr_jp_2026",
@@ -7685,7 +7701,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582074Z"
+      "fetchedAt": "2026-09-22T15:40:22.922780Z"
     },
     {
       "id": "pxpayplus_designated_store_2026",
@@ -7711,7 +7727,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582080Z"
+      "fetchedAt": "2026-09-22T15:40:22.922783Z"
     },
     {
       "id": "rule_cube_koreanair",
@@ -7734,7 +7750,7 @@
       "rewardAmount": 3.3,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582087Z"
+      "fetchedAt": "2026-09-22T15:40:22.922786Z"
     },
     {
       "id": "rule_taipei101",
@@ -7757,7 +7773,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582095Z"
+      "fetchedAt": "2026-09-22T15:40:22.922788Z"
     },
     {
       "id": "rule_cosmed",
@@ -7780,7 +7796,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582098Z"
+      "fetchedAt": "2026-09-22T15:40:22.922791Z"
     },
     {
       "id": "rule-unicard-ewallet",
@@ -7803,7 +7819,7 @@
       "rewardAmount": 20.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582100Z"
+      "fetchedAt": "2026-09-22T15:40:22.922793Z"
     },
     {
       "id": "rule-unicard-merchants",
@@ -7830,7 +7846,7 @@
       "rewardAmount": 4.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582102Z"
+      "fetchedAt": "2026-09-22T15:40:22.922794Z"
     },
     {
       "id": "rule-kumamoto-japan",
@@ -7851,7 +7867,7 @@
       "rewardAmount": 8.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582104Z"
+      "fetchedAt": "2026-09-22T15:40:22.922796Z"
     },
     {
       "id": "esun_kumamon_paypay",
@@ -7874,7 +7890,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582106Z"
+      "fetchedAt": "2026-09-22T15:40:22.922798Z"
     },
     {
       "id": "rule-ubear-subscription",
@@ -7897,7 +7913,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582108Z"
+      "fetchedAt": "2026-09-22T15:40:22.922799Z"
     },
     {
       "id": "rule-pipai-general",
@@ -7918,7 +7934,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582110Z"
+      "fetchedAt": "2026-09-22T15:40:22.922801Z"
     },
     {
       "id": "rule-pipai-insurance",
@@ -7939,7 +7955,7 @@
       "rewardAmount": 1.2,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582111Z"
+      "fetchedAt": "2026-09-22T15:40:22.922802Z"
     },
     {
       "id": "rule-starlux-ticket",
@@ -7962,7 +7978,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582113Z"
+      "fetchedAt": "2026-09-22T15:40:22.922803Z"
     },
     {
       "id": "rule-eztravel-merchants",
@@ -7985,7 +8001,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582115Z"
+      "fetchedAt": "2026-09-22T15:40:22.922805Z"
     },
     {
       "id": "esun_unicard_spec_promo",
@@ -8009,7 +8025,7 @@
       "rewardAmount": 4.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582118Z"
+      "fetchedAt": "2026-09-22T15:40:22.922807Z"
     },
     {
       "id": "esun_autodebit_5pct",
@@ -8035,7 +8051,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582121Z"
+      "fetchedAt": "2026-09-22T15:40:22.922810Z"
     },
     {
       "id": "esun_carbon_draw",
@@ -8060,7 +8076,7 @@
       "rewardAmount": 10000.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582127Z"
+      "fetchedAt": "2026-09-22T15:40:22.922813Z"
     },
     {
       "id": "esun-jcb-trip-hotel",
@@ -8083,7 +8099,7 @@
       "rewardAmount": 14.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582129Z"
+      "fetchedAt": "2026-09-22T15:40:22.922814Z"
     },
     {
       "id": "esun-visa-trip-hotel",
@@ -8106,7 +8122,7 @@
       "rewardAmount": 8.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582131Z"
+      "fetchedAt": "2026-09-22T15:40:22.922815Z"
     },
     {
       "id": "esun-all-overseas",
@@ -8130,7 +8146,7 @@
       "rewardAmount": 1.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582132Z"
+      "fetchedAt": "2026-09-22T15:40:22.922816Z"
     },
     {
       "id": "esun-all-pxpayplus",
@@ -8153,7 +8169,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582134Z"
+      "fetchedAt": "2026-09-22T15:40:22.922818Z"
     },
     {
       "id": "esun-world-tuition",
@@ -8176,7 +8192,7 @@
       "rewardAmount": 0.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582136Z"
+      "fetchedAt": "2026-09-22T15:40:22.922819Z"
     },
     {
       "id": "esun-all-insurance",
@@ -8199,7 +8215,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582137Z"
+      "fetchedAt": "2026-09-22T15:40:22.922820Z"
     },
     {
       "id": "esun-unicard-fpcc",
@@ -8223,7 +8239,7 @@
       "rewardAmount": 2.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582139Z"
+      "fetchedAt": "2026-09-22T15:40:22.922822Z"
     },
     {
       "id": "esun-all-fukuoka-dutyfree",
@@ -8246,7 +8262,7 @@
       "rewardAmount": 9.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582141Z"
+      "fetchedAt": "2026-09-22T15:40:22.922824Z"
     },
     {
       "id": "esun-all-gomaji",
@@ -8269,7 +8285,7 @@
       "rewardAmount": 60.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582146Z"
+      "fetchedAt": "2026-09-22T15:40:22.922826Z"
     },
     {
       "id": "esun-all-eztravel",
@@ -8292,7 +8308,7 @@
       "rewardAmount": 1300.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582150Z"
+      "fetchedAt": "2026-09-22T15:40:22.922827Z"
     },
     {
       "id": "unicard_top100_rewards",
@@ -8315,7 +8331,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582152Z"
+      "fetchedAt": "2026-09-22T15:40:22.922828Z"
     },
     {
       "id": "rule_unicard_new_user",
@@ -8338,7 +8354,7 @@
       "rewardAmount": 20.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582153Z"
+      "fetchedAt": "2026-09-22T15:40:22.922830Z"
     },
     {
       "id": "rule_kumamon_paypay",
@@ -8361,7 +8377,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582155Z"
+      "fetchedAt": "2026-09-22T15:40:22.922831Z"
     },
     {
       "id": "rule_pi_new_user",
@@ -8382,7 +8398,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582157Z"
+      "fetchedAt": "2026-09-22T15:40:22.922832Z"
     },
     {
       "id": "rule_pi_general",
@@ -8403,7 +8419,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582158Z"
+      "fetchedAt": "2026-09-22T15:40:22.922833Z"
     },
     {
       "id": "rule_dual_currency_us_eu",
@@ -8424,7 +8440,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582160Z"
+      "fetchedAt": "2026-09-22T15:40:22.922834Z"
     },
     {
       "id": "esun_zero_installment",
@@ -8444,7 +8460,7 @@
       "rewardType": "installment",
       "rewardUnit": "months",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582164Z"
+      "fetchedAt": "2026-09-22T15:40:22.922836Z"
     },
     {
       "id": "esun_cardholder_benefits",
@@ -8465,7 +8481,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582168Z"
+      "fetchedAt": "2026-09-22T15:40:22.922838Z"
     },
     {
       "id": "esun_low_carbon_draw",
@@ -8486,7 +8502,7 @@
       "rewardAmount": 10000.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582174Z"
+      "fetchedAt": "2026-09-22T15:40:22.922841Z"
     },
     {
       "id": "rule_pluspay_tax",
@@ -8509,7 +8525,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582176Z"
+      "fetchedAt": "2026-09-22T15:40:22.922843Z"
     },
     {
       "id": "rule_world_tuition",
@@ -8532,7 +8548,7 @@
       "rewardAmount": 0.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582179Z"
+      "fetchedAt": "2026-09-22T15:40:22.922844Z"
     },
     {
       "id": "rule_eztravel_flight",
@@ -8555,7 +8571,7 @@
       "rewardAmount": 1300.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582183Z"
+      "fetchedAt": "2026-09-22T15:40:22.922846Z"
     },
     {
       "id": "rule_insurance_promo",
@@ -8576,7 +8592,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582185Z"
+      "fetchedAt": "2026-09-22T15:40:22.922847Z"
     },
     {
       "id": "rule_fukuoka_airport",
@@ -8599,7 +8615,7 @@
       "rewardAmount": 9.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582188Z"
+      "fetchedAt": "2026-09-22T15:40:22.922849Z"
     },
     {
       "id": "rule_shopping_festival_99",
@@ -8620,7 +8636,7 @@
       "rewardAmount": 5700.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582194Z"
+      "fetchedAt": "2026-09-22T15:40:22.922851Z"
     },
     {
       "id": "esun_unicard_new_user",
@@ -8643,7 +8659,7 @@
       "rewardAmount": 20.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582196Z"
+      "fetchedAt": "2026-09-22T15:40:22.922853Z"
     },
     {
       "id": "esun_kumamon_japan",
@@ -8664,7 +8680,7 @@
       "rewardAmount": 8.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582198Z"
+      "fetchedAt": "2026-09-22T15:40:22.922855Z"
     },
     {
       "id": "esun_pi_new_user",
@@ -8685,7 +8701,7 @@
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582200Z"
+      "fetchedAt": "2026-09-22T15:40:22.922857Z"
     },
     {
       "id": "esun_pi_general",
@@ -8706,7 +8722,7 @@
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582202Z"
+      "fetchedAt": "2026-09-22T15:40:22.922859Z"
     },
     {
       "id": "esun_dual_currency_us_eu",
@@ -8727,7 +8743,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582204Z"
+      "fetchedAt": "2026-09-22T15:40:22.922860Z"
     },
     {
       "id": "rule_fubon_j_1",
@@ -8752,7 +8768,7 @@
       "rewardAmount": 6.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582206Z"
+      "fetchedAt": "2026-09-22T15:40:22.922862Z"
     },
     {
       "id": "rule_fubon_diamond_1",
@@ -8775,7 +8791,7 @@
       "rewardAmount": 0.7,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582209Z"
+      "fetchedAt": "2026-09-22T15:40:22.922863Z"
     },
     {
       "id": "rule_fubon_fuli_1",
@@ -8798,7 +8814,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582211Z"
+      "fetchedAt": "2026-09-22T15:40:22.922865Z"
     },
     {
       "id": "rule_fubon_costco_1",
@@ -8821,7 +8837,7 @@
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582213Z"
+      "fetchedAt": "2026-09-22T15:40:22.922866Z"
     },
     {
       "id": "rule_fubon_guardians_braves_1",
@@ -8847,7 +8863,7 @@
       "rewardAmount": 50.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582216Z"
+      "fetchedAt": "2026-09-22T15:40:22.922868Z"
     },
     {
       "id": "rule_fubon_momo_1",
@@ -8871,7 +8887,7 @@
       "rewardAmount": 7.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582218Z"
+      "fetchedAt": "2026-09-22T15:40:22.922870Z"
     },
     {
       "id": "rule_fubon_open_possible_1",
@@ -8896,7 +8912,7 @@
       "rewardAmount": 3.5,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582220Z"
+      "fetchedAt": "2026-09-22T15:40:22.922871Z"
     },
     {
       "id": "rule_mgm_iphone17",
@@ -8917,7 +8933,7 @@
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582230Z"
+      "fetchedAt": "2026-09-22T15:40:22.922873Z"
     },
     {
       "id": "ctbc_lp_general",
@@ -8941,7 +8957,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582234Z"
+      "fetchedAt": "2026-09-22T15:40:22.922876Z"
     },
     {
       "id": "ctbc_lp_foreign_physical",
@@ -8966,7 +8982,7 @@
       "rewardAmount": 1.8,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582237Z"
+      "fetchedAt": "2026-09-22T15:40:22.922878Z"
     },
     {
       "id": "ctbc_lp_ipass_transit",
@@ -8992,7 +9008,7 @@
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582241Z"
+      "fetchedAt": "2026-09-22T15:40:22.922880Z"
     },
     {
       "id": "ctbc_lp_carplus",
@@ -9015,7 +9031,7 @@
       "rewardAmount": 7.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582244Z"
+      "fetchedAt": "2026-09-22T15:40:22.922882Z"
     },
     {
       "id": "ctbc_lp_tw_driver",
@@ -9038,7 +9054,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582248Z"
+      "fetchedAt": "2026-09-22T15:40:22.922885Z"
     },
     {
       "id": "ctbc_lp_great_tree",
@@ -9061,7 +9077,7 @@
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582251Z"
+      "fetchedAt": "2026-09-22T15:40:22.922888Z"
     },
     {
       "id": "ctbc_lp_foodpanda",
@@ -9084,7 +9100,7 @@
       "rewardAmount": 20.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582257Z"
+      "fetchedAt": "2026-09-22T15:40:22.922890Z"
     },
     {
       "id": "ctbc_lp_new_user",
@@ -9105,7 +9121,7 @@
       "rewardAmount": 300.0,
       "rewardUnit": "TWD",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582262Z"
+      "fetchedAt": "2026-09-22T15:40:22.922893Z"
     },
     {
       "id": "ctbc_lp_bobo_cat",
@@ -9128,7 +9144,7 @@
       "rewardAmount": 9.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582266Z"
+      "fetchedAt": "2026-09-22T15:40:22.922895Z"
     },
     {
       "id": "ctbc_lp_shopback",
@@ -9154,7 +9170,7 @@
       "rewardAmount": 6.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582269Z"
+      "fetchedAt": "2026-09-22T15:40:22.922897Z"
     },
     {
       "id": "ctbc_lp_travel",
@@ -9182,7 +9198,235 @@
       "rewardAmount": 24.0,
       "rewardUnit": "percent",
       "sourceUrl": "",
-      "fetchedAt": "2026-09-22T14:25:56.582272Z"
+      "fetchedAt": "2026-09-22T15:40:22.922899Z"
+    },
+    {
+      "id": "rule_el_3c_2026",
+      "cardId": "card_永豐銀行_28",
+      "title": "3C家電/電信通訊購物滿額回饋",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "全國電子",
+        "精選3C",
+        "電信"
+      ],
+      "searchKeywords": "全國電子, 3C家電, 電信通訊, 精選3C, 電信",
+      "baseRate": 0.0,
+      "promoRate": 0.0,
+      "rewardType": "cash",
+      "rewardAmount": 23000,
+      "rewardUnit": "TWD",
+      "capAmount": 23000,
+      "needReg": true,
+      "regDeadline": "",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/928190552.html",
+      "quotaInfo": "消費滿額並完成登錄，最高送23,000元",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-22T15:40:22.922904Z"
+    },
+    {
+      "id": "sinopac_flexible_installment",
+      "cardId": "card_永豐銀行_61",
+      "title": "永豐隨意分期",
+      "activityType": "BASE_BENEFIT",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [],
+      "searchKeywords": "隨意分期, 分期付款, 永豐隨意分期, UP2.0隨意分期",
+      "baseRate": 0.0,
+      "promoRate": 0.0,
+      "rewardType": "installment",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/845537577.html",
+      "quotaInfo": "自由規劃前後六期繳款比例，不適用永豐八通卡、公司卡、配銷卡、承銷卡、Debit卡",
+      "excludedKeywords": [
+        "永豐八通卡",
+        "公司卡",
+        "配銷卡",
+        "承銷卡",
+        "Debit卡"
+      ],
+      "fetchedAt": "2026-09-22T15:40:22.922906Z"
+    },
+    {
+      "id": "rule_dept_installment_2026",
+      "cardId": "card_永豐銀行_28",
+      "title": "特店分期享雙重好禮 第1重",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "分期消費, 特店分期, 3期, 6期, 12期, 刷卡金",
+      "baseRate": 0.0,
+      "promoRate": 2.0,
+      "rewardType": "percent",
+      "rewardAmount": 100,
+      "rewardUnit": "TWD",
+      "capAmount": 100,
+      "needReg": true,
+      "regDeadline": "2026-09-30",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/821445043.html",
+      "quotaInfo": "不限通路、不限金額，分期消費(限分3期、6期、12期)並完成登錄，每卡號回饋上限100元，每戶回饋上限300元",
+      "excludedKeywords": [
+        "公司卡",
+        "配銷卡",
+        "儲值卡",
+        "Debit Card",
+        "虛擬卡"
+      ],
+      "fetchedAt": "2026-09-22T15:40:22.922909Z"
+    },
+    {
+      "id": "rule_dept_installment_2026_2",
+      "cardId": "card_永豐銀行_28",
+      "title": "特店分期享雙重好禮 第2重",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "分期消費, 單月分期滿3筆, 3000元, 刷卡金",
+      "baseRate": 0.0,
+      "promoRate": 0.0,
+      "rewardType": "cash",
+      "rewardAmount": 100,
+      "rewardUnit": "TWD",
+      "capAmount": 300,
+      "needReg": true,
+      "regDeadline": "2026-09-30",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/821445043.html",
+      "quotaInfo": "單月分期消費滿3筆（限分6期含以上）且每筆消費須滿3,000元並完成登錄，加碼再送100元刷卡金，每戶回饋上限300元",
+      "excludedKeywords": [
+        "公司卡",
+        "配銷卡",
+        "儲值卡",
+        "Debit Card",
+        "虛擬卡"
+      ],
+      "fetchedAt": "2026-09-22T15:40:22.922913Z"
+    },
+    {
+      "id": "rule_applepay_draw_2026",
+      "cardId": "sinopac_general",
+      "title": "ApplePay綁定 萬元驚喜抽",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Apple Pay"
+      ],
+      "searchKeywords": "Apple Pay,蘋果支付,applepay",
+      "baseRate": 0.0,
+      "promoRate": 0.0,
+      "rewardType": "draw",
+      "rewardAmount": 10000,
+      "rewardUnit": "TWD",
+      "capAmount": 10000,
+      "needReg": true,
+      "regDeadline": "2026-10-31",
+      "validUntil": "2026-10-31",
+      "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/310482674.html",
+      "quotaInfo": "首次新綁定Apple Pay並完成登錄享1次抽獎，透過大咖APP或DAWHO APP綁定加碼1次，綁定後任刷一筆再加碼1次，限量抽10名",
+      "excludedKeywords": [
+        "公司卡",
+        "配銷卡",
+        "承銷卡",
+        "Debit卡"
+      ],
+      "fetchedAt": "2026-09-22T15:40:22.922916Z"
+    },
+    {
+      "id": "rule_monthly_super_pay_2026",
+      "cardId": "sinopac_general",
+      "title": "月月超級Pay",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Apple Pay",
+        "Google Pay",
+        "Samsung pay",
+        "LinePay",
+        "全支付"
+      ],
+      "searchKeywords": "Apple Pay,Google Pay,Samsung pay,LinePay,全支付,applepay,googlepay,samsungpay,linepay,全支付",
+      "baseRate": 0.0,
+      "promoRate": 0.0,
+      "rewardType": "cash",
+      "rewardAmount": 200,
+      "rewardUnit": "TWD",
+      "capAmount": 200,
+      "needReg": true,
+      "regDeadline": "2026-09-30",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/310482674.html",
+      "quotaInfo": "使用指定支付刷卡登錄後單月累積滿7,000元(含)以上，最高享200元刷卡金",
+      "excludedKeywords": [
+        "DAWAY卡",
+        "永豐SPORT卡",
+        "幣倍卡",
+        "永豐八通卡",
+        "公司卡",
+        "配銷卡",
+        "承銷卡",
+        "Debit卡"
+      ],
+      "fetchedAt": "2026-09-22T15:40:22.922919Z"
+    },
+    {
+      "id": "rule_mrt_applepay_2026",
+      "cardId": "sinopac_general",
+      "title": "捷運任你乘 最高享100%回饋",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Apple Pay"
+      ],
+      "searchKeywords": "Apple Pay,蘋果支付,applepay,捷運,搭捷運",
+      "baseRate": 0.0,
+      "promoRate": 100.0,
+      "rewardType": "percent",
+      "rewardAmount": 100,
+      "rewardUnit": "percent",
+      "capAmount": 100,
+      "needReg": true,
+      "regDeadline": "2026-09-30",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/310482674.html",
+      "quotaInfo": "搭捷運使用Apple Pay刷永豐信用卡，登錄享100%刷卡金回饋，每戶回饋上限100元",
+      "excludedKeywords": [
+        "永豐八通卡",
+        "公司卡",
+        "配銷卡",
+        "承銷卡",
+        "Debit卡"
+      ],
+      "fetchedAt": "2026-09-22T15:40:22.922922Z"
+    },
+    {
+      "id": "entie_rule_1",
+      "cardId": "entie_general",
+      "title": "安泰銀行信用卡一般服務",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "一般消費, 信用卡, 消費分期, 紅利兌換",
+      "baseRate": 0.0,
+      "promoRate": 0.0,
+      "rewardType": "points",
+      "rewardAmount": 0,
+      "rewardUnit": "points",
+      "capAmount": 0,
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.entiebank.com.tw/",
+      "quotaInfo": "無特定回饋門檻說明",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-22T15:40:22.922924Z"
     }
   ],
   "commonExclusions": [
@@ -9214,5 +9458,5 @@
       "message": "政府規費、公用事業水電瓦斯多數信用卡皆排除回饋。"
     }
   ],
-  "lastUpdated": "2026-09-22T14:25:56.582295Z"
+  "lastUpdated": "2026-09-22T15:40:22.922950Z"
 }
