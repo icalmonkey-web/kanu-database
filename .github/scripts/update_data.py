@@ -15,6 +15,15 @@ if not api_key:
 
 client = genai.Client(api_key=api_key)
 
+RUN_STATS = {
+    "pages_fetched": 0,
+    "page_failures": 0,
+    "ai_successes": 0,
+    "ai_failures": 0,
+    "new_cards": 0,
+    "new_rules": 0,
+}
+
 CANDIDATE_MODELS = [
     os.environ.get("GEMINI_MODEL", "gemini-2.5-flash"),
     "gemini-2.5-flash-lite",
@@ -157,8 +166,16 @@ def fetch_page(page, url):
         page.evaluate("window.scrollBy(0, 1500)")
         time.sleep(1)
         text = page.inner_text("body")
-        return re.sub(r"\s+", " ", text).strip()
+        text = re.sub(r"\s+", " ", text).strip()
+        if len(text) < 150:
+            RUN_STATS["page_failures"] += 1
+            print(f"    ⚠️ 頁面內容不足，略過：{url} ({len(text)} 字)")
+            return ""
+        RUN_STATS["pages_fetched"] += 1
+        return text
     except Exception as e:
+        RUN_STATS["page_failures"] += 1
+        print(f"    ⚠️ 網頁抓取失敗：{url} | {type(e).__name__}: {e}")
         return ""
 
 def discover_event_links(page, portal_url, pattern, max_links=25):
@@ -257,15 +274,22 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False):
             if res and res.text:
                 response_text = res.text
                 break
-        except Exception:
+        except Exception as exc:
+            print(f"    ⚠️ Gemini 模型 {model_name} 呼叫失敗：{type(exc).__name__}: {exc}")
             continue
 
     if not response_text:
+        RUN_STATS["ai_failures"] += 1
+        print(f"    ⚠️ AI 未產生可用 JSON：{source_url}")
         return None
 
     try:
-        return json.loads(response_text.strip())
-    except Exception:
+        result = json.loads(response_text.strip())
+        RUN_STATS["ai_successes"] += 1
+        return result
+    except Exception as exc:
+        RUN_STATS["ai_failures"] += 1
+        print(f"    ⚠️ AI JSON 解析失敗：{source_url} | {type(exc).__name__}: {exc}")
         return None
 
 def main():
@@ -352,6 +376,9 @@ def main():
 
     total_reg = sum(1 for r in data["rules"] if r.get("needReg"))
     total_direct = sum(1 for r in data["rules"] if not r.get("needReg"))
+    print(f"[掃描統計] 頁面成功: {RUN_STATS['pages_fetched']} | 頁面失敗: {RUN_STATS['page_failures']} | AI 成功: {RUN_STATS['ai_successes']} | AI 失敗: {RUN_STATS['ai_failures']} | 新卡: {RUN_STATS['new_cards']} | 新規則: {RUN_STATS['new_rules']}")
+    if RUN_STATS["ai_successes"] == 0:
+        raise RuntimeError("本次沒有任何官方頁面成功完成 AI 結構化；拒絕發布可能不完整的資料庫。")
     print(f"\n==============================")
     print(f"[完成] 全市場資料庫深度自動探索完成！")
     print(f"總卡片數: {len(data['cards'])}, 總規則/活動數: {len(data['rules'])}")
@@ -368,6 +395,7 @@ def merge_data(bank, result, cards_map, rules_map, source_url):
             std_id = f"card_{bank}_{len(cards_map) + 1}"
             c["id"] = std_id
             cards_map[norm_key] = c
+            RUN_STATS["new_cards"] += 1
             print(f"      + 新卡入庫: [{bank}] {raw_name}")
         id_map[c.get("id")] = cards_map[norm_key]["id"]
 
@@ -385,6 +413,8 @@ def merge_data(bank, result, cards_map, rules_map, source_url):
         r = enrich_reward_fields(r, source_url)
         r["sourceUrl"] = source_url
         rule_key = f"{r.get('cardId')}_{title}"
+        if rule_key not in rules_map:
+            RUN_STATS["new_rules"] += 1
         rules_map[rule_key] = r
         status = "🔥需登錄" if r.get("needReg") else "✨免登錄"
         print(f"      {status} [{r.get('activityType', 'PROMO')}]: {title}")
