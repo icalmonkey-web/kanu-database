@@ -16,15 +16,8 @@ if not api_key:
 client = genai.Client(api_key=api_key)
 
 CANDIDATE_MODELS = [
-    "gemini-3.8-flash",
-    "gemini-3.7-flash",
-    "gemini-3.6-flash",
-    "gemini-3.5-flash",
-    "gemini-3.5-flash-lite",
-    "gemini-3-flash-preview",
-    "gemini-3.1-flash-lite",
-    "gemini-3.1-flash-live-preview",
-    "gemini-2.5-flash-lite"
+    os.environ.get("GEMINI_MODEL", "gemini-2.5-flash"),
+    "gemini-2.5-flash-lite",
 ]
 
 # 核心入口：包含卡片總覽與活動大廳
@@ -89,7 +82,26 @@ PORTAL_CONFIGS = [
             "https://www.ctbcbank.com/twrbo/zh_tw/cc_index/cc_offer/cc_offer_register.html"
         ],
         "event_link_pattern": r"/cc_offer/[^\"']+"
-    }
+    },
+    # 第二階段擴充：每家銀行至少有信用卡入口與活動/登錄入口；抓不到時會記錄失敗，
+    # 不會清空既有可用資料。來源必須是銀行官方網域。
+    {"bank": "星展銀行", "card_urls": ["https://www.dbs.com.tw/personal-zh/cards.html"], "event_portals": ["https://www.dbs.com.tw/personal-zh/promotions.html"], "event_link_pattern": r"/(cards|promotions|campaigns)/[^\"']+"},
+    {"bank": "滙豐銀行", "card_urls": ["https://www.hsbc.com.tw/credit-cards/"], "event_portals": ["https://www.hsbc.com.tw/credit-cards/offers/"], "event_link_pattern": r"/credit-cards/[^\"']+"},
+    {"bank": "渣打銀行", "card_urls": ["https://www.sc.com/tw/credit-cards/"], "event_portals": ["https://www.sc.com/tw/credit-cards/offers/"], "event_link_pattern": r"/tw/(credit-cards|promotions)/[^\"']+"},
+    {"bank": "聯邦銀行", "card_urls": ["https://www.ubot.com.tw/personal-banking/credit-card/"], "event_portals": ["https://www.ubot.com.tw/personal-banking/credit-card/discount/"], "event_link_pattern": r"/personal-banking/credit-card/[^\"']+"},
+    {"bank": "元大銀行", "card_urls": ["https://www.yuantabank.com.tw/bank-web/personal/credit-card/"], "event_portals": ["https://www.yuantabank.com.tw/bank-web/personal/credit-card/discount/"], "event_link_pattern": r"/bank-web/personal/credit-card/[^\"']+"},
+    {"bank": "華南銀行", "card_urls": ["https://www.hncb.com.tw/wps/portal/HNCB/creditcard"], "event_portals": ["https://www.hncb.com.tw/wps/portal/HNCB/creditcard"], "event_link_pattern": r"/(creditcard|credit-card)/[^\"']+"},
+    {"bank": "第一銀行", "card_urls": ["https://card.firstbank.com.tw/"], "event_portals": ["https://card.firstbank.com.tw/"], "event_link_pattern": r"/(card|event|activity|discount)[^\"']*"},
+    {"bank": "彰化銀行", "card_urls": ["https://www.bankchb.com/frontend/mashup.jsp?funcId=33"], "event_portals": ["https://www.bankchb.com/frontend/mashup.jsp?funcId=33"], "event_link_pattern": r"/(credit|card|event|activity)[^\"']*"},
+    {"bank": "兆豐銀行", "card_urls": ["https://www.megabank.com.tw/personal/credit-card"], "event_portals": ["https://www.megabank.com.tw/personal/credit-card"], "event_link_pattern": r"/(credit-card|creditcard|event|activity)[^\"']*"},
+    {"bank": "合作金庫", "card_urls": ["https://www.tcb-bank.com.tw/personal-banking/credit-card"], "event_portals": ["https://www.tcb-bank.com.tw/personal-banking/credit-card"], "event_link_pattern": r"/personal-banking/credit-card/[^\"']+"},
+    {"bank": "上海商銀", "card_urls": ["https://www.scsb.com.tw/content/card/card.html"], "event_portals": ["https://www.scsb.com.tw/content/card/discount.html"], "event_link_pattern": r"/content/card/[^\"']+"},
+    {"bank": "遠東商銀", "card_urls": ["https://www.feib.com.tw/"], "event_portals": ["https://www.feib.com.tw/"], "event_link_pattern": r"/(credit|card|event|activity|campaign)[^\"']*"},
+    {"bank": "凱基銀行", "card_urls": ["https://www.kgibank.com/TW/Personal/CreditCard"], "event_portals": ["https://www.kgibank.com/TW/Personal/CreditCard"], "event_link_pattern": r"/TW/Personal/CreditCard[^\"']*"},
+    {"bank": "安泰銀行", "card_urls": ["https://www.entiebank.com.tw/"], "event_portals": ["https://www.entiebank.com.tw/"], "event_link_pattern": r"/(credit|card|event|activity)[^\"']*"},
+    {"bank": "樂天信用卡", "card_urls": ["https://www.rakuten.com.tw/card/"], "event_portals": ["https://www.rakuten.com.tw/card/"], "event_link_pattern": r"/card/[^\"']+"},
+    {"bank": "陽信銀行", "card_urls": ["https://www.sunnybank.com.tw/"], "event_portals": ["https://www.sunnybank.com.tw/"], "event_link_pattern": r"/(credit|card|event|activity)[^\"']*"},
+    {"bank": "三信商銀", "card_urls": ["https://www.cotabank.com.tw/"], "event_portals": ["https://www.cotabank.com.tw/"], "event_link_pattern": r"/(credit|card|event|activity)[^\"']*"},
 ]
 
 def normalize_card_name(name):
@@ -98,6 +110,45 @@ def normalize_card_name(name):
     n = re.sub(r"\s+", "", name).upper()
     n = re.sub(r"(信用卡|御璽卡|鈦金卡|晶緻卡|無限卡|世界卡|白金卡|商務卡|聯名卡|卡)$", "", n)
     return n
+
+def parse_explicit_date(value):
+    """只解析 YYYY/MM/DD 或 YYYY-MM-DD，避免把「每月 1 日開放」誤判成過期。"""
+    if not value:
+        return None
+    matches = re.findall(r"(20\d{2})\s*[-/.年]\s*(\d{1,2})\s*[-/.月]\s*(\d{1,2})", str(value))
+    if not matches:
+        return None
+    year, month, day = matches[-1]
+    try:
+        return datetime(int(year), int(month), int(day), 23, 59, 59)
+    except ValueError:
+        return None
+
+def enrich_reward_fields(rule, source_url):
+    """補齊前端不再猜測 0% 的必要欄位，並保留官方來源與抓取時間。"""
+    title = f"{rule.get('title', '')} {rule.get('quotaInfo', '')}"
+    base_rate = float(rule.get("baseRate") or 0)
+    promo_rate = float(rule.get("promoRate") or 0)
+    cap = float(rule.get("capAmount") or 0)
+    if not rule.get("rewardType"):
+        if promo_rate or base_rate:
+            rule["rewardType"] = "percent"
+            rule.setdefault("rewardAmount", promo_rate or base_rate)
+            rule.setdefault("rewardUnit", "percent")
+        elif re.search(r"抽獎|抽出|驚喜抽", title):
+            rule["rewardType"] = "draw"
+            rule.setdefault("rewardAmount", cap)
+            rule.setdefault("rewardUnit", "TWD")
+        elif re.search(r"0利率|分期", title) and not cap:
+            rule["rewardType"] = "installment"
+            rule.setdefault("rewardUnit", "months")
+        else:
+            rule["rewardType"] = "cash"
+            rule.setdefault("rewardAmount", cap)
+            rule.setdefault("rewardUnit", "TWD")
+    rule.setdefault("sourceUrl", source_url)
+    rule["fetchedAt"] = datetime.utcnow().isoformat() + "Z"
+    return rule
 
 def fetch_page(page, url):
     try:
@@ -110,8 +161,8 @@ def fetch_page(page, url):
     except Exception as e:
         return ""
 
-def discover_event_links(page, portal_url, pattern, max_links=8):
-    """第 1 層：自動從大廳頁面挖掘所有子活動連結"""
+def discover_event_links(page, portal_url, pattern, max_links=25):
+    """從官方活動大廳擷取活動子頁；上限可由環境變數調整，避免每家固定只有 6 頁。"""
     found_urls = set()
     try:
         page.goto(portal_url, wait_until="domcontentloaded", timeout=30000)
@@ -132,7 +183,7 @@ def discover_event_links(page, portal_url, pattern, max_links=8):
         print(f"    ⚠️ 探索子連結失敗: {e}")
     return list(found_urls)
 
-def extract_with_gemini(bank_name, content, is_event_detail=False):
+def extract_with_gemini(bank_name, content, source_url, is_event_detail=False):
     role_desc = "活動詳情分析專家" if is_event_detail else "信用卡型錄審查專家"
     prompt = f"""
 你現在是台灣頂尖金融條款與信用卡精算專家。
@@ -175,9 +226,14 @@ def extract_with_gemini(bank_name, content, is_event_detail=False):
       "searchKeywords": "依據名單實體展開之精確別名、中英文與生活情境詞(嚴禁無中生有，以逗號隔開)",
       "baseRate": 1.0,
       "promoRate": 2.0,
+      "rewardType": "percent 或 cash 或 points 或 draw 或 installment",
+      "rewardAmount": 200,
+      "rewardUnit": "percent 或 TWD 或 points 或 chance",
       "capAmount": 500,
       "needReg": false,
       "regDeadline": "登錄時間或方案適用期",
+      "validUntil": "YYYY-MM-DD；未明示則留空字串",
+      "sourceUrl": "{source_url}",
       "quotaInfo": "明確門檻說明(例: 簡單選人人享/任意選需指定特店/UP選需任務門檻)",
       "excludedKeywords": ["明確排除項目"]
     }}
@@ -257,28 +313,37 @@ def main():
                 print(f"  💳 抓取卡片型錄: {curl}")
                 text = fetch_page(page, curl)
                 if text and len(text) > 200:
-                    res = extract_with_gemini(bank, text, is_event_detail=False)
+                    res = extract_with_gemini(bank, text, curl, is_event_detail=False)
                     if res:
-                        merge_data(bank, res, cards_map, rules_map)
+                        merge_data(bank, res, cards_map, rules_map, curl)
 
             # 2. 探索活動大廳並自動挖出子活動頁面
             for e_portal in config.get("event_portals", []):
                 print(f"  🎪 進入活動大廳: {e_portal}")
-                child_urls = discover_event_links(page, e_portal, config["event_link_pattern"], max_links=6)
+                max_pages = int(os.environ.get("MAX_EVENT_PAGES_PER_BANK", "25"))
+                child_urls = discover_event_links(page, e_portal, config["event_link_pattern"], max_links=max_pages)
                 print(f"    🔎 自動挖掘出 {len(child_urls)} 個最新活動專頁！")
 
                 for sub_url in child_urls:
                     print(f"      👉 深入分析活動頁: {sub_url}")
                     sub_text = fetch_page(page, sub_url)
                     if sub_text and len(sub_text) > 150:
-                        res = extract_with_gemini(bank, sub_text, is_event_detail=True)
+                        res = extract_with_gemini(bank, sub_text, sub_url, is_event_detail=True)
                         if res:
-                            merge_data(bank, res, cards_map, rules_map)
+                            merge_data(bank, res, cards_map, rules_map, sub_url)
 
         browser.close()
 
+    now = datetime.utcnow()
+    active_rules = []
+    for rule in rules_map.values():
+        explicit_end = parse_explicit_date(rule.get("validUntil")) or parse_explicit_date(rule.get("regDeadline"))
+        if explicit_end and explicit_end < now:
+            continue
+        active_rules.append(enrich_reward_fields(rule, rule.get("sourceUrl", "")))
+
     data["cards"] = list(cards_map.values())
-    data["rules"] = list(rules_map.values())
+    data["rules"] = active_rules
     data["version"] = datetime.utcnow().strftime("%Y.%m.%d-v%H%M%S")
     data["lastUpdated"] = datetime.utcnow().isoformat() + "Z"
 
@@ -292,7 +357,7 @@ def main():
     print(f"總卡片數: {len(data['cards'])}, 總規則/活動數: {len(data['rules'])}")
     print(f"需登錄活動: {total_reg} 項, 免登錄與常態活動: {total_direct} 項")
 
-def merge_data(bank, result, cards_map, rules_map):
+def merge_data(bank, result, cards_map, rules_map, source_url):
     id_map = {}
     for c in result.get("cards", []):
         raw_name = c.get("cardName", "").strip()
@@ -317,6 +382,8 @@ def merge_data(bank, result, cards_map, rules_map):
             if first_card:
                 r["cardId"] = first_card["id"]
 
+        r = enrich_reward_fields(r, source_url)
+        r["sourceUrl"] = source_url
         rule_key = f"{r.get('cardId')}_{title}"
         rules_map[rule_key] = r
         status = "🔥需登錄" if r.get("needReg") else "✨免登錄"
