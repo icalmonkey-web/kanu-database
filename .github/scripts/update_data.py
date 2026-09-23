@@ -7,7 +7,7 @@ from urllib.parse import urljoin
 from datetime import datetime
 from playwright.sync_api import sync_playwright
 from google import genai
-from google.genai import types
+from model_pool import ModelPool
 
 # 1. 初始化 AI 客戶端
 api_key = os.environ.get("GEMINI_API_KEY", "")
@@ -28,12 +28,12 @@ RUN_STATS = {
 }
 
 STATE_FILE = "crawler_state.json"
-MAX_AI_REQUESTS = int(os.environ.get("MAX_AI_REQUESTS_PER_RUN", "16"))
 
 CANDIDATE_MODELS = [
     os.environ.get("GEMINI_MODEL", "gemini-3.6-flash"),
     "gemini-3.5-flash-lite",
 ]
+MODEL_POOL = None
 
 # 核心入口：包含卡片總覽與活動大廳
 PORTAL_CONFIGS = [
@@ -290,43 +290,19 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False):
 網頁文字如下：
 {content[:14000]}
 """
-    response_text = None
-    for model_name in CANDIDATE_MODELS:
-        if RUN_STATS["ai_requests"] >= MAX_AI_REQUESTS:
-            print(f"    ⏸️ 已達本次 AI 預算 {MAX_AI_REQUESTS} 次，保留此頁明日重試：{source_url}")
-            return None
-        try:
-            RUN_STATS["ai_requests"] += 1
-            res = client.models.generate_content(
-                model=model_name,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    response_mime_type="application/json",
-                    temperature=0.2
-                )
-            )
-            if res and res.text:
-                response_text = res.text
-                break
-        except Exception as exc:
-            print(f"    ⚠️ Gemini 模型 {model_name} 呼叫失敗：{type(exc).__name__}: {exc}")
-            continue
-
-    if not response_text:
-        RUN_STATS["ai_failures"] += 1
-        print(f"    ⚠️ AI 未產生可用 JSON：{source_url}")
-        return None
-
-    try:
-        result = json.loads(response_text.strip())
+    result = MODEL_POOL.generate(prompt)
+    RUN_STATS["ai_requests"] = MODEL_POOL.requests
+    if result is not None:
         RUN_STATS["ai_successes"] += 1
         return result
-    except Exception as exc:
-        RUN_STATS["ai_failures"] += 1
-        print(f"    ⚠️ AI JSON 解析失敗：{source_url} | {type(exc).__name__}: {exc}")
-        return None
+    RUN_STATS["ai_failures"] += 1
+    print(f"    AI 模型均未成功，此頁未快取，待重試：{source_url}")
+    return None
 
 def main():
+    global MODEL_POOL
+    preferred = os.environ.get("GEMINI_MODELS", "").split(",")
+    MODEL_POOL = ModelPool(client, preferred + CANDIDATE_MODELS)
     db_path = "data.json"
     crawl_state = load_crawl_state()
     data = {
@@ -382,7 +358,7 @@ def main():
             # 2. 探索活動大廳並自動挖出子活動頁面
             for e_portal in config.get("event_portals", []):
                 print(f"  🎪 進入活動大廳: {e_portal}")
-                max_pages = int(os.environ.get("MAX_EVENT_PAGES_PER_BANK", "4"))
+                max_pages = int(os.environ.get("MAX_EVENT_PAGES_PER_BANK", "25"))
                 child_urls = discover_event_links(page, e_portal, config["event_link_pattern"], max_links=max_pages)
                 print(f"    🔎 自動挖掘出 {len(child_urls)} 個最新活動專頁！")
 
@@ -399,6 +375,8 @@ def main():
 
         browser.close()
 
+    if RUN_STATS["ai_failures"] and not RUN_STATS["ai_successes"]:
+        raise RuntimeError("所有 AI 解析均失敗，保留原資料庫與快取。")
     save_crawl_state(crawl_state)
 
     now = datetime.utcnow()
@@ -419,7 +397,7 @@ def main():
 
     total_reg = sum(1 for r in data["rules"] if r.get("needReg"))
     total_direct = sum(1 for r in data["rules"] if not r.get("needReg"))
-    print(f"[掃描統計] 頁面成功: {RUN_STATS['pages_fetched']} | 頁面失敗: {RUN_STATS['page_failures']} | 內容未變更: {RUN_STATS['unchanged_pages']} | AI 呼叫: {RUN_STATS['ai_requests']}/{MAX_AI_REQUESTS} | AI 成功: {RUN_STATS['ai_successes']} | AI 失敗: {RUN_STATS['ai_failures']} | 新卡: {RUN_STATS['new_cards']} | 新規則: {RUN_STATS['new_rules']}")
+    print(f"[掃描統計] 頁面成功: {RUN_STATS['pages_fetched']} | 頁面失敗: {RUN_STATS['page_failures']} | 內容未變更: {RUN_STATS['unchanged_pages']} | AI 呼叫: {RUN_STATS['ai_requests']} | AI 成功: {RUN_STATS['ai_successes']} | AI 失敗: {RUN_STATS['ai_failures']} | 新卡: {RUN_STATS['new_cards']} | 新規則: {RUN_STATS['new_rules']}")
     if RUN_STATS["ai_requests"] > 0 and RUN_STATS["ai_successes"] == 0:
         raise RuntimeError("本次沒有任何官方頁面成功完成 AI 結構化；拒絕發布可能不完整的資料庫。")
     print(f"\n==============================")
