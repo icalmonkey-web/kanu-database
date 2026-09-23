@@ -13,23 +13,25 @@ class ModelPool:
         self.client, self.clock, self.log = client, clock, log
         self.disabled, self.cooldowns = set(), {}
         self.requests = 0
-        names = []
-        try:
-            for model in client.models.list():
-                name = (model.name or '').removeprefix('models/')
-                actions = model.supported_actions or []
-                if ('generateContent' in actions
-                        and name.startswith(('gemini-', 'gemma-'))
-                        and not re.search(r'image|audio|tts|live|robotics|embedding|computer-use', name)):
-                    names.append(name)
-        except Exception as exc:
-            self.log(f'Model discovery failed ({type(exc).__name__}); using configured models.')
-        preferred = [n.strip().removeprefix('models/') for n in preferred if n.strip()]
-        # Prefer economical Flash models, then other supported text models.
-        names.sort(key=lambda n: ('flash' not in n, 'lite' not in n, n))
-        self.names = list(dict.fromkeys([n for n in preferred if not names or n in names] + names))
-        if not self.names:
-            raise RuntimeError('No text models available; check GEMINI_MODELS and API access.')
+
+        # 明確指定目前穩定、支援純文字 JSON 結構化的 Flash / Lite 模型
+        # 完全剔除已失效的 2.5 系列，以及 transcribe(語音)、pro(大型) 等型號
+        candidate_list = [
+            'gemini-3.8-flash',
+            'gemini-3.7-flash',
+            'gemini-3.6-flash',
+            'gemini-3.5-flash',
+            'gemini-3.5-flash-lite',
+            'gemini-3-flash-preview',
+            'gemini-3.1-flash-lite',
+            'gemini-3.1-flash-live-preview',
+            'gemini-2.5-flash-lite'
+
+        ]
+
+        preferred_models = [n.strip().removeprefix('models/') for n in preferred if n.strip()]
+        # 整合外部設定與預設序列，並去除重複項
+        self.names = list(dict.fromkeys(preferred_models + candidate_list))
         self.log('Model rotation: ' + ', '.join(self.names))
 
     def generate(self, prompt):
@@ -38,7 +40,6 @@ class ModelPool:
                 continue
             try:
                 self.requests += 1
-                # Plain JSON instruction also supports models without JSON mode.
                 response = self.client.models.generate_content(model=name, contents=prompt)
                 text = (response.text or '').strip()
                 text = re.sub(r'^```(?:json)?\s*|\s*```$', '', text)
@@ -55,12 +56,12 @@ class ModelPool:
                 if code in ('403', '404') or (code == '429' and re.search(r'PerDay|per day|daily', detail, re.I)):
                     self.disabled.add(name)
                     reason = 'unavailable or daily quota exhausted; disabled for this run'
-                elif code == '429':
-                    delay = re.search(r'(?:retryDelay[\s\x27\x22:]+|retry in\s+)([\d.]+)', detail, re.I)
-                    self.cooldowns[name] = self.clock() + max(60, float(delay[1]) if delay else 60)
-                    reason = 'rate limited; cooling down'
+                elif code in ('429', '503'):
+                    # 遇到頻率限制或伺服器暫時忙碌，改為短暫退避重試，不再鎖定 60 秒
+                    self.cooldowns[name] = self.clock() + 5
+                    reason = 'temporary load/rate limit; retry soon'
                 else:
-                    self.cooldowns[name] = self.clock() + 60
+                    self.cooldowns[name] = self.clock() + 15
                     reason = 'request/JSON failed; cooling down'
                 self.log(f'AI switch: {name}, {type(exc).__name__}, code={code or "none"}, {reason}')
         self.log('No model succeeded for this page; leave it uncached for retry.')
