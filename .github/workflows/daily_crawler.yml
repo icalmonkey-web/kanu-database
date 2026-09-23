@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 18 * * *' # 每天台灣時間凌晨 02:00
   workflow_dispatch:      # 支援手動點擊執行
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/**'
+      - '.github/workflows/daily_crawler.yml'
 
 concurrency:
   group: bank-crawler
