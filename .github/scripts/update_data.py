@@ -2,6 +2,7 @@ import os
 import json
 import re
 import time
+import hashlib
 from urllib.parse import urljoin
 from datetime import datetime
 from playwright.sync_api import sync_playwright
@@ -22,7 +23,12 @@ RUN_STATS = {
     "ai_failures": 0,
     "new_cards": 0,
     "new_rules": 0,
+    "ai_requests": 0,
+    "unchanged_pages": 0,
 }
+
+STATE_FILE = "crawler_state.json"
+MAX_AI_REQUESTS = int(os.environ.get("MAX_AI_REQUESTS_PER_RUN", "16"))
 
 CANDIDATE_MODELS = [
     os.environ.get("GEMINI_MODEL", "gemini-3.6-flash"),
@@ -119,6 +125,30 @@ def normalize_card_name(name):
     n = re.sub(r"\s+", "", name).upper()
     n = re.sub(r"(信用卡|御璽卡|鈦金卡|晶緻卡|無限卡|世界卡|白金卡|商務卡|聯名卡|卡)$", "", n)
     return n
+
+def load_crawl_state():
+    try:
+        with open(STATE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return {"pageHashes": {}, "lastRunAt": ""}
+
+def save_crawl_state(state):
+    state["lastRunAt"] = datetime.utcnow().isoformat() + "Z"
+    with open(STATE_FILE, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=2)
+
+def page_hash(content):
+    normalized = re.sub(r"\s+", " ", content).strip()
+    return hashlib.sha256(normalized.encode("utf-8")).hexdigest()
+
+def should_analyze_page(state, url, content):
+    digest = page_hash(content)
+    if state.get("pageHashes", {}).get(url) == digest:
+        RUN_STATS["unchanged_pages"] += 1
+        print(f"    ↪ 內容未變更，略過 AI：{url}")
+        return False, digest
+    return True, digest
 
 def parse_explicit_date(value):
     """只解析 YYYY/MM/DD 或 YYYY-MM-DD，避免把「每月 1 日開放」誤判成過期。"""
@@ -262,7 +292,11 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False):
 """
     response_text = None
     for model_name in CANDIDATE_MODELS:
+        if RUN_STATS["ai_requests"] >= MAX_AI_REQUESTS:
+            print(f"    ⏸️ 已達本次 AI 預算 {MAX_AI_REQUESTS} 次，保留此頁明日重試：{source_url}")
+            return None
         try:
+            RUN_STATS["ai_requests"] += 1
             res = client.models.generate_content(
                 model=model_name,
                 contents=prompt,
@@ -294,6 +328,7 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False):
 
 def main():
     db_path = "data.json"
+    crawl_state = load_crawl_state()
     data = {
         "version": "2026.09.20-v0",
         "cards": [],
@@ -337,14 +372,17 @@ def main():
                 print(f"  💳 抓取卡片型錄: {curl}")
                 text = fetch_page(page, curl)
                 if text and len(text) > 200:
-                    res = extract_with_gemini(bank, text, curl, is_event_detail=False)
-                    if res:
-                        merge_data(bank, res, cards_map, rules_map, curl)
+                    needs_analysis, digest = should_analyze_page(crawl_state, curl, text)
+                    if needs_analysis:
+                        res = extract_with_gemini(bank, text, curl, is_event_detail=False)
+                        if res:
+                            merge_data(bank, res, cards_map, rules_map, curl)
+                            crawl_state.setdefault("pageHashes", {})[curl] = digest
 
             # 2. 探索活動大廳並自動挖出子活動頁面
             for e_portal in config.get("event_portals", []):
                 print(f"  🎪 進入活動大廳: {e_portal}")
-                max_pages = int(os.environ.get("MAX_EVENT_PAGES_PER_BANK", "25"))
+                max_pages = int(os.environ.get("MAX_EVENT_PAGES_PER_BANK", "4"))
                 child_urls = discover_event_links(page, e_portal, config["event_link_pattern"], max_links=max_pages)
                 print(f"    🔎 自動挖掘出 {len(child_urls)} 個最新活動專頁！")
 
@@ -352,11 +390,16 @@ def main():
                     print(f"      👉 深入分析活動頁: {sub_url}")
                     sub_text = fetch_page(page, sub_url)
                     if sub_text and len(sub_text) > 150:
-                        res = extract_with_gemini(bank, sub_text, sub_url, is_event_detail=True)
-                        if res:
-                            merge_data(bank, res, cards_map, rules_map, sub_url)
+                        needs_analysis, digest = should_analyze_page(crawl_state, sub_url, sub_text)
+                        if needs_analysis:
+                            res = extract_with_gemini(bank, sub_text, sub_url, is_event_detail=True)
+                            if res:
+                                merge_data(bank, res, cards_map, rules_map, sub_url)
+                                crawl_state.setdefault("pageHashes", {})[sub_url] = digest
 
         browser.close()
+
+    save_crawl_state(crawl_state)
 
     now = datetime.utcnow()
     active_rules = []
@@ -376,8 +419,8 @@ def main():
 
     total_reg = sum(1 for r in data["rules"] if r.get("needReg"))
     total_direct = sum(1 for r in data["rules"] if not r.get("needReg"))
-    print(f"[掃描統計] 頁面成功: {RUN_STATS['pages_fetched']} | 頁面失敗: {RUN_STATS['page_failures']} | AI 成功: {RUN_STATS['ai_successes']} | AI 失敗: {RUN_STATS['ai_failures']} | 新卡: {RUN_STATS['new_cards']} | 新規則: {RUN_STATS['new_rules']}")
-    if RUN_STATS["ai_successes"] == 0:
+    print(f"[掃描統計] 頁面成功: {RUN_STATS['pages_fetched']} | 頁面失敗: {RUN_STATS['page_failures']} | 內容未變更: {RUN_STATS['unchanged_pages']} | AI 呼叫: {RUN_STATS['ai_requests']}/{MAX_AI_REQUESTS} | AI 成功: {RUN_STATS['ai_successes']} | AI 失敗: {RUN_STATS['ai_failures']} | 新卡: {RUN_STATS['new_cards']} | 新規則: {RUN_STATS['new_rules']}")
+    if RUN_STATS["ai_requests"] > 0 and RUN_STATS["ai_successes"] == 0:
         raise RuntimeError("本次沒有任何官方頁面成功完成 AI 結構化；拒絕發布可能不完整的資料庫。")
     print(f"\n==============================")
     print(f"[完成] 全市場資料庫深度自動探索完成！")
