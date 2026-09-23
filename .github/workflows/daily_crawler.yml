@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: 簽出程式碼倉庫
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: 設定 Python 執行環境
         uses: actions/setup-python@v5
@@ -51,11 +53,24 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # 掃描可能跑數小時；期間若有人更新 main，先保留產出的 JSON，
+          # 快轉到最新遠端後再套回，避免 non-fast-forward。
+          git pull --rebase --autostash origin main
           git add data.json crawler_state.json crawl_report.json
           if git diff --staged --quiet; then
             echo "資料庫無變更。"
           else
             git commit -m "chore: 自動更新信用卡權益與登錄活動資料庫 [skip ci]"
-            git push
-            echo "✅ 成功發布最新資料！"
+            for attempt in 1 2 3; do
+              if git push origin HEAD:main; then
+                echo "✅ 成功發布最新資料！"
+                exit 0
+              fi
+              echo "遠端在推送前再次更新，重新整合（第 ${attempt} 次）..."
+              git fetch origin main
+              git rebase origin/main
+            done
+            echo "❌ 重試 3 次仍無法發布，拒絕強制覆蓋遠端。"
+            exit 1
           fi
