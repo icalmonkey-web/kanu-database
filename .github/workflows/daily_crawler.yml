@@ -5,9 +5,17 @@ on:
     - cron: '0 18 * * *' # 每天台灣時間凌晨 02:00
   workflow_dispatch:      # 支援手動點擊執行
 
+concurrency:
+  group: bank-crawler
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
 jobs:
   scrape-and-update:
     runs-on: ubuntu-latest
+    timeout-minutes: 330
 
     steps:
       - name: 簽出程式碼倉庫
@@ -28,13 +36,22 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
+          python -m unittest discover -s .github/scripts -p 'test_*.py'
           python .github/scripts/update_data.py
+
+      - name: 保留掃描與缺口報告（失敗也保留）
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bank-crawl-report
+          path: crawl_report.json
+          if-no-files-found: warn
 
       - name: 檢查並發布更新至 data.json
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json crawler_state.json
+          git add data.json crawler_state.json crawl_report.json
           if git diff --staged --quiet; then
             echo "資料庫無變更。"
           else
