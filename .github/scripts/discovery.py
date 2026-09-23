@@ -5,6 +5,7 @@ from urllib.parse import urljoin, urlsplit, urlunsplit, parse_qsl, urlencode
 
 RELEVANT = re.compile(r'credit.?card|cc_index|cc_offer|/card[/._-]|discount|promotion|campaign|信用卡|刷卡|登錄|登錄活動|優惠|回饋|下一頁', re.I)
 ASSET = re.compile(r'\.(?:jpg|jpeg|png|gif|svg|css|js|zip|mp4|woff2?)(?:$|\?)', re.I)
+IRRELEVANT = re.compile(r'login|logout|apply|application|faq|fee|fraud|security|privacy|career|branch|atm|貸款|存款|開戶|申請進度|防詐|繳款', re.I)
 
 def canonical(base, href):
     if not href or href.startswith(('#', 'javascript:', 'mailto:', 'tel:')):
@@ -76,7 +77,7 @@ def explore(page, config, analyze, max_pages=150, max_depth=5, max_expansions=8)
             record['characters'] = len(text)
             record['linksFound'] = len(links)
             for target, label in sorted(links.items()):
-                if ASSET.search(target) or not RELEVANT.search(target + ' ' + label):
+                if ASSET.search(target) or IRRELEVANT.search(target + ' ' + label) or not RELEVANT.search(target + ' ' + label):
                     continue
                 if not allowed(target, hosts):
                     if target not in report['externalCandidates']:

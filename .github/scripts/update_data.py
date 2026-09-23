@@ -127,25 +127,6 @@ def normalize_card_name(name):
     n = re.sub(r"(信用卡|御璽卡|鈦金卡|晶緻卡|無限卡|世界卡|白金卡|商務卡|聯名卡|卡)$", "", n)
     return n
 
-def is_real_card_product(name):
-    """Reject audiences/services/promotions that an LLM mislabeled as a card product."""
-    value = re.sub(r"\s+", "", str(name or ""))
-    if len(value) < 2:
-        return False
-    hard_reject = (
-        r"全卡友|卡友(?:與|及|/|$|\()|信用卡暨簽帳金融卡|"
-        r"信用卡(?:全卡友|服務|通用|綜合|以上|\(|（)|"
-        r"定存|存款專案|高利.*專案|帳單.*服務|行動帳單|繳款服務"
-    )
-    if re.search(hard_reject, value, re.IGNORECASE):
-        return False
-    # A bank name followed only by「信用卡」is an audience/category, not a product.
-    if re.fullmatch(r".{2,12}(?:銀行|商銀|世華|金控)信用卡", value):
-        return False
-    if re.search(r"(?:指定|白金卡以上).{0,8}信用卡$", value):
-        return False
-    return True
-
 def load_crawl_state():
     try:
         with open(STATE_FILE, "r", encoding="utf-8") as f:
@@ -276,6 +257,9 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False):
       "id": "英數唯一碼",
       "bank": "{bank_name}",
       "cardName": "官方實際發行的信用卡產品全名",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確將此名稱列為可申辦或已發行卡片",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "核心特色簡述(10字內)"
@@ -348,9 +332,10 @@ def main():
         try:
             with open(db_path, "r", encoding="utf-8") as f:
                 old = json.load(f)
+                audited_ids = audit_existing_cards(old.get("cards", []))
                 rejected_card_ids = set()
                 for c in old.get("cards", []):
-                    if is_real_card_product(c.get('cardName')):
+                    if audited_ids is None or c.get('id') in audited_ids:
                         cards_map[f"{c.get('bank')}_{normalize_card_name(c.get('cardName'))}"] = c
                     elif c.get('id'):
                         rejected_card_ids.add(c['id'])
@@ -397,8 +382,9 @@ def main():
                 return 'analyzed'
 
             reports.append(explore(page, config, analyze,
-                max_pages=int(os.environ.get('MAX_PAGES_PER_BANK', '150')),
-                max_depth=int(os.environ.get('MAX_CRAWL_DEPTH', '5'))))
+                max_pages=int(os.environ.get('MAX_PAGES_PER_BANK', '60')),
+                max_depth=int(os.environ.get('MAX_CRAWL_DEPTH', '3')),
+                max_expansions=int(os.environ.get('MAX_DYNAMIC_EXPANSIONS', '3'))))
             with open('crawl_report.json', 'w', encoding='utf-8') as f:
                 json.dump({'generatedAt': datetime.utcnow().isoformat() + 'Z',
                     'coveragePercent': None, 'banks': reports}, f, ensure_ascii=False, indent=2)
@@ -443,9 +429,12 @@ def merge_data(bank, result, cards_map, rules_map, source_url):
         original_id = c.get('id')
         c['bank'] = bank
         raw_name = c.get("cardName", "").strip()
-        if not raw_name or not is_real_card_product(raw_name):
+        is_product = c.get('entityType') == 'CARD_PRODUCT'
+        confidence = float(c.get('classificationConfidence') or 0)
+        evidence = str(c.get('classificationEvidence') or '').strip()
+        if not raw_name or not is_product or confidence < 0.7 or not evidence:
             if raw_name:
-                print(f"      - 拒絕假卡片資料: [{bank}] {raw_name}")
+                print(f"      - AI 分類為非卡片或信心不足: [{bank}] {raw_name}")
             continue
         norm_key = f"{bank}_{normalize_card_name(raw_name)}"
         if norm_key not in cards_map:
@@ -477,6 +466,30 @@ def merge_data(bank, result, cards_map, rules_map, source_url):
         rules_map[rule_key] = r
         status = "🔥需登錄" if r.get("needReg") else "✨免登錄"
         print(f"      {status} [{r.get('activityType', 'PROMO')}]: {title}")
+
+def audit_existing_cards(cards):
+    """Use one AI batch to prevent legacy audience/service rows from surviving forever."""
+    if not cards:
+        return set()
+    compact = [{'id': c.get('id'), 'bank': c.get('bank'), 'cardName': c.get('cardName'),
+                'descTag': c.get('descTag')} for c in cards]
+    prompt = f"""
+你是台灣信用卡產品資料審核員。逐筆判斷輸入項目是不是銀行實際發行、具有正式產品名稱的信用卡。
+適用對象（全卡友、某某卡友）、卡別集合、銀行信用卡泛稱、簽帳金融卡集合、通知/帳單/繳款服務、存款或活動專案都不是信用卡產品。
+不得依名稱猜測不存在的卡，也不得漏掉輸入項目。每筆輸入都要在 cards 回傳一次，id 必須原樣保留。
+輸出合法 JSON：{{"cards":[{{"id":"原id","entityType":"CARD_PRODUCT 或 AUDIENCE 或 SERVICE 或 PROMOTION 或 UNKNOWN","classificationConfidence":0到1,"classificationEvidence":"簡短理由"}}],"rules":[]}}
+輸入：{json.dumps(compact, ensure_ascii=False)}
+"""
+    result = MODEL_POOL.generate(prompt)
+    RUN_STATS['ai_requests'] = MODEL_POOL.requests
+    if result is None:
+        print('⚠️ 舊卡片 AI 分類失敗；本次保留舊資料，不做破壞性清理。')
+        return None
+    returned = result.get('cards', [])
+    if len(returned) != len(compact):
+        print('⚠️ 舊卡片 AI 分類數量不完整；本次保留舊資料。')
+        return None
+    return {c.get('id') for c in returned if c.get('entityType') == 'CARD_PRODUCT'}
 
 if __name__ == "__main__":
     main()

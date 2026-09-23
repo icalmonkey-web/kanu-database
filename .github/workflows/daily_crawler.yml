@@ -15,7 +15,7 @@ permissions:
 jobs:
   scrape-and-update:
     runs-on: ubuntu-latest
-    timeout-minutes: 330
+    timeout-minutes: 180
 
     steps:
       - name: 簽出程式碼倉庫
@@ -37,6 +37,9 @@ jobs:
       - name: 執行資料結構化
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MAX_PAGES_PER_BANK: '60'
+          MAX_CRAWL_DEPTH: '3'
+          MAX_DYNAMIC_EXPANSIONS: '3'
         run: |
           python -m unittest discover -s .github/scripts -p 'test_*.py'
           python .github/scripts/update_data.py

@@ -1,10 +1,11 @@
 import unittest
-from update_data import merge_data, enrich_reward_fields, is_real_card_product
+from update_data import merge_data, enrich_reward_fields
 
 class MergeTests(unittest.TestCase):
     def test_model_card_id_is_preserved_for_mapping(self):
         cards, rules = {}, {}
-        merge_data('bank', {'cards': [{'id': 'ai1', 'cardName': 'Test卡'}],
+        merge_data('bank', {'cards': [{'id': 'ai1', 'cardName': 'Test卡', 'entityType': 'CARD_PRODUCT',
+                   'classificationConfidence': .95, 'classificationEvidence': '官方產品頁'}],
                    'rules': [{'cardId': 'ai1', 'title': '活動'}]}, cards, rules, 'https://bank.test/card')
         self.assertEqual(next(iter(cards.values()))['id'], next(iter(rules.values()))['cardId'])
 
@@ -19,13 +20,15 @@ class MergeTests(unittest.TestCase):
         self.assertIsNone(rule['rewardAmount'])
         self.assertEqual(rule['fetchedAt'], 'old')
 
-    def test_audiences_and_services_are_not_cards(self):
-        rejected = ['永豐銀行全卡友', 'Tesla卡友', '渣打銀行信用卡',
-                    '玉山銀行信用卡暨簽帳金融卡', '聚富定存新台幣高利定存專案',
-                    '白金卡以上指定信用卡']
-        self.assertTrue(all(not is_real_card_product(name) for name in rejected))
-        accepted = ['國泰世華 CUBE 信用卡', '玉山 U Bear卡', '滙豐卓越理財信用卡']
-        self.assertTrue(all(is_real_card_product(name) for name in accepted))
+    def test_only_ai_classified_product_is_merged(self):
+        cards, rules = {}, {}
+        result = {'cards': [
+            {'id': 'good', 'cardName': '真卡', 'entityType': 'CARD_PRODUCT',
+             'classificationConfidence': .95, 'classificationEvidence': '官網產品頁'},
+            {'id': 'bad', 'cardName': '全卡友', 'entityType': 'AUDIENCE',
+             'classificationConfidence': .99, 'classificationEvidence': '適用對象'}], 'rules': []}
+        merge_data('bank', result, cards, rules, 'https://bank.test')
+        self.assertEqual([c['cardName'] for c in cards.values()], ['真卡'])
 
 if __name__ == '__main__':
     unittest.main()
