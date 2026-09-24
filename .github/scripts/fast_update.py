@@ -33,6 +33,8 @@ STATE_FILE = ROOT / "crawler_state.json"
 REPORT_FILE = ROOT / "crawl_report.json"
 CHECKPOINT_DIR = ROOT / "checkpoints"
 PAGE_TIMEOUT = float(os.environ.get("PAGE_TIMEOUT_SECONDS", "25"))
+CRAWL_BUDGET_SECONDS = float(os.environ.get("CRAWL_BUDGET_SECONDS", "4200"))
+AI_TIMEOUT_MILLISECONDS = int(os.environ.get("AI_TIMEOUT_MILLISECONDS", "45000"))
 BANK_CONCURRENCY = int(os.environ.get("BANK_CONCURRENCY", "4"))
 MAX_PAGES = int(os.environ.get("MAX_PAGES_PER_BANK", "60"))
 MAX_DEPTH = int(os.environ.get("MAX_CRAWL_DEPTH", "3"))
@@ -222,12 +224,17 @@ def restore_newer_checkpoints(old: dict, state: dict, cards: dict, rules: dict) 
     return restored
 
 
-async def analyze_changed_page(ai_lock, bank, text, url):
+TIME_BUDGET_EXHAUSTED = object()
+
+
+async def analyze_changed_page(ai_lock, bank, text, url, deadline):
     async with ai_lock:
+        if asyncio.get_running_loop().time() >= deadline:
+            return TIME_BUDGET_EXHAUSTED
         return await asyncio.to_thread(legacy.extract_with_gemini, bank, text[:14000], url, True)
 
 
-async def crawl_bank(config, client, browser, state, state_lock, ai_lock, merge_lock, cards, rules):
+async def crawl_bank(config, client, browser, state, state_lock, ai_lock, merge_lock, cards, rules, deadline):
     bank = config["bank"]
     seeds = list(dict.fromkeys(config.get("card_urls", []) + config.get("event_portals", [])))
     hosts = {urlsplit(url).hostname for url in seeds} | set(config.get("allowed_hosts", []))
@@ -236,6 +243,13 @@ async def crawl_bank(config, client, browser, state, state_lock, ai_lock, merge_
     context = await browser.new_context(user_agent=USER_AGENT, locale="zh-TW", viewport={"width": 1440, "height": 900})
     try:
         while queue and len(report["pages"]) < MAX_PAGES:
+            if asyncio.get_running_loop().time() >= deadline:
+                report["unvisited"].extend(
+                    {"url": pending_url, "reason": "workflow_time_budget", "parent": pending_parent}
+                    for pending_url, _, pending_parent in queue
+                )
+                queue.clear()
+                break
             url, depth, parent = queue.popleft()
             prior = state.setdefault("pages", {}).get(url, {})
             row = {"url": url, "parent": parent, "depth": depth, "renderer": "none"}
@@ -275,7 +289,15 @@ async def crawl_bank(config, client, browser, state, state_lock, ai_lock, merge_
             elif len(cleaned) < 150:
                 row["status"] = "insufficient_content"
             else:
-                extracted = await analyze_changed_page(ai_lock, bank, cleaned, result.url)
+                extracted = await analyze_changed_page(ai_lock, bank, cleaned, result.url, deadline)
+                if extracted is TIME_BUDGET_EXHAUSTED:
+                    row["status"] = "workflow_time_budget"
+                    report["unvisited"].extend(
+                        {"url": pending_url, "reason": "workflow_time_budget", "parent": pending_parent}
+                        for pending_url, _, pending_parent in queue
+                    )
+                    queue.clear()
+                    break
                 if extracted is None:
                     row["status"] = "ai_failed_preserved_old_data"
                     continue
@@ -317,7 +339,10 @@ async def run():
     if "pages" not in state:
         state["pages"] = {url: {"hash": digest} for url, digest in state.pop("pageHashes", {}).items()}
     preferred = [name for name in os.environ.get("GEMINI_MODELS", "").split(",") if name]
-    legacy.MODEL_POOL = ModelPool(genai.Client(api_key=api_key), preferred + legacy.CANDIDATE_MODELS)
+    legacy.MODEL_POOL = ModelPool(
+        genai.Client(api_key=api_key, http_options={"timeout": AI_TIMEOUT_MILLISECONDS}),
+        preferred + legacy.CANDIDATE_MODELS,
+    )
     audited_ids = await asyncio.to_thread(legacy.audit_existing_cards, old.get("cards", []))
     cards, rules = old_maps(old, audited_ids)
     restored = restore_newer_checkpoints(old, state, cards, rules)
@@ -327,9 +352,13 @@ async def run():
 
     async with httpx.AsyncClient(headers={"User-Agent": USER_AGENT}) as client, async_playwright() as pw:
         browser = await pw.chromium.launch(headless=True, args=["--no-sandbox"])
+        deadline = asyncio.get_running_loop().time() + CRAWL_BUDGET_SECONDS
         async def limited(config):
             async with semaphore:
-                return await crawl_bank(config, client, browser, state, state_lock, ai_lock, merge_lock, cards, rules)
+                return await crawl_bank(
+                    config, client, browser, state, state_lock, ai_lock, merge_lock,
+                    cards, rules, deadline,
+                )
         reports = await asyncio.gather(*(limited(config) for config in legacy.PORTAL_CONFIGS))
         await browser.close()
 

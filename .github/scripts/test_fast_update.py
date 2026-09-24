@@ -8,6 +8,9 @@ from fast_update import atomic_json, normalized_content, parse_html, stable_hash
 
 
 class FastPipelineTests(unittest.TestCase):
+    def test_time_budget_is_shorter_than_workflow_timeout(self):
+        self.assertLess(fast_update.CRAWL_BUDGET_SECONDS, 90 * 60)
+
     def test_ai_audit_removes_non_cards_and_unlinks_their_rules(self):
         old = {
             "cards": [

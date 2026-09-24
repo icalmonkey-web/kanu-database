@@ -50,8 +50,9 @@ jobs:
           for previous_run in $(gh run list --workflow daily_crawler.yml --status completed --limit 10 --json databaseId --jq '.[].databaseId'); do
             rm -rf .checkpoint-download
             if gh run download "$previous_run" -n bank-crawl-report -D .checkpoint-download 2>/dev/null; then
-              if compgen -G '.checkpoint-download/checkpoints/*.json' > /dev/null; then
-                cp .checkpoint-download/checkpoints/*.json checkpoints/
+              mapfile -t checkpoint_files < <(find .checkpoint-download -type f -name '*.json')
+              if [ "${#checkpoint_files[@]}" -gt 0 ]; then
+                cp "${checkpoint_files[@]}" checkpoints/
                 restored="true"
                 echo "已從執行 $previous_run 恢復 checkpoint。"
                 break
@@ -67,6 +68,10 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           MAX_PAGES_PER_BANK: '40'
           MAX_CRAWL_DEPTH: '3'
+          BANK_CONCURRENCY: '4'
+          PAGE_TIMEOUT_SECONDS: '25'
+          AI_TIMEOUT_MILLISECONDS: '45000'
+          CRAWL_BUDGET_SECONDS: '4200'
         run: |
           mkdir -p checkpoints
           python -m unittest discover -s .github/scripts -p 'test_*.py'
