@@ -1,4 +1,5 @@
 import unittest
+import importlib
 from types import SimpleNamespace as NS
 from model_pool import ModelPool
 
@@ -10,6 +11,10 @@ class APIError(Exception):
 
 
 class RotationTests(unittest.TestCase):
+    def test_module_imports_without_executing_stray_text(self):
+        module = importlib.import_module('model_pool')
+        self.assertTrue(hasattr(module, 'ModelPool'))
+
     def pool(self, outcomes):
         calls = []
         def generate(model, contents):

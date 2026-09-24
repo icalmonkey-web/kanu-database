@@ -8,6 +8,19 @@ from fast_update import atomic_json, normalized_content, parse_html, stable_hash
 
 
 class FastPipelineTests(unittest.TestCase):
+    def test_ai_audit_removes_non_cards_and_unlinks_their_rules(self):
+        old = {
+            "cards": [
+                {"id": "real", "bank": "銀行", "cardName": "真卡"},
+                {"id": "audience", "bank": "銀行", "cardName": "全卡友"},
+            ],
+            "rules": [{"cardId": "audience", "title": "活動", "sourceUrl": "https://bank.test/promo"}],
+        }
+        cards, rules = fast_update.old_maps(old, {"real"})
+        self.assertEqual([card["id"] for card in cards.values()], ["real"])
+        self.assertIsNone(next(iter(rules.values()))["cardId"])
+        self.assertEqual(next(iter(rules.values()))["associationStatus"], "needs_review")
+
     def test_dynamic_time_and_cookie_noise_do_not_change_hash(self):
         first = "優惠活動 更新 2026-09-24 10:21:33 Cookie 隱私權政策，請接受\n回饋 5%"
         second = "優惠活動 更新 2026-09-24 11:59:02 Cookie 隱私權政策，請接受\n回饋 5%"

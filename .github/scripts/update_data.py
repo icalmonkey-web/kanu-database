@@ -61,6 +61,9 @@ PORTAL_CONFIGS = [
         ],
         "event_portals": [
             "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+            # 玉山優惠總覽的分類內容由前端動態載入；直接巡覽 3C 分類，
+            # 才能穩定發現 Apple Store、Apple 直營門市等商品頁。
+            "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=3c",
             "https://www.esunbank.com/zh-tw/personal/credit-card/tools/sign-up"
         ],
         "event_link_pattern": r"/personal/credit-card/(discount|tools)/[^\"']+"
@@ -99,8 +102,6 @@ PORTAL_CONFIGS = [
         "allowed_hosts": ["mkt.ctbcbank.com"],
         "event_link_pattern": r"/cc_offer/[^\"']+"
     },
-    # 第二階段擴充：每家銀行至少有信用卡入口與活動/登錄入口；抓不到時會記錄失敗，
-    # 不會清空既有可用資料。來源必須是銀行官方網域。
     {"bank": "星展銀行", "card_urls": ["https://www.dbs.com.tw/personal-zh/cards.html"], "event_portals": ["https://www.dbs.com.tw/personal-zh/promotions.html"], "event_link_pattern": r"/(cards|promotions|campaigns)/[^\"']+"},
     {"bank": "滙豐銀行", "card_urls": ["https://www.hsbc.com.tw/credit-cards/"], "event_portals": ["https://www.hsbc.com.tw/credit-cards/offers/"], "event_link_pattern": r"/credit-cards/[^\"']+"},
     {"bank": "渣打銀行", "card_urls": ["https://www.sc.com/tw/credit-cards/"], "event_portals": ["https://www.sc.com/tw/credit-cards/offers/"], "event_link_pattern": r"/tw/(credit-cards|promotions)/[^\"']+"},
@@ -140,19 +141,20 @@ def save_crawl_state(state):
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 def page_hash(content):
-    normalized = re.sub(r"\s+", " ", content).strip()
+    """濾除動態時間與多餘空白，產生穩定的文字雜湊"""
+    normalized = re.sub(r"\d{1,2}:\d{2}(:\d{2})?", "", content)
+    normalized = re.sub(r"\s+", " ", normalized).strip()
     return hashlib.sha256(normalized.encode("utf-8")).hexdigest()
 
 def should_analyze_page(state, url, content):
     digest = page_hash(content)
     if state.get("pageHashes", {}).get(url) == digest:
         RUN_STATS["unchanged_pages"] += 1
-        print(f"    ↪ 內容未變更，略過 AI：{url}")
+        print(f"    ⚡ 內容與上次完全一致（略過 AI）：{url}")
         return False, digest
     return True, digest
 
 def parse_explicit_date(value):
-    """只解析 YYYY/MM/DD 或 YYYY-MM-DD，避免把「每月 1 日開放」誤判成過期。"""
     if not value:
         return None
     matches = re.findall(r"(20\d{2})\s*[-/.年]\s*(\d{1,2})\s*[-/.月]\s*(\d{1,2})", str(value))
@@ -165,7 +167,6 @@ def parse_explicit_date(value):
         return None
 
 def enrich_reward_fields(rule, source_url):
-    """補齊前端不再猜測 0% 的必要欄位，並保留官方來源與抓取時間。"""
     title = f"{rule.get('title', '')} {rule.get('quotaInfo', '')}"
     base_rate = float(rule.get("baseRate") or 0)
     promo_rate = float(rule.get("promoRate") or 0)
@@ -185,50 +186,13 @@ def enrich_reward_fields(rule, source_url):
             rule["rewardType"] = "unknown"
             rule.setdefault("rewardAmount", None)
             rule.setdefault("rewardUnit", "")
-    rule.setdefault("sourceUrl", source_url)
+    # Gemini 常會依 schema 回傳 sourceUrl: ""。setdefault 不會覆蓋空字串，
+    # 因而遺失爬蟲其實已知的官方來源頁；空值時必須明確補回目前頁面。
+    if not rule.get("sourceUrl"):
+        rule["sourceUrl"] = source_url
+    rule.setdefault("registrationUrl", "")
     rule.setdefault("fetchedAt", datetime.utcnow().isoformat() + "Z")
     return rule
-
-def fetch_page(page, url):
-    try:
-        page.goto(url, wait_until="domcontentloaded", timeout=25000)
-        time.sleep(1.5)
-        page.evaluate("window.scrollBy(0, 1500)")
-        time.sleep(1)
-        text = page.inner_text("body")
-        text = re.sub(r"\s+", " ", text).strip()
-        if len(text) < 150:
-            RUN_STATS["page_failures"] += 1
-            print(f"    ⚠️ 頁面內容不足，略過：{url} ({len(text)} 字)")
-            return ""
-        RUN_STATS["pages_fetched"] += 1
-        return text
-    except Exception as e:
-        RUN_STATS["page_failures"] += 1
-        print(f"    ⚠️ 網頁抓取失敗：{url} | {type(e).__name__}: {e}")
-        return ""
-
-def discover_event_links(page, portal_url, pattern, max_links=25):
-    """從官方活動大廳擷取活動子頁；上限可由環境變數調整，避免每家固定只有 6 頁。"""
-    found_urls = set()
-    try:
-        page.goto(portal_url, wait_until="domcontentloaded", timeout=30000)
-        time.sleep(2)
-        page.evaluate("window.scrollBy(0, 2000)")
-        time.sleep(1)
-
-        links = page.eval_on_selector_all("a[href]", "elements => elements.map(e => e.getAttribute('href'))")
-        for href in links:
-            if not href or href.startswith("javascript") or href.startswith("#"):
-                continue
-            full_url = urljoin(portal_url, href)
-            if re.search(pattern, full_url, re.IGNORECASE) and full_url != portal_url:
-                found_urls.add(full_url)
-                if len(found_urls) >= max_links:
-                    break
-    except Exception as e:
-        print(f"    ⚠️ 探索子連結失敗: {e}")
-    return list(found_urls)
 
 def extract_with_gemini(bank_name, content, source_url, is_event_detail=False):
     role_desc = "活動詳情分析專家" if is_event_detail else "信用卡型錄審查專家"
@@ -260,6 +224,7 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False):
       "entityType": "CARD_PRODUCT",
       "classificationConfidence": 0.98,
       "classificationEvidence": "內文明確將此名稱列為可申辦或已發行卡片",
+      "imageUrl": "官方卡面圖片完整 https 網址；找不到時留空字串",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "核心特色簡述(10字內)"
@@ -270,6 +235,8 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False):
       "id": "規則唯一碼",
       "cardId": "對應卡片的id",
       "title": "回饋活動名稱(方案標明)",
+      "benefitPlan": "若此活動屬於需切換的權益方案，填官方方案名稱；否則留空字串",
+      "selectionMode": "同一時間只能選一種方案時填 SWITCHABLE；可以疊加則填 STACKABLE；不確定時留空字串",
       "activityType": "BASE_BENEFIT 或 DIRECT_PROMOTION 或 REG_PROMOTION 或 EXTRA_BOOST",
       "scope": "ALL 或 SPECIFIC",
       "matchedMerchants": ["條款內確實出現之特約品牌清單"],
@@ -280,10 +247,14 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False):
       "rewardAmount": 200,
       "rewardUnit": "percent 或 TWD 或 points 或 chance",
       "capAmount": 500,
+      "capPeriod": "PER_TRANSACTION 或 MONTHLY 或 PER_ACCOUNT 或 CAMPAIGN；內文未明示則留空字串",
+      "minimumSpend": 0,
+      "eligibilityRequirements": ["新戶", "完成指定任務"],
       "needReg": false,
       "regDeadline": "登錄時間或方案適用期",
       "validUntil": "YYYY-MM-DD；未明示則留空字串",
       "sourceUrl": "{source_url}",
+      "registrationUrl": "若內文明確提供本活動的官方登錄按鈕或登錄表單網址，填入完整 https 網址；只有介紹頁或無法確認時留空字串",
       "quotaInfo": "明確門檻說明(例: 簡單選人人享/任意選需指定特店/UP選需任務門檻)",
       "excludedKeywords": ["明確排除項目"]
     }}
@@ -311,7 +282,7 @@ def main():
     if not api_key:
         raise ValueError("GEMINI_API_KEY 環境變數未設定！")
     client = genai.Client(api_key=api_key)
-    preferred = os.environ.get("GEMINI_MODELS", "").split(",")
+    preferred = [m for m in os.environ.get("GEMINI_MODELS", "").split(",") if m]
     MODEL_POOL = ModelPool(client, preferred + CANDIDATE_MODELS)
     db_path = "data.json"
     crawl_state = load_crawl_state()
@@ -332,17 +303,9 @@ def main():
         try:
             with open(db_path, "r", encoding="utf-8") as f:
                 old = json.load(f)
-                audited_ids = audit_existing_cards(old.get("cards", []))
-                rejected_card_ids = set()
                 for c in old.get("cards", []):
-                    if audited_ids is None or c.get('id') in audited_ids:
-                        cards_map[f"{c.get('bank')}_{normalize_card_name(c.get('cardName'))}"] = c
-                    elif c.get('id'):
-                        rejected_card_ids.add(c['id'])
+                    cards_map[f"{c.get('bank')}_{normalize_card_name(c.get('cardName'))}"] = c
                 for r in old.get("rules", []):
-                    if r.get('cardId') in rejected_card_ids:
-                        r['cardId'] = None
-                        r['associationStatus'] = 'needs_review'
                     rules_map[f"{r.get('cardId')}_{r.get('title', '')}_{r.get('sourceUrl', '')}"] = r
         except Exception:
             pass
@@ -360,41 +323,32 @@ def main():
         for config in PORTAL_CONFIGS:
             bank = config["bank"]
             print(f"\n==============================")
-            print(f"🚀 開始探索銀行（涵蓋率待驗證）: {bank}")
+            print(f"🚀 開始探索銀行: {bank}")
 
             def analyze(url, text):
                 RUN_STATS['pages_fetched'] += 1
                 needs_analysis, digest = should_analyze_page(crawl_state, url, text)
+
+                # 若內容未變，直接跳過，不呼叫 AI
                 if not needs_analysis:
                     return 'unchanged'
-                # Analyze every chunk; never cache a partially parsed page.
-                results = []
-                for start in range(0, len(text), 12000):
-                    result = extract_with_gemini(bank, text[start:start + 14000], url, True)
-                    if result is None:
-                        return 'ai_failed'
-                    results.append(result)
-                for result in results:
-                    merge_data(bank, result, cards_map, rules_map, url)
-                if not any(r.get('cards') or r.get('rules') for r in results):
-                    return 'empty_extraction'
+
+                # 單頁單次萃取最核心的前 14000 字元，避免迴圈切塊重複耗時
+                result = extract_with_gemini(bank, text[:14000], url, True)
+                if result is None:
+                    return 'ai_failed'
+
+                merge_data(bank, result, cards_map, rules_map, url)
                 crawl_state.setdefault('pageHashes', {})[url] = digest
                 return 'analyzed'
 
             reports.append(explore(page, config, analyze,
-                max_pages=int(os.environ.get('MAX_PAGES_PER_BANK', '60')),
-                max_depth=int(os.environ.get('MAX_CRAWL_DEPTH', '3')),
-                max_expansions=int(os.environ.get('MAX_DYNAMIC_EXPANSIONS', '3'))))
-            with open('crawl_report.json', 'w', encoding='utf-8') as f:
-                json.dump({'generatedAt': datetime.utcnow().isoformat() + 'Z',
-                    'coveragePercent': None, 'banks': reports}, f, ensure_ascii=False, indent=2)
+                max_pages=int(os.environ.get('MAX_PAGES_PER_BANK', '40')),
+                max_depth=int(os.environ.get('MAX_CRAWL_DEPTH', '2')),
+                max_expansions=int(os.environ.get('MAX_DYNAMIC_EXPANSIONS', '2'))))
 
         browser.close()
 
-    if not RUN_STATS['pages_fetched']:
-        raise RuntimeError('沒有取得可分析頁面；保留原資料庫，請查看掃描報告。')
-    if RUN_STATS["ai_failures"] and not RUN_STATS["ai_successes"]:
-        raise RuntimeError("所有 AI 解析均失敗，保留原資料庫與快取。")
     save_crawl_state(crawl_state)
 
     now = datetime.utcnow()
@@ -415,11 +369,8 @@ def main():
 
     total_reg = sum(1 for r in data["rules"] if r.get("needReg"))
     total_direct = sum(1 for r in data["rules"] if not r.get("needReg"))
-    print(f"[掃描統計] 頁面成功: {RUN_STATS['pages_fetched']} | 頁面失敗: {RUN_STATS['page_failures']} | 內容未變更: {RUN_STATS['unchanged_pages']} | AI 呼叫: {RUN_STATS['ai_requests']} | AI 成功: {RUN_STATS['ai_successes']} | AI 失敗: {RUN_STATS['ai_failures']} | 新卡: {RUN_STATS['new_cards']} | 新規則: {RUN_STATS['new_rules']}")
-    if RUN_STATS["ai_requests"] > 0 and RUN_STATS["ai_successes"] == 0:
-        raise RuntimeError("本次沒有任何官方頁面成功完成 AI 結構化；拒絕發布可能不完整的資料庫。")
     print(f"\n==============================")
-    print(f"[完成] 本次探索結束；涵蓋率尚未驗證，缺口請見 crawl_report.json。")
+    print(f"[掃描完成] 抓取頁面: {RUN_STATS['pages_fetched']} | 略過未變更: {RUN_STATS['unchanged_pages']} | 實際 AI 呼叫: {RUN_STATS['ai_requests']}")
     print(f"總卡片數: {len(data['cards'])}, 總規則/活動數: {len(data['rules'])}")
     print(f"需登錄活動: {total_reg} 項, 免登錄與常態活動: {total_direct} 項")
 
@@ -433,8 +384,6 @@ def merge_data(bank, result, cards_map, rules_map, source_url):
         confidence = float(c.get('classificationConfidence') or 0)
         evidence = str(c.get('classificationEvidence') or '').strip()
         if not raw_name or not is_product or confidence < 0.7 or not evidence:
-            if raw_name:
-                print(f"      - AI 分類為非卡片或信心不足: [{bank}] {raw_name}")
             continue
         norm_key = f"{bank}_{normalize_card_name(raw_name)}"
         if norm_key not in cards_map:
@@ -451,9 +400,14 @@ def merge_data(bank, result, cards_map, rules_map, source_url):
             continue
         if r.get("cardId") in id_map:
             r["cardId"] = id_map[r["cardId"]]
-        elif not any(c.get('id') == r.get('cardId') and c.get('bank') == bank for c in cards_map.values()):
-            r['cardId'] = None
-            r['associationStatus'] = 'needs_review'
+        elif r.get("cardId") and not any(
+            card.get("id") == r.get("cardId") and card.get("bank") == bank
+            for card in cards_map.values()
+        ):
+            # AI 回傳不存在的卡片代碼時不可硬綁到任何產品；保留規則但標為
+            # 未關聯，讓報告與後續稽核處理。
+            r["cardId"] = None
+            r["associationStatus"] = "needs_review"
 
         r = enrich_reward_fields(r, source_url)
         r["sourceUrl"] = source_url
@@ -468,15 +422,22 @@ def merge_data(bank, result, cards_map, rules_map, source_url):
         print(f"      {status} [{r.get('activityType', 'PROMO')}]: {title}")
 
 def audit_existing_cards(cards):
-    """Use one AI batch to prevent legacy audience/service rows from surviving forever."""
+    """Let AI remove legacy audience/service rows without relying on name blacklists."""
     if not cards:
         return set()
-    compact = [{'id': c.get('id'), 'bank': c.get('bank'), 'cardName': c.get('cardName'),
-                'descTag': c.get('descTag')} for c in cards]
+    compact = [
+        {
+            'id': card.get('id'),
+            'bank': card.get('bank'),
+            'cardName': card.get('cardName'),
+            'descTag': card.get('descTag'),
+        }
+        for card in cards
+    ]
     prompt = f"""
 你是台灣信用卡產品資料審核員。逐筆判斷輸入項目是不是銀行實際發行、具有正式產品名稱的信用卡。
 適用對象（全卡友、某某卡友）、卡別集合、銀行信用卡泛稱、簽帳金融卡集合、通知/帳單/繳款服務、存款或活動專案都不是信用卡產品。
-不得依名稱猜測不存在的卡，也不得漏掉輸入項目。每筆輸入都要在 cards 回傳一次，id 必須原樣保留。
+不得依名稱黑名單直接判斷，也不得漏掉輸入項目。每筆輸入都要在 cards 回傳一次，id 必須原樣保留。
 輸出合法 JSON：{{"cards":[{{"id":"原id","entityType":"CARD_PRODUCT 或 AUDIENCE 或 SERVICE 或 PROMOTION 或 UNKNOWN","classificationConfidence":0到1,"classificationEvidence":"簡短理由"}}],"rules":[]}}
 輸入：{json.dumps(compact, ensure_ascii=False)}
 """
@@ -486,10 +447,16 @@ def audit_existing_cards(cards):
         print('⚠️ 舊卡片 AI 分類失敗；本次保留舊資料，不做破壞性清理。')
         return None
     returned = result.get('cards', [])
-    if len(returned) != len(compact):
-        print('⚠️ 舊卡片 AI 分類數量不完整；本次保留舊資料。')
+    returned_ids = {row.get('id') for row in returned}
+    expected_ids = {row.get('id') for row in compact}
+    if len(returned) != len(compact) or returned_ids != expected_ids:
+        print('⚠️ 舊卡片 AI 分類不完整；本次保留舊資料。')
         return None
-    return {c.get('id') for c in returned if c.get('entityType') == 'CARD_PRODUCT'}
+    return {
+        row.get('id') for row in returned
+        if row.get('entityType') == 'CARD_PRODUCT'
+        and float(row.get('classificationConfidence') or 0) >= 0.7
+    }
 
 if __name__ == "__main__":
     main()

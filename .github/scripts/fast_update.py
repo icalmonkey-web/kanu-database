@@ -180,9 +180,21 @@ async def fetch_page(client, context, url: str, prior: dict) -> FetchResult:
         await page.close()
 
 
-def old_maps(old: dict):
-    cards = {f"{c.get('bank')}_{legacy.normalize_card_name(c.get('cardName'))}": c for c in old.get("cards", [])}
+def old_maps(old: dict, audited_ids=None):
+    rejected_ids = {
+        card.get("id") for card in old.get("cards", [])
+        if audited_ids is not None and card.get("id") not in audited_ids
+    }
+    cards = {
+        f"{c.get('bank')}_{legacy.normalize_card_name(c.get('cardName'))}": c
+        for c in old.get("cards", [])
+        if audited_ids is None or c.get("id") in audited_ids
+    }
     rules = {f"{r.get('cardId')}_{r.get('title', '')}_{r.get('sourceUrl', '')}": r for r in old.get("rules", [])}
+    for rule in rules.values():
+        if rule.get("cardId") in rejected_ids:
+            rule["cardId"] = None
+            rule["associationStatus"] = "needs_review"
     return cards, rules
 
 
@@ -304,12 +316,13 @@ async def run():
     state = load_json(STATE_FILE, {"pages": {}, "lastRunAt": ""})
     if "pages" not in state:
         state["pages"] = {url: {"hash": digest} for url, digest in state.pop("pageHashes", {}).items()}
-    cards, rules = old_maps(old)
+    preferred = [name for name in os.environ.get("GEMINI_MODELS", "").split(",") if name]
+    legacy.MODEL_POOL = ModelPool(genai.Client(api_key=api_key), preferred + legacy.CANDIDATE_MODELS)
+    audited_ids = await asyncio.to_thread(legacy.audit_existing_cards, old.get("cards", []))
+    cards, rules = old_maps(old, audited_ids)
     restored = restore_newer_checkpoints(old, state, cards, rules)
     if restored:
         print(f"Restored {restored} newer bank checkpoints")
-    preferred = [name for name in os.environ.get("GEMINI_MODELS", "").split(",") if name]
-    legacy.MODEL_POOL = ModelPool(genai.Client(api_key=api_key), preferred + legacy.CANDIDATE_MODELS)
     semaphore, state_lock, ai_lock, merge_lock = asyncio.Semaphore(BANK_CONCURRENCY), asyncio.Lock(), asyncio.Lock(), asyncio.Lock()
 
     async with httpx.AsyncClient(headers={"User-Agent": USER_AGENT}) as client, async_playwright() as pw:

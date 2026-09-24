@@ -16,6 +16,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: read
 
 jobs:
   scrape-and-update:
@@ -39,12 +40,27 @@ jobs:
           pip install google-genai requests playwright httpx
           playwright install chromium --with-deps
 
-      - name: 嘗試恢復上次中斷的 Checkpoint 檢查點
-        uses: actions/download-artifact@v4
+      - name: 嘗試恢復上次中斷的 Checkpoint（沒有舊檔時直接略過）
         continue-on-error: true
-        with:
-          name: bank-crawl-report
-          path: checkpoints/
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p checkpoints
+          restored="false"
+          for previous_run in $(gh run list --workflow daily_crawler.yml --status completed --limit 10 --json databaseId --jq '.[].databaseId'); do
+            rm -rf .checkpoint-download
+            if gh run download "$previous_run" -n bank-crawl-report -D .checkpoint-download 2>/dev/null; then
+              if compgen -G '.checkpoint-download/checkpoints/*.json' > /dev/null; then
+                cp .checkpoint-download/checkpoints/*.json checkpoints/
+                restored="true"
+                echo "已從執行 $previous_run 恢復 checkpoint。"
+                break
+              fi
+            fi
+          done
+          if [ "$restored" != "true" ]; then
+            echo "沒有可恢復的 checkpoint，從目前 data.json 開始。"
+          fi
 
       - name: 執行資料結構化
         env:
@@ -53,12 +69,8 @@ jobs:
           MAX_CRAWL_DEPTH: '3'
         run: |
           mkdir -p checkpoints
-          # 優先執行重構後的快速爬蟲 fast_update.py，若無則降級跑 update_data.py
-          if [ -f ".github/scripts/fast_update.py" ]; then
-            python .github/scripts/fast_update.py
-          else
-            python .github/scripts/update_data.py
-          fi
+          python -m unittest discover -s .github/scripts -p 'test_*.py'
+          python .github/scripts/fast_update.py
 
       - name: 保留掃描與缺口報告（無論成功失敗皆保留）
         if: always()

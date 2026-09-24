@@ -12,21 +12,22 @@ class ModelPool:
         self.cooldowns = {}
         self.requests = 0
 
-        # 使用您指定的完整模型清單，依穩定度與速度排序輪替
-        custom_list = [
-            'gemini-3.8-flash',
-            'gemini-3.7-flash',
-            'gemini-3.6-flash',
-            'gemini-3.5-flash',
-            'gemini-3.5-flash-lite',
-            'gemini-3-flash-preview',
-            'gemini-3.1-flash-lite',
-            'gemini-2.5-flash-lite',
-            'gemini-3.1-flash-live-preview'
-        ]
-
+        names = []
+        try:
+            for model in client.models.list():
+                name = (model.name or '').removeprefix('models/')
+                actions = model.supported_actions or []
+                if ('generateContent' in actions
+                        and name.startswith(('gemini-', 'gemma-'))
+                        and not re.search(r'image|audio|tts|live|robotics|embedding|computer-use', name)):
+                    names.append(name)
+        except Exception as exc:
+            self.log(f'Model discovery failed ({type(exc).__name__}); using configured models.')
         preferred_models = [n.strip().removeprefix('models/') for n in preferred if n.strip()]
-        self.names = list(dict.fromkeys(preferred_models + custom_list))
+        names.sort(key=lambda n: ('flash' not in n, 'lite' not in n, n))
+        self.names = list(dict.fromkeys([n for n in preferred_models if not names or n in names] + names))
+        if not self.names:
+            raise RuntimeError('No text models available; check GEMINI_MODELS and API access.')
         self.log('Model rotation: ' + ', '.join(self.names))
 
     def generate(self, prompt):
@@ -39,8 +40,8 @@ class ModelPool:
             if self.cooldowns.get(name, 0) > self.clock():
                 continue
 
-            # 針對特定模型重試最多 2 次
-            for attempt in range(2):
+            # 每個模型每頁只嘗試一次；限流時切換下一個可用模型。
+            for attempt in range(1):
                 try:
                     self.requests += 1
                     response = self.client.models.generate_content(
@@ -53,7 +54,7 @@ class ModelPool:
 
                     if not isinstance(result, dict) or any(
                         not isinstance(result.get(key), list) for key in ('cards', 'rules')
-                    ):
+                    ) or any(not isinstance(row, dict) for key in ('cards', 'rules') for row in result[key]):
                         raise ValueError('Expected cards/rules arrays of objects')
 
                     self.log(f'AI success: {name}')
@@ -75,10 +76,11 @@ class ModelPool:
                         self.log(f'AI switch: {name}, daily quota exhausted; disabled')
                         break
 
-                    # 503 伺服器忙碌或瞬間頻率超標（429 RPM）：短暫退避 2.5 秒重試
-                    elif code in ('503', '429'):
-                        time.sleep(2.5 * (attempt + 1))
-                        continue
+                    # 瞬間頻率超標：依服務建議冷卻，先切換下一個模型。
+                    elif code == '429':
+                        delay = re.search(r'(?:retryDelay[\s\x27\x22:]+|retry in\s+)([\d.]+)', detail, re.I)
+                        self.cooldowns[name] = self.clock() + max(60, float(delay[1]) if delay else 60)
+                        break
 
                     # JSON 解構失敗或其他伺服器錯誤：冷卻 10 秒後切換下個模型
                     else:
