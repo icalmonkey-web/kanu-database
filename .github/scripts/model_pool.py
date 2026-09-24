@@ -1,4 +1,3 @@
-model_pool.py
 """Discover text models once and fail over without a global request cap."""
 import json
 import re
