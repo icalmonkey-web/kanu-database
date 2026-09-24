@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T15:17:50.888423Z",
+  "generatedAt": "2026-09-24T21:42:34.440120Z",
   "banks": [
     {
       "bank": "永豐銀行",
@@ -101,7 +101,7 @@
           "parent": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/list.html",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/co-brand/list.html",
@@ -122,7 +122,7 @@
           "parent": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/list.html",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/business/list.html",
@@ -249,7 +249,7 @@
           "parent": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/list.html",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/WBCH.html",
@@ -270,7 +270,7 @@
           "parent": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/list.html",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/cashcard.html",
@@ -1069,8 +1069,8 @@
           "parent": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/dual-currency-card.html"
         }
       ],
-      "startedAt": "2026-09-24T14:07:38.324491Z",
-      "completedAt": "2026-09-24T14:22:01.464972Z"
+      "startedAt": "2026-09-24T21:25:37.051409Z",
+      "completedAt": "2026-09-24T21:26:01.715726Z"
     },
     {
       "bank": "國泰世華",
@@ -1094,8 +1094,8 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-09-24T14:07:38.324929Z",
-      "completedAt": "2026-09-24T14:07:45.393308Z"
+      "startedAt": "2026-09-24T21:25:37.051994Z",
+      "completedAt": "2026-09-24T21:25:43.702085Z"
     },
     {
       "bank": "玉山銀行",
@@ -2115,8 +2115,8 @@
           "parent": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/dualcurrency-card"
         }
       ],
-      "startedAt": "2026-09-24T14:07:38.325154Z",
-      "completedAt": "2026-09-24T14:07:56.114461Z"
+      "startedAt": "2026-09-24T21:25:37.052286Z",
+      "completedAt": "2026-09-24T21:25:53.474922Z"
     },
     {
       "bank": "台北富邦",
@@ -2770,8 +2770,8 @@
           "parent": "https://www.fubon.com/banking/personal/credit_card/all_card/openpossible/openpossible.htm"
         }
       ],
-      "startedAt": "2026-09-24T14:07:38.325328Z",
-      "completedAt": "2026-09-24T14:07:59.754658Z"
+      "startedAt": "2026-09-24T21:25:37.052587Z",
+      "completedAt": "2026-09-24T21:25:57.173171Z"
     },
     {
       "bank": "台新銀行",
@@ -2797,7 +2797,7 @@
           "parent": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg021/card001/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.taishinbank.com.tw/eServiceA/CreditCardAP/activate/",
@@ -3147,6 +3147,11 @@
           "parent": "https://www.taishinbank.com.tw/TSB/personal/common/bonus/?nav1=credit"
         },
         {
+          "url": "https://www.taishinbank.com.tw/TSB/personal/common/bonus/TSBankBonus-001379/",
+          "reason": "page_limit",
+          "parent": "https://www.taishinbank.com.tw/TSB/personal/common/bonus/?nav1=credit"
+        },
+        {
           "url": "https://www.taishinbank.com.tw/TSB/export/sites/TSB/files/creditcard/__11507.pdf",
           "reason": "page_limit",
           "parent": "https://www.taishinbank.com.tw/TSB/personal/credit/pay-credit-card-bill/TSBankGridPage-000065/"
@@ -3242,8 +3247,8 @@
           "parent": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/road-rescue/right0401/"
         }
       ],
-      "startedAt": "2026-09-24T14:07:45.399386Z",
-      "completedAt": "2026-09-24T14:19:17.124537Z"
+      "startedAt": "2026-09-24T21:25:43.715229Z",
+      "completedAt": "2026-09-24T21:26:21.573747Z"
     },
     {
       "bank": "中國信託",
@@ -3887,8 +3892,8 @@
           "parent": "https://www.ctbcbank.com/twrbo/zh_tw/onlinecounter_index/various_services/various_services_csc.html"
         }
       ],
-      "startedAt": "2026-09-24T14:07:56.143630Z",
-      "completedAt": "2026-09-24T14:08:44.074015Z"
+      "startedAt": "2026-09-24T21:25:53.576902Z",
+      "completedAt": "2026-09-24T21:26:37.247185Z"
     },
     {
       "bank": "星展銀行",
@@ -3910,8 +3915,8 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-09-24T14:07:59.793417Z",
-      "completedAt": "2026-09-24T14:08:03.621384Z"
+      "startedAt": "2026-09-24T21:25:57.234216Z",
+      "completedAt": "2026-09-24T21:26:01.503063Z"
     },
     {
       "bank": "滙豐銀行",
@@ -3922,28 +3927,28 @@
           "parent": null,
           "depth": 0,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/credit-cards/offers/",
           "parent": null,
           "depth": 0,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/en-tw/credit-cards/",
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/premier/promotions/",
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/investments/products/i-invest/",
@@ -3957,7 +3962,7 @@
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/credit-cards/products/travel/visa-infinite/",
@@ -3971,7 +3976,7 @@
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/credit-cards/products/travelone/",
@@ -3999,28 +4004,28 @@
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/credit-cards/compare/",
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/credit-cards/features/installment-payment-plan/",
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/credit-cards/features/financial-management/",
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/credit-cards/offers/acquisition-gift/terms-and-conditions/",
@@ -4048,7 +4053,7 @@
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/credit-cards/offers/payments/",
@@ -4076,28 +4081,28 @@
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/credit-cards/mobile-pay/",
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/credit-cards/mileage-with-traveler-cards/",
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.hsbc.com.tw/offers/",
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/advance/",
@@ -4118,7 +4123,7 @@
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/credit-cards/benefits/travel-insurance/",
@@ -4132,35 +4137,35 @@
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.hsbc.com.tw/credit-cards/benefits/lounge-services/",
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.hsbc.com.tw/credit-cards/benefits/travel-secretary/",
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.hsbc.com.tw/credit-cards/benefits/roadside-assistance/",
           "parent": "https://www.hsbc.com.tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/en-tw/ways-to-bank/mobile/credit-card-app/",
           "parent": "https://www.hsbc.com.tw/en-tw/credit-cards/",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.hsbc.com.tw/en-tw/ways-to-bank/online/credit-cards/",
@@ -4181,21 +4186,21 @@
           "parent": "https://www.hsbc.com.tw/en-tw/credit-cards/",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/en-tw/credit-cards/products/travelone/",
           "parent": "https://www.hsbc.com.tw/en-tw/credit-cards/",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         },
         {
           "url": "https://www.hsbc.com.tw/en-tw/credit-cards/products/liveplus/",
           "parent": "https://www.hsbc.com.tw/en-tw/credit-cards/",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "unchanged_304"
         }
       ],
       "unvisited": [
@@ -4510,8 +4515,8 @@
           "parent": "https://www.hsbc.com.tw/credit-cards/benefits/roadside-assistance/"
         }
       ],
-      "startedAt": "2026-09-24T14:08:03.627385Z",
-      "completedAt": "2026-09-24T14:08:49.922680Z"
+      "startedAt": "2026-09-24T21:26:01.513434Z",
+      "completedAt": "2026-09-24T21:26:38.051371Z"
     },
     {
       "bank": "渣打銀行",
@@ -4537,28 +4542,28 @@
           "parent": "https://www.sc.com/tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.sc.com/tw/promotions/save/fcy-saving-account/",
           "parent": "https://www.sc.com/tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.sc.com/tw/promotions/save/fcy-time-deposit-flash/",
           "parent": "https://www.sc.com/tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.sc.com/tw/promotions/save/twd-time-deposit-extra/",
           "parent": "https://www.sc.com/tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.sc.com/tw/credit-cards/beyond-card/",
@@ -4593,14 +4598,14 @@
           "parent": "https://www.sc.com/tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.sc.com/tw/promotions/credit-cards/",
           "parent": "https://www.sc.com/tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.sc.com/tw/credit-cards/service/financial-proof/",
@@ -4635,7 +4640,7 @@
           "parent": "https://www.sc.com/tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.sc.com/tw/credit-cards/service/instant-notification/",
@@ -4670,14 +4675,14 @@
           "parent": "https://www.sc.com/tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.sc.com/tw/promotions/investment/",
           "parent": "https://www.sc.com/tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.sc.com/content/dam/sc/tw/zh_tw/credit-cards/docs/tw-cardrule.pdf",
@@ -4757,18 +4762,25 @@
           "status": "unchanged_hash"
         },
         {
+          "url": "https://www.sc.com/tw/promotions/",
+          "parent": "https://www.sc.com/tw/promotions/save/twd-saving-account-extra/",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
           "url": "https://www.sc.com/tw/promotions/save/fcy-time-deposit-extra/",
           "parent": "https://www.sc.com/tw/promotions/save/twd-saving-account-extra/",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.sc.com/tw/promotions/save/fcy-time-deposit/",
           "parent": "https://www.sc.com/tw/promotions/save/fcy-saving-account/",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.sc.com/content/dam/sc/tw/zh_tw/credit-cards/docs/beyond-card-tnc.pdf",
@@ -4790,16 +4802,14 @@
           "depth": 2,
           "renderer": "none",
           "status": "needs_pdf_parser"
-        },
-        {
-          "url": "https://www.sc.com/content/dam/sc/tw/zh_tw/credit-cards/docs/notice.pdf",
-          "parent": "https://www.sc.com/tw/credit-cards/beyond-card/",
-          "depth": 2,
-          "renderer": "none",
-          "status": "needs_pdf_parser"
         }
       ],
       "unvisited": [
+        {
+          "url": "https://www.sc.com/content/dam/sc/tw/zh_tw/credit-cards/docs/notice.pdf",
+          "reason": "page_limit",
+          "parent": "https://www.sc.com/tw/credit-cards/beyond-card/"
+        },
         {
           "url": "https://www.sc.com/tw/promotions/credit-cards/ibmb-installment/",
           "reason": "page_limit",
@@ -4851,11 +4861,6 @@
           "parent": "https://www.sc.com/tw/credit-cards/visa-infinite-card/"
         },
         {
-          "url": "https://www.sc.com/tw/promotions/",
-          "reason": "page_limit",
-          "parent": "https://www.sc.com/tw/promotions/icashpay-in-seven/"
-        },
-        {
           "url": "https://www.sc.com/tw/credit-cards/service/",
           "reason": "page_limit",
           "parent": "https://www.sc.com/tw/credit-cards/service/financial-proof/"
@@ -4886,14 +4891,24 @@
           "parent": "https://www.sc.com/tw/credit-cards/service/cash-management/"
         },
         {
+          "url": "https://www.sc.com/content/dam/sc/tw/zh_tw/promotions/docs/tw-ib-manual-i.pdf",
+          "reason": "page_limit",
+          "parent": "https://www.sc.com/tw/promotions/credit-cards/rewards/"
+        },
+        {
+          "url": "https://www.sc.com/content/dam/sc/tw/zh_tw/promotions/docs/tw-cc-bonusway.pdf",
+          "reason": "page_limit",
+          "parent": "https://www.sc.com/tw/promotions/credit-cards/rewards/"
+        },
+        {
           "url": "https://www.sc.com/tw/frequently-asked-questions/credit-cards/",
           "reason": "page_limit",
           "parent": "https://www.sc.com/tw/promotions/credit-cards/rewards/"
         },
         {
-          "url": "https://www.sc.com/tw/promotions/credit-cards/welcome-offer/",
+          "url": "https://www.sc.com/tw/en/promotions/investment/",
           "reason": "page_limit",
-          "parent": "https://www.sc.com/tw/promotions/credit-cards/rewards/"
+          "parent": "https://www.sc.com/tw/promotions/investment/"
         },
         {
           "url": "https://www.sc.com/tw/investment/mutual-funds/",
@@ -4919,10 +4934,20 @@
           "url": "https://www.sc.com/tw/credit-cards/service/three-tier-installment-rate/",
           "reason": "page_limit",
           "parent": "https://www.sc.com/tw/credit-cards/shopping/"
+        },
+        {
+          "url": "https://www.sc.com/tw/en/promotions/",
+          "reason": "page_limit",
+          "parent": "https://www.sc.com/tw/promotions/"
+        },
+        {
+          "url": "https://www.sc.com/tw/promotions/credit-cards-viusageq1/",
+          "reason": "page_limit",
+          "parent": "https://www.sc.com/tw/promotions/"
         }
       ],
-      "startedAt": "2026-09-24T14:08:44.086029Z",
-      "completedAt": "2026-09-24T14:09:04.085241Z"
+      "startedAt": "2026-09-24T21:26:01.753469Z",
+      "completedAt": "2026-09-24T21:26:40.479531Z"
     },
     {
       "bank": "聯邦銀行",
@@ -4940,7 +4965,7 @@
           "parent": null,
           "depth": 0,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.ubot.com.tw/pay/card.html",
@@ -4951,8 +4976,8 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-09-24T14:08:49.986984Z",
-      "completedAt": "2026-09-24T14:08:53.868114Z"
+      "startedAt": "2026-09-24T21:26:21.604125Z",
+      "completedAt": "2026-09-24T21:26:26.451530Z"
     },
     {
       "bank": "元大銀行",
@@ -4970,7 +4995,7 @@
           "parent": null,
           "depth": 0,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.yuantabank.com.tw/bank/creditCard/index.do",
@@ -5931,8 +5956,8 @@
           "parent": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/in.do?id=4c11f3af6e000002bf89"
         }
       ],
-      "startedAt": "2026-09-24T14:08:53.872374Z",
-      "completedAt": "2026-09-24T14:24:18.769444Z"
+      "startedAt": "2026-09-24T21:26:26.456275Z",
+      "completedAt": "2026-09-24T21:26:40.931079Z"
     },
     {
       "bank": "華南銀行",
@@ -5943,571 +5968,13 @@
           "parent": null,
           "depth": 0,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Fproduct%2Fcharitable_trust",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "analyzed"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/xap20/PresellHouse/PresellHouseInquire.aspx",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
           "status": "fetch_failed",
-          "error": "ReadTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/xap20/PresellHouse/PresellHouseInquire.aspx\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/xap20/Realestm_Qry/OverdueRE.aspx",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "playwright",
-          "status": "analyzed"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/app/inqHouseToLet.aspx",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "playwright",
-          "status": "analyzed"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fabout-hn%2Frecruitment%2Femployee_benefits",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fabout-hn%2Frecruitment%2Femployee_benefits\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/pfpa.hncb.com.tw/pfpaip/web/",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/+https:/pfpa.hncb.com.tw/pfpaip/web/\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finvest%2Ffund%2Fselected_funds",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finvest%2Ffund%2Fselected_funds\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finsurance%2Fselected_insurance%2Fselected_insurance",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finsurance%2Fselected_insurance%2Fselected_insurance\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Fevent%2Ffund_promo%2Ffunds_discount",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Fevent%2Ffund_promo%2Ffunds_discount\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finsurance%2Fonline_insurance%2Finsurancerecommend",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finsurance%2Fonline_insurance%2Finsurancerecommend\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fquery_forex_rate",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fquery_forex_rate\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fquery_historical_forex_rate",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fquery_historical_forex_rate\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fservice%2Fpublic_item%2Fbest_offer",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fservice%2Fpublic_item%2Fbest_offer\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/msg/071/pb-moretaiwanpay/n+trip",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/msg/071/pb-moretaiwanpay/n+trip\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/msg/071/pb-moretaiwanpay/yongkang2026",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/msg/071/pb-moretaiwanpay/yongkang2026\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/msg/071/pb-moretaiwanpay/changchun",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/msg/071/pb-moretaiwanpay/changchun\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fservice%2Fpublic_item%2Fmoretaiwanpay",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fservice%2Fpublic_item%2Fmoretaiwanpay\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fservice%2Fpublic_item%2Fmoremarketing",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fservice%2Fpublic_item%2Fmoremarketing\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fservice%2Fpublic_item%2Flatest_news",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fservice%2Fpublic_item%2Flatest_news\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Ffooter%2Fpublic_disclosure",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Ffooter%2Fpublic_disclosure\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fquery_historical_forex_line",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fquery_historical_forex_line\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fimmediate_trend",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fimmediate_trend\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fquery_forex_rate_file_format",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fquery_forex_rate_file_format\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finvest%2Fgold%2Fgold_passbook",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finvest%2Fgold%2Fgold_passbook\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_saving_rate_all%2Fquery_foreign_deposit_rate_file_format",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_saving_rate_all%2Fquery_foreign_deposit_rate_file_format\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_saving_rate_all%2Fquery_historical_ntd_rate",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_saving_rate_all%2Fquery_historical_ntd_rate\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_saving_rate_all%2Fquery_foreign_rate",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_saving_rate_all%2Fquery_foreign_rate\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/xap20/BondRate/debt.aspx",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/xap20/BondRate/debt.aspx\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_saving_rate_all%2Fquery-fixed-deposit-rate-change",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_saving_rate_all%2Fquery-fixed-deposit-rate-change\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/xap20/NCDsPulicView/NCDsView.aspx",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/xap20/NCDsPulicView/NCDsView.aspx\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/xap20/NCDsPulicView/FrgnNCDsView.aspx",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/xap20/NCDsPulicView/FrgnNCDsView.aspx\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_saving_rate_all%2Fquery-standard-rate-change",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_saving_rate_all%2Fquery-standard-rate-change\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_saving_rate_all%2Fquery-basic-loan-rate-change",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_saving_rate_all%2Fquery-basic-loan-rate-change\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ffinance%2Fplatform%2Fmobile_banking",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ffinance%2Fplatform%2Fmobile_banking\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/xap20/OpinionReceptionEdit/contact.aspx",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/xap20/OpinionReceptionEdit/contact.aspx\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/xap20/OpinionReceptionEdit/contact_search.aspx",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/xap20/OpinionReceptionEdit/contact_search.aspx\", waiting until \"domcontentloaded\"\n"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/pfpa.hncb.com.tw/pfpaip/web/credit-card/pending/authentication",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card",
-          "depth": 2,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/+https:/pfpa.hncb.com.tw/pfpaip/web/credit-card/pending/authentication\", waiting until \"domcontentloaded\"\n"
+          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard\", waiting until \"domcontentloaded\"\n"
         }
       ],
-      "unvisited": [
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/introduce/topcard/card_ultimate_honor",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/introduce/topcard/card_honor",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/introduce/topcard/card_the_one",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/introduce/collabcard/card_dreamera_cobrand",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/introduce/collabcard/card_dudu_cobrand",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/introduce/collabcard/card_openpoint_cobrand",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/introduce/collabcard/card_mazu_cobrand",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/introduce/collabcard/card_ntu_cobrand",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/introduce/collabcard/card_cmu_cobrand",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/introduce/collabcard/card_fhl_cobrand",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/introduce/othercard/card_combo",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/introduce/othercard/card_debit",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/introduce/othercard/card_corporate_biz",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/introduce/othercard/card_mobile_payment",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/introduce/othercard/cards_overview",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/netbank.hncb.com.tw/netbank/servlet/TrxDispatcher?state=prompt&trx=com.lb.wibc.trx.CardPromoteOverall_RWD",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/event/channel/department_store",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/event/channel/travel",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/event/channel/online_shopping",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/event/channel/warehouse",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/event/channel/3c",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/event/channel/movie",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/event/channel/refuel",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/benefit/card/benefits_overview",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/benefit/card/travel_insurance",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/benefit/card/airport_transfer",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/benefit/card/airport_vip",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/benefit/card/airport_park",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/benefit/card/city_park",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/benefit/card/road_rescue",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/benefit/card/highspeed_rail",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/benefit/other/cardholder_rights",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/benefit/other/electronic_tickets_terms",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/bonus/bonus_dividen",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/bonus/bonus_millage",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/bonus/bonus_transfer",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/other/support_service/installment_store",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/other/support_service/store_receipt",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/other/support_service/cash_advance",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/other/announcements/announcement",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/other/announcements/overseas_investment",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/other/announcements/expat_friendly",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card/other/announcements/function_index",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/card?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcard%2Fevent%2Fchannel%2Ftravel",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/msg/co-management/pb-best-offer/c1/t5/115TWPAY_ALL",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/msg/co-management/pb-best-offer/c1/t5/115TWPAY_tax_05A",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/card"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/per_finance/!ut/p/z1/hY5NDoIwFISvIgewr6IR4o4g8ScShESt3ZAnVmgipYGK6OnVuNUwu8nMZD7gwIArbGWORlYKr29_5NOUjlaL5cKnId26lE7jiRPt3L0dzMdw6CvwT_xHHoX1t_B7b4-cD4Fdh36YA9doiqFUlwrYoDBGNzNgGZYaZa5IobITyaqSmDuwDrVNgSUCr6IxZRrXD2BRK-rzTSQBwUZ3b3Le98376HXJnhtvSaVnWS8_vmKn/",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/xap20/Realestm_Qry/OverdueRE.aspx"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/per_finance/!ut/p/z1/hY5NDoIwFISvIgewr6IR4o4g8ScShESt3ZAnVmgipYGK6OnVuNUwu8nMZD7gwIArbGWORlYKr29_5NOUjlaL5cKnId26lE7jiRPt3L0dzMdw6CvwT_xHHoX1t_B7b4-cD4Fdh36YA9doiqFUlwrYoDBGNzNgGZYaZa5IobITyaqSmDuwDrVNgSUCr6IxZRrXD2BRK-rzTSQBwUZ3b3Le98376HXJnhtvSaVnWS8_vmKn/?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Fevent%2Ffund_promo%2Ffunds_discount",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/xap20/Realestm_Qry/OverdueRE.aspx"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/per_finance/!ut/p/z1/hY7LDoIwFER_RT7A3oIGiDuCBjAQNb5qN-ZKeDSRtkp9xK9X4lbD7CYzkznAgQGXeBcVGqEknj_-wN0jtZMojkKa0aVPqbsae4utv3Nm0xHs-wq8i_8ooDD_Fn7vHdvrCJxrFmYVcI2mHgpZKmCD2hjdToDl2GgUlSS1zE8kVw0xD2CoNTAhL7G6tcVGpYUh2Ornh5b3_fE-Yt2wVxqU6ySwrDcrMtgW/",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/app/inqHouseToLet.aspx"
-        },
-        {
-          "url": "https://www.hncb.com.tw/wps/portal/HNCB/per_finance/!ut/p/z1/hY7LDoIwFER_RT7A3oIGiDuCBjAQNb5qN-ZKeDSRtkp9xK9X4lbD7CYzkznAgQGXeBcVGqEknj_-wN0jtZMojkKa0aVPqbsae4utv3Nm0xHs-wq8i_8ooDD_Fn7vHdvrCJxrFmYVcI2mHgpZKmCD2hjdToDl2GgUlSS1zE8kVw0xD2CoNTAhL7G6tcVGpYUh2Ornh5b3_fE-Yt2wVxqU6ySwrDcrMtgW/?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Fevent%2Ffund_promo%2Ffunds_discount",
-          "reason": "page_limit",
-          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/app/inqHouseToLet.aspx"
-        }
-      ],
-      "startedAt": "2026-09-24T14:09:04.101720Z",
-      "completedAt": "2026-09-24T15:09:34.545154Z"
+      "unvisited": [],
+      "startedAt": "2026-09-24T21:26:37.264108Z",
+      "completedAt": "2026-09-24T21:27:27.305532Z"
     },
     {
       "bank": "第一銀行",
@@ -6523,12 +5990,12 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-09-24T14:19:17.142593Z",
-      "completedAt": "2026-09-24T14:19:17.428405Z"
+      "startedAt": "2026-09-24T21:26:38.109316Z",
+      "completedAt": "2026-09-24T21:26:38.351910Z"
     },
     {
       "bank": "彰化銀行",
-      "status": "needs_review",
+      "status": "completed",
       "pages": [
         {
           "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33",
@@ -6684,7 +6151,7 @@
           "parent": "https://www.bankchb.com/frontend/subarea.jsp?funcId=f1f12f6d15",
           "depth": 2,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/bonusDetail.jsp?id=3410",
@@ -6800,8 +6267,8 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-09-24T14:19:17.431734Z",
-      "completedAt": "2026-09-24T14:28:13.510732Z"
+      "startedAt": "2026-09-24T21:26:38.356317Z",
+      "completedAt": "2026-09-24T21:27:01.305860Z"
     },
     {
       "bank": "兆豐銀行",
@@ -6812,28 +6279,28 @@
           "parent": null,
           "depth": 0,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/about/announcement/info/events?category=DepositFX",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/visa-debit-card",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.megabank.com.tw/personal/savings/card/smart-pay",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/personal/savings/card/overseas-withdraw",
@@ -6868,77 +6335,77 @@
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/coporate",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/mobile-pay",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/directions",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/overview",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/enroll",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/tv-shopping",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/food",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/hypermarket",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/travel",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/transportation",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/art",
@@ -6959,547 +6426,564 @@
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/rights/overview",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/rights/pick-up-service",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/rights/vip-lounge",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/rights/insurance",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/rights/airport-parking",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/rights/city-parking",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/rights/foreign-exchange-settlement",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/rights/thsh-up",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/rights/road-rescue",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/rights/no-risk-of-losing-card",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/rights/general-consumption",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/rights/guide-book",
           "parent": "https://www.megabank.com.tw/personal/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "workflow_time_budget"
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.megabank.com.tw/personal/credit-card/loan/cash-advance-online",
+          "parent": "https://www.megabank.com.tw/personal/credit-card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_hash"
+        },
+        {
+          "url": "https://www.megabank.com.tw/personal/credit-card/loan/layaway-plan",
+          "parent": "https://www.megabank.com.tw/personal/credit-card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_hash"
+        },
+        {
+          "url": "https://www.megabank.com.tw/personal/credit-card/loan/revolving-credit",
+          "parent": "https://www.megabank.com.tw/personal/credit-card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_hash"
+        },
+        {
+          "url": "https://www.megabank.com.tw/personal/credit-card/loan/quota-adjustment",
+          "parent": "https://www.megabank.com.tw/personal/credit-card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.megabank.com.tw/personal/credit-card/loan/auto-pay-fund",
+          "parent": "https://www.megabank.com.tw/personal/credit-card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.megabank.com.tw/personal/credit-card/service/report-lost",
+          "parent": "https://www.megabank.com.tw/personal/credit-card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
         }
       ],
       "unvisited": [
         {
-          "url": "https://www.megabank.com.tw/personal/credit-card/loan/cash-advance-online",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.megabank.com.tw/personal/credit-card"
-        },
-        {
-          "url": "https://www.megabank.com.tw/personal/credit-card/loan/layaway-plan",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.megabank.com.tw/personal/credit-card"
-        },
-        {
-          "url": "https://www.megabank.com.tw/personal/credit-card/loan/revolving-credit",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.megabank.com.tw/personal/credit-card"
-        },
-        {
-          "url": "https://www.megabank.com.tw/personal/credit-card/loan/quota-adjustment",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.megabank.com.tw/personal/credit-card"
-        },
-        {
-          "url": "https://www.megabank.com.tw/personal/credit-card/loan/auto-pay-fund",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.megabank.com.tw/personal/credit-card"
-        },
-        {
-          "url": "https://www.megabank.com.tw/personal/credit-card/service/report-lost",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.megabank.com.tw/personal/credit-card"
-        },
-        {
           "url": "https://www.megabank.com.tw/personal/credit-card/service/bouns-overview",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/service/e-bill",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/service/notifications",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/service/payment",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/service/method",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/service/overview",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/service/mega-dualcurrencycard",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/service/announcement",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/additional-document",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/activate-card",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/service/mgm",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/about/announcement/service/customer-service/download?tab=3",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/mobile-pay/merchant-acquiring",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/about/announcement/info/events?category=WealthManagement",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/search/search-result?page=1&text=%E5%88%B7%E5%8D%A1%E5%84%AA%E6%83%A0",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/overview/buygogoro",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/overview/115q3ftc",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/overview/insmastercard2026",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/overview/aptrc115h2",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/overview/115citylink",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/overview/travelmix",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/overview/twmpmarket2026",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/overview/2026q43c",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/overview/ec202609",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/overview/115fesobr",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/bt21creditcard",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/mega-one",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/infinite",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/world",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/young",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/cash-rebate-biz",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/next-bank",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/happy",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/unilions",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/dual-currency",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/overview/newcard11501",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/event/overview/115q3trip",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/about/announcement/info/public?category=CreditCard",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card"
         },
         {
           "url": "https://www.megabank.com.tw/about/business-sustainability/society/financial-contribution",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/about/announcement/info/events?category=DepositFX"
         },
         {
           "url": "https://www.megabank.com.tw/about/announcement/info/events/events-detail?sno=f221a120d363407c96e0fb48c574c743",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/about/announcement/info/events?category=DepositFX"
         },
         {
           "url": "https://www.megabank.com.tw/about/announcement/info/events/events-detail?sno=e95b832c69854a40a5a417f29583932a",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/about/announcement/info/events?category=DepositFX"
         },
         {
           "url": "https://www.megabank.com.tw/about/announcement/info/events/events-detail?sno=98446429bd5d47feb6475045b1d5ad6b",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/about/announcement/info/events?category=DepositFX"
         },
         {
           "url": "https://www.megabank.com.tw/about/announcement/info/events/events-detail?sno=9241db438b8b4ac5ae22e8c089c07c87",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/about/announcement/info/events?category=DepositFX"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/rights/pick-up-service?tab=2",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/pick-up-service"
         },
         {
           "url": "https://www.megabank.com.tw/-/media/mega/files/bankv2/personal/credit-card/rights/pick-up-service/unnamed-item.pdf",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/pick-up-service"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/service/bouns-overview/shop/00000008",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/vip-lounge"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/service/bouns-overview/shop/00000004",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/vip-lounge"
         },
         {
           "url": "https://www.megabank.com.tw/-/media/mega/files/bankv2/personal/credit-card/rights/insurance/2026cardinsurance.pdf",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/insurance"
         },
         {
           "url": "https://www.megabank.com.tw/-/media/mega/files/bankv2/personal/credit-card/rights/insurance/2026claimsnotification.pdf",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/insurance"
         },
         {
           "url": "https://www.megabank.com.tw/-/media/mega/files/bankv2/personal/credit-card/rights/insurance/008468_2024123016563540429.pdf",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/insurance"
         },
         {
           "url": "https://www.megabank.com.tw/-/media/mega/files/bankv2/personal/credit-card/rights/insurance/mctravelregistration.pdf",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/insurance"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/mega-one-business",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/airport-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/young-combo",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/airport-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/happycombo",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/airport-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/gogoro",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/airport-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/easycard",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/airport-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/mbt-card",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/airport-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/vsb-card",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/airport-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/mayfull",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/airport-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/secom",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/airport-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/avon",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/airport-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/natural-beauty",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/airport-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/opay",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/airport-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/guan-gong-card",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/city-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/pbiz-card",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/city-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/happiness-card",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/city-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/avon-card",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/city-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/megavisa",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/city-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/megamastercard",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/city-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/megajcb",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/city-parking"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/hiyescard",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/foreign-exchange-settlement"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/classic-card",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/foreign-exchange-settlement"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/ctciecove-card",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/foreign-exchange-settlement"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/vdcard",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/foreign-exchange-settlement"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/travel",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/foreign-exchange-settlement"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/travel-card-general-public",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/foreign-exchange-settlement"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/workinghouse",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/foreign-exchange-settlement"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/santacruz",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/foreign-exchange-settlement"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/business-card",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/foreign-exchange-settlement"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/mega-combo",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/foreign-exchange-settlement"
         },
         {
           "url": "https://www.megabank.com.tw/personal/credit-card/card/overview/fancy",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/foreign-exchange-settlement"
         },
         {
           "url": "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/rights/road-rescue/unnamed-item.pdf",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/road-rescue"
         },
         {
           "url": "https://www.megabank.com.tw/-/media/mega/files/bankv2/personal/credit-card/rights/guide-book1/11511507-2.pdf",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/guide-book"
         },
         {
           "url": "https://www.megabank.com.tw/-/media/mega/files/bankv2/personal/credit-card/rights/guide-book1/11511507-3.pdf",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.megabank.com.tw/personal/credit-card/rights/guide-book"
+        },
+        {
+          "url": "https://www.megabank.com.tw/-/media/mega/files/bankv2/personal/credit-card/loan/011999_2025040815560354878.pdf",
+          "reason": "page_limit",
+          "parent": "https://www.megabank.com.tw/personal/credit-card/loan/layaway-plan"
         }
       ],
-      "startedAt": "2026-09-24T14:22:01.489568Z",
-      "completedAt": "2026-09-24T15:17:50.535699Z"
+      "startedAt": "2026-09-24T21:26:40.504374Z",
+      "completedAt": "2026-09-24T21:31:47.445217Z"
     },
     {
       "bank": "合作金庫",
@@ -7524,56 +7008,56 @@
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/mobile-payment",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/list",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/discount/event",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/discount/taiwan-pay",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/discount/charity",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/discount/event/airport-pickup",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/airport-parking",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/thsr01",
@@ -7587,63 +7071,63 @@
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/insurance",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/parking2022",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/cashback",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/bonus",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/other",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/cash-advance",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/adjustment",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/download",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/update-contact",
@@ -7671,38 +7155,115 @@
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/e-counter",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/deposit-exchange/common-services/foreign-activity",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/wealth/parent-child/promotion",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/wealth/discount/financial-management-discount",
+          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_hash"
+        },
+        {
+          "url": "https://www.tcb-bank.com.tw/personal-banking/wealth/discount/etf",
+          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.tcb-bank.com.tw/personal-banking/investment/icooper/activity",
+          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.tcb-bank.com.tw/personal-banking/investment/bonds-structured-notes/promotion",
+          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.tcb-bank.com.tw/personal-banking/investment/gold/promotion",
+          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.tcb-bank.com.tw/personal-banking/digital-finance/event/taiwan-pay",
+          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/infinite",
+          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_hash"
+        },
+        {
+          "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/kanahei",
+          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/ipass-intro",
+          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/cooperative19",
+          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/cooperative18",
+          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/i-sport",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
@@ -7711,318 +7272,278 @@
       ],
       "unvisited": [
         {
-          "url": "https://www.tcb-bank.com.tw/personal-banking/wealth/discount/etf",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card"
-        },
-        {
-          "url": "https://www.tcb-bank.com.tw/personal-banking/investment/icooper/activity",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card"
-        },
-        {
-          "url": "https://www.tcb-bank.com.tw/personal-banking/investment/bonds-structured-notes/promotion",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card"
-        },
-        {
-          "url": "https://www.tcb-bank.com.tw/personal-banking/investment/gold/promotion",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card"
-        },
-        {
-          "url": "https://www.tcb-bank.com.tw/personal-banking/digital-finance/event/taiwan-pay",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card"
-        },
-        {
-          "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/infinite",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card"
-        },
-        {
-          "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/kanahei",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card"
-        },
-        {
-          "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/ipass-intro",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card"
-        },
-        {
-          "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/cooperative19",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card"
-        },
-        {
-          "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/cooperative18",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card"
-        },
-        {
-          "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/i-sport",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card"
-        },
-        {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/house-loan",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/discount/event/new-event-07",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/discount/event/new-event-08",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/discount/event/thsr01",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/discount/event/113-0368",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card"
         },
         {
           "url": "https://www.tcb-bank.com.tw/about-tcb/announcement/promotion-area/green-life",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/discount/charity/114-0171",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/discount/charity"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/discount/charity/new_event-03",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/discount/charity"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/discount/charity/04",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/discount/charity"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/interests/airport-pickup/114-0333-markup-table.pdf?hash=734D762C65FC42A3265B70A7F0001620&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/discount/event/airport-pickup"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/world-card",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/discount/event/airport-pickup"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/interests/airport-parking/114-0020-taoyuan.pdf?hash=A0B9DC33D230596EDDE8CDD558238FE8&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/airport-parking"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/interests/airport-parking/gao_xiong.pdf?hash=594B729CDAB2A30CD41D9B663B93598D&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/airport-parking"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/interests/insurance/114-0329-insurance-card-115.pdf?hash=794125F6C0916CAAE1B154F74A9F9DA9&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/insurance"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/interests/insurance/114-0329-comprehensive-insurance-accident-notice.pdf?hash=30E0A6C163798E3E8119B1BB5D54757C&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/insurance"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/interests/bonus/113-0335-terms-of-activity.pdf?hash=87A6379BA840D97B9AB26B3DB17ADC9B&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/bonus"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/other/road-aid",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/other"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/other/global-services",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/other"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/other/secretarial-service",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/other"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/services/download/115-0100-tax-installment-table-v11504.pdf?hash=B7B0DE78D692544AD1256D4E67584E32&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/download"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/services/download/115-roadaid-table.pdf?hash=5902C54C65E196D8642073DA433FF7C2&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/download"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/discount/credit-card-buy/115-0001-credit-card-buy-table-v11501.pdf?hash=C28F937AF376C7178E679168DBBAF2A1&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/download"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/services/download/card10203072.pdf?hash=6BB78E1134EB53E2247720330B4DD3E6&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/download"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/services/download/doubt.pdf?hash=0759089445F51244E25AE3297072C007&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/download"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/discount/installment-01/115-0001-bill-installment-tablev11501.pdf?hash=9261A7F6D694A07C63913EBE37CFC171&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/download"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/services/download/easycard_web.pdf?hash=71420A9EBBF10C50D5B963010AABCB6C&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/download"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/services/download/easycombo_web.pdf?hash=35413D36D3828E7A3122C8CE01C7EF3A&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/download"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/services/download/long_revolving_form.pdf?hash=B6F5982BB8B93088804F4F8B7104665B&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/download"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/services/download/mobil.pdf?hash=309020B012DD2C23DFFB0025AABF1C7C&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/download"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/services/download/no07.pdf?hash=1B0E9E13DF25507BE72E4C4B52C3D2C4&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/download"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/discount/installment/115-0001-call-installment-table-v11501.pdf?hash=D02D991662893AD01F0906351479147A&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/download"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/discount/tuition/115-0165-v11502.pdf?hash=25F073E72C74FE0783A6340C49B049FF&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/download"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/services/download/v11203---autopay_payment.pdf?hash=D0F3F4DE22385AA1BC1A456F96A64E12&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/download"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/payments/phone-and-online",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/payments"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/payments/phone-pay-details",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/payments"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/services/payments/credit-card-payment.pdf?hash=5388D5749A6460DAE83C325AB128A0C5&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/payments"
         },
         {
           "url": "https://www.tcb-bank.com.tw/-/media/files/personal-banking/credit-card/services/disclosure/information-11508.pdf?hash=68E0AEA619D6A3B3FA8A42A3372CD223&sc_lang=zh-tw",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/services/disclosure"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement/115-0232",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement/115-0203",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement/115-0197",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement/115-0172",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement/115-0174",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement/115-0172-1",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement/115-0168",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement/27",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement/115-0067",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/common-services/announcement"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/wealth/discount/financial-management-discount/202607",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/wealth/discount/financial-management-discount"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/wealth/discount/financial-management-discount/winner-save",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/wealth/discount/financial-management-discount"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/wealth/discount/financial-management-discount/winner-future",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/wealth/discount/financial-management-discount"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/wealth/discount/financial-management-discount/trend",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/wealth/discount/financial-management-discount"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/wealth/discount/financial-management-discount/good-salary",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.tcb-bank.com.tw/personal-banking/wealth/discount/financial-management-discount"
+        },
+        {
+          "url": "https://www.tcb-bank.com.tw/personal-banking/wealth/discount/etf/good-days",
+          "reason": "page_limit",
+          "parent": "https://www.tcb-bank.com.tw/personal-banking/wealth/discount/etf"
+        },
+        {
+          "url": "https://www.tcb-bank.com.tw/personal-banking/investment/gold/promotion/promotion-01",
+          "reason": "page_limit",
+          "parent": "https://www.tcb-bank.com.tw/personal-banking/investment/gold/promotion"
+        },
+        {
+          "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/interests/parking",
+          "reason": "page_limit",
+          "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/kanahei"
         }
       ],
-      "startedAt": "2026-09-24T14:24:18.826715Z",
-      "completedAt": "2026-09-24T15:17:50.524420Z"
+      "startedAt": "2026-09-24T21:26:41.012905Z",
+      "completedAt": "2026-09-24T21:32:52.686124Z"
     },
     {
       "bank": "上海商銀",
@@ -8046,8 +7567,8 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-09-24T14:28:13.531987Z",
-      "completedAt": "2026-09-24T14:28:15.388613Z"
+      "startedAt": "2026-09-24T21:27:01.343046Z",
+      "completedAt": "2026-09-24T21:27:03.346930Z"
     },
     {
       "bank": "遠東商銀",
@@ -8064,7 +7585,7 @@
           "url": "https://www.feib.com.tw/upload/personalloan/event/PL2/FEIBEVENT.html",
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
-          "renderer": "playwright",
+          "renderer": "httpx",
           "status": "analyzed"
         },
         {
@@ -8072,8 +7593,7 @@
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectError: [Errno -3] Temporary failure in name resolution; Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.feib.com.tw/introduce?id=143\nCall log:\n  - navigating to \"https://www.feib.com.tw/introduce?id=143\", waiting until \"domcontentloaded\"\n"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/introduce?id=195",
@@ -8087,36 +7607,34 @@
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/detail?id=479",
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectError: [Errno -5] No address associated with hostname; Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.feib.com.tw/detail?id=479\nCall log:\n  - navigating to \"https://www.feib.com.tw/detail?id=479\", waiting until \"domcontentloaded\"\n"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/upload/creditcard/phasedshopping/index.html",
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
-          "renderer": "playwright",
-          "status": "ai_failed_preserved_old_data"
+          "renderer": "httpx",
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/etag/home",
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectError: [Errno -5] No address associated with hostname; Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.feib.com.tw/etag/home\nCall log:\n  - navigating to \"https://www.feib.com.tw/etag/home\", waiting until \"domcontentloaded\"\n"
+          "renderer": "playwright",
+          "status": "insufficient_content"
         },
         {
           "url": "https://www.feib.com.tw/upload/creditcard/MGM/index.html",
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
-          "renderer": "playwright",
+          "renderer": "httpx",
           "status": "analyzed"
         },
         {
@@ -8124,14 +7642,13 @@
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectError: [Errno -3] Temporary failure in name resolution; Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.feib.com.tw/detail?id=157\nCall log:\n  - navigating to \"https://www.feib.com.tw/detail?id=157\", waiting until \"domcontentloaded\"\n"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/introduce?id=17",
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
-          "renderer": "playwright",
+          "renderer": "httpx",
           "status": "analyzed"
         },
         {
@@ -8139,14 +7656,13 @@
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectError: [Errno -3] Temporary failure in name resolution; Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.feib.com.tw/activity?id=4777\nCall log:\n  - navigating to \"https://www.feib.com.tw/activity?id=4777\", waiting until \"domcontentloaded\"\n"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/upload/IndividualBank/WM/happypension/index.html",
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
-          "renderer": "playwright",
+          "renderer": "httpx",
           "status": "analyzed"
         },
         {
@@ -8154,64 +7670,63 @@
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectError: [Errno -3] Temporary failure in name resolution; Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.feib.com.tw/introduce?id=18\nCall log:\n  - navigating to \"https://www.feib.com.tw/introduce?id=18\", waiting until \"domcontentloaded\"\n"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/L2?focusid=type2&id=p29",
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
-          "renderer": "playwright",
-          "status": "ai_failed_preserved_old_data"
+          "renderer": "httpx",
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/upload/creditcard/HappyCardinfinite/index.html",
           "parent": "https://www.feib.com.tw/introduce/cardInfo?type=1",
           "depth": 2,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/upload/creditcard/HGTOP/index.html",
           "parent": "https://www.feib.com.tw/introduce/cardInfo?type=1",
           "depth": 2,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/upload/creditcard/NCTOP/index.html",
           "parent": "https://www.feib.com.tw/introduce/cardInfo?type=1",
           "depth": 2,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/upload/creditcard/NC/index.html",
           "parent": "https://www.feib.com.tw/introduce/cardInfo?type=1",
           "depth": 2,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/upload/creditcard/EBCard/index.html",
           "parent": "https://www.feib.com.tw/introduce/cardInfo?type=1",
           "depth": 2,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/upload/creditcard/eTagCard/index.html",
           "parent": "https://www.feib.com.tw/introduce/cardInfo?type=1",
           "depth": 2,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/upload/creditcard/Eden/index.html",
           "parent": "https://www.feib.com.tw/introduce/cardInfo?type=1",
           "depth": 2,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/upload/disclosure/creditcard/pdf/c29.pdf",
@@ -8225,27 +7740,27 @@
           "parent": "https://www.feib.com.tw/introduce/cardInfo?type=1",
           "depth": 2,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/detail?id=312",
           "parent": "https://www.feib.com.tw/introduce/cardInfo?type=1",
           "depth": 2,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/creditCardMgm/p3",
           "parent": "https://www.feib.com.tw/upload/creditcard/MGM/index.html",
           "depth": 2,
           "renderer": "playwright",
-          "status": "insufficient_content"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.feib.com.tw/detail?id=156",
           "parent": "https://www.feib.com.tw/introduce?id=17",
           "depth": 2,
-          "renderer": "httpx",
+          "renderer": "playwright",
           "status": "analyzed"
         },
         {
@@ -8253,44 +7768,42 @@
           "parent": "https://www.feib.com.tw/introduce?id=17",
           "depth": 2,
           "renderer": "httpx",
-          "status": "ai_failed_preserved_old_data"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/detail?id=160",
           "parent": "https://www.feib.com.tw/introduce?id=17",
           "depth": 2,
           "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectError: [Errno -3] Temporary failure in name resolution; Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.feib.com.tw/detail?id=160\nCall log:\n  - navigating to \"https://www.feib.com.tw/detail?id=160\", waiting until \"domcontentloaded\"\n"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/upload/creditcard/HappyCardinfinite/feib_group.html",
           "parent": "https://www.feib.com.tw/upload/creditcard/HappyCardinfinite/index.html",
           "depth": 3,
-          "renderer": "playwright",
-          "status": "ai_failed_preserved_old_data"
+          "renderer": "httpx",
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/upload/creditcard/HappyCardinfinite/life.html",
           "parent": "https://www.feib.com.tw/upload/creditcard/HappyCardinfinite/index.html",
           "depth": 3,
-          "renderer": "playwright",
-          "status": "ai_failed_preserved_old_data"
+          "renderer": "httpx",
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/upload/creditcard/HappyCardinfinite/happy.html",
           "parent": "https://www.feib.com.tw/upload/creditcard/HappyCardinfinite/index.html",
           "depth": 3,
           "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.feib.com.tw/upload/creditcard/HappyCardinfinite/happy.html\nCall log:\n  - navigating to \"https://www.feib.com.tw/upload/creditcard/HappyCardinfinite/happy.html\", waiting until \"domcontentloaded\"\n"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/detail?id=179",
           "parent": "https://www.feib.com.tw/upload/creditcard/eTagCard/index.html",
           "depth": 3,
-          "renderer": "playwright",
-          "status": "ai_failed_preserved_old_data"
+          "renderer": "httpx",
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/upload/creditcard/eTagCard/service.html",
@@ -8311,23 +7824,22 @@
           "url": "https://www.feib.com.tw/upload/creditcard/YACard/index.html",
           "parent": "https://www.feib.com.tw/upload/creditcard/PayOnline/twpay/mopay.html",
           "depth": 3,
-          "renderer": "playwright",
-          "status": "ai_failed_preserved_old_data"
+          "renderer": "httpx",
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/upload/creditcard/HappyCardRed/index.html",
           "parent": "https://www.feib.com.tw/upload/creditcard/PayOnline/twpay/mopay.html",
           "depth": 3,
           "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectError: [Errno -3] Temporary failure in name resolution; Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.feib.com.tw/upload/creditcard/HappyCardRed/index.html\nCall log:\n  - navigating to \"https://www.feib.com.tw/upload/creditcard/HappyCardRed/index.html\", waiting until \"domcontentloaded\"\n"
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/detail?id=437",
           "parent": "https://www.feib.com.tw/detail?id=312",
           "depth": 3,
-          "renderer": "playwright",
-          "status": "workflow_time_budget"
+          "renderer": "httpx",
+          "status": "analyzed"
         }
       ],
       "unvisited": [
@@ -8360,10 +7872,15 @@
           "url": "https://www.feib.com.tw/upload/creditcard/YACard/page6.html",
           "reason": "depth_limit",
           "parent": "https://www.feib.com.tw/upload/creditcard/YACard/index.html"
+        },
+        {
+          "url": "https://www.feib.com.tw/activity?id=1183",
+          "reason": "depth_limit",
+          "parent": "https://www.feib.com.tw/upload/creditcard/HappyCardRed/index.html"
         }
       ],
-      "startedAt": "2026-09-24T14:28:15.391767Z",
-      "completedAt": "2026-09-24T15:17:50.546866Z"
+      "startedAt": "2026-09-24T21:27:03.351053Z",
+      "completedAt": "2026-09-24T21:36:49.551152Z"
     },
     {
       "bank": "凱基銀行",
@@ -8379,8 +7896,8 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-09-24T15:09:34.551916Z",
-      "completedAt": "2026-09-24T15:09:37.333590Z"
+      "startedAt": "2026-09-24T21:27:27.312945Z",
+      "completedAt": "2026-09-24T21:27:28.938732Z"
     },
     {
       "bank": "安泰銀行",
@@ -8391,282 +7908,659 @@
           "parent": null,
           "depth": 0,
           "renderer": "playwright",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.entiebank.com.tw/entie/1_3",
           "parent": "https://www.entiebank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "workflow_time_budget"
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_0",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_102",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_103",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_104",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_5",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_6_400",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_5_7",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_5",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/3.1",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/3.1.4",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/3.4",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/3.4.3",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/3.5.3",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/0.1.6.6",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/0.1.6.7",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1140354",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "insufficient_content"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/home",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/upload/%E5%AE%89%E6%B3%B0%E9%8A%80%E8%A1%8C%E4%BF%A1%E7%94%A8%E5%8D%A1%E5%90%84%E9%A0%85%E8%B2%BB%E7%94%A8%E8%AA%AA%E6%98%8E.pdf",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "none",
+          "status": "needs_pdf_parser"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_2_1_4",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_2_300",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_1_200",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_2_4",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_6_1",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_3_100",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_1_2",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "ai_failed_preserved_old_data"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/creditCardintro02",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_3_6",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_4_2",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/EntieWebMigrateFiles/creditCard/googlepay/index.html",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_4_1",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_5_100",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "fetch_failed",
+          "error": "insufficient_static_content; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.entiebank.com.tw/entie/1_3_5_100\", waiting until \"domcontentloaded\"\n"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_5_2000",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "fetch_failed",
+          "error": "insufficient_static_content; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.entiebank.com.tw/entie/1_3_5_2000\", waiting until \"domcontentloaded\"\n"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_5_2",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_5_111",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_6_200",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_8_1",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_8_2",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_8_8",
+          "parent": "https://www.entiebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
         }
       ],
       "unvisited": [
         {
-          "url": "https://www.entiebank.com.tw/entie/1_3_0",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_102",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_103",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_104",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_5",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_6_400",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_5_7",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_5",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/3.1",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/3.1.4",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/3.4",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/3.4.3",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/3.5.3",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/0.1.6.6",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/0.1.6.7",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/campaign/1140354",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/home",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/upload/%E5%AE%89%E6%B3%B0%E9%8A%80%E8%A1%8C%E4%BF%A1%E7%94%A8%E5%8D%A1%E5%90%84%E9%A0%85%E8%B2%BB%E7%94%A8%E8%AA%AA%E6%98%8E.pdf",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_2_1_4",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_2_300",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_1_200",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_2_4",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_6_1",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_3_100",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_1_2",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/creditCardintro02",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_3_6",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_4_2",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/EntieWebMigrateFiles/creditCard/googlepay/index.html",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_4_1",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_5_100",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_5_2000",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_5_2",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_5_111",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_6_200",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_8_1",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_8_2",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
-          "url": "https://www.entiebank.com.tw/entie/1_3_8_8",
-          "reason": "workflow_time_budget",
-          "parent": "https://www.entiebank.com.tw/"
-        },
-        {
           "url": "https://www.entiebank.com.tw/entie/1_3_8_9",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.entiebank.com.tw/"
         },
         {
           "url": "https://www.entiebank.com.tw/entie/1_3_13_2",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.entiebank.com.tw/"
         },
         {
           "url": "https://www.entiebank.com.tw/entie/campaign/1130393",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.entiebank.com.tw/"
         },
         {
           "url": "https://www.entiebank.com.tw/creditcard/googlepay/index.html",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.entiebank.com.tw/"
         },
         {
           "url": "https://www.entiebank.com.tw/webchat/?meth=A001",
-          "reason": "workflow_time_budget",
+          "reason": "page_limit",
           "parent": "https://www.entiebank.com.tw/"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_2_1",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150589",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150559",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150531",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150485",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150484",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150495",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150423",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150422",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150333",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1140625c",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1140625a",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150293",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150251",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150208",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150135",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/EntieWebMigrateFiles/1150127/1150127.htm",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150130",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1140888",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1140846",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1140625b",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1140534b",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1140534a",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1120526a",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1140408",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1130917d",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1130917c",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1130917b",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1120509",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1110452",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/EntieWebMigrateFiles/1080436/1080436.htm",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_102"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_3_5",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_104"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_5_1",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_5"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_5_1_1",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_5"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/3.1.1",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/3.1"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/3.4.1",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/3.4"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/1_3_101",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/3.5.3"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1140670",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_2_1_4"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1130424",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_2_1_4"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1130418",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_2_1_4"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150069",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_2_1_4"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/ENTIE/CAMPAIGN/1150559",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_2_300"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/ENTIE/CAMPAIGN/1150333",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_2_300"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/ENTIE/CAMPAIGN/1150485",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_2_300"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150010a",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_2_4"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150010b",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_2_4"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150010c",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_2_4"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150010d",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_2_4"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/entie/campaign/1150010e",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_2_4"
+        },
+        {
+          "url": "https://www.entiebank.com.tw/upload/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%B6%88%E8%B2%BB%E5%88%86%E6%9C%9F%E4%BB%98%E6%AC%BE%E7%94%B3%E8%AB%8B%E8%A1%A8%E6%9A%A8%E7%B4%84%E5%AE%9A%E4%BA%8B%E9%A0%85.pdf",
+          "reason": "page_limit",
+          "parent": "https://www.entiebank.com.tw/entie/1_3_8_8"
         }
       ],
-      "startedAt": "2026-09-24T15:09:37.336735Z",
-      "completedAt": "2026-09-24T15:17:50.544892Z"
+      "startedAt": "2026-09-24T21:27:28.942442Z",
+      "completedAt": "2026-09-24T21:42:33.829798Z"
     },
     {
       "bank": "樂天信用卡",
       "status": "needs_review",
-      "pages": [],
-      "unvisited": [
+      "pages": [
         {
           "url": "https://www.rakuten.com.tw/card/",
-          "reason": "workflow_time_budget",
-          "parent": null
+          "parent": null,
+          "depth": 0,
+          "renderer": "httpx",
+          "status": "fetch_failed",
+          "error": "ReadTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.rakuten.com.tw/card/\", waiting until \"domcontentloaded\"\n"
         }
       ],
-      "startedAt": "2026-09-24T15:17:50.551027Z",
-      "completedAt": "2026-09-24T15:17:50.554229Z"
+      "unvisited": [],
+      "startedAt": "2026-09-24T21:31:47.495557Z",
+      "completedAt": "2026-09-24T21:32:37.709548Z"
     },
     {
       "bank": "陽信銀行",
       "status": "needs_review",
-      "pages": [],
-      "unvisited": [
+      "pages": [
         {
           "url": "https://www.sunnybank.com.tw/",
-          "reason": "workflow_time_budget",
-          "parent": null
+          "parent": null,
+          "depth": 0,
+          "renderer": "playwright",
+          "status": "insufficient_content"
         }
       ],
-      "startedAt": "2026-09-24T15:17:50.551777Z",
-      "completedAt": "2026-09-24T15:17:50.555981Z"
+      "unvisited": [],
+      "startedAt": "2026-09-24T21:32:37.714660Z",
+      "completedAt": "2026-09-24T21:32:39.283827Z"
     },
     {
       "bank": "三信商銀",
-      "status": "needs_review",
-      "pages": [],
-      "unvisited": [
+      "status": "completed",
+      "pages": [
         {
           "url": "https://www.cotabank.com.tw/",
-          "reason": "workflow_time_budget",
-          "parent": null
+          "parent": null,
+          "depth": 0,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.cotabank.com.tw/card/",
+          "parent": "https://www.cotabank.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.cotabank.com.tw/card/doc/card_pdf_debit.pdf",
+          "parent": "https://www.cotabank.com.tw/card/",
+          "depth": 2,
+          "renderer": "none",
+          "status": "needs_pdf_parser"
+        },
+        {
+          "url": "https://www.cotabank.com.tw/card/doc/card_pdf_loha_new.pdf",
+          "parent": "https://www.cotabank.com.tw/card/",
+          "depth": 2,
+          "renderer": "none",
+          "status": "needs_pdf_parser"
+        },
+        {
+          "url": "https://www.cotabank.com.tw/card/doc/card_pdf_RiskAwarness_DataProtection.pdf",
+          "parent": "https://www.cotabank.com.tw/card/",
+          "depth": 2,
+          "renderer": "none",
+          "status": "needs_pdf_parser"
+        },
+        {
+          "url": "https://www.cotabank.com.tw/card/doc/card_pdf_revolvingCredit.pdf",
+          "parent": "https://www.cotabank.com.tw/card/",
+          "depth": 2,
+          "renderer": "none",
+          "status": "needs_pdf_parser"
+        },
+        {
+          "url": "https://www.cotabank.com.tw/card/doc/card_pdf_cardLost.pdf",
+          "parent": "https://www.cotabank.com.tw/card/",
+          "depth": 2,
+          "renderer": "none",
+          "status": "needs_pdf_parser"
         }
       ],
-      "startedAt": "2026-09-24T15:17:50.552176Z",
-      "completedAt": "2026-09-24T15:17:50.557234Z"
+      "unvisited": [],
+      "startedAt": "2026-09-24T21:32:39.289932Z",
+      "completedAt": "2026-09-24T21:33:35.323984Z"
     }
   ],
   "summary": {
     "banks": 23,
-    "needsReview": 19,
-    "aiRequests": 360
+    "needsReview": 17,
+    "aiRequests": 204
   }
 }
