@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "description": "台灣信用卡發卡機構主清單。enabled 僅代表已設定可執行入口，不代表涵蓋率驗證通過。",
-  "lastUpdatedAt": "2026-09-25T02:52:07.140740Z",
+  "lastUpdatedAt": "2026-09-25T03:47:24.693274Z",
   "issuers": [
     {
       "name": "永豐銀行",
@@ -23,8 +23,8 @@
       ],
       "eventLinkPattern": "discount/(?!list).+\\.html",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 68,
-      "discoveredOfferCount": 109,
+      "discoveredCardCount": 60,
+      "discoveredOfferCount": 107,
       "unvisitedPageCount": 156,
       "failedPageCount": 0,
       "lastScanAt": "2026-09-24T21:26:01.715726Z",
@@ -50,8 +50,8 @@
       ],
       "eventLinkPattern": "/personal/event/",
       "lastSuccessfulScanAt": "2026-09-24T21:25:43.702085Z",
-      "discoveredCardCount": 9,
-      "discoveredOfferCount": 55,
+      "discoveredCardCount": 7,
+      "discoveredOfferCount": 50,
       "unvisitedPageCount": 0,
       "failedPageCount": 0,
       "lastScanAt": "2026-09-24T21:25:43.702085Z",
@@ -81,8 +81,8 @@
       ],
       "eventLinkPattern": "/personal/credit-card/(discount|tools)/",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 55,
-      "discoveredOfferCount": 279,
+      "discoveredCardCount": 48,
+      "discoveredOfferCount": 266,
       "unvisitedPageCount": 146,
       "failedPageCount": 1,
       "lastScanAt": "2026-09-24T21:25:53.474922Z",
@@ -109,7 +109,7 @@
       "eventLinkPattern": "/event/.+\\.htm",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 23,
-      "discoveredOfferCount": 83,
+      "discoveredOfferCount": 82,
       "unvisitedPageCount": 73,
       "failedPageCount": 0,
       "lastScanAt": "2026-09-24T21:25:57.173171Z",
@@ -135,7 +135,7 @@
       ],
       "eventLinkPattern": "/personal/credit/discount/",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 36,
+      "discoveredCardCount": 32,
       "discoveredOfferCount": 31,
       "unvisitedPageCount": 36,
       "failedPageCount": 1,
@@ -168,7 +168,7 @@
       "eventLinkPattern": "/cc_offer/",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 6,
-      "discoveredOfferCount": 183,
+      "discoveredOfferCount": 179,
       "unvisitedPageCount": 71,
       "failedPageCount": 29,
       "lastScanAt": "2026-09-24T21:26:37.247185Z",
@@ -253,10 +253,12 @@
       "eventLinkPattern": "(credit|card|信用卡|優惠)",
       "coverageNote": "產品入口仍需由首次 crawl_report 驗證",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 0,
-      "discoveredOfferCount": 0,
-      "unvisitedPageCount": 0,
-      "failedPageCount": 0
+      "discoveredCardCount": 8,
+      "discoveredOfferCount": 2,
+      "unvisitedPageCount": 49,
+      "failedPageCount": 3,
+      "lastScanAt": "2026-09-25T03:45:25.598784Z",
+      "lastScanStatus": "needs_review"
     },
     {
       "name": "滙豐銀行",
@@ -305,7 +307,7 @@
       ],
       "eventLinkPattern": "/tw/(credit-cards|promotions)/",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 13,
+      "discoveredCardCount": 12,
       "discoveredOfferCount": 52,
       "unvisitedPageCount": 28,
       "failedPageCount": 1,
@@ -359,7 +361,7 @@
       ],
       "eventLinkPattern": "/bank-web/personal/credit-card/",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 52,
+      "discoveredCardCount": 49,
       "discoveredOfferCount": 67,
       "unvisitedPageCount": 138,
       "failedPageCount": 0,
@@ -467,8 +469,8 @@
       ],
       "eventLinkPattern": "(credit-card|creditcard|event|activity)",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 44,
-      "discoveredOfferCount": 49,
+      "discoveredCardCount": 34,
+      "discoveredOfferCount": 47,
       "unvisitedPageCount": 85,
       "failedPageCount": 0,
       "lastScanAt": "2026-09-24T21:31:47.445217Z",
@@ -494,8 +496,8 @@
       ],
       "eventLinkPattern": "/personal-banking/credit-card/",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 38,
-      "discoveredOfferCount": 64,
+      "discoveredCardCount": 30,
+      "discoveredOfferCount": 63,
       "unvisitedPageCount": 54,
       "failedPageCount": 0,
       "lastScanAt": "2026-09-24T21:32:52.686124Z",
@@ -548,7 +550,7 @@
       ],
       "eventLinkPattern": "(credit|card|event|activity|campaign)",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 25,
+      "discoveredCardCount": 21,
       "discoveredOfferCount": 58,
       "unvisitedPageCount": 7,
       "failedPageCount": 2,
@@ -602,7 +604,7 @@
       ],
       "eventLinkPattern": "(credit|card|event|activity)",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 11,
+      "discoveredCardCount": 5,
       "discoveredOfferCount": 10,
       "unvisitedPageCount": 55,
       "failedPageCount": 4,
@@ -666,7 +668,9 @@
     {
       "name": "王道銀行",
       "issuesCreditCards": false,
-      "productTypes": ["DEBIT"],
+      "productTypes": [
+        "DEBIT"
+      ],
       "tier": 3,
       "scanFrequency": "weekly",
       "enabled": true,
@@ -680,150 +684,248 @@
       "allowedHosts": [
         "www.o-bank.com"
       ],
-      "captureModes": ["httpx", "playwright"],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
       "eventLinkPattern": "(debit|card|event|activity|offer)",
       "coverageNote": "僅收錄具實質消費回饋的簽帳金融卡",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 0,
-      "discoveredOfferCount": 0,
+      "discoveredCardCount": 15,
+      "discoveredOfferCount": 30,
       "unvisitedPageCount": 0,
-      "failedPageCount": 0
+      "failedPageCount": 2,
+      "lastScanAt": "2026-09-25T03:41:30.018690Z",
+      "lastScanStatus": "needs_review"
     },
     {
       "name": "將來銀行",
       "issuesCreditCards": false,
-      "productTypes": ["DEBIT"],
+      "productTypes": [
+        "DEBIT"
+      ],
       "tier": 2,
       "scanFrequency": "daily",
       "enabled": true,
-      "cardCatalogUrls": ["https://www.nextbank.com.tw/product/card"],
-      "offerPortalUrls": ["https://www.nextbank.com.tw/"],
+      "cardCatalogUrls": [
+        "https://www.nextbank.com.tw/product/card"
+      ],
+      "offerPortalUrls": [
+        "https://www.nextbank.com.tw/"
+      ],
       "registrationPortalUrls": [],
-      "allowedHosts": ["www.nextbank.com.tw"],
-      "captureModes": ["httpx", "playwright"],
+      "allowedHosts": [
+        "www.nextbank.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
       "eventLinkPattern": "(card|debit|event|campaign|news)",
       "coverageNote": "將將卡等具消費回饋的簽帳金融卡",
-      "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 0,
-      "discoveredOfferCount": 0,
+      "lastSuccessfulScanAt": "2026-09-25T03:38:11.496551Z",
+      "discoveredCardCount": 6,
+      "discoveredOfferCount": 19,
       "unvisitedPageCount": 0,
-      "failedPageCount": 0
+      "failedPageCount": 0,
+      "lastScanAt": "2026-09-25T03:38:11.496551Z",
+      "lastScanStatus": "completed"
     },
     {
       "name": "LINE Bank",
       "issuesCreditCards": false,
-      "productTypes": ["DEBIT"],
+      "productTypes": [
+        "DEBIT"
+      ],
       "tier": 2,
       "scanFrequency": "daily",
       "enabled": true,
-      "cardCatalogUrls": ["https://www.linebank.com.tw/"],
-      "offerPortalUrls": ["https://www.linebank.com.tw/"],
+      "cardCatalogUrls": [
+        "https://www.linebank.com.tw/"
+      ],
+      "offerPortalUrls": [
+        "https://www.linebank.com.tw/"
+      ],
       "registrationPortalUrls": [],
-      "allowedHosts": ["www.linebank.com.tw", "corp.linebank.com.tw"],
-      "captureModes": ["httpx", "playwright"],
+      "allowedHosts": [
+        "www.linebank.com.tw",
+        "corp.linebank.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
       "eventLinkPattern": "(card|debit|event|campaign|news)",
       "coverageNote": "快點卡等具消費回饋的簽帳金融卡",
-      "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 0,
+      "lastSuccessfulScanAt": "2026-09-25T03:27:48.320115Z",
+      "discoveredCardCount": 1,
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
-      "failedPageCount": 0
+      "failedPageCount": 0,
+      "lastScanAt": "2026-09-25T03:27:48.320115Z",
+      "lastScanStatus": "completed"
     },
     {
       "name": "樂天國際商業銀行",
       "issuesCreditCards": false,
-      "productTypes": ["DEBIT"],
+      "productTypes": [
+        "DEBIT"
+      ],
       "tier": 2,
       "scanFrequency": "weekly",
       "enabled": true,
-      "cardCatalogUrls": ["https://www.rakuten-bank.com.tw/"],
-      "offerPortalUrls": ["https://www.rakuten-bank.com.tw/"],
+      "cardCatalogUrls": [
+        "https://www.rakuten-bank.com.tw/"
+      ],
+      "offerPortalUrls": [
+        "https://www.rakuten-bank.com.tw/"
+      ],
       "registrationPortalUrls": [],
-      "allowedHosts": ["www.rakuten-bank.com.tw"],
-      "captureModes": ["httpx", "playwright"],
+      "allowedHosts": [
+        "www.rakuten-bank.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
       "eventLinkPattern": "(card|debit|event|campaign|news)",
       "coverageNote": "只收錄具實質消費回饋的簽帳金融卡",
-      "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 0,
+      "lastSuccessfulScanAt": "2026-09-25T03:29:38.225622Z",
+      "discoveredCardCount": 1,
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
-      "failedPageCount": 0
+      "failedPageCount": 0,
+      "lastScanAt": "2026-09-25T03:29:38.225622Z",
+      "lastScanStatus": "completed"
     },
     {
       "name": "美國運通",
       "issuesCreditCards": true,
-      "productTypes": ["CREDIT", "CHARGE"],
+      "productTypes": [
+        "CREDIT",
+        "CHARGE"
+      ],
       "tier": 3,
       "scanFrequency": "weekly",
       "enabled": true,
-      "cardCatalogUrls": ["https://www.americanexpress.com/zh-tw/credit-cards/all-cards/"],
-      "offerPortalUrls": ["https://www.americanexpress.com/zh-tw/benefits/"],
+      "cardCatalogUrls": [
+        "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/"
+      ],
+      "offerPortalUrls": [
+        "https://www.americanexpress.com/zh-tw/benefits/"
+      ],
       "registrationPortalUrls": [],
-      "allowedHosts": ["www.americanexpress.com"],
-      "captureModes": ["httpx", "playwright"],
+      "allowedHosts": [
+        "www.americanexpress.com"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
       "eventLinkPattern": "(credit-cards|benefits|offers)",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 0,
-      "discoveredOfferCount": 0,
-      "unvisitedPageCount": 0,
-      "failedPageCount": 0
+      "discoveredCardCount": 9,
+      "discoveredOfferCount": 37,
+      "unvisitedPageCount": 29,
+      "failedPageCount": 11,
+      "lastScanAt": "2026-09-25T03:43:52.443588Z",
+      "lastScanStatus": "needs_review"
     },
     {
       "name": "臺灣中小企業銀行",
       "issuesCreditCards": true,
-      "productTypes": ["CREDIT"],
+      "productTypes": [
+        "CREDIT"
+      ],
       "tier": 4,
       "scanFrequency": "weekly",
       "enabled": true,
-      "cardCatalogUrls": ["https://www.tbb.com.tw/zh-tw/personal/credit-card"],
-      "offerPortalUrls": ["https://www.tbb.com.tw/zh-tw/personal/credit-card"],
+      "cardCatalogUrls": [
+        "https://www.tbb.com.tw/zh-tw/personal/credit-card"
+      ],
+      "offerPortalUrls": [
+        "https://www.tbb.com.tw/zh-tw/personal/credit-card"
+      ],
       "registrationPortalUrls": [],
-      "allowedHosts": ["www.tbb.com.tw"],
-      "captureModes": ["httpx", "playwright"],
+      "allowedHosts": [
+        "www.tbb.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
       "eventLinkPattern": "(credit-card|event|activity|offer)",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 0,
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
-      "failedPageCount": 0
+      "failedPageCount": 1,
+      "lastScanAt": "2026-09-25T03:38:12.986528Z",
+      "lastScanStatus": "needs_review"
     },
     {
       "name": "臺灣銀行",
       "issuesCreditCards": true,
-      "productTypes": ["CREDIT"],
+      "productTypes": [
+        "CREDIT"
+      ],
       "tier": 4,
       "scanFrequency": "weekly",
       "enabled": true,
-      "cardCatalogUrls": ["https://www.bot.com.tw/tw/personal-banking/credit-card"],
-      "offerPortalUrls": ["https://www.bot.com.tw/tw/personal-banking/credit-card"],
+      "cardCatalogUrls": [
+        "https://www.bot.com.tw/tw/personal-banking/credit-card"
+      ],
+      "offerPortalUrls": [
+        "https://www.bot.com.tw/tw/personal-banking/credit-card"
+      ],
       "registrationPortalUrls": [],
-      "allowedHosts": ["www.bot.com.tw"],
-      "captureModes": ["httpx", "playwright"],
+      "allowedHosts": [
+        "www.bot.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
       "eventLinkPattern": "(credit-card|card|event|activity)",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 0,
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
-      "failedPageCount": 0
+      "failedPageCount": 1,
+      "lastScanAt": "2026-09-25T03:38:14.374551Z",
+      "lastScanStatus": "needs_review"
     },
     {
       "name": "臺灣土地銀行",
       "issuesCreditCards": true,
-      "productTypes": ["CREDIT"],
+      "productTypes": [
+        "CREDIT"
+      ],
       "tier": 4,
       "scanFrequency": "weekly",
       "enabled": true,
-      "cardCatalogUrls": ["https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1"],
-      "offerPortalUrls": ["https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1"],
+      "cardCatalogUrls": [
+        "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1"
+      ],
+      "offerPortalUrls": [
+        "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1"
+      ],
       "registrationPortalUrls": [],
-      "allowedHosts": ["www.landbank.com.tw"],
-      "captureModes": ["httpx", "playwright"],
+      "allowedHosts": [
+        "www.landbank.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
       "eventLinkPattern": "(credit|card|event|activity)",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 0,
-      "discoveredOfferCount": 0,
-      "unvisitedPageCount": 0,
-      "failedPageCount": 0
+      "discoveredCardCount": 12,
+      "discoveredOfferCount": 23,
+      "unvisitedPageCount": 1,
+      "failedPageCount": 7,
+      "lastScanAt": "2026-09-25T03:47:23.947211Z",
+      "lastScanStatus": "needs_review"
     }
   ]
 }
