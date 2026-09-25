@@ -1525,6 +1525,18 @@
         capPeriod: safePlainText(rawRule.capPeriod),
         minimumSpend: typeof rawRule.minimumSpend === 'number' ? rawRule.minimumSpend : null,
         eligibilityRequirements: Array.isArray(rawRule.eligibilityRequirements) ? rawRule.eligibilityRequirements.map(value => safePlainText(value)) : [],
+        rewardCalculationMode: safePlainText(rawRule.rewardCalculationMode || 'UNKNOWN').toUpperCase(),
+        rewardTiers: Array.isArray(rawRule.rewardTiers) ? rawRule.rewardTiers.map(tier => ({
+          name: safePlainText(tier.name, '指定等級'),
+          totalRate: Number(tier.totalRate) || 0,
+          baseRate: Number(tier.baseRate) || 0,
+          promoRate: Number(tier.promoRate) || 0,
+          isDefault: tier.isDefault === true,
+          requirements: Array.isArray(tier.requirements) ? tier.requirements.map(value => safePlainText(value)) : [],
+          capAmount: Number.isFinite(Number(tier.capAmount)) ? Number(tier.capAmount) : null,
+          capPeriod: safePlainText(tier.capPeriod)
+        })).filter(tier => tier.totalRate >= 0 && tier.totalRate <= 100) : [],
+        maxRateRequires: Array.isArray(rawRule.maxRateRequires) ? rawRule.maxRateRequires.map(value => safePlainText(value)) : [],
         fetchedAt: rawRule.fetchedAt || '',
         quotaInfo: safePlainText(rawRule.quotaInfo),
         excludedKeywords: Array.isArray(rawRule.excludedKeywords) ? rawRule.excludedKeywords.map(value => safePlainText(value)) : []
@@ -1928,6 +1940,15 @@
       let isBoostActive = false;
       let effectiveRate = rule.baseRate || 0;
       let potentialRate = (rule.baseRate || 0) + (rule.promoRate || 0);
+      const tiers = Array.isArray(rule.rewardTiers) ? rule.rewardTiers.filter(tier => tier.totalRate >= 0) : [];
+      if (rule.rewardCalculationMode === 'TIERED' && tiers.length) {
+        const defaultTier = tiers.find(tier => tier.isDefault) || [...tiers].sort((a, b) => a.totalRate - b.totalRate)[0];
+        effectiveRate = Number(defaultTier.totalRate) || 0;
+        potentialRate = Math.max(...tiers.map(tier => Number(tier.totalRate) || 0));
+      } else if (rule.rewardCalculationMode === 'MAX_ONLY') {
+        effectiveRate = 0;
+        potentialRate = Math.max(Number(rule.baseRate) || 0, Number(rule.promoRate) || 0);
+      }
       
       if (!rule.needReg || rule.registered) {
         effectiveRate += (rule.promoRate || 0);
@@ -2056,6 +2077,8 @@
       if (/完成.*任務|指定任務/.test(text)) reasons.push('需完成任務');
       if (/限量|限額/.test(text)) reasons.push('名額有限');
       if (/消費滿|滿額|累積滿/.test(text)) reasons.push('有消費門檻');
+      if (rule.rewardCalculationMode === 'TIERED') reasons.push('依資格等級回饋不同');
+      if (rule.rewardCalculationMode === 'MAX_ONLY') reasons.push('僅確認最高回饋');
       if (String(rule.rewardType || '').toLowerCase() === 'cash'
           && Number(rule.capAmount) > 0
           && Number(rule.rewardAmount) === Number(rule.capAmount)
@@ -2080,7 +2103,18 @@
         && calc.potentialRate > 0;
       let amount = '';
       let caption = '';
-      if (isPercent) {
+      if (rule.rewardCalculationMode === 'TIERED' && Array.isArray(rule.rewardTiers) && rule.rewardTiers.length) {
+        const defaultTier = rule.rewardTiers.find(tier => tier.isDefault)
+          || [...rule.rewardTiers].sort((a, b) => a.totalRate - b.totalRate)[0];
+        const maximum = Math.max(...rule.rewardTiers.map(tier => Number(tier.totalRate) || 0));
+        amount = `${Number(defaultTier.totalRate) || 0}%`;
+        caption = maximum > Number(defaultTier.totalRate)
+          ? `一般回饋 · 達標最高 ${maximum}%`
+          : '依資格等級適用';
+      } else if (rule.rewardCalculationMode === 'MAX_ONLY' && calc.potentialRate > 0) {
+        amount = `最高 ${calc.potentialRate}%`;
+        caption = '一般回饋待確認';
+      } else if (isPercent) {
         const rate = condition.conditional ? calc.potentialRate : calc.effectiveRate;
         const cash = condition.conditional ? calc.potentialCash : calc.totalCash;
         amount = `${rate}%`;
