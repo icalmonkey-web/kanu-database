@@ -711,25 +711,29 @@
         "https://www.nextbank.com.tw/product/card"
       ],
       "offerPortalUrls": [
-        "https://www.nextbank.com.tw/"
+        "https://www.nextbank.com.tw/events",
+        "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
       ],
-      "registrationPortalUrls": [],
+      "registrationPortalUrls": [
+        "https://www.nextbank.com.tw/events"
+      ],
       "allowedHosts": [
-        "www.nextbank.com.tw"
+        "www.nextbank.com.tw",
+        "event.nextbank.com.tw"
       ],
       "captureModes": [
         "httpx",
         "playwright"
       ],
-      "eventLinkPattern": "(card|debit|event|campaign|news)",
+      "eventLinkPattern": "(card|debit|event|events|campaign|news|announcement)",
       "coverageNote": "將將卡等具消費回饋的簽帳金融卡",
-      "lastSuccessfulScanAt": "2026-09-25T03:52:02.283394Z",
+      "lastSuccessfulScanAt": "",
       "discoveredCardCount": 6,
       "discoveredOfferCount": 19,
       "unvisitedPageCount": 0,
       "failedPageCount": 0,
-      "lastScanAt": "2026-09-25T03:52:02.283394Z",
-      "lastScanStatus": "completed"
+      "lastScanAt": "",
+      "lastScanStatus": "registration_sources_expanded"
     },
     {
       "name": "LINE Bank",

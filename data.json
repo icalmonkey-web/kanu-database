@@ -1,5 +1,5 @@
 {
-  "version": "2026.09.25-v143719-semantic",
+  "version": "2026.09.25-v2333-nextbank",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -91980,7 +91980,21 @@
       ],
       "fetchedAt": "2026-09-25T03:33:03.212301Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [
+        {
+          "type": "APP",
+          "label": "將來銀行 App 登錄",
+          "appName": "將來銀行 APP",
+          "deepLink": "",
+          "appStoreUrl": "",
+          "playStoreUrl": "",
+          "path": [
+            "活動登錄"
+          ],
+          "activityName": "大將卡日本旅遊消費最高10% N點回饋",
+          "campaignCode": ""
+        }
+      ]
     },
     {
       "id": "rule_f5d08618f60861b67ab4",
@@ -92033,7 +92047,21 @@
       ],
       "fetchedAt": "2026-09-25T03:33:03.212408Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [
+        {
+          "type": "APP",
+          "label": "將來銀行 App 登錄",
+          "appName": "將來銀行 APP",
+          "deepLink": "",
+          "appStoreUrl": "",
+          "playStoreUrl": "",
+          "path": [
+            "活動登錄"
+          ],
+          "activityName": "大將卡日本旅遊消費最高10% N點回饋",
+          "campaignCode": ""
+        }
+      ]
     },
     {
       "id": "rule_eaa486e6f5b69ec4b13e",
@@ -92244,7 +92272,21 @@
       ],
       "fetchedAt": "2026-09-25T03:34:22.260868Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [
+        {
+          "type": "APP",
+          "label": "將來銀行 App 登錄",
+          "appName": "將來銀行 APP",
+          "deepLink": "",
+          "appStoreUrl": "",
+          "playStoreUrl": "",
+          "path": [
+            "活動登錄"
+          ],
+          "activityName": "將將卡理想生活指定通路加碼回饋",
+          "campaignCode": ""
+        }
+      ]
     },
     {
       "id": "rule_ece0d2ee5916fccdb0fe",
@@ -92286,7 +92328,21 @@
       ],
       "fetchedAt": "2026-09-25T03:36:25.908588Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [
+        {
+          "type": "APP",
+          "label": "將來銀行 App 登錄",
+          "appName": "將來銀行 APP",
+          "deepLink": "",
+          "appStoreUrl": "",
+          "playStoreUrl": "",
+          "path": [
+            "活動登錄"
+          ],
+          "activityName": "將來支付全聯及四大超商付款享10 N點回饋",
+          "campaignCode": ""
+        }
+      ]
     },
     {
       "id": "rule_60cda5439e4ea818a4cc",
@@ -92528,5 +92584,5 @@
       "message": "政府規費、公用事業水電瓦斯多數信用卡皆排除回饋。"
     }
   ],
-  "lastUpdated": "2026-09-25T12:57:03.687502Z"
+  "lastUpdated": "2026-09-25T15:32:49.052626Z"
 }

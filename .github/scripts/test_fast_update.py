@@ -65,6 +65,14 @@ class FastPipelineTests(unittest.TestCase):
         for issuer in issuers:
             self.assertFalse(required - set(issuer), issuer["name"])
 
+    def test_next_bank_has_registration_sources_and_announcement_discovery(self):
+        registry = json.loads(fast_update.ISSUER_FILE.read_text(encoding="utf-8"))
+        issuer = next(row for row in registry["issuers"] if row["name"] == "將來銀行")
+        self.assertIn("DEBIT", issuer["productTypes"])
+        self.assertTrue(issuer["registrationPortalUrls"])
+        self.assertIn("www.nextbank.com.tw", issuer["allowedHosts"])
+        self.assertRegex("announcement/event1249", issuer["eventLinkPattern"])
+
     def test_issuer_status_records_counts_and_failures(self):
         registry = {"issuers": [{"name": "測試銀行"}]}
         reports = [{"bank": "測試銀行", "status": "needs_review", "completedAt": "now",

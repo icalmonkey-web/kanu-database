@@ -374,9 +374,12 @@ async def crawl_bank(config, client, browser, state, state_lock, ai_gate, merge_
                 row.update(status="redirect_outside_allowlist", redirectedTo=result.url)
                 continue
             links = result.links or [tuple(item) for item in prior.get("links", [])]
+            configured_link_pattern = str(config.get("event_link_pattern") or "")
             for target, label in links:
                 if (not target or ASSET.search(target) or IRRELEVANT.search(target + " " + label)
-                        or not RELEVANT.search(target + " " + label)):
+                        or not (RELEVANT.search(target + " " + label)
+                                or (configured_link_pattern and re.search(
+                                    configured_link_pattern, target + " " + label, re.I)))):
                     continue
                 if not allowed(target, hosts) or target in seen:
                     continue

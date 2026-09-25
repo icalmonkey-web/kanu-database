@@ -2743,7 +2743,7 @@
       if (currentRegBankFilter !== 'ALL') {
         regRules = regRules.filter(r => {
           const card = cardMap.get(r.cardId);
-          return card && card.bank === currentRegBankFilter;
+          return (card?.bank || r.bank) === currentRegBankFilter;
         });
       }
 
@@ -2751,7 +2751,7 @@
         const cleanRegQuery = normalizeText(currentRegSearchText);
         regRules = regRules.filter(r => {
           const card = cardMap.get(r.cardId);
-          const fullText = normalizeText(r.title + ' ' + r.category + ' ' + (r.searchKeywords || '') + ' ' + (card ? card.bank + ' ' + card.cardName : ''));
+          const fullText = normalizeText(r.title + ' ' + r.category + ' ' + (r.searchKeywords || '') + ' ' + (card ? card.bank + ' ' + card.cardName : (r.bank || '')));
           return fullText.includes(cleanRegQuery);
         });
       }
@@ -2775,7 +2775,8 @@
 
       let html = '';
       list.forEach(rule => {
-        const card = cardMap.get(rule.cardId) || { bank: '合作銀行', cardName: '全卡友' };
+        const linkedCard = cardMap.get(rule.cardId);
+        const card = linkedCard || { bank: rule.bank || '合作銀行', cardName: '銀行活動' };
         const ruleIndex = appRules.indexOf(rule);
         const officialUrl = getRegistrationDestination(rule);
         const lifecycle = currentRegFilter === 'upcoming' ? 'upcoming' : getRegistrationLifecycle(rule);
