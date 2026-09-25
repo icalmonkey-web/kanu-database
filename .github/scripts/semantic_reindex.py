@@ -126,8 +126,9 @@ def build_prompt(rules: list[dict], pages: dict[str, str]) -> str:
 4. validationIssues：只能使用 MISLEADING_AMOUNT、NOT_SPENDING_REWARD、WRONG_CARD_LINK、SOURCE_MISSING、SOURCE_FETCH_FAILED、CONTRADICTORY_FIELDS。
 5. quickSearchEligible：保險保額、抽獎最高獎金、機場服務、會員禮、年費資格等非日常消費回饋填 false；真正刷卡回饋填 true；無法確認時仍填 true並標 UNVERIFIED，避免破壞性誤刪。
 6. 遇到會員／帳戶等級、資產、薪轉、自動扣繳、任務、方案切換等階梯回饋，rewardCalculationMode 填 TIERED，rewardTiers 逐級列出 name、totalRate、baseRate、promoRate、isDefault、requirements、capAmount、capPeriod。最高級绝不能冒充默认级。只有广告写「最高」但等级不完整时填 MAX_ONLY。
+7. 保險保額、保障額度、理賠上限絕對不是刷卡金、現金回饋或 capAmount。此類規則 rewardType 填 insurance_benefit，rewardAmount/capAmount/baseRate/promoRate 清空或歸零，並標 NOT_SPENDING_REWARD、quickSearchEligible=false。抽獎獎金與贈品市價同樣不能當成確定回饋。
 
-輸出嚴格 JSON：{{"cards":[],"rules":[{{"id":"原id","intentTags":[],"intentEvidence":"","evidenceStatus":"VERIFIED|WEAK|UNVERIFIED","validationIssues":[],"quickSearchEligible":true,"rewardCalculationMode":"FLAT|TIERED|MAX_ONLY|UNKNOWN","rewardTiers":[{{"name":"一般資格","totalRate":1,"baseRate":1,"promoRate":0,"isDefault":true,"requirements":[],"capAmount":null,"capPeriod":""}}],"maxRateRequires":[]}}]}}
+輸出嚴格 JSON：{{"cards":[],"rules":[{{"id":"原id","intentTags":[],"intentEvidence":"","evidenceStatus":"VERIFIED|WEAK|UNVERIFIED","validationIssues":[],"quickSearchEligible":true,"rewardType":"percent|cash|points|draw|installment|insurance_benefit|unknown","rewardCalculationMode":"FLAT|TIERED|MAX_ONLY|UNKNOWN","rewardTiers":[{{"name":"一般資格","totalRate":1,"baseRate":1,"promoRate":0,"isDefault":true,"requirements":[],"capAmount":null,"capPeriod":""}}],"maxRateRequires":[]}}]}}
 輸入：{json.dumps(inputs, ensure_ascii=False)}
 """
 
@@ -157,6 +158,21 @@ def apply_batch(rules_by_id: dict[str, dict], result: dict, expected_ids: set[st
         rule["evidenceStatus"] = status
         rule["validationIssues"] = issues
         rule["quickSearchEligible"] = bool(row.get("quickSearchEligible", True))
+        reward_type = str(row.get("rewardType") or rule.get("rewardType") or "unknown").lower()
+        if reward_type in {"percent", "cash", "points", "draw", "installment", "insurance_benefit", "unknown"}:
+            rule["rewardType"] = reward_type
+        insurance_text = f"{rule.get('title', '')} {rule.get('quotaInfo', '')}"
+        is_insurance_benefit = reward_type == "insurance_benefit" or bool(re.search(
+            r"旅遊(?:平安|不便)?險|旅行平安險|保險保額|保額|保障額度|理賠(?:金額|上限)",
+            insurance_text,
+        ))
+        if is_insurance_benefit:
+            rule.update({"rewardType": "insurance_benefit", "rewardAmount": None, "rewardUnit": "",
+                         "capAmount": None, "baseRate": 0, "promoRate": 0,
+                         "quickSearchEligible": False, "rewardCalculationMode": "UNKNOWN",
+                         "rewardTiers": []})
+            if "NOT_SPENDING_REWARD" not in rule["validationIssues"]:
+                rule["validationIssues"].append("NOT_SPENDING_REWARD")
         mode = str(row.get("rewardCalculationMode") or "UNKNOWN").upper()
         rule["rewardCalculationMode"] = mode if mode in {"FLAT", "TIERED", "MAX_ONLY", "UNKNOWN"} else "UNKNOWN"
         tiers = []
@@ -177,6 +193,10 @@ def apply_batch(rules_by_id: dict[str, dict], result: dict, expected_ids: set[st
             })
         rule["rewardTiers"] = tiers
         rule["maxRateRequires"] = [str(item)[:120] for item in (row.get("maxRateRequires") or [])][:12]
+        if is_insurance_benefit:
+            rule["rewardCalculationMode"] = "UNKNOWN"
+            rule["rewardTiers"] = []
+            rule["maxRateRequires"] = []
         after = (rule["intentTags"], evidence, status, issues, rule["quickSearchEligible"])
         changed += before != after
         audit_rows.append({"id": rule_id, "status": status, "issues": issues,

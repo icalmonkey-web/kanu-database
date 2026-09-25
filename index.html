@@ -872,9 +872,9 @@
     #modal-card-body .bg-\[\#faf6ee\] { background: #f7faf9 !important; border-color: #e3ece9 !important; }
     #toast { color: var(--mint-700) !important; background: rgba(255,255,255,.97) !important; border-color: #cbe9e4 !important; }
     @media (max-width: 639px) {
-      .ghibli-sky-bg { min-height: 116px !important; padding-bottom: 0 !important; }
-      header { min-height: 76px !important; padding-top: 4px !important; padding-bottom: 6px !important; }
-      main { padding-top: 5px !important; }
+      .ghibli-sky-bg { min-height: 82px !important; padding-bottom: 0 !important; }
+      header { min-height: 76px !important; padding-top: 4px !important; padding-bottom: 4px !important; }
+      main { padding-top: 4px !important; }
     }
     #bank-filter-bar, #reg-bank-filter-bar {
       width: 100%; max-width: 100%; overflow-x: auto !important; overflow-y: hidden !important;
@@ -1554,6 +1554,19 @@
         formatted.rewardUnit = 'percent';
         formatted.rewardAmount = formatted.promoRate || formatted.baseRate;
       }
+      // 舊資料可能把「旅遊保險保額 319 萬」誤存為現金刷卡金。保額只是
+      // 保障範圍，不能參與回饋試算、排序或一般消費快查。
+      if (isInsuranceBenefitRule(formatted)) {
+        formatted.rewardType = 'insurance_benefit';
+        formatted.rewardAmount = null;
+        formatted.rewardUnit = '';
+        formatted.capAmount = null;
+        formatted.baseRate = 0;
+        formatted.promoRate = 0;
+        formatted.quickSearchEligible = false;
+        formatted.rewardCalculationMode = 'UNKNOWN';
+        formatted.rewardTiers = [];
+      }
       return formatted;
     }
 
@@ -1937,6 +1950,10 @@
     document.addEventListener('scroll', () => closeCardActionMenus(), true);
 
     function calcRuleCashBack(rule, spendAmount) {
+      if (isInsuranceBenefitRule(rule)) {
+        return { effectiveRate: 0, potentialRate: 0, isBoostActive: false,
+          totalCash: 0, potentialCash: 0, capped: false, capAmount: null };
+      }
       let isBoostActive = false;
       let effectiveRate = rule.baseRate || 0;
       let potentialRate = (rule.baseRate || 0) + (rule.promoRate || 0);
@@ -2009,6 +2026,7 @@
       const rewardAmount = Number(rule.rewardAmount) || 0;
       const title = `${rule.title || ''} ${rule.quotaInfo || ''}`;
 
+      if (isInsuranceBenefitRule(rule)) return '旅遊保險保障';
       if (rewardType === 'installment') return '分期優惠';
       if (rewardType === 'points' && rewardUnit !== 'percent' && rewardAmount > 0) return `最高 ${rewardAmount.toLocaleString()} 點回饋`;
       if (rewardType === 'draw') return rewardUnit === 'twd' ? `最高抽 NT$${rewardAmount.toLocaleString()}` : '登錄抽獎活動';
@@ -2219,6 +2237,13 @@
         .replace(/\s+/g, '')       
         .replace(/[\uff01-\uff5e]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0xfee0)) 
         .toUpperCase();            
+    }
+
+    function isInsuranceBenefitRule(rule) {
+      const rewardType = String(rule?.rewardType || '').toLowerCase();
+      if (rewardType === 'insurance_benefit') return true;
+      const text = `${rule?.title || ''} ${rule?.quotaInfo || ''} ${rule?.searchKeywords || ''}`;
+      return /旅遊(?:平安|不便)?險|旅行平安險|保險保額|保額|保障額度|理賠(?:金額|上限)/i.test(text);
     }
 
     function isBankWideRule(rule, cardMap) {

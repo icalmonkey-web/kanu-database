@@ -209,6 +209,24 @@ def enrich_reward_fields(rule, source_url):
     cap = float(rule.get("capAmount") or 0)
     reward_amount = float(rule.get("rewardAmount") or 0)
     reward_type = str(rule.get("rewardType") or "").lower()
+    # 保險「保額／保障額度／理賠上限」不是刷卡回饋。即使模型把 319 萬之類的
+    # 數字誤填進 rewardAmount 或 capAmount，也不得轉成現金或參與快查排名。
+    insurance_benefit = bool(re.search(
+        r"旅遊(?:平安|不便)?險|旅行平安險|保險保額|保額|保障額度|理賠(?:金額|上限)",
+        title,
+    ))
+    if insurance_benefit:
+        rule["rewardType"] = "insurance_benefit"
+        rule["rewardAmount"] = None
+        rule["rewardUnit"] = ""
+        rule["capAmount"] = None
+        rule["baseRate"] = 0
+        rule["promoRate"] = 0
+        rule["quickSearchEligible"] = False
+        rule["rewardCalculationMode"] = "UNKNOWN"
+        rule["rewardTiers"] = []
+        rule.setdefault("validationIssues", []).append("NOT_SPENDING_REWARD")
+        reward_type = "insurance_benefit"
     # 模型有時把「每月回饋上限 150 元」誤當成固定 150 元刷卡金，或把
     # 百分比 e point 寫成 points=0。已有百分比欄位時，上限只能用來封頂。
     if (base_rate or promo_rate) and (
@@ -262,6 +280,10 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False, p
 3. 方案門檻必須誠實交代（quotaInfo）：
    - 卡片若有方案分級（如簡單選、任意選、UP選，或集精選、切換方案）：
    - 必須清楚註明各方案門檻與加碼差異，不可只寫最高趴數。
+4. 金額語意不可混用：
+   - 保險保額、保障額度、理賠上限不是刷卡金，也不是消費回饋上限。
+   - 旅平險／旅遊不便險等保障只能標為 insurance_benefit，rewardAmount、capAmount、baseRate、promoRate 均不可填入保額數字，quickSearchEligible 必須為 false。
+   - 抽獎獎金、贈品市價、機場服務次數也不可換算成現金回饋或參與回饋高低排序。
 
 嚴格輸出合法純 JSON 格式：
 {{
@@ -295,7 +317,7 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False, p
       "intentEvidence": "支持 intentTags 的官方原文短句或具體通路名稱；沒有證據則留空字串",
       "baseRate": 1.0,
       "promoRate": 2.0,
-      "rewardType": "percent 或 cash 或 points 或 draw 或 installment",
+      "rewardType": "percent、cash、points、draw、installment 或 insurance_benefit",
       "rewardAmount": 200,
       "rewardUnit": "percent 或 TWD 或 points 或 chance",
       "capAmount": 500,
