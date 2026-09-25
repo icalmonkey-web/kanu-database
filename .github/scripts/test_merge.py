@@ -20,6 +20,14 @@ class MergeTests(unittest.TestCase):
         self.assertIsNone(rule['rewardAmount'])
         self.assertEqual(rule['fetchedAt'], 'old')
 
+    def test_cash_cap_is_not_presented_as_fixed_cash_reward(self):
+        rule = enrich_reward_fields({
+            'baseRate': 1, 'promoRate': 2, 'rewardType': 'cash',
+            'rewardAmount': 150, 'capAmount': 150
+        }, 'https://bank.test')
+        self.assertEqual(rule['rewardType'], 'percent')
+        self.assertEqual(rule['rewardAmount'], 2)
+
     def test_only_ai_classified_product_is_merged(self):
         cards, rules = {}, {}
         result = {'cards': [
@@ -29,6 +37,29 @@ class MergeTests(unittest.TestCase):
              'classificationConfidence': .99, 'classificationEvidence': '適用對象'}], 'rules': []}
         merge_data('bank', result, cards, rules, 'https://bank.test')
         self.assertEqual([c['cardName'] for c in cards.values()], ['真卡'])
+
+    def test_rule_naming_unicard_is_not_attached_to_ubear(self):
+        cards = {
+            'u': {'id': 'ubear', 'bank': '玉山銀行', 'cardName': '玉山 U Bear卡'},
+            'uni': {'id': 'unicard', 'bank': '玉山銀行', 'cardName': 'E.SUN Unicard'},
+        }
+        rules = {}
+        merge_data('玉山銀行', {'rules': [{
+            'cardId': 'ubear', 'title': '玉山Unicard UP選方案',
+            'quotaInfo': 'LINE Pay最高4.5%'
+        }]}, cards, rules, 'https://bank.test/unicard')
+        rule = next(iter(rules.values()))
+        self.assertIsNone(rule['cardId'])
+        self.assertEqual(rule['associationStatus'], 'needs_review')
+
+    def test_product_rule_cannot_claim_bank_wide_without_audience_copy(self):
+        cards = {'u': {'id': 'ubear', 'bank': '玉山銀行', 'cardName': '玉山 U Bear卡'}}
+        rules = {}
+        merge_data('玉山銀行', {'rules': [{
+            'cardId': 'ubear', 'title': '指定網購3%',
+            'eligibleCardScope': 'ALL_BANK_CARDS'
+        }]}, cards, rules, 'https://bank.test/ubear')
+        self.assertEqual(next(iter(rules.values()))['eligibleCardScope'], 'SPECIFIC_CARD')
 
 if __name__ == '__main__':
     unittest.main()

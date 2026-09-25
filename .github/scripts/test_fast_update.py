@@ -1,7 +1,9 @@
 import json
 import tempfile
 import unittest
+from datetime import datetime, timezone
 from pathlib import Path
+from unittest.mock import patch
 
 import fast_update
 from fast_update import atomic_json, normalized_content, parse_html, stable_hash
@@ -31,6 +33,49 @@ class FastPipelineTests(unittest.TestCase):
 
     def test_actual_reward_change_changes_hash(self):
         self.assertNotEqual(stable_hash("指定消費回饋 3%"), stable_hash("指定消費回饋 5%"))
+
+    def test_issuer_registry_drives_enabled_credit_card_banks(self):
+        with patch.dict("os.environ", {"FORCE_FULL_SCAN": "1"}):
+            configs = fast_update.load_issuer_configs()
+        names = {config["bank"] for config in configs}
+        self.assertIn("星展銀行", names)
+        self.assertIn("樂天信用卡", names)
+        self.assertIn("台中銀行", names)
+        self.assertIn("王道銀行", names)
+        self.assertIn("將來銀行", names)
+        self.assertIn("LINE Bank", names)
+        self.assertIn("美國運通", names)
+
+    def test_scan_frequency_skips_low_frequency_issuer_until_due(self):
+        now = datetime(2026, 9, 25, tzinfo=timezone.utc)
+        issuer = {"scanFrequency": "weekly", "lastSuccessfulScanAt": "2026-09-24T00:00:00Z"}
+        self.assertFalse(fast_update.issuer_scan_due(issuer, now))
+        issuer["lastSuccessfulScanAt"] = "2026-09-10T00:00:00Z"
+        self.assertTrue(fast_update.issuer_scan_due(issuer, now))
+
+    def test_issuer_registry_has_unique_names_and_required_fields(self):
+        registry = json.loads(fast_update.ISSUER_FILE.read_text(encoding="utf-8"))
+        issuers = registry["issuers"]
+        names = [issuer["name"] for issuer in issuers]
+        self.assertEqual(len(names), len(set(names)))
+        required = {"issuesCreditCards", "cardCatalogUrls", "offerPortalUrls",
+                    "registrationPortalUrls", "allowedHosts", "captureModes",
+                    "lastSuccessfulScanAt", "discoveredCardCount",
+                    "discoveredOfferCount", "unvisitedPageCount", "failedPageCount"}
+        for issuer in issuers:
+            self.assertFalse(required - set(issuer), issuer["name"])
+
+    def test_issuer_status_records_counts_and_failures(self):
+        registry = {"issuers": [{"name": "測試銀行"}]}
+        reports = [{"bank": "測試銀行", "status": "needs_review", "completedAt": "now",
+                    "unvisited": [{"url": "x"}], "pages": [{"status": "fetch_failed"}]}]
+        cards = {"c": {"id": "c1", "bank": "測試銀行"}}
+        rules = {"r": {"id": "r1", "cardId": "c1", "bank": "測試銀行"}}
+        updated = fast_update.update_issuer_scan_status(registry, reports, cards, rules)["issuers"][0]
+        self.assertEqual(updated["discoveredCardCount"], 1)
+        self.assertEqual(updated["discoveredOfferCount"], 1)
+        self.assertEqual(updated["unvisitedPageCount"], 1)
+        self.assertEqual(updated["failedPageCount"], 1)
 
     def test_parser_ignores_script_and_extracts_links(self):
         text, links = parse_html('<script>fake card</script><main>信用卡 5%</main><a href="/promo">活動</a>')

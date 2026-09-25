@@ -13,7 +13,7 @@ import os
 import re
 import tempfile
 from collections import deque
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -31,10 +31,12 @@ ROOT = Path(__file__).resolve().parents[2]
 DATA_FILE = ROOT / "data.json"
 STATE_FILE = ROOT / "crawler_state.json"
 REPORT_FILE = ROOT / "crawl_report.json"
+ISSUER_FILE = ROOT / "issuer_registry.json"
 CHECKPOINT_DIR = ROOT / "checkpoints"
 PAGE_TIMEOUT = float(os.environ.get("PAGE_TIMEOUT_SECONDS", "25"))
 CRAWL_BUDGET_SECONDS = float(os.environ.get("CRAWL_BUDGET_SECONDS", "4200"))
 AI_TIMEOUT_MILLISECONDS = int(os.environ.get("AI_TIMEOUT_MILLISECONDS", "45000"))
+AI_MIN_INTERVAL_SECONDS = float(os.environ.get("AI_MIN_INTERVAL_SECONDS", "3"))
 BANK_CONCURRENCY = int(os.environ.get("BANK_CONCURRENCY", "4"))
 MAX_PAGES = int(os.environ.get("MAX_PAGES_PER_BANK", "60"))
 MAX_DEPTH = int(os.environ.get("MAX_CRAWL_DEPTH", "3"))
@@ -131,15 +133,81 @@ def load_json(path: Path, default):
         return default
 
 
+def issuer_scan_due(issuer, now=None):
+    if os.environ.get("FORCE_FULL_SCAN", "0") == "1":
+        return True
+    frequency = str(issuer.get("scanFrequency", "daily")).lower()
+    days = {"daily": 1, "weekly": 7, "monthly": 30}.get(frequency, 1)
+    raw_last_scan = issuer.get("lastSuccessfulScanAt") or issuer.get("lastScanAt")
+    if not raw_last_scan:
+        return True
+    try:
+        last_scan = datetime.fromisoformat(str(raw_last_scan).replace("Z", "+00:00"))
+    except (TypeError, ValueError):
+        return True
+    current = now or datetime.now(timezone.utc)
+    return current - last_scan >= timedelta(days=days)
+
+
+def load_issuer_configs():
+    registry = load_json(ISSUER_FILE, {"issuers": []})
+    issuers = registry.get("issuers", [])
+    if not issuers:
+        return legacy.PORTAL_CONFIGS
+    configs = []
+    for issuer in issuers:
+        product_types = issuer.get("productTypes") or (["CREDIT"] if issuer.get("issuesCreditCards") else [])
+        if (not issuer.get("enabled", False)
+                or not set(product_types) & {"CREDIT", "DEBIT", "CHARGE"}
+                or not issuer_scan_due(issuer)):
+            continue
+        configs.append({
+            "bank": issuer["name"],
+            "card_urls": issuer.get("cardCatalogUrls", []),
+            "event_portals": issuer.get("offerPortalUrls", []) + issuer.get("registrationPortalUrls", []),
+            "allowed_hosts": issuer.get("allowedHosts", []),
+            "event_link_pattern": issuer.get("eventLinkPattern", ""),
+            "product_types": product_types,
+        })
+    return configs
+
+
+def update_issuer_scan_status(registry, reports, cards, rules):
+    report_by_bank = {row.get("bank"): row for row in reports}
+    for issuer in registry.get("issuers", []):
+        bank = issuer.get("name")
+        report = report_by_bank.get(bank)
+        bank_card_ids = {card.get("id") for card in cards.values() if card.get("bank") == bank}
+        issuer["discoveredCardCount"] = len(bank_card_ids)
+        issuer["discoveredOfferCount"] = sum(
+            1 for rule in rules.values()
+            if rule.get("bank") == bank or rule.get("cardId") in bank_card_ids
+        )
+        if report:
+            issuer["lastScanAt"] = report.get("completedAt", utc_now())
+            issuer["lastScanStatus"] = report.get("status", "unknown")
+            issuer["unvisitedPageCount"] = len(report.get("unvisited", []))
+            issuer["failedPageCount"] = sum(
+                page.get("status") in {"fetch_failed", "ai_failed_preserved_old_data", "insufficient_content"}
+                for page in report.get("pages", [])
+            )
+            if report.get("status") == "completed":
+                issuer["lastSuccessfulScanAt"] = report.get("completedAt", utc_now())
+    registry["lastUpdatedAt"] = utc_now()
+    return registry
+
+
 def checkpoint_name(bank: str) -> Path:
     slug = hashlib.sha256(bank.encode("utf-8")).hexdigest()[:12]
     return CHECKPOINT_DIR / f"{slug}.json"
 
 
 class FetchResult:
-    def __init__(self, url, text="", links=None, status="ok", etag="", modified="", error="", renderer="httpx"):
+    def __init__(self, url, text="", links=None, status="ok", etag="", modified="", error="",
+                 renderer="httpx", static_hash="", rendered_hash=""):
         self.url, self.text, self.links, self.status = url, text, links or [], status
         self.etag, self.modified, self.error, self.renderer = etag, modified, error, renderer
+        self.static_hash, self.rendered_hash = static_hash, rendered_hash
 
 
 async def fetch_page(client, context, url: str, prior: dict) -> FetchResult:
@@ -154,11 +222,20 @@ async def fetch_page(client, context, url: str, prior: dict) -> FetchResult:
             return FetchResult(url, links=[tuple(row) for row in prior.get("links", [])], status="not_modified")
         response.raise_for_status()
         text, raw_links = parse_html(response.text)
+        static_digest = stable_hash(text)
         links = [(canonical(str(response.url), href), label) for href, label in raw_links]
         links = [(href, label) for href, label in links if href]
+        # Only a page previously proven usable without a browser may safely skip
+        # Playwright on its static hash. A stable JS app shell does not prove its
+        # API-backed content is unchanged.
+        if prior.get("renderer") == "httpx" and prior.get("staticHash") == static_digest:
+            return FetchResult(str(response.url), links=links, status="not_modified_static_hash",
+                etag=response.headers.get("etag", ""), modified=response.headers.get("last-modified", ""),
+                renderer="httpx", static_hash=static_digest)
         if len(normalized_content(text)) >= MIN_STATIC_TEXT:
             return FetchResult(str(response.url), text, links,
-                etag=response.headers.get("etag", ""), modified=response.headers.get("last-modified", ""))
+                etag=response.headers.get("etag", ""), modified=response.headers.get("last-modified", ""),
+                static_hash=static_digest, rendered_hash=static_digest)
     except Exception as exc:
         static_error = f"{type(exc).__name__}: {exc}"
     else:
@@ -175,7 +252,8 @@ async def fetch_page(client, context, url: str, prior: dict) -> FetchResult:
             "els => els.map(e => [e.href, e.textContent || ''])")
         links = [(canonical(page.url, href), label) for href, label in raw_links]
         links = [(href, label) for href, label in links if href]
-        return FetchResult(page.url, text, links, renderer="playwright")
+        return FetchResult(page.url, text, links, renderer="playwright",
+            static_hash=locals().get("static_digest", ""), rendered_hash=stable_hash(text))
     except Exception as exc:
         return FetchResult(url, status="fetch_failed", error=f"{static_error}; {type(exc).__name__}: {exc}")
     finally:
@@ -227,14 +305,31 @@ def restore_newer_checkpoints(old: dict, state: dict, cards: dict, rules: dict) 
 TIME_BUDGET_EXHAUSTED = object()
 
 
-async def analyze_changed_page(ai_lock, bank, text, url, deadline):
-    async with ai_lock:
-        if asyncio.get_running_loop().time() >= deadline:
-            return TIME_BUDGET_EXHAUSTED
-        return await asyncio.to_thread(legacy.extract_with_gemini, bank, text[:14000], url, True)
+class AiGate:
+    def __init__(self, minimum_interval=AI_MIN_INTERVAL_SECONDS):
+        self.lock = asyncio.Lock()
+        self.minimum_interval = max(0.0, minimum_interval)
+        self.last_request_at = 0.0
+
+    async def run(self, function, *args):
+        async with self.lock:
+            loop = asyncio.get_running_loop()
+            wait = self.minimum_interval - (loop.time() - self.last_request_at)
+            if wait > 0:
+                await asyncio.sleep(wait)
+            try:
+                return await asyncio.to_thread(function, *args)
+            finally:
+                self.last_request_at = loop.time()
 
 
-async def crawl_bank(config, client, browser, state, state_lock, ai_lock, merge_lock, cards, rules, deadline):
+async def analyze_changed_page(ai_gate, bank, product_types, text, url, deadline):
+    if asyncio.get_running_loop().time() >= deadline:
+        return TIME_BUDGET_EXHAUSTED
+    return await ai_gate.run(legacy.extract_with_gemini, bank, text[:14000], url, True, product_types)
+
+
+async def crawl_bank(config, client, browser, state, state_lock, ai_gate, merge_lock, cards, rules, deadline):
     bank = config["bank"]
     seeds = list(dict.fromkeys(config.get("card_urls", []) + config.get("event_portals", [])))
     hosts = {urlsplit(url).hostname for url in seeds} | set(config.get("allowed_hosts", []))
@@ -278,18 +373,27 @@ async def crawl_bank(config, client, browser, state, state_lock, ai_lock, merge_
                 else:
                     queue.append((target, depth + 1, url))
 
-            if result.status == "not_modified":
-                row["status"] = "unchanged_304"
+            if result.status in {"not_modified", "not_modified_static_hash"}:
+                row["status"] = "unchanged_304" if result.status == "not_modified" else "unchanged_static_hash"
                 async with state_lock:
                     prior.update(bank=bank, links=links, lastSeenAt=utc_now())
+                    # A 304 validates the prior representation but does not turn a
+                    # previously dynamic page into a static one.
+                    if result.status == "not_modified_static_hash":
+                        prior["renderer"] = "httpx"
+                    if result.static_hash:
+                        prior["staticHash"] = result.static_hash
                 continue
-            cleaned, digest = normalized_content(result.text), stable_hash(result.text)
-            if prior.get("hash") == digest:
+            cleaned = normalized_content(result.text)
+            digest = result.rendered_hash or stable_hash(result.text)
+            prior_digest = prior.get("renderedHash") or prior.get("hash")
+            if prior_digest == digest:
                 row["status"] = "unchanged_hash"
             elif len(cleaned) < 150:
                 row["status"] = "insufficient_content"
             else:
-                extracted = await analyze_changed_page(ai_lock, bank, cleaned, result.url, deadline)
+                extracted = await analyze_changed_page(
+                    ai_gate, bank, config.get("product_types", ["CREDIT"]), cleaned, result.url, deadline)
                 if extracted is TIME_BUDGET_EXHAUSTED:
                     row["status"] = "workflow_time_budget"
                     report["unvisited"].extend(
@@ -308,7 +412,8 @@ async def crawl_bank(config, client, browser, state, state_lock, ai_lock, merge_
                     legacy.merge_data(bank, extracted, cards, rules, result.url)
                 row["status"] = "analyzed"
             async with state_lock:
-                state["pages"][url] = {"hash": digest, "bank": bank, "etag": result.etag,
+                state["pages"][url] = {"hash": digest, "staticHash": result.static_hash,
+                    "renderedHash": digest, "renderer": result.renderer, "bank": bank, "etag": result.etag,
                     "lastModified": result.modified, "links": links, "lastSeenAt": utc_now()}
 
         report["unvisited"].extend({"url": url, "reason": "page_limit", "parent": parent} for url, _, parent in queue)
@@ -348,7 +453,10 @@ async def run():
     restored = restore_newer_checkpoints(old, state, cards, rules)
     if restored:
         print(f"Restored {restored} newer bank checkpoints")
-    semaphore, state_lock, ai_lock, merge_lock = asyncio.Semaphore(BANK_CONCURRENCY), asyncio.Lock(), asyncio.Lock(), asyncio.Lock()
+    issuer_registry = load_json(ISSUER_FILE, {"issuers": []})
+    issuer_configs = load_issuer_configs()
+    semaphore, state_lock, merge_lock = asyncio.Semaphore(BANK_CONCURRENCY), asyncio.Lock(), asyncio.Lock()
+    ai_gate = AiGate()
 
     async with httpx.AsyncClient(headers={"User-Agent": USER_AGENT}) as client, async_playwright() as pw:
         browser = await pw.chromium.launch(headless=True, args=["--no-sandbox"])
@@ -356,10 +464,10 @@ async def run():
         async def limited(config):
             async with semaphore:
                 return await crawl_bank(
-                    config, client, browser, state, state_lock, ai_lock, merge_lock,
+                    config, client, browser, state, state_lock, ai_gate, merge_lock,
                     cards, rules, deadline,
                 )
-        reports = await asyncio.gather(*(limited(config) for config in legacy.PORTAL_CONFIGS))
+        reports = await asyncio.gather(*(limited(config) for config in issuer_configs))
         await browser.close()
 
     now = datetime.now(timezone.utc).replace(tzinfo=None)
@@ -377,6 +485,7 @@ async def run():
     atomic_json(REPORT_FILE, {"generatedAt": utc_now(), "banks": reports,
         "summary": {"banks": len(reports), "needsReview": sum(r["status"] != "completed" for r in reports),
                     "aiRequests": legacy.MODEL_POOL.requests}})
+    atomic_json(ISSUER_FILE, update_issuer_scan_status(issuer_registry, reports, cards, rules))
     print(f"DONE banks={len(reports)} cards={len(output['cards'])} rules={len(output['rules'])} AI={legacy.MODEL_POOL.requests}")
 
 

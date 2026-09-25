@@ -3,7 +3,17 @@ name: 自動更新信用卡資料庫 (Playwright + AI)
 on:
   schedule:
     - cron: '0 18 * * *' # 每天台灣時間凌晨 02:00
-  workflow_dispatch:      # 支援手動點擊執行
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: '執行模式'
+        required: true
+        default: 'daily'
+        type: choice
+        options:
+          - daily
+          - full
+          - source-repair
   push:
     branches: [main]
     paths:
@@ -71,11 +81,17 @@ jobs:
           BANK_CONCURRENCY: '4'
           PAGE_TIMEOUT_SECONDS: '25'
           AI_TIMEOUT_MILLISECONDS: '45000'
+          AI_MIN_INTERVAL_SECONDS: '3'
           CRAWL_BUDGET_SECONDS: '4200'
+          FORCE_FULL_SCAN: ${{ github.event.inputs.mode == 'full' && '1' || '0' }}
         run: |
           mkdir -p checkpoints
           python -m unittest discover -s .github/scripts -p 'test_*.py'
-          python .github/scripts/fast_update.py
+          if [ "${{ github.event.inputs.mode || 'daily' }}" = "source-repair" ]; then
+            python .github/scripts/repair_sources.py
+          else
+            python .github/scripts/fast_update.py
+          fi
 
       - name: 保留掃描與缺口報告（無論成功失敗皆保留）
         if: always()
@@ -85,6 +101,7 @@ jobs:
           path: |
             crawl_report.json
             checkpoints/
+            source_repair_report.json
           if-no-files-found: ignore
 
       - name: 檢查並發布更新至 data.json
@@ -93,7 +110,9 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
           git pull --rebase --autostash origin main
-          git add data.json crawler_state.json crawl_report.json
+          for file in data.json crawler_state.json crawl_report.json source_repair_report.json issuer_registry.json; do
+            if [ -e "$file" ]; then git add "$file"; fi
+          done
           if git diff --staged --quiet; then
             echo "資料庫無變更。"
           else

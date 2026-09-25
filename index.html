@@ -1,0 +1,3139 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="卡奴" />
+  <meta name="referrer" content="no-referrer" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://raw.githubusercontent.com; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests" />
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=(), usb=()" />
+  <title>卡奴 - 信用卡回饋・消費查詢・記錄</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@600;700;800;900&family=Zen+Maru+Gothic:wght@700;900&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ghibliSky: {
+              100: '#eef6fc',
+              200: '#cce6f8',
+              300: '#a3d3f2',
+              400: '#7bc0ea'
+            },
+            ghibliCream: {
+              50: '#fdfcf9',
+              100: '#faf5eb',
+              200: '#f4ebd8',
+              300: '#ebdcc0',
+            },
+            ghibliInk: {
+              900: '#231c15',
+              800: '#2a3642',
+              700: '#344352',
+              600: '#56687a',
+            },
+            ghibliGold: {
+              300: '#fad668',
+              400: '#f4b83f',
+              500: '#df9e24',
+              600: '#b87913',
+            },
+            ghibliGreen: {
+              100: '#e7f3e8',
+              200: '#c8e5cb',
+              500: '#397843',
+              600: '#265730',
+            }
+          },
+          fontFamily: {
+            sans: ['"Noto Sans TC"', '"Zen Maru Gothic"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Zen Maru Gothic', sans-serif;
+      background: #dfd5c4;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(255, 255, 255, 0.45) 0%, transparent 45%),
+        radial-gradient(circle at 85% 85%, rgba(190, 168, 140, 0.35) 0%, transparent 50%),
+        linear-gradient(135deg, #d8ccb9 0%, #ece5d8 50%, #d5c8b3 100%);
+      color: #342920;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+    }
+
+    .ghibli-card {
+      background: #ffffff;
+      border: 1.8px solid #ecd8be;
+      box-shadow: 0 4px 16px -2px rgba(84, 66, 46, 0.07), 0 2px 5px -1px rgba(84, 66, 46, 0.04);
+      transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .ghibli-sky-bg {
+      background: linear-gradient(180deg, #7ebfee 0%, #a4d4f7 35%, #d8edf9 70%, #faf5eb 100%);
+      position: relative;
+    }
+
+    .sky-cloud-fade {
+      -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 70%, rgba(0,0,0,0.2) 90%, rgba(0,0,0,0) 100%);
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 70%, rgba(0,0,0,0.2) 90%, rgba(0,0,0,0) 100%);
+    }
+
+    @keyframes subtleDrift {
+      0% { transform: translateY(0px) scale(1); }
+      50% { transform: translateY(-2.5px) scale(1.01); }
+      100% { transform: translateY(0px) scale(1); }
+    }
+    .cloud-drift {
+      animation: subtleDrift 8s ease-in-out infinite;
+    }
+
+    .ghibli-input {
+      background: #ffffff;
+      border: 1.8px solid #dfcfb7;
+      color: #342920;
+      transition: all 0.2s ease;
+    }
+    .ghibli-input:focus {
+      border-color: #df9e24;
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(223, 158, 36, 0.15);
+    }
+
+    .nav-btn {
+      transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .nav-btn.active-nav .nav-icon-box {
+      transform: translateY(-4px) scale(1.18);
+      filter: drop-shadow(0 6px 8px rgba(184, 121, 19, 0.25));
+    }
+    .nav-btn.active-nav span {
+      color: #231c15;
+      font-weight: 900;
+    }
+
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+    /* 手繪記事本風格：保留資料與互動，讓介面更接近參考圖的溫暖質感。 */
+    body {
+      font-family: 'Noto Sans TC', 'Zen Maru Gothic', sans-serif;
+      background-color: #d9c5a6;
+      background-image:
+        radial-gradient(circle at 18% 10%, rgba(255,255,255,.33) 0 1px, transparent 1.5px),
+        radial-gradient(circle at 74% 65%, rgba(103,72,42,.09) 0 1px, transparent 1.5px),
+        linear-gradient(135deg, #d9c5a6 0%, #efe2ca 48%, #cdb08a 100%);
+      background-size: 8px 8px, 11px 11px, auto;
+      color: #332c24;
+    }
+    .app-shell {
+      background: #fff9eb;
+      border-color: #3c3028 !important;
+      box-shadow: 0 28px 68px -18px rgba(73, 48, 27, .58), inset 0 0 0 2px rgba(255,255,255,.45);
+    }
+    .ghibli-sky-bg {
+      background:
+        radial-gradient(ellipse at 50% 118%, #fff8e9 0 31%, transparent 32%),
+        linear-gradient(180deg, #79bbd0 0%, #9cd2dd 38%, #d5e8df 68%, #fff8e9 100%);
+    }
+    .ghibli-sky-bg::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      opacity: .22;
+      background-image: radial-gradient(rgba(255,255,255,.8) .7px, transparent .9px);
+      background-size: 5px 5px;
+      mix-blend-mode: soft-light;
+    }
+    .ghibli-card {
+      border: 2px solid #c9a980;
+      box-shadow: 0 4px 0 rgba(111, 77, 43, .2), 0 9px 16px -10px rgba(74, 48, 25, .42);
+      position: relative;
+    }
+    .ghibli-card::before {
+      content: '';
+      position: absolute;
+      inset: 3px;
+      border: 1px solid rgba(163, 122, 79, .12);
+      border-radius: inherit;
+      pointer-events: none;
+    }
+    .ghibli-input {
+      border: 2px solid #b89367;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.9), 0 2px 0 rgba(108,75,42,.12);
+      background: #fffdf6;
+    }
+    .ghibli-input:focus {
+      border-color: #e19a2e;
+      box-shadow: 0 0 0 3px rgba(225,154,46,.18), inset 0 1px 0 #fff;
+    }
+    .nav-btn { opacity: .7; }
+    .nav-btn.active-nav { opacity: 1; }
+    .nav-btn .nav-icon-box {
+      border-radius: 13px;
+      background: rgba(255,255,255,.58);
+      border: 1.5px solid transparent;
+    }
+    .nav-btn.active-nav .nav-icon-box {
+      background: #fff5da;
+      border-color: #d7ae63;
+      transform: translateY(-5px) scale(1.13) rotate(-2deg);
+    }
+    nav {
+      background: #fff8e9 !important;
+      border-top: 2px solid #d7c09e !important;
+      box-shadow: 0 -5px 16px rgba(109,79,44,.08);
+    }
+    #view-home > .ghibli-card:first-child { box-shadow: 0 5px 0 rgba(119,83,47,.23), 0 12px 18px -12px rgba(74,48,25,.48); }
+    #btn-scope-my, #btn-scope-all { border-width: 2px; box-shadow: 0 2px 0 rgba(98,72,41,.17); }
+    #btn-scope-my { background: #c9e0bd; border-color: #78986f; color: #294b36; }
+    #btn-scope-all { background: #fffaf0; border-color: #c6a77c; color: #72583c; }
+    #spending-list-container .ghibli-card { transform: rotate(-.15deg); }
+    #spending-list-container .ghibli-card:nth-child(even) { transform: rotate(.18deg); }
+    #home-promo-container { background: linear-gradient(135deg, #fffdf7 0%, #fff5d9 100%); }
+    .cloud-drift { animation-duration: 11s; }
+
+    /* 第二輪：以參考圖的「天空裡的記事本」為主，而非堆疊卡片 UI。 */
+    .app-shell { background: #fff8e8; }
+    .ghibli-sky-bg {
+      min-height: 174px;
+      background:
+        radial-gradient(ellipse at 7% 78%, rgba(255,255,255,.96) 0 15%, transparent 16%),
+        radial-gradient(ellipse at 30% 80%, rgba(255,255,255,.92) 0 19%, transparent 20%),
+        radial-gradient(ellipse at 69% 80%, rgba(255,255,255,.94) 0 18%, transparent 19%),
+        radial-gradient(ellipse at 96% 78%, rgba(255,255,255,.92) 0 17%, transparent 18%),
+        linear-gradient(180deg, #74bcd1 0%, #abd8df 57%, #fdf5e4 100%);
+    }
+    header { min-height: 118px !important; padding-top: 12px !important; }
+    header svg { transform: scale(1.12); transform-origin: center; }
+    main { background: #fff8e8 !important; }
+    .ghibli-card {
+      border: 1.5px solid #d6bb92;
+      box-shadow: 0 3px 0 rgba(110,76,44,.15), 0 8px 14px -12px rgba(74,48,25,.42);
+    }
+    .ghibli-card::before { display: none; }
+    #view-home { padding-top: 7px; }
+    #view-home > .ghibli-card:first-child {
+      padding: 2px 4px 5px;
+      background: transparent;
+      border: 0;
+      box-shadow: none;
+    }
+    #view-home > .ghibli-card:first-child > div:last-child {
+      margin: 5px 5px 0;
+      padding: 8px 5px 0;
+      border-color: #eadac2;
+    }
+    .ghibli-input {
+      border: 2px solid #b38c62;
+      border-radius: 999px !important;
+      padding-top: 11px !important;
+      padding-bottom: 11px !important;
+      font-size: 13px !important;
+      color: #493b2b;
+    }
+    #btn-scope-my, #btn-scope-all {
+      min-height: 51px;
+      border-radius: 999px;
+      box-shadow: 0 3px 0 rgba(97,69,40,.18);
+      font-size: 13px;
+    }
+    #btn-scope-my { background: #bfd8b5; border-color: #6e9065; }
+    #btn-scope-all { background: #fffaf0; border-color: #c4a074; }
+    #spending-list-container { padding: 2px 1px 0; }
+    #spending-list-container .ghibli-card {
+      padding: 12px !important;
+      border-radius: 23px;
+      background: #fffdf7;
+      box-shadow: 0 3px 0 rgba(110,76,44,.18), 0 9px 15px -13px rgba(74,48,25,.45);
+    }
+    #spending-list-container .ghibli-card:nth-child(even) { background: #fffaf0; }
+    #home-promo-container { border-radius: 20px; }
+    nav { background: #fff8e8 !important; padding-top: 8px !important; }
+    .nav-btn .nav-icon-box { background: transparent; border: 0; width: 42px; height: 38px; }
+    .nav-btn .nav-icon-box svg { width: 34px; height: 34px; }
+    .nav-btn.active-nav .nav-icon-box { background: transparent; border: 0; transform: translateY(-4px) scale(1.15) rotate(-2deg); }
+    .nav-btn span { font-size: 10.5px !important; color: #493b2b !important; }
+
+    /* Reference-faithful illustrated mobile UI */
+    :root {
+      --paper: #fff7df;
+      --paper-light: #fffdf3;
+      --ink: #263f5f;
+      --brown: #8e6f4d;
+      --line: #b99a72;
+      --mint: #bfd6ae;
+      --gold: #edae39;
+    }
+    body {
+      background-color: #dca866;
+      background-image:
+        repeating-linear-gradient(8deg, transparent 0 38px, rgba(111,69,32,.055) 39px 41px, transparent 42px 78px),
+        linear-gradient(105deg, #d09a58, #edc488 43%, #c88649 100%);
+    }
+    .app-shell {
+      max-width: 430px;
+      background: var(--paper);
+      border-color: #231c18 !important;
+      box-shadow: 0 30px 70px -15px rgba(57,34,18,.7), inset 0 0 0 2px #b4a08d;
+    }
+    .ghibli-sky-bg {
+      min-height: 190px;
+      padding-bottom: 0 !important;
+      background:
+        radial-gradient(ellipse at 2% 73%, rgba(255,253,238,.98) 0 17%, transparent 18%),
+        radial-gradient(ellipse at 24% 82%, rgba(255,250,230,.97) 0 20%, transparent 21%),
+        radial-gradient(ellipse at 78% 83%, rgba(255,251,234,.95) 0 20%, transparent 21%),
+        radial-gradient(ellipse at 101% 70%, rgba(255,253,239,.98) 0 18%, transparent 19%),
+        linear-gradient(180deg, #74b9ce 0%, #a6d4dc 55%, #f9f2dd 100%);
+    }
+    .ghibli-sky-bg::after {
+      opacity: .3;
+      background-image:
+        radial-gradient(rgba(255,255,255,.75) .55px, transparent .8px),
+        radial-gradient(rgba(39,83,103,.25) .45px, transparent .75px);
+      background-position: 0 0, 3px 3px;
+      background-size: 6px 6px;
+    }
+    .sky-cloud-fade { opacity: .8; }
+    .ghibli-sky-bg > div:first-child svg { transform: translateY(22px) scale(1.08); }
+    .ghibli-sky-bg > div:nth-child(2) { padding-top: 13px !important; }
+    header { min-height: 128px !important; padding: 7px 20px 18px !important; }
+    header svg { width: 205px !important; height: 58px !important; transform: none; filter: drop-shadow(0 2px 0 rgba(255,255,255,.45)); }
+    header p { font-size: 11.5px !important; color: #34485f !important; letter-spacing: .065em !important; margin-top: 1px !important; }
+    main {
+      background-color: var(--paper) !important;
+      background-image: radial-gradient(rgba(119,85,47,.08) .55px, transparent .7px) !important;
+      background-size: 6px 6px !important;
+      padding: 8px 13px 14px !important;
+    }
+    #view-home { padding-top: 0; gap: 9px; }
+    #view-home > .ghibli-card:first-child { padding: 0 3px 2px !important; }
+    #view-home > .ghibli-card:first-child .relative:first-child { filter: drop-shadow(0 3px 0 rgba(95,64,36,.14)); }
+    .search-line-icon { top: 10px !important; left: 17px !important; width: 25px; height: 25px; color: #8a6a48; z-index: 2; }
+    .search-line-icon svg { width: 100%; height: 100%; }
+    #search-input {
+      height: 48px;
+      padding-left: 51px !important;
+      padding-right: 35px !important;
+      font-size: 14px !important;
+      font-weight: 800 !important;
+      color: #5e4b38;
+      border: 2.5px solid var(--line);
+      background: rgba(255,253,244,.97);
+      box-shadow: inset 0 0 0 2px rgba(255,255,255,.75);
+    }
+    #search-input::placeholder { color: #927b62; opacity: .9; }
+    #view-home > .ghibli-card:first-child .grid { gap: 8px; margin-top: 9px; }
+    #btn-scope-my, #btn-scope-all {
+      height: 52px;
+      min-height: 52px;
+      padding: 5px 12px !important;
+      border: 2px solid var(--line);
+      border-radius: 25px;
+      color: #3e382f;
+      line-height: 1.05;
+      box-shadow: none;
+    }
+    #btn-scope-my { background: var(--mint); border-color: #78906c; }
+    #btn-scope-all { background: transparent; }
+    .scope-icon { width: 28px; height: 23px; flex: 0 0 auto; }
+    .scope-icon.globe-icon { width: 25px; height: 25px; }
+    .scope-copy { display: flex; min-width: 0; flex-direction: column; align-items: flex-start; gap: 1px; }
+    .scope-copy strong { font-size: 14px; font-weight: 900; white-space: nowrap; }
+    .scope-copy small { font-size: 9px; font-weight: 900; white-space: nowrap; }
+    #view-home > .ghibli-card:first-child > div:last-child {
+      margin: 6px 3px 0;
+      padding: 7px 1px 0;
+      border-color: rgba(151,116,77,.23);
+    }
+    #spend-amount-input { height: 28px; border-width: 1.5px; border-radius: 10px !important; padding: 2px 8px !important; background: #fffdf6; }
+    #spending-list-container { display: grid; gap: 8px; padding-top: 1px; }
+    #spending-list-container .ghibli-card {
+      min-height: 92px;
+      padding: 10px 11px !important;
+      border: 2px solid #b99a72;
+      border-radius: 20px;
+      background: rgba(255,253,246,.96);
+      box-shadow: 0 3px 0 rgba(114,77,40,.18);
+      transform: none !important;
+    }
+    #spending-list-container .ghibli-card > div.flex-1 { gap: 2px; }
+    #spending-list-container .ghibli-card .text-base { font-size: 17px !important; color: #a96f15 !important; }
+    #spending-list-container .ghibli-card .text-xs { font-size: 12px !important; }
+    #spending-list-container .ghibli-card .text-\[10px\] { font-size: 9.5px !important; }
+    #spending-list-container .ghibli-card .bg-amber-50 { background: #fff4bf !important; border-color: #ebca65 !important; }
+    #view-home > .pt-2 { padding-top: 4px; }
+    #view-home > .pt-2 h3 { font-size: 15px !important; color: #292820; letter-spacing: -.02em; }
+    .tracker-box { width: 41px; height: 36px; display: inline-flex; align-items: center; justify-content: center; filter: drop-shadow(0 2px 0 rgba(92,58,29,.18)); }
+    .tracker-box svg { width: 100%; height: 100%; }
+    #home-promo-container {
+      padding: 9px 11px !important;
+      border: 2px solid #b99a72;
+      background: rgba(255,253,246,.95);
+      box-shadow: none;
+    }
+    nav {
+      min-height: 82px;
+      padding: 7px 7px 11px !important;
+      background: #fff9e6 !important;
+      border-top: 1.5px solid rgba(150,112,70,.28) !important;
+      box-shadow: 0 -7px 18px rgba(104,70,35,.06);
+    }
+    .nav-btn { opacity: 1; min-width: 72px; }
+    .nav-btn .nav-icon-box { width: 48px; height: 43px; filter: drop-shadow(0 2px 0 rgba(78,52,29,.18)); }
+    .nav-btn .nav-icon-box svg { width: 43px; height: 43px; }
+    .nav-btn.active-nav .nav-icon-box { transform: translateY(-3px) scale(1.08); filter: drop-shadow(0 4px 2px rgba(103,69,34,.22)); }
+    .nav-btn span { margin-top: 1px !important; font-size: 11px !important; font-weight: 900 !important; color: #292820 !important; }
+    @media (max-width: 639px) {
+      .app-shell { max-width: none; }
+      .ghibli-sky-bg { min-height: 178px; }
+      header { min-height: 116px !important; }
+    }
+
+    /* Narrow preview / real small-phone containment */
+    .app-shell, main, #view-home, #view-home > *, #spending-list-container, #home-promo-container {
+      min-width: 0;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+    .app-shell { overflow: hidden !important; }
+    main { overflow-x: hidden !important; }
+    .ghibli-sky-bg { min-height: 145px; }
+    header { min-height: 91px !important; padding: 2px 18px 7px !important; }
+    .ghibli-sky-bg > div:nth-child(2) { padding-top: 10px !important; padding-bottom: 0 !important; }
+    #view-home > .ghibli-card:first-child .grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+    #btn-scope-my, #btn-scope-all { min-width: 0; overflow: hidden; justify-content: center; gap: 6px; }
+    .scope-copy { min-width: 0; overflow: hidden; }
+    .scope-copy strong, .scope-copy small { max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+    #spending-list-container .ghibli-card { width: 100%; min-width: 0; }
+    #spending-list-container .ghibli-card > div.flex-1 { min-width: 0; }
+    @media (max-width: 300px) {
+      .ghibli-sky-bg { min-height: 126px; }
+      header { min-height: 77px !important; }
+      header svg { width: 160px !important; height: 45px !important; }
+      header p { font-size: 9px !important; }
+      main { padding-left: 9px !important; padding-right: 9px !important; }
+      #view-home > .ghibli-card:first-child .grid { grid-template-columns: minmax(0, 1fr); }
+      #btn-scope-my, #btn-scope-all { height: 38px; min-height: 38px; }
+      .scope-copy { flex-direction: row; align-items: center; }
+      .scope-copy small { display: none; }
+      .scope-copy strong { font-size: 12px; }
+      .scope-icon { width: 22px; height: 19px; }
+      #search-input { font-size: 11px !important; }
+      #spending-list-container .ghibli-card { padding: 8px !important; border-radius: 15px; }
+      #spending-list-container .ghibli-card > div:first-child { transform: scale(.82); transform-origin: left center; margin-right: -14px; }
+      nav { min-height: 64px; padding-left: 1px !important; padding-right: 1px !important; }
+      .nav-btn { min-width: 0; width: 25%; }
+      .nav-btn .nav-icon-box { width: 33px; height: 30px; }
+      .nav-btn .nav-icon-box svg { width: 29px; height: 29px; }
+      .nav-btn span { font-size: 8px !important; white-space: nowrap; }
+    }
+
+    /* Midnight Neon — 深色金融科技主題 */
+    :root {
+      --neon-bg: #080d18;
+      --neon-panel: rgba(20, 29, 47, .86);
+      --neon-panel-2: rgba(29, 39, 61, .92);
+      --neon-line: rgba(105, 211, 255, .34);
+      --neon-cyan: #69dfff;
+      --neon-mint: #69f4d0;
+      --neon-pink: #f06bd6;
+      --neon-text: #f4f8ff;
+      --neon-muted: #9daac0;
+    }
+    body {
+      color: var(--neon-text);
+      background-color: #03060b;
+      background-image:
+        radial-gradient(circle at 16% 10%, rgba(63, 182, 255, .16), transparent 30%),
+        radial-gradient(circle at 84% 76%, rgba(229, 75, 197, .12), transparent 34%),
+        linear-gradient(145deg, #050810 0%, #101724 48%, #03060b 100%);
+    }
+    .app-shell {
+      background: var(--neon-bg) !important;
+      border-color: #30394a !important;
+      box-shadow: 0 30px 90px rgba(0,0,0,.76), 0 0 0 1px rgba(151,176,215,.17), inset 0 0 0 1px rgba(255,255,255,.04) !important;
+    }
+    .ghibli-sky-bg {
+      min-height: 154px !important;
+      background:
+        radial-gradient(circle at 50% -35%, rgba(104,221,255,.2), transparent 58%),
+        linear-gradient(180deg, #171f31 0%, #101725 68%, #080d18 100%) !important;
+      border-bottom: 1px solid rgba(116,203,241,.14);
+    }
+    .ghibli-sky-bg::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(rgba(107,219,255,.26) .65px, transparent .9px);
+      background-size: 7px 7px;
+      opacity: .27;
+    }
+    .ghibli-sky-bg::after { display: none; }
+    .sky-cloud-fade { display: none; }
+    header { min-height: 100px !important; padding: 13px 20px 8px !important; }
+    header svg { filter: drop-shadow(0 0 12px rgba(83,211,255,.25)) !important; }
+    header p, header p span { color: #b6c2d5 !important; }
+    header p .text-ghibliGold-500 { color: var(--neon-pink) !important; }
+    main {
+      background:
+        radial-gradient(circle at 85% 8%, rgba(82,191,255,.07), transparent 28%),
+        linear-gradient(180deg, #080d18 0%, #0b101b 100%) !important;
+      background-size: auto !important;
+      padding: 10px 12px 15px !important;
+    }
+    .ghibli-card {
+      color: var(--neon-text);
+      background: linear-gradient(145deg, rgba(31,41,62,.94), rgba(15,23,38,.96)) !important;
+      border: 1px solid var(--neon-line) !important;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.045), 0 8px 24px rgba(0,0,0,.25), 0 0 18px rgba(65,194,255,.055) !important;
+      backdrop-filter: blur(16px);
+    }
+    #view-home > .ghibli-card:first-child {
+      padding: 12px !important;
+      border: 1px solid rgba(105,223,255,.38) !important;
+      background: linear-gradient(145deg, rgba(27,39,61,.96), rgba(12,20,34,.98)) !important;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.06), 0 0 28px rgba(62,197,255,.08) !important;
+    }
+    #view-home > .ghibli-card:first-child > div:last-child {
+      border-color: rgba(116,210,247,.16) !important;
+    }
+    .ghibli-input, #search-input, #spend-amount-input, #reg-search-input {
+      color: #f4f8ff !important;
+      background: rgba(6,12,23,.82) !important;
+      border: 1px solid rgba(103,213,255,.42) !important;
+      box-shadow: inset 0 1px 8px rgba(0,0,0,.35), 0 0 0 1px rgba(91,205,255,.05) !important;
+    }
+    .ghibli-input:focus, #search-input:focus, #reg-search-input:focus {
+      border-color: var(--neon-cyan) !important;
+      box-shadow: 0 0 0 3px rgba(105,223,255,.12), 0 0 18px rgba(105,223,255,.13) !important;
+    }
+    #search-input::placeholder, #reg-search-input::placeholder { color: #8190a9 !important; }
+    .search-line-icon { color: var(--neon-cyan) !important; filter: drop-shadow(0 0 6px rgba(105,223,255,.45)); }
+    #clear-search-btn, #reg-clear-search-btn { color: #b8c4d7 !important; background: #273247 !important; }
+    #btn-scope-my, #btn-scope-all {
+      color: #dfe9f8 !important;
+      background: rgba(20,30,48,.9) !important;
+      border: 1px solid rgba(126,151,190,.28) !important;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.04) !important;
+    }
+    #btn-scope-my {
+      color: #b9fff0 !important;
+      border-color: rgba(105,244,208,.68) !important;
+      background: linear-gradient(135deg, rgba(39,103,96,.48), rgba(17,42,48,.9)) !important;
+      box-shadow: 0 0 16px rgba(105,244,208,.09), inset 0 1px 0 rgba(255,255,255,.06) !important;
+    }
+    #view-home > .ghibli-card:first-child .text-ghibliInk-600,
+    .text-ghibliInk-500, .text-ghibliInk-600 { color: var(--neon-muted) !important; }
+    .text-ghibliInk-700, .text-ghibliInk-800 { color: var(--neon-text) !important; }
+    .text-ghibliGold-600 { color: var(--neon-cyan) !important; }
+    #spending-list-container { gap: 10px; }
+    #spending-list-container .ghibli-card {
+      min-height: 105px;
+      border-radius: 17px !important;
+      border-color: rgba(103,213,255,.32) !important;
+      background: linear-gradient(105deg, rgba(35,45,67,.96), rgba(15,23,38,.98)) !important;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.04), 0 0 17px rgba(68,194,255,.07) !important;
+    }
+    #spending-list-container .ghibli-card:first-child {
+      border-color: rgba(105,223,255,.73) !important;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.06), 0 0 24px rgba(70,203,255,.15), 0 9px 25px rgba(0,0,0,.3) !important;
+    }
+    #spending-list-container .ghibli-card .text-base { color: var(--neon-cyan) !important; text-shadow: 0 0 9px rgba(105,223,255,.2); }
+    #spending-list-container .ghibli-card .bg-amber-50,
+    .bg-amber-50\/90 { color: #ffd0ee !important; background: rgba(126,39,103,.24) !important; border-color: rgba(240,107,214,.33) !important; }
+    .bg-ghibliGreen-100 { background: rgba(61,167,139,.18) !important; }
+    .text-ghibliGreen-600 { color: var(--neon-mint) !important; }
+    .border-ghibliGreen-200 { border-color: rgba(105,244,208,.25) !important; }
+    .bg-amber-100 { background: rgba(240,107,214,.16) !important; }
+    .text-amber-700, .text-amber-800, .text-amber-900, .text-amber-600 { color: #ff9de8 !important; }
+    .border-amber-200, .border-amber-300, .border-amber-200\/60 { border-color: rgba(240,107,214,.3) !important; }
+    #home-promo-container {
+      background: linear-gradient(145deg, rgba(27,38,58,.94), rgba(15,22,36,.98)) !important;
+      border-radius: 17px !important;
+      border-color: rgba(105,223,255,.3) !important;
+    }
+    #home-promo-container .border-\[\#f4eadb\] { border-color: rgba(122,149,183,.18) !important; }
+    .tracker-box { color: var(--neon-pink) !important; filter: drop-shadow(0 0 7px rgba(240,107,214,.3)); }
+    #bank-filter-bar button, #reg-bank-filter-bar button,
+    #reg-tab-pending, #reg-tab-active {
+      color: #bdc9dc !important;
+      background: rgba(25,35,53,.92) !important;
+      border-color: rgba(115,147,184,.25) !important;
+    }
+    #deck-list-container > *, #rewards-store-container > * { color: var(--neon-text); }
+    #view-mydeck .ghibli-card, #view-rewards-store .ghibli-card, #view-settings .ghibli-card {
+      border-radius: 17px !important;
+    }
+    #view-settings .bg-\[\#faf6ee\], #view-rewards-store .bg-white,
+    #card-detail-modal .bg-\[\#faf6ee\] {
+      color: var(--neon-text) !important;
+      background: rgba(12,20,34,.68) !important;
+      border-color: rgba(110,153,192,.2) !important;
+    }
+    nav {
+      min-height: 74px;
+      color: var(--neon-muted);
+      background: rgba(9,13,24,.96) !important;
+      border-top: 1px solid rgba(105,223,255,.19) !important;
+      box-shadow: 0 -10px 28px rgba(0,0,0,.35), 0 -1px 12px rgba(65,195,255,.06) !important;
+      backdrop-filter: blur(18px);
+    }
+    .nav-btn .nav-icon-box { filter: grayscale(.4) brightness(.82) !important; opacity: .68; }
+    .nav-btn.active-nav .nav-icon-box { filter: drop-shadow(0 0 9px rgba(105,244,208,.5)) brightness(1.15) !important; opacity: 1; }
+    .nav-btn span { color: #7f8ba1 !important; }
+    .nav-btn.active-nav span { color: var(--neon-mint) !important; text-shadow: 0 0 8px rgba(105,244,208,.22); }
+    #card-detail-modal { background: rgba(0,3,10,.78) !important; }
+    #card-detail-modal > div { background: #111a2a !important; border-color: rgba(105,223,255,.38) !important; }
+    #card-detail-modal > div > div:first-child,
+    #card-detail-modal > div > div:last-child { background: #0d1523 !important; border-color: rgba(105,223,255,.16) !important; }
+    #modal-card-body { background: #0a111d; }
+    #modal-card-body .bg-\[\#faf6ee\] { background: rgba(27,39,60,.9) !important; border-color: rgba(105,223,255,.22) !important; }
+    #toast { color: var(--neon-mint) !important; background: rgba(16,27,43,.96) !important; border-color: rgba(105,244,208,.45) !important; }
+    @media (max-width: 639px) {
+      .ghibli-sky-bg { min-height: 138px !important; }
+      header { min-height: 91px !important; }
+    }
+    .ghibli-sky-bg > div:nth-child(2) { color: #c8d4e7 !important; }
+    header > div {
+      padding: 2px 19px 6px;
+      border-radius: 22px;
+      background: radial-gradient(circle at 50% 0%, rgba(81,210,255,.13), transparent 72%);
+    }
+    header svg text { fill: #eff8ff; stroke: rgba(105,223,255,.35); stroke-width: .7px; paint-order: stroke; }
+    header svg g:nth-of-type(2) path { stroke: var(--neon-pink); }
+    header svg { filter: drop-shadow(0 0 7px rgba(105,223,255,.35)) drop-shadow(0 0 18px rgba(105,223,255,.12)) !important; }
+    .tracker-box {
+      width: 34px;
+      height: 34px;
+      color: var(--neon-cyan) !important;
+      border: 1px solid rgba(105,223,255,.28);
+      border-radius: 11px;
+      background: rgba(105,223,255,.07);
+      filter: drop-shadow(0 0 6px rgba(105,223,255,.12)) !important;
+    }
+    .tracker-box svg { width: 21px; height: 21px; }
+    #btn-scope-my, #btn-scope-all {
+      position: relative;
+      transition: border-color .22s ease, background .22s ease, color .22s ease, box-shadow .22s ease, transform .22s ease !important;
+    }
+    #btn-scope-my:not(.scope-active), #btn-scope-all:not(.scope-active) {
+      color: #8795aa !important;
+      border-color: rgba(126,151,190,.18) !important;
+      background: rgba(15,23,38,.72) !important;
+      box-shadow: none !important;
+    }
+    #btn-scope-my.scope-active, #btn-scope-all.scope-active {
+      color: #c8fff4 !important;
+      border-color: rgba(105,244,208,.76) !important;
+      background: linear-gradient(135deg, rgba(38,106,96,.55), rgba(16,42,50,.95)) !important;
+      box-shadow: 0 0 0 1px rgba(105,244,208,.08), 0 0 20px rgba(105,244,208,.16), inset 0 1px 0 rgba(255,255,255,.07) !important;
+      transform: translateY(-1px);
+    }
+    #btn-scope-my.scope-active::after, #btn-scope-all.scope-active::after {
+      content: '';
+      position: absolute;
+      left: 25%; right: 25%; bottom: -1px; height: 2px;
+      border-radius: 999px;
+      background: var(--neon-mint);
+      box-shadow: 0 0 9px var(--neon-mint);
+    }
+    .nav-btn .nav-icon-box {
+      color: #78869d;
+      background: transparent !important;
+      border: 0 !important;
+      filter: none !important;
+      opacity: .72;
+    }
+    .nav-btn .nav-icon-box svg { width: 27px; height: 27px; }
+    .nav-btn.active-nav .nav-icon-box {
+      color: var(--neon-mint);
+      opacity: 1;
+      filter: drop-shadow(0 0 6px rgba(105,244,208,.42)) !important;
+      transform: translateY(-2px) scale(1.06) !important;
+    }
+    #view-rewards-store > .ghibli-card:first-child {
+      background: linear-gradient(145deg, rgba(26,37,56,.86), rgba(17,25,40,.9)) !important;
+      border-color: rgba(123,153,189,.2) !important;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.035) !important;
+    }
+    #view-rewards-store > .ghibli-card:first-child .text-xl { color: #90a5be; filter: grayscale(1); }
+    #reg-tab-pending, #reg-tab-active {
+      color: #94a3b8 !important;
+      background: rgba(17,25,40,.72) !important;
+      border-color: rgba(123,153,189,.17) !important;
+      box-shadow: none !important;
+    }
+    #reg-tab-pending.reg-filter-active, #reg-tab-active.reg-filter-active {
+      color: #c9fff3 !important;
+      background: rgba(49,105,98,.32) !important;
+      border-color: rgba(105,244,208,.42) !important;
+    }
+    #rewards-store-container .ghibli-card {
+      background: linear-gradient(145deg, rgba(27,37,55,.88), rgba(17,25,40,.92)) !important;
+      border-color: rgba(122,151,186,.2) !important;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.03), 0 6px 18px rgba(0,0,0,.18) !important;
+    }
+    #rewards-store-container .text-ghibliGold-600 { color: #a9dbea !important; text-shadow: none !important; }
+    #rewards-store-container .bg-amber-50 {
+      color: #b8c5d7 !important;
+      background: rgba(12,20,33,.48) !important;
+      border-color: rgba(123,153,189,.15) !important;
+    }
+    #rewards-store-container button {
+      color: #c9fff3 !important;
+      background: rgba(43,100,91,.34) !important;
+      border: 1px solid rgba(105,244,208,.3) !important;
+      box-shadow: none !important;
+    }
+    .scope-search-note {
+      color: #91a1b8;
+      background: rgba(15,24,39,.72);
+      border: 1px solid rgba(111,149,183,.18);
+    }
+    .scope-search-note button { color: var(--neon-mint); }
+
+    /* Soft Mint — 依最新參考圖重整的明亮卡片介面 */
+    :root {
+      --mint-700: #167e7a;
+      --mint-600: #20aaa2;
+      --mint-500: #43c7bd;
+      --mint-100: #e9f8f5;
+      --coral-600: #f05f58;
+      --coral-100: #fff0ed;
+      --warm-50: #fffdfa;
+      --warm-100: #faf7f2;
+      --ink-900: #1f343a;
+      --ink-600: #70828a;
+      --line-soft: #e4ecea;
+    }
+    body {
+      color: var(--ink-900) !important;
+      background: linear-gradient(145deg, #eef8f6 0%, #fffaf5 46%, #edf6f5 100%) !important;
+    }
+    .app-shell {
+      background: var(--warm-50) !important;
+      border-color: #d8e3e1 !important;
+      box-shadow: 0 24px 70px rgba(44,88,91,.18), 0 0 0 1px rgba(255,255,255,.9) !important;
+    }
+    .ghibli-sky-bg {
+      min-height: 150px !important;
+      color: var(--ink-900) !important;
+      background:
+        radial-gradient(circle at 82% 15%, rgba(72,199,188,.16), transparent 30%),
+        linear-gradient(180deg, #fffdfa 0%, #f8fbfa 100%) !important;
+      border-bottom: 1px solid var(--line-soft) !important;
+    }
+    .ghibli-sky-bg::before, .ghibli-sky-bg::after, .sky-cloud-fade { display: none !important; }
+    .ghibli-sky-bg > div:nth-child(2) { color: #354b52 !important; padding-top: 11px !important; }
+    header { min-height: 96px !important; padding: 9px 17px 11px !important; }
+    header > div { padding: 0 !important; background: transparent !important; }
+    .brand-lockup { width: 100%; gap: 10px; }
+    .brand-cat {
+      width: 50px; height: 50px; flex: 0 0 50px; padding: 3px;
+      border-radius: 15px;
+      background: linear-gradient(145deg, #aeece6, #62cec4);
+      box-shadow: 0 7px 18px rgba(38,165,156,.22);
+    }
+    .brand-cat svg { width: 100% !important; height: 100% !important; filter: none !important; }
+    .brand-copy { min-width: 0; flex: 1; }
+    .brand-name { color: #174d55; font-size: 26px; line-height: 1; font-weight: 900; letter-spacing: .04em; }
+    .brand-name span { color: #ff9b82; font-size: 15px; vertical-align: top; margin-left: 3px; }
+    .brand-copy p { color: #678088 !important; margin-top: 7px !important; font-size: 10px !important; font-weight: 800; letter-spacing: .055em; white-space: nowrap; }
+    .brand-bell {
+      width: 34px; height: 34px; display: grid; place-items: center; flex: 0 0 auto;
+      color: #315c63; border: 1px solid #dbe8e6; border-radius: 12px; background: white;
+      box-shadow: 0 4px 12px rgba(56,94,96,.08);
+    }
+    .brand-bell svg { width: 20px !important; height: 20px !important; filter: none !important; }
+    main {
+      color: var(--ink-900) !important;
+      background: #f8faf9 !important;
+      padding: 11px 12px 14px !important;
+    }
+    .ghibli-card,
+    #view-home > .ghibli-card:first-child,
+    #spending-list-container .ghibli-card,
+    #spending-list-container .ghibli-card:first-child,
+    #home-promo-container,
+    #view-rewards-store > .ghibli-card:first-child,
+    #rewards-store-container .ghibli-card {
+      color: var(--ink-900) !important;
+      background: rgba(255,255,255,.96) !important;
+      border: 1px solid var(--line-soft) !important;
+      box-shadow: 0 6px 20px rgba(42,77,78,.065) !important;
+      backdrop-filter: none !important;
+    }
+    #view-home > .ghibli-card:first-child { padding: 12px !important; border-radius: 19px !important; }
+    #view-home > .ghibli-card:first-child > div:last-child { border-color: #edf1ef !important; }
+    .ghibli-input, #search-input, #spend-amount-input, #reg-search-input {
+      color: var(--ink-900) !important;
+      background: #f5f8f7 !important;
+      border: 1px solid #e0e8e6 !important;
+      box-shadow: none !important;
+    }
+    #search-input { height: 44px; }
+    .ghibli-input:focus, #search-input:focus, #reg-search-input:focus {
+      border-color: var(--mint-500) !important;
+      box-shadow: 0 0 0 3px rgba(67,199,189,.13) !important;
+    }
+    #search-input::placeholder, #reg-search-input::placeholder { color: #9aa9ae !important; }
+    .search-line-icon { color: var(--mint-600) !important; filter: none !important; }
+    #clear-search-btn, #reg-clear-search-btn { color: #71848a !important; background: #eaf0ee !important; }
+    #btn-scope-my, #btn-scope-all { min-height: 45px; height: 45px; border-radius: 14px !important; }
+    #btn-scope-my:not(.scope-active), #btn-scope-all:not(.scope-active) {
+      color: #73868b !important; background: #f7f9f8 !important; border-color: #e6ecea !important; box-shadow: none !important;
+    }
+    #btn-scope-my.scope-active, #btn-scope-all.scope-active {
+      color: #fff !important;
+      background: linear-gradient(135deg, var(--mint-500), #20aaa2) !important;
+      border-color: transparent !important;
+      box-shadow: 0 7px 16px rgba(32,170,162,.2) !important;
+      transform: none !important;
+    }
+    #btn-scope-my.scope-active::after, #btn-scope-all.scope-active::after { display: none; }
+    .scope-copy strong { font-size: 12px; }
+    .scope-copy small { color: inherit; opacity: .82; }
+    .text-ghibliInk-500, .text-ghibliInk-600 { color: var(--ink-600) !important; }
+    .text-ghibliInk-700, .text-ghibliInk-800 { color: var(--ink-900) !important; }
+    .text-ghibliGold-600 { color: var(--coral-600) !important; }
+    #spending-list-container { gap: 9px; }
+    #spending-list-container .ghibli-card { min-height: 101px; padding: 11px !important; border-radius: 18px !important; }
+    #spending-list-container .ghibli-card:first-child {
+      border-color: #f0dfc8 !important;
+      background: linear-gradient(145deg, #fffefb, #fff8ee) !important;
+    }
+    #spending-list-container .ghibli-card .text-base { color: var(--coral-600) !important; text-shadow: none !important; }
+    #spending-list-container .ghibli-card .bg-amber-50,
+    .bg-amber-50\/90 {
+      color: #8b6b57 !important; background: #fff7ec !important; border-color: #f5e7d5 !important;
+    }
+    .bg-ghibliGreen-100 { background: var(--mint-100) !important; }
+    .text-ghibliGreen-600 { color: var(--mint-700) !important; }
+    .border-ghibliGreen-200 { border-color: #ccece7 !important; }
+    .bg-amber-100 { background: var(--coral-100) !important; }
+    .text-amber-700, .text-amber-800, .text-amber-900, .text-amber-600 { color: #d9645e !important; }
+    .border-amber-200, .border-amber-300, .border-amber-200\/60 { border-color: #f5cfca !important; }
+    .tracker-box {
+      color: var(--mint-700) !important; background: var(--mint-100) !important;
+      border-color: #ccece7 !important; filter: none !important;
+    }
+    #home-promo-container { border-radius: 18px !important; }
+    #home-promo-container .border-\[\#f4eadb\] { border-color: #edf1ef !important; }
+    .scope-search-note { color: #71848a; background: #f1f7f5; border-color: #dcece8; }
+    .scope-search-note button { color: var(--mint-700); }
+    #bank-filter-bar button, #reg-bank-filter-bar button,
+    #reg-tab-pending, #reg-tab-active {
+      color: #72858b !important; background: #fff !important; border-color: #e2eae8 !important;
+    }
+    #reg-tab-pending.reg-filter-active, #reg-tab-active.reg-filter-active {
+      color: var(--mint-700) !important; background: var(--mint-100) !important; border-color: #bfe5df !important;
+    }
+    #view-rewards-store > .ghibli-card:first-child .text-xl { color: var(--mint-600); filter: none; }
+    #rewards-store-container .text-ghibliGold-600 { color: #d95f59 !important; }
+    #rewards-store-container .bg-amber-50 { color: #7e7470 !important; background: #fff9f4 !important; border-color: #f1e8df !important; }
+    #rewards-store-container button {
+      color: #fff !important; background: var(--coral-600) !important; border-color: transparent !important;
+      box-shadow: 0 5px 12px rgba(240,95,88,.18) !important;
+    }
+    #view-settings .bg-\[\#faf6ee\], #view-rewards-store .bg-white,
+    #card-detail-modal .bg-\[\#faf6ee\] {
+      color: var(--ink-900) !important; background: #f7faf9 !important; border-color: #e6eeec !important;
+    }
+    nav {
+      min-height: 72px;
+      color: #809196 !important;
+      background: rgba(255,255,255,.97) !important;
+      border-top: 1px solid #e3ebe9 !important;
+      box-shadow: 0 -8px 24px rgba(50,84,85,.055) !important;
+      backdrop-filter: blur(16px);
+    }
+    .nav-btn .nav-icon-box { color: #8a9ca1 !important; opacity: 1; filter: none !important; }
+    .nav-btn.active-nav .nav-icon-box { color: var(--mint-600) !important; filter: none !important; }
+    .nav-btn span { color: #8b9aa0 !important; }
+    .nav-btn.active-nav span { color: var(--mint-700) !important; text-shadow: none !important; }
+    #card-detail-modal { background: rgba(30,51,54,.32) !important; }
+    #card-detail-modal > div { background: #fff !important; border-color: #dce9e6 !important; }
+    #card-detail-modal > div > div:first-child,
+    #card-detail-modal > div > div:last-child { background: #f8fbfa !important; border-color: #e4ecea !important; }
+    #modal-card-body { background: #fff; }
+    #modal-card-body .bg-\[\#faf6ee\] { background: #f7faf9 !important; border-color: #e3ece9 !important; }
+    #toast { color: var(--mint-700) !important; background: rgba(255,255,255,.97) !important; border-color: #cbe9e4 !important; }
+    @media (max-width: 639px) {
+      .ghibli-sky-bg { min-height: 116px !important; padding-bottom: 0 !important; }
+      header { min-height: 76px !important; padding-top: 4px !important; padding-bottom: 6px !important; }
+      main { padding-top: 5px !important; }
+    }
+    #bank-filter-bar, #reg-bank-filter-bar {
+      width: 100%; max-width: 100%; overflow-x: auto !important; overflow-y: hidden !important;
+      flex-wrap: nowrap !important; touch-action: pan-x; overscroll-behavior-x: contain;
+      -webkit-overflow-scrolling: touch; cursor: grab; scrollbar-width: none;
+    }
+    #bank-filter-bar.dragging, #reg-bank-filter-bar.dragging { cursor: grabbing; scroll-behavior: auto; }
+    #bank-filter-bar button, #reg-bank-filter-bar button { white-space: nowrap; user-select: none; }
+    .recommend-bank { color: #829196; font-size: 9.5px; font-weight: 800; line-height: 1.15; }
+    .recommend-card-name {
+      color: var(--ink-900); font-size: 13px; font-weight: 900; line-height: 1.25;
+      white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .recommend-reward-title { font-size: 12.5px; line-height: 1.35; }
+    .recommend-reward-rate {
+      display: inline-block;
+      font-size: 18px !important;
+      line-height: 1;
+      letter-spacing: -.02em;
+      vertical-align: -1px;
+    }
+    .recommend-top-reward {
+      display: flex;
+      align-items: baseline;
+      gap: 7px;
+      min-width: 0;
+      line-height: 1.05;
+    }
+    .recommend-reward-amount {
+      color: #e76561;
+      font-size: 23px;
+      font-weight: 950;
+      line-height: 1;
+      letter-spacing: -.04em;
+      white-space: nowrap;
+      text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    }
+    .recommend-reward-caption {
+      color: #71848a;
+      font-size: 10px;
+      font-weight: 850;
+      line-height: 1.2;
+      white-space: normal;
+    }
+    .recommend-activity-title {
+      color: var(--ink-700);
+      font-size: 11px;
+      font-weight: 800;
+      line-height: 1.25;
+    }
+    .offer-view-switch {
+      background: rgba(231,240,238,.72);
+      border: 1px solid rgba(207,225,221,.9);
+    }
+    .offer-view-button {
+      min-height: 31px;
+      border-radius: 9px;
+      color: #7c8d91;
+      font-size: 10.5px;
+      font-weight: 900;
+      transition: background .18s ease, color .18s ease, box-shadow .18s ease;
+    }
+    .offer-view-button.offer-view-active {
+      color: #167e7a;
+      background: rgba(255,255,255,.92);
+      box-shadow: 0 3px 10px rgba(51,105,101,.10), inset 0 0 0 1px rgba(255,255,255,.9);
+    }
+    #spending-list-container .recommend-glass-card,
+    #spending-list-container .recommend-glass-card:first-child {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 92% 8%, rgba(92,205,196,.20), transparent 34%),
+        linear-gradient(135deg, rgba(255,255,255,.82), rgba(246,252,250,.58)) !important;
+      border: 1px solid rgba(255,255,255,.92) !important;
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.95),
+        0 12px 28px rgba(57,101,101,.10),
+        0 0 0 1px rgba(121,177,172,.14) !important;
+      -webkit-backdrop-filter: blur(18px) saturate(1.15) !important;
+      backdrop-filter: blur(18px) saturate(1.15) !important;
+    }
+    #spending-list-container .recommend-glass-card:hover {
+      transform: translateY(-1px);
+      border-color: rgba(100,199,191,.48) !important;
+      box-shadow: inset 0 1px 0 white, 0 15px 32px rgba(45,127,121,.14) !important;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex justify-center items-center sm:py-6 sm:px-4">
+
+  <div class="app-shell w-full max-w-[420px] h-[100dvh] sm:h-[880px] rounded-none sm:rounded-[46px] bg-[#faf5eb] sm:border-[8px] sm:border-[#382f27] sm:shadow-[0_25px_60px_-15px_rgba(58,45,34,0.5)] flex flex-col overflow-hidden relative">
+
+    <!-- 頂部天際水彩蒼穹區塊 -->
+    <div class="ghibli-sky-bg relative overflow-hidden flex-shrink-0 select-none pb-2">
+      <div class="absolute inset-0 w-full h-full pointer-events-none z-0 sky-cloud-fade">
+        <svg class="w-full h-full cloud-drift" preserveAspectRatio="none" viewBox="0 0 500 180" fill="none">
+          <defs>
+            <linearGradient id="cloudGradFull" x1="50%" y1="0%" x2="50%" y2="100%">
+              <stop offset="0%" stop-color="#ffffff"/>
+              <stop offset="60%" stop-color="#f2f8fc"/>
+              <stop offset="85%" stop-color="#d6ebf9"/>
+              <stop offset="100%" stop-color="#faf5eb" stop-opacity="0.1"/>
+            </linearGradient>
+            <filter id="softCloudBlur">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="0.8" />
+            </filter>
+          </defs>
+          <g filter="url(#softCloudBlur)">
+            <circle cx="15" cy="110" r="50" fill="url(#cloudGradFull)" opacity="0.95"/>
+            <circle cx="70" cy="98" r="48" fill="url(#cloudGradFull)"/>
+            <circle cx="130" cy="108" r="44" fill="url(#cloudGradFull)" opacity="0.95"/>
+            <ellipse cx="200" cy="130" rx="65" ry="32" fill="url(#cloudGradFull)" opacity="0.9"/>
+            <ellipse cx="270" cy="128" rx="70" ry="30" fill="url(#cloudGradFull)" opacity="0.85"/>
+            <ellipse cx="330" cy="132" rx="60" ry="32" fill="url(#cloudGradFull)" opacity="0.9"/>
+            <circle cx="395" cy="102" r="42" fill="url(#cloudGradFull)" opacity="0.95"/>
+            <circle cx="440" cy="95" r="42" fill="url(#cloudGradFull)"/>
+            <circle cx="478" cy="104" r="38" fill="url(#cloudGradFull)"/>
+            <circle cx="505" cy="116" r="36" fill="url(#cloudGradFull)" opacity="0.95"/>
+            <path d="M 0 120 Q 120 110 250 118 T 500 120 L 500 180 L 0 180 Z" fill="url(#cloudGradFull)"/>
+          </g>
+        </svg>
+      </div>
+
+      <!-- 頂部手機狀態列與靈動島 -->
+      <div class="w-full pt-3 pb-1 px-7 flex justify-between items-center text-xs font-bold text-ghibliInk-800/85 relative z-20">
+        <span id="live-clock" class="tracking-wide font-extrabold text-[13px]">14:38</span>
+        <div class="w-24 h-5 bg-black rounded-full flex items-center justify-end px-2 space-x-1 shadow-inner">
+          <div class="w-2 h-2 rounded-full bg-[#1b2f44]"></div>
+          <div class="w-1.5 h-1.5 rounded-full bg-emerald-500/90 animate-pulse"></div>
+        </div>
+        <div class="flex items-center space-x-1 text-[11px] font-black">
+          <span>5G</span>
+          <span class="text-xs">⚡100%</span>
+        </div>
+      </div>
+
+      <!-- 卡奴標誌 -->
+      <header class="px-5 pt-0.5 pb-2 flex flex-col items-center justify-center relative z-20 min-h-[92px]">
+        <div class="brand-lockup relative flex items-center cursor-pointer" onclick="showTip('卡奴：最懂你的信用卡回饋管家')">
+          <div class="brand-cat" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M13 18 11 8l9 6a18 18 0 0 1 8 0l9-6-2 10c4 4 5 9 3 14-2 6-8 9-14 9S12 38 10 32c-2-5-1-10 3-14Z" fill="#fffaf6" stroke="#24545c" stroke-width="2.4" stroke-linejoin="round"/><circle cx="19" cy="26" r="1.8" fill="#24545c"/><circle cx="30" cy="26" r="1.8" fill="#24545c"/><path d="m22 30 2 1.5L26 30M24 31.5v2" stroke="#24545c" stroke-width="1.6" stroke-linecap="round"/><rect x="11" y="32" width="27" height="11" rx="3" fill="#54c9be" stroke="#24545c" stroke-width="2"/><rect x="15" y="35" width="6" height="4" rx="1" fill="#ffe083"/></svg>
+          </div>
+          <div class="brand-copy">
+            <div class="brand-name">卡奴<span>✦</span></div>
+            <p>聰明刷卡・讓每一筆消費更有價值</p>
+          </div>
+          <button class="brand-bell" type="button" onclick="event.stopPropagation(); switchTab('rewards-store')" aria-label="查看活動提醒">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M6.5 9.5a5.5 5.5 0 0 1 11 0c0 6 2.5 6 2.5 7.5H4c0-1.5 2.5-1.5 2.5-7.5Z" stroke="currentColor" stroke-width="1.8"/><path d="M10 20h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+      </header>
+    </div>
+
+    <!-- 核心可滑動區域 -->
+    <main class="flex-1 overflow-y-auto no-scrollbar relative px-4 pb-4 space-y-3 bg-[#fff9eb]" id="main-scroll-area">
+
+      <!-- ==================== TAB 1: 回饋快查 (HOME) ==================== -->
+      <section id="view-home" class="space-y-3 pt-1">
+        <div class="ghibli-card rounded-[22px] p-3 space-y-2.5 bg-white">
+          <div class="relative">
+            <span class="search-line-icon absolute left-3.5 top-2.5 text-ghibliInk-500 text-sm" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none"><circle cx="13" cy="13" r="8" stroke="currentColor" stroke-width="3"/><path d="M19 19L27 27" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+            </span>
+            <input 
+              id="search-input" 
+              type="text" 
+              placeholder="輸入任意消費品項、店家或通路..."
+              oninput="handleSearchInput()"
+              class="w-full ghibli-input rounded-xl pl-9 pr-8 py-2 text-xs font-black placeholder:text-ghibliInk-500/65 focus:outline-none"
+            />
+            <button 
+              id="clear-search-btn" 
+              onclick="clearSearchInput()"
+              class="hidden absolute right-2.5 top-2.5 text-ghibliInk-500 hover:text-ghibliInk-800 text-xs font-black px-1.5 py-0.5 rounded-full bg-[#eee4d4]">
+              ✕
+            </button>
+          </div>
+          <div id="search-context-clarifier" class="hidden rounded-xl border border-[#dce9e6] bg-[#f5faf9] px-3 py-2"></div>
+
+          <div class="grid grid-cols-2 gap-2 pt-0.5">
+            <button 
+              id="btn-scope-my" 
+              onclick="setScope('my')" 
+              class="flex items-center justify-center space-x-1.5 py-2 px-2 rounded-xl font-bold text-xs transition"
+              aria-pressed="false">
+              <svg class="scope-icon" viewBox="0 0 32 24" fill="none" aria-hidden="true"><rect x="2" y="3" width="28" height="18" rx="4" stroke="currentColor" stroke-width="2.5"/><path d="M4 9H28" stroke="currentColor" stroke-width="2.5"/><rect x="6" y="13" width="7" height="3" rx="1" fill="currentColor"/></svg>
+              <span class="scope-copy"><strong>我的卡包</strong><small>推薦刷哪張</small></span>
+            </button>
+
+            <button 
+              id="btn-scope-all" 
+              onclick="setScope('all')" 
+              class="scope-active flex items-center justify-center space-x-1.5 py-2 px-2 rounded-xl font-black text-xs transition"
+              aria-pressed="true">
+              <svg class="scope-icon globe-icon" viewBox="0 0 28 28" fill="none" aria-hidden="true"><circle cx="14" cy="14" r="11" stroke="currentColor" stroke-width="2.3"/><path d="M3 14H25M14 3C18 7 18 21 14 25M14 3C10 7 10 21 14 25" stroke="currentColor" stroke-width="1.8"/></svg>
+              <span class="scope-copy"><strong>全市場推薦</strong><small>找最佳回饋</small></span>
+            </button>
+          </div>
+
+          <div class="offer-view-switch grid grid-cols-2 gap-1 rounded-xl p-1" aria-label="優惠類型">
+            <button id="offer-view-daily" type="button" onclick="setOfferView('daily')" class="offer-view-button" aria-pressed="true">日常刷卡</button>
+            <button id="offer-view-acquisition" type="button" onclick="setOfferView('acquisition')" class="offer-view-button" aria-pressed="false">辦卡優惠</button>
+          </div>
+
+          <div class="flex items-center justify-between pt-1 border-t border-[#f4e9db] text-xs">
+            <span class="text-[11px] font-bold text-ghibliInk-600">預計消費試算金額：</span>
+            <div class="flex items-center space-x-1">
+              <span class="text-xs font-black text-ghibliGold-600">NT$</span>
+              <input 
+                id="spend-amount-input" 
+                type="number" 
+                value="2000" 
+                step="500" 
+                min="0"
+                oninput="renderSpendingList()"
+                class="w-20 ghibli-input rounded-lg px-2 py-0.5 text-right text-xs font-black"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- 通用除外/避坑條款警示條 -->
+        <div id="exclusion-warning-banner" class="hidden ghibli-card rounded-[18px] p-2.5 bg-amber-50/90 border border-amber-200/80 text-[11px] text-amber-900 flex items-start space-x-2">
+          <span class="text-sm">⚠️</span>
+          <div class="flex-1 leading-tight font-medium">
+            <span class="font-black text-amber-800" id="exclusion-title">注意此通路可能有排除條款：</span>
+            <span id="exclusion-desc" class="text-amber-700"></span>
+          </div>
+        </div>
+
+        <!-- 推薦刷卡清單 -->
+        <div class="space-y-2.5" id="spending-list-container"></div>
+
+        <!-- 登錄到期追蹤 (RegisTracker) -->
+        <div class="pt-2">
+          <div class="flex items-center justify-between pb-1.5 px-1">
+            <h3 class="text-xs font-black text-ghibliInk-800 flex items-center space-x-1.5">
+              <span>登錄到期追蹤 (RegisTracker)</span>
+            </h3>
+            <span onclick="switchTab('rewards-store')" class="tracker-box text-[10.5px] font-bold cursor-pointer" title="查看全部登錄活動">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.5 9.5a5.5 5.5 0 0 1 11 0c0 6 2.5 6 2.5 7.5H4c0-1.5 2.5-1.5 2.5-7.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M10 20h4M9 4.5 7.5 3M15 4.5 16.5 3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </span>
+          </div>
+
+          <div id="home-promo-container" class="ghibli-card rounded-[22px] p-3 space-y-2 bg-white"></div>
+        </div>
+      </section>
+
+      <!-- ==================== TAB 2: 卡夾管理 (MY CARDS) ==================== -->
+      <section id="view-mydeck" class="space-y-3 pt-1 hidden">
+        <div class="ghibli-card rounded-[22px] p-3.5 flex items-center justify-between bg-white">
+          <div>
+            <h2 class="text-xs font-black text-ghibliInk-800 flex items-center space-x-1.5">
+              <span>💳 我的現有持卡皮夾</span>
+            </h2>
+            <p class="text-[11px] text-ghibliInk-500 font-medium mt-0.5">點選你已擁有的卡片，消費快查即刻為你推薦最優刷法！</p>
+          </div>
+          <button onclick="openAddCardModal()" class="px-3 py-2 rounded-xl bg-[#55bdb4] text-white text-[11px] font-black shadow-sm active:scale-95">＋ 新增信用卡</button>
+        </div>
+        <div class="flex items-center justify-between px-1 text-[10.5px] font-bold text-ghibliInk-500">
+          <span>我的卡片</span><span>共 <span id="deck-selected-count">0</span> 張</span>
+        </div>
+        <div id="deck-list-container" class="space-y-2 pb-6"></div>
+      </section>
+
+      <!-- ==================== TAB 3: 登錄活動 (REWARDS STORE) ==================== -->
+      <section id="view-rewards-store" class="space-y-3 pt-1 hidden">
+        <div class="ghibli-card rounded-[22px] p-3.5 space-y-1 bg-white">
+          <div class="flex items-center space-x-2">
+            <span class="text-xl">🎪</span>
+            <div>
+              <h2 class="text-xs font-black text-ghibliInk-800">登錄活動</h2>
+              <p class="text-[11px] text-ghibliInk-600 font-medium">集中查看需要登錄的信用卡活動，並依銀行篩選與記錄狀態。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative">
+          <span class="absolute left-3.5 top-2.5 text-ghibliInk-500 text-xs">🔍</span>
+          <input 
+            id="reg-search-input" 
+            type="text" 
+            placeholder="搜尋登錄活動..." 
+            oninput="handleRegSearchInput()"
+            class="w-full ghibli-input rounded-xl pl-9 pr-8 py-2 text-xs font-black placeholder:text-ghibliInk-500/65 focus:outline-none"
+          />
+          <button 
+            id="reg-clear-search-btn" 
+            onclick="clearRegSearchInput()"
+            class="hidden absolute right-2.5 top-2.5 text-ghibliInk-500 hover:text-ghibliInk-800 text-xs font-black px-1.5 py-0.5 rounded-full bg-[#eee4d4]">
+            ✕
+          </button>
+        </div>
+
+        <div id="reg-bank-filter-bar" class="flex items-center space-x-1.5 overflow-x-auto no-scrollbar py-0.5 text-xs"></div>
+
+        <div class="flex gap-1.5 overflow-x-auto no-scrollbar text-[10.5px] font-bold">
+          <button onclick="setRegFilter('upcoming')" id="reg-tab-upcoming" class="reg-state-tab flex-shrink-0 px-3 py-2 rounded-xl">即將開放 <span id="reg-upcoming-badge">0</span></button>
+          <button onclick="setRegFilter('available')" id="reg-tab-available" class="reg-state-tab reg-filter-active flex-shrink-0 px-3 py-2 rounded-xl font-black">可以登錄 <span id="reg-available-badge">0</span></button>
+          <button onclick="setRegFilter('marked')" id="reg-tab-marked" class="reg-state-tab flex-shrink-0 px-3 py-2 rounded-xl">已標記登錄 <span id="reg-marked-badge">0</span></button>
+          <button onclick="setRegFilter('expired')" id="reg-tab-expired" class="reg-state-tab flex-shrink-0 px-3 py-2 rounded-xl">已截止 <span id="reg-expired-badge">0</span></button>
+        </div>
+
+        <div id="rewards-store-container" class="space-y-2.5 pb-6"></div>
+      </section>
+
+      <!-- ==================== TAB 4: 偏好設定 (SETTINGS) ==================== -->
+      <section id="view-settings" class="space-y-3 pt-1 hidden">
+        <div class="ghibli-card rounded-[22px] p-4 space-y-3 bg-white">
+          <div class="flex items-center space-x-2 pb-2 border-b border-[#f2e8da]">
+            <span class="text-lg">⚙️</span>
+            <h2 class="text-xs font-black text-ghibliInk-800">卡奴 App 偏好設定 & 雲端同步</h2>
+          </div>
+
+          <div class="space-y-2.5 text-xs">
+            <div class="p-2.5 rounded-xl bg-[#faf6ee] space-y-2">
+              <div class="font-bold text-ghibliInk-700">推薦偏好</div>
+              <div class="grid grid-cols-2 gap-2">
+                <button id="mode-max" onclick="setRecommendationMode('max')" class="rounded-lg border px-2 py-2 text-[10.5px] font-black">最高回饋</button>
+                <button id="mode-easy" onclick="setRecommendationMode('easy')" class="rounded-lg border px-2 py-2 text-[10.5px] font-black">輕鬆刷</button>
+              </div>
+              <div class="text-[9.5px] text-ghibliInk-500">輕鬆刷會優先顯示不用登錄、不用切換方案的卡片。</div>
+            </div>
+            <div class="flex items-center justify-between p-2.5 rounded-xl bg-[#faf6ee]">
+              <span class="font-bold text-ghibliInk-700">登錄活動開放前 5 分鐘推播</span>
+              <span class="text-[11px] font-black text-ghibliGreen-600">已開啟 ✔</span>
+            </div>
+            
+            <div class="p-2.5 rounded-xl bg-[#faf6ee] space-y-2">
+              <div class="flex items-center justify-between">
+                <span class="font-bold text-ghibliInk-700">銀行與回饋資料庫版次</span>
+                <span id="current-version-label" class="text-[11px] font-black text-ghibliGold-600">載入中...</span>
+              </div>
+              <div class="flex items-center justify-between text-[10.5px] text-ghibliInk-500 pt-1 border-t border-[#eee1ce]">
+                <span id="sync-status-msg">離線本機快取已啟用</span>
+                <button onclick="checkRemoteDataUpdate(true)" class="px-2.5 py-1 bg-ghibliGold-400 hover:bg-ghibliGold-500 text-white rounded-lg font-bold shadow-xs active:scale-95 transition">
+                  檢查最新回饋
+                </button>
+              </div>
+              <div id="data-quality-summary" class="pt-2 border-t border-[#eee1ce]"></div>
+            </div>
+
+            <div class="flex items-center justify-between p-2.5 rounded-xl bg-[#faf6ee]">
+              <span class="font-bold text-ghibliInk-700">快取管理</span>
+              <button onclick="clearCacheAndReset()" class="text-rose-600 font-bold hover:underline">
+                清除本地快取並還原
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="ghibli-card rounded-[22px] p-4 text-center space-y-1.5 bg-white">
+          <div class="w-10 h-10 rounded-full bg-ghibliSky-200 border border-ghibliSky-300 mx-auto flex items-center justify-center text-lg">
+            🪙
+          </div>
+          <h4 class="text-xs font-black text-ghibliInk-800">卡奴 KaNu</h4>
+          <p class="text-[11px] text-ghibliInk-500 leading-relaxed font-medium">
+            全台首款專為「防忘記登錄」與「秒選最高回饋卡」打造的雙平台管家。
+          </p>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- 底部導覽列 -->
+    <nav class="w-full bg-[#f8f3e9] border-t border-[#e8dcc8] pt-1.5 pb-3 px-3 flex justify-around items-center z-30 select-none">
+      <button onclick="switchTab('home'); playAudioTone();" id="nav-home" class="nav-btn active-nav flex flex-col items-center group">
+        <div class="nav-icon-box w-8 h-8 flex items-center justify-center relative transition-transform">
+          <svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M4 13.5 14 5l10 8.5V24a1 1 0 0 1-1 1h-6v-7h-6v7H5a1 1 0 0 1-1-1V13.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </div>
+        <span class="text-[10px] font-black tracking-tight text-ghibliInk-800 mt-0.5">回饋快查</span>
+      </button>
+
+      <button onclick="switchTab('mydeck'); playAudioTone();" id="nav-mydeck" class="nav-btn flex flex-col items-center group opacity-60">
+        <div class="nav-icon-box w-8 h-8 flex items-center justify-center relative transition-transform">
+          <svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><rect x="3" y="7" width="22" height="15" rx="3" stroke="currentColor" stroke-width="2"/><path d="M3 12h22M7 17h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <span class="text-[10px] font-bold tracking-tight text-ghibliInk-500 mt-0.5">卡夾管理</span>
+      </button>
+
+      <button onclick="switchTab('rewards-store'); playAudioTone();" id="nav-rewards-store" class="nav-btn flex flex-col items-center group opacity-60">
+        <div class="nav-icon-box w-8 h-8 flex items-center justify-center relative transition-transform">
+          <svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><rect x="5" y="5" width="18" height="20" rx="3" stroke="currentColor" stroke-width="2"/><path d="M9 3v4M19 3v4M9 12h10M9 17h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="m17 20 1.5 1.5L22 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <span class="text-[10px] font-bold tracking-tight text-ghibliInk-500 mt-0.5">登錄活動</span>
+      </button>
+
+      <button onclick="switchTab('settings'); playAudioTone();" id="nav-settings" class="nav-btn flex flex-col items-center group opacity-60">
+        <div class="nav-icon-box w-8 h-8 flex items-center justify-center relative transition-transform">
+          <svg viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M14 3v3M14 22v3M3 14h3M22 14h3M6.2 6.2l2.1 2.1M19.7 19.7l2.1 2.1M21.8 6.2l-2.1 2.1M8.3 19.7l-2.1 2.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="14" cy="14" r="5" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <span class="text-[10px] font-bold tracking-tight text-ghibliInk-500 mt-0.5">偏好設定</span>
+      </button>
+    </nav>
+
+    <!-- 新增信用卡：搜尋、複選、完成 -->
+    <div id="add-card-modal" class="fixed inset-0 bg-black/45 backdrop-blur-xs z-50 flex items-center justify-center p-3 hidden">
+      <div class="ghibli-card rounded-[26px] bg-white w-full max-w-[380px] h-[82dvh] flex flex-col overflow-hidden shadow-2xl">
+        <div class="p-4 border-b border-[#e4ecea] flex items-center justify-between bg-[#f8fbfa]">
+          <div><h3 class="text-sm font-black text-ghibliInk-800">新增信用卡</h3><p class="text-[10px] font-bold text-ghibliInk-500">搜尋並一次選擇多張卡片</p></div>
+          <button onclick="closeAddCardModal()" class="w-8 h-8 rounded-full bg-[#eef3f1] font-black">✕</button>
+        </div>
+        <div class="p-3 space-y-2 border-b border-[#e7eeec]">
+          <input id="add-card-search" oninput="renderAddCardList()" type="search" placeholder="搜尋銀行或卡名，例如 UniCard、熊本熊…" class="w-full ghibli-input rounded-xl px-3 py-2.5 text-xs font-black focus:outline-none" />
+          <div id="add-card-bank-filter" class="flex gap-1.5 overflow-x-auto no-scrollbar py-0.5"></div>
+        </div>
+        <div id="add-card-list" class="flex-1 overflow-y-auto no-scrollbar p-3 space-y-2"></div>
+        <div class="p-3 border-t border-[#e4ecea] bg-[#f8fbfa] flex items-center justify-between">
+          <div class="text-xs font-black text-ghibliInk-700">已選 <span id="add-card-selected-count">0</span> 張</div>
+          <button onclick="commitAddCards()" class="px-5 py-2.5 rounded-xl bg-[#55bdb4] text-white text-xs font-black shadow-sm">完成</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 卡片詳細資訊互動彈窗 Modal（精確過濾相關回饋與銀行官方連結） -->
+    <div id="card-detail-modal" class="fixed inset-0 bg-black/50 backdrop-blur-xs z-50 flex items-center justify-center p-4 hidden">
+      <div class="ghibli-card rounded-[28px] bg-white w-full max-w-[360px] max-h-[85dvh] flex flex-col overflow-hidden shadow-2xl animate-in fade-in zoom-in-95 duration-200">
+        <div class="p-4 bg-ghibliCream-100 border-b border-[#ecd8be] flex items-center justify-between">
+          <div class="flex items-center space-x-2">
+            <span class="text-lg">💳</span>
+            <h3 id="modal-card-title" class="text-xs font-black text-ghibliInk-800">卡片詳細權益</h3>
+          </div>
+          <button onclick="closeCardDetailModal()" class="w-7 h-7 rounded-full bg-[#eee4d4] flex items-center justify-center text-xs font-black text-ghibliInk-800 hover:bg-rose-500 hover:text-white transition">✕</button>
+        </div>
+        <div id="modal-card-body" class="p-4 overflow-y-auto no-scrollbar space-y-3 text-xs">
+          <!-- 動態注入內容 -->
+        </div>
+        <div class="p-3 bg-[#faf6ee] border-t border-[#ecd8be] flex items-center justify-between">
+          <a id="modal-bank-link" href="#" target="_blank" class="text-[11px] font-black text-ghibliGold-600 hover:underline flex items-center space-x-1 hidden">
+            <span>🔗 前往銀行官方活動頁</span>
+          </a>
+          <button onclick="closeCardDetailModal()" class="px-4 py-1.5 bg-ghibliGold-400 text-white rounded-xl text-xs font-black shadow-xs active:scale-95 ml-auto">關閉視窗</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 從銀行頁返回後的登錄狀態快速確認 -->
+    <div id="registration-return-modal" class="fixed inset-0 bg-black/45 backdrop-blur-xs z-[60] flex items-center justify-center p-5 hidden">
+      <div class="ghibli-card rounded-[26px] bg-white w-full max-w-[340px] p-5 space-y-4 shadow-2xl">
+        <div class="flex items-start space-x-3">
+          <div class="w-10 h-10 rounded-2xl bg-[#dff7f2] text-xl flex items-center justify-center flex-shrink-0">✓</div>
+          <div class="min-w-0">
+            <div class="text-[11px] font-black text-ghibliGreen-600">登錄狀態確認</div>
+            <h3 id="registration-return-title" class="text-sm font-black text-ghibliInk-800 mt-0.5">剛才的活動完成登錄了嗎？</h3>
+            <p class="text-[10.5px] text-ghibliInk-500 font-bold mt-1">卡奴不會自動代替銀行確認資格，請依官方頁面的結果標記。</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-2">
+          <button onclick="confirmReturnedRegistration(false)" class="py-2.5 rounded-xl border border-[#dce5e2] bg-[#f7faf9] text-xs font-black text-ghibliInk-600">還沒完成</button>
+          <button onclick="confirmReturnedRegistration(true)" class="py-2.5 rounded-xl bg-[#55bdb4] text-white text-xs font-black shadow-sm">已完成登錄</button>
+        </div>
+        <button onclick="closeRegistrationReturnModal()" class="w-full text-[10.5px] font-bold text-ghibliInk-500">稍後再確認</button>
+      </div>
+    </div>
+
+    <div id="toast" class="absolute top-14 left-1/2 -translate-x-1/2 ghibli-card bg-white/95 text-ghibliGold-600 border border-[#eddcc5] text-xs font-black px-4 py-2 rounded-full shadow-lg z-50 pointer-events-none transition-all duration-300 opacity-0 transform -translate-y-2">
+      狀態已更新！
+    </div>
+
+  </div>
+
+  <script>
+    let appCards = [];
+    let appRules = [];
+    let COMMON_EXCLUSIONS = [];
+
+    let currentSearchText = '';
+    let currentSearchContext = '';
+    let currentRegSearchText = '';
+    let currentScope = 'all';
+    let currentBankFilter = 'ALL';
+    let currentAddBankFilter = 'ALL';
+    let pendingAddCardIds = new Set();
+    let cardIdAliases = new Map();
+    let currentRegFilter = 'available';
+    let currentRegBankFilter = 'ALL';
+    let currentRecommendationMode = localStorage.getItem('kanu_recommendation_mode') || 'max';
+    let currentOfferView = 'daily';
+
+    const REMOTE_DATA_URL = "https://raw.githubusercontent.com/icalmonkey-web/kanu-database/main/data.json"; 
+    // 資料關聯／去重邏輯改版時必須換 cache namespace；只比資料版本會讓
+    // 舊的錯誤關聯永遠留在瀏覽器，即使程式已修正。
+    const LOCAL_CACHE_KEY = "kanu_remote_database_v2";
+    const LOCAL_VERSION_KEY = "kanu_data_version_v2";
+
+    // GitHub 上的 JSON 屬於外部輸入。所有會進入 innerHTML／inline handler 的
+    // 文字先轉為純文字，ID 則限制為安全字元，避免資料庫遭竄改時形成 XSS。
+    function safePlainText(value, fallback = '') {
+      return String(value ?? fallback)
+        .replace(/[<>&"'`\\]/g, '')
+        .replace(/[\u0000-\u001f\u007f]/g, ' ')
+        .trim();
+    }
+
+    function safeDataId(value, fallback) {
+      const cleaned = String(value ?? '').replace(/[^\p{L}\p{N}_:.-]/gu, '');
+      return cleaned || fallback;
+    }
+
+    function safeCardBackground(value, fallback) {
+      const candidate = String(value || '').trim();
+      return /^(#[0-9a-f]{3,8}|linear-gradient\([0-9a-z#.%(),\s-]+\))$/i.test(candidate) ? candidate : fallback;
+    }
+
+    function safeColor(value, fallback) {
+      const candidate = String(value || '').trim();
+      return /^#[0-9a-f]{3,8}$/i.test(candidate) ? candidate : fallback;
+    }
+
+    function formatCardObject(rawCard, index) {
+      const palette = [
+        'linear-gradient(135deg, #1c4e36 0%, #297451 100%)',
+        'linear-gradient(135deg, #246a82 0%, #3a94b5 100%)',
+        'linear-gradient(135deg, #2e3842 0%, #465360 100%)',
+        'linear-gradient(135deg, #2a5298 0%, #1e3c72 100%)',
+        'linear-gradient(135deg, #d35400 0%, #e67e22 100%)'
+      ];
+      return {
+        id: safeDataId(rawCard.id, `card_gen_${index}`),
+        bank: safePlainText(rawCard.bank, '發卡機構'),
+        cardName: safePlainText(rawCard.cardName, '信用卡'),
+        owned: rawCard.owned || false,
+        themeBg: safeCardBackground(rawCard.themeBg, palette[index % palette.length]),
+        textColor: safeColor(rawCard.textColor, '#ffffff'),
+        chipColor: safeColor(rawCard.chipColor, '#fad668'),
+        entityType: safePlainText(rawCard.entityType),
+        productType: String(rawCard.productType || 'CREDIT').toUpperCase(),
+        classificationConfidence: Number(rawCard.classificationConfidence) || 0,
+        classificationEvidence: safePlainText(rawCard.classificationEvidence),
+        imageUrl: rawCard.imageUrl || rawCard.cardImageUrl || '',
+        hasBear: rawCard.hasBear || (rawCard.cardName && rawCard.cardName.includes('Bear')),
+        descTag: safePlainText(rawCard.descTag, '精選推薦回饋')
+      };
+    }
+
+    function isRealCardProduct(card) {
+      if (!card) return false;
+      const type = String(card.entityType || '').toUpperCase();
+      if (type) {
+        return type === 'CARD_PRODUCT'
+          && Number(card.classificationConfidence || 0) >= 0.7
+          && !!String(card.classificationEvidence || '').trim();
+      }
+      const name = String(card.cardName || '').trim();
+      if (!name) return false;
+      const paymentType = String(card.productType || '').toUpperCase();
+      if (['DEBIT', 'CHARGE'].includes(paymentType) && !/全卡友|所有卡友|信用卡服務|貸款|定存|活存/i.test(name)) return true;
+      if (!name.includes('卡')) return false;
+      if (/全卡友|所有卡友|全體持卡人|綜合信用卡|信用卡服務|貸款|定存|活存|存款戶|全卡別|綁定支付|信用卡綁|台灣Pay綁/i.test(name)) return false;
+      const normalizedBank = normalizeText(card.bank || '');
+      const shortBank = normalizedBank.replace(/銀行$|商業銀行$|商銀$/, '');
+      let productName = normalizeText(name);
+      if (normalizedBank && productName.startsWith(normalizedBank)) productName = productName.slice(normalizedBank.length);
+      else if (shortBank && productName.startsWith(shortBank)) productName = productName.slice(shortBank.length);
+      // 只排除真正的泛稱；「UniCard 信用卡」等正式產品不能因為以
+      // 「信用卡」結尾就被誤殺。
+      return !/^(信用卡|信用卡暨簽帳金融卡|卡友)$/.test(productName);
+    }
+
+    function canonicalCardKey(card) {
+      const bank = normalizeText(card.bank || '');
+      const latinWords = String(card.cardName || '').toUpperCase().match(/[A-Z][A-Z0-9@+-]{3,}/g) || [];
+      const productWord = latinWords
+        .filter(word => !['CREDIT', 'CARD', 'VISA', 'MASTER', 'MASTERCARD', 'JCB'].includes(word))
+        .sort((a, b) => b.length - a.length)[0];
+      if (productWord) return `${bank}::LATIN:${productWord}`;
+      let name = normalizeText(card.cardName || '');
+      if (bank && name.startsWith(bank)) name = name.slice(bank.length);
+      const shortBank = bank.replace(/銀行$|商業銀行$|商銀$/, '');
+      if (shortBank && name.startsWith(shortBank)) name = name.slice(shortBank.length);
+      name = name.replace(/信用卡$/i, '').replace(/卡$/i, '');
+      return `${bank}::${name}`;
+    }
+
+    function getCardProductAliases(card) {
+      let token = canonicalCardKey(card).split('::')[1] || '';
+      const latinWords = String(card.cardName || '').toUpperCase().match(/[A-Z][A-Z0-9@+-]{3,}/g) || [];
+      return Array.from(new Set([token, ...latinWords].filter(alias => alias.length >= 4)));
+    }
+
+    function reconcileRuleCardAssociations() {
+      const cardById = new Map(appCards.map(card => [card.id, card]));
+      appRules.forEach(rule => {
+        const current = cardById.get(rule.cardId);
+        const bank = rule.bank || current?.bank || '';
+        const corpus = normalizeText(`${rule.title || ''} ${rule.quotaInfo || ''} ${rule.benefitPlan || ''} ${rule.searchKeywords || ''}`);
+        const namedCards = appCards.filter(card => isRealCardProduct(card)
+          && (!bank || card.bank === bank)
+          && getCardProductAliases(card).some(alias => corpus.includes(alias)));
+        const currentNamed = current && getCardProductAliases(current).some(alias => corpus.includes(alias));
+
+        // 修復爬蟲留下的舊/不存在 cardId；或文案明確寫另一張產品卡時，
+        // 只有唯一候選才自動改綁，避免用猜測製造新的錯誤。
+        const distinctIds = [...new Set(namedCards.map(card => card.id))];
+        if ((!current || !currentNamed) && distinctIds.length === 1) {
+          rule.cardId = distinctIds[0];
+          rule.associationStatus = current ? 'reconciled' : 'recovered_orphan';
+        }
+      });
+    }
+
+    function deduplicateCardProducts() {
+      cardIdAliases = new Map();
+      const unique = [];
+      const keyMap = new Map();
+      appCards.forEach(card => {
+        if (!isRealCardProduct(card)) {
+          unique.push(card);
+          return;
+        }
+        const key = canonicalCardKey(card);
+        const existing = keyMap.get(key);
+        if (!existing) {
+          keyMap.set(key, card);
+          unique.push(card);
+          return;
+        }
+        cardIdAliases.set(card.id, existing.id);
+        existing.owned = existing.owned || card.owned;
+        if (!existing.imageUrl && card.imageUrl) existing.imageUrl = card.imageUrl;
+        if ((card.descTag || '').length > (existing.descTag || '').length) existing.descTag = card.descTag;
+      });
+      appCards = unique;
+      appRules.forEach(rule => {
+        if (cardIdAliases.has(rule.cardId)) rule.cardId = cardIdAliases.get(rule.cardId);
+      });
+    }
+
+    function formatRuleObject(rawRule, index) {
+      const formatted = {
+        id: safeDataId(rawRule.id, `rule_gen_${index}`),
+        cardId: safeDataId(rawRule.cardId, ''),
+        bank: safePlainText(rawRule.bank),
+        category: safePlainText(rawRule.category),
+        searchKeywords: safePlainText(rawRule.searchKeywords),
+        matchedMerchants: Array.isArray(rawRule.matchedMerchants) ? rawRule.matchedMerchants.map(value => safePlainText(value)) : [],
+        title: safePlainText(rawRule.title, '消費回饋'),
+        baseRate: typeof rawRule.baseRate === 'number' ? rawRule.baseRate : 0,
+        promoRate: typeof rawRule.promoRate === 'number' ? rawRule.promoRate : 0.0,
+        rewardType: rawRule.rewardType || '',
+        rewardAmount: typeof rawRule.rewardAmount === 'number' ? rawRule.rewardAmount : null,
+        rewardUnit: rawRule.rewardUnit || '',
+        capAmount: typeof rawRule.capAmount === 'number' ? rawRule.capAmount : null,
+        needReg: !!rawRule.needReg,
+        registered: !!rawRule.registered,
+        regDeadline: safePlainText(rawRule.regDeadline, '依官方公告'),
+        validUntil: safePlainText(rawRule.validUntil),
+        benefitPlan: safePlainText(rawRule.benefitPlan),
+        selectionMode: safePlainText(rawRule.selectionMode),
+        registrationUrl: rawRule.registrationUrl || '',
+        sourceUrl: rawRule.sourceUrl || '',
+        fetchedAt: rawRule.fetchedAt || '',
+        associationStatus: safePlainText(rawRule.associationStatus),
+        eligibleCardScope: safePlainText(rawRule.eligibleCardScope || rawRule.cardScope),
+        capPeriod: safePlainText(rawRule.capPeriod),
+        minimumSpend: typeof rawRule.minimumSpend === 'number' ? rawRule.minimumSpend : null,
+        eligibilityRequirements: Array.isArray(rawRule.eligibilityRequirements) ? rawRule.eligibilityRequirements.map(value => safePlainText(value)) : [],
+        fetchedAt: rawRule.fetchedAt || '',
+        quotaInfo: safePlainText(rawRule.quotaInfo),
+        excludedKeywords: Array.isArray(rawRule.excludedKeywords) ? rawRule.excludedKeywords.map(value => safePlainText(value)) : []
+      };
+      const hasPercentRate = formatted.baseRate > 0 || formatted.promoRate > 0;
+      const rewardLooksLikeCap = formatted.capAmount > 0
+        && formatted.rewardAmount === formatted.capAmount;
+      // AI 偶爾把「回饋上限 150 元」存成固定 150 元刷卡金，或把百分比
+      // e point 回饋標成 points=0。只要同筆具有明確百分比欄位，就以
+      // 百分比呈現，上限只用於試算封頂，不能冒充實拿金額。
+      if (hasPercentRate && (formatted.rewardUnit.toLowerCase() === 'percent'
+          || rewardLooksLikeCap
+          || (formatted.rewardType === 'points' && !(formatted.rewardAmount > 0)))) {
+        formatted.rewardType = 'percent';
+        formatted.rewardUnit = 'percent';
+        formatted.rewardAmount = formatted.promoRate || formatted.baseRate;
+      }
+      return formatted;
+    }
+
+    async function checkRemoteDataUpdate(manualTrigger = false) {
+      const statusLabel = document.getElementById('sync-status-msg');
+      const versionLabel = document.getElementById('current-version-label');
+
+      try {
+        if (statusLabel) statusLabel.innerText = "連線更新中...";
+        const response = await fetch(`${REMOTE_DATA_URL}?_t=${Date.now()}`);
+        if (!response.ok) throw new Error("連線異常");
+
+        const declaredSize = Number(response.headers.get('content-length') || 0);
+        if (declaredSize > 8 * 1024 * 1024) throw new Error('資料檔超過安全大小限制');
+
+        const remoteData = await response.json();
+        if (!remoteData || !Array.isArray(remoteData.cards) || !Array.isArray(remoteData.rules)
+            || remoteData.cards.length > 5000 || remoteData.rules.length > 50000) {
+          throw new Error('資料格式或筆數超過安全限制');
+        }
+        const savedVersion = localStorage.getItem(LOCAL_VERSION_KEY);
+
+        if (remoteData.version && (remoteData.version !== savedVersion || appCards.length === 0)) {
+          localStorage.setItem(LOCAL_CACHE_KEY, JSON.stringify(remoteData));
+          localStorage.setItem(LOCAL_VERSION_KEY, remoteData.version);
+
+          if (remoteData.cards && remoteData.cards.length > 0) {
+            appCards = remoteData.cards.map((c, i) => formatCardObject(c, i));
+          }
+          if (remoteData.rules && remoteData.rules.length > 0) {
+            appRules = remoteData.rules.map((r, i) => formatRuleObject(r, i));
+          }
+          deduplicateCardProducts();
+          reconcileRuleCardAssociations();
+          if (remoteData.commonExclusions) {
+            COMMON_EXCLUSIONS = remoteData.commonExclusions;
+          }
+
+          loadOwnership();
+          loadRegisteredState();
+
+          if (versionLabel) versionLabel.innerText = 'v' + remoteData.version;
+          if (statusLabel) statusLabel.innerText = "資料庫已同步最新版次！";
+
+          showTip('🎉 最新銀行回饋與活動已同步！');
+          renderAllViews();
+        } else {
+          if (statusLabel) statusLabel.innerText = "已是最新版本";
+          if (manualTrigger) showTip('目前已是最新版本。');
+        }
+      } catch (err) {
+        console.warn("使用本機快取:", err);
+        if (statusLabel) statusLabel.innerText = "離線快取運行中";
+      }
+    }
+
+    function loadCachedDatabase() {
+      try {
+        const cachedRaw = localStorage.getItem(LOCAL_CACHE_KEY);
+        const cachedVer = localStorage.getItem(LOCAL_VERSION_KEY);
+        if (cachedRaw) {
+          const cached = JSON.parse(cachedRaw);
+          if (cached.cards && cached.cards.length > 0) {
+            appCards = cached.cards.map((c, i) => formatCardObject(c, i));
+          }
+          if (cached.rules && cached.rules.length > 0) {
+            appRules = cached.rules.map((r, i) => formatRuleObject(r, i));
+          }
+          deduplicateCardProducts();
+          reconcileRuleCardAssociations();
+          if (cached.commonExclusions) {
+            COMMON_EXCLUSIONS = cached.commonExclusions;
+          }
+        }
+        const versionLabel = document.getElementById('current-version-label');
+        if (versionLabel) versionLabel.innerText = 'v' + (cachedVer || '未同步');
+      } catch (e) {
+        console.error("快取讀取異常", e);
+      }
+    }
+
+    function renderAllViews() {
+      renderBankFilterTabs();
+      updateBadges();
+      renderSpendingList();
+      renderHomePromotions();
+      renderDeckList();
+      renderRewardsStore();
+      renderDataQualityStatus();
+      renderRecommendationMode();
+      renderOfferView();
+    }
+
+    function setRecommendationMode(mode) {
+      currentRecommendationMode = mode === 'easy' ? 'easy' : 'max';
+      localStorage.setItem('kanu_recommendation_mode', currentRecommendationMode);
+      renderRecommendationMode();
+      renderSpendingList();
+    }
+
+    function renderRecommendationMode() {
+      ['max', 'easy'].forEach(mode => {
+        const button = document.getElementById(`mode-${mode}`);
+        if (!button) return;
+        const active = currentRecommendationMode === mode;
+        button.className = `rounded-lg border px-2 py-2 text-[10.5px] font-black ${active ? 'bg-[#55bdb4] border-[#55bdb4] text-white' : 'bg-white border-[#dce6e3] text-ghibliInk-600'}`;
+      });
+    }
+
+    function setOfferView(view) {
+      currentOfferView = view === 'acquisition' ? 'acquisition' : 'daily';
+      renderOfferView();
+      renderSpendingList();
+    }
+
+    function renderOfferView() {
+      ['daily', 'acquisition'].forEach(view => {
+        const button = document.getElementById(`offer-view-${view}`);
+        if (!button) return;
+        const active = currentOfferView === view;
+        button.classList.toggle('offer-view-active', active);
+        button.setAttribute('aria-pressed', String(active));
+      });
+    }
+
+    function getProductTypeLabel(card) {
+      const type = String(card?.productType || 'CREDIT').toUpperCase();
+      if (type === 'DEBIT') return '簽帳金融卡';
+      if (type === 'CHARGE') return '簽帳卡';
+      return '信用卡';
+    }
+
+    function renderDataQualityStatus() {
+      const container = document.getElementById('data-quality-summary');
+      if (!container) return;
+      const confirmed = appRules.filter(rule => rule.cardId && rule.sourceUrl).length;
+      const pending = Math.max(0, appRules.length - confirmed);
+      const bankMap = new Map();
+      const cardMap = new Map(appCards.map(card => [card.id, card]));
+      appRules.forEach(rule => {
+        const bank = rule.bank || cardMap.get(rule.cardId)?.bank || '待辨識銀行';
+        if (!bankMap.has(bank)) bankMap.set(bank, { total: 0, confirmed: 0, pending: 0, latest: '' });
+        const info = bankMap.get(bank);
+        info.total += 1;
+        if (rule.cardId && rule.sourceUrl) info.confirmed += 1;
+        else info.pending += 1;
+        if (rule.fetchedAt && rule.fetchedAt > info.latest) info.latest = rule.fetchedAt;
+      });
+      const rows = Array.from(bankMap.entries()).sort((a, b) => b[1].total - a[1].total);
+      container.innerHTML = `
+        <div class="grid grid-cols-2 gap-2">
+          <div class="rounded-lg bg-[#eef8f5] p-2"><div class="text-[9px] font-bold text-ghibliInk-500">資料載入</div><div class="text-[11px] font-black text-[#25877f]">已成功載入 ${appRules.length} 筆</div></div>
+          <div class="rounded-lg bg-[#fff7ed] p-2"><div class="text-[9px] font-bold text-ghibliInk-500">資料品質</div><div class="text-[11px] font-black text-amber-700">${confirmed} 筆有來源可核對／${pending} 筆待補來源</div></div>
+        </div>
+        <details class="mt-2"><summary class="cursor-pointer text-[10px] font-black text-ghibliInk-600">查看各銀行資料狀態</summary>
+          <div class="mt-1.5 max-h-40 overflow-y-auto space-y-1">${rows.map(([bank, info]) => `<div class="flex justify-between rounded-lg bg-white px-2 py-1.5 text-[9.5px]"><span class="font-black">${bank}</span><span class="text-ghibliInk-500">可核對 ${info.confirmed}・待補 ${info.pending}${info.latest ? `・${new Date(info.latest).toLocaleDateString('zh-TW')}` : ''}</span></div>`).join('')}</div>
+        </details>`;
+    }
+
+    function enableHorizontalDrag(element) {
+      if (!element || element.dataset.dragScrollReady === '1') return;
+      element.dataset.dragScrollReady = '1';
+      let dragging = false;
+      let moved = false;
+      let startX = 0;
+      let startScroll = 0;
+
+      element.addEventListener('pointerdown', (event) => {
+        if (event.pointerType === 'touch') return;
+        if (event.target.closest('button')) {
+          moved = false;
+          return;
+        }
+        dragging = true;
+        moved = false;
+        startX = event.clientX;
+        startScroll = element.scrollLeft;
+        element.classList.add('dragging');
+        element.setPointerCapture(event.pointerId);
+      });
+      element.addEventListener('pointermove', (event) => {
+        if (!dragging) return;
+        const delta = event.clientX - startX;
+        if (Math.abs(delta) > 4) moved = true;
+        element.scrollLeft = startScroll - delta;
+      });
+      const stopDrag = (event) => {
+        if (!dragging) return;
+        dragging = false;
+        element.classList.remove('dragging');
+        if (element.hasPointerCapture(event.pointerId)) element.releasePointerCapture(event.pointerId);
+      };
+      element.addEventListener('pointerup', stopDrag);
+      element.addEventListener('pointercancel', stopDrag);
+      element.addEventListener('wheel', (event) => {
+        if (Math.abs(event.deltaY) > Math.abs(event.deltaX) && element.scrollWidth > element.clientWidth) {
+          element.scrollLeft += event.deltaY;
+          event.preventDefault();
+        }
+      }, { passive: false });
+    }
+
+    function renderBankFilterTabs() {
+      const banks = ['ALL', ...new Set(appCards.filter(isRealCardProduct).map(c => c.bank))];
+      
+      const deckFilter = document.getElementById('bank-filter-bar');
+      if (deckFilter) {
+        deckFilter.innerHTML = banks.map(b => `
+          <button onclick="filterBank('${b}')" class="bank-pill ${currentBankFilter === b ? 'active-pill bg-ghibliGold-400 text-white font-black' : 'bg-white text-ghibliInk-600 border border-[#e4d7c3] font-bold'} px-3 py-1 rounded-full flex-shrink-0">
+            ${b === 'ALL' ? '全部銀行' : b}
+          </button>
+        `).join("");
+        enableHorizontalDrag(deckFilter);
+      }
+
+      const regFilter = document.getElementById('reg-bank-filter-bar');
+      if (regFilter) {
+        regFilter.innerHTML = banks.map(b => `
+          <button onclick="filterRegBank('${b}')" class="reg-bank-pill ${currentRegBankFilter === b ? 'bg-ghibliGold-400 text-white font-black' : 'bg-white text-ghibliInk-600 border border-[#e4d7c3] font-bold'} px-3 py-1 rounded-full flex-shrink-0">
+            ${b === 'ALL' ? '全部銀行' : b}
+          </button>
+        `).join("");
+        enableHorizontalDrag(regFilter);
+      }
+    }
+
+    function toggleCardOwnership(cardId) {
+      const card = appCards.find(c => c.id === cardId);
+      if (card) {
+        card.owned = !card.owned;
+        saveOwnership();
+        updateBadges();
+        renderDeckList();
+        renderSpendingList();
+        showTip(card.owned ? `已將 ${card.cardName} 加入卡包` : `已將 ${card.cardName} 移出卡包`);
+      }
+    }
+
+    function renderDeckList() {
+      const container = document.getElementById('deck-list-container');
+      if (!container) return;
+      const cards = appCards.filter(c => c.owned && isRealCardProduct(c));
+
+      if (cards.length === 0) {
+        container.innerHTML = '<div class="ghibli-card p-7 text-center bg-white rounded-[22px]"><div class="text-2xl mb-2">💳</div><div class="text-sm font-black text-ghibliInk-800">卡包目前是空的</div><button onclick="openAddCardModal()" class="mt-3 px-4 py-2 rounded-xl bg-[#55bdb4] text-white text-xs font-black">＋ 新增信用卡</button></div>';
+        return;
+      }
+
+      let html = '';
+      cards.forEach(card => {
+        html += `
+          <div class="ghibli-card rounded-[22px] p-3 bg-white flex items-center justify-between space-x-3">
+            ${renderCardThumbnail(card)}
+            <div class="flex-1 min-w-0 cursor-pointer" onclick="openCardDetailModal('${card.id}')">
+              <div class="text-[10px] font-bold text-ghibliInk-500">${card.bank}</div>
+              <div class="text-xs font-black text-ghibliInk-800 truncate">${card.cardName}</div>
+              <div class="text-[10.5px] text-ghibliInk-600 font-medium">${card.descTag}</div>
+            </div>
+            <div class="card-action-menu relative flex-shrink-0">
+              <button type="button" aria-label="移出卡包選單" title="移出卡包" aria-expanded="false" onclick="toggleCardActionMenu(event, this)" class="w-9 h-9 rounded-full border border-[#f0d9d5] bg-[#fff8f6] flex items-center justify-center text-rose-500 cursor-pointer hover:bg-rose-50">
+                <svg aria-hidden="true" viewBox="0 0 24 24" class="w-[18px] h-[18px]" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"></path><path d="M8 6V4h8v2"></path><path d="M19 6l-1 14H6L5 6"></path><path d="M10 11v5M14 11v5"></path></svg>
+              </button>
+              <div onclick="event.stopPropagation()" class="card-action-panel hidden absolute right-0 top-10 z-20 w-32 rounded-xl border border-[#eaded4] bg-white p-1.5 shadow-lg">
+                <button type="button" onclick="removeCardFromDeck('${card.id}')" class="w-full rounded-lg px-2.5 py-2 text-[11px] font-black text-rose-600 hover:bg-rose-50 flex items-center justify-center gap-1.5">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"></path><path d="M8 6V4h8v2"></path><path d="M19 6l-1 14H6L5 6"></path><path d="M10 11v5M14 11v5"></path></svg>
+                  <span>移出卡包</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        `;
+      });
+      container.innerHTML = html;
+    }
+
+    function cardSearchCorpus(card) {
+      let aliases = '';
+      if (/U\s*Bear/i.test(card.cardName || '')) aliases += ' UB・ear UB耳 熊卡';
+      if (/Uni\s*Card/i.test(card.cardName || '')) aliases += ' UNICARD UNI卡';
+      return normalizeText(`${card.bank} ${card.cardName} ${card.descTag || ''} ${aliases}`);
+    }
+
+    function openAddCardModal() {
+      pendingAddCardIds = new Set();
+      document.getElementById('add-card-modal').classList.remove('hidden');
+      renderAddCardList();
+      setTimeout(() => document.getElementById('add-card-search')?.focus(), 30);
+    }
+
+    function closeAddCardModal() {
+      document.getElementById('add-card-modal').classList.add('hidden');
+    }
+
+    function setAddCardBank(bank) {
+      currentAddBankFilter = bank;
+      renderAddCardList();
+    }
+
+    function togglePendingCard(cardId) {
+      if (pendingAddCardIds.has(cardId)) pendingAddCardIds.delete(cardId);
+      else pendingAddCardIds.add(cardId);
+      renderAddCardList();
+    }
+
+    function renderAddCardList() {
+      const container = document.getElementById('add-card-list');
+      const filterBar = document.getElementById('add-card-bank-filter');
+      if (!container || !filterBar) return;
+      const query = normalizeText(document.getElementById('add-card-search')?.value || '');
+      const allCards = appCards.filter(isRealCardProduct);
+      const banks = ['ALL', ...new Set(allCards.map(card => card.bank))];
+      filterBar.innerHTML = banks.map(bank => `<button onclick="setAddCardBank('${bank}')" class="flex-shrink-0 rounded-full border px-2.5 py-1 text-[10px] font-black ${currentAddBankFilter === bank ? 'bg-[#55bdb4] border-[#55bdb4] text-white' : 'bg-white border-[#dfe8e5] text-ghibliInk-500'}">${bank === 'ALL' ? '全部' : bank}</button>`).join('');
+
+      let matched = allCards.filter(card => currentAddBankFilter === 'ALL' || card.bank === currentAddBankFilter);
+      if (query) matched = matched.filter(card => cardSearchCorpus(card).includes(query));
+      const awaitingSearch = !query && currentAddBankFilter === 'ALL';
+      if (awaitingSearch) matched = allCards.filter(card => card.owned);
+      const available = matched.filter(card => !card.owned);
+      const owned = matched.filter(card => card.owned);
+      const cardRow = (card, alreadyOwned = false) => {
+        const selected = pendingAddCardIds.has(card.id);
+        return `<div class="rounded-2xl border ${selected ? 'border-[#55bdb4] bg-[#f0fbf9]' : 'border-[#e2ebe8] bg-white'} p-2.5 flex items-center gap-2.5">
+          ${renderCardThumbnail(card)}
+          <div class="min-w-0 flex-1"><div class="text-[9.5px] font-bold text-ghibliInk-500">${card.bank} · ${getProductTypeLabel(card)}</div><div class="text-[12px] leading-tight font-black text-ghibliInk-800 whitespace-normal">${card.cardName}</div></div>
+          ${alreadyOwned ? '<span class="px-2 py-1 rounded-lg bg-[#f1f4f3] text-[#87938f] text-[10px] font-black">✓ 已在卡包</span>' : `<button onclick="togglePendingCard('${card.id}')" class="w-8 h-8 rounded-xl border text-sm font-black ${selected ? 'bg-[#55bdb4] border-[#55bdb4] text-white' : 'bg-white border-[#cfded9] text-ghibliInk-500'}">${selected ? '✓' : '+'}</button>`}
+        </div>`;
+      };
+      let html = awaitingSearch ? '<div class="p-7 text-center text-xs font-bold text-ghibliInk-500"><div class="text-2xl mb-2">⌕</div>輸入銀行或卡片名稱開始尋找<br><span class="text-[10px]">也可以使用上方銀行篩選</span></div>' : available.map(card => cardRow(card)).join('');
+      if (!awaitingSearch && !html && !owned.length) html = '<div class="p-6 text-center text-xs font-bold text-ghibliInk-500">找不到符合的信用卡<br><button class="mt-2 text-[#2f9f96] underline">回報找不到我的卡</button></div>';
+      if (owned.length) html += `<details class="mt-3 rounded-2xl border border-[#e3ebe8] bg-[#f8faf9]"><summary class="cursor-pointer px-3 py-2.5 text-[11px] font-black text-ghibliInk-600">已在卡包（${owned.length} 張）</summary><div class="space-y-2 p-2 pt-0">${owned.map(card => cardRow(card, true)).join('')}</div></details>`;
+      container.innerHTML = html;
+      const selectedCount = document.getElementById('add-card-selected-count');
+      if (selectedCount) selectedCount.innerText = pendingAddCardIds.size;
+    }
+
+    function commitAddCards() {
+      appCards.forEach(card => { if (pendingAddCardIds.has(card.id)) card.owned = true; });
+      saveOwnership();
+      updateBadges();
+      renderDeckList();
+      renderSpendingList();
+      closeAddCardModal();
+      showTip(`已新增 ${pendingAddCardIds.size} 張信用卡`);
+    }
+
+    function removeCardFromDeck(cardId) {
+      const card = appCards.find(item => item.id === cardId);
+      closeCardActionMenus();
+      if (!card || !confirm(`確定要將「${card.cardName}」移出卡包嗎？`)) return;
+      card.owned = false;
+      saveOwnership();
+      updateBadges();
+      renderDeckList();
+      renderSpendingList();
+      showTip(`已將 ${card.cardName} 移出卡包`);
+    }
+
+    function closeCardActionMenus(exceptMenu = null) {
+      document.querySelectorAll('.card-action-menu').forEach(menu => {
+        if (menu === exceptMenu) return;
+        menu.querySelector('.card-action-panel')?.classList.add('hidden');
+        menu.querySelector('button[aria-expanded]')?.setAttribute('aria-expanded', 'false');
+      });
+    }
+
+    function toggleCardActionMenu(event, button) {
+      event.stopPropagation();
+      const menu = button.closest('.card-action-menu');
+      const panel = menu?.querySelector('.card-action-panel');
+      if (!menu || !panel) return;
+      const shouldOpen = panel.classList.contains('hidden');
+      closeCardActionMenus(menu);
+      panel.classList.toggle('hidden', !shouldOpen);
+      button.setAttribute('aria-expanded', String(shouldOpen));
+    }
+
+    document.addEventListener('click', () => closeCardActionMenus());
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') closeCardActionMenus();
+    });
+    document.addEventListener('scroll', () => closeCardActionMenus(), true);
+
+    function calcRuleCashBack(rule, spendAmount) {
+      let isBoostActive = false;
+      let effectiveRate = rule.baseRate || 0;
+      let potentialRate = (rule.baseRate || 0) + (rule.promoRate || 0);
+      
+      if (!rule.needReg || rule.registered) {
+        effectiveRate += (rule.promoRate || 0);
+        isBoostActive = true;
+      }
+
+      // 銀行文案若明確寫「最高 X%」，該數字通常已包含基本回饋，不能再把
+      // baseRate 疊上去。爬蟲偶爾會把最高總回饋誤存成 promoRate，這裡以
+      // 官方文案標示的上限作為安全護欄，避免 25% 被顯示成 26%。
+      const advertisedText = `${rule.title || ''} ${rule.quotaInfo || ''}`;
+      const advertisedRates = [...advertisedText.matchAll(/(?:最優(?:享)?|最高(?:享)?|合計最高(?:享)?)\s*(\d+(?:\.\d+)?)\s*%/gi)]
+        .map(match => Number(match[1]))
+        .filter(rate => Number.isFinite(rate) && rate > 0);
+      const structuredRewardRate = String(rule.rewardUnit || '').toLowerCase() === 'percent'
+        && (/最優|最高/.test(advertisedText)
+          || String(rule.selectionMode || '').toUpperCase() === 'SWITCHABLE')
+        ? Number(rule.rewardAmount)
+        : 0;
+      if (Number.isFinite(structuredRewardRate) && structuredRewardRate > 0) {
+        advertisedRates.push(structuredRewardRate);
+      }
+      const advertisedMaxRate = advertisedRates.length ? Math.max(...advertisedRates) : null;
+      if (advertisedMaxRate !== null && effectiveRate > advertisedMaxRate) {
+        effectiveRate = advertisedMaxRate;
+      }
+      if (advertisedMaxRate !== null && potentialRate > advertisedMaxRate) {
+        potentialRate = advertisedMaxRate;
+      }
+
+      const baseRate = Math.max(0, Number(rule.baseRate) || 0);
+      const promoContributionRate = Math.max(0, potentialRate - baseRate);
+      const baseCash = spendAmount * (baseRate / 100);
+      const rawPotentialPromoCash = spendAmount * (promoContributionRate / 100);
+      const potentialPromoCash = rule.capAmount
+        ? Math.min(rawPotentialPromoCash, Number(rule.capAmount))
+        : rawPotentialPromoCash;
+      const actualPromoCash = isBoostActive ? potentialPromoCash : 0;
+      const totalCash = baseCash + actualPromoCash;
+      const potentialCash = baseCash + potentialPromoCash;
+      return {
+        effectiveRate: parseFloat(effectiveRate.toFixed(1)),
+        potentialRate: parseFloat(potentialRate.toFixed(1)),
+        isBoostActive,
+        totalCash: Math.round(totalCash),
+        potentialCash: Math.round(potentialCash),
+        capped: !!rule.capAmount && rawPotentialPromoCash > Number(rule.capAmount),
+        capAmount: rule.capAmount ? Number(rule.capAmount) : null
+      };
+    }
+
+    // 百分比、固定金額、抽獎與分期是不同回饋型態，不能把非百分比活動顯示成「+0%」。
+    function getRuleRewardLabel(rule) {
+      const baseRate = Number(rule.baseRate) || 0;
+      const promoRate = Number(rule.promoRate) || 0;
+      const rewardType = String(rule.rewardType || '').toLowerCase();
+      const rewardUnit = String(rule.rewardUnit || '').toLowerCase();
+      const capAmount = Number(rule.capAmount) || 0;
+      const rewardAmount = Number(rule.rewardAmount) || 0;
+      const title = `${rule.title || ''} ${rule.quotaInfo || ''}`;
+
+      if (rewardType === 'installment') return '分期優惠';
+      if (rewardType === 'points' && rewardUnit !== 'percent' && rewardAmount > 0) return `最高 ${rewardAmount.toLocaleString()} 點回饋`;
+      if (rewardType === 'draw') return rewardUnit === 'twd' ? `最高抽 NT$${rewardAmount.toLocaleString()}` : '登錄抽獎活動';
+      if (rewardType === 'cash' && rewardAmount > 0) return `最高 NT$${rewardAmount.toLocaleString()} 刷卡金`;
+      if (promoRate > 0) return `加碼 +${promoRate}%`;
+      if (baseRate > 0) return `${baseRate}% 回饋`;
+      if (/0利率|分期/.test(title) && capAmount === 0) return '分期優惠';
+      if (capAmount > 0 && /抽獎|抽出|驚喜抽|抽萬元/.test(title)) return `最高抽 NT$${capAmount.toLocaleString()}`;
+      if (capAmount > 0) return `最高 NT$${capAmount.toLocaleString()} 刷卡金`;
+      return '依活動條件享優惠';
+    }
+
+    function getRewardRankingMetrics(rule, calc) {
+      const rewardType = String(rule.rewardType || '').toLowerCase();
+      const rewardUnit = String(rule.rewardUnit || '').toLowerCase();
+      const rewardAmount = Number(rule.rewardAmount) || 0;
+      const estimatedCash = Number(rule.needReg && !rule.registered ? calc.potentialCash : calc.totalCash) || 0;
+      const fixedCash = rewardType === 'cash' && rewardAmount > 0 ? rewardAmount : 0;
+      const knownPoints = rewardType === 'points' && rewardUnit !== 'percent' && rewardAmount > 0 ? rewardAmount : 0;
+      // 固定刷卡金不可再用標題中的百分比重算；例如「20%／上限 NT$20」
+      // 對本筆交易可比較的最高價值仍是 NT$20。
+      const comparableCash = fixedCash > 0 ? fixedCash : estimatedCash;
+      return {
+        cash: comparableCash,
+        points: knownPoints,
+        known: Math.max(comparableCash, knownPoints) > 0 ? 1 : 0
+      };
+    }
+
+    function getRuleHeadline(rule, calc) {
+      const rewardType = String(rule.rewardType || '').toLowerCase();
+      const rewardUnit = String(rule.rewardUnit || '').toLowerCase();
+      const isNonPercentReward = ['cash', 'draw', 'installment'].includes(rewardType)
+        || (rewardType === 'points' && rewardUnit !== 'percent');
+      if (rule.needReg && !rule.registered && !isNonPercentReward && calc.potentialRate > 0) {
+        return `${rule.title}：<span class="recommend-reward-rate text-rose-500 font-black">登錄後最高 ${calc.potentialRate}%</span>`;
+      }
+      if (!isNonPercentReward && (Number(rule.baseRate) || 0) + (Number(rule.promoRate) || 0) > 0) {
+        return `${rule.title}：<span class="recommend-reward-rate text-ghibliGold-600 font-black">${calc.effectiveRate}%</span> 回饋`;
+      }
+      return `${rule.title}：<span class="text-ghibliGold-600 font-black">${getRuleRewardLabel(rule)}</span>`;
+    }
+
+    function getProminentRewardLabel(rule, calc) {
+      const rewardType = String(rule.rewardType || '').toLowerCase();
+      const rewardUnit = String(rule.rewardUnit || '').toLowerCase();
+      const isPercent = !['cash', 'draw', 'installment'].includes(rewardType)
+        && !(rewardType === 'points' && rewardUnit !== 'percent')
+        && calc.potentialRate > 0;
+      if (isPercent) {
+        const rate = rule.needReg && !rule.registered ? calc.potentialRate : calc.effectiveRate;
+        return `最高回饋 ${rate}%`;
+      }
+      return getRuleRewardLabel(rule);
+    }
+
+    function getRuleConditionStatus(rule, card) {
+      const reasons = [];
+      if (rule.needReg && !rule.registered) reasons.push('需先登錄');
+      const plan = inferBenefitPlan(rule, card || {});
+      if (String(rule.selectionMode || '').toUpperCase() === 'SWITCHABLE' || (plan && /CUBE/i.test(card?.cardName || ''))) {
+        reasons.push(`須切換「${plan || '指定'}」方案`);
+      }
+      const text = `${rule.title || ''} ${rule.quotaInfo || ''}`;
+      if (/新戶|首刷|首次申辦|新申辦/.test(text)) reasons.push('限新戶／首刷');
+      if (/完成.*任務|指定任務/.test(text)) reasons.push('需完成任務');
+      if (/限量|限額/.test(text)) reasons.push('名額有限');
+      if (/消費滿|滿額|累積滿/.test(text)) reasons.push('有消費門檻');
+      if (String(rule.rewardType || '').toLowerCase() === 'cash'
+          && Number(rule.capAmount) > 0
+          && Number(rule.rewardAmount) === Number(rule.capAmount)
+          && /最高/.test(text)) reasons.push('須符合活動門檻');
+      return { conditional: reasons.length > 0, reasons: [...new Set(reasons)] };
+    }
+
+    function isAcquisitionOrOneTimeOffer(rule) {
+      const eligibility = Array.isArray(rule.eligibilityRequirements)
+        ? rule.eligibilityRequirements.join(' ')
+        : String(rule.eligibilityRequirements || '');
+      const text = `${rule.title || ''} ${rule.quotaInfo || ''} ${eligibility}`;
+      return /新戶|新卡友|新申辦|首次申辦|首刷|首筆|首次消費|首次綁定|核卡禮|辦卡禮|申辦.{0,8}(?:贈|送|享)|核卡後\s*\d+\s*日|每(?:戶|卡)限.{0,6}一次|限享一次|僅限一次/i.test(text);
+    }
+
+    function getRecommendationHeadline(rule, calc, condition) {
+      const rewardType = String(rule.rewardType || '').toLowerCase();
+      const rewardUnit = String(rule.rewardUnit || '').toLowerCase();
+      const rewardAmount = Number(rule.rewardAmount) || 0;
+      const isPercent = !['cash', 'draw', 'installment'].includes(rewardType)
+        && !(rewardType === 'points' && rewardUnit !== 'percent')
+        && calc.potentialRate > 0;
+      let amount = '';
+      let caption = '';
+      if (isPercent) {
+        const rate = condition.conditional ? calc.potentialRate : calc.effectiveRate;
+        const cash = condition.conditional ? calc.potentialCash : calc.totalCash;
+        amount = `${rate}%`;
+        caption = `${condition.conditional ? '符合條件最高' : `預估 NT$${cash}`}回饋`;
+      } else if (rewardType === 'cash' && rewardAmount > 0) {
+        amount = `NT$${rewardAmount.toLocaleString()}`;
+        caption = condition.conditional ? '符合條件最高刷卡金' : '最高刷卡金';
+      } else if (rewardType === 'points' && rewardUnit !== 'percent' && rewardAmount > 0) {
+        amount = `${rewardAmount.toLocaleString()} 點`;
+        caption = '最高回饋';
+      } else if (rewardType === 'installment') {
+        amount = '分期優惠';
+        caption = '依活動條件適用';
+      } else if (rewardType === 'draw') {
+        amount = '抽獎活動';
+        caption = '依活動條件參加';
+      } else {
+        amount = '優惠活動';
+        caption = '回饋資料待確認';
+      }
+      if (!rule.sourceUrl || rule.associationStatus === 'needs_review') caption += ' · 資料待確認';
+      return `<span class="recommend-reward-amount">${amount}</span><span class="recommend-reward-caption">${caption}</span>`;
+    }
+
+    function renderQuickRecommendationTags(rule, card, condition) {
+      const tags = [];
+      tags.push(`<span class="text-[9.5px] font-black px-2 py-0.5 rounded-md text-[#667773] bg-white/70 border border-[#dce6e3]">${getProductTypeLabel(card)}</span>`);
+      tags.push(`<span class="text-[9.5px] font-black px-2 py-0.5 rounded-md border ${card.owned ? 'text-[#25877f] bg-[#e9f8f5] border-[#bfe5df]' : 'text-[#7e8a87] bg-[#f4f6f5] border-[#dde5e2]'}">${card.owned ? '✓ 我的卡' : '尚未持有'}</span>`);
+      if (rule.bankWideEligibleCount > 1) {
+        tags.push(`<span class="text-[9.5px] font-black px-2 py-0.5 rounded-md text-[#58716b] bg-[#f0f6f4] border border-[#d5e5e1]">同銀行 ${rule.bankWideEligibleCount} 張卡適用</span>`);
+      }
+      if (condition.conditional) {
+        tags.push(`<span class="text-[9.5px] font-black px-2 py-0.5 rounded-md text-amber-700 bg-amber-50 border border-amber-200">${condition.reasons[0]}</span>`);
+      } else if (rule.needReg && rule.registered) {
+        tags.push('<span class="text-[9.5px] font-black px-2 py-0.5 rounded-md text-[#25877f] bg-[#e9f8f5] border border-[#bfe5df]">✓ 已標記登錄</span>');
+      } else {
+        tags.push('<span class="text-[9.5px] font-black px-2 py-0.5 rounded-md text-[#25877f] bg-[#e9f8f5] border border-[#bfe5df]">直接刷即可</span>');
+      }
+      return tags.slice(0, 2).join('');
+    }
+
+    function getExplicitRegistrationDeadline(rule) {
+      const text = String(rule.regDeadline || '');
+      const matches = [...text.matchAll(/(20\d{2})\s*[\/年.]\s*(\d{1,2})\s*[\/月.]\s*(\d{1,2})/g)];
+      if (!matches.length) return null;
+      // 區間活動取最後一個日期作為截止日，例如「2026/9/1~2026/9/30」。
+      const match = matches[matches.length - 1];
+      const date = new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3]), 23, 59, 59);
+      return Number.isNaN(date.getTime()) ? null : date;
+    }
+
+    function getTrackerRules() {
+      const now = new Date();
+      return appRules
+        .filter(rule => {
+          if (!rule.needReg) return false;
+          const deadline = getExplicitRegistrationDeadline(rule);
+          return !deadline || deadline >= now;
+        })
+        .sort((a, b) => {
+          // 首頁先提醒尚未登錄者；同一狀態以最接近的明確截止日優先。
+          if (a.registered !== b.registered) return a.registered ? 1 : -1;
+          const aDate = getExplicitRegistrationDeadline(a);
+          const bDate = getExplicitRegistrationDeadline(b);
+          const aTime = aDate ? aDate.getTime() : Number.MAX_SAFE_INTEGER;
+          const bTime = bDate ? bDate.getTime() : Number.MAX_SAFE_INTEGER;
+          return aTime - bTime;
+        })
+        .slice(0, 3);
+    }
+
+    function renderCardThumbnail(card, preferredRuleId = '') {
+      let safeImage = '';
+      try {
+        const parsed = new URL(card.imageUrl || '');
+        if (parsed.protocol === 'https:' && !parsed.username && !parsed.password) safeImage = parsed.href;
+      } catch (e) {}
+      if (safeImage) {
+        return `<div class="w-[96px] h-[60px] rounded-xl overflow-hidden bg-white border border-[#dce6e3] shadow-sm flex-shrink-0 cursor-pointer" onclick="openCardDetailModal('${card.id}', '${preferredRuleId}')"><img src="${safeImage.replace(/&/g, '&amp;').replace(/"/g, '&quot;')}" alt="${card.cardName}" class="w-full h-full object-contain" loading="lazy" /></div>`;
+      }
+      return `
+        <div class="w-[96px] h-[60px] rounded-xl p-2 flex flex-col justify-between relative shadow-sm border-2 border-white/60 flex-shrink-0 cursor-pointer" onclick="openCardDetailModal('${card.id}', '${preferredRuleId}')" style="background: ${card.themeBg || '#2a5298'}; box-shadow: 0 3px 0 rgba(49, 34, 23, .22);">
+          <div class="flex items-center justify-between">
+            <span class="text-[6.5px] font-black truncate" style="color: ${card.textColor || '#fff'};">${card.bank}</span>
+            <div class="w-4 h-3 rounded-sm border border-amber-100/70" style="background: ${card.chipColor || '#fad668'};"></div>
+          </div>
+          ${card.hasBear ? '<div class="text-[14px] leading-none self-center">🐻</div>' : ''}
+          <div class="flex items-center justify-between text-[6.5px] font-bold" style="color: ${card.textColor || '#fff'};">
+            <span class="truncate">${card.cardName}</span>
+            <div class="flex -space-x-1">
+              <div class="w-2.5 h-2.5 rounded-full bg-red-500/90"></div>
+              <div class="w-2.5 h-2.5 rounded-full bg-amber-400/90"></div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function normalizeText(str) {
+      if (!str) return '';
+      return str.toString()
+        .replace(/\s+/g, '')       
+        .replace(/[\uff01-\uff5e]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0xfee0)) 
+        .toUpperCase();            
+    }
+
+    function isBankWideRule(rule, cardMap) {
+      const sourceCard = cardMap.get(rule.cardId);
+      const declaredScope = String(rule.eligibleCardScope || rule.cardScope || '').toUpperCase();
+      const audienceText = `${rule.title || ''} ${rule.quotaInfo || ''}`;
+      const explicitlyBankWide = /全卡友|所有卡友|全體持卡人|全行信用卡|本行信用卡/i.test(audienceText);
+      // 規則已綁定一張真實產品卡時，不能只因 AI 誤填 ALL_BANK_CARDS
+      // 就擴散到同銀行所有卡；必須同時有明確的全卡友官方文案。
+      if (sourceCard && isRealCardProduct(sourceCard)) {
+        return declaredScope === 'ALL_BANK_CARDS' && explicitlyBankWide;
+      }
+      if (declaredScope === 'ALL_BANK_CARDS') return true;
+      if (sourceCard && String(sourceCard.entityType || '').toUpperCase() === 'AUDIENCE') return true;
+      // 舊資料尚未具備 eligibleCardScope 時的相容判斷；這是適用對象，不是卡名清單。
+      return !!(sourceCard && /全卡友|所有卡友|全體持卡人|信用卡.*(?:排除|不含|除外)|(?:銀行)?信用卡$/.test(sourceCard.cardName || ''));
+    }
+
+    function ruleExplicitlyNamesAnotherCard(rule, targetCard, cardMap) {
+      if (!rule || !targetCard) return false;
+      const corpus = normalizeText(`${rule.title || ''} ${rule.quotaInfo || ''} ${rule.benefitPlan || ''}`);
+      const targetAliases = getCardProductAliases(targetCard);
+      return Array.from(cardMap.values()).some(other => {
+        if (other.id === targetCard.id || other.bank !== targetCard.bank || !isRealCardProduct(other)) return false;
+        const otherAliases = getCardProductAliases(other);
+        const namesOtherCard = otherAliases.some(alias => corpus.includes(alias));
+        const namesTargetCard = targetAliases.some(alias => corpus.includes(alias));
+        return namesOtherCard && !namesTargetCard;
+      });
+    }
+
+    // ==================== 智慧聚合與優先推薦試算引擎 ====================
+    function renderSpendingList() {
+      const container = document.getElementById('spending-list-container');
+      const spendInput = document.getElementById('spend-amount-input');
+      const spendAmount = Math.max(0, parseFloat(spendInput.value) || 0);
+      const query = currentSearchText.trim();
+      const cardMap = new Map(appCards.map(c => [c.id, c]));
+      const ownedSet = new Set(appCards.filter(c => c.owned).map(c => c.id));
+
+      // 回饋快查必須由使用者的查詢決定推薦內容。搜尋框為空時不沿用
+      // 上一次活動，也不拿最高回饋活動（例如中油）冒充預設推薦。
+      if (!query) {
+        container.innerHTML = `
+          <div class="ghibli-card rounded-[22px] px-5 py-7 text-center bg-white">
+            <div class="text-2xl mb-2">⌕</div>
+            <div class="text-sm font-black text-ghibliInk-800">輸入消費項目後再幫你比對</div>
+            <div class="mt-1 text-[11px] font-bold text-ghibliInk-500">例如：中油、LINE Pay、餐廳、機票</div>
+          </div>
+        `;
+        const warnBanner = document.getElementById('exclusion-warning-banner');
+        if (warnBanner) warnBanner.classList.add('hidden');
+        return;
+      }
+
+      const warnBanner = document.getElementById('exclusion-warning-banner');
+      const warnDesc = document.getElementById('exclusion-desc');
+      if (query !== '') {
+        const queryLower = query.toLowerCase();
+        const hitExclusion = COMMON_EXCLUSIONS.find(ex => ex.keywords && ex.keywords.some(k => queryLower.includes(k.toLowerCase())));
+        if (hitExclusion && warnBanner && warnDesc) {
+          warnDesc.innerText = hitExclusion.message;
+          warnBanner.classList.remove('hidden');
+        } else if (warnBanner) {
+          warnBanner.classList.add('hidden');
+        }
+      } else if (warnBanner) {
+        warnBanner.classList.add('hidden');
+      }
+
+      let candidates = [];
+      appRules.forEach(rule => {
+        const sourceCard = cardMap.get(rule.cardId);
+        if (!sourceCard) return;
+        if (ruleExplicitlyNamesAnotherCard(rule, sourceCard, cardMap)) return;
+        if (currentScope === 'all' && !isRealCardProduct(sourceCard)) return;
+        // 全市場排行只推薦可實際申辦的卡片；銀行通用活動不是一張卡，
+        // 只有在「我的卡包」才展開套用至同銀行的已持有卡片。
+        if (currentScope === 'all' && isBankWideRule(rule, cardMap)) return;
+        if (currentScope === 'my' && isBankWideRule(rule, cardMap)) {
+          const excluded = Array.isArray(rule.excludedKeywords) ? rule.excludedKeywords : [];
+          const eligibleCards = appCards.filter(card => card.bank === sourceCard.bank
+            && ownedSet.has(card.id) && isRealCardProduct(card)
+            && !excluded.some(keyword => keyword && normalizeText(card.cardName).includes(normalizeText(keyword))));
+          if (eligibleCards.length) {
+            candidates.push({
+              ...rule,
+              cardId: eligibleCards[0].id,
+              bankWideSourceCardId: rule.cardId,
+              bankWideEligibleCount: eligibleCards.length
+            });
+          }
+          return;
+        }
+        if (currentScope === 'my' && !ownedSet.has(rule.cardId)) return;
+        candidates.push(rule);
+      });
+
+      // 預設推薦可反覆使用的日常回饋；新戶、首刷與一次性贈品獨立到
+      // 「辦卡優惠」，避免一次性高額禮壓過真正適合這筆消費的卡片。
+      candidates = candidates.filter(rule => currentOfferView === 'acquisition'
+        ? isAcquisitionOrOneTimeOffer(rule)
+        : !isAcquisitionOrOneTimeOffer(rule));
+
+      // 同一個全行活動常被不同頁面重複擷取，且過去會對每張持有卡各顯示
+      // 一次。卡包只保留一筆代表列，並標示實際符合排除條款的持卡張數。
+      const uniqueCandidates = new Map();
+      candidates.forEach(rule => {
+        const card = cardMap.get(rule.cardId);
+        const canonicalActivityTitle = normalizeText(rule.title)
+          .replace(/最高(?:享|送)?.*$/, '')
+          .replace(/加碼.*$/, '');
+        const key = rule.bankWideSourceCardId
+          ? `BANKWIDE::${card?.bank || rule.bank || ''}::${canonicalActivityTitle}`
+          : `RULE::${rule.id}::${rule.cardId}`;
+        const existing = uniqueCandidates.get(key);
+        if (!existing) {
+          uniqueCandidates.set(key, rule);
+        } else {
+          const existingQuality = (existing.sourceUrl ? 1000 : 0) + String(existing.quotaInfo || '').length;
+          const ruleQuality = (rule.sourceUrl ? 1000 : 0) + String(rule.quotaInfo || '').length;
+          const preferred = ruleQuality > existingQuality ? rule : existing;
+          preferred.registered = !!(existing.registered || rule.registered);
+          preferred.bankWideEligibleCount = Math.max(existing.bankWideEligibleCount || 0, rule.bankWideEligibleCount || 0);
+          uniqueCandidates.set(key, preferred);
+        }
+      });
+      candidates = [...uniqueCandidates.values()];
+
+      if (query !== '') {
+        const rawTerms = query.split(/\s+/).filter(t => t.length > 0);
+        const cleanQueryTerms = rawTerms.map(t => normalizeText(t));
+        const isLinePayQuery = cleanQueryTerms.length === 1 && cleanQueryTerms[0] === 'LINEPAY';
+        const intentAliases = {
+          '加油': ['加油站', '台灣中油', '中油', '台塑石油', '台亞', '福懋']
+        };
+
+        const matchesTerms = (rule, includeCardIdentity, reliableOnly = false) => {
+          const card = cardMap.get(rule.cardId);
+          const merchantText = Array.isArray(rule.matchedMerchants) ? rule.matchedMerchants.join(' ') : '';
+
+          // LINE Pay 是支付通路查詢。只接受活動標題、分類或適用商家明確標示
+          // LINE Pay；卡名、LINE POINTS、綁定 LINE 與「LINE Pay卡」都不代表
+          // 消費是透過 LINE Pay，因此不能拿來命中。
+          if (isLinePayQuery) {
+            const explicitPaymentCorpus = `${rule.title || ''} ${rule.category || ''} ${merchantText}`;
+            const normalizedPaymentCorpus = normalizeText(explicitPaymentCorpus)
+              .replaceAll('LINEPAY卡', '');
+            return normalizedPaymentCorpus.includes('LINEPAY');
+          }
+
+          const rawCorpus = `
+            ${reliableOnly ? '' : (rule.searchKeywords || '')} 
+            ${rule.category || ''} 
+            ${merchantText} 
+            ${rule.title || ''} 
+            ${rule.quotaInfo || ''}
+            ${includeCardIdentity && card ? card.cardName + ' ' + card.bank + ' ' + (card.descTag || '') : ''}
+          `;
+          const cleanCorpus = normalizeText(rawCorpus);
+
+          return cleanQueryTerms.every(term => {
+            if (cleanCorpus.includes(term)) return true;
+            const aliases = intentAliases[term] || [];
+            return aliases.some(alias => cleanCorpus.includes(normalizeText(alias)));
+          });
+        };
+
+        // 優先要求活動本身符合關鍵字。只有完全找不到活動時，才用卡名作為
+        // 備援搜尋，避免搜尋 LINE Pay 卻推薦該卡不相關的旅遊 25% 活動。
+        const reliableMatches = candidates.filter(rule => matchesTerms(rule, false, true));
+        const directlyMatched = reliableMatches.length
+          ? reliableMatches
+          : candidates.filter(rule => matchesTerms(rule, false, false));
+        candidates = directlyMatched.length
+          ? directlyMatched
+          : candidates.filter(rule => matchesTerms(rule, true));
+      }
+
+      const cardBestRuleMap = new Map();
+      candidates.forEach(rule => {
+        const calc = calcRuleCashBack(rule, spendAmount);
+        calc.rankingCash = rule.needReg && !rule.registered ? calc.potentialCash : calc.totalCash;
+        calc.rankingMetrics = getRewardRankingMetrics(rule, calc);
+        const card = cardMap.get(rule.cardId);
+        const condition = getRuleConditionStatus(rule, card);
+        const resultKey = `${rule.cardId}::${condition.conditional ? 'conditional' : 'direct'}`;
+        const existing = cardBestRuleMap.get(resultKey);
+        
+        if (!existing) {
+          cardBestRuleMap.set(resultKey, { rule, calc, condition });
+        } else {
+          const isCurrentReg = rule.needReg && rule.registered;
+          const isExistingReg = existing.rule.needReg && existing.rule.registered;
+
+          if (isCurrentReg && !isExistingReg) {
+            cardBestRuleMap.set(resultKey, { rule, calc, condition });
+          } else if (isCurrentReg === isExistingReg && (
+            calc.rankingMetrics.cash > existing.calc.rankingMetrics.cash
+            || (calc.rankingMetrics.cash === existing.calc.rankingMetrics.cash
+              && calc.rankingMetrics.points > existing.calc.rankingMetrics.points)
+          )) {
+            cardBestRuleMap.set(resultKey, { rule, calc, condition });
+          }
+        }
+      });
+
+      const list = Array.from(cardBestRuleMap.values());
+
+      list.sort((a, b) => {
+        if (a.condition.conditional !== b.condition.conditional) {
+          if (currentRecommendationMode === 'easy') return a.condition.conditional ? 1 : -1;
+          return a.condition.conditional ? -1 : 1;
+        }
+        const aReg = a.rule.needReg && a.rule.registered ? 1 : 0;
+        const bReg = b.rule.needReg && b.rule.registered ? 1 : 0;
+        if (aReg !== bReg) return bReg - aReg;
+        if (a.calc.rankingMetrics.known !== b.calc.rankingMetrics.known) {
+          return b.calc.rankingMetrics.known - a.calc.rankingMetrics.known;
+        }
+        if (a.calc.rankingMetrics.cash !== b.calc.rankingMetrics.cash) {
+          return b.calc.rankingMetrics.cash - a.calc.rankingMetrics.cash;
+        }
+        return b.calc.rankingMetrics.points - a.calc.rankingMetrics.points;
+      });
+
+      if (list.length === 0) {
+        container.innerHTML = `
+          <div class="ghibli-card rounded-[22px] p-6 text-center text-xs font-bold text-ghibliInk-600 bg-white">
+            <div class="text-2xl mb-1">⌕</div>
+            <div>在${currentScope === 'my' ? '「我的卡包」' : '全市場'}查無符合的${currentOfferView === 'daily' ? '日常回饋' : '辦卡優惠'}</div>
+            ${currentScope === 'my' ? `<button onclick="setScope('all')" class="mt-3 px-3 py-1.5 rounded-lg text-[11px] font-black text-emerald-200 border border-emerald-300/30 bg-emerald-400/10">改查全市場 →</button>` : ''}
+          </div>
+        `;
+        return;
+      }
+
+      let html = '';
+      if (query && currentScope === 'my') {
+        html += `
+          <div class="scope-search-note flex items-center justify-between rounded-xl px-3 py-2 text-[10.5px] font-bold">
+            <span>目前只搜尋「我的卡包」</span>
+            <button onclick="setScope('all')" class="font-black">查看全市場結果 →</button>
+          </div>
+        `;
+      }
+      let lastConditionGroup = null;
+      list.forEach(({ rule, calc, condition }) => {
+        const card = cardMap.get(rule.cardId);
+        if (!card) return;
+
+        const groupKey = currentOfferView === 'acquisition' ? 'acquisition' : (condition.conditional ? 'conditional' : 'direct');
+        if (groupKey !== lastConditionGroup) {
+          const groupTitle = currentOfferView === 'acquisition'
+            ? '新戶／一次性優惠'
+            : (condition.conditional ? '完成條件可更高' : '日常直接刷');
+          html += `<div class="px-1 pt-1 text-[11px] font-black ${condition.conditional ? 'text-amber-700' : 'text-[#25877f]'}">${groupTitle}</div>`;
+          lastConditionGroup = groupKey;
+        }
+
+        html += `
+          <div class="ghibli-card recommend-glass-card rounded-[22px] p-3 flex items-center justify-between space-x-3">
+            ${renderCardThumbnail(card, rule.id)}
+            <div class="flex-1 min-w-0 space-y-0.5">
+              <div class="recommend-bank cursor-pointer" onclick="openCardDetailModal('${card.id}', '${rule.id}')">${card.bank}</div>
+              <div class="recommend-card-name cursor-pointer" onclick="openCardDetailModal('${card.id}', '${rule.id}')">${card.cardName}</div>
+              <div class="recommend-top-reward cursor-pointer" onclick="openCardDetailModal('${card.id}', '${rule.id}')">${getRecommendationHeadline(rule, calc, condition)}</div>
+              <div class="recommend-activity-title truncate cursor-pointer" onclick="openCardDetailModal('${card.id}', '${rule.id}')">${rule.title}</div>
+
+              <div class="flex items-center flex-wrap gap-1 pt-1">
+                ${renderQuickRecommendationTags(rule, card, condition)}
+              </div>
+            </div>
+          </div>
+        `;
+      });
+      container.innerHTML = html;
+    }
+
+    // ==================== 彈出詳細回饋視窗（支援依目前搜尋關鍵字精準過濾） ====================
+    function renderRuleSourceLink(rule) {
+      try {
+        const destination = getRegistrationDestination(rule);
+        const url = new URL(destination || rule.sourceUrl);
+        if (url.protocol !== 'https:' || url.username || url.password) throw new Error('Invalid source');
+        const href = url.href.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/'/g, '&#39;');
+        if (rule.needReg) {
+          const ruleIndex = appRules.indexOf(rule);
+          return `<button onclick="openRegistrationPage(${ruleIndex})" class="inline-flex items-center text-[11px] font-black text-ghibliGreen-600 bg-ghibliGreen-100 border border-ghibliGreen-200 rounded-lg px-2.5 py-1.5">前往官方活動／登錄頁 ↗</button>`;
+        }
+        return `<a href="${href}" target="_blank" rel="noopener noreferrer" class="inline-flex text-[11px] font-bold text-ghibliGold-600 underline py-1">查看此活動來源 ↗</a>`;
+      } catch {
+        return '<div class="text-[10px] text-ghibliInk-600 pt-1">尚未收錄此活動來源網址</div>';
+      }
+    }
+
+    function inferBenefitPlan(rule, card) {
+      if (rule.benefitPlan) return String(rule.benefitPlan).trim();
+      const title = String(rule.title || '');
+      const bracketPlan = title.match(/【([^】]{2,12})】/);
+      if (bracketPlan) return bracketPlan[1];
+      if (/CUBE/i.test(card.cardName || '')) {
+        const legacyPlan = title.match(/^(玩數位|樂饗購|趣旅行|集精選|慶生月)/);
+        if (legacyPlan) return legacyPlan[1];
+      }
+      return '';
+    }
+
+    function openCardDetailModal(cardId, preferredRuleId = '') {
+      const card = appCards.find(c => c.id === cardId);
+      if (!card) return;
+
+      const titleEl = document.getElementById('modal-card-title');
+      const bodyEl = document.getElementById('modal-card-body');
+      const bankLinkEl = document.getElementById('modal-bank-link');
+      
+      titleEl.innerText = `${card.bank} - ${card.cardName}`;
+
+      const query = currentSearchText.trim();
+      const detailCardMap = new Map(appCards.map(item => [item.id, item]));
+      let cardRules = appRules.filter(r => {
+        if (ruleExplicitlyNamesAnotherCard(r, card, detailCardMap)) return false;
+        if (r.cardId === cardId) return true;
+        const sourceCard = detailCardMap.get(r.cardId);
+        return isBankWideRule(r, detailCardMap) && sourceCard && sourceCard.bank === card.bank;
+      });
+
+      // 如果當前有搜尋關鍵字（例如 LINEPAY），優先過濾出與該關鍵字高度相關的規則
+      if (query !== '') {
+        const cleanQuery = normalizeText(query);
+        const filteredRules = cardRules.filter(r => {
+          const merchantText = Array.isArray(r.matchedMerchants) ? r.matchedMerchants.join(' ') : '';
+          const corpus = normalizeText(`${r.title} ${r.searchKeywords || ''} ${merchantText}`);
+          return corpus.includes(cleanQuery);
+        });
+        if (filteredRules.length > 0) {
+          cardRules = filteredRules; // 若有命中則只顯示相關的
+        }
+      }
+
+      let answerHtml = '';
+      if (query && cardRules.length > 0) {
+        const spendAmount = Math.max(0, parseFloat(document.getElementById('spend-amount-input').value) || 0);
+        const rankedRules = cardRules.map(rule => ({ rule, calc: calcRuleCashBack(rule, spendAmount) }))
+          .sort((a, b) => b.calc.potentialCash - a.calc.potentialCash);
+        const best = rankedRules.find(item => item.rule.id === preferredRuleId) || rankedRules[0];
+        const benefitPlan = inferBenefitPlan(best.rule, card);
+        const needsSwitch = String(best.rule.selectionMode || '').toUpperCase() === 'SWITCHABLE'
+          || (!!benefitPlan && /CUBE/i.test(card.cardName || ''));
+        answerHtml = `
+          <div class="rounded-2xl border border-[#f1d9d1] bg-[#fff8f5] p-3 space-y-1.5">
+            <div class="text-[10px] font-black text-ghibliInk-500">針對「${query}」的建議</div>
+            <div class="text-[22px] leading-none font-black text-rose-500">${getProminentRewardLabel(best.rule, best.calc)}</div>
+            <div class="text-xs font-black text-ghibliInk-800">${query}${benefitPlan ? `適用「${benefitPlan}」` : '適用此活動'}</div>
+            ${needsSwitch ? `<div class="rounded-lg bg-amber-50 border border-amber-200 px-2.5 py-2 text-[10.5px] font-black text-amber-800">⚠️ 消費前須至銀行 App 切換為「${benefitPlan}」，方案不能同時疊加。</div>` : ''}
+          </div>`;
+        cardRules = [best.rule, ...rankedRules.filter(item => item.rule !== best.rule).map(item => item.rule)];
+      }
+
+      let rulesHtml = '';
+      if (cardRules.length === 0) {
+        rulesHtml = '<div class="text-center text-ghibliInk-500 py-4 font-bold">目前無登載對應的詳細權益條款</div>';
+      } else {
+        const renderRuleDetail = r => {
+          const hasBase = r.baseRate && r.baseRate > 0;
+          const hasPromo = r.promoRate && r.promoRate > 0;
+          const detailCalc = calcRuleCashBack(r, Math.max(0, parseFloat(document.getElementById('spend-amount-input').value) || 0));
+          const statesTotalRate = /最優(?:享)?\s*\d+(?:\.\d+)?\s*%|最高(?:享)?\s*\d+(?:\.\d+)?\s*%/i.test(`${r.title || ''} ${r.quotaInfo || ''}`);
+          return `
+            <div class="p-3 rounded-2xl bg-[#faf6ee] border border-[#ecdac2] space-y-1.5 shadow-xs">
+              <div class="font-black text-ghibliInk-800 text-xs">${r.title}</div>
+              <div class="flex items-center space-x-2 text-[11px] font-bold text-ghibliGold-600">
+                ${statesTotalRate ? `<span class="bg-rose-50 text-rose-600 px-1.5 py-0.5 rounded-md">總回饋: ${detailCalc.potentialRate}%（已含基本回饋）</span>` : ''}
+                ${!statesTotalRate && hasBase ? `<span>基本回饋: ${r.baseRate}%</span>` : ''}
+                ${!statesTotalRate && hasPromo ? `<span class="bg-amber-100 text-amber-800 px-1.5 py-0.5 rounded-md">加碼: +${r.promoRate}%</span>` : ''}
+                ${!hasBase && !hasPromo ? `<span class="text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded-md">${getRuleRewardLabel(r)}</span>` : ''}
+              </div>
+              ${r.quotaInfo ? `<div class="text-[10px] text-amber-900 font-medium bg-amber-50/80 p-1 rounded">📌 門檻說明：${r.quotaInfo}</div>` : ''}
+              ${renderRuleSourceLink(r)}
+              ${r.needReg ? `<div class="text-[10px] text-rose-600 font-bold">🔥 需登錄活動 (截止: ${r.regDeadline})</div>` : ''}
+            </div>`;
+        };
+        if (query && cardRules.length > 1) {
+          rulesHtml = renderRuleDetail(cardRules[0]);
+          rulesHtml += `<details class="rounded-xl border border-[#e3ebe8] bg-white px-3 py-2">
+            <summary class="cursor-pointer text-[10.5px] font-black text-ghibliInk-600">查看其他相關規則（${cardRules.length - 1}）</summary>
+            <div class="space-y-2 pt-2">${cardRules.slice(1).map(renderRuleDetail).join('')}</div>
+          </details>`;
+        } else {
+          rulesHtml = cardRules.map(renderRuleDetail).join('');
+        }
+      }
+
+      bodyEl.innerHTML = `
+        <div class="space-y-3">
+          <div class="p-3 rounded-2xl text-white flex flex-col justify-between shadow-xs" style="background: ${card.themeBg}; height: 85px;">
+            <div class="flex justify-between items-center text-[10px] font-black">
+              <span>${card.bank}</span>
+              <span>${card.cardName}</span>
+            </div>
+            <div class="text-[11px] font-bold">${card.descTag}</div>
+          </div>
+          <div class="font-black text-ghibliInk-700 text-xs pt-1 flex items-center justify-between">
+            <span>📋 ${query ? `與「${query}」相關的回饋權益：` : '所有適用權益與加碼條款：'}</span>
+          </div>
+          ${answerHtml}
+          <div class="space-y-2">${rulesHtml}</div>
+        </div>
+      `;
+
+      // 各活動使用自己的來源；不再把 Google 搜尋標成官方活動頁。
+      if (bankLinkEl) {
+        bankLinkEl.removeAttribute('href');
+        bankLinkEl.classList.add('hidden');
+      }
+
+      document.getElementById('card-detail-modal').classList.remove('hidden');
+    }
+
+    function closeCardDetailModal() {
+      document.getElementById('card-detail-modal').classList.add('hidden');
+    }
+
+    function renderHomePromotions() {
+      const container = document.getElementById('home-promo-container');
+      if (!container) return;
+
+      const cardMap = new Map(appCards.map(c => [c.id, c]));
+      const regRules = getTrackerRules();
+
+      if (regRules.length === 0) {
+        container.innerHTML = `<div class="text-[11px] font-bold text-ghibliInk-500 py-2 text-center">目前無即將到期的登錄活動</div>`;
+        return;
+      }
+
+      let html = '';
+      regRules.forEach((rule, idx) => {
+        const card = cardMap.get(rule.cardId) || { bank: '指定銀行', cardName: '熱門卡' };
+        const isBorder = idx !== regRules.length - 1;
+        html += `
+          <div class="flex items-center justify-between py-1.5 ${isBorder ? 'border-b border-[#f4eadb]' : ''}">
+            <div class="flex items-center space-x-2 min-w-0 pr-2">
+              <div class="w-6 h-6 rounded-full ${rule.registered ? 'bg-ghibliGreen-100 border-ghibliGreen-200 text-ghibliGreen-600' : 'bg-amber-100 border-amber-200 text-amber-600'} border flex items-center justify-center text-xs flex-shrink-0 font-black">
+                ${rule.registered ? '✔' : '⏳'}
+              </div>
+              <div class="min-w-0">
+                <div class="text-[11.5px] font-black text-ghibliInk-800 truncate">${rule.title}</div>
+                <div class="text-[10px] font-bold ${rule.registered ? 'text-ghibliGreen-600' : 'text-rose-500'}">
+                   ${rule.registered ? '你已標記登錄' : (rule.regDeadline || '限時開放')}
+                </div>
+              </div>
+            </div>
+            ${rule.registered 
+              ? `<span class="text-[10px] font-black text-ghibliGold-600 bg-[#fbf2e0] px-2 py-0.5 rounded-full border border-[#f0deb8] flex-shrink-0">
+                  ${getRuleRewardLabel(rule)}
+                 </span>`
+              : `<button onclick="toggleReg('${rule.id}')" class="text-[10px] font-black text-white bg-ghibliGold-400 hover:bg-ghibliGold-500 px-2.5 py-1 rounded-lg shadow-xs active:scale-95 flex-shrink-0">
+                  標記登錄
+                 </button>`
+            }
+          </div>
+        `;
+      });
+      container.innerHTML = html;
+    }
+
+    function renderRewardsStore() {
+      const container = document.getElementById('rewards-store-container');
+      const cardMap = new Map(appCards.map(c => [c.id, c]));
+      let regRules = appRules.filter(r => r.needReg);
+
+      if (currentRegBankFilter !== 'ALL') {
+        regRules = regRules.filter(r => {
+          const card = cardMap.get(r.cardId);
+          return card && card.bank === currentRegBankFilter;
+        });
+      }
+
+      if (currentRegSearchText !== '') {
+        const cleanRegQuery = normalizeText(currentRegSearchText);
+        regRules = regRules.filter(r => {
+          const card = cardMap.get(r.cardId);
+          const fullText = normalizeText(r.title + ' ' + r.category + ' ' + (r.searchKeywords || '') + ' ' + (card ? card.bank + ' ' + card.cardName : ''));
+          return fullText.includes(cleanRegQuery);
+        });
+      }
+
+      const lifecycleGroups = { upcoming: [], available: [], marked: [], expired: [] };
+      regRules.forEach(rule => lifecycleGroups[getRegistrationLifecycle(rule)].push(rule));
+      const list = lifecycleGroups[currentRegFilter] || lifecycleGroups.available;
+      Object.entries(lifecycleGroups).forEach(([status, rules]) => {
+        const badge = document.getElementById(`reg-${status}-badge`);
+        if (badge) badge.innerText = rules.length;
+      });
+
+      let html = '';
+      list.forEach(rule => {
+        const card = cardMap.get(rule.cardId) || { bank: '合作銀行', cardName: '全卡友' };
+        const ruleIndex = appRules.indexOf(rule);
+        const officialUrl = getRegistrationDestination(rule);
+        const lifecycle = getRegistrationLifecycle(rule);
+        const statusText = lifecycle === 'marked' ? '✓ 你已標記登錄（未向銀行驗證）'
+          : lifecycle === 'expired' ? '已截止'
+          : lifecycle === 'upcoming' ? '尚未開放登錄'
+          : '現在可以登錄';
+        html += `
+          <div class="ghibli-card rounded-[20px] p-3.5 space-y-2 bg-white">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-black text-ghibliInk-800">${card.bank} ${card.cardName}</span>
+              <span class="text-[10px] font-bold text-ghibliInk-500">截止日：${rule.regDeadline}</span>
+            </div>
+            <div class="text-xs font-black text-ghibliGold-600">${rule.title}・${getRuleRewardLabel(rule)}</div>
+            ${rule.quotaInfo ? `<div class="text-[10px] text-amber-800 bg-amber-50 rounded-md px-1.5 py-0.5 border border-amber-200/60 font-bold">名額說明：${rule.quotaInfo}</div>` : ''}
+            
+            <div class="pt-1 border-t border-[#f4eadb] space-y-2">
+              <div class="flex items-center justify-between">
+                <span class="text-[10px] font-bold ${lifecycle === 'marked' ? 'text-ghibliGreen-600' : lifecycle === 'expired' ? 'text-ghibliInk-500' : 'text-amber-600'}">
+                  狀態：${statusText}
+                </span>
+                ${lifecycle === 'available' || lifecycle === 'marked' ? `<button onclick="toggleReg('${rule.id}')" class="px-2.5 py-1 rounded-lg text-[10.5px] font-black transition ${rule.registered ? 'bg-[#faf6ee] text-ghibliInk-600 border border-[#e4d8c5]' : 'bg-white text-ghibliGreen-600 border border-ghibliGreen-200'}">${rule.registered ? '改為尚未標記' : '標記已登錄'}</button>` : ''}
+              </div>
+              ${officialUrl
+                ? `<button onclick="openRegistrationPage(${ruleIndex})" class="w-full py-2 rounded-xl bg-[#55bdb4] text-white text-xs font-black shadow-sm active:scale-[.98] transition">前往${rule.registrationUrl ? '官方登錄頁' : '官方活動／登錄頁'} ↗</button>`
+                : `<div class="w-full py-2 rounded-xl bg-[#f4f6f5] text-[#99a5a2] text-[10.5px] font-black text-center border border-[#e5eae8]">爬蟲尚未取得此活動的官方網址</div>`}
+              <button onclick="addRegistrationReminder(${ruleIndex})" class="w-full py-2 rounded-xl bg-white text-ghibliGreen-600 text-[11px] font-black border border-ghibliGreen-200 active:scale-[.98] transition">📅 加入行事曆提醒</button>
+            </div>
+          </div>
+        `;
+      });
+
+      container.innerHTML = html || '<div class="p-6 text-center text-xs font-bold text-ghibliInk-500">查無符合條件的登錄活動</div>';
+    }
+
+    function getRegistrationLifecycle(rule) {
+      if (rule.registered) return 'marked';
+      const now = new Date();
+      const deadline = getExplicitRegistrationDeadline(rule);
+      if (deadline && deadline < now) return 'expired';
+      const text = String(rule.regDeadline || '');
+      const first = text.match(/(20\d{2})\s*[\/年.]\s*(\d{1,2})\s*[\/月.]\s*(\d{1,2})/);
+      if (/開放/.test(text) && first) {
+        const openDate = new Date(Number(first[1]), Number(first[2]) - 1, Number(first[3]));
+        if (!Number.isNaN(openDate.getTime()) && openDate > now) return 'upcoming';
+      }
+      return 'available';
+    }
+
+    function getRegistrationDestination(rule) {
+      const candidate = rule && (rule.registrationUrl || rule.sourceUrl);
+      try {
+        const url = new URL(candidate);
+        return url.protocol === 'https:' && !url.username && !url.password ? url.href : '';
+      } catch (e) {
+        return '';
+      }
+    }
+
+    function escapeIcsText(value) {
+      return String(value || '')
+        .replace(/\\/g, '\\\\')
+        .replace(/\r?\n/g, '\\n')
+        .replace(/,/g, '\\,')
+        .replace(/;/g, '\\;');
+    }
+
+    function formatIcsLocal(date) {
+      const pad = value => String(value).padStart(2, '0');
+      return `${date.getFullYear()}${pad(date.getMonth() + 1)}${pad(date.getDate())}T${pad(date.getHours())}${pad(date.getMinutes())}00`;
+    }
+
+    function addRegistrationReminder(ruleIndex) {
+      const rule = appRules[ruleIndex];
+      if (!rule) return;
+      const deadline = getExplicitRegistrationDeadline(rule);
+      const reminder = deadline ? new Date(deadline) : new Date();
+      if (deadline) reminder.setDate(reminder.getDate() - 1);
+      else reminder.setDate(reminder.getDate() + 1);
+      reminder.setHours(9, 0, 0, 0);
+      const end = new Date(reminder.getTime() + 30 * 60 * 1000);
+      const destination = getRegistrationDestination(rule);
+      const description = `${rule.quotaInfo || '請確認活動門檻'}${rule.regDeadline ? `；登錄期限：${rule.regDeadline}` : '；尚無明確截止日，請至官方頁面確認'}${destination ? `；官方頁面：${destination}` : ''}`;
+      const ics = [
+        'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Kanu//Registration Reminder//ZH-TW',
+        'CALSCALE:GREGORIAN', 'BEGIN:VEVENT',
+        `UID:${Date.now()}-${encodeURIComponent(rule.id || 'activity')}@kanu.local`,
+        `DTSTAMP:${formatIcsLocal(new Date())}`,
+        `DTSTART:${formatIcsLocal(reminder)}`,
+        `DTEND:${formatIcsLocal(end)}`,
+        `SUMMARY:${escapeIcsText(`信用卡活動登錄：${rule.title}`)}`,
+        `DESCRIPTION:${escapeIcsText(description)}`,
+        destination ? `URL:${destination}` : '',
+        'BEGIN:VALARM', 'TRIGGER:-PT1H', 'ACTION:DISPLAY',
+        `DESCRIPTION:${escapeIcsText(`記得登錄：${rule.title}`)}`,
+        'END:VALARM', 'END:VEVENT', 'END:VCALENDAR'
+      ].filter(Boolean).join('\r\n');
+      const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const anchor = document.createElement('a');
+      anchor.href = url;
+      anchor.download = `卡奴-登錄提醒-${String(rule.title || '活動').replace(/[\\/:*?"<>|]/g, '-')}.ics`;
+      document.body.appendChild(anchor);
+      anchor.click();
+      anchor.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+      showTip(deadline ? '📅 已建立截止前一天的行事曆提醒' : '📅 已建立明天的行事曆提醒');
+    }
+
+    function getRuleStateKey(rule) {
+      return `${rule.id || ''}::${rule.cardId || ''}::${rule.title || ''}`;
+    }
+
+    let pendingRegistrationRuleKey = '';
+    let registrationOpenedAt = 0;
+
+    function openRegistrationPage(ruleIndex) {
+      const rule = appRules[ruleIndex];
+      const destination = getRegistrationDestination(rule);
+      if (!rule || !destination) {
+        showTip('這筆活動尚未收錄可驗證的官方網址');
+        return;
+      }
+      pendingRegistrationRuleKey = getRuleStateKey(rule);
+      registrationOpenedAt = Date.now();
+      sessionStorage.setItem('kanu_pending_registration_key', pendingRegistrationRuleKey);
+      window.open(destination, '_blank', 'noopener,noreferrer');
+      // 部分 App 內建瀏覽器切換分頁時不會觸發 focus / visibilitychange。
+      // 先在原頁排程確認視窗，使用者切回來時便能立即看到。
+      setTimeout(() => {
+        if (sessionStorage.getItem('kanu_pending_registration_key')) {
+          showRegistrationReturnModal();
+        }
+      }, 1200);
+    }
+
+    function showRegistrationReturnModal() {
+      const key = pendingRegistrationRuleKey || sessionStorage.getItem('kanu_pending_registration_key') || '';
+      const rule = appRules.find(item => getRuleStateKey(item) === key);
+      if (!rule || rule.registered) return;
+      pendingRegistrationRuleKey = key;
+      const title = document.getElementById('registration-return-title');
+      if (title) title.innerText = `「${rule.title}」完成登錄了嗎？`;
+      document.getElementById('registration-return-modal')?.classList.remove('hidden');
+    }
+
+    function closeRegistrationReturnModal() {
+      document.getElementById('registration-return-modal')?.classList.add('hidden');
+    }
+
+    function confirmReturnedRegistration(completed) {
+      const key = pendingRegistrationRuleKey || sessionStorage.getItem('kanu_pending_registration_key') || '';
+      const rule = appRules.find(item => getRuleStateKey(item) === key);
+      if (rule) rule.registered = !!completed;
+      sessionStorage.removeItem('kanu_pending_registration_key');
+      pendingRegistrationRuleKey = '';
+      closeRegistrationReturnModal();
+      saveRegisteredState();
+      renderSpendingList();
+      renderHomePromotions();
+      renderRewardsStore();
+      showTip(completed ? '✨ 已標記完成登錄' : '已保留在待登錄清單');
+    }
+
+    window.addEventListener('focus', () => {
+      if (Date.now() - registrationOpenedAt < 500) return;
+      if (sessionStorage.getItem('kanu_pending_registration_key')) showRegistrationReturnModal();
+    });
+
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible' && Date.now() - registrationOpenedAt >= 500
+          && sessionStorage.getItem('kanu_pending_registration_key')) {
+        showRegistrationReturnModal();
+      }
+    });
+
+    function handleSearchInput() {
+      const input = document.getElementById('search-input');
+      const clearBtn = document.getElementById('clear-search-btn');
+      currentSearchText = input.value;
+      currentSearchContext = '';
+      if (currentSearchText.length > 0) {
+        clearBtn.classList.remove('hidden');
+      } else {
+        clearBtn.classList.add('hidden');
+      }
+      renderSearchClarifier();
+      renderSpendingList();
+    }
+
+    function clearSearchInput() {
+      const input = document.getElementById('search-input');
+      const clearBtn = document.getElementById('clear-search-btn');
+      input.value = '';
+      currentSearchText = '';
+      currentSearchContext = '';
+      clearBtn.classList.add('hidden');
+      renderSearchClarifier();
+      renderSpendingList();
+    }
+
+    function renderSearchClarifier() {
+      const container = document.getElementById('search-context-clarifier');
+      if (!container) return;
+      const normalized = normalizeText(currentSearchText);
+      if (normalized === 'APPLE') {
+        container.classList.remove('hidden');
+        container.innerHTML = `<div class="text-[10.5px] font-black text-ghibliInk-700 mb-1.5">你指的是哪一種消費？</div><div class="flex gap-1.5"><button onclick="replaceSearchQuery('Apple Store')" class="rounded-full bg-white border px-2.5 py-1 text-[10px] font-black">Apple Store</button><button onclick="replaceSearchQuery('App Store')" class="rounded-full bg-white border px-2.5 py-1 text-[10px] font-black">App Store</button><button onclick="replaceSearchQuery('Apple Pay')" class="rounded-full bg-white border px-2.5 py-1 text-[10px] font-black">Apple Pay</button></div>`;
+      } else if (normalized.includes('APPLESTORE')) {
+        container.classList.remove('hidden');
+        container.innerHTML = `<div class="text-[10.5px] font-black text-ghibliInk-700 mb-1.5">你在哪裡消費？</div><div class="flex gap-1.5">${['官網','實體店','還不確定'].map(value => `<button onclick="setSearchContext('${value}')" class="rounded-full border px-2.5 py-1 text-[10px] font-black ${currentSearchContext === value ? 'bg-[#55bdb4] text-white border-[#55bdb4]' : 'bg-white text-ghibliInk-600'}">${value}</button>`).join('')}</div>`;
+      } else {
+        container.classList.add('hidden');
+        container.innerHTML = '';
+      }
+    }
+
+    function replaceSearchQuery(value) {
+      const input = document.getElementById('search-input');
+      input.value = value;
+      currentSearchText = value;
+      currentSearchContext = '';
+      document.getElementById('clear-search-btn').classList.remove('hidden');
+      renderSearchClarifier();
+      renderSpendingList();
+    }
+
+    function setSearchContext(value) {
+      currentSearchContext = value;
+      renderSearchClarifier();
+      renderSpendingList();
+    }
+
+    function handleRegSearchInput() {
+      const input = document.getElementById('reg-search-input');
+      const clearBtn = document.getElementById('reg-clear-search-btn');
+      currentRegSearchText = input.value.trim();
+      if (currentRegSearchText.length > 0) {
+        clearBtn.classList.remove('hidden');
+      } else {
+        clearBtn.classList.add('hidden');
+      }
+      renderRewardsStore();
+    }
+
+    function clearRegSearchInput() {
+      const input = document.getElementById('reg-search-input');
+      const clearBtn = document.getElementById('reg-clear-search-btn');
+      input.value = '';
+      currentRegSearchText = '';
+      clearBtn.classList.add('hidden');
+      renderRewardsStore();
+    }
+
+    function setScope(scope) {
+      currentScope = scope;
+      const btnMy = document.getElementById('btn-scope-my');
+      const btnAll = document.getElementById('btn-scope-all');
+      const isMy = scope === 'my';
+      btnMy.classList.toggle('scope-active', isMy);
+      btnAll.classList.toggle('scope-active', !isMy);
+      btnMy.setAttribute('aria-pressed', String(isMy));
+      btnAll.setAttribute('aria-pressed', String(!isMy));
+      renderSpendingList();
+    }
+
+    function toggleReg(ruleId) {
+      const rule = appRules.find(r => r.id === ruleId);
+      if (rule) {
+        rule.registered = !rule.registered;
+        saveRegisteredState();
+        renderSpendingList();
+        renderHomePromotions();
+        renderRewardsStore();
+        showTip(rule.registered ? `✨ 已標記「${rule.title}」登錄生效！` : `已取消「${rule.title}」登錄狀態`);
+      }
+    }
+
+    function filterRegBank(bank) {
+      currentRegBankFilter = bank;
+      document.querySelectorAll('.reg-bank-pill').forEach(el => {
+        if (el.innerText.trim() === bank || (bank === 'ALL' && el.innerText.includes('全部'))) {
+          el.className = 'reg-bank-pill px-3 py-1 rounded-full bg-ghibliGold-400 text-white font-black flex-shrink-0';
+        } else {
+          el.className = 'reg-bank-pill px-3 py-1 rounded-full bg-white text-ghibliInk-600 border border-[#e4d7c3] font-bold flex-shrink-0';
+        }
+      });
+      renderRewardsStore();
+    }
+
+    function switchTab(tab) {
+      ['home', 'mydeck', 'rewards-store', 'settings'].forEach(t => {
+        document.getElementById('view-' + t).classList.add('hidden');
+        const navBtn = document.getElementById('nav-' + t);
+        navBtn.classList.add('opacity-60');
+        navBtn.classList.remove('active-nav');
+      });
+
+      document.getElementById('view-' + tab).classList.remove('hidden');
+      const activeBtn = document.getElementById('nav-' + tab);
+      activeBtn.classList.remove('opacity-60');
+      activeBtn.classList.add('active-nav');
+
+      if (tab === 'home') {
+        renderSpendingList();
+        renderHomePromotions();
+      }
+      if (tab === 'mydeck') renderDeckList();
+      if (tab === 'rewards-store') renderRewardsStore();
+    }
+
+    function filterBank(bank) {
+      currentBankFilter = bank;
+      document.querySelectorAll('.bank-pill').forEach(el => {
+        if (el.innerText.trim() === bank || (bank === 'ALL' && el.innerText.includes('全部'))) {
+          el.className = 'bank-pill active-pill px-3 py-1 rounded-full bg-ghibliGold-400 text-white font-black flex-shrink-0';
+        } else {
+          el.className = 'bank-pill px-3 py-1 rounded-full bg-white text-ghibliInk-600 border border-[#e4d7c3] font-bold flex-shrink-0';
+        }
+      });
+      renderDeckList();
+    }
+
+    function setRegFilter(filter) {
+      currentRegFilter = filter;
+      ['upcoming', 'available', 'marked', 'expired'].forEach(status => {
+        const button = document.getElementById(`reg-tab-${status}`);
+        if (!button) return;
+        const active = status === filter;
+        button.classList.toggle('reg-filter-active', active);
+        button.classList.toggle('font-black', active);
+        button.setAttribute('aria-pressed', String(active));
+      });
+      renderRewardsStore();
+    }
+
+    function updateBadges() {
+      const count = appCards.filter(c => c.owned && isRealCardProduct(c)).length;
+      const badge = document.getElementById('deck-selected-count');
+      if (badge) badge.innerText = count;
+    }
+
+    function saveOwnership() {
+      try {
+        const ids = appCards.filter(c => c.owned && isRealCardProduct(c)).map(c => c.id);
+        localStorage.setItem('kanu_owned_ids', JSON.stringify(ids));
+      } catch (e) {}
+    }
+
+    function loadOwnership() {
+      try {
+        const saved = localStorage.getItem('kanu_owned_ids');
+        if (saved) {
+          const set = new Set(JSON.parse(saved).map(id => cardIdAliases.get(id) || id));
+          appCards.forEach(c => c.owned = isRealCardProduct(c) && set.has(c.id));
+        } else if (appCards.length > 0) {
+          appCards.filter(isRealCardProduct).slice(0, 2).forEach(c => c.owned = true);
+          saveOwnership();
+        }
+      } catch (e) {}
+    }
+
+    function saveRegisteredState() {
+      try {
+        const regIds = appRules.filter(r => r.registered).map(r => r.id);
+        localStorage.setItem('kanu_user_registered_ids', JSON.stringify(regIds));
+      } catch (e) {}
+    }
+
+    function loadRegisteredState() {
+      try {
+        const saved = localStorage.getItem('kanu_user_registered_ids');
+        if (saved) {
+          const set = new Set(JSON.parse(saved));
+          appRules.forEach(r => {
+            if (set.has(r.id)) r.registered = true;
+          });
+        }
+      } catch (e) {}
+    }
+
+    function clearCacheAndReset() {
+      localStorage.clear();
+      location.reload();
+    }
+
+    let audioCtx = null;
+    function playAudioTone() {
+      try {
+        if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        const now = audioCtx.currentTime;
+        osc.frequency.setValueAtTime(360, now);
+        osc.frequency.exponentialRampToValueAtTime(540, now + 0.05);
+        gain.gain.setValueAtTime(0.08, now);
+        gain.gain.linearRampToValueAtTime(0.01, now + 0.05);
+        osc.start(now);
+        osc.stop(now + 0.05);
+      } catch (e) {}
+    }
+
+    function showTip(text) {
+      const toast = document.getElementById('toast');
+      if (!toast) return;
+      toast.innerText = text;
+      toast.classList.remove('opacity-0', '-translate-y-2');
+      toast.classList.add('opacity-100', 'translate-y-0');
+      setTimeout(() => {
+        toast.classList.remove('opacity-100', 'translate-y-0');
+        toast.classList.add('opacity-0', '-translate-y-2');
+      }, 2200);
+    }
+
+    function updateLiveClock() {
+      const clock = document.getElementById('live-clock');
+      if (clock) {
+        const now = new Date();
+        clock.innerText = `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
+      }
+    }
+
+    window.onload = function() {
+      loadCachedDatabase();
+      loadOwnership();
+      loadRegisteredState();
+      renderAllViews();
+      updateLiveClock();
+      setInterval(updateLiveClock, 30000);
+
+      // 使用者若從銀行頁切回、或預覽頁被重新載入，資料完成載入後仍要顯示
+      // 尚未確認的登錄結果，避免狀態確認因頁面重整而消失。
+      if (sessionStorage.getItem('kanu_pending_registration_key')) {
+        setTimeout(showRegistrationReturnModal, 150);
+      }
+
+      setTimeout(() => {
+        checkRemoteDataUpdate(false);
+      }, 500);
+    };
+  </script>
+</body>
+</html>

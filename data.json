@@ -1,5 +1,5 @@
 {
-  "version": "2026.09.24-v214233",
+  "version": "2026.09.25-v025103-sourcefix",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -14787,9 +14787,10 @@
       "rewardType": "percent",
       "rewardAmount": 6.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/index.htm",
       "fetchedAt": "2026-09-22T21:15:35.621445Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "j_card_domestic",
@@ -14958,9 +14959,10 @@
       "rewardType": "percent",
       "rewardAmount": 6.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/index.htm",
       "fetchedAt": "2026-09-22T21:15:35.621610Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule_j_card_domestic",
@@ -24868,9 +24870,10 @@
       "rewardType": "percent",
       "rewardAmount": 1.5,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/",
       "fetchedAt": "2026-09-22T21:15:35.621387Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule_cube_1",
@@ -24921,9 +24924,10 @@
       "rewardType": "cash",
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/",
       "fetchedAt": "2026-09-22T21:15:35.621382Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "shopee_base",
@@ -24969,9 +24973,10 @@
       "rewardType": "cash",
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/",
       "fetchedAt": "2026-09-22T21:15:35.621689Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule_cashback_1",
@@ -24991,9 +24996,10 @@
       "rewardType": "percent",
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/",
       "fetchedAt": "2026-09-22T21:15:35.621690Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "business_base",
@@ -25015,9 +25021,10 @@
       "rewardType": "percent",
       "rewardAmount": 0.5,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/",
       "fetchedAt": "2026-09-22T21:15:35.621199Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "RULE_AUTUMN_TOUR",
@@ -25040,9 +25047,10 @@
       "rewardType": "percent",
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/event/overview?category=credit-card",
       "fetchedAt": "2026-09-22T21:15:35.621205Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule_cube_gardencity",
@@ -25064,9 +25072,10 @@
       "rewardType": "percent",
       "rewardAmount": 4.3,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/event/overview?category=credit-card",
       "fetchedAt": "2026-09-22T21:15:35.621561Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "RULE_KOREAN_AIR",
@@ -25290,9 +25299,10 @@
       "rewardType": "cash",
       "rewardAmount": 0.0,
       "rewardUnit": "TWD",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/",
       "fetchedAt": "2026-09-22T21:15:35.621378Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "shopee_promo",
@@ -25336,9 +25346,10 @@
       "rewardType": "percent",
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/",
       "fetchedAt": "2026-09-22T21:15:35.621386Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "RULE_CUBE_TRAVEL",
@@ -25431,9 +25442,10 @@
       "rewardType": "percent",
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/event/overview?category=credit-card",
       "fetchedAt": "2026-09-22T21:15:35.621558Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule_cube_koreanair",
@@ -25480,9 +25492,10 @@
       "rewardType": "percent",
       "rewardAmount": 3.3,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/event/overview?category=credit-card",
       "fetchedAt": "2026-09-22T21:15:35.621570Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule_pxmart",
@@ -26195,9 +26208,10 @@
       "rewardType": "percent",
       "rewardAmount": 14.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
       "fetchedAt": "2026-09-22T21:15:35.621289Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "unique_exact_title_match"
     },
     {
       "id": "ESUN_GREEN_LOTTERY_2026",
@@ -28749,9 +28763,10 @@
       "rewardType": "percent",
       "rewardAmount": 20.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro",
       "fetchedAt": "2026-09-22T21:15:35.621233Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule_unicard_2",
@@ -28873,9 +28888,10 @@
       "rewardType": "percent",
       "rewardAmount": 8.5,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/tools/do",
       "fetchedAt": "2026-09-22T21:15:35.621402Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "unique_exact_title_match"
     },
     {
       "id": "pi_new",
@@ -28895,9 +28911,10 @@
       "rewardType": "percent",
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/tools/do",
       "fetchedAt": "2026-09-22T21:15:35.621601Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "pi_base",
@@ -28917,9 +28934,10 @@
       "rewardType": "percent",
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/tools/do",
       "fetchedAt": "2026-09-22T21:15:35.621602Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "RULE_UNICARD_01",
@@ -29041,9 +29059,10 @@
       "rewardType": "percent",
       "rewardAmount": 20.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card",
       "fetchedAt": "2026-09-22T21:15:35.621398Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "unicard_merchant",
@@ -29282,9 +29301,10 @@
       "rewardType": "percent",
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/tools/adjustment",
       "fetchedAt": "2026-09-22T21:15:35.621595Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule_unicard_gas",
@@ -29360,9 +29380,10 @@
       "rewardType": "percent",
       "rewardAmount": 4.5,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card",
       "fetchedAt": "2026-09-22T21:15:35.621583Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "kumamon_japan",
@@ -29478,9 +29499,10 @@
       "rewardType": "percent",
       "rewardAmount": 20.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/tools/do",
       "fetchedAt": "2026-09-22T21:15:35.621597Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule-unicard-ewallet",
@@ -29576,9 +29598,10 @@
       "rewardType": "percent",
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card",
       "fetchedAt": "2026-09-22T21:15:35.621710Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule-ubear-subscription",
@@ -29622,9 +29645,10 @@
       "rewardType": "percent",
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card",
       "fetchedAt": "2026-09-22T21:15:35.621714Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule-pipai-insurance",
@@ -29668,9 +29692,10 @@
       "rewardType": "percent",
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
       "fetchedAt": "2026-09-22T21:15:35.621717Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "unique_exact_title_match"
     },
     {
       "id": "rule-eztravel-merchants",
@@ -29717,9 +29742,10 @@
       "rewardType": "percent",
       "rewardAmount": 4.5,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=7034",
       "fetchedAt": "2026-09-22T21:15:35.621721Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "esun-world-tuition",
@@ -29790,9 +29816,10 @@
       "rewardType": "percent",
       "rewardAmount": 5.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/tools/adjustment",
       "fetchedAt": "2026-09-22T21:15:35.621739Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "unique_exact_title_match"
     },
     {
       "id": "rule_unicard_new_user",
@@ -29860,9 +29887,10 @@
       "rewardType": "percent",
       "rewardAmount": 10.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/tools/do",
       "fetchedAt": "2026-09-22T21:15:35.621743Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule_pi_general",
@@ -29882,9 +29910,10 @@
       "rewardType": "percent",
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/tools/do",
       "fetchedAt": "2026-09-22T21:15:35.621744Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule_dual_currency_us_eu",
@@ -29904,9 +29933,10 @@
       "rewardType": "percent",
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/tools/do",
       "fetchedAt": "2026-09-22T21:15:35.621745Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule_world_tuition",
@@ -29928,9 +29958,10 @@
       "rewardType": "percent",
       "rewardAmount": 0.5,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=others",
       "fetchedAt": "2026-09-22T21:15:35.621755Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "esun_unicard_new_user",
@@ -30040,9 +30071,10 @@
       "rewardType": "percent",
       "rewardAmount": 2.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/tools/do",
       "fetchedAt": "2026-09-22T21:15:35.621771Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "unicard_wallet",
@@ -39667,9 +39699,10 @@
       "rewardType": "percent",
       "rewardAmount": 8.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/list.html",
       "fetchedAt": "2026-09-22T21:15:35.621338Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "BAO_BEI_RULE_1",
@@ -39689,9 +39722,10 @@
       "rewardType": "percent",
       "rewardAmount": 1.2,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/list.html",
       "fetchedAt": "2026-09-22T21:15:35.621659Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "JCB_RULE",
@@ -39733,9 +39767,10 @@
       "rewardType": "percent",
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/list.html",
       "fetchedAt": "2026-09-22T21:15:35.621341Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "SPORT_RULE",
@@ -39823,9 +39858,10 @@
       "rewardType": "percent",
       "rewardAmount": 8.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/list.html",
       "fetchedAt": "2026-09-22T21:15:35.621477Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule-bao-01",
@@ -39891,9 +39927,10 @@
       "rewardType": "percent",
       "rewardAmount": 3.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/list.html",
       "fetchedAt": "2026-09-22T21:15:35.621481Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule-sport-01",
@@ -41225,7 +41262,7 @@
       "searchKeywords": "新戶,行動支付,LINEPay,ApplePay,GooglePay,SamsungPay,全支付",
       "baseRate": 0.0,
       "promoRate": 20.0,
-      "rewardType": "cash",
+      "rewardType": "percent",
       "rewardAmount": 20.0,
       "rewardUnit": "percent",
       "capAmount": 500,
@@ -43882,9 +43919,10 @@
       "rewardType": "cash",
       "rewardAmount": 300.0,
       "rewardUnit": "TWD",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/index.html",
       "fetchedAt": "2026-09-22T21:15:35.621805Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule_shopback",
@@ -43960,9 +43998,10 @@
       "rewardType": "percent",
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/index.html",
       "fetchedAt": "2026-09-22T21:15:35.621460Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule_geshan",
@@ -44032,9 +44071,10 @@
       "rewardType": "percent",
       "rewardAmount": 6.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/index.html",
       "fetchedAt": "2026-09-22T21:15:35.621469Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "rule_bobo_cat",
@@ -44084,9 +44124,10 @@
       "rewardType": "percent",
       "rewardAmount": 25.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/index.html",
       "fetchedAt": "2026-09-22T21:15:35.621473Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "unique_exact_title_match"
     },
     {
       "id": "lp-base-general",
@@ -44137,9 +44178,10 @@
       "rewardType": "percent",
       "rewardAmount": 1.8,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/index.html",
       "fetchedAt": "2026-09-22T21:15:35.621629Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "lp-ipass-transport",
@@ -44394,9 +44436,10 @@
       "rewardType": "percent",
       "rewardAmount": 1.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/index.html",
       "fetchedAt": "2026-09-22T21:15:35.621792Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "equivalent_rule"
     },
     {
       "id": "ctbc_lp_carplus",
@@ -44418,9 +44461,10 @@
       "rewardType": "percent",
       "rewardAmount": 7.0,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/index.html",
       "fetchedAt": "2026-09-22T21:15:35.621795Z",
-      "registrationUrl": ""
+      "registrationUrl": "",
+      "sourceRepairMethod": "unique_exact_title_match"
     },
     {
       "id": "ctbc_lp_tw_driver",
@@ -55037,5 +55081,5 @@
       "message": "政府規費、公用事業水電瓦斯多數信用卡皆排除回饋。"
     }
   ],
-  "lastUpdated": "2026-09-24T21:42:33.935459Z"
+  "lastUpdated": "2026-09-25T02:51:03.292741Z"
 }

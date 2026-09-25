@@ -1,0 +1,829 @@
+{
+  "schemaVersion": 1,
+  "description": "台灣信用卡發卡機構主清單。enabled 僅代表已設定可執行入口，不代表涵蓋率驗證通過。",
+  "lastUpdatedAt": "2026-09-25T02:52:07.140740Z",
+  "issuers": [
+    {
+      "name": "永豐銀行",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/list.html"
+      ],
+      "offerPortalUrls": [
+        "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/list.html"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "bank.sinopac.com"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "discount/(?!list).+\\.html",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 68,
+      "discoveredOfferCount": 109,
+      "unvisitedPageCount": 156,
+      "failedPageCount": 0,
+      "lastScanAt": "2026-09-24T21:26:01.715726Z",
+      "lastScanStatus": "needs_review"
+    },
+    {
+      "name": "國泰世華",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/"
+      ],
+      "offerPortalUrls": [
+        "https://www.cathaybk.com.tw/cathaybk/personal/event/overview/"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.cathaybk.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "/personal/event/",
+      "lastSuccessfulScanAt": "2026-09-24T21:25:43.702085Z",
+      "discoveredCardCount": 9,
+      "discoveredOfferCount": 55,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 0,
+      "lastScanAt": "2026-09-24T21:25:43.702085Z",
+      "lastScanStatus": "completed"
+    },
+    {
+      "name": "玉山銀行",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card"
+      ],
+      "offerPortalUrls": [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=3c"
+      ],
+      "registrationPortalUrls": [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/tools/sign-up"
+      ],
+      "allowedHosts": [
+        "www.esunbank.com"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright",
+        "api"
+      ],
+      "eventLinkPattern": "/personal/credit-card/(discount|tools)/",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 55,
+      "discoveredOfferCount": 279,
+      "unvisitedPageCount": 146,
+      "failedPageCount": 1,
+      "lastScanAt": "2026-09-24T21:25:53.474922Z",
+      "lastScanStatus": "needs_review"
+    },
+    {
+      "name": "台北富邦",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm"
+      ],
+      "offerPortalUrls": [
+        "https://www.fubon.com/banking/personal/credit_card/event/event.htm"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.fubon.com"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "/event/.+\\.htm",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 23,
+      "discoveredOfferCount": 83,
+      "unvisitedPageCount": 73,
+      "failedPageCount": 0,
+      "lastScanAt": "2026-09-24T21:25:57.173171Z",
+      "lastScanStatus": "needs_review"
+    },
+    {
+      "name": "台新銀行",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg021/card001/"
+      ],
+      "offerPortalUrls": [
+        "https://www.taishinbank.com.tw/TSB/personal/credit/discount/"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.taishinbank.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "/personal/credit/discount/",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 36,
+      "discoveredOfferCount": 31,
+      "unvisitedPageCount": 36,
+      "failedPageCount": 1,
+      "lastScanAt": "2026-09-24T21:26:21.573747Z",
+      "lastScanStatus": "needs_review"
+    },
+    {
+      "name": "中國信託",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.ctbcbank.com/content/twrbo/zh_tw/cc_index/cc_product/cc_introduction_index.html",
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/index.html"
+      ],
+      "offerPortalUrls": [
+        "https://www.ctbcbank.com/twrbo/zh_tw/cc_index/cc_offer/cc_offer_register.html"
+      ],
+      "registrationPortalUrls": [
+        "https://www.ctbcbank.com/content/twrbo/zh_tw/onlinecounter_index/cc_service/cc_service_register"
+      ],
+      "allowedHosts": [
+        "www.ctbcbank.com",
+        "mkt.ctbcbank.com"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright",
+        "api"
+      ],
+      "eventLinkPattern": "/cc_offer/",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 6,
+      "discoveredOfferCount": 183,
+      "unvisitedPageCount": 71,
+      "failedPageCount": 29,
+      "lastScanAt": "2026-09-24T21:26:37.247185Z",
+      "lastScanStatus": "needs_review"
+    },
+    {
+      "name": "星展銀行",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.dbs.com.tw/personal-zh/cards/default.page"
+      ],
+      "offerPortalUrls": [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/default.page"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.dbs.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright",
+        "pdf"
+      ],
+      "eventLinkPattern": "/(cards|offers|promotions|campaigns)/",
+      "lastSuccessfulScanAt": "2026-09-24T21:26:01.503063Z",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 0,
+      "lastScanAt": "2026-09-24T21:26:01.503063Z",
+      "lastScanStatus": "completed"
+    },
+    {
+      "name": "樂天信用卡",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.card.rakuten.com.tw/"
+      ],
+      "offerPortalUrls": [
+        "https://www.card.rakuten.com.tw/"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.card.rakuten.com.tw",
+        "card.rakuten.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "/(card|campaign|event|corp)/",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 1,
+      "lastScanAt": "2026-09-24T21:32:37.709548Z",
+      "lastScanStatus": "needs_review"
+    },
+    {
+      "name": "台中銀行",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.tcbbank.com.tw/"
+      ],
+      "offerPortalUrls": [
+        "https://www.tcbbank.com.tw/"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.tcbbank.com.tw",
+        "rate.tcbbank.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright",
+        "pdf"
+      ],
+      "eventLinkPattern": "(credit|card|信用卡|優惠)",
+      "coverageNote": "產品入口仍需由首次 crawl_report 驗證",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 0
+    },
+    {
+      "name": "滙豐銀行",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.hsbc.com.tw/credit-cards/"
+      ],
+      "offerPortalUrls": [
+        "https://www.hsbc.com.tw/credit-cards/offers/"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.hsbc.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "/credit-cards/",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 26,
+      "discoveredOfferCount": 98,
+      "unvisitedPageCount": 62,
+      "failedPageCount": 0,
+      "lastScanAt": "2026-09-24T21:26:38.051371Z",
+      "lastScanStatus": "needs_review"
+    },
+    {
+      "name": "渣打銀行",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.sc.com/tw/credit-cards/"
+      ],
+      "offerPortalUrls": [
+        "https://www.sc.com/tw/credit-cards/offers/"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.sc.com"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "/tw/(credit-cards|promotions)/",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 13,
+      "discoveredOfferCount": 52,
+      "unvisitedPageCount": 28,
+      "failedPageCount": 1,
+      "lastScanAt": "2026-09-24T21:26:40.479531Z",
+      "lastScanStatus": "needs_review"
+    },
+    {
+      "name": "聯邦銀行",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.ubot.com.tw/personal-banking/credit-card/"
+      ],
+      "offerPortalUrls": [
+        "https://www.ubot.com.tw/personal-banking/credit-card/discount/"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.ubot.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "/personal-banking/credit-card/",
+      "lastSuccessfulScanAt": "2026-09-24T21:26:26.451530Z",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 0,
+      "lastScanAt": "2026-09-24T21:26:26.451530Z",
+      "lastScanStatus": "completed"
+    },
+    {
+      "name": "元大銀行",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.yuantabank.com.tw/bank-web/personal/credit-card/"
+      ],
+      "offerPortalUrls": [
+        "https://www.yuantabank.com.tw/bank-web/personal/credit-card/discount/"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.yuantabank.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "/bank-web/personal/credit-card/",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 52,
+      "discoveredOfferCount": 67,
+      "unvisitedPageCount": 138,
+      "failedPageCount": 0,
+      "lastScanAt": "2026-09-24T21:26:40.931079Z",
+      "lastScanStatus": "needs_review"
+    },
+    {
+      "name": "華南銀行",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.hncb.com.tw/wps/portal/HNCB/creditcard"
+      ],
+      "offerPortalUrls": [
+        "https://www.hncb.com.tw/wps/portal/HNCB/creditcard"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.hncb.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "(creditcard|credit-card)",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 1,
+      "lastScanAt": "2026-09-24T21:27:27.305532Z",
+      "lastScanStatus": "needs_review"
+    },
+    {
+      "name": "第一銀行",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://card.firstbank.com.tw/"
+      ],
+      "offerPortalUrls": [
+        "https://card.firstbank.com.tw/"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "card.firstbank.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "(card|event|activity|discount)",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 1,
+      "lastScanAt": "2026-09-24T21:26:38.351910Z",
+      "lastScanStatus": "needs_review"
+    },
+    {
+      "name": "彰化銀行",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.bankchb.com/frontend/mashup.jsp?funcId=33"
+      ],
+      "offerPortalUrls": [
+        "https://www.bankchb.com/frontend/mashup.jsp?funcId=33"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.bankchb.com"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "(credit|card|event|activity)",
+      "lastSuccessfulScanAt": "2026-09-24T21:27:01.305860Z",
+      "discoveredCardCount": 9,
+      "discoveredOfferCount": 6,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 0,
+      "lastScanAt": "2026-09-24T21:27:01.305860Z",
+      "lastScanStatus": "completed"
+    },
+    {
+      "name": "兆豐銀行",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.megabank.com.tw/personal/credit-card"
+      ],
+      "offerPortalUrls": [
+        "https://www.megabank.com.tw/personal/credit-card"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.megabank.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "(credit-card|creditcard|event|activity)",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 44,
+      "discoveredOfferCount": 49,
+      "unvisitedPageCount": 85,
+      "failedPageCount": 0,
+      "lastScanAt": "2026-09-24T21:31:47.445217Z",
+      "lastScanStatus": "needs_review"
+    },
+    {
+      "name": "合作金庫",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.tcb-bank.com.tw/personal-banking/credit-card"
+      ],
+      "offerPortalUrls": [
+        "https://www.tcb-bank.com.tw/personal-banking/credit-card"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.tcb-bank.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "/personal-banking/credit-card/",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 38,
+      "discoveredOfferCount": 64,
+      "unvisitedPageCount": 54,
+      "failedPageCount": 0,
+      "lastScanAt": "2026-09-24T21:32:52.686124Z",
+      "lastScanStatus": "needs_review"
+    },
+    {
+      "name": "上海商銀",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.scsb.com.tw/content/card/card.html"
+      ],
+      "offerPortalUrls": [
+        "https://www.scsb.com.tw/content/card/discount.html"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.scsb.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "/content/card/",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 2,
+      "lastScanAt": "2026-09-24T21:27:03.346930Z",
+      "lastScanStatus": "needs_review"
+    },
+    {
+      "name": "遠東商銀",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.feib.com.tw/"
+      ],
+      "offerPortalUrls": [
+        "https://www.feib.com.tw/"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.feib.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "(credit|card|event|activity|campaign)",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 25,
+      "discoveredOfferCount": 58,
+      "unvisitedPageCount": 7,
+      "failedPageCount": 2,
+      "lastScanAt": "2026-09-24T21:36:49.551152Z",
+      "lastScanStatus": "needs_review"
+    },
+    {
+      "name": "凱基銀行",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.kgibank.com/TW/Personal/CreditCard"
+      ],
+      "offerPortalUrls": [
+        "https://www.kgibank.com/TW/Personal/CreditCard"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.kgibank.com"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "/TW/Personal/CreditCard",
+      "lastSuccessfulScanAt": "2026-09-24T21:27:28.938732Z",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 0,
+      "lastScanAt": "2026-09-24T21:27:28.938732Z",
+      "lastScanStatus": "completed"
+    },
+    {
+      "name": "安泰銀行",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.entiebank.com.tw/"
+      ],
+      "offerPortalUrls": [
+        "https://www.entiebank.com.tw/"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.entiebank.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "(credit|card|event|activity)",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 11,
+      "discoveredOfferCount": 10,
+      "unvisitedPageCount": 55,
+      "failedPageCount": 4,
+      "lastScanAt": "2026-09-24T21:42:33.829798Z",
+      "lastScanStatus": "needs_review"
+    },
+    {
+      "name": "陽信銀行",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.sunnybank.com.tw/"
+      ],
+      "offerPortalUrls": [
+        "https://www.sunnybank.com.tw/"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.sunnybank.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "(credit|card|event|activity)",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 1,
+      "lastScanAt": "2026-09-24T21:32:39.283827Z",
+      "lastScanStatus": "needs_review"
+    },
+    {
+      "name": "三信商銀",
+      "issuesCreditCards": true,
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.cotabank.com.tw/"
+      ],
+      "offerPortalUrls": [
+        "https://www.cotabank.com.tw/"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.cotabank.com.tw"
+      ],
+      "captureModes": [
+        "httpx",
+        "playwright"
+      ],
+      "eventLinkPattern": "(credit|card|event|activity)",
+      "lastSuccessfulScanAt": "2026-09-24T21:33:35.323984Z",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 0,
+      "lastScanAt": "2026-09-24T21:33:35.323984Z",
+      "lastScanStatus": "completed"
+    },
+    {
+      "name": "王道銀行",
+      "issuesCreditCards": false,
+      "productTypes": ["DEBIT"],
+      "tier": 3,
+      "scanFrequency": "weekly",
+      "enabled": true,
+      "cardCatalogUrls": [
+        "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new"
+      ],
+      "offerPortalUrls": [
+        "https://www.o-bank.com/zh-tw/retail"
+      ],
+      "registrationPortalUrls": [],
+      "allowedHosts": [
+        "www.o-bank.com"
+      ],
+      "captureModes": ["httpx", "playwright"],
+      "eventLinkPattern": "(debit|card|event|activity|offer)",
+      "coverageNote": "僅收錄具實質消費回饋的簽帳金融卡",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 0
+    },
+    {
+      "name": "將來銀行",
+      "issuesCreditCards": false,
+      "productTypes": ["DEBIT"],
+      "tier": 2,
+      "scanFrequency": "daily",
+      "enabled": true,
+      "cardCatalogUrls": ["https://www.nextbank.com.tw/product/card"],
+      "offerPortalUrls": ["https://www.nextbank.com.tw/"],
+      "registrationPortalUrls": [],
+      "allowedHosts": ["www.nextbank.com.tw"],
+      "captureModes": ["httpx", "playwright"],
+      "eventLinkPattern": "(card|debit|event|campaign|news)",
+      "coverageNote": "將將卡等具消費回饋的簽帳金融卡",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 0
+    },
+    {
+      "name": "LINE Bank",
+      "issuesCreditCards": false,
+      "productTypes": ["DEBIT"],
+      "tier": 2,
+      "scanFrequency": "daily",
+      "enabled": true,
+      "cardCatalogUrls": ["https://www.linebank.com.tw/"],
+      "offerPortalUrls": ["https://www.linebank.com.tw/"],
+      "registrationPortalUrls": [],
+      "allowedHosts": ["www.linebank.com.tw", "corp.linebank.com.tw"],
+      "captureModes": ["httpx", "playwright"],
+      "eventLinkPattern": "(card|debit|event|campaign|news)",
+      "coverageNote": "快點卡等具消費回饋的簽帳金融卡",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 0
+    },
+    {
+      "name": "樂天國際商業銀行",
+      "issuesCreditCards": false,
+      "productTypes": ["DEBIT"],
+      "tier": 2,
+      "scanFrequency": "weekly",
+      "enabled": true,
+      "cardCatalogUrls": ["https://www.rakuten-bank.com.tw/"],
+      "offerPortalUrls": ["https://www.rakuten-bank.com.tw/"],
+      "registrationPortalUrls": [],
+      "allowedHosts": ["www.rakuten-bank.com.tw"],
+      "captureModes": ["httpx", "playwright"],
+      "eventLinkPattern": "(card|debit|event|campaign|news)",
+      "coverageNote": "只收錄具實質消費回饋的簽帳金融卡",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 0
+    },
+    {
+      "name": "美國運通",
+      "issuesCreditCards": true,
+      "productTypes": ["CREDIT", "CHARGE"],
+      "tier": 3,
+      "scanFrequency": "weekly",
+      "enabled": true,
+      "cardCatalogUrls": ["https://www.americanexpress.com/zh-tw/credit-cards/all-cards/"],
+      "offerPortalUrls": ["https://www.americanexpress.com/zh-tw/benefits/"],
+      "registrationPortalUrls": [],
+      "allowedHosts": ["www.americanexpress.com"],
+      "captureModes": ["httpx", "playwright"],
+      "eventLinkPattern": "(credit-cards|benefits|offers)",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 0
+    },
+    {
+      "name": "臺灣中小企業銀行",
+      "issuesCreditCards": true,
+      "productTypes": ["CREDIT"],
+      "tier": 4,
+      "scanFrequency": "weekly",
+      "enabled": true,
+      "cardCatalogUrls": ["https://www.tbb.com.tw/zh-tw/personal/credit-card"],
+      "offerPortalUrls": ["https://www.tbb.com.tw/zh-tw/personal/credit-card"],
+      "registrationPortalUrls": [],
+      "allowedHosts": ["www.tbb.com.tw"],
+      "captureModes": ["httpx", "playwright"],
+      "eventLinkPattern": "(credit-card|event|activity|offer)",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 0
+    },
+    {
+      "name": "臺灣銀行",
+      "issuesCreditCards": true,
+      "productTypes": ["CREDIT"],
+      "tier": 4,
+      "scanFrequency": "weekly",
+      "enabled": true,
+      "cardCatalogUrls": ["https://www.bot.com.tw/tw/personal-banking/credit-card"],
+      "offerPortalUrls": ["https://www.bot.com.tw/tw/personal-banking/credit-card"],
+      "registrationPortalUrls": [],
+      "allowedHosts": ["www.bot.com.tw"],
+      "captureModes": ["httpx", "playwright"],
+      "eventLinkPattern": "(credit-card|card|event|activity)",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 0
+    },
+    {
+      "name": "臺灣土地銀行",
+      "issuesCreditCards": true,
+      "productTypes": ["CREDIT"],
+      "tier": 4,
+      "scanFrequency": "weekly",
+      "enabled": true,
+      "cardCatalogUrls": ["https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1"],
+      "offerPortalUrls": ["https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1"],
+      "registrationPortalUrls": [],
+      "allowedHosts": ["www.landbank.com.tw"],
+      "captureModes": ["httpx", "playwright"],
+      "eventLinkPattern": "(credit|card|event|activity)",
+      "lastSuccessfulScanAt": "",
+      "discoveredCardCount": 0,
+      "discoveredOfferCount": 0,
+      "unvisitedPageCount": 0,
+      "failedPageCount": 0
+    }
+  ]
+}
