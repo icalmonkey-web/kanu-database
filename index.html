@@ -999,19 +999,6 @@
         </svg>
       </div>
 
-      <!-- 頂部手機狀態列與靈動島 -->
-      <div class="w-full pt-3 pb-1 px-7 flex justify-between items-center text-xs font-bold text-ghibliInk-800/85 relative z-20">
-        <span id="live-clock" class="tracking-wide font-extrabold text-[13px]">14:38</span>
-        <div class="w-24 h-5 bg-black rounded-full flex items-center justify-end px-2 space-x-1 shadow-inner">
-          <div class="w-2 h-2 rounded-full bg-[#1b2f44]"></div>
-          <div class="w-1.5 h-1.5 rounded-full bg-emerald-500/90 animate-pulse"></div>
-        </div>
-        <div class="flex items-center space-x-1 text-[11px] font-black">
-          <span>5G</span>
-          <span class="text-xs">⚡100%</span>
-        </div>
-      </div>
-
       <!-- 卡奴標誌 -->
       <header class="px-5 pt-0.5 pb-2 flex flex-col items-center justify-center relative z-20 min-h-[92px]">
         <div class="brand-lockup relative flex items-center cursor-pointer" onclick="showTip('卡奴：最懂你的信用卡回饋管家')">
@@ -3108,22 +3095,11 @@
       }, 2200);
     }
 
-    function updateLiveClock() {
-      const clock = document.getElementById('live-clock');
-      if (clock) {
-        const now = new Date();
-        clock.innerText = `${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
-      }
-    }
-
     window.onload = function() {
       loadCachedDatabase();
       loadOwnership();
       loadRegisteredState();
       renderAllViews();
-      updateLiveClock();
-      setInterval(updateLiveClock, 30000);
-
       // 使用者若從銀行頁切回、或預覽頁被重新載入，資料完成載入後仍要顯示
       // 尚未確認的登錄結果，避免狀態確認因頁面重整而消失。
       if (sessionStorage.getItem('kanu_pending_registration_key')) {
