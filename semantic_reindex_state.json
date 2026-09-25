@@ -438,6 +438,7 @@
     "rule_1db7e50682d1521e8f24",
     "rule_1df8663b1d00e42d61ea",
     "rule_1dfac261bd4da4efb6bb",
+    "rule_1e4a11921583f7c34077",
     "rule_1e8d7a0662050ec7428d",
     "rule_1f38dd347655da453b62",
     "rule_1f5132f88a74dc83ed04",
@@ -503,6 +504,7 @@
     "rule_32ccdddac63c4d9a5351",
     "rule_32e23612872a689f366b",
     "rule_331a6546e30ab0ac96af",
+    "rule_3335c375437e9fcfa4c3",
     "rule_337071cd2d948eeca71a",
     "rule_33886c07166da8f85fd6",
     "rule_3435da41c829087f3200",
@@ -824,6 +826,7 @@
     "rule_8f3fda2a3af4bd36b381",
     "rule_8fbc7a836f66b24afde6",
     "rule_8fc69afd8e271aa5e518",
+    "rule_903c2965422f37fe479c",
     "rule_904bc89eff6d9955ad30",
     "rule_9060f77473004f8c61f1",
     "rule_909993284b1b034696f4",
@@ -834,6 +837,7 @@
     "rule_913c8c2cdbabff26f7c7",
     "rule_9154938b24fab2bf9474",
     "rule_917289cef863c73f5fe0",
+    "rule_917b814afdeb9d3b4b60",
     "rule_9199c31064297210b449",
     "rule_923f1b2474384977e86c",
     "rule_926fc1dca1f1093e73b0",
@@ -1264,6 +1268,7 @@
     "rule_f405804eaef449133c85",
     "rule_f4178a9051de0fd0ffa4",
     "rule_f4298adef0f629a05894",
+    "rule_f4597a0cd848a9764627",
     "rule_f471744829d97271dad9",
     "rule_f4bb3a950a2d42935494",
     "rule_f4ea324af2dbe587499d",
@@ -1642,8 +1647,8 @@
     "utility_summer_2026",
     "world_base"
   ],
-  "batches": 70,
-  "aiRequests": 101,
-  "lastBatchChanged": 15,
-  "updatedAt": "2026-09-25T04:54:03Z"
+  "batches": 71,
+  "aiRequests": 103,
+  "lastBatchChanged": 5,
+  "updatedAt": "2026-09-25T14:35:20Z"
 }

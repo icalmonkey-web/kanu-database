@@ -1,5 +1,5 @@
 {
-  "version": "2026.09.25-v125703",
+  "version": "2026.09.25-v143520-semantic",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -89738,10 +89738,8 @@
       "scope": "ALL",
       "matchedMerchants": [],
       "searchKeywords": "新戶禮, 首刷禮, 刷卡金, 積分, 白金美饌",
-      "intentTags": [
-        "新戶活動"
-      ],
-      "intentEvidence": "新申辦刷卡禮 (2選1)",
+      "intentTags": [],
+      "intentEvidence": "",
       "baseRate": 0,
       "promoRate": 0,
       "rewardType": "cash",
@@ -89762,7 +89760,24 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:52:08.895103Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "evidenceStatus": "WEAK",
+      "validationIssues": [],
+      "quickSearchEligible": true,
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [
+        {
+          "name": "一般資格",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": 25000,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": []
     },
     {
       "id": "rule_3d1987ca342beb1710b6",
@@ -91350,13 +91365,13 @@
       ],
       "searchKeywords": "Apple Pay, 北捷, 台北捷運, 捷運, 海外捷運, 海外地鐵, 海外公車, 交通回饋",
       "intentTags": [
-        "行動支付",
+        "Apple Pay",
         "交通"
       ],
-      "intentEvidence": "用王道 Visa 卡綁定Apple Pay搭乘北捷及指定海外大眾運輸",
+      "intentEvidence": "用王道 Visa 卡綁定Apple Pay搭乘北捷及指定海外大眾運輸，享筆筆現金回饋最高 100%",
       "baseRate": 0.0,
       "promoRate": 100.0,
-      "rewardType": "percent",
+      "rewardType": "cash",
       "rewardAmount": 100,
       "rewardUnit": "percent",
       "capAmount": 0,
@@ -91375,7 +91390,26 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:52:02.606255Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "evidenceStatus": "VERIFIED",
+      "validationIssues": [],
+      "quickSearchEligible": true,
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [
+        {
+          "name": "一般資格",
+          "totalRate": 100,
+          "baseRate": 0,
+          "promoRate": 100,
+          "isDefault": true,
+          "requirements": [
+            "用王道 Visa 卡綁定Apple Pay搭乘北捷及指定海外大眾運輸"
+          ],
+          "capAmount": 0,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": []
     },
     {
       "id": "rule_1e4a11921583f7c34077",
@@ -91389,13 +91423,11 @@
         "保險公司"
       ],
       "searchKeywords": "保費, 壽險, 產險, 繳保費, 保險費",
-      "intentTags": [
-        "保險"
-      ],
+      "intentTags": [],
       "intentEvidence": "王道刷保費 最高享3.5%現金回饋",
       "baseRate": 0.0,
       "promoRate": 3.5,
-      "rewardType": "percent",
+      "rewardType": "cash",
       "rewardAmount": 3.5,
       "rewardUnit": "percent",
       "capAmount": 0,
@@ -91411,7 +91443,26 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:52:02.606482Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "evidenceStatus": "VERIFIED",
+      "validationIssues": [],
+      "quickSearchEligible": true,
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [
+        {
+          "name": "一般資格",
+          "totalRate": 3.5,
+          "baseRate": 0,
+          "promoRate": 3.5,
+          "isDefault": true,
+          "requirements": [
+            "王道刷保費"
+          ],
+          "capAmount": 0,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": []
     },
     {
       "id": "rule_f4597a0cd848a9764627",
@@ -91433,12 +91484,16 @@
       ],
       "searchKeywords": "ApplePay, LINEPay, 街口, 悠遊付, 全盈加, iPASS, icashpay, 全支付, 行動支付, 手機支付",
       "intentTags": [
-        "行動支付"
+        "行動支付",
+        "Apple Pay",
+        "LINE Pay",
+        "街口支付",
+        "悠遊付"
       ],
-      "intentEvidence": "使用指定行動支付綁定本行簽帳金融卡",
+      "intentEvidence": "成功開啟Lucky money回饋金撲滿後使用指定行動支付綁定本行簽帳金融卡(非回饋金撲滿)刷卡一般消費單筆達新台幣100元(含)以上",
       "baseRate": 0.0,
       "promoRate": 4.0,
-      "rewardType": "percent",
+      "rewardType": "cash",
       "rewardAmount": 4.0,
       "rewardUnit": "percent",
       "capAmount": 500,
@@ -91457,7 +91512,27 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:52:16.833028Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "evidenceStatus": "VERIFIED",
+      "validationIssues": [],
+      "quickSearchEligible": true,
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [
+        {
+          "name": "一般資格",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [
+            "首次成功開啟Lucky money回饋金撲滿",
+            "指定行動支付綁定本行簽帳金融卡刷卡一般消費單筆達新台幣100元以上"
+          ],
+          "capAmount": 500,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": []
     },
     {
       "id": "rule_3335c375437e9fcfa4c3",
@@ -91483,14 +91558,12 @@
       ],
       "searchKeywords": "momo, 蝦皮, 酷澎, pchome, 全聯, 愛買, 寶雅, 康是美, 屈臣氏, 網購, 量販店, 藥妝",
       "intentTags": [
-        "網購",
-        "量販店",
-        "藥妝"
+        "網購"
       ],
-      "intentEvidence": "指定通路含網購電商、量販店、藥妝",
+      "intentEvidence": "Coupang酷澎台灣刷卡，購買數位家電/家電數位(全館)商品單筆結帳金額達新台幣20,000元享6%現折優惠",
       "baseRate": 0.0,
       "promoRate": 3.5,
-      "rewardType": "percent",
+      "rewardType": "cash",
       "rewardAmount": 3.5,
       "rewardUnit": "percent",
       "capAmount": 500,
@@ -91511,7 +91584,27 @@
       ],
       "fetchedAt": "2026-09-25T03:52:16.833264Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "evidenceStatus": "VERIFIED",
+      "validationIssues": [],
+      "quickSearchEligible": true,
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [
+        {
+          "name": "一般資格",
+          "totalRate": 6,
+          "baseRate": 0,
+          "promoRate": 6,
+          "isDefault": true,
+          "requirements": [
+            "以王道銀行簽帳金融卡於Coupang酷澎台灣刷卡",
+            "購買數位家電/家電數位(全館)商品單筆結帳金額達新台幣20,000元"
+          ],
+          "capAmount": 3000,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": []
     },
     {
       "id": "rule_dd3085a65b20a1fc7d53",
