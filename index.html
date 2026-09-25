@@ -1498,6 +1498,8 @@
         bank: safePlainText(rawRule.bank),
         category: safePlainText(rawRule.category),
         searchKeywords: safePlainText(rawRule.searchKeywords),
+        intentTags: Array.isArray(rawRule.intentTags) ? rawRule.intentTags.map(value => safePlainText(value)) : [],
+        intentEvidence: safePlainText(rawRule.intentEvidence),
         matchedMerchants: Array.isArray(rawRule.matchedMerchants) ? rawRule.matchedMerchants.map(value => safePlainText(value)) : [],
         title: safePlainText(rawRule.title, '消費回饋'),
         baseRate: typeof rawRule.baseRate === 'number' ? rawRule.baseRate : 0,
@@ -2317,7 +2319,13 @@
           '加油': ['加油站', '台灣中油', '中油', '台塑石油', '台亞', '福懋']
         };
 
-        const matchesTerms = (rule, includeCardIdentity, reliableOnly = false) => {
+        const termMatches = (corpus, term) => {
+          if (corpus.includes(term)) return true;
+          const aliases = intentAliases[term] || [];
+          return aliases.some(alias => corpus.includes(normalizeText(alias)));
+        };
+
+        const getSearchMatchScore = (rule, includeCardIdentity = false) => {
           const card = cardMap.get(rule.cardId);
           const merchantText = Array.isArray(rule.matchedMerchants) ? rule.matchedMerchants.join(' ') : '';
 
@@ -2328,35 +2336,31 @@
             const explicitPaymentCorpus = `${rule.title || ''} ${rule.category || ''} ${merchantText}`;
             const normalizedPaymentCorpus = normalizeText(explicitPaymentCorpus)
               .replaceAll('LINEPAY卡', '');
-            return normalizedPaymentCorpus.includes('LINEPAY');
+            return normalizedPaymentCorpus.includes('LINEPAY') ? 100 : 0;
           }
 
-          const rawCorpus = `
-            ${reliableOnly ? '' : (rule.searchKeywords || '')} 
-            ${rule.category || ''} 
-            ${merchantText} 
-            ${rule.title || ''} 
-            ${rule.quotaInfo || ''}
-            ${includeCardIdentity && card ? card.cardName + ' ' + card.bank + ' ' + (card.descTag || '') : ''}
-          `;
-          const cleanCorpus = normalizeText(rawCorpus);
-
-          return cleanQueryTerms.every(term => {
-            if (cleanCorpus.includes(term)) return true;
-            const aliases = intentAliases[term] || [];
-            return aliases.some(alias => cleanCorpus.includes(normalizeText(alias)));
-          });
+          const directCorpus = normalizeText(`${rule.category || ''} ${merchantText} ${rule.title || ''}`);
+          const intentCorpus = normalizeText(`${(rule.intentTags || []).join(' ')} ${rule.intentEvidence || ''}`);
+          const aiKeywordCorpus = normalizeText(`${rule.searchKeywords || ''} ${rule.quotaInfo || ''}`);
+          const cardCorpus = includeCardIdentity && card
+            ? normalizeText(`${card.cardName} ${card.bank} ${card.descTag || ''}`)
+            : '';
+          if (cleanQueryTerms.every(term => termMatches(directCorpus, term))) return 100;
+          if (cleanQueryTerms.every(term => termMatches(intentCorpus, term))) return 80;
+          if (cleanQueryTerms.every(term => termMatches(aiKeywordCorpus, term))) return 60;
+          if (cardCorpus && cleanQueryTerms.every(term => termMatches(cardCorpus, term))) return 20;
+          return 0;
         };
 
-        // 優先要求活動本身符合關鍵字。只有完全找不到活動時，才用卡名作為
-        // 備援搜尋，避免搜尋 LINE Pay 卻推薦該卡不相關的旅遊 25% 活動。
-        const reliableMatches = candidates.filter(rule => matchesTerms(rule, false, true));
-        const directlyMatched = reliableMatches.length
-          ? reliableMatches
-          : candidates.filter(rule => matchesTerms(rule, false, false));
-        candidates = directlyMatched.length
-          ? directlyMatched
-          : candidates.filter(rule => matchesTerms(rule, true));
+        // 標題、語意標籤與 AI 關鍵字採加權聯集，不再因市場上有其他卡的
+        // 標題直接命中，就把僅在 AI 語意索引命中的正確卡片全部丟掉。
+        const semanticMatches = candidates
+          .map(rule => ({ rule, score: getSearchMatchScore(rule, false) }))
+          .filter(item => item.score > 0);
+        const matches = semanticMatches.length
+          ? semanticMatches
+          : candidates.map(rule => ({ rule, score: getSearchMatchScore(rule, true) })).filter(item => item.score > 0);
+        candidates = matches.map(item => ({ ...item.rule, _searchMatchScore: item.score }));
       }
 
       const cardBestRuleMap = new Map();
@@ -2375,7 +2379,13 @@
           const isCurrentReg = rule.needReg && rule.registered;
           const isExistingReg = existing.rule.needReg && existing.rule.registered;
 
-          if (isCurrentReg && !isExistingReg) {
+          const currentSearchScore = Number(rule._searchMatchScore) || 0;
+          const existingSearchScore = Number(existing.rule._searchMatchScore) || 0;
+          if (currentSearchScore > existingSearchScore) {
+            cardBestRuleMap.set(resultKey, { rule, calc, condition });
+          } else if (currentSearchScore < existingSearchScore) {
+            return;
+          } else if (isCurrentReg && !isExistingReg) {
             cardBestRuleMap.set(resultKey, { rule, calc, condition });
           } else if (isCurrentReg === isExistingReg && (
             calc.rankingMetrics.cash > existing.calc.rankingMetrics.cash
@@ -2394,6 +2404,8 @@
           if (currentRecommendationMode === 'easy') return a.condition.conditional ? 1 : -1;
           return a.condition.conditional ? -1 : 1;
         }
+        const searchScoreDiff = (Number(b.rule._searchMatchScore) || 0) - (Number(a.rule._searchMatchScore) || 0);
+        if (searchScoreDiff) return searchScoreDiff;
         const aReg = a.rule.needReg && a.rule.registered ? 1 : 0;
         const bReg = b.rule.needReg && b.rule.registered ? 1 : 0;
         if (aReg !== bReg) return bReg - aReg;
