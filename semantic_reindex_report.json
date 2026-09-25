@@ -3,37 +3,6 @@
   "completedRules": 1646,
   "remainingRules": -5,
   "stoppedReason": "completed",
-  "latestBatch": [
-    {
-      "id": "rule_917b814afdeb9d3b4b60",
-      "status": "WEAK",
-      "issues": [],
-      "quickSearchEligible": true
-    },
-    {
-      "id": "rule_903c2965422f37fe479c",
-      "status": "VERIFIED",
-      "issues": [],
-      "quickSearchEligible": true
-    },
-    {
-      "id": "rule_1e4a11921583f7c34077",
-      "status": "VERIFIED",
-      "issues": [],
-      "quickSearchEligible": true
-    },
-    {
-      "id": "rule_f4597a0cd848a9764627",
-      "status": "VERIFIED",
-      "issues": [],
-      "quickSearchEligible": true
-    },
-    {
-      "id": "rule_3335c375437e9fcfa4c3",
-      "status": "VERIFIED",
-      "issues": [],
-      "quickSearchEligible": true
-    }
-  ],
+  "latestBatch": [],
   "stateHash": "363b2db65eafcbe3fc15ad8beccb9bb73a9a5d79096a412f5e6179bc33ceeae4"
 }
