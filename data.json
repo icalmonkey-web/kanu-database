@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
   "version": "2026.09.25-v034724",
+=======
+  "version": "2026.09.25-v035511",
+>>>>>>> Stashed changes
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -4027,6 +4031,7 @@
       "imageUrl": "",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
+<<<<<<< Updated upstream
       "descTag": "高端商務、旅遊禮遇"
     },
     {
@@ -4171,6 +4176,61 @@
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "國內1.5%海外2.5%回饋無上限"
+=======
+      "descTag": "輕鬆分期便利支付"
+    },
+    {
+      "id": "card_美國運通_371",
+      "bank": "美國運通",
+      "cardName": "美國運通簽帳白金卡",
+      "productType": "CHARGE",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 1.0,
+      "classificationEvidence": "官方網頁明確列出之簽帳白金卡產品",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "頂級住宿、五星饗宴、旅遊顧問"
+    },
+    {
+      "id": "card_美國運通_372",
+      "bank": "美國運通",
+      "cardName": "美國運通長榮航空簽帳白金卡",
+      "productType": "CHARGE",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 1.0,
+      "classificationEvidence": "官方網頁明確列出之長榮航空簽帳白金卡",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "長榮升等、機場貴賓室、航空禮遇"
+    },
+    {
+      "id": "card_美國運通_373",
+      "bank": "美國運通",
+      "cardName": "美國運通耀金卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 1.0,
+      "classificationEvidence": "官方網頁明確列出之耀金卡產品",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "五星用餐、外送回饋、住宿優惠"
+    },
+    {
+      "id": "card_美國運通_374",
+      "bank": "美國運通",
+      "cardName": "美國運通長榮航空簽帳金卡",
+      "productType": "CHARGE",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 1.0,
+      "classificationEvidence": "官方網頁明確列出之長榮航空簽帳金卡",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "飛行哩程累積、機場接送"
+>>>>>>> Stashed changes
     },
     {
       "id": "card_美國運通_390",
@@ -4225,6 +4285,7 @@
       "descTag": "經典金卡"
     },
     {
+<<<<<<< Updated upstream
       "id": "card_王道銀行_394",
       "bank": "王道銀行",
       "cardName": "味全龍聯名卡",
@@ -4236,6 +4297,19 @@
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "味全龍聯名專屬回饋"
+=======
+      "id": "card_美國運通_403",
+      "bank": "美國運通",
+      "cardName": "簽帳白金卡",
+      "productType": "CHARGE",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 1.0,
+      "classificationEvidence": "內文中明確列出「簽帳白金卡專屬網站」作為獨立產品連結。",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "頂級尊榮旅遊禮遇"
+>>>>>>> Stashed changes
     },
     {
       "id": "card_臺灣土地銀行_395",
@@ -4264,6 +4338,7 @@
       "descTag": "影城優惠與餐廳現折"
     },
     {
+<<<<<<< Updated upstream
       "id": "card_王道銀行_397",
       "bank": "王道銀行",
       "cardName": "交通減碳卡",
@@ -4277,6 +4352,8 @@
       "descTag": "北捷搭乘加碼回饋"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "card_臺灣土地銀行_398",
       "bank": "臺灣土地銀行",
       "cardName": "土銀icash2.0聯名鈦金卡",
@@ -4303,6 +4380,7 @@
       "descTag": "JCB頂級禮遇"
     },
     {
+<<<<<<< Updated upstream
       "id": "card_王道銀行_400",
       "bank": "王道銀行",
       "cardName": "新北國王聯名卡",
@@ -4316,6 +4394,8 @@
       "descTag": "國王隊消費滿額抽好禮"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "card_臺灣土地銀行_401",
       "bank": "臺灣土地銀行",
       "cardName": "土銀JCB晶緻卡",
@@ -4329,6 +4409,7 @@
       "descTag": "影城購票專屬優惠"
     },
     {
+<<<<<<< Updated upstream
       "id": "card_王道銀行_402",
       "bank": "王道銀行",
       "cardName": "O! Range Card",
@@ -4407,6 +4488,8 @@
       "descTag": "國內外1%回饋無上限"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "card_臺灣土地銀行_408",
       "bank": "臺灣土地銀行",
       "cardName": "金速Pay-HCE手機信用卡",
@@ -4496,6 +4579,438 @@
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "土地銀行信用卡服務"
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "id": "card_LINE Bank_366",
+      "bank": "LINE Bank",
+      "cardName": "LINE Bank 簽帳金融卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確提及「簽帳金融卡」產品，並說明其提供「最有感的即時回饋」與「刷卡立即享」之功能。",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #00c300 0%, #00b300 100%)",
+      "textColor": "#ffffff",
+      "descTag": "即時回饋類型任選"
+    },
+    {
+      "id": "card_樂天國際商業銀行_370",
+      "bank": "樂天國際商業銀行",
+      "cardName": "樂天國際銀行簽帳金融卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "樂天國際商業銀行官方網頁定義之簽帳金融卡產品",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #e30022 0%, #a80016 100%)",
+      "textColor": "#ffffff",
+      "descTag": "帳戶扣款即時回饋"
+    },
+    {
+      "id": "card_王道銀行_365",
+      "bank": "王道銀行",
+      "cardName": "O-Bank簽帳金融卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確將O-Bank簽帳金融卡列為提供全球消費與現金回饋之發行卡片",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "國內外1%無上限"
+    },
+    {
+      "id": "card_王道銀行_367",
+      "bank": "王道銀行",
+      "cardName": "王道銀行簽帳金融卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確列出「簽帳金融卡」為王道銀行消費產品項目",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "數位原生支付卡"
+    },
+    {
+      "id": "card_王道銀行_375",
+      "bank": "王道銀行",
+      "cardName": "O! Range卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確列為王道銀行產品且為簽帳金融卡系列",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #ff8c00 0%, #ff4500 100%)",
+      "textColor": "#ffffff",
+      "descTag": "指定任務享加碼回饋"
+    },
+    {
+      "id": "card_王道銀行_379",
+      "bank": "王道銀行",
+      "cardName": "簽帳金融卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "官方網頁明確列出簽帳金融卡作為消費產品",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "數位存款帳戶專屬扣款卡"
+    },
+    {
+      "id": "card_王道銀行_381",
+      "bank": "王道銀行",
+      "cardName": "王道財富無限卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 1.0,
+      "classificationEvidence": "官方網站明確標示為財富無限卡，屬簽帳金融卡產品",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #000000 0%, #434343 100%)",
+      "textColor": "#ffffff",
+      "descTag": "頂級尊榮簽帳金融卡"
+    },
+    {
+      "id": "card_王道銀行_382",
+      "bank": "王道銀行",
+      "cardName": "王道銀行交通減碳卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 1.0,
+      "classificationEvidence": "官方網站列為簽帳金融卡產品",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #28a745 0%, #155724 100%)",
+      "textColor": "#ffffff",
+      "descTag": "低碳環保簽帳金融卡"
+    },
+    {
+      "id": "card_王道銀行_385",
+      "bank": "王道銀行",
+      "cardName": "王道銀行 Visa 簽帳金融卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確提及「本行Visa簽帳金融卡之持卡人」及相關交通回饋活動",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "指定交通享最高100%回饋"
+    },
+    {
+      "id": "card_王道銀行_394",
+      "bank": "王道銀行",
+      "cardName": "味全龍聯名卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文提及「味全龍聯名卡」且為簽帳金融卡活動範疇",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "味全龍聯名專屬回饋"
+    },
+    {
+      "id": "card_王道銀行_397",
+      "bank": "王道銀行",
+      "cardName": "交通減碳卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 1.0,
+      "classificationEvidence": "內文明確指出「王道銀行交通減碳卡持卡人」且產品類型符合DEBIT規範",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "北捷搭乘加碼回饋"
+    },
+    {
+      "id": "card_王道銀行_400",
+      "bank": "王道銀行",
+      "cardName": "新北國王聯名卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "網頁內文明確提及「新北國王聯名卡」且該行產品線為簽帳金融卡(DEBIT)",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "國王隊消費滿額抽好禮"
+    },
+    {
+      "id": "card_王道銀行_402",
+      "bank": "王道銀行",
+      "cardName": "O! Range Card",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確將 O! Range Card 列為簽帳金融卡產品並提供權益說明",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "行動支付與生活消費高回饋"
+    },
+    {
+      "id": "card_王道銀行_404",
+      "bank": "王道銀行",
+      "cardName": "公益認同卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確列出「公益認同卡」為消費類別下之產品項目",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+      "textColor": "#ffffff",
+      "descTag": "支持公益回饋簽帳卡"
+    },
+    {
+      "id": "card_王道銀行_405",
+      "bank": "王道銀行",
+      "cardName": "校園認同卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確列出「校園認同卡」為消費類別下之產品項目",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+      "textColor": "#ffffff",
+      "descTag": "校園專屬簽帳金融卡"
+    },
+    {
+      "id": "card_王道銀行_406",
+      "bank": "王道銀行",
+      "cardName": "低碳卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確列出「低碳卡」為消費類別下之產品項目",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #a8e063 0%, #56ab2f 100%)",
+      "textColor": "#ffffff",
+      "descTag": "綠色消費認同卡"
+    },
+    {
+      "id": "card_王道銀行_407",
+      "bank": "王道銀行",
+      "cardName": "王道銀行 O! Range 簽帳金融卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確提及王道銀行 O! Range 簽帳金融卡",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "國內外1%回饋無上限"
+    },
+    {
+      "id": "card_台中銀行_376",
+      "bank": "台中銀行",
+      "cardName": "JCB櫻花晶緻卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 1.0,
+      "classificationEvidence": "內文明確列為銀行卡產品之一",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #ffb7c5 0%, #ffffff 100%)",
+      "textColor": "#d32f2f",
+      "descTag": "日系風格支付卡"
+    },
+    {
+      "id": "card_台中銀行_377",
+      "bank": "台中銀行",
+      "cardName": "JCB媽祖悠遊晶緻卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 1.0,
+      "classificationEvidence": "內文明確列為認同/聯名卡產品",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #f0e68c 0%, #daa520 100%)",
+      "textColor": "#000000",
+      "descTag": "媽祖信仰聯名卡"
+    },
+    {
+      "id": "card_台中銀行_378",
+      "bank": "台中銀行",
+      "cardName": "MasterCard世界卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確將「MasterCard世界卡」列為具備專屬禮遇與申請資訊之信用卡產品",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "高端商務、旅遊禮遇"
+    },
+    {
+      "id": "card_台中銀行_380",
+      "bank": "台中銀行",
+      "cardName": "瑪利亞公益認同卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確將此名稱列於『信用卡介紹』路徑下",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "公益認同信用卡"
+    },
+    {
+      "id": "card_台中銀行_383",
+      "bank": "台中銀行",
+      "cardName": "媽祖卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確列出『信用卡 > 信用卡介紹 > 媽祖卡』，為台中銀行發行之信用卡產品。",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "台中銀行媽祖信仰主題卡"
+    },
+    {
+      "id": "card_台中銀行_386",
+      "bank": "台中銀行",
+      "cardName": "樂購卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 1.0,
+      "classificationEvidence": "內文明確將「樂購卡」列為信用卡介紹項目之一",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "台中銀行樂購信用卡"
+    },
+    {
+      "id": "card_台中銀行_387",
+      "bank": "台中銀行",
+      "cardName": "世界卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 1.0,
+      "classificationEvidence": "內文明確列出世界卡並說明年費與額度條件",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "高端權益世界卡"
+    },
+    {
+      "id": "card_台中銀行_388",
+      "bank": "台中銀行",
+      "cardName": "商旅鈦金卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 1.0,
+      "classificationEvidence": "內文明確列出商旅鈦金卡",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "商旅鈦金卡"
+    },
+    {
+      "id": "card_將來銀行_363",
+      "bank": "將來銀行",
+      "cardName": "VISA 簽帳金融卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確將VISA簽帳金融卡列為官方發行卡片",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "將來銀行VISA簽帳金融卡"
+    },
+    {
+      "id": "card_將來銀行_364",
+      "bank": "將來銀行",
+      "cardName": "大將卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確列出大將卡介紹與特色",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "潮設計隨手上鎖"
+    },
+    {
+      "id": "card_將來銀行_368",
+      "bank": "將來銀行",
+      "cardName": "將來銀行將將卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文提到「刷大將卡」（將將卡為將來銀行發行之Debit Card），且該行屬純網銀，該產品屬簽帳金融卡。",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "將來銀行簽帳金融卡"
+    },
+    {
+      "id": "card_將來銀行_369",
+      "bank": "將來銀行",
+      "cardName": "將將卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確提及【將將卡】產品名稱及相關消費回饋活動",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "日常消費最高5%回饋"
+    },
+    {
+      "id": "card_將來銀行_384",
+      "bank": "將來銀行",
+      "cardName": "將來銀行簽帳金融卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確提及「將來銀行簽帳金融卡」並規範其消費回饋機制。",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "街口支付指定日回饋"
+    },
+    {
+      "id": "card_將來銀行_389",
+      "bank": "將來銀行",
+      "cardName": "簽帳金融商務御璽卡(大將卡)",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確定義為：本行簽帳金融商務御璽卡(下稱大將卡)",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "國內1.5%海外2.5%回饋無上限"
+    },
+    {
+      "id": "card_王道銀行_468",
+      "cardName": "王道銀行彩虹認同卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 1.0,
+      "classificationEvidence": "內文列為可申辦之認同卡",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fe9a8b 100%)",
+      "textColor": "#333333",
+      "descTag": "彩虹平權認同專屬",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "card_臺灣土地銀行_469",
+      "bank": "臺灣土地銀行",
+      "cardName": "康鉑晶片信用卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確列於信用卡產品類別中",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "康鉑晶片卡"
+>>>>>>> Stashed changes
     }
   ],
   "rules": [
@@ -54764,6 +55279,7 @@
       "bank": "安泰銀行"
     },
     {
+<<<<<<< Updated upstream
       "id": "rule_337071cd2d948eeca71a",
       "cardId": "card_王道銀行_365",
       "title": "2026年現金回饋方案",
@@ -55068,6 +55584,8 @@
       "bank": "美國運通"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "rule_4ec563e55fc36131fbda",
       "cardId": "",
       "title": "美國運通親友推薦活動",
@@ -55103,6 +55621,7 @@
       "bank": "美國運通"
     },
     {
+<<<<<<< Updated upstream
       "id": "rule_dd3085a65b20a1fc7d53",
       "cardId": "card_台中銀行_378",
       "title": "國外2.5%現金回饋禮",
@@ -55171,6 +55690,8 @@
       "bank": "將來銀行"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "rule_4d268dbced59e7e22df5",
       "cardId": "card_美國運通_373",
       "title": "耀金卡指定通路刷卡金回饋",
@@ -55205,6 +55726,7 @@
       "bank": "美國運通"
     },
     {
+<<<<<<< Updated upstream
       "id": "rule_6d9c5e6c8596b0d310af",
       "cardId": "card_王道銀行_379",
       "title": "北捷 Apple Pay 乘車現金回饋",
@@ -55350,6 +55872,8 @@
       "bank": "將來銀行"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "rule_c5c347ec2b5f0de85bd7",
       "cardId": "card_美國運通_371",
       "title": "推薦親友申辦美國運通簽帳白金卡",
@@ -55383,6 +55907,7 @@
       "bank": "美國運通"
     },
     {
+<<<<<<< Updated upstream
       "id": "rule_07dad1e50da674fd8e9e",
       "cardId": "card_王道銀行_367",
       "title": "王道刷支付享賺最高5%現金回饋",
@@ -55543,6 +56068,8 @@
       "bank": "將來銀行"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "rule_bcda95597e110d37af95",
       "cardId": "",
       "title": "「會員酬賓」計劃",
@@ -55574,6 +56101,7 @@
       "bank": "美國運通"
     },
     {
+<<<<<<< Updated upstream
       "id": "rule_3ea805aea53a9da2406f",
       "cardId": "card_王道銀行_385",
       "title": "Visa X 王道銀行綁定 Apple Pay 搭乘大眾運輸回饋",
@@ -55935,6 +56463,8 @@
       "bank": "王道銀行"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "rule_8e97a4e3be826e2c5260",
       "cardId": "",
       "title": "Explore Asia 海外優惠禮遇",
@@ -56039,6 +56569,7 @@
       "bank": "美國運通"
     },
     {
+<<<<<<< Updated upstream
       "id": "rule_ece0d2ee5916fccdb0fe",
       "cardId": "",
       "title": "【將來支付】全聯及四大超商消費回饋",
@@ -56080,6 +56611,8 @@
       "bank": "將來銀行"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "rule_4f39bbb07438bf02b5e5",
       "cardId": "",
       "title": "全卡別專屬餐飲優惠",
@@ -56157,6 +56690,7 @@
       "bank": "美國運通"
     },
     {
+<<<<<<< Updated upstream
       "id": "rule_60cda5439e4ea818a4cc",
       "cardId": "",
       "title": "【將來支付】全聯及四大超商付款享10 N點回饋",
@@ -56197,6 +56731,8 @@
       "bank": "將來銀行"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "rule_74967a78e8540cbfbbe1",
       "cardId": "",
       "title": "全卡別專屬購物優惠 - ASH GOLF",
@@ -56329,6 +56865,7 @@
       "bank": "美國運通"
     },
     {
+<<<<<<< Updated upstream
       "id": "rule_ddb66d215b7b97828151",
       "cardId": "card_王道銀行_367",
       "title": "行動支付現金回饋",
@@ -56431,6 +56968,8 @@
       "bank": "王道銀行"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "rule_b2f325bece7356fb8e5f",
       "cardId": "",
       "title": "全卡別專屬娛樂優惠",
@@ -56479,6 +57018,7 @@
       "bank": "美國運通"
     },
     {
+<<<<<<< Updated upstream
       "id": "rule_c0e0dd524765a90a1e34",
       "cardId": "",
       "title": "Lucky Money回饋金撲滿(12%年利率)",
@@ -56552,6 +57092,8 @@
       "bank": "王道銀行"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "rule_2a940407060234ee97da",
       "cardId": "",
       "title": "在地好店額外積分回饋",
@@ -56623,6 +57165,7 @@
       "bank": "美國運通"
     },
     {
+<<<<<<< Updated upstream
       "id": "rule_6bff4ce403b0f91387b9",
       "cardId": "card_將來銀行_389",
       "title": "基本回饋",
@@ -56842,6 +57385,8 @@
       "bank": "將來銀行"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "rule_269c37743dd8411018ce",
       "cardId": "",
       "title": "2026人壽保險優惠",
@@ -57037,6 +57582,7 @@
       "bank": "美國運通"
     },
     {
+<<<<<<< Updated upstream
       "id": "rule_2fba3c1fca87f381f4ce",
       "cardId": "card_王道銀行_397",
       "title": "減碳是王道 北捷 Apple Pay 加碼現金回饋",
@@ -57074,6 +57620,8 @@
       "bank": "王道銀行"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "rule_06aa602f0966cca5fc3b",
       "cardId": "",
       "title": "2026人壽保險優惠",
@@ -57273,6 +57821,317 @@
       "bank": "美國運通"
     },
     {
+<<<<<<< Updated upstream
+=======
+      "id": "rule_8fbc7a836f66b24afde6",
+      "cardId": "",
+      "title": "Hotels.com 預訂指定住宿立享8%折扣",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Hotels.com"
+      ],
+      "searchKeywords": "Hotels.com, 訂房, 住宿, 飯店, 旅遊, 旅行, 預訂",
+      "baseRate": 0,
+      "promoRate": 8.0,
+      "rewardType": "percent",
+      "rewardAmount": 8.0,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "須以美國運通卡消費"
+      ],
+      "needReg": false,
+      "regDeadline": "2026-12-31",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/campaigns/travel/",
+      "registrationUrl": "",
+      "quotaInfo": "預訂指定住宿享8%折扣",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:39:50.500652Z",
+      "bank": "美國運通"
+    },
+    {
+      "id": "rule_68841c414eec219e9427",
+      "cardId": "",
+      "title": "Agoda 預訂指定住宿立享6%折扣",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Agoda"
+      ],
+      "searchKeywords": "Agoda, 訂房, 住宿, 飯店, 旅遊, 旅行, 預訂",
+      "baseRate": 0,
+      "promoRate": 6.0,
+      "rewardType": "percent",
+      "rewardAmount": 6.0,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "須以美國運通卡消費"
+      ],
+      "needReg": false,
+      "regDeadline": "2026-12-31",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/campaigns/travel/",
+      "registrationUrl": "",
+      "quotaInfo": "預訂指定住宿享6%折扣",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:39:50.500701Z",
+      "bank": "美國運通"
+    },
+    {
+      "id": "rule_ba83bbc389ccdf852d30",
+      "cardId": "",
+      "title": "Expedia 預訂指定住宿立享8%折扣",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Expedia"
+      ],
+      "searchKeywords": "Expedia, 訂房, 住宿, 飯店, 旅遊, 旅行, 預訂",
+      "baseRate": 0,
+      "promoRate": 8.0,
+      "rewardType": "percent",
+      "rewardAmount": 8.0,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "須以美國運通卡消費"
+      ],
+      "needReg": false,
+      "regDeadline": "2026-12-31",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/campaigns/travel/",
+      "registrationUrl": "",
+      "quotaInfo": "預訂指定住宿享8%折扣",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:39:50.500756Z",
+      "bank": "美國運通"
+    },
+    {
+      "id": "rule_98da2be8240bfa0a6451",
+      "cardId": "card_美國運通_403",
+      "title": "Explore Asia 海外優惠禮遇",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "出國,海外消費,日本,東京,神戶,中國,印度,韓國,斯里蘭卡,新加坡,香港,泰國,旅遊,機票,飯店,海外購物,日幣,外幣消費",
+      "baseRate": 0.0,
+      "promoRate": 0.0,
+      "rewardType": "points",
+      "rewardAmount": 0,
+      "rewardUnit": "points",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "持指定美國運通卡"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/campaigns/explore-asia/",
+      "registrationUrl": "",
+      "quotaInfo": "各項優惠內容與細則以各專屬國家網站公告為準",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:40:30.071506Z",
+      "bank": "美國運通"
+    },
+    {
+      "id": "rule_f405804eaef449133c85",
+      "cardId": "",
+      "title": "Tokyo 海外優惠禮遇",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "大丸東京店",
+        "丸之內大樓",
+        "新丸之內大廈",
+        "KITTE丸之內",
+        "WATERRAS商場",
+        "千代田區觀光諮詢處",
+        "秋葉原UDX",
+        "東京鐵塔",
+        "田宮模型東京旗艦店",
+        "東京灣交響樂號郵輪",
+        "BicCamera"
+      ],
+      "searchKeywords": "日本旅遊,東京購物,大丸東京,丸之內,秋葉原UDX,東京鐵塔,田宮模型,BicCamera,比酷相機,日本免稅,海外消費禮遇",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "draw",
+      "rewardAmount": 1,
+      "rewardUnit": "chance",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 5000,
+      "eligibilityRequirements": [
+        "所有美國運通卡",
+        "東京都港區、千代田區指定商店",
+        "單筆消費滿5000日圓",
+        "出示發票及簽單存根及護照"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/campaigns/explore-asia/index.tokyo.html",
+      "registrationUrl": "",
+      "quotaInfo": "贈品數量有限，依現場公告為主，贈完為止。",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:40:49.753185Z",
+      "bank": "美國運通"
+    },
+    {
+      "id": "rule_aa0f3e67117670480b57",
+      "cardId": "",
+      "title": "KOBE 海外優惠禮遇",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "神戶市內任一商店"
+      ],
+      "searchKeywords": "神戶, 日本, Kobe, Japan, 關西, 海外旅遊, 出國購物, 神戶市, 日本旅遊, 禮品兌換",
+      "baseRate": 0.0,
+      "promoRate": 0.0,
+      "rewardType": "draw",
+      "rewardAmount": 1,
+      "rewardUnit": "chance",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 5000,
+      "eligibilityRequirements": [
+        "所有美國運通卡",
+        "單筆消費滿5000日圓以上",
+        "至指定兌換地點出示消費發票、簽單存根及護照"
+      ],
+      "needReg": false,
+      "regDeadline": "2026-12-30",
+      "validUntil": "2026-12-30",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/campaigns/explore-asia/index.bekobe.html",
+      "registrationUrl": "",
+      "quotaInfo": "門檻為神戶市內單筆消費滿5000日圓，贈品數量有限，依現場公告為主，贈完為止。",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:41:15.895332Z",
+      "bank": "美國運通"
+    },
+    {
+      "id": "rule_a681efd1a7e802394bd4",
+      "cardId": "card_美國運通_403",
+      "title": "Explore China 專屬優惠",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Explore China 合作店家"
+      ],
+      "searchKeywords": "Explore China, 中國旅遊, 中國消費, 中國購物, 中國住宿",
+      "baseRate": 0.0,
+      "promoRate": 0.0,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "持有美國運通卡"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/campaigns/explore-asia/index.china.html",
+      "registrationUrl": "",
+      "quotaInfo": "由Explore China專屬網站規範各合作店家具體優惠內容",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:41:34.879951Z",
+      "bank": "美國運通"
+    },
+    {
+      "id": "rule_7a1688a2bfe4f32c3117",
+      "cardId": "",
+      "title": "Explore India 專屬禮遇",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [],
+      "searchKeywords": "印度旅遊, 印度住宿, 印度消費, Explore India, 國外優惠",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "所有美國運通卡持卡人"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/campaigns/explore-asia/index.india.html",
+      "registrationUrl": "",
+      "quotaInfo": "活動期間及內容以Explore India專屬網站為主，相關優惠受當地條款限制",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:41:46.454931Z",
+      "bank": "美國運通"
+    },
+    {
+      "id": "rule_143d3ad3b5f614904926",
+      "cardId": "",
+      "title": "Experience Sri Lanka 合作店家優惠",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Experience Sri Lanka 合作店家"
+      ],
+      "searchKeywords": "斯里蘭卡, SriLanka, 海外旅遊, 國外消費, 旅遊優惠, 美國運通卡友優惠",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "所有美國運通卡持卡人"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/campaigns/explore-asia/index.srilanka.html",
+      "registrationUrl": "",
+      "quotaInfo": "各項優惠受當地條款及條件限制，依Experience Sri Lanka專屬網站公告為準",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:43:16.354493Z",
+      "bank": "美國運通"
+    },
+    {
+>>>>>>> Stashed changes
       "id": "rule_3d1987ca342beb1710b6",
       "cardId": "card_臺灣土地銀行_398",
       "title": "國內一般消費不限金額1%回饋",
@@ -57401,6 +58260,7 @@
       "bank": "臺灣土地銀行"
     },
     {
+<<<<<<< Updated upstream
       "id": "rule_8fbc7a836f66b24afde6",
       "cardId": "",
       "title": "Hotels.com 預訂指定住宿立享8%折扣",
@@ -57500,6 +58360,8 @@
       "bank": "美國運通"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "rule_e5ce2015f2caad071311",
       "cardId": "",
       "title": "【土銀信用卡】轉出好運發發發行銷活動",
@@ -57616,6 +58478,7 @@
       "bank": "臺灣土地銀行"
     },
     {
+<<<<<<< Updated upstream
       "id": "rule_98da2be8240bfa0a6451",
       "cardId": "card_美國運通_403",
       "title": "Explore Asia 海外優惠禮遇",
@@ -57647,6 +58510,8 @@
       "bank": "美國運通"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "rule_5246808f612280ca479f",
       "cardId": "",
       "title": "美十樂連鎖藥局-台灣Pay 20%回饋",
@@ -57684,6 +58549,7 @@
       "bank": "臺灣土地銀行"
     },
     {
+<<<<<<< Updated upstream
       "id": "rule_f405804eaef449133c85",
       "cardId": "",
       "title": "Tokyo 海外優惠禮遇",
@@ -57730,6 +58596,8 @@
       "bank": "美國運通"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "rule_cc4b59625a776303a9f1",
       "cardId": "card_臺灣土地銀行_398",
       "title": "新戶首刷滿額禮",
@@ -57846,6 +58714,7 @@
       "bank": "臺灣土地銀行"
     },
     {
+<<<<<<< Updated upstream
       "id": "rule_5cec749e5793a63eb0cb",
       "cardId": "card_王道銀行_379",
       "title": "現金回饋一般消費活動",
@@ -57920,6 +58789,8 @@
       "bank": "美國運通"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "rule_e27990cbc2556c8225cb",
       "cardId": "card_臺灣土地銀行_399",
       "title": "新戶首刷滿額禮",
@@ -57998,6 +58869,7 @@
       "bank": "臺灣土地銀行"
     },
     {
+<<<<<<< Updated upstream
       "id": "rule_8645803445450734745a",
       "cardId": "card_王道銀行_407",
       "title": "一般消費現金回饋",
@@ -58350,6 +59222,8 @@
       "bank": "台中銀行"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "rule_4d9bb899d7a839c9d63b",
       "cardId": "card_臺灣土地銀行_401",
       "title": "新戶首刷滿額禮第一重",
@@ -58622,6 +59496,1874 @@
       ],
       "fetchedAt": "2026-09-25T03:45:57.608634Z",
       "bank": "臺灣土地銀行"
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "id": "rule_337071cd2d948eeca71a",
+      "cardId": "card_王道銀行_365",
+      "title": "2026年現金回饋方案",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "國內一般消費,國外一般消費,海外消費,全球消費",
+      "baseRate": 1.0,
+      "promoRate": 1.0,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "一般簽帳金融卡持卡人"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
+      "registrationUrl": "",
+      "quotaInfo": "一般簽帳金融卡刷卡消費，不限金額、不分國內外，一般消費皆享1%現金回饋，回饋無上限。",
+      "excludedKeywords": [
+        "國外提款或交易之手續費",
+        "簽帳金融卡年費",
+        "逾期補繳款",
+        "取消交易款項",
+        "退貨款項",
+        "爭議款",
+        "非持卡人本人交易",
+        "稅款",
+        "交通罰鍰",
+        "電子化繳費稅處理平台",
+        "全國繳費平台",
+        "代扣繳公共事業",
+        "中華電信",
+        "基金申購及代扣繳手續費",
+        "醫療院所費用",
+        "Smart Pay購物消費",
+        "一卡通自動加值",
+        "人工加值",
+        "設備加值",
+        "部分歐洲地區國家消費",
+        "境外投資及匯款轉帳交易平台",
+        "抖音各交易平台"
+      ],
+      "fetchedAt": "2026-09-25T03:26:49.718470Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_6d9c5e6c8596b0d310af",
+      "cardId": "card_王道銀行_379",
+      "title": "北捷 Apple Pay 乘車現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "台北捷運"
+      ],
+      "searchKeywords": "北捷, 台北捷運, Apple Pay, 行動支付, 乘車",
+      "baseRate": 0.0,
+      "promoRate": 21.0,
+      "rewardType": "percent",
+      "rewardAmount": 21,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "減碳是王道活動"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce",
+      "registrationUrl": "",
+      "quotaInfo": "活動詳情依官網公告為準",
+      "excludedKeywords": [
+        "TikTok平台交易"
+      ],
+      "fetchedAt": "2026-09-25T03:31:34.268238Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_3ea805aea53a9da2406f",
+      "cardId": "card_王道銀行_385",
+      "title": "Visa X 王道銀行綁定 Apple Pay 搭乘大眾運輸回饋",
+      "benefitPlan": "",
+      "selectionMode": "STACKABLE",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "台北捷運",
+        "中國大陸大眾運輸",
+        "香港大眾運輸",
+        "澳門大眾運輸"
+      ],
+      "searchKeywords": "Apple Pay, 北捷, 捷運, 感應支付, 交通, 中國大陸交通, 香港交通, 澳門交通",
+      "baseRate": 0.0,
+      "promoRate": 100.0,
+      "rewardType": "percent",
+      "rewardAmount": 100.0,
+      "rewardUnit": "percent",
+      "capAmount": 100,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "完成Visa Select優選回饋網頁註冊與報名",
+        "使用Apple Pay感應支付"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-09-30",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/debit_20260814_1",
+      "registrationUrl": "https://lihi3.me/d1xII",
+      "quotaInfo": "每人每月上限100元，回饋總額有限，額滿即止",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:33:41.156259Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_bb5e8ab85fcfb5e356a4",
+      "cardId": "card_王道銀行_367",
+      "title": "王道刷保費最高享3.5%現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "保險公司"
+      ],
+      "searchKeywords": "保險, 壽險, 產險, 保費, 扣繳保費, 繳納保險費",
+      "baseRate": 0.0,
+      "promoRate": 2.0,
+      "rewardType": "cash",
+      "rewardAmount": 2.0,
+      "rewardUnit": "percent",
+      "capAmount": 1688,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 3000,
+      "eligibilityRequirements": [
+        "當月累積保費扣繳達3000元以上",
+        "完成活動登錄"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-12-31",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_4",
+      "registrationUrl": "https://www.o-bank.com/egift/RegisterCampaign",
+      "quotaInfo": "每月限額5,000名，需每月登錄",
+      "excludedKeywords": [
+        "行動支付",
+        "街口支付",
+        "悠遊付",
+        "一卡通MONEY",
+        "icash Pay",
+        "全盈支付",
+        "全支付",
+        "Apple Pay",
+        "LINE pay",
+        "電子化繳費稅處理平台",
+        "醫指付",
+        "全國繳費平台"
+      ],
+      "fetchedAt": "2026-09-25T03:34:03.400807Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_804bb00804b0ab012d64",
+      "cardId": "card_王道銀行_381",
+      "title": "王道財富無限卡保費回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "保險公司"
+      ],
+      "searchKeywords": "保險, 壽險, 產險, 保費, 扣繳保費",
+      "baseRate": 1.5,
+      "promoRate": 2.0,
+      "rewardType": "cash",
+      "rewardAmount": 3.5,
+      "rewardUnit": "percent",
+      "capAmount": 1688,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 3000,
+      "eligibilityRequirements": [
+        "無需登錄",
+        "當月累積保費扣繳達3000元以上"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_4",
+      "registrationUrl": "",
+      "quotaInfo": "無限卡卡友免登錄，加碼回饋仍受每月上限限制",
+      "excludedKeywords": [
+        "行動支付",
+        "街口支付",
+        "悠遊付",
+        "一卡通MONEY",
+        "icash Pay",
+        "全盈支付",
+        "全支付",
+        "Apple Pay",
+        "LINE pay",
+        "電子化繳費稅處理平台",
+        "醫指付",
+        "全國繳費平台"
+      ],
+      "fetchedAt": "2026-09-25T03:34:03.400933Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_618534cca0de1c3cb714",
+      "cardId": "card_王道銀行_367",
+      "title": "王道夏日回饋季指定通路最高5%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "MOMO購物",
+        "蝦皮購物",
+        "Coupang酷澎",
+        "PChome",
+        "全聯",
+        "大全聯",
+        "萬家福",
+        "樂家康",
+        "愛買",
+        "寶雅",
+        "康是美",
+        "屈臣氏"
+      ],
+      "searchKeywords": "MOMO購物, momo, 蝦皮, Coupang, 酷澎, PChome, 全聯, 大全聯, 萬家福, 樂家康, 愛買, 寶雅, POYA, 康是美, COSMED, 屈臣氏, Watsons, 網購, 量販, 藥妝",
+      "baseRate": 0.0,
+      "promoRate": 3.5,
+      "rewardType": "cash",
+      "rewardAmount": 3.5,
+      "rewardUnit": "percent",
+      "capAmount": 500,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "本行簽帳金融卡持卡人",
+        "須於消費當月完成活動登錄",
+        "每月限額5,000名(財富無限卡免登錄)"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-09-30",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/debit_20260930_1",
+      "registrationUrl": "https://www.o-bank.com/egift/RegisterCampaign",
+      "quotaInfo": "指定通路加碼3.5%，每人每月上限500元，每月限量5,000名需登錄。",
+      "excludedKeywords": [
+        "外送平台服務",
+        "稅款",
+        "交通罰鍰",
+        "電子化繳費稅",
+        "公共事業代扣繳",
+        "基金",
+        "醫療院所",
+        "Smart Pay",
+        "自動加值",
+        "境外投資平台",
+        "歐洲地區消費",
+        "抖音"
+      ],
+      "fetchedAt": "2026-09-25T03:34:29.172288Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_eefc6b794927e9d7d63e",
+      "cardId": "",
+      "title": "王道銀行簽帳金融卡綁定Apple Pay搭乘台北捷運加碼回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "台北捷運"
+      ],
+      "searchKeywords": "台北捷運, 北捷, Apple Pay, 感應支付, 乘車, 交通, 捷運閘門",
+      "baseRate": 0.0,
+      "promoRate": 10.0,
+      "rewardType": "cash",
+      "rewardAmount": 10.0,
+      "rewardUnit": "percent",
+      "capAmount": 88,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "本行簽帳金融卡持卡人",
+        "使用Apple Pay綁定本行簽帳金融卡",
+        "進出站使用同一手機裝置與卡片"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/debit_20260930",
+      "registrationUrl": "",
+      "quotaInfo": "每月限量3,000名，額滿將提前於官網公告，採消費順序計算，每人每月加碼回饋上限88元",
+      "excludedKeywords": [
+        "桃園機場捷運"
+      ],
+      "fetchedAt": "2026-09-25T03:35:24.357337Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_ddb66d215b7b97828151",
+      "cardId": "card_王道銀行_367",
+      "title": "行動支付現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Apple Pay",
+        "LINE Pay"
+      ],
+      "searchKeywords": "applepay, apple pay, linepay, line pay, 行動支付, 支付工具",
+      "baseRate": 0.0,
+      "promoRate": 4.0,
+      "rewardType": "cash",
+      "rewardAmount": 4,
+      "rewardUnit": "percent",
+      "capAmount": 500,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 500,
+      "eligibilityRequirements": [
+        "單筆滿500元",
+        "需登錄"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-09-30",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.o-bank.com/retail/hot-function/blog/obankblog_260802",
+      "quotaInfo": "單筆滿500元，需登錄",
+      "excludedKeywords": [],
+      "registrationUrl": "",
+      "fetchedAt": "2026-09-25T03:37:06.164007Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_1b31ee71107ddc02fdbe",
+      "cardId": "card_王道銀行_375",
+      "title": "O! Range卡 行動支付加碼",
+      "benefitPlan": "O! Range",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Apple Pay",
+        "LINE Pay"
+      ],
+      "searchKeywords": "applepay, apple pay, linepay, line pay, 行動支付",
+      "baseRate": 0.0,
+      "promoRate": 2.8,
+      "rewardType": "cash",
+      "rewardAmount": 2.8,
+      "rewardUnit": "percent",
+      "capAmount": 500,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "當月最後一日活存餘額達新台幣10萬元"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/hot-function/blog/obankblog_260802",
+      "quotaInfo": "活存餘額達10萬免登錄",
+      "excludedKeywords": [],
+      "registrationUrl": "",
+      "fetchedAt": "2026-09-25T03:37:06.164128Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_35c80353858b4fb4a95c",
+      "cardId": "card_王道銀行_367",
+      "title": "海外實體/線上消費回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "海外刷卡, 國外消費, 出國, 旅遊, 線上海外消費",
+      "baseRate": 0.0,
+      "promoRate": 5.0,
+      "rewardType": "cash",
+      "rewardAmount": 5,
+      "rewardUnit": "percent",
+      "capAmount": 1000,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "需登錄"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-09-30",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.o-bank.com/retail/hot-function/blog/obankblog_260802",
+      "quotaInfo": "需登錄，不適用行動支付",
+      "excludedKeywords": [
+        "行動支付"
+      ],
+      "registrationUrl": "",
+      "fetchedAt": "2026-09-25T03:37:06.164226Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_c0e0dd524765a90a1e34",
+      "cardId": "",
+      "title": "Lucky Money回饋金撲滿(12%年利率)",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "刷卡消費,簽帳金融卡,活儲,優利活儲,回饋金,撲滿",
+      "baseRate": 1.0,
+      "promoRate": 12.0,
+      "rewardType": "percent",
+      "rewardAmount": 12,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 1,
+      "eligibilityRequirements": [
+        "於活動期間內透過王道銀行APP申請開啟回饋金撲滿"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/hot-function/blog/obankblog_260701",
+      "registrationUrl": "",
+      "quotaInfo": "新台幣1元即可啟動，活動期間內享活儲年利率12%，存款無上限。",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:37:28.200436Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_2647a0c9f2fa7b5dd29d",
+      "cardId": "",
+      "title": "Lucky Money行動支付加碼活動",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Apple Pay",
+        "LINE Pay",
+        "街口支付",
+        "悠遊付",
+        "全盈+",
+        "全支付",
+        "iPASS Money",
+        "icash Pay"
+      ],
+      "searchKeywords": "ApplePay, LINEPay, 街口, 悠遊付, 全盈支付, 全支付, iPASSMoney, icashPay, 行動支付",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "cash",
+      "rewardAmount": 88,
+      "rewardUnit": "TWD",
+      "capAmount": 88,
+      "capPeriod": "CAMPAIGN",
+      "minimumSpend": 888,
+      "eligibilityRequirements": [
+        "2026/7/31前開啟回饋金撲滿",
+        "限額3,000名",
+        "每月累積消費達888元"
+      ],
+      "needReg": false,
+      "regDeadline": "2026-07-31",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.o-bank.com/retail/hot-function/blog/obankblog_260701",
+      "registrationUrl": "",
+      "quotaInfo": "每月累積消費達888元(含)以上，限量3,000名。",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:37:28.200487Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_41163bb25df22bb2c6c1",
+      "cardId": "card_王道銀行_367",
+      "title": "刷卡回饋再放大！Lucky Money 刷卡滿額享現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Apple Pay",
+        "LINE Pay",
+        "街口支付",
+        "悠遊付",
+        "全盈+",
+        "ipass money",
+        "icash pay",
+        "全支付"
+      ],
+      "searchKeywords": "Apple Pay, 蘋果支付, LINE Pay, 連加, 連支, 街口支付, 悠遊付, 全盈+, 全盈支付, ipass money, 一卡通支付, icash pay, 愛金卡支付, 全支付",
+      "baseRate": 0.0,
+      "promoRate": 50.0,
+      "rewardType": "percent",
+      "rewardAmount": 50.0,
+      "rewardUnit": "percent",
+      "capAmount": 50,
+      "capPeriod": "PER_CAMPAIGN",
+      "minimumSpend": 100,
+      "eligibilityRequirements": [
+        "首次成功開啟Lucky Money回饋金撲滿",
+        "活動期間使用指定行動支付綁定簽帳金融卡",
+        "單筆一般消費達100元"
+      ],
+      "needReg": false,
+      "regDeadline": "2026-12-31",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/web/event/luckymoney/index.html?CampaignCode=R-AC-2023030901&SourceCode=obankblog_260701",
+      "registrationUrl": "",
+      "quotaInfo": "每人限回饋乙次，每月限量3,000名，以刷卡達門檻優先順序排序",
+      "excludedKeywords": [
+        "稅款",
+        "交通罰鍰",
+        "電子化繳費稅",
+        "公用事業代扣繳",
+        "基金",
+        "醫療院所",
+        "Smart Pay",
+        "自動加值",
+        "境外投資平台",
+        "歐洲地區消費",
+        "抖音"
+      ],
+      "fetchedAt": "2026-09-25T03:37:57.417559Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_2fba3c1fca87f381f4ce",
+      "cardId": "card_王道銀行_397",
+      "title": "減碳是王道 北捷 Apple Pay 加碼現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "STACKABLE",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "台北捷運"
+      ],
+      "searchKeywords": "台北捷運, 北捷, Apple Pay, 感應支付, 捷運, 減碳, 交通",
+      "baseRate": 11.0,
+      "promoRate": 10.0,
+      "rewardType": "cash",
+      "rewardAmount": 10.0,
+      "rewardUnit": "percent",
+      "capAmount": 100,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "使用Apple Pay綁定交通減碳卡",
+        "同一月份內累積3個(含)以上不同日期搭乘台北捷運",
+        "需為前5,000名達成門檻者"
+      ],
+      "needReg": false,
+      "regDeadline": "2026-09-30",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/debit_20260930_3",
+      "registrationUrl": "",
+      "quotaInfo": "需達成當月累積3日以上搭乘北捷門檻，每月限量5,000名，每人每月加碼上限100元",
+      "excludedKeywords": [
+        "桃園機場捷運"
+      ],
+      "fetchedAt": "2026-09-25T03:38:51.036764Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_5cec749e5793a63eb0cb",
+      "cardId": "card_王道銀行_379",
+      "title": "現金回饋一般消費活動",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "一般消費,國內消費,海外消費,實體商店,線上購物",
+      "baseRate": 0.0,
+      "promoRate": 0.0,
+      "rewardType": "cash",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/2025072102",
+      "registrationUrl": "",
+      "quotaInfo": "本活動適用一般消費，但特定項目排除回饋。",
+      "excludedKeywords": [
+        "TikTok平台交易",
+        "Google TikTok",
+        "Google TikTok Live",
+        "GOOGLE*TIKTOK",
+        "GOOGLE*TIKTOK LIVE",
+        "KMJ*TIKTOK",
+        "PAYPAL *TIKTOK INC",
+        "TIKTOK",
+        "TIKTOK INC."
+      ],
+      "fetchedAt": "2026-09-25T03:41:03.780566Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_8645803445450734745a",
+      "cardId": "card_王道銀行_407",
+      "title": "一般消費現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "國內消費,海外消費,外幣,刷卡",
+      "baseRate": 1.0,
+      "promoRate": 0.0,
+      "rewardType": "percent",
+      "rewardAmount": 1.0,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.o-bank.com/web/event/o-range-card/index.html?CampaignCode=R-DC-2025092401&SourceCode=obankblog_260102",
+      "registrationUrl": "",
+      "quotaInfo": "無門檻，回饋無上限",
+      "excludedKeywords": [
+        "稅款",
+        "代扣繳",
+        "基金",
+        "醫療",
+        "電子支付儲值",
+        "海外交易手續費",
+        "部分歐洲地區消費"
+      ],
+      "fetchedAt": "2026-09-25T03:41:30.018369Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_9bb340028b71480ed067",
+      "cardId": "card_王道銀行_407",
+      "title": "支付、外送加碼回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Apple Pay",
+        "LINE Pay",
+        "foodpanda",
+        "UberEats"
+      ],
+      "searchKeywords": "Apple Pay,LINE Pay,foodpanda,UberEats,外送,行動支付,linepay",
+      "baseRate": 1.0,
+      "promoRate": 2.8,
+      "rewardType": "percent",
+      "rewardAmount": 3.8,
+      "rewardUnit": "percent",
+      "capAmount": 500,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "消費當月最終日活存餘額達10萬元(含)以上"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/web/event/o-range-card/index.html?CampaignCode=R-DC-2025092401&SourceCode=obankblog_260102",
+      "registrationUrl": "",
+      "quotaInfo": "消費當月最終日活存餘額達10萬元(含)以上，加碼回饋上限500元",
+      "excludedKeywords": [
+        "稅款",
+        "代扣繳",
+        "基金",
+        "醫療"
+      ],
+      "fetchedAt": "2026-09-25T03:41:30.018524Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_afe8f52ae6afa73514d9",
+      "cardId": "card_王道銀行_407",
+      "title": "指定百貨餐飲、購票加碼回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "新光三越",
+        "遠東SOGO百貨",
+        "遠東百貨",
+        "遠東Garden City",
+        "Big City遠東巨城購物中心",
+        "太平洋百貨",
+        "夢時代購物中心",
+        "統一時代百貨",
+        "MITSUI OUTLET PARK",
+        "Mitsui Shopping Park LaLaport",
+        "華泰名品城GLORIA OUTLET",
+        "台北101",
+        "BELLAVITA",
+        "微風",
+        "京站時尚廣場",
+        "美麗華百樂園",
+        "台茂購物中心",
+        "大葉高島屋",
+        "大江國際購物中心",
+        "中友百貨",
+        "南紡購物中心",
+        "漢神巨蛋購物廣場",
+        "漢神百貨",
+        "ＮＯＫＥ忠泰樂生活",
+        "統領百貨",
+        "廣三SOGO",
+        "義大世界購物廣場",
+        "宏匯廣場",
+        "裕隆城",
+        "ATT 4 FUN",
+        "GLOBAL MALL環球購物中心",
+        "三創生活",
+        "比漾廣場",
+        "新月廣場",
+        "拓元售票系統",
+        "KKTIX",
+        "Ticket Plus遠大售票系統",
+        "寬宏售票系統",
+        "OPENTIX兩廳院文化生活",
+        "年代售票系統",
+        "udn售票網"
+      ],
+      "searchKeywords": "百貨,餐飲,購票,拓元,寬宏,年代,udn,OPENTIX",
+      "baseRate": 1.0,
+      "promoRate": 2.8,
+      "rewardType": "percent",
+      "rewardAmount": 3.8,
+      "rewardUnit": "percent",
+      "capAmount": 500,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "消費當月最終日活存餘額達10萬元(含)以上",
+        "需實體刷卡(不適用綁定行動支付)"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/web/event/o-range-card/index.html?CampaignCode=R-DC-2025092401&SourceCode=obankblog_260102",
+      "registrationUrl": "",
+      "quotaInfo": "消費當月最終日活存餘額達10萬元(含)以上，加碼回饋上限500元",
+      "excludedKeywords": [
+        "行動支付",
+        "餐券",
+        "住宿券",
+        "飯店",
+        "酒店",
+        "旅館",
+        "KTV",
+        "酒吧",
+        "稅款",
+        "代扣繳",
+        "基金",
+        "醫療"
+      ],
+      "fetchedAt": "2026-09-25T03:41:30.018661Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_dd3085a65b20a1fc7d53",
+      "cardId": "card_台中銀行_378",
+      "title": "國外2.5%現金回饋禮",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "國外消費,海外購物,外幣交易,跨境支付,線上外幣消費",
+      "baseRate": 0,
+      "promoRate": 2.5,
+      "rewardType": "cash",
+      "rewardAmount": 2.5,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.tcbbank.com.tw/CreditCard/J_Credit_World/index.html",
+      "registrationUrl": "",
+      "quotaInfo": "國外消費不限金額享2.5%現金回饋，回饋無上限",
+      "excludedKeywords": [
+        "國內一般消費",
+        "帳單列示國別為TW之消費"
+      ],
+      "fetchedAt": "2026-09-25T03:31:16.798234Z",
+      "bank": "台中銀行"
+    },
+    {
+      "id": "rule_2e9da295ef1a3cd2e2be",
+      "cardId": "",
+      "title": "特店分期0利率",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "中友百貨",
+        "廣三SOGO",
+        "勤美誠品綠園道",
+        "金典綠園道",
+        "太平洋百貨豐原店",
+        "大江購物中心",
+        "禮客 OUTLET",
+        "愛買量販店",
+        "四季精品百貨",
+        "順發3C",
+        "全國電子",
+        "中華電信",
+        "神腦國際",
+        "亞拓電器",
+        "景豪電器",
+        "雷龍科技",
+        "momo購物網",
+        "森森購物",
+        "東森購物",
+        "ViVa美好購物網",
+        "yahoo！購物中心",
+        "yahoo！超級商城",
+        "yahoo！拍賣",
+        "PChome線上購物",
+        "PChome商店街",
+        "蝦皮購物",
+        "中友購物網",
+        "遠傳friDay購物",
+        "博客來線上購物",
+        "樂天市場購物網",
+        "Coupang 酷澎",
+        "台灣歐德傢俱",
+        "Decobali 德客室內設計",
+        "好傢在寢具床墊館",
+        "樹德SHUTER",
+        "城市綠洲戶外生活館",
+        "SEIC單車工廠",
+        "輝葉按摩椅",
+        "ETUOH漁拓釣具",
+        "愛加健康",
+        "EXPLORER探險家戶外用品",
+        "富昇旅行社",
+        "五福旅行社",
+        "歡樂旅行社",
+        "易飛網",
+        "可樂旅遊",
+        "元帥旅行社(美樂期)",
+        "PChome旅遊",
+        "銓康旅行社(我行我素)",
+        "宏觀國際旅行社有限公司",
+        "飛騰旅行社有限公司台南分公司",
+        "小林眼鏡",
+        "寶島眼鏡",
+        "BIRKENSTOCK",
+        "詮美珠寶"
+      ],
+      "searchKeywords": "中友百貨,廣三SOGO,勤美誠品,金典綠園道,太平洋百貨,大江購物中心,禮客,愛買,四季精品,順發,全國電子,中華電信,神腦,亞拓電器,景豪電器,雷龍科技,momo購物,森森購物,東森購物,ViVa購物,yahoo購物,超級商城,yahoo拍賣,PChome,蝦皮,中友購物網,friDay購物,博客來,樂天市場,Coupang,酷澎,歐德傢俱,Decobali,好傢在,樹德,城市綠洲,SEIC單車,輝葉按摩椅,漁拓釣具,愛加健康,探險家戶外,富昇旅行社,五福旅行社,歡樂旅行社,易飛網,可樂旅遊,元帥旅行社,PChome旅遊,銓康旅行社,宏觀國際旅行社,飛騰旅行社,小林眼鏡,寶島眼鏡,BIRKENSTOCK,詮美珠寶",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "installment",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "須於合作之特約商店進行消費",
+        "分期適用期間、門檻與期數依各特約商店公告為準"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.tcbbank.com.tw/CreditCard/J_51.html",
+      "registrationUrl": "",
+      "quotaInfo": "分期付款適用之期間、門檻、期數與商品/服務，以各特約商店現場或網站公告為準。",
+      "excludedKeywords": [
+        "特約商店分期付款交易"
+      ],
+      "fetchedAt": "2026-09-25T03:43:35.676060Z",
+      "bank": "台中銀行"
+    },
+    {
+      "id": "rule_152c295dec50f2ec6ec4",
+      "cardId": "card_將來銀行_364",
+      "title": "完成任務刷大將卡回饋無上限",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "刷卡,消費,簽帳,DEBIT,一般消費",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "points",
+      "rewardAmount": 0,
+      "rewardUnit": "points",
+      "capAmount": 0,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "完成指定任務"
+      ],
+      "needReg": false,
+      "regDeadline": "2026-09-30",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.nextbank.com.tw/",
+      "registrationUrl": "",
+      "quotaInfo": "需完成指定任務，回饋無上限。",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:26:57.688810Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_606cf6294c96a07f7bad",
+      "cardId": "card_將來銀行_368",
+      "title": "完成任務刷大將卡回饋無上限",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "刷卡, 簽帳金融卡, 消費, 回饋, 將將卡, 將來銀行",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "points",
+      "rewardAmount": 0,
+      "rewardUnit": "points",
+      "capAmount": 0,
+      "capPeriod": "CAMPAIGN",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "完成指定任務"
+      ],
+      "needReg": false,
+      "regDeadline": "2026-09-30",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.nextbank.com.tw/events",
+      "registrationUrl": "",
+      "quotaInfo": "回饋無上限，需完成指定任務方可適用",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:27:37.678763Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_258d868aa354aa11c297",
+      "cardId": "card_將來銀行_369",
+      "title": "將將卡日常消費回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "日常生活,網購,超商,餐飲,百貨,行動支付",
+      "baseRate": 0,
+      "promoRate": 5.0,
+      "rewardType": "points",
+      "rewardAmount": 5,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+      "registrationUrl": "",
+      "quotaInfo": "最高5%回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:29:33.752457Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_3fa41f79f92ff07f0f71",
+      "cardId": "card_將來銀行_364",
+      "title": "大將卡日本旅遊消費回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "日本"
+      ],
+      "searchKeywords": "日本,日本旅遊,日幣,境外消費,國外刷卡",
+      "baseRate": 0,
+      "promoRate": 10.0,
+      "rewardType": "points",
+      "rewardAmount": 10,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+      "registrationUrl": "",
+      "quotaInfo": "日本旅遊消費享最高10%回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:29:33.752565Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_15f6f0d0f614ebece16c",
+      "cardId": "card_將來銀行_364",
+      "title": "大將卡國內外消費回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "國內消費,海外消費,國外刷卡,旅遊",
+      "baseRate": 1.5,
+      "promoRate": 2.5,
+      "rewardType": "percent",
+      "rewardAmount": 2.5,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+      "registrationUrl": "",
+      "quotaInfo": "國內1.5%、海外2.5%回饋無上限",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:29:33.752650Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_7b0d69d90fb1b9217594",
+      "cardId": "",
+      "title": "【街口支付】綁定簽帳金融卡購買新機，最高享10%街口幣回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "街口支付"
+      ],
+      "searchKeywords": "街口支付,jkopay,行動支付,綁定消費",
+      "baseRate": 0,
+      "promoRate": 10.0,
+      "rewardType": "points",
+      "rewardAmount": 10,
+      "rewardUnit": "percent",
+      "capAmount": 500,
+      "capPeriod": "PER_ACCOUNT",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "持有將來銀行存款帳戶",
+        "於街口支付綁定將來銀行簽帳金融卡"
+      ],
+      "needReg": false,
+      "regDeadline": "2026-10-31",
+      "validUntil": "2026-10-31",
+      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1257",
+      "registrationUrl": "",
+      "quotaInfo": "活動限量，額滿將於街口支付APP首頁公告，每人上限500街口幣，活動總額上限15萬街口幣。",
+      "excludedKeywords": [
+        "菸酒品"
+      ],
+      "fetchedAt": "2026-09-25T03:31:22.176586Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_7874a1da4207cf31103e",
+      "cardId": "card_將來銀行_364",
+      "title": "大將卡行前準備加碼",
+      "benefitPlan": "",
+      "selectionMode": "STACKABLE",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "航空",
+        "Agoda",
+        "Airbnb",
+        "Booking.com",
+        "Expedia",
+        "Hotel.com",
+        "Trip.com",
+        "KKday",
+        "Klook"
+      ],
+      "searchKeywords": "航空,機票,國外訂房,訂房網,Agoda,Airbnb,Booking.com,Expedia,Hotels.com,Trip.com,KKday,Klook,旅遊行程,海外旅遊",
+      "baseRate": 0.0,
+      "promoRate": 2.5,
+      "rewardType": "points",
+      "rewardAmount": 2.5,
+      "rewardUnit": "percent",
+      "capAmount": 300,
+      "capPeriod": "CAMPAIGN",
+      "minimumSpend": 6000,
+      "eligibilityRequirements": [
+        "持大將卡",
+        "累積消費滿6,000元",
+        "完成APP活動登錄"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-10-18",
+      "validUntil": "2026-10-18",
+      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1249",
+      "registrationUrl": "",
+      "quotaInfo": "活動期間累積消費滿6,000元享加碼，回饋上限300 N點",
+      "excludedKeywords": [
+        "賭博籌碼",
+        "投資平台",
+        "e-Bill全國繳費",
+        "i繳費",
+        "醫指付",
+        "稅款",
+        "提款",
+        "轉帳",
+        "代扣繳",
+        "中華電信",
+        "電費",
+        "水費",
+        "瓦斯費",
+        "NCCC小額支付"
+      ],
+      "fetchedAt": "2026-09-25T03:33:03.212301Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_f5d08618f60861b67ab4",
+      "cardId": "card_將來銀行_364",
+      "title": "大將卡日本當地實體消費加碼",
+      "benefitPlan": "",
+      "selectionMode": "STACKABLE",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "日本當地實體店家"
+      ],
+      "searchKeywords": "日本,日幣,日本旅遊,實體店,面對面交易",
+      "baseRate": 0.0,
+      "promoRate": 5.0,
+      "rewardType": "points",
+      "rewardAmount": 5.0,
+      "rewardUnit": "percent",
+      "capAmount": 450,
+      "capPeriod": "CAMPAIGN",
+      "minimumSpend": 6000,
+      "eligibilityRequirements": [
+        "持大將卡",
+        "累積消費滿6,000元",
+        "日本當地實體店家面對面消費",
+        "完成APP活動登錄"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-10-18",
+      "validUntil": "2026-10-18",
+      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1249",
+      "registrationUrl": "",
+      "quotaInfo": "活動期間累積消費滿6,000元享加碼，回饋上限450 N點",
+      "excludedKeywords": [
+        "網路交易",
+        "賭博籌碼",
+        "投資平台",
+        "e-Bill全國繳費",
+        "i繳費",
+        "醫指付",
+        "稅款",
+        "提款",
+        "轉帳",
+        "代扣繳",
+        "中華電信",
+        "電費",
+        "水費",
+        "瓦斯費",
+        "NCCC小額支付"
+      ],
+      "fetchedAt": "2026-09-25T03:33:03.212408Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_eaa486e6f5b69ec4b13e",
+      "cardId": "card_將來銀行_384",
+      "title": "【街口支付】每週五美妍日綁定簽帳金融卡消費",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "街口支付"
+      ],
+      "searchKeywords": "街口支付,jkopay,街口幣,行動支付,週五美妍日",
+      "baseRate": 0.0,
+      "promoRate": 5.0,
+      "rewardType": "points",
+      "rewardAmount": 5,
+      "rewardUnit": "percent",
+      "capAmount": 50,
+      "capPeriod": "WEEKLY",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "持有將來銀行存款帳戶",
+        "於街口支付綁定將來銀行簽帳金融卡"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1200",
+      "registrationUrl": "",
+      "quotaInfo": "每週五美妍日於指定品牌消費享5%街口幣，每週上限50街口幣，全行上限8萬街口幣。",
+      "excludedKeywords": [
+        "菸酒品"
+      ],
+      "fetchedAt": "2026-09-25T03:33:30.468614Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_594a128950d3c98f6e30",
+      "cardId": "card_將來銀行_384",
+      "title": "【街口支付】每週四電商日綁定簽帳金融卡消費",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "街口支付"
+      ],
+      "searchKeywords": "街口支付,jkopay,街口幣,行動支付,週四電商日",
+      "baseRate": 0.0,
+      "promoRate": 5.0,
+      "rewardType": "points",
+      "rewardAmount": 5,
+      "rewardUnit": "percent",
+      "capAmount": 50,
+      "capPeriod": "WEEKLY",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "持有將來銀行存款帳戶",
+        "於街口支付綁定將來銀行簽帳金融卡"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1200",
+      "registrationUrl": "",
+      "quotaInfo": "每週四電商日於指定品牌消費享5%街口幣，每週上限50街口幣，全行上限8萬街口幣。",
+      "excludedKeywords": [
+        "菸酒品"
+      ],
+      "fetchedAt": "2026-09-25T03:33:30.468766Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_0f33952d4f9d957d0efb",
+      "cardId": "card_將來銀行_384",
+      "title": "【街口支付】每週四電商日綁定簽帳金融卡消費",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "街口支付"
+      ],
+      "searchKeywords": "街口支付,街口,jkopay,行動支付,電子支付,電商日",
+      "baseRate": 0.0,
+      "promoRate": 5.0,
+      "rewardType": "points",
+      "rewardAmount": 100,
+      "rewardUnit": "points",
+      "capAmount": 100,
+      "capPeriod": "WEEKLY",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "持有將來銀行存款帳戶",
+        "於街口支付綁定將來銀行簽帳金融卡",
+        "於每週四電商日指定品牌付款成功"
+      ],
+      "needReg": false,
+      "regDeadline": "2026-09-30",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1199",
+      "registrationUrl": "",
+      "quotaInfo": "每位客戶每週上限100街口幣，全行限量8萬街口幣，採即時贈點，額滿為止。",
+      "excludedKeywords": [
+        "菸酒品"
+      ],
+      "fetchedAt": "2026-09-25T03:33:55.059051Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_99c41c49fbc96d7e58a7",
+      "cardId": "card_將來銀行_369",
+      "title": "將將卡基本回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "一般消費,刷卡消費,無上限回饋",
+      "baseRate": 0.5,
+      "promoRate": 0.5,
+      "rewardType": "points",
+      "rewardAmount": 0.5,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "將來銀行有效簽帳金融卡持卡人"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1186",
+      "registrationUrl": "",
+      "quotaInfo": "消費享0.5%回饋無上限",
+      "excludedKeywords": [
+        "賭博籌碼",
+        "投資平台",
+        "自動加值",
+        "繳費",
+        "稅款",
+        "提款",
+        "轉帳",
+        "代扣繳",
+        "小額支付平台"
+      ],
+      "fetchedAt": "2026-09-25T03:34:22.260711Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_59fe4261810a99dcc86f",
+      "cardId": "card_將來銀行_369",
+      "title": "理想生活指定通路加碼回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "國外消費",
+        "ezTravel易遊網",
+        "KKday",
+        "55688台灣大車隊",
+        "高鐵",
+        "LINE Pay",
+        "街口支付",
+        "icash Pay",
+        "餐飲",
+        "Uber Eats",
+        "foodpanda",
+        "Apple媒體服務",
+        "Google Play"
+      ],
+      "searchKeywords": "國外消費,外幣,海外刷卡,易遊網,KKday,台灣大車隊,55688,高鐵,LINEPay,街口,icashPay,餐飲,UberEats,foodpanda,AppStore,AppleMusic,iCloud,GooglePlay",
+      "baseRate": 0.5,
+      "promoRate": 5.0,
+      "rewardType": "points",
+      "rewardAmount": 45,
+      "rewardUnit": "TWD",
+      "capAmount": 225,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 1000,
+      "eligibilityRequirements": [
+        "需每月完成活動登錄",
+        "單筆消費滿1000元"
+      ],
+      "needReg": true,
+      "regDeadline": "每月月底",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1186",
+      "registrationUrl": "",
+      "quotaInfo": "單筆滿1000元享45點加碼，每人每月上限225點，需登錄",
+      "excludedKeywords": [
+        "賭博籌碼",
+        "投資平台",
+        "自動加值",
+        "繳費",
+        "稅款",
+        "提款",
+        "轉帳",
+        "代扣繳",
+        "小額支付平台"
+      ],
+      "fetchedAt": "2026-09-25T03:34:22.260868Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_ece0d2ee5916fccdb0fe",
+      "cardId": "",
+      "title": "【將來支付】全聯及四大超商消費回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "全聯福利中心",
+        "7-11",
+        "全家",
+        "萊爾富",
+        "OK"
+      ],
+      "searchKeywords": "全聯, 7-11, 711, 統一超商, 全家便利商店, 萊爾富便利商店, OK mart, 超商, 四大超商, 便利商店",
+      "baseRate": 0,
+      "promoRate": 10,
+      "rewardType": "points",
+      "rewardAmount": 10,
+      "rewardUnit": "points",
+      "capAmount": 30,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 100,
+      "eligibilityRequirements": [
+        "將來銀行存戶",
+        "使用將來支付",
+        "完成活動登錄"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-12-31",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1177",
+      "registrationUrl": "",
+      "quotaInfo": "單筆滿100元享10 N點，每戶每月上限30 N點，活動期間上限210 N點，每月限量發送90,000 N點，額滿為止。",
+      "excludedKeywords": [
+        "大全聯"
+      ],
+      "fetchedAt": "2026-09-25T03:36:25.908588Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_60cda5439e4ea818a4cc",
+      "cardId": "",
+      "title": "【將來支付】全聯及四大超商付款享10 N點回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "全聯福利中心",
+        "7-11",
+        "全家",
+        "萊爾富",
+        "OK"
+      ],
+      "searchKeywords": "全聯, 四大超商, 7-11, 統一超商, 全家便利商店, 萊爾富, OK超商, 將來支付",
+      "baseRate": 0.0,
+      "promoRate": 0.0,
+      "rewardType": "points",
+      "rewardAmount": 10,
+      "rewardUnit": "points",
+      "capAmount": 10,
+      "capPeriod": "PER_ACCOUNT",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "活動期間首次綁定將來支付",
+        "於指定通路使用將來支付消費"
+      ],
+      "needReg": false,
+      "regDeadline": "2026-12-31",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1176",
+      "registrationUrl": "",
+      "quotaInfo": "活動分兩波段，每波段限量且每用戶限領乙次，需為首次綁定將來支付之存戶",
+      "excludedKeywords": [
+        "大全聯"
+      ],
+      "fetchedAt": "2026-09-25T03:36:42.275077Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_6bff4ce403b0f91387b9",
+      "cardId": "card_將來銀行_389",
+      "title": "基本回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "一般消費,簽帳消費,刷卡消費",
+      "baseRate": 0.5,
+      "promoRate": 0.0,
+      "rewardType": "points",
+      "rewardAmount": 0.5,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "持本行有效大將卡之客戶"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/Event937",
+      "registrationUrl": "",
+      "quotaInfo": "無需指定任務，人人享0.5%回饋無上限",
+      "excludedKeywords": [
+        "賭博籌碼",
+        "投資平台",
+        "一卡通自動加值",
+        "繳費稅平台",
+        "個人綜合所得稅",
+        "查核定稅",
+        "提款",
+        "轉帳",
+        "代扣繳服務",
+        "小額支付平台"
+      ],
+      "fetchedAt": "2026-09-25T03:37:46.998046Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_cd90634729747279c7fb",
+      "cardId": "card_將來銀行_389",
+      "title": "國內刷卡加碼",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "國內消費,台幣消費,台灣消費",
+      "baseRate": 0.5,
+      "promoRate": 1.0,
+      "rewardType": "points",
+      "rewardAmount": 1.5,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "前月新臺幣活存平均達30萬",
+        "或前月美元活存平均達5,000美元",
+        "或前月投資帳戶月平均資產達10萬並完成投資屬性測驗"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/Event937",
+      "registrationUrl": "",
+      "quotaInfo": "需完成指定任務(存款或投資門檻)方享加碼",
+      "excludedKeywords": [
+        "賭博籌碼",
+        "投資平台",
+        "一卡通自動加值",
+        "繳費稅平台",
+        "個人綜合所得稅",
+        "查核定稅",
+        "提款",
+        "轉帳",
+        "代扣繳服務",
+        "小額支付平台"
+      ],
+      "fetchedAt": "2026-09-25T03:37:46.998157Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_95cb858fbe10d1df151e",
+      "cardId": "card_將來銀行_389",
+      "title": "海外刷卡加碼",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "海外消費,外幣消費,出國,跨境購物",
+      "baseRate": 0.5,
+      "promoRate": 2.0,
+      "rewardType": "points",
+      "rewardAmount": 2.5,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "前月新臺幣活存平均達30萬",
+        "或前月美元活存平均達5,000美元",
+        "或前月投資帳戶月平均資產達10萬並完成投資屬性測驗"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/Event937",
+      "registrationUrl": "",
+      "quotaInfo": "需完成指定任務(存款或投資門檻)方享加碼",
+      "excludedKeywords": [
+        "賭博籌碼",
+        "投資平台",
+        "一卡通自動加值",
+        "繳費稅平台",
+        "個人綜合所得稅",
+        "查核定稅",
+        "提款",
+        "轉帳",
+        "代扣繳服務",
+        "小額支付平台"
+      ],
+      "fetchedAt": "2026-09-25T03:37:46.998248Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_8d2b6142698390f96926",
+      "cardId": "card_將來銀行_364",
+      "title": "大將卡國外提款免手續費優惠",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "國外提款,海外提款,ATM取款,外幣現鈔,出國旅遊,出差",
+      "baseRate": 0.0,
+      "promoRate": 50.0,
+      "rewardType": "cash",
+      "rewardAmount": 50,
+      "rewardUnit": "TWD",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "持有本行有效存款帳戶",
+        "於行動銀行APP卡片管理中設定國外提款密碼"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/Event938",
+      "registrationUrl": "",
+      "quotaInfo": "凡持本行有效存款帳戶者，活動期間於國外ATM提款享免收每筆新臺幣50元手續費（註：不包含國際清算手續費1.5%及當地ATM業者收費）。",
+      "excludedKeywords": [
+        "國際清算手續費1.5%",
+        "當地ATM額外收取之交易手續費"
+      ],
+      "fetchedAt": "2026-09-25T03:38:11.496500Z",
+      "bank": "將來銀行"
+    },
+    {
+      "id": "rule_903c2965422f37fe479c",
+      "cardId": "card_王道銀行_367",
+      "title": "Apple Pay綁定大眾運輸回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "北捷",
+        "海外大眾運輸"
+      ],
+      "searchKeywords": "Apple Pay, 北捷, 台北捷運, 捷運, 海外捷運, 海外地鐵, 海外公車, 交通回饋",
+      "intentTags": [
+        "行動支付",
+        "交通"
+      ],
+      "intentEvidence": "用王道 Visa 卡綁定Apple Pay搭乘北捷及指定海外大眾運輸",
+      "baseRate": 0.0,
+      "promoRate": 100.0,
+      "rewardType": "percent",
+      "rewardAmount": 100,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "使用王道Visa卡",
+        "綁定Apple Pay"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "registrationUrl": "",
+      "quotaInfo": "筆筆現金回饋最高100%",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:52:02.606255Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_1e4a11921583f7c34077",
+      "cardId": "card_王道銀行_367",
+      "title": "保費刷卡現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "保險公司"
+      ],
+      "searchKeywords": "保費, 壽險, 產險, 繳保費, 保險費",
+      "intentTags": [
+        "保險"
+      ],
+      "intentEvidence": "王道刷保費 最高享3.5%現金回饋",
+      "baseRate": 0.0,
+      "promoRate": 3.5,
+      "rewardType": "percent",
+      "rewardAmount": 3.5,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "registrationUrl": "",
+      "quotaInfo": "最高享3.5%現金回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:52:02.606482Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_917b814afdeb9d3b4b60",
+      "cardId": "card_美國運通_371",
+      "title": "新申辦刷卡禮",
+      "benefitPlan": "",
+      "selectionMode": "SWITCHABLE",
+      "activityType": "REG_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "新戶禮, 首刷禮, 刷卡金, 積分, 白金美饌",
+      "intentTags": [
+        "新戶活動"
+      ],
+      "intentEvidence": "新申辦刷卡禮 (2選1)",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "cash",
+      "rewardAmount": 25000,
+      "rewardUnit": "TWD",
+      "capAmount": 25000,
+      "capPeriod": "CAMPAIGN",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "新申辦"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/",
+      "registrationUrl": "",
+      "quotaInfo": "好禮1: 最高NT$25,000 刷卡金；好禮2: 最高60,000 「會員酬賓」積分；另享最高NT$10,000「白金美饌」刷卡金",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:52:08.895103Z",
+      "bank": "美國運通"
+    },
+    {
+      "id": "rule_f4597a0cd848a9764627",
+      "cardId": "card_王道銀行_367",
+      "title": "指定行動支付加碼回饋",
+      "benefitPlan": "",
+      "selectionMode": "STACKABLE",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Apple Pay",
+        "LINE Pay",
+        "街口支付",
+        "悠遊付",
+        "全盈+",
+        "iPASS MONEY",
+        "icash pay",
+        "全支付"
+      ],
+      "searchKeywords": "ApplePay, LINEPay, 街口, 悠遊付, 全盈加, iPASS, icashpay, 全支付, 行動支付, 手機支付",
+      "intentTags": [
+        "行動支付"
+      ],
+      "intentEvidence": "使用指定行動支付綁定本行簽帳金融卡",
+      "baseRate": 0.0,
+      "promoRate": 4.0,
+      "rewardType": "percent",
+      "rewardAmount": 4.0,
+      "rewardUnit": "percent",
+      "capAmount": 500,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 500,
+      "eligibilityRequirements": [
+        "登錄",
+        "指定行動支付"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-09-30",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "registrationUrl": "",
+      "quotaInfo": "每月限量3,000名，需登錄",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-25T03:52:16.833028Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_3335c375437e9fcfa4c3",
+      "cardId": "card_王道銀行_367",
+      "title": "指定通路夏日回饋季",
+      "benefitPlan": "",
+      "selectionMode": "STACKABLE",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "MOMO購物",
+        "蝦皮購物",
+        "Coupang酷澎",
+        "PChome",
+        "全聯",
+        "大全聯",
+        "萬家福",
+        "樂家康",
+        "愛買",
+        "寶雅",
+        "康是美",
+        "屈臣氏"
+      ],
+      "searchKeywords": "momo, 蝦皮, 酷澎, pchome, 全聯, 愛買, 寶雅, 康是美, 屈臣氏, 網購, 量販店, 藥妝",
+      "intentTags": [
+        "網購",
+        "量販店",
+        "藥妝"
+      ],
+      "intentEvidence": "指定通路含網購電商、量販店、藥妝",
+      "baseRate": 0.0,
+      "promoRate": 3.5,
+      "rewardType": "percent",
+      "rewardAmount": 3.5,
+      "rewardUnit": "percent",
+      "capAmount": 500,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "每月按月登錄",
+        "限額5,000名"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-09-30",
+      "validUntil": "2026-09-30",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "registrationUrl": "",
+      "quotaInfo": "每月限額5,000名，財富無限卡免登錄",
+      "excludedKeywords": [
+        "外送平台服務"
+      ],
+      "fetchedAt": "2026-09-25T03:52:16.833264Z",
+      "bank": "王道銀行"
+>>>>>>> Stashed changes
     }
   ],
   "commonExclusions": [
@@ -58653,5 +61395,9 @@
       "message": "政府規費、公用事業水電瓦斯多數信用卡皆排除回饋。"
     }
   ],
+<<<<<<< Updated upstream
   "lastUpdated": "2026-09-25T03:47:24.036905Z"
+=======
+  "lastUpdated": "2026-09-25T03:55:11.560372Z"
+>>>>>>> Stashed changes
 }
