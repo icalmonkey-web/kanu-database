@@ -354,8 +354,8 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False, p
       "eligibilityRequirements": ["新戶", "完成指定任務"],
       "rewardCalculationMode": "FLAT、TIERED、MAX_ONLY 或 UNKNOWN",
       "rewardTiers": [
-        {"name":"一般資格","totalRate":1.0,"baseRate":1.0,"promoRate":0,"isDefault":true,"requirements":[],"capAmount":null,"capPeriod":""},
-        {"name":"最高等級","totalRate":6.0,"baseRate":1.0,"promoRate":5.0,"isDefault":false,"requirements":["達指定帳戶等級","完成指定任務"],"capAmount":300,"capPeriod":"MONTHLY"}
+        {{"name":"一般資格","totalRate":1.0,"baseRate":1.0,"promoRate":0,"isDefault":true,"requirements":[],"capAmount":null,"capPeriod":""}},
+        {{"name":"最高等級","totalRate":6.0,"baseRate":1.0,"promoRate":5.0,"isDefault":false,"requirements":["達指定帳戶等級","完成指定任務"],"capAmount":300,"capPeriod":"MONTHLY"}}
       ],
       "maxRateRequires": ["取得最高回饋所需的全部條件"],
       "needReg": false,
@@ -364,9 +364,9 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False, p
       "sourceUrl": "{source_url}",
       "registrationUrl": "若內文明確提供本活動的官方登錄按鈕或登錄表單網址，填入完整 https 網址；只有介紹頁或無法確認時留空字串",
       "registrationMethods": [
-        {"type":"APP","label":"銀行 App 登錄","appName":"官方 App 名稱","deepLink":"僅填官方明示的 https Universal Link，否則留空","appStoreUrl":"官方 App Store 網址或空字串","playStoreUrl":"官方 Google Play 網址或空字串","path":["優惠","活動登錄"],"activityName":"App 內活動名稱","campaignCode":"活動代碼或空字串"},
-        {"type":"PHONE","label":"電話登錄","phone":"官方電話","extension":"分機或按鍵流程","campaignCode":"活動代碼","activityName":"活動名稱"},
-        {"type":"WEB","label":"網頁登錄","url":"可實際完成登錄的官方 https 網址","activityName":"活動名稱"}
+        {{"type":"APP","label":"銀行 App 登錄","appName":"官方 App 名稱","deepLink":"僅填官方明示的 https Universal Link，否則留空","appStoreUrl":"官方 App Store 網址或空字串","playStoreUrl":"官方 Google Play 網址或空字串","path":["優惠","活動登錄"],"activityName":"App 內活動名稱","campaignCode":"活動代碼或空字串"}},
+        {{"type":"PHONE","label":"電話登錄","phone":"官方電話","extension":"分機或按鍵流程","campaignCode":"活動代碼","activityName":"活動名稱"}},
+        {{"type":"WEB","label":"網頁登錄","url":"可實際完成登錄的官方 https 網址","activityName":"活動名稱"}}
       ],
       "quotaInfo": "明確門檻說明(例: 簡單選人人享/任意選需指定特店/UP選需任務門檻)",
       "excludedKeywords": ["明確排除項目"]

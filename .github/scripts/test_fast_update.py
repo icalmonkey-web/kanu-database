@@ -10,6 +10,28 @@ from fast_update import atomic_json, normalized_content, parse_html, stable_hash
 
 
 class FastPipelineTests(unittest.TestCase):
+    def test_ai_prompt_json_examples_are_escaped_for_f_string(self):
+        class FakeModelPool:
+            requests = 0
+
+            def generate(self, prompt):
+                self.prompt = prompt
+                return {"cards": [], "rules": []}
+
+        previous = fast_update.legacy.MODEL_POOL
+        fake = FakeModelPool()
+        fast_update.legacy.MODEL_POOL = fake
+        try:
+            result = fast_update.legacy.extract_with_gemini(
+                "測試銀行", "指定消費回饋 3%", "https://bank.test/promo", True, ["CREDIT"]
+            )
+        finally:
+            fast_update.legacy.MODEL_POOL = previous
+
+        self.assertEqual(result, {"cards": [], "rules": []})
+        self.assertIn('"name":"一般資格"', fake.prompt)
+        self.assertIn('"type":"APP"', fake.prompt)
+
     def test_time_budget_is_shorter_than_workflow_timeout(self):
         self.assertLess(fast_update.CRAWL_BUDGET_SECONDS, 90 * 60)
 
