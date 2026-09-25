@@ -53,6 +53,13 @@ class RotationTests(unittest.TestCase):
         self.assertIsNone(pool.generate('next'))
         self.assertEqual(len(calls), 1)
 
+    def test_explicit_model_whitelist_is_preserved_in_order(self):
+        advertised = NS(list=lambda: [NS(name='models/gemini-listed', supported_actions=['generateContent'])])
+        advertised.generate_content = lambda **kwargs: NS(text='{"cards":[],"rules":[]}')
+        requested = ['gemini-3.8-flash', 'gemini-3.1-flash-live-preview', 'gemini-2.5-flash-lite']
+        pool = ModelPool(NS(models=advertised), requested, clock=lambda: 0, log=lambda x: None)
+        self.assertEqual(pool.names, requested)
+
 
 if __name__ == '__main__':
     unittest.main()

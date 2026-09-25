@@ -27,8 +27,10 @@ class ModelPool:
         names.sort(key=lambda n: ('flash' not in n, 'lite' not in n, n))
         # 有明確設定模型時只使用該白名單。API 的 models.list() 可能列出預覽、
         # Live、Gemma 或帳號其實無法 generate 的型號；全數輪詢既慢又浪費額度。
-        configured = [n for n in preferred_models if not names or n in names]
-        self.names = list(dict.fromkeys(configured if preferred_models else names[:6]))
+        # 明確設定的白名單代表操作者刻意指定；不要因 models.list() 的回傳
+        # 延遲或 supported_actions 標記不完整而擅自移除。真正不支援的型號會在
+        # 首次 400/404 後停用，接著切換下一個。
+        self.names = list(dict.fromkeys(preferred_models if preferred_models else names[:6]))
         if not self.names:
             raise RuntimeError('No text models available; check GEMINI_MODELS and API access.')
         self.log('Model rotation: ' + ', '.join(self.names))
