@@ -105,6 +105,24 @@ jobs:
             source_repair_report.json
           if-no-files-found: ignore
 
+      - name: 顯示本輪掃描摘要
+        if: always()
+        run: |
+          if [ -f crawl_report.json ]; then
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path("crawl_report.json").read_text(encoding="utf-8"))
+          summary = report.get("summary", {})
+          print("### 爬蟲執行摘要")
+          print(f"- 狀態：{summary.get('status', 'unknown')}")
+          print(f"- 掃描來源：{summary.get('banks', 0)}")
+          print(f"- AI 呼叫：{summary.get('aiRequests', 0)}")
+          print(f"- AI 待重試頁面：{summary.get('aiFailedPages', 0)}")
+          print(f"- 資料是否變更：{summary.get('datasetChanged', False)}")
+          PY
+          fi
+
       - name: 檢查並發布更新至 data.json
         run: |
           git config --global user.name "github-actions[bot]"

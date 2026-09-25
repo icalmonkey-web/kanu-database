@@ -545,12 +545,12 @@ async def run():
         if page.get("status") == "ai_failed_preserved_old_data"
     )
     if ai_failed_pages:
-        atomic_json(REPORT_FILE, {"generatedAt": utc_now(), "banks": reports,
-            "summary": {"banks": len(reports), "needsReview": len(reports),
-                        "aiRequests": legacy.MODEL_POOL.requests,
-                        "status": "ai_unavailable_data_preserved", "aiFailedPages": ai_failed_pages}})
-        raise RuntimeError(
-            f"AI unavailable for {ai_failed_pages} changed page(s); existing data was preserved and nothing was published"
+        # AI 暫時不可用不是資料毀損：失敗頁在 crawl_bank 中不會寫入 Hash，
+        # 因此下次仍會重試。保留舊資料並讓其他成功／未變更來源完成，工作流
+        # 以 warning 呈現部分成功；真正的資料縮水與 JSON 損壞仍會在下方失敗。
+        print(
+            f"::warning title=AI pages preserved for retry::"
+            f"{ai_failed_pages} changed page(s) could not be analyzed; old data was preserved and these pages remain uncached"
         )
 
     now = datetime.now(timezone.utc).replace(tzinfo=None)
@@ -560,8 +560,14 @@ async def run():
         if not end or end >= now:
             active_rules.append(legacy.enrich_reward_fields(rule, rule.get("sourceUrl", "")))
     output = dict(old)
-    output.update(cards=list(cards.values()), rules=active_rules,
-        version=datetime.now(timezone.utc).strftime("%Y.%m.%d-v%H%M%S"), lastUpdated=utc_now())
+    next_cards = list(cards.values())
+    dataset_changed = next_cards != old.get("cards", []) or active_rules != old.get("rules", [])
+    output.update(cards=next_cards, rules=active_rules)
+    if dataset_changed:
+        output.update(
+            version=datetime.now(timezone.utc).strftime("%Y.%m.%d-v%H%M%S"),
+            lastUpdated=utc_now(),
+        )
     if len(output["cards"]) < max(1, int(len(old["cards"]) * 0.8)):
         raise RuntimeError(f"Refusing publish: card count collapsed {len(old['cards'])} -> {len(output['cards'])}")
     if len(output["rules"]) < max(1, int(len(old["rules"]) * 0.7)):
@@ -571,7 +577,10 @@ async def run():
     atomic_json(STATE_FILE, state)
     atomic_json(REPORT_FILE, {"generatedAt": utc_now(), "banks": reports,
         "summary": {"banks": len(reports), "needsReview": sum(r["status"] != "completed" for r in reports),
-                    "aiRequests": legacy.MODEL_POOL.requests}})
+                    "aiRequests": legacy.MODEL_POOL.requests,
+                    "status": "partial_ai_unavailable" if ai_failed_pages else "completed",
+                    "aiFailedPages": ai_failed_pages,
+                    "datasetChanged": dataset_changed}})
     atomic_json(ISSUER_FILE, update_issuer_scan_status(issuer_registry, reports, cards, rules))
     atomic_json(PAYMENT_FILE, update_payment_scan_status(payment_registry, reports, rules))
     print(f"DONE banks={len(reports)} cards={len(output['cards'])} rules={len(output['rules'])} AI={legacy.MODEL_POOL.requests}")
