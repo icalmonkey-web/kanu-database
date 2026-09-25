@@ -133,6 +133,19 @@ def load_json(path: Path, default):
         return default
 
 
+def load_json_or_fail(path: Path, required_list_key: str | None = None):
+    try:
+        with path.open("r", encoding="utf-8") as handle:
+            payload = json.load(handle)
+    except (OSError, json.JSONDecodeError) as exc:
+        raise RuntimeError(f"Refusing crawler run: invalid {path.name}: {exc}") from exc
+    if not isinstance(payload, dict):
+        raise RuntimeError(f"Refusing crawler run: {path.name} root must be an object")
+    if required_list_key and (not isinstance(payload.get(required_list_key), list) or not payload[required_list_key]):
+        raise RuntimeError(f"Refusing crawler run: {path.name}.{required_list_key} is missing or empty")
+    return payload
+
+
 def issuer_scan_due(issuer, now=None):
     if os.environ.get("FORCE_FULL_SCAN", "0") == "1":
         return True
@@ -150,7 +163,7 @@ def issuer_scan_due(issuer, now=None):
 
 
 def load_issuer_configs():
-    registry = load_json(ISSUER_FILE, {"issuers": []})
+    registry = load_json_or_fail(ISSUER_FILE, "issuers")
     issuers = registry.get("issuers", [])
     if not issuers:
         return legacy.PORTAL_CONFIGS
@@ -439,8 +452,10 @@ async def run():
     api_key = os.environ.get("GEMINI_API_KEY", "")
     if not api_key:
         raise ValueError("GEMINI_API_KEY environment variable is required")
-    old = load_json(DATA_FILE, {"cards": [], "rules": [], "commonExclusions": []})
-    state = load_json(STATE_FILE, {"pages": {}, "lastRunAt": ""})
+    old = load_json_or_fail(DATA_FILE, "cards")
+    if not isinstance(old.get("rules"), list) or not old["rules"]:
+        raise RuntimeError("Refusing crawler run: data.json.rules is missing or empty")
+    state = load_json_or_fail(STATE_FILE)
     if "pages" not in state:
         state["pages"] = {url: {"hash": digest} for url, digest in state.pop("pageHashes", {}).items()}
     preferred = [name for name in os.environ.get("GEMINI_MODELS", "").split(",") if name]
@@ -479,6 +494,10 @@ async def run():
     output = dict(old)
     output.update(cards=list(cards.values()), rules=active_rules,
         version=datetime.now(timezone.utc).strftime("%Y.%m.%d-v%H%M%S"), lastUpdated=utc_now())
+    if len(output["cards"]) < max(1, int(len(old["cards"]) * 0.8)):
+        raise RuntimeError(f"Refusing publish: card count collapsed {len(old['cards'])} -> {len(output['cards'])}")
+    if len(output["rules"]) < max(1, int(len(old["rules"]) * 0.7)):
+        raise RuntimeError(f"Refusing publish: rule count collapsed {len(old['rules'])} -> {len(output['rules'])}")
     state["lastRunAt"] = utc_now()
     atomic_json(DATA_FILE, output)
     atomic_json(STATE_FILE, state)

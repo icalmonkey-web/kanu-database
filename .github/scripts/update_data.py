@@ -256,6 +256,17 @@ def enrich_reward_fields(rule, source_url):
     if not rule.get("sourceUrl"):
         rule["sourceUrl"] = source_url
     rule.setdefault("registrationUrl", "")
+    methods = []
+    for method in rule.get("registrationMethods") or []:
+        if not isinstance(method, dict):
+            continue
+        method_type = str(method.get("type") or "").upper()
+        if method_type not in {"WEB", "APP", "PHONE"}:
+            continue
+        cleaned = dict(method)
+        cleaned["type"] = method_type
+        methods.append(cleaned)
+    rule["registrationMethods"] = methods
     rule.setdefault("fetchedAt", datetime.utcnow().isoformat() + "Z")
     return rule
 
@@ -284,6 +295,10 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False, p
    - 保險保額、保障額度、理賠上限不是刷卡金，也不是消費回饋上限。
    - 旅平險／旅遊不便險等保障只能標為 insurance_benefit，rewardAmount、capAmount、baseRate、promoRate 均不可填入保額數字，quickSearchEligible 必須為 false。
    - 抽獎獎金、贈品市價、機場服務次數也不可換算成現金回饋或參與回饋高低排序。
+5. 登錄方式必須依官方文字分類，不可假設每個活動都有網頁表單：
+   - WEB：官方明確提供可完成登錄的 https 網址。
+   - APP：官方要求在銀行 App 內操作；擷取 App 名稱、逐層操作路徑、活動名稱。只有官方明示 Deep Link、App Store 或 Google Play 網址才能填入，禁止猜 URL Scheme。
+   - PHONE：擷取官方電話、分機與活動代碼。單一活動可同時有 APP 與 PHONE 等多種方式。
 
 嚴格輸出合法純 JSON 格式：
 {{
@@ -335,6 +350,11 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False, p
       "validUntil": "YYYY-MM-DD；未明示則留空字串",
       "sourceUrl": "{source_url}",
       "registrationUrl": "若內文明確提供本活動的官方登錄按鈕或登錄表單網址，填入完整 https 網址；只有介紹頁或無法確認時留空字串",
+      "registrationMethods": [
+        {"type":"APP","label":"銀行 App 登錄","appName":"官方 App 名稱","deepLink":"僅填官方明示的 https Universal Link，否則留空","appStoreUrl":"官方 App Store 網址或空字串","playStoreUrl":"官方 Google Play 網址或空字串","path":["優惠","活動登錄"],"activityName":"App 內活動名稱","campaignCode":"活動代碼或空字串"},
+        {"type":"PHONE","label":"電話登錄","phone":"官方電話","extension":"分機或按鍵流程","campaignCode":"活動代碼","activityName":"活動名稱"},
+        {"type":"WEB","label":"網頁登錄","url":"可實際完成登錄的官方 https 網址","activityName":"活動名稱"}
+      ],
       "quotaInfo": "明確門檻說明(例: 簡單選人人享/任意選需指定特店/UP選需任務門檻)",
       "excludedKeywords": ["明確排除項目"]
     }}

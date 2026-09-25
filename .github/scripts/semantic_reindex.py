@@ -125,6 +125,9 @@ def build_prompt(rules: list[dict], pages: dict[str, str]) -> str:
             "matchedMerchants": rule.get("matchedMerchants", []),
             "existingKeywords": rule.get("searchKeywords", ""),
             "quotaInfo": rule.get("quotaInfo", ""),
+            "needReg": rule.get("needReg", False),
+            "regDeadline": rule.get("regDeadline", ""),
+            "existingRegistrationUrl": rule.get("registrationUrl", ""),
             "reward": {
                 "baseRate": rule.get("baseRate"), "promoRate": rule.get("promoRate"),
                 "rewardType": rule.get("rewardType"), "rewardAmount": rule.get("rewardAmount"),
@@ -143,8 +146,9 @@ def build_prompt(rules: list[dict], pages: dict[str, str]) -> str:
 5. quickSearchEligible：保險保額、抽獎最高獎金、機場服務、會員禮、年費資格等非日常消費回饋填 false；真正刷卡回饋填 true；無法確認時仍填 true並標 UNVERIFIED，避免破壞性誤刪。
 6. 遇到會員／帳戶等級、資產、薪轉、自動扣繳、任務、方案切換等階梯回饋，rewardCalculationMode 填 TIERED，rewardTiers 逐級列出 name、totalRate、baseRate、promoRate、isDefault、requirements、capAmount、capPeriod。最高級绝不能冒充默认级。只有广告写「最高」但等级不完整时填 MAX_ONLY。
 7. 保險保額、保障額度、理賠上限絕對不是刷卡金、現金回饋或 capAmount。此類規則 rewardType 填 insurance_benefit，rewardAmount/capAmount/baseRate/promoRate 清空或歸零，並標 NOT_SPENDING_REWARD、quickSearchEligible=false。抽獎獎金與贈品市價同樣不能當成確定回饋。
+8. registrationMethods：依官方片段擷取 WEB／APP／PHONE 登錄方式。APP 要填 appName、path、activityName、campaignCode；只有官方明示才填 deepLink/appStoreUrl/playStoreUrl，禁止猜 URL Scheme。PHONE 填 phone、extension、campaignCode；WEB 的 url 必須是能實際登錄的官方 https 網址，不可拿一般介紹頁冒充。
 
-輸出嚴格 JSON：{{"cards":[],"rules":[{{"id":"原id","intentTags":[],"intentEvidence":"","evidenceStatus":"VERIFIED|WEAK|UNVERIFIED","validationIssues":[],"quickSearchEligible":true,"rewardType":"percent|cash|points|draw|installment|insurance_benefit|unknown","rewardCalculationMode":"FLAT|TIERED|MAX_ONLY|UNKNOWN","rewardTiers":[{{"name":"一般資格","totalRate":1,"baseRate":1,"promoRate":0,"isDefault":true,"requirements":[],"capAmount":null,"capPeriod":""}}],"maxRateRequires":[]}}]}}
+輸出嚴格 JSON：{{"cards":[],"rules":[{{"id":"原id","intentTags":[],"intentEvidence":"","evidenceStatus":"VERIFIED|WEAK|UNVERIFIED","validationIssues":[],"quickSearchEligible":true,"rewardType":"percent|cash|points|draw|installment|insurance_benefit|unknown","rewardCalculationMode":"FLAT|TIERED|MAX_ONLY|UNKNOWN","rewardTiers":[{{"name":"一般資格","totalRate":1,"baseRate":1,"promoRate":0,"isDefault":true,"requirements":[],"capAmount":null,"capPeriod":""}}],"maxRateRequires":[],"registrationMethods":[{{"type":"APP|WEB|PHONE","label":"","appName":"","deepLink":"","appStoreUrl":"","playStoreUrl":"","path":[],"activityName":"","campaignCode":"","phone":"","extension":"","url":""}}]}}]}}
 輸入：{json.dumps(inputs, ensure_ascii=False)}
 """
 
@@ -209,6 +213,27 @@ def apply_batch(rules_by_id: dict[str, dict], result: dict, expected_ids: set[st
             })
         rule["rewardTiers"] = tiers
         rule["maxRateRequires"] = [str(item)[:120] for item in (row.get("maxRateRequires") or [])][:12]
+        methods = []
+        for method in row.get("registrationMethods", []) if isinstance(row.get("registrationMethods"), list) else []:
+            if not isinstance(method, dict):
+                continue
+            method_type = str(method.get("type") or "").upper()
+            if method_type not in {"WEB", "APP", "PHONE"}:
+                continue
+            methods.append({
+                "type": method_type, "label": str(method.get("label") or "")[:80],
+                "appName": str(method.get("appName") or "")[:80],
+                "deepLink": str(method.get("deepLink") or "")[:500],
+                "appStoreUrl": str(method.get("appStoreUrl") or "")[:500],
+                "playStoreUrl": str(method.get("playStoreUrl") or "")[:500],
+                "path": [str(item)[:80] for item in (method.get("path") or [])][:10],
+                "activityName": str(method.get("activityName") or rule.get("title") or "")[:160],
+                "campaignCode": str(method.get("campaignCode") or "")[:40],
+                "phone": str(method.get("phone") or "")[:40],
+                "extension": str(method.get("extension") or "")[:80],
+                "url": str(method.get("url") or "")[:500],
+            })
+        rule["registrationMethods"] = methods
         if is_insurance_benefit:
             rule["rewardCalculationMode"] = "UNKNOWN"
             rule["rewardTiers"] = []

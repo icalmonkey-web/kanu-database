@@ -25114,10 +25114,31 @@
         "設定本行帳戶自動扣繳富邦信用卡費或申請電子帳單且取消實體帳單"
       ],
       "needReg": true,
-      "regDeadline": "每月底前依各月份指定時間登錄",
-      "validUntil": "2026-12-31",
+      "regDeadline": "2026/9/20 16:00 至 2026/9/30 23:59",
+      "validUntil": "2026-09-30",
       "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/all_card/omiyage/omiyage.htm",
       "registrationUrl": "",
+      "registrationMethods": [
+        {
+          "type": "APP",
+          "label": "Fubon+ App 登錄",
+          "appName": "Fubon+ 台北富邦行動銀行",
+          "deepLink": "",
+          "appStoreUrl": "",
+          "playStoreUrl": "",
+          "path": ["優惠", "活動登錄"],
+          "activityName": "日韓泰加碼活動",
+          "campaignCode": "0903"
+        },
+        {
+          "type": "PHONE",
+          "label": "語音登錄",
+          "phone": "02-8751-1313",
+          "extension": "按 777，再按 1",
+          "campaignCode": "0903",
+          "activityName": "日韓泰加碼活動"
+        }
+      ],
       "quotaInfo": "日泰韓最高3%無上限+加碼3%(加碼上限1,000元/戶/季，需登錄且單筆實體消費滿1,000元)",
       "excludedKeywords": [
         "自動加值",
