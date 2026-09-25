@@ -111,7 +111,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
           git pull --rebase --autostash origin main
-          for file in data.json crawler_state.json crawl_report.json source_repair_report.json issuer_registry.json; do
+          for file in data.json crawler_state.json crawl_report.json source_repair_report.json issuer_registry.json payment_provider_registry.json; do
             if [ -e "$file" ]; then git add "$file"; fi
           done
           if git diff --staged --quiet; then

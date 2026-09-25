@@ -1022,6 +1022,10 @@
       <!-- ==================== TAB 1: 回饋快查 (HOME) ==================== -->
       <section id="view-home" class="space-y-3 pt-1">
         <div class="ghibli-card rounded-[22px] p-3 space-y-2.5 bg-white">
+          <div class="offer-view-switch grid grid-cols-2 gap-1 rounded-xl p-1" aria-label="快查類型">
+            <button id="quick-search-card" type="button" onclick="setQuickSearchMode('card')" class="offer-view-button offer-view-active" aria-pressed="true">💳 信用卡快查</button>
+            <button id="quick-search-payment" type="button" onclick="setQuickSearchMode('payment')" class="offer-view-button" aria-pressed="false">📱 行動支付快查</button>
+          </div>
           <div class="relative">
             <span class="search-line-icon absolute left-3.5 top-2.5 text-ghibliInk-500 text-sm" aria-hidden="true">
               <svg viewBox="0 0 32 32" fill="none"><circle cx="13" cy="13" r="8" stroke="currentColor" stroke-width="3"/><path d="M19 19L27 27" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
@@ -1042,7 +1046,7 @@
           </div>
           <div id="search-context-clarifier" class="hidden rounded-xl border border-[#dce9e6] bg-[#f5faf9] px-3 py-2"></div>
 
-          <div class="grid grid-cols-2 gap-2 pt-0.5">
+          <div id="card-scope-controls" class="grid grid-cols-2 gap-2 pt-0.5">
             <button 
               id="btn-scope-my" 
               onclick="setScope('my')" 
@@ -1062,7 +1066,7 @@
             </button>
           </div>
 
-          <div class="offer-view-switch grid grid-cols-2 gap-1 rounded-xl p-1" aria-label="優惠類型">
+          <div id="card-offer-controls" class="offer-view-switch grid grid-cols-2 gap-1 rounded-xl p-1" aria-label="優惠類型">
             <button id="offer-view-daily" type="button" onclick="setOfferView('daily')" class="offer-view-button" aria-pressed="true">日常刷卡</button>
             <button id="offer-view-acquisition" type="button" onclick="setOfferView('acquisition')" class="offer-view-button" aria-pressed="false">辦卡優惠</button>
           </div>
@@ -1331,6 +1335,7 @@
 
     let currentSearchText = '';
     let currentSearchContext = '';
+    let currentQuickSearchMode = 'card';
     let currentRegSearchText = '';
     let currentScope = 'all';
     let currentBankFilter = 'ALL';
@@ -1496,6 +1501,10 @@
         id: safeDataId(rawRule.id, `rule_gen_${index}`),
         cardId: safeDataId(rawRule.cardId, ''),
         bank: safePlainText(rawRule.bank),
+        offerDomain: safePlainText(rawRule.offerDomain || 'CARD').toUpperCase(),
+        paymentProvider: safePlainText(rawRule.paymentProvider),
+        fundingMethods: Array.isArray(rawRule.fundingMethods) ? rawRule.fundingMethods.map(value => safePlainText(value)).filter(Boolean) : [],
+        stackingStatus: safePlainText(rawRule.stackingStatus || 'UNKNOWN').toUpperCase(),
         category: safePlainText(rawRule.category),
         searchKeywords: safePlainText(rawRule.searchKeywords),
         intentTags: Array.isArray(rawRule.intentTags) ? rawRule.intentTags.map(value => safePlainText(value)) : [],
@@ -1678,6 +1687,25 @@
       currentRecommendationMode = mode === 'easy' ? 'easy' : 'max';
       localStorage.setItem('kanu_recommendation_mode', currentRecommendationMode);
       renderRecommendationMode();
+      renderSpendingList();
+    }
+
+    function setQuickSearchMode(mode) {
+      currentQuickSearchMode = mode === 'payment' ? 'payment' : 'card';
+      const isPayment = currentQuickSearchMode === 'payment';
+      ['card', 'payment'].forEach(value => {
+        const button = document.getElementById(`quick-search-${value}`);
+        if (!button) return;
+        const active = value === currentQuickSearchMode;
+        button.classList.toggle('offer-view-active', active);
+        button.setAttribute('aria-pressed', String(active));
+      });
+      document.getElementById('card-scope-controls')?.classList.toggle('hidden', isPayment);
+      document.getElementById('card-offer-controls')?.classList.toggle('hidden', isPayment);
+      const input = document.getElementById('search-input');
+      if (input) input.placeholder = isPayment
+        ? '輸入店家、通路或支付工具...'
+        : '輸入任意消費品項、店家或通路...';
       renderSpendingList();
     }
 
@@ -2289,8 +2317,107 @@
       });
     }
 
+    const MOBILE_PAYMENT_PROVIDERS = [
+      { name: 'LINE Pay', aliases: ['LINEPAY', '連加支付'] },
+      { name: '全支付', aliases: ['全支付', 'PXPAYPLUS'] },
+      { name: '悠遊付', aliases: ['悠遊付', 'EASYWALLET'] },
+      { name: '街口支付', aliases: ['街口支付', 'JKOPAY'] },
+      { name: 'icash Pay', aliases: ['ICASHPAY', '愛金付'] },
+      { name: '台灣 Pay', aliases: ['台灣PAY', 'TAIWANPAY', 'TWQR'] }
+    ];
+
+    function getRulePaymentProvider(rule) {
+      if (rule.offerDomain === 'PAYMENT' && rule.paymentProvider) return rule.paymentProvider;
+      const merchantText = Array.isArray(rule.matchedMerchants) ? rule.matchedMerchants.join(' ') : '';
+      // 只用活動標題、分類與適用通路判斷支付工具；searchKeywords 可能只是
+      // AI 聯想，不能據此把一般信用卡活動誤放進行動支付快查。
+      const corpus = normalizeText(`${rule.title || ''} ${rule.category || ''} ${merchantText}`);
+      const provider = MOBILE_PAYMENT_PROVIDERS.find(item =>
+        item.aliases.some(alias => corpus.includes(normalizeText(alias)))
+      );
+      return provider?.name || '';
+    }
+
+    function renderMobilePaymentList() {
+      const container = document.getElementById('spending-list-container');
+      const spendAmount = Math.max(0, parseFloat(document.getElementById('spend-amount-input')?.value) || 0);
+      const query = currentSearchText.trim();
+      if (!query) {
+        container.innerHTML = `
+          <div class="ghibli-card rounded-[22px] px-5 py-7 text-center bg-white">
+            <div class="text-2xl mb-2">📱</div>
+            <div class="text-sm font-black text-ghibliInk-800">輸入店家、通路或支付工具</div>
+            <div class="mt-1 text-[11px] font-bold text-ghibliInk-500">例如：全聯、超商、LINE Pay、悠遊付</div>
+          </div>`;
+        return;
+      }
+
+      const normalizedQuery = normalizeText(query);
+      const cardMap = new Map(appCards.map(card => [card.id, card]));
+      const matches = appRules.map(rule => {
+        const provider = getRulePaymentProvider(rule);
+        if (!provider || rule.quickSearchEligible === false) return null;
+        const merchantText = Array.isArray(rule.matchedMerchants) ? rule.matchedMerchants.join(' ') : '';
+        const corpus = normalizeText(`${provider} ${rule.title || ''} ${rule.category || ''} ${merchantText} ${(rule.intentTags || []).join(' ')} ${rule.intentEvidence || ''}`);
+        if (!corpus.includes(normalizedQuery)) return null;
+        const calc = calcRuleCashBack(rule, spendAmount);
+        return { rule, provider, calc, card: cardMap.get(rule.cardId) || null };
+      }).filter(Boolean);
+
+      matches.sort((a, b) => {
+        const officialDiff = Number(b.rule.offerDomain === 'PAYMENT') - Number(a.rule.offerDomain === 'PAYMENT');
+        if (officialDiff) return officialDiff;
+        return (b.calc.rankingCash || b.calc.totalCash || 0) - (a.calc.rankingCash || a.calc.totalCash || 0);
+      });
+
+      const unique = new Map();
+      matches.forEach(item => {
+        const key = `${normalizeText(item.provider)}::${normalizeText(item.rule.title)}`;
+        if (!unique.has(key)) unique.set(key, item);
+      });
+      const list = [...unique.values()].slice(0, 20);
+      if (!list.length) {
+        container.innerHTML = `
+          <div class="ghibli-card rounded-[22px] p-6 text-center text-xs font-bold text-ghibliInk-600 bg-white">
+            <div class="text-2xl mb-1">⌕</div>
+            <div>目前沒有找到可核對的行動支付活動</div>
+            <div class="mt-1 text-[10px] text-ghibliInk-500">這不代表市場上完全沒有優惠，可能仍待官方來源更新。</div>
+          </div>`;
+        return;
+      }
+
+      container.innerHTML = list.map(({ rule, provider, card }) => {
+        const funding = rule.fundingMethods?.length
+          ? rule.fundingMethods.join('、')
+          : card ? `需綁定 ${card.bank} ${card.cardName}` : '付款來源依官方活動規則';
+        const sourceLabel = rule.offerDomain === 'PAYMENT' ? '支付工具官方活動' : '銀行合作活動';
+        const stacking = rule.stackingStatus === 'STACKABLE' ? '官方明示可疊加'
+          : rule.stackingStatus === 'NOT_STACKABLE' ? '不可疊加' : '是否疊加待確認';
+        return `
+          <div class="ghibli-card recommend-glass-card rounded-[22px] p-3.5 space-y-2">
+            <div class="flex items-start justify-between gap-2">
+              <div><div class="text-[10px] font-black text-ghibliInk-500">${sourceLabel}</div><div class="text-sm font-black text-ghibliInk-800">${provider}</div></div>
+              <div class="text-base font-black text-ghibliGold-600">${getRuleRewardLabel(rule)}</div>
+            </div>
+            <div class="text-xs font-black text-ghibliInk-800">${rule.title}</div>
+            <div class="flex flex-wrap gap-1 text-[9.5px] font-bold">
+              <span class="rounded-lg bg-[#eef8f5] px-2 py-1 text-[#25877f]">${funding}</span>
+              ${rule.needReg ? '<span class="rounded-lg bg-[#fff1ef] px-2 py-1 text-[#d95f59]">需先登錄／領券</span>' : ''}
+              <span class="rounded-lg bg-[#f5f7f6] px-2 py-1 text-ghibliInk-500">${stacking}</span>
+            </div>
+            ${renderRuleSourceLink(rule)}
+          </div>`;
+      }).join('');
+    }
+
     // ==================== 智慧聚合與優先推薦試算引擎 ====================
     function renderSpendingList() {
+      if (currentQuickSearchMode === 'payment') {
+        const warnBanner = document.getElementById('exclusion-warning-banner');
+        if (warnBanner) warnBanner.classList.add('hidden');
+        renderMobilePaymentList();
+        return;
+      }
       const container = document.getElementById('spending-list-container');
       const spendInput = document.getElementById('spend-amount-input');
       const spendAmount = Math.max(0, parseFloat(spendInput.value) || 0);

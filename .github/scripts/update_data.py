@@ -273,10 +273,19 @@ def enrich_reward_fields(rule, source_url):
 def extract_with_gemini(bank_name, content, source_url, is_event_detail=False, product_types=None):
     product_types = product_types or ["CREDIT"]
     product_scope = "、".join(product_types)
-    role_desc = "活動詳情分析專家" if is_event_detail else "支付卡型錄審查專家"
+    is_payment_source = "PAYMENT" in product_types
+    role_desc = "行動支付官方優惠分析專家" if is_payment_source else ("活動詳情分析專家" if is_event_detail else "支付卡型錄審查專家")
+    payment_rules = """
+【行動支付官方來源專用規則】：
+- 本頁來源是支付工具官方網站，不是發卡銀行。cards 必須回傳空陣列，不得把 LINE Pay、全支付、悠遊付等服務建立成信用卡。
+- 只擷取官方頁面明確列出的消費、付款、領券或登錄優惠；新聞稿中的宣傳數字若缺少完整條件，evidenceStatus 應為 WEAK，quickSearchEligible 應為 false。
+- 每筆 rule 必須填 offerDomain: PAYMENT、paymentProvider、fundingMethods（信用卡／銀行帳戶／儲值金等官方明示方式）、stackingStatus（STACKABLE／NOT_STACKABLE／UNKNOWN）。
+- 若活動限定綁定某銀行或卡片，只寫入 eligibilityRequirements 與 fundingMethods，不得建立或猜測 cardId。
+""" if is_payment_source else ""
     prompt = f"""
 你現在是台灣頂尖金融條款與支付卡回饋精算專家。本機構允許收錄的產品類型為：{product_scope}。
 以下是透過瀏覽器抓取自【{bank_name}】官方網頁的純文字內容。
+{payment_rules}
 
 請研讀內容，提取信用卡與權益規則，並依據以下【精確關聯與防幻覺鐵律】處理 searchKeywords：
 
@@ -321,6 +330,10 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False, p
     {{
       "id": "規則唯一碼",
       "cardId": "對應卡片的id",
+      "offerDomain": "發卡銀行活動填 CARD；支付工具官方活動填 PAYMENT",
+      "paymentProvider": "支付工具官方名稱；非支付工具活動留空字串",
+      "fundingMethods": ["官方明示可用的付款來源或限定卡片"],
+      "stackingStatus": "STACKABLE、NOT_STACKABLE 或 UNKNOWN",
       "title": "回饋活動名稱(方案標明)",
       "benefitPlan": "若此活動屬於需切換的權益方案，填官方方案名稱；否則留空字串",
       "selectionMode": "同一時間只能選一種方案時填 SWITCHABLE；可以疊加則填 STACKABLE；不確定時留空字串",

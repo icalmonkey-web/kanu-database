@@ -46,6 +46,29 @@ class FastPipelineTests(unittest.TestCase):
         self.assertIn("LINE Bank", names)
         self.assertIn("美國運通", names)
 
+    def test_payment_provider_registry_drives_separate_payment_sources(self):
+        with patch.dict("os.environ", {"FORCE_FULL_SCAN": "1"}):
+            configs = fast_update.load_issuer_configs()
+        payment_configs = [row for row in configs if row.get("source_type") == "PAYMENT"]
+        names = {row["bank"] for row in payment_configs}
+        self.assertEqual(
+            names,
+            {"LINE Pay", "全支付", "悠遊付", "街口支付", "icash Pay", "台灣 Pay"},
+        )
+        self.assertTrue(all(row["product_types"] == ["PAYMENT"] for row in payment_configs))
+
+    def test_payment_status_counts_only_payment_domain_offers(self):
+        registry = {"providers": [{"name": "LINE Pay"}]}
+        reports = [{"bank": "LINE Pay", "sourceType": "PAYMENT", "status": "completed",
+                    "completedAt": "now", "unvisited": [], "pages": []}]
+        rules = {
+            "payment": {"offerDomain": "PAYMENT", "paymentProvider": "LINE Pay"},
+            "card": {"offerDomain": "CARD", "paymentProvider": "LINE Pay"},
+        }
+        updated = fast_update.update_payment_scan_status(registry, reports, rules)["providers"][0]
+        self.assertEqual(updated["discoveredOfferCount"], 1)
+        self.assertEqual(updated["lastScanStatus"], "completed")
+
     def test_scan_frequency_skips_low_frequency_issuer_until_due(self):
         now = datetime(2026, 9, 25, tzinfo=timezone.utc)
         issuer = {"scanFrequency": "weekly", "lastSuccessfulScanAt": "2026-09-24T00:00:00Z"}

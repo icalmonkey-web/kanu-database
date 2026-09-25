@@ -32,6 +32,7 @@ DATA_FILE = ROOT / "data.json"
 STATE_FILE = ROOT / "crawler_state.json"
 REPORT_FILE = ROOT / "crawl_report.json"
 ISSUER_FILE = ROOT / "issuer_registry.json"
+PAYMENT_FILE = ROOT / "payment_provider_registry.json"
 CHECKPOINT_DIR = ROOT / "checkpoints"
 PAGE_TIMEOUT = float(os.environ.get("PAGE_TIMEOUT_SECONDS", "25"))
 CRAWL_BUDGET_SECONDS = float(os.environ.get("CRAWL_BUDGET_SECONDS", "4200"))
@@ -181,8 +182,48 @@ def load_issuer_configs():
             "allowed_hosts": issuer.get("allowedHosts", []),
             "event_link_pattern": issuer.get("eventLinkPattern", ""),
             "product_types": product_types,
+            "source_type": "CARD",
+        })
+    payment_registry = load_json_or_fail(PAYMENT_FILE, "providers")
+    for provider in payment_registry.get("providers", []):
+        if not provider.get("enabled", False) or not issuer_scan_due(provider):
+            continue
+        configs.append({
+            "bank": provider["name"],
+            "card_urls": [],
+            "event_portals": provider.get("offerPortalUrls", []),
+            "allowed_hosts": provider.get("allowedHosts", []),
+            "event_link_pattern": provider.get("eventLinkPattern", ""),
+            "product_types": ["PAYMENT"],
+            "source_type": "PAYMENT",
         })
     return configs
+
+
+def update_payment_scan_status(registry, reports, rules):
+    report_by_provider = {
+        row.get("bank"): row for row in reports if row.get("sourceType") == "PAYMENT"
+    }
+    for provider in registry.get("providers", []):
+        name = provider.get("name")
+        report = report_by_provider.get(name)
+        provider["discoveredOfferCount"] = sum(
+            1 for rule in rules.values()
+            if rule.get("offerDomain") == "PAYMENT" and rule.get("paymentProvider") == name
+        )
+        if not report:
+            continue
+        provider["lastScanAt"] = report.get("completedAt", utc_now())
+        provider["lastScanStatus"] = report.get("status", "unknown")
+        provider["unvisitedPageCount"] = len(report.get("unvisited", []))
+        provider["failedPageCount"] = sum(
+            page.get("status") in {"fetch_failed", "ai_failed_preserved_old_data", "insufficient_content"}
+            for page in report.get("pages", [])
+        )
+        if report.get("status") == "completed":
+            provider["lastSuccessfulScanAt"] = report.get("completedAt", utc_now())
+    registry["lastUpdatedAt"] = utc_now()
+    return registry
 
 
 def update_issuer_scan_status(registry, reports, cards, rules):
@@ -347,7 +388,8 @@ async def crawl_bank(config, client, browser, state, state_lock, ai_gate, merge_
     seeds = list(dict.fromkeys(config.get("card_urls", []) + config.get("event_portals", [])))
     hosts = {urlsplit(url).hostname for url in seeds} | set(config.get("allowed_hosts", []))
     queue, seen = deque((url, 0, None) for url in seeds), set(seeds)
-    report = {"bank": bank, "status": "running", "pages": [], "unvisited": [], "startedAt": utc_now()}
+    source_type = config.get("source_type", "CARD")
+    report = {"bank": bank, "sourceType": source_type, "status": "running", "pages": [], "unvisited": [], "startedAt": utc_now()}
     context = await browser.new_context(user_agent=USER_AGENT, locale="zh-TW", viewport={"width": 1440, "height": 900})
     try:
         while queue and len(report["pages"]) < MAX_PAGES:
@@ -421,6 +463,12 @@ async def crawl_bank(config, client, browser, state, state_lock, ai_gate, merge_
                 if extracted is None:
                     row["status"] = "ai_failed_preserved_old_data"
                     continue
+                if source_type == "PAYMENT":
+                    extracted["cards"] = []
+                    for offer in extracted.get("rules", []):
+                        offer["cardId"] = ""
+                        offer["offerDomain"] = "PAYMENT"
+                        offer["paymentProvider"] = bank
                 async with merge_lock:
                     stale = [key for key, rule in rules.items() if rule.get("bank") == bank and rule.get("sourceUrl") == result.url]
                     for key in stale:
@@ -462,6 +510,7 @@ async def run():
     if "pages" not in state:
         state["pages"] = {url: {"hash": digest} for url, digest in state.pop("pageHashes", {}).items()}
     issuer_registry = load_json_or_fail(ISSUER_FILE, "issuers")
+    payment_registry = load_json_or_fail(PAYMENT_FILE, "providers")
     issuer_configs = load_issuer_configs()
     if not issuer_configs:
         print("NOOP: no issuer is due for scanning; existing data remains unchanged and AI was not called.")
@@ -524,6 +573,7 @@ async def run():
         "summary": {"banks": len(reports), "needsReview": sum(r["status"] != "completed" for r in reports),
                     "aiRequests": legacy.MODEL_POOL.requests}})
     atomic_json(ISSUER_FILE, update_issuer_scan_status(issuer_registry, reports, cards, rules))
+    atomic_json(PAYMENT_FILE, update_payment_scan_status(payment_registry, reports, rules))
     print(f"DONE banks={len(reports)} cards={len(output['cards'])} rules={len(output['rules'])} AI={legacy.MODEL_POOL.requests}")
 
 
