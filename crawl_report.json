@@ -1,9 +1,3205 @@
 {
-  "generatedAt": "2026-09-25T12:57:04.288946Z",
-  "banks": [],
+  "generatedAt": "2026-09-25T19:36:30.580336Z",
+  "banks": [
+    {
+      "bank": "將來銀行",
+      "sourceType": "CARD",
+      "status": "needs_review",
+      "pages": [
+        {
+          "url": "https://www.nextbank.com.tw/product/card",
+          "parent": null,
+          "depth": 0,
+          "renderer": "httpx",
+          "status": "unchanged_304"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/events",
+          "parent": null,
+          "depth": 0,
+          "renderer": "httpx",
+          "status": "unchanged_static_hash"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "parent": null,
+          "depth": 0,
+          "renderer": "httpx",
+          "status": "unchanged_304"
+        },
+        {
+          "url": "https://event.nextbank.com.tw/corporate",
+          "parent": "https://www.nextbank.com.tw/product/card",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "insufficient_content"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66",
+          "parent": "https://www.nextbank.com.tw/product/card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5",
+          "parent": "https://www.nextbank.com.tw/product/card",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://event.nextbank.com.tw/cobrandcard",
+          "parent": "https://www.nextbank.com.tw/product/card",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "insufficient_content"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement",
+          "parent": "https://www.nextbank.com.tw/product/card",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "fetch_failed",
+          "error": "ConnectError: All connection attempts failed; RuntimeError: HTTP 404"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1269",
+          "parent": "https://www.nextbank.com.tw/events",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://event.nextbank.com.tw/n-business",
+          "parent": "https://www.nextbank.com.tw/events",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "insufficient_content"
+        },
+        {
+          "url": "https://event.nextbank.com.tw/forex/%E9%A0%81%E9%9D%A2?deviceModeForBot=desktop&slideIndex=0",
+          "parent": "https://www.nextbank.com.tw/events",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "insufficient_content"
+        },
+        {
+          "url": "https://event.nextbank.com.tw/stockvip",
+          "parent": "https://www.nextbank.com.tw/events",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "insufficient_content"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1187",
+          "parent": "https://www.nextbank.com.tw/events",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1145",
+          "parent": "https://www.nextbank.com.tw/events",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://event.nextbank.com.tw/cobrandcard/",
+          "parent": "https://www.nextbank.com.tw/events",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "insufficient_content"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1279",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_304"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/Event1271",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_304"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1257",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_304"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1256",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1255",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1254",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1249",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_304"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1230",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1244",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1243",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1210",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1220",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1225",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1224",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1223",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1222",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1221",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1200",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_304"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1199",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_304"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/WWMQ3EVENTSTAFF",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/WWMQ3EVENT",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1186",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_304"
+        }
+      ],
+      "unvisited": [
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1198",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1197",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1195",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1193",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1192",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event91",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1185",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1177",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1176",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/WMVIP2026",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1153",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event0274",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/Event1011",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event987",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/Event937",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/Event938",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/Event940",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/Event939",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66/opt0028",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66/opt0027",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66/opt0026",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66/opt0025",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66/opt0024",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66/opt0023",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66/opt0022",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66/opt0021",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66/opt0020",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66/opt0019",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66/opt0017",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66/announcement101",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66/announcement100",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66/announcement042",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66/announcement040",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66/announcement024",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity027",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity026",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity025",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity024",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity023",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity020",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity019",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity018",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity017",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity016",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity014",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity013",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity012",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity011",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity009",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity008",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity007",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity006",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity005",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity004",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity003",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity002",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5/activity001",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/event1268",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/1241event",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/event1128",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/event1071",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/event951",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement0617",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/fadatsai_2025",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement180",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement120",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement0111",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement095",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement093",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement044",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement082",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement081",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement068",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement066",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement056",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement037",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement023",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement20",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement17",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement03",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/announcement02",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/ImportantNotice001",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news123",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news121",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news120",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news118",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news119",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news117",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news116",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news111",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news110",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news107",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news106",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news105",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news104",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news103",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news102",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news101",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news100",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news99",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news115",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news98",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news97",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news96",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news95",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news94",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news93",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news92",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news90",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news89",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news88",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news87",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news86",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news85",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news83",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news82",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news81",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news84",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news80",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news79",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/new77",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news76",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news75",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news74",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news73",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news72",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news71",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news70",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news69",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news68",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news67",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news66",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news65",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news64",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news63",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news62",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news61",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news60",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news59",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news58",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news57",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news56",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news55",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news54",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news53",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news52",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/News51",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news50",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news49",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news48",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news47",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news46",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/NEWS45",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news44",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news43",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news42",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/News41",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news40",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news39",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news38",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news37",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news36",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news35",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news34",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news31",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news30",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/NEWS29",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/NEWS28",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news27",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/News25",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news26",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/NEWS24",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/NEWS23",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news22",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news21",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/NEWS19",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/NEWS20",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news17",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news16",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news14",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news11",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news10",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news9",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news7",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news6",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news5",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news3",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news2",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news1",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event1272",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0662",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0661",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0660",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0659",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0658",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0657",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0656",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0655",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0654",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0653",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0652",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0648",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0647",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0650",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0645",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0643",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0644",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0642",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0641",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0640",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0639",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0638",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0637",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0636",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0635",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0633",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0634",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0632",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0631",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/event0630",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement0618",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement201",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement197",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement199",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement198",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement196",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement192",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement194",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement193",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement191",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement190",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement166",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement163",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement165",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement164",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement162",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement161",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement160",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement158",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement159",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement157",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement156",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement155",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement154",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement152",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement153",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement149",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement150",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement148",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement147",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement146",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement144",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement143",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement142",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement141",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement140",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement138",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement136",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement135",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement134",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement133",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement132",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement131",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement130",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement129",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement128",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement127",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement126",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement125",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement124",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement123",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement122",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement119",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement118",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement115",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement116",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement114",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement112",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement111",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement109",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement107",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement106",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement105",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement102",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement092",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement098",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement094",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement091",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement090",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement087",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement085",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement084",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement083",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement080",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement079",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement077",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement075",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement073",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement072",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement071",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement069",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement064",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement063",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement061",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement060",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement059",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement058",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement048",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement055",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement054",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement053",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement052",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement051",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement050",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement046",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement049",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement045",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement035",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement039",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement034",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement038",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement036",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement033",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement032",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement031",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement030",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement029",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement026",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement025",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement022",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement021",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement018",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement18",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement15",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement16",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement14",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement13",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement11",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement10",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement09",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7/announcement08",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
+        }
+      ],
+      "startedAt": "2026-09-25T19:11:08.891674Z",
+      "completedAt": "2026-09-25T19:30:16.598051Z"
+    },
+    {
+      "bank": "LINE Pay",
+      "sourceType": "PAYMENT",
+      "status": "needs_review",
+      "pages": [
+        {
+          "url": "https://pay.line.me/portal/tw/about/promotions",
+          "parent": null,
+          "depth": 0,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://pay.line.me/portal/tw/business/benefit",
+          "parent": "https://pay.line.me/portal/tw/about/promotions",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://pay.line.me/portal/tw/business/promotion",
+          "parent": "https://pay.line.me/portal/tw/about/promotions",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://pay.line.me/portal/tw/about/promotions?progressType=ONGOING",
+          "parent": "https://pay.line.me/portal/tw/about/promotions",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://pay.line.me/portal/tw/about/promotions?progressType=ENDED",
+          "parent": "https://pay.line.me/portal/tw/about/promotions",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://web-tw-pay.line.me/cms/event/forward",
+          "parent": "https://pay.line.me/portal/tw/about/promotions",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "insufficient_content"
+        },
+        {
+          "url": "https://web-tw-pay.line.me/svc/event/display2/b9adab58-4e1a-456d-af64-cbe31a4694cc",
+          "parent": "https://pay.line.me/portal/tw/about/promotions?progressType=ENDED",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://web-tw-pay.line.me/svc/event/display2/39de4e08-eab3-4a69-b6da-0ef06ec6b16c",
+          "parent": "https://pay.line.me/portal/tw/about/promotions?progressType=ENDED",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        }
+      ],
+      "unvisited": [],
+      "startedAt": "2026-09-25T19:11:08.892262Z",
+      "completedAt": "2026-09-25T19:22:10.892267Z"
+    },
+    {
+      "bank": "全支付",
+      "sourceType": "PAYMENT",
+      "status": "needs_review",
+      "pages": [
+        {
+          "url": "https://www.pxpayplus.com.tw/",
+          "parent": null,
+          "depth": 0,
+          "renderer": "httpx",
+          "status": "fetch_failed",
+          "error": "ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.pxpayplus.com.tw'. (_ssl.c:1016); Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.pxpayplus.com.tw/\nCall log:\n  - navigating to \"https://www.pxpayplus.com.tw/\", waiting until \"domcontentloaded\"\n"
+        }
+      ],
+      "unvisited": [],
+      "startedAt": "2026-09-25T19:11:08.892457Z",
+      "completedAt": "2026-09-25T19:11:09.738430Z"
+    },
+    {
+      "bank": "悠遊付",
+      "sourceType": "PAYMENT",
+      "status": "needs_review",
+      "pages": [
+        {
+          "url": "https://www.easycard.com.tw/",
+          "parent": null,
+          "depth": 0,
+          "renderer": "httpx",
+          "status": "ai_failed_preserved_old_data"
+        },
+        {
+          "url": "https://event.easycard.com.tw/news",
+          "parent": null,
+          "depth": 0,
+          "renderer": "httpx",
+          "status": "fetch_failed",
+          "error": "ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'event.easycard.com.tw'. (_ssl.c:1016); Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://event.easycard.com.tw/news\nCall log:\n  - navigating to \"https://event.easycard.com.tw/news\", waiting until \"domcontentloaded\"\n"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=1&page=1",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=2&page=1",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=3&page=1",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=4&page=1",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473503%2C1508721809%2C1508721839%2C1508721884%2C1506473490%2C&id=1781247995",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473490%2C1506473503%2C1508721809%2C&id=1786529493",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473503%2C1508721839%2C1506473490%2C&id=1785726165",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473503%2C1506473490%2C1508721809%2C&id=1787728059",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?%3Fcls=1506473503%2C1508721809%2C1508721839%2C1508721884%2C1506473490%2C&id=1781250228",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "ai_failed_preserved_old_data"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473503%2C1506473490%2C&id=1768380568",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473503%2C&id=1774403633",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473490%2C1506473503%2C1508721809%2C&id=1784275915",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473490%2C1506473503%2C&id=1785477114",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473490%2C1506473503%2C1508721809%2C&id=1780993209",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473490%2C&id=1780393919",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1790129374",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1788231265",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1788145840",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1786939254",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1785999948",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1784097082",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offers?page=1",
+          "parent": "https://www.easycard.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=1",
+          "parent": "https://www.easycard.com.tw/news",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=2",
+          "parent": "https://www.easycard.com.tw/news",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=3",
+          "parent": "https://www.easycard.com.tw/news",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=4",
+          "parent": "https://www.easycard.com.tw/news",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1788858109",
+          "parent": "https://www.easycard.com.tw/news",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1788316318",
+          "parent": "https://www.easycard.com.tw/news",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=1&page=2",
+          "parent": "https://www.easycard.com.tw/news",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=1&page=3",
+          "parent": "https://www.easycard.com.tw/news",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=1&page=4",
+          "parent": "https://www.easycard.com.tw/news",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=1&page=5",
+          "parent": "https://www.easycard.com.tw/news",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=1&page=6",
+          "parent": "https://www.easycard.com.tw/news",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=1&page=7",
+          "parent": "https://www.easycard.com.tw/news",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=1&page=8",
+          "parent": "https://www.easycard.com.tw/news",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=1&page=9",
+          "parent": "https://www.easycard.com.tw/news",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=1&page=10",
+          "parent": "https://www.easycard.com.tw/news",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        }
+      ],
+      "unvisited": [
+        {
+          "url": "https://www.easycard.com.tw/news?cls=1&page=11",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=2&page=2",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=2&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=2&page=3",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=2&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=2&page=4",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=2&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=2&page=5",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=2&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=2&page=6",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=2&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=2&page=7",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=2&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=2&page=8",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=2&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=2&page=9",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=2&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=2&page=10",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=2&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=2&page=11",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=2&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=3&id=1760431113",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=3&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=3&id=1758867225",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=3&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=3&id=1742540438",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=3&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=3&page=2",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=3&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=3&page=3",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=3&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=3&page=4",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=3&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=3&page=5",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=3&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=3&page=6",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=3&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=3&page=7",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=3&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=3&page=8",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=3&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=3&page=9",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=3&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=3&page=10",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=3&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=3&page=11",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=3&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=4&page=2",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=4&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=4&page=3",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=4&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/news?cls=4&page=4",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=4&page=1"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offers?cls=1506473503%2C1508721809%2C1508721839%2C1508721884%2C1506473490%2C",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/offer?cls=1506473503%2C1508721809%2C1508721839%2C1508721884%2C1506473490%2C&id=1781247995"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offers?cls=1506473490%2C1506473503%2C1508721809%2C",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/offer?cls=1506473490%2C1506473503%2C1508721809%2C&id=1786529493"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473490%2C1506473503%2C1508721809%2C&id=1744609772",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/offer?cls=1506473490%2C1506473503%2C1508721809%2C&id=1786529493"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offers?cls=1506473503%2C1508721839%2C1506473490%2C",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/offer?cls=1506473503%2C1508721839%2C1506473490%2C&id=1785726165"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offers?cls=1506473503%2C1506473490%2C1508721809%2C",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/offer?cls=1506473503%2C1506473490%2C1508721809%2C&id=1787728059"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offers?cls=1506473503%2C1506473490%2C",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/offer?cls=1506473503%2C1506473490%2C&id=1768380568"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offers?cls=1506473503%2C",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/offer?cls=1506473503%2C&id=1774403633"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offers?cls=1506473490%2C1506473503%2C",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/offer?cls=1506473490%2C1506473503%2C&id=1785477114"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473503%2C1506473490%2C&id=1785403330",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/offer?cls=1506473490%2C1506473503%2C&id=1785477114"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473490%2C1508721809%2C1506473503%2C&id=1780279970",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/offer?cls=1506473490%2C1506473503%2C&id=1785477114"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473519%2C1506473490%2C1506473503%2C&id=1779072774",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/offer?cls=1506473490%2C1506473503%2C&id=1785477114"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473490%2C1506473503%2C1508721809%2C1508721884%2C&id=1747884970",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/offer?cls=1506473490%2C1506473503%2C&id=1785477114"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473519%2C1506473490%2C1506473503%2C&id=1766109563",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/offer?cls=1506473490%2C1506473503%2C1508721809%2C&id=1780993209"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473503%2C1506473490%2C&id=1781076286",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/offer?cls=1506473490%2C1506473503%2C1508721809%2C&id=1780993209"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1508721809%2C1506473490%2C&id=1781148070",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/offer?cls=1506473490%2C1506473503%2C1508721809%2C&id=1780993209"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offers?cls=1506473490%2C",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/offer?cls=1506473490%2C&id=1780393919"
+        },
+        {
+          "url": "https://www.easycard.com.tw/offer?cls=1506473503%2C1506473490%2C&id=1781075581",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/offer?cls=1506473490%2C&id=1780393919"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1787551964",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=2"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1786005321",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=2"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1785738790",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=3"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1785401883",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=3"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1783069323",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=3"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1782887009",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=3"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1782885616",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=4"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1782788212",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=4"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1782187279",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=4"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1781245779",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=4"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1780452722",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=4"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1780034431",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=5"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1779850912",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=5"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1779766837",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=5"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1779346985",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=5"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1777538403",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=5"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1777344303",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=6"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1777279289",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=6"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1776235717",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=6"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1775634452",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=6"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1775529755",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=6"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1775014024",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=7"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1774843398",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=7"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1774843737",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=7"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1773893685",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=8"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1773366470",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=8"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1772517761",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=8"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1772434701",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=8"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1770780837",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=8"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1770022080",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=9"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1770001984",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=9"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1769756086",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=9"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1768545710",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=9"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1768373797",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=9"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1767322473",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=10"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1766713684",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=10"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1766459156",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=10"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1766394417",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=10"
+        },
+        {
+          "url": "https://www.easycard.com.tw/new?cls=1&id=1766024119",
+          "reason": "page_limit",
+          "parent": "https://www.easycard.com.tw/news?cls=1&page=10"
+        }
+      ],
+      "startedAt": "2026-09-25T19:11:08.892720Z",
+      "completedAt": "2026-09-25T19:35:19.694932Z"
+    },
+    {
+      "bank": "街口支付",
+      "sourceType": "PAYMENT",
+      "status": "completed",
+      "pages": [
+        {
+          "url": "https://www.jkopay.com/",
+          "parent": null,
+          "depth": 0,
+          "renderer": "httpx",
+          "status": "analyzed"
+        }
+      ],
+      "unvisited": [],
+      "startedAt": "2026-09-25T19:11:09.747371Z",
+      "completedAt": "2026-09-25T19:13:38.456301Z"
+    },
+    {
+      "bank": "icash Pay",
+      "sourceType": "PAYMENT",
+      "status": "needs_review",
+      "pages": [
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "parent": null,
+          "depth": 0,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/ICP_one/cobrandcard.html",
+          "parent": null,
+          "depth": 0,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/event/memberbenefits/",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/index",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2461",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2284",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2475",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2462",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2223",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2340",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2356",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2354",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2323",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2303",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2321",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2299",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2298",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2324",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2478",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2435",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2407",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2460",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2392",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2387",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2373",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2375",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2370",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2499",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2476",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2514",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2509",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/index/page/1",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index",
+          "depth": 2,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/index/page/2",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index",
+          "depth": 2,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/index/page/3",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index",
+          "depth": 2,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/index/page/4",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index",
+          "depth": 2,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/index/page/5",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index",
+          "depth": 2,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/index/page/6",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index",
+          "depth": 2,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/1954",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2223",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2429",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2370",
+          "depth": 3,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2442",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2370",
+          "depth": 3,
+          "renderer": "httpx",
+          "status": "analyzed"
+        }
+      ],
+      "unvisited": [
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2371",
+          "reason": "depth_limit",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2429"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2531",
+          "reason": "page_limit",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2370"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2529",
+          "reason": "page_limit",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2370"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2444",
+          "reason": "page_limit",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index/page/2"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/event/icashpay_introduction/index.html",
+          "reason": "page_limit",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index/page/2"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2363",
+          "reason": "page_limit",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index/page/3"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2412",
+          "reason": "page_limit",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index/page/4"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2367",
+          "reason": "page_limit",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index/page/4"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/event/memberbenefits",
+          "reason": "page_limit",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index/page/4"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2379",
+          "reason": "page_limit",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index/page/5"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2378",
+          "reason": "page_limit",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index/page/6"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/109",
+          "reason": "page_limit",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index/page/6"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/1962",
+          "reason": "page_limit",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/1954"
+        }
+      ],
+      "startedAt": "2026-09-25T19:13:38.459882Z",
+      "completedAt": "2026-09-25T19:36:30.049131Z"
+    },
+    {
+      "bank": "台灣 Pay",
+      "sourceType": "PAYMENT",
+      "status": "needs_review",
+      "pages": [
+        {
+          "url": "https://www.taiwanpay.com.tw/content/info/index.aspx",
+          "parent": null,
+          "depth": 0,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.taiwanpay.com.tw/fisc-tpay/zerocarbon",
+          "parent": "https://www.taiwanpay.com.tw/content/info/index.aspx",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.taiwanpay.com.tw/fisc-tpay/news/event",
+          "parent": "https://www.taiwanpay.com.tw/content/info/index.aspx",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "insufficient_content"
+        }
+      ],
+      "unvisited": [],
+      "startedAt": "2026-09-25T19:22:10.896806Z",
+      "completedAt": "2026-09-25T19:23:36.675588Z"
+    }
+  ],
   "summary": {
-    "banks": 0,
-    "needsReview": 0,
-    "aiRequests": 21
+    "banks": 7,
+    "needsReview": 6,
+    "aiRequests": 183,
+    "status": "partial_ai_unavailable",
+    "aiFailedPages": 2,
+    "datasetChanged": true
   }
 }

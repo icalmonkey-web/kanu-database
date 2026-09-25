@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "description": "台灣信用卡發卡機構主清單。enabled 僅代表已設定可執行入口，不代表涵蓋率驗證通過。",
-  "lastUpdatedAt": "2026-09-25T12:57:04.296990Z",
+  "lastUpdatedAt": "2026-09-25T19:36:30.587919Z",
   "issuers": [
     {
       "name": "永豐銀行",
@@ -692,7 +692,7 @@
       "coverageNote": "僅收錄具實質消費回饋的簽帳金融卡",
       "lastSuccessfulScanAt": "2026-09-25T03:52:33.701377Z",
       "discoveredCardCount": 16,
-      "discoveredOfferCount": 30,
+      "discoveredOfferCount": 22,
       "unvisitedPageCount": 0,
       "failedPageCount": 0,
       "lastScanAt": "2026-09-25T03:52:33.701377Z",
@@ -729,11 +729,11 @@
       "coverageNote": "將將卡等具消費回饋的簽帳金融卡",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 6,
-      "discoveredOfferCount": 19,
-      "unvisitedPageCount": 0,
-      "failedPageCount": 0,
-      "lastScanAt": "",
-      "lastScanStatus": "registration_sources_expanded"
+      "discoveredOfferCount": 25,
+      "unvisitedPageCount": 341,
+      "failedPageCount": 7,
+      "lastScanAt": "2026-09-25T19:30:16.598051Z",
+      "lastScanStatus": "needs_review"
     },
     {
       "name": "LINE Bank",
@@ -829,7 +829,7 @@
       "eventLinkPattern": "(credit-cards|benefits|offers)",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 9,
-      "discoveredOfferCount": 37,
+      "discoveredOfferCount": 36,
       "unvisitedPageCount": 29,
       "failedPageCount": 11,
       "lastScanAt": "2026-09-25T03:52:22.912931Z",
@@ -925,7 +925,7 @@
       "eventLinkPattern": "(credit|card|event|activity)",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 13,
-      "discoveredOfferCount": 23,
+      "discoveredOfferCount": 19,
       "unvisitedPageCount": 1,
       "failedPageCount": 1,
       "lastScanAt": "2026-09-25T03:55:11.486735Z",
