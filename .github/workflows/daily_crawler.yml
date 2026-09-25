@@ -76,6 +76,7 @@ jobs:
       - name: 執行資料結構化
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODELS: gemini-3.6-flash,gemini-3.5-flash-lite
           MAX_PAGES_PER_BANK: '40'
           MAX_CRAWL_DEPTH: '3'
           BANK_CONCURRENCY: '4'

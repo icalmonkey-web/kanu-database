@@ -458,6 +458,11 @@ async def run():
     state = load_json_or_fail(STATE_FILE)
     if "pages" not in state:
         state["pages"] = {url: {"hash": digest} for url, digest in state.pop("pageHashes", {}).items()}
+    issuer_registry = load_json_or_fail(ISSUER_FILE, "issuers")
+    issuer_configs = load_issuer_configs()
+    if not issuer_configs:
+        print("NOOP: no issuer is due for scanning; existing data remains unchanged and AI was not called.")
+        return
     preferred = [name for name in os.environ.get("GEMINI_MODELS", "").split(",") if name]
     legacy.MODEL_POOL = ModelPool(
         genai.Client(api_key=api_key, http_options={"timeout": AI_TIMEOUT_MILLISECONDS}),
@@ -468,8 +473,6 @@ async def run():
     restored = restore_newer_checkpoints(old, state, cards, rules)
     if restored:
         print(f"Restored {restored} newer bank checkpoints")
-    issuer_registry = load_json(ISSUER_FILE, {"issuers": []})
-    issuer_configs = load_issuer_configs()
     semaphore, state_lock, merge_lock = asyncio.Semaphore(BANK_CONCURRENCY), asyncio.Lock(), asyncio.Lock()
     ai_gate = AiGate()
 
@@ -484,6 +487,19 @@ async def run():
                 )
         reports = await asyncio.gather(*(limited(config) for config in issuer_configs))
         await browser.close()
+
+    ai_failed_pages = sum(
+        1 for report in reports for page in report.get("pages", [])
+        if page.get("status") == "ai_failed_preserved_old_data"
+    )
+    if ai_failed_pages:
+        atomic_json(REPORT_FILE, {"generatedAt": utc_now(), "banks": reports,
+            "summary": {"banks": len(reports), "needsReview": len(reports),
+                        "aiRequests": legacy.MODEL_POOL.requests,
+                        "status": "ai_unavailable_data_preserved", "aiFailedPages": ai_failed_pages}})
+        raise RuntimeError(
+            f"AI unavailable for {ai_failed_pages} changed page(s); existing data was preserved and nothing was published"
+        )
 
     now = datetime.now(timezone.utc).replace(tzinfo=None)
     active_rules = []

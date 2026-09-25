@@ -25,7 +25,10 @@ class ModelPool:
             self.log(f'Model discovery failed ({type(exc).__name__}); using configured models.')
         preferred_models = [n.strip().removeprefix('models/') for n in preferred if n.strip()]
         names.sort(key=lambda n: ('flash' not in n, 'lite' not in n, n))
-        self.names = list(dict.fromkeys([n for n in preferred_models if not names or n in names] + names))
+        # 有明確設定模型時只使用該白名單。API 的 models.list() 可能列出預覽、
+        # Live、Gemma 或帳號其實無法 generate 的型號；全數輪詢既慢又浪費額度。
+        configured = [n for n in preferred_models if not names or n in names]
+        self.names = list(dict.fromkeys(configured if preferred_models else names[:6]))
         if not self.names:
             raise RuntimeError('No text models available; check GEMINI_MODELS and API access.')
         self.log('Model rotation: ' + ', '.join(self.names))
