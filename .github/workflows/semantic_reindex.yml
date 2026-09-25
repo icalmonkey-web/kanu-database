@@ -1,0 +1,59 @@
+name: 一次性 AI 語意重建與證據校驗
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/scripts/semantic_reindex.py'
+      - '.github/workflows/semantic_reindex.yml'
+
+concurrency:
+  group: bank-crawler
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  semantic-reindex:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install google-genai requests
+      - name: 執行分批語意重建
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODELS: gemini-3.5-flash-lite,gemini-3-flash-preview,gemini-2.5-flash-lite
+          SEMANTIC_BATCH_SIZE: '20'
+          SEMANTIC_MAX_BATCHES: '120'
+        run: |
+          python -m unittest discover -s .github/scripts -p 'test_semantic_reindex.py'
+          python .github/scripts/semantic_reindex.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: semantic-reindex-report
+          path: |
+            semantic_reindex_state.json
+            semantic_reindex_report.json
+            semantic_review.csv
+          if-no-files-found: ignore
+      - name: 儲存結果與 checkpoint
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json semantic_reindex_state.json semantic_reindex_report.json
+          if git diff --staged --quiet; then exit 0; fi
+          git commit -m "chore: AI 語意重建與證據校驗 checkpoint [skip ci]"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort || true
+          done
+          exit 1

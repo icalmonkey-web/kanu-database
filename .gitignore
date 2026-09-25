@@ -1,5 +1,6 @@
 checkpoints/
 __pycache__/
 *.pyc
+semantic_review.csv
 __pycache__/
 *.pyc

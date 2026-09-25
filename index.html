@@ -1500,6 +1500,9 @@
         searchKeywords: safePlainText(rawRule.searchKeywords),
         intentTags: Array.isArray(rawRule.intentTags) ? rawRule.intentTags.map(value => safePlainText(value)) : [],
         intentEvidence: safePlainText(rawRule.intentEvidence),
+        evidenceStatus: safePlainText(rawRule.evidenceStatus),
+        validationIssues: Array.isArray(rawRule.validationIssues) ? rawRule.validationIssues.map(value => safePlainText(value)) : [],
+        quickSearchEligible: rawRule.quickSearchEligible !== false,
         matchedMerchants: Array.isArray(rawRule.matchedMerchants) ? rawRule.matchedMerchants.map(value => safePlainText(value)) : [],
         title: safePlainText(rawRule.title, '消費回饋'),
         baseRate: typeof rawRule.baseRate === 'number' ? rawRule.baseRate : 0,
@@ -2256,6 +2259,7 @@
       appRules.forEach(rule => {
         const sourceCard = cardMap.get(rule.cardId);
         if (!sourceCard) return;
+        if (rule.quickSearchEligible === false) return;
         if (ruleExplicitlyNamesAnotherCard(rule, sourceCard, cardMap)) return;
         if (currentScope === 'all' && !isRealCardProduct(sourceCard)) return;
         // 全市場排行只推薦可實際申辦的卡片；銀行通用活動不是一張卡，
