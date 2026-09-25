@@ -47,6 +47,22 @@ def load_json(path: Path, default):
         return default
 
 
+def load_dataset_or_fail(path: Path) -> dict:
+    """Never turn a malformed or unexpectedly empty production dataset into an empty file."""
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise RuntimeError(f"Refusing semantic reindex: invalid {path.name}: {exc}") from exc
+    if not isinstance(data, dict) or not isinstance(data.get("cards"), list) or not isinstance(data.get("rules"), list):
+        raise RuntimeError(f"Refusing semantic reindex: {path.name} has an invalid schema")
+    if not data["cards"] or not data["rules"]:
+        raise RuntimeError(
+            f"Refusing semantic reindex: {path.name} is unexpectedly empty "
+            f"(cards={len(data['cards'])}, rules={len(data['rules'])})"
+        )
+    return data
+
+
 def strip_html(content: str) -> str:
     content = re.sub(r"<(script|style|noscript)[^>]*>.*?</\1>", " ", content, flags=re.I | re.S)
     content = re.sub(r"<[^>]+>", " ", content)
@@ -205,7 +221,7 @@ def apply_batch(rules_by_id: dict[str, dict], result: dict, expected_ids: set[st
 
 
 def main() -> None:
-    data = load_json(DATA_FILE, {"cards": [], "rules": []})
+    data = load_dataset_or_fail(DATA_FILE)
     state = load_json(STATE_FILE, {"completedIds": [], "batches": 0, "aiRequests": 0})
     completed = set(state.get("completedIds", []))
     rules_by_id = {str(rule.get("id")): rule for rule in data.get("rules", []) if rule.get("id")}

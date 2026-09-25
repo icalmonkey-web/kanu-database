@@ -1,6 +1,9 @@
+import json
+import tempfile
 import unittest
+from pathlib import Path
 
-from semantic_reindex import apply_batch, focused_excerpt
+from semantic_reindex import apply_batch, focused_excerpt, load_dataset_or_fail
 
 
 class SemanticReindexTests(unittest.TestCase):
@@ -43,6 +46,25 @@ class SemanticReindexTests(unittest.TestCase):
         self.assertEqual(rules["a"]["rewardCalculationMode"], "TIERED")
         self.assertEqual(next(t for t in rules["a"]["rewardTiers"] if t["isDefault"])["totalRate"], 1)
         self.assertEqual(max(t["totalRate"] for t in rules["a"]["rewardTiers"]), 6)
+
+    def test_insurance_coverage_is_never_cashback(self):
+        rules = {"a": {"id": "a", "title": "海外旅遊保險專屬活動", "quotaInfo": "保額319萬元",
+                       "rewardType": "cash", "rewardAmount": 3190000, "capAmount": 3190000}}
+        result = {"rules": [{"id": "a", "intentTags": ["海外消費"], "intentEvidence": "旅遊保險",
+                              "evidenceStatus": "VERIFIED", "validationIssues": [],
+                              "quickSearchEligible": True, "rewardType": "cash"}]}
+        apply_batch(rules, result, {"a"})
+        self.assertEqual(rules["a"]["rewardType"], "insurance_benefit")
+        self.assertIsNone(rules["a"]["rewardAmount"])
+        self.assertFalse(rules["a"]["quickSearchEligible"])
+        self.assertIn("NOT_SPENDING_REWARD", rules["a"]["validationIssues"])
+
+    def test_empty_dataset_is_rejected(self):
+        with tempfile.TemporaryDirectory() as folder:
+            target = Path(folder) / "data.json"
+            target.write_text(json.dumps({"cards": [], "rules": []}), encoding="utf-8")
+            with self.assertRaises(RuntimeError):
+                load_dataset_or_fail(target)
 
 
 if __name__ == "__main__":
