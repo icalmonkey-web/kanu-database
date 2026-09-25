@@ -2668,7 +2668,16 @@
       }
 
       const lifecycleGroups = { upcoming: [], available: [], marked: [], expired: [] };
-      regRules.forEach(rule => lifecycleGroups[getRegistrationLifecycle(rule)].push(rule));
+      regRules.forEach(rule => {
+        const lifecycle = getRegistrationLifecycle(rule);
+        lifecycleGroups[lifecycle].push(rule);
+        // 每月重複開放的活動，本期仍可登錄時也要預告下一期，否則每逢月底
+        // 「即將開放」會永遠是空的，使用者無法提前設定提醒。
+        const nextOpening = getNextRecurringRegistrationOpening(rule);
+        if (lifecycle !== 'upcoming' && lifecycle !== 'expired' && nextOpening) {
+          lifecycleGroups.upcoming.push(rule);
+        }
+      });
       const list = lifecycleGroups[currentRegFilter] || lifecycleGroups.available;
       Object.entries(lifecycleGroups).forEach(([status, rules]) => {
         const badge = document.getElementById(`reg-${status}-badge`);
@@ -2680,16 +2689,17 @@
         const card = cardMap.get(rule.cardId) || { bank: '合作銀行', cardName: '全卡友' };
         const ruleIndex = appRules.indexOf(rule);
         const officialUrl = getRegistrationDestination(rule);
-        const lifecycle = getRegistrationLifecycle(rule);
+        const lifecycle = currentRegFilter === 'upcoming' ? 'upcoming' : getRegistrationLifecycle(rule);
+        const nextOpening = lifecycle === 'upcoming' ? getNextRecurringRegistrationOpening(rule) : null;
         const statusText = lifecycle === 'marked' ? '✓ 你已標記登錄（未向銀行驗證）'
           : lifecycle === 'expired' ? '已截止'
-          : lifecycle === 'upcoming' ? '尚未開放登錄'
+          : lifecycle === 'upcoming' ? (nextOpening ? `下次 ${formatRegistrationOpening(nextOpening)} 開放` : '尚未開放登錄')
           : '現在可以登錄';
         html += `
           <div class="ghibli-card rounded-[20px] p-3.5 space-y-2 bg-white">
             <div class="flex items-center justify-between">
               <span class="text-xs font-black text-ghibliInk-800">${card.bank} ${card.cardName}</span>
-              <span class="text-[10px] font-bold text-ghibliInk-500">截止日：${rule.regDeadline}</span>
+              <span class="text-[10px] font-bold text-ghibliInk-500">${nextOpening ? `開放：${formatRegistrationOpening(nextOpening)}` : `截止日：${rule.regDeadline}`}</span>
             </div>
             <div class="text-xs font-black text-ghibliGold-600">${rule.title}・${getRuleRewardLabel(rule)}</div>
             ${rule.quotaInfo ? `<div class="text-[10px] text-amber-800 bg-amber-50 rounded-md px-1.5 py-0.5 border border-amber-200/60 font-bold">名額說明：${rule.quotaInfo}</div>` : ''}
@@ -2725,6 +2735,40 @@
         if (!Number.isNaN(openDate.getTime()) && openDate > now) return 'upcoming';
       }
       return 'available';
+    }
+
+    function getNextRecurringRegistrationOpening(rule, now = new Date()) {
+      const text = String(rule?.regDeadline || '');
+      if (!/(?:每月|當月).{0,24}開放/.test(text)) return null;
+      const days = [...text.matchAll(/(\d{1,2})\s*(?:日|號)/g)]
+        .map(match => Number(match[1]))
+        .filter(day => day >= 1 && day <= 31);
+      if (!days.length) return null;
+
+      let hour = 9;
+      let minute = 0;
+      const time = text.match(/(上午|早上|下午|晚上)?\s*(\d{1,2})(?::|點)(\d{2})?/);
+      if (time) {
+        hour = Number(time[2]);
+        minute = Number(time[3] || 0);
+        if (/下午|晚上/.test(time[1] || '') && hour < 12) hour += 12;
+        if (/上午|早上/.test(time[1] || '') && hour === 12) hour = 0;
+      }
+
+      const uniqueDays = [...new Set(days)].sort((a, b) => a - b);
+      for (let monthOffset = 0; monthOffset <= 1; monthOffset += 1) {
+        for (const day of uniqueDays) {
+          const candidate = new Date(now.getFullYear(), now.getMonth() + monthOffset, day, hour, minute, 0, 0);
+          if (candidate.getMonth() !== (now.getMonth() + monthOffset) % 12) continue;
+          if (candidate > now) return candidate;
+        }
+      }
+      return null;
+    }
+
+    function formatRegistrationOpening(date) {
+      if (!(date instanceof Date) || Number.isNaN(date.getTime())) return '';
+      return `${date.getMonth() + 1}/${date.getDate()} ${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}`;
     }
 
     function getRegistrationDestination(rule) {
