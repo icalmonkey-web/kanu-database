@@ -124,9 +124,10 @@ def build_prompt(rules: list[dict], pages: dict[str, str]) -> str:
 2. intentEvidence：支持標籤的官方短句或具體商家；找不到證據留空。
 3. evidenceStatus：VERIFIED（官方片段支持）、WEAK（只有結構化欄位支持）、UNVERIFIED（互相矛盾或無法支持）。
 4. validationIssues：只能使用 MISLEADING_AMOUNT、NOT_SPENDING_REWARD、WRONG_CARD_LINK、SOURCE_MISSING、SOURCE_FETCH_FAILED、CONTRADICTORY_FIELDS。
-5. quickSearchEligible：保險保額、抽獎最高獎金、機場服務、會員禮、年費資格等非日常消費回饋填 false；真正刷卡回饋填 true；無法確認時仍填 true 並標 UNVERIFIED，避免破壞性誤刪。
+5. quickSearchEligible：保險保額、抽獎最高獎金、機場服務、會員禮、年費資格等非日常消費回饋填 false；真正刷卡回饋填 true；無法確認時仍填 true並標 UNVERIFIED，避免破壞性誤刪。
+6. 遇到會員／帳戶等級、資產、薪轉、自動扣繳、任務、方案切換等階梯回饋，rewardCalculationMode 填 TIERED，rewardTiers 逐級列出 name、totalRate、baseRate、promoRate、isDefault、requirements、capAmount、capPeriod。最高級绝不能冒充默认级。只有广告写「最高」但等级不完整时填 MAX_ONLY。
 
-輸出嚴格 JSON：{{"cards":[],"rules":[{{"id":"原id","intentTags":[],"intentEvidence":"","evidenceStatus":"VERIFIED|WEAK|UNVERIFIED","validationIssues":[],"quickSearchEligible":true}}]}}
+輸出嚴格 JSON：{{"cards":[],"rules":[{{"id":"原id","intentTags":[],"intentEvidence":"","evidenceStatus":"VERIFIED|WEAK|UNVERIFIED","validationIssues":[],"quickSearchEligible":true,"rewardCalculationMode":"FLAT|TIERED|MAX_ONLY|UNKNOWN","rewardTiers":[{{"name":"一般資格","totalRate":1,"baseRate":1,"promoRate":0,"isDefault":true,"requirements":[],"capAmount":null,"capPeriod":""}}],"maxRateRequires":[]}}]}}
 輸入：{json.dumps(inputs, ensure_ascii=False)}
 """
 
@@ -156,6 +157,26 @@ def apply_batch(rules_by_id: dict[str, dict], result: dict, expected_ids: set[st
         rule["evidenceStatus"] = status
         rule["validationIssues"] = issues
         rule["quickSearchEligible"] = bool(row.get("quickSearchEligible", True))
+        mode = str(row.get("rewardCalculationMode") or "UNKNOWN").upper()
+        rule["rewardCalculationMode"] = mode if mode in {"FLAT", "TIERED", "MAX_ONLY", "UNKNOWN"} else "UNKNOWN"
+        tiers = []
+        for tier in row.get("rewardTiers", []) if isinstance(row.get("rewardTiers"), list) else []:
+            if not isinstance(tier, dict):
+                continue
+            total_rate = tier.get("totalRate")
+            if not isinstance(total_rate, (int, float)) or total_rate < 0 or total_rate > 100:
+                continue
+            tiers.append({
+                "name": str(tier.get("name") or "指定等級")[:40], "totalRate": total_rate,
+                "baseRate": tier.get("baseRate") if isinstance(tier.get("baseRate"), (int, float)) else 0,
+                "promoRate": tier.get("promoRate") if isinstance(tier.get("promoRate"), (int, float)) else 0,
+                "isDefault": bool(tier.get("isDefault", False)),
+                "requirements": [str(item)[:120] for item in (tier.get("requirements") or [])][:12],
+                "capAmount": tier.get("capAmount") if isinstance(tier.get("capAmount"), (int, float)) else None,
+                "capPeriod": str(tier.get("capPeriod") or "")[:30],
+            })
+        rule["rewardTiers"] = tiers
+        rule["maxRateRequires"] = [str(item)[:120] for item in (row.get("maxRateRequires") or [])][:12]
         after = (rule["intentTags"], evidence, status, issues, rule["quickSearchEligible"])
         changed += before != after
         audit_rows.append({"id": rule_id, "status": status, "issues": issues,

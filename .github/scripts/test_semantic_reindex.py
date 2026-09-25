@@ -30,6 +30,20 @@ class SemanticReindexTests(unittest.TestCase):
         apply_batch(rules, result, {"a"})
         self.assertEqual(rules["a"]["intentTags"], [])
 
+    def test_tiered_reward_keeps_default_separate_from_maximum(self):
+        rules = {"a": {"id": "a"}}
+        result = {"rules": [{"id": "a", "intentTags": ["海外消費"], "intentEvidence": "一般1%、達標6%",
+            "evidenceStatus": "VERIFIED", "validationIssues": [], "quickSearchEligible": True,
+            "rewardCalculationMode": "TIERED", "maxRateRequires": ["達指定帳戶等級"],
+            "rewardTiers": [
+                {"name": "一般", "totalRate": 1, "isDefault": True, "requirements": []},
+                {"name": "最高", "totalRate": 6, "isDefault": False, "requirements": ["達指定帳戶等級"]},
+            ]}]}
+        apply_batch(rules, result, {"a"})
+        self.assertEqual(rules["a"]["rewardCalculationMode"], "TIERED")
+        self.assertEqual(next(t for t in rules["a"]["rewardTiers"] if t["isDefault"])["totalRate"], 1)
+        self.assertEqual(max(t["totalRate"] for t in rules["a"]["rewardTiers"]), 6)
+
 
 if __name__ == "__main__":
     unittest.main()
