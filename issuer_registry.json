@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "description": "台灣信用卡發卡機構主清單。enabled 僅代表已設定可執行入口，不代表涵蓋率驗證通過。",
-  "lastUpdatedAt": "2026-09-26T18:05:31.628172Z",
+  "lastUpdatedAt": "2026-09-26T21:22:26.537627Z",
   "issuers": [
     {
       "name": "永豐銀行",
@@ -199,7 +199,7 @@
       "discoveredOfferCount": 52,
       "unvisitedPageCount": 224,
       "failedPageCount": 0,
-      "lastScanAt": "2026-09-26T18:05:30.850259Z",
+      "lastScanAt": "2026-09-26T20:59:40.063468Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -728,11 +728,11 @@
       "eventLinkPattern": "(card|debit|event|events|campaign|news|announcement)",
       "coverageNote": "將將卡等具消費回饋的簽帳金融卡",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 6,
-      "discoveredOfferCount": 25,
+      "discoveredCardCount": 7,
+      "discoveredOfferCount": 26,
       "unvisitedPageCount": 341,
-      "failedPageCount": 7,
-      "lastScanAt": "2026-09-25T19:30:16.598051Z",
+      "failedPageCount": 1,
+      "lastScanAt": "2026-09-26T21:09:05.253408Z",
       "lastScanStatus": "needs_review"
     },
     {
