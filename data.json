@@ -1,5 +1,5 @@
 {
-  "version": "2026.09.26-v044502",
+  "version": "2026.09.26-v173105-sourcefix",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -45964,7 +45964,7 @@
       "rewardType": "percent",
       "rewardAmount": 3.5,
       "rewardUnit": "percent",
-      "sourceUrl": "",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=7034",
       "fetchedAt": "2026-09-22T21:15:35.621269Z",
       "registrationUrl": "",
       "intentTags": [],
@@ -45973,7 +45973,8 @@
       "validationIssues": [
         "SOURCE_MISSING"
       ],
-      "registrationMethods": []
+      "registrationMethods": [],
+      "sourceRepairMethod": "unique_exact_title_match"
     },
     {
       "id": "RULE_UNICARD_NEW",
@@ -110678,5 +110679,5 @@
       "message": "政府規費、公用事業水電瓦斯多數信用卡皆排除回饋。"
     }
   ],
-  "lastUpdated": "2026-09-26T04:45:02.133398Z"
+  "lastUpdated": "2026-09-26T17:31:05.549967Z"
 }

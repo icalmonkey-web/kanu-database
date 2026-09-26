@@ -1,11 +1,184 @@
 {
-  "generatedAt": "2026-09-25T02:52:07.143956Z",
-  "beforeMissing": 271,
-  "afterMissing": 271,
+  "generatedAt": "2026-09-26T17:31:05.665716Z",
+  "beforeMissing": 269,
+  "afterMissing": 268,
   "repairedFromEquivalentRule": 0,
-  "repairedFromUniquePageMatch": 0,
-  "cumulativeRepaired": 44,
-  "ambiguous": [],
-  "fetchFailures": {},
+  "repairedFromUniquePageMatch": 1,
+  "cumulativeRepaired": 45,
+  "ambiguous": [
+    {
+      "ruleId": "costco_card_base",
+      "bank": "台北富邦",
+      "title": "富邦Costco聯名卡 Costco消費享2%",
+      "candidates": [
+        "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm",
+        "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm?cardkind=mobile"
+      ]
+    },
+    {
+      "ruleId": "rule_rich_life",
+      "bank": "台北富邦",
+      "title": "富邦富利生活系列卡8大生活消費",
+      "candidates": [
+        "https://www.fubon.com/banking/personal/credit_card/card_refer/card_refer.htm",
+        "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm",
+        "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm?cardkind=mobile"
+      ]
+    },
+    {
+      "ruleId": "rule_fubon_j_1",
+      "bank": "台北富邦",
+      "title": "日韓泰旅遊最高6%回饋",
+      "candidates": [
+        "https://www.fubon.com/banking/personal/credit_card/card_refer/card_refer.htm",
+        "https://www.fubon.com/banking/personal/credit_card/index.htm",
+        "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm",
+        "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm?cardkind=mobile",
+        "https://www.fubon.com/banking/personal/credit_card/all_card/omiyage/omiyage.htm"
+      ]
+    },
+    {
+      "ruleId": "rule_fubon_fuli_1",
+      "bank": "台北富邦",
+      "title": "8大生活消費享5倍紅利",
+      "candidates": [
+        "https://www.fubon.com/banking/personal/credit_card/card_refer/card_refer.htm",
+        "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm",
+        "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm?cardkind=mobile"
+      ]
+    },
+    {
+      "ruleId": "rule_fubon_costco_1",
+      "bank": "台北富邦",
+      "title": "Costco消費享2%",
+      "candidates": [
+        "https://www.fubon.com/banking/personal/credit_card/card_refer/card_refer.htm",
+        "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm",
+        "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm?cardkind=mobile"
+      ]
+    },
+    {
+      "ruleId": "rule_kumamon_1",
+      "bank": "玉山銀行",
+      "title": "日本一般消費最高享8.5%現金回饋",
+      "candidates": [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro#3"
+      ]
+    },
+    {
+      "ruleId": "kumamon_paypay",
+      "bank": "玉山銀行",
+      "title": "日本PayPay消費最高享5%優惠",
+      "candidates": [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/tools/do",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/kumamon_card",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro#3"
+      ]
+    },
+    {
+      "ruleId": "dual_currency_eur_us",
+      "bank": "玉山銀行",
+      "title": "指定卡別享美國/歐盟地區最高2%優惠",
+      "candidates": [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/tools/do",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro#3"
+      ]
+    },
+    {
+      "ruleId": "ubear_digital",
+      "bank": "玉山銀行",
+      "title": "指定數位訂閱平台消費",
+      "candidates": [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/teacher-card",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/travel-card/traveler-card",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/kumamon_card",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/u-bear",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/eztravel",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/WORLD",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card"
+      ]
+    },
+    {
+      "ruleId": "esun_pi_general",
+      "bank": "玉山銀行",
+      "title": "一般消費回饋",
+      "candidates": [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/payment/e_pay",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/travel-card/traveler-card",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/u-bear",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/eztravel",
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/pi-card"
+      ]
+    },
+    {
+      "ruleId": "DAWHO_RULE",
+      "bank": "永豐銀行",
+      "title": "DAWHO現金回饋",
+      "candidates": [
+        "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/list.html",
+        "https://bank.sinopac.com/sinopacBT/personal/credit-card/manage/credit-staging-single.html",
+        "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/dual-currency-card.html",
+        "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/list.html",
+        "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/debit/list.html",
+        "https://bank.sinopac.com/sinopacBT/personal/credit-card/manage/billpay-staging.html",
+        "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/DAWHO.html"
+      ]
+    },
+    {
+      "ruleId": "GREEN_RULE",
+      "bank": "永豐銀行",
+      "title": "現金回饋Green卡精選綠色通路",
+      "candidates": [
+        "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/list.html",
+        "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/list.html"
+      ]
+    },
+    {
+      "ruleId": "rule-bao-01",
+      "bank": "永豐銀行",
+      "title": "保倍卡 保費1.2%現金回饋無上限",
+      "candidates": [
+        "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/list.html",
+        "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/list.html"
+      ]
+    },
+    {
+      "ruleId": "ctbc_lp_general",
+      "bank": "中國信託",
+      "title": "國內外一般消費",
+      "candidates": [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/index.html",
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_food.html",
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_pet.html",
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_shopping.html",
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_travel.html",
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_fashion.html",
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html"
+      ]
+    },
+    {
+      "ruleId": "ctbc_lp_foreign_physical",
+      "bank": "中國信託",
+      "title": "國外實體商店消費最高2.8%",
+      "candidates": [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/index.html",
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html"
+      ]
+    }
+  ],
+  "fetchFailures": {
+    "https://www.esunbank.com/zh-tw/personal/credit-card/tools/sign-up": "HTTPError: HTTP Error 404: Page not found"
+  },
   "aiRequests": 0
 }
