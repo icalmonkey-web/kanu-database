@@ -16,7 +16,7 @@ from collections import deque
 from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import urljoin, urlsplit
 
 import httpx
 from google import genai
@@ -75,6 +75,7 @@ class TextLinkParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.text: list[str] = []
         self.links: list[tuple[str, str]] = []
+        self.images: list[tuple[str, str]] = []
         self._skip = 0
         self._href: str | None = None
         self._label: list[str] = []
@@ -86,6 +87,12 @@ class TextLinkParser(HTMLParser):
         if tag == "a":
             self._href = attrs.get("href") or attrs.get("data-href") or attrs.get("data-url")
             self._label = []
+        if tag in {"img", "source"}:
+            raw_src = (attrs.get("src") or attrs.get("data-src") or attrs.get("data-original")
+                       or str(attrs.get("srcset") or "").split(",")[0].strip().split(" ")[0])
+            label = attrs.get("alt") or attrs.get("title") or attrs.get("aria-label") or ""
+            if raw_src:
+                self.images.append((raw_src, label))
 
     def handle_endtag(self, tag):
         if tag in {"script", "style", "noscript", "svg"} and self._skip:
@@ -108,6 +115,51 @@ def parse_html(html: str) -> tuple[str, list[tuple[str, str]]]:
     parser = TextLinkParser()
     parser.feed(html)
     return "\n".join(parser.text), parser.links
+
+
+def image_inventory(base_url: str, images: list[tuple[str, str]], limit: int = 80) -> str:
+    """Expose official-page image candidates to AI without downloading the assets."""
+    rows, seen = [], set()
+    for raw_src, raw_label in images:
+        try:
+            absolute = urljoin(base_url, raw_src)
+            parsed = urlsplit(absolute)
+        except (TypeError, ValueError):
+            continue
+        if parsed.scheme != "https" or not parsed.hostname or parsed.username or parsed.password:
+            continue
+        label = " ".join(str(raw_label or "").split())[:160]
+        haystack = f"{absolute} {label}".lower()
+        if re.search(r"(?:logo|icon|favicon|loading|spinner|avatar|social|qr[-_]?code)", haystack):
+            continue
+        if absolute in seen:
+            continue
+        seen.add(absolute)
+        rows.append(f"圖片候選：{absolute}｜說明：{label or '未提供'}")
+        if len(rows) >= limit:
+            break
+    return "\n".join(rows)
+
+
+def parse_html_with_images(html: str, base_url: str) -> tuple[str, list[tuple[str, str]]]:
+    parser = TextLinkParser()
+    parser.feed(html)
+    text = "\n".join(parser.text)
+    inventory = image_inventory(base_url, parser.images)
+    if inventory:
+        text = f"{text}\n\n【本官方頁面實際出現的圖片候選】\n{inventory}"
+    return text, parser.links
+
+
+def prepare_ai_content(text: str, limit: int = 14000) -> str:
+    """Keep image evidence even when a long page body must be truncated."""
+    marker = "【本官方頁面實際出現的圖片候選】"
+    if len(text) <= limit or marker not in text:
+        return text[:limit]
+    body, inventory = text.split(marker, 1)
+    inventory = f"{marker}{inventory}"
+    tail = inventory[: min(len(inventory), limit // 3)]
+    return f"{body[:limit - len(tail) - 2]}\n\n{tail}"
 
 
 def normalized_content(text: str) -> str:
@@ -275,7 +327,7 @@ async def fetch_page(client, context, url: str, prior: dict) -> FetchResult:
         if response.status_code == 304:
             return FetchResult(url, links=[tuple(row) for row in prior.get("links", [])], status="not_modified")
         response.raise_for_status()
-        text, raw_links = parse_html(response.text)
+        text, raw_links = parse_html_with_images(response.text, str(response.url))
         static_digest = stable_hash(text)
         links = [(canonical(str(response.url), href), label) for href, label in raw_links]
         links = [(href, label) for href, label in links if href]
@@ -302,6 +354,11 @@ async def fetch_page(client, context, url: str, prior: dict) -> FetchResult:
             raise RuntimeError(f"HTTP {response.status}")
         await page.wait_for_timeout(800)
         text = await page.locator("body").inner_text(timeout=5000)
+        raw_images = await page.locator("img[src], img[data-src], img[data-original], source[srcset]").evaluate_all(
+            "els => els.map(e => [e.currentSrc || e.src || e.dataset.src || e.dataset.original || (e.srcset || '').split(',')[0].trim().split(' ')[0], e.alt || e.title || e.getAttribute('aria-label') || ''])")
+        inventory = image_inventory(page.url, raw_images)
+        if inventory:
+            text = f"{text}\n\n【本官方頁面實際出現的圖片候選】\n{inventory}"
         raw_links = await page.locator("a[href]").evaluate_all(
             "els => els.map(e => [e.href, e.textContent || ''])")
         links = [(canonical(page.url, href), label) for href, label in raw_links]
@@ -380,7 +437,7 @@ class AiGate:
 async def analyze_changed_page(ai_gate, bank, product_types, text, url, deadline):
     if asyncio.get_running_loop().time() >= deadline:
         return TIME_BUDGET_EXHAUSTED
-    return await ai_gate.run(legacy.extract_with_gemini, bank, text[:14000], url, True, product_types)
+    return await ai_gate.run(legacy.extract_with_gemini, bank, prepare_ai_content(text), url, True, product_types)
 
 
 async def crawl_bank(config, client, browser, state, state_lock, ai_gate, merge_lock, cards, rules, deadline):

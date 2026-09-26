@@ -3,7 +3,7 @@ import json
 import re
 import time
 import hashlib
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit
 from datetime import datetime, timedelta
 from playwright.sync_api import sync_playwright
 from google import genai
@@ -326,7 +326,7 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False, p
       "entityType": "CARD_PRODUCT",
       "classificationConfidence": 0.98,
       "classificationEvidence": "內文明確將此名稱列為可申辦或已發行卡片",
-      "imageUrl": "官方卡面圖片完整 https 網址；找不到時留空字串",
+      "imageUrl": "只可從本文【本官方頁面實際出現的圖片候選】挑選與本卡名稱明確相符的完整 https 網址；不可猜測或自行組合，找不到時留空字串",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "核心特色簡述(10字內)"
@@ -514,6 +514,19 @@ def merge_data(bank, result, cards_map, rules_map, source_url):
             cards_map[norm_key] = c
             RUN_STATS["new_cards"] += 1
             print(f"      + 新卡入庫: [{bank}] {raw_name}")
+        else:
+            existing = cards_map[norm_key]
+            image_url = str(c.get("imageUrl") or "").strip()
+            try:
+                parsed_image = urlsplit(image_url)
+                safe_image = (parsed_image.scheme == "https" and bool(parsed_image.hostname)
+                              and not parsed_image.username and not parsed_image.password)
+            except ValueError:
+                safe_image = False
+            # 舊卡不可因合併而換 ID，但後來從官方頁找到的卡面要補回。
+            if safe_image and not existing.get("imageUrl"):
+                existing["imageUrl"] = image_url
+                print(f"      + 補上官方卡面: [{bank}] {raw_name}")
         id_map[original_id] = cards_map[norm_key]["id"]
 
     for r in result.get("rules", []):

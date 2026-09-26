@@ -148,6 +148,21 @@ class FastPipelineTests(unittest.TestCase):
         self.assertIn("信用卡 5%", text)
         self.assertEqual(links, [("/promo", "活動")])
 
+    def test_parser_exposes_official_image_candidates(self):
+        text, links = fast_update.parse_html_with_images(
+            '<main>玉山 U Bear卡</main><img src="/cards/ubear.png" alt="U Bear 卡面">',
+            'https://bank.test/cards')
+        self.assertIn('https://bank.test/cards/ubear.png', text)
+        self.assertIn('U Bear 卡面', text)
+
+    def test_ai_content_keeps_image_inventory_after_truncation(self):
+        source = ('活動文字' * 5000
+                  + '\n【本官方頁面實際出現的圖片候選】\n'
+                  + '圖片候選：https://bank.test/card.png｜說明：測試卡面')
+        result = fast_update.prepare_ai_content(source, 1000)
+        self.assertLessEqual(len(result), 1000)
+        self.assertIn('https://bank.test/card.png', result)
+
     def test_atomic_json_never_leaves_partial_file(self):
         with tempfile.TemporaryDirectory() as folder:
             target = Path(folder) / "checkpoint.json"

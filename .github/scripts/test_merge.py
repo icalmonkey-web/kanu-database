@@ -38,6 +38,22 @@ class MergeTests(unittest.TestCase):
         merge_data('bank', result, cards, rules, 'https://bank.test')
         self.assertEqual([c['cardName'] for c in cards.values()], ['真卡'])
 
+    def test_existing_card_gets_official_image_without_changing_id(self):
+        cards = {}
+        base_card = {
+            'cardName': 'Test卡', 'entityType': 'CARD_PRODUCT',
+            'classificationConfidence': .95, 'classificationEvidence': '官方產品頁'
+        }
+        merge_data('bank', {'cards': [{**base_card, 'id': 'first', 'imageUrl': ''}], 'rules': []},
+                   cards, {}, 'https://bank.test/card')
+        original_id = next(iter(cards.values()))['id']
+        merge_data('bank', {'cards': [{
+            **base_card, 'id': 'second', 'imageUrl': 'https://bank.test/assets/test-card.png'
+        }], 'rules': []}, cards, {}, 'https://bank.test/card')
+        card = next(iter(cards.values()))
+        self.assertEqual(card['id'], original_id)
+        self.assertEqual(card['imageUrl'], 'https://bank.test/assets/test-card.png')
+
     def test_rule_naming_unicard_is_not_attached_to_ubear(self):
         cards = {
             'u': {'id': 'ubear', 'bank': '玉山銀行', 'cardName': '玉山 U Bear卡'},

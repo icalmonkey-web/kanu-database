@@ -1998,7 +1998,7 @@
     function calcRuleCashBack(rule, spendAmount) {
       if (isInsuranceBenefitRule(rule)) {
         return { effectiveRate: 0, potentialRate: 0, isBoostActive: false,
-          totalCash: 0, potentialCash: 0, capped: false, capAmount: null };
+          totalCash: 0, potentialCash: 0, capped: false, capAmount: null, spendAmount };
       }
       let isBoostActive = false;
       let effectiveRate = rule.baseRate || 0;
@@ -2058,7 +2058,8 @@
         totalCash: Math.round(totalCash),
         potentialCash: Math.round(potentialCash),
         capped: !!rule.capAmount && rawPotentialPromoCash > Number(rule.capAmount),
-        capAmount: rule.capAmount ? Number(rule.capAmount) : null
+        capAmount: rule.capAmount ? Number(rule.capAmount) : null,
+        spendAmount
       };
     }
 
@@ -2090,7 +2091,13 @@
       const rewardUnit = String(rule.rewardUnit || '').toLowerCase();
       const rewardAmount = Number(rule.rewardAmount) || 0;
       const estimatedCash = Number(rule.needReg && !rule.registered ? calc.potentialCash : calc.totalCash) || 0;
-      const fixedCash = rewardType === 'cash' && rewardAmount > 0 ? rewardAmount : 0;
+      const minimumSpend = Number(rule.minimumSpend) || 0;
+      // 只有門檻與本筆金額都明確時，固定刷卡金才可跟百分比回饋直接比較。
+      // 舊資料常把「最高回饋上限／外幣額度」誤放進 rewardAmount；若沒有
+      // 明確消費門檻，把它拿來排序會讓 NT$10,000 之類的上限錯排第一。
+      const fixedCash = rewardType === 'cash' && rewardAmount > 0
+        && minimumSpend > 0 && Number(calc.spendAmount) >= minimumSpend
+        ? rewardAmount : 0;
       const knownPoints = rewardType === 'points' && rewardUnit !== 'percent' && rewardAmount > 0 ? rewardAmount : 0;
       // 固定刷卡金不可再用標題中的百分比重算；例如「20%／上限 NT$20」
       // 對本筆交易可比較的最高價值仍是 NT$20。
@@ -2171,9 +2178,9 @@
         const defaultTier = rule.rewardTiers.find(tier => tier.isDefault)
           || [...rule.rewardTiers].sort((a, b) => a.totalRate - b.totalRate)[0];
         const maximum = Math.max(...rule.rewardTiers.map(tier => Number(tier.totalRate) || 0));
-        amount = `${Number(defaultTier.totalRate) || 0}%`;
+        amount = `${maximum}%`;
         caption = maximum > Number(defaultTier.totalRate)
-          ? `一般回饋 · 達標最高 ${maximum}%`
+          ? `一般 ${Number(defaultTier.totalRate) || 0}% · 達標最高回饋`
           : '依資格等級適用';
       } else if (rule.rewardCalculationMode === 'MAX_ONLY' && calc.potentialRate > 0) {
         amount = `最高 ${calc.potentialRate}%`;
@@ -2379,13 +2386,30 @@
         const corpus = normalizeText(`${provider} ${rule.title || ''} ${rule.category || ''} ${merchantText} ${(rule.intentTags || []).join(' ')} ${rule.intentEvidence || ''}`);
         if (!corpus.includes(normalizedQuery)) return null;
         const calc = calcRuleCashBack(rule, spendAmount);
-        return { rule, provider, calc, card: cardMap.get(rule.cardId) || null };
+        return {
+          rule,
+          provider,
+          calc,
+          rankingMetrics: getRewardRankingMetrics(rule, calc),
+          card: cardMap.get(rule.cardId) || null
+        };
       }).filter(Boolean);
 
       matches.sort((a, b) => {
+        if (a.rankingMetrics.known !== b.rankingMetrics.known) {
+          return b.rankingMetrics.known - a.rankingMetrics.known;
+        }
+        if (a.rankingMetrics.cash !== b.rankingMetrics.cash) {
+          return b.rankingMetrics.cash - a.rankingMetrics.cash;
+        }
+        if (a.rankingMetrics.points !== b.rankingMetrics.points) {
+          return b.rankingMetrics.points - a.rankingMetrics.points;
+        }
+        const rateDiff = (Number(b.calc.potentialRate) || 0) - (Number(a.calc.potentialRate) || 0);
+        if (rateDiff) return rateDiff;
         const officialDiff = Number(b.rule.offerDomain === 'PAYMENT') - Number(a.rule.offerDomain === 'PAYMENT');
         if (officialDiff) return officialDiff;
-        return (b.calc.rankingCash || b.calc.totalCash || 0) - (a.calc.rankingCash || a.calc.totalCash || 0);
+        return String(a.rule.title || '').localeCompare(String(b.rule.title || ''), 'zh-Hant');
       });
 
       const unique = new Map();
@@ -2410,7 +2434,7 @@
           : card ? `需綁定 ${card.bank} ${card.cardName}` : '付款來源依官方活動規則';
         const sourceLabel = rule.offerDomain === 'PAYMENT' ? '支付工具官方活動' : '銀行合作活動';
         return `
-          <div class="ghibli-card recommend-glass-card rounded-[22px] p-3.5 space-y-2">
+          <div class="ghibli-card recommend-glass-card rounded-[22px] p-3.5 space-y-2 cursor-pointer active:scale-[0.99] transition-transform" role="button" tabindex="0" data-payment-rule-id="${rule.id}" aria-label="查看 ${provider} ${rule.title} 活動大綱" onclick="openPaymentDetailModal(this.dataset.paymentRuleId)" onkeydown="if(event.key === 'Enter' || event.key === ' '){ event.preventDefault(); openPaymentDetailModal(this.dataset.paymentRuleId); }">
             <div class="flex items-start justify-between gap-2">
               <div><div class="text-[10px] font-black text-ghibliInk-500">${sourceLabel}</div><div class="text-sm font-black text-ghibliInk-800">${provider}</div></div>
               <div class="text-base font-black text-ghibliGold-600">${getRuleRewardLabel(rule)}</div>
@@ -2420,10 +2444,7 @@
               <span class="rounded-lg bg-[#eef8f5] px-2 py-1 text-[#25877f]">${funding}</span>
               ${rule.needReg ? '<span class="rounded-lg bg-[#fff1ef] px-2 py-1 text-[#d95f59]">需先登錄／領券</span>' : ''}
             </div>
-             ${renderRuleSourceLink(rule)}
-             <button type="button" data-payment-rule-id="${rule.id}" onclick="openPaymentDetailModal(this.dataset.paymentRuleId)" class="w-full rounded-xl border border-[#dce9e6] bg-white/70 px-3 py-2 text-left text-[10px] font-black text-[#25877f] active:scale-[0.99]">
-               查看活動大綱與適用條件 →
-             </button>
+            <div class="border-t border-[#deebe8] pt-2 text-[10px] font-black text-[#25877f]">點擊查看活動大綱、適用條件與官方來源 →</div>
            </div>`;
        }).join('');
      }
@@ -2640,19 +2661,29 @@
           const isCurrentReg = rule.needReg && rule.registered;
           const isExistingReg = existing.rule.needReg && existing.rule.registered;
 
+          const currentMetrics = calc.rankingMetrics;
+          const existingMetrics = existing.calc.rankingMetrics;
           const currentSearchScore = Number(rule._searchMatchScore) || 0;
           const existingSearchScore = Number(existing.rule._searchMatchScore) || 0;
-          if (currentSearchScore > existingSearchScore) {
+          if (currentMetrics.known > existingMetrics.known) {
             cardBestRuleMap.set(resultKey, { rule, calc, condition });
-          } else if (currentSearchScore < existingSearchScore) {
+          } else if (currentMetrics.known < existingMetrics.known) {
+            return;
+          } else if (currentMetrics.cash > existingMetrics.cash) {
+            cardBestRuleMap.set(resultKey, { rule, calc, condition });
+          } else if (currentMetrics.cash < existingMetrics.cash) {
+            return;
+          } else if (currentMetrics.points > existingMetrics.points) {
+            cardBestRuleMap.set(resultKey, { rule, calc, condition });
+          } else if (currentMetrics.points < existingMetrics.points) {
+            return;
+          } else if ((Number(calc.potentialRate) || 0) > (Number(existing.calc.potentialRate) || 0)) {
+            cardBestRuleMap.set(resultKey, { rule, calc, condition });
+          } else if ((Number(calc.potentialRate) || 0) < (Number(existing.calc.potentialRate) || 0)) {
             return;
           } else if (isCurrentReg && !isExistingReg) {
             cardBestRuleMap.set(resultKey, { rule, calc, condition });
-          } else if (isCurrentReg === isExistingReg && (
-            calc.rankingMetrics.cash > existing.calc.rankingMetrics.cash
-            || (calc.rankingMetrics.cash === existing.calc.rankingMetrics.cash
-              && calc.rankingMetrics.points > existing.calc.rankingMetrics.points)
-          )) {
+          } else if (isCurrentReg === isExistingReg && currentSearchScore > existingSearchScore) {
             cardBestRuleMap.set(resultKey, { rule, calc, condition });
           }
         }
@@ -2665,18 +2696,22 @@
           if (currentRecommendationMode === 'easy') return a.condition.conditional ? 1 : -1;
           return a.condition.conditional ? -1 : 1;
         }
-        const searchScoreDiff = (Number(b.rule._searchMatchScore) || 0) - (Number(a.rule._searchMatchScore) || 0);
-        if (searchScoreDiff) return searchScoreDiff;
-        const aReg = a.rule.needReg && a.rule.registered ? 1 : 0;
-        const bReg = b.rule.needReg && b.rule.registered ? 1 : 0;
-        if (aReg !== bReg) return bReg - aReg;
         if (a.calc.rankingMetrics.known !== b.calc.rankingMetrics.known) {
           return b.calc.rankingMetrics.known - a.calc.rankingMetrics.known;
         }
         if (a.calc.rankingMetrics.cash !== b.calc.rankingMetrics.cash) {
           return b.calc.rankingMetrics.cash - a.calc.rankingMetrics.cash;
         }
-        return b.calc.rankingMetrics.points - a.calc.rankingMetrics.points;
+        if (a.calc.rankingMetrics.points !== b.calc.rankingMetrics.points) {
+          return b.calc.rankingMetrics.points - a.calc.rankingMetrics.points;
+        }
+        const rateDiff = (Number(b.calc.potentialRate) || 0) - (Number(a.calc.potentialRate) || 0);
+        if (rateDiff) return rateDiff;
+        const searchScoreDiff = (Number(b.rule._searchMatchScore) || 0) - (Number(a.rule._searchMatchScore) || 0);
+        if (searchScoreDiff) return searchScoreDiff;
+        const aReg = a.rule.needReg && a.rule.registered ? 1 : 0;
+        const bReg = b.rule.needReg && b.rule.registered ? 1 : 0;
+        return bReg - aReg;
       });
 
       if (list.length === 0) {
