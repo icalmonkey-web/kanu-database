@@ -2000,9 +2000,22 @@
         return { effectiveRate: 0, potentialRate: 0, isBoostActive: false,
           totalCash: 0, potentialCash: 0, capped: false, capAmount: null, spendAmount };
       }
+      const rewardType = String(rule.rewardType || '').toLowerCase();
+      const rewardUnit = String(rule.rewardUnit || '').toLowerCase();
+      const rewardAmount = Math.max(0, Number(rule.rewardAmount) || 0);
+      const minimumSpend = Math.max(0, Number(rule.minimumSpend) || 0);
+      const pointCashPromoRate = rewardType === 'points' && rewardUnit === 'twd'
+        && rewardAmount > 0 && minimumSpend > 0
+        ? (rewardAmount / minimumSpend) * 100
+        : null;
+      // 「滿 NT$1,000 加碼 45 點」等值 4.5%，若資料又填 promoRate=5，
+      // 不能再疊成 5.5%。rewardUnit=TWD 表示這批點數可按等值金額比較。
+      const normalizedPromoRate = pointCashPromoRate !== null
+        ? pointCashPromoRate
+        : (Number(rule.promoRate) || 0);
       let isBoostActive = false;
       let effectiveRate = rule.baseRate || 0;
-      let potentialRate = (rule.baseRate || 0) + (rule.promoRate || 0);
+      let potentialRate = (rule.baseRate || 0) + normalizedPromoRate;
       const tiers = Array.isArray(rule.rewardTiers) ? rule.rewardTiers.filter(tier => tier.totalRate >= 0) : [];
       if (rule.rewardCalculationMode === 'TIERED' && tiers.length) {
         const defaultTier = tiers.find(tier => tier.isDefault) || [...tiers].sort((a, b) => a.totalRate - b.totalRate)[0];
@@ -2014,7 +2027,7 @@
       }
       
       if (!rule.needReg || rule.registered) {
-        effectiveRate += (rule.promoRate || 0);
+        effectiveRate += normalizedPromoRate;
         isBoostActive = true;
       }
 
@@ -2169,8 +2182,10 @@
       const rewardType = String(rule.rewardType || '').toLowerCase();
       const rewardUnit = String(rule.rewardUnit || '').toLowerCase();
       const rewardAmount = Number(rule.rewardAmount) || 0;
-      const isPercent = !['cash', 'draw', 'installment'].includes(rewardType)
-        && !(rewardType === 'points' && rewardUnit !== 'percent')
+      const hasComparablePointRate = rewardType === 'points' && rewardUnit === 'twd'
+        && rewardAmount > 0 && Number(rule.minimumSpend) > 0;
+      const isPercent = (!['cash', 'draw', 'installment'].includes(rewardType)
+        && !(rewardType === 'points' && rewardUnit !== 'percent') || hasComparablePointRate)
         && calc.potentialRate > 0;
       let amount = '';
       let caption = '';
@@ -2402,7 +2417,8 @@
         if (a.rankingMetrics.cash !== b.rankingMetrics.cash) {
           return b.rankingMetrics.cash - a.rankingMetrics.cash;
         }
-        if (a.rankingMetrics.points !== b.rankingMetrics.points) {
+        if (a.rankingMetrics.cash <= 0 && b.rankingMetrics.cash <= 0
+            && a.rankingMetrics.points !== b.rankingMetrics.points) {
           return b.rankingMetrics.points - a.rankingMetrics.points;
         }
         const rateDiff = (Number(b.calc.potentialRate) || 0) - (Number(a.calc.potentialRate) || 0);
@@ -2673,9 +2689,11 @@
             cardBestRuleMap.set(resultKey, { rule, calc, condition });
           } else if (currentMetrics.cash < existingMetrics.cash) {
             return;
-          } else if (currentMetrics.points > existingMetrics.points) {
+          } else if (currentMetrics.cash <= 0 && existingMetrics.cash <= 0
+              && currentMetrics.points > existingMetrics.points) {
             cardBestRuleMap.set(resultKey, { rule, calc, condition });
-          } else if (currentMetrics.points < existingMetrics.points) {
+          } else if (currentMetrics.cash <= 0 && existingMetrics.cash <= 0
+              && currentMetrics.points < existingMetrics.points) {
             return;
           } else if ((Number(calc.potentialRate) || 0) > (Number(existing.calc.potentialRate) || 0)) {
             cardBestRuleMap.set(resultKey, { rule, calc, condition });
@@ -2702,7 +2720,8 @@
         if (a.calc.rankingMetrics.cash !== b.calc.rankingMetrics.cash) {
           return b.calc.rankingMetrics.cash - a.calc.rankingMetrics.cash;
         }
-        if (a.calc.rankingMetrics.points !== b.calc.rankingMetrics.points) {
+        if (a.calc.rankingMetrics.cash <= 0 && b.calc.rankingMetrics.cash <= 0
+            && a.calc.rankingMetrics.points !== b.calc.rankingMetrics.points) {
           return b.calc.rankingMetrics.points - a.calc.rankingMetrics.points;
         }
         const rateDiff = (Number(b.calc.potentialRate) || 0) - (Number(a.calc.potentialRate) || 0);
