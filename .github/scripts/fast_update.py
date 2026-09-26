@@ -556,8 +556,7 @@ async def run():
     now = datetime.now(timezone.utc).replace(tzinfo=None)
     active_rules = []
     for rule in rules.values():
-        end = legacy.parse_explicit_date(rule.get("validUntil")) or legacy.parse_explicit_date(rule.get("regDeadline"))
-        if not end or end >= now:
+        if legacy.should_retain_rule(rule, now, retention_days=30):
             active_rules.append(legacy.enrich_reward_fields(rule, rule.get("sourceUrl", "")))
     output = dict(old)
     next_cards = list(cards.values())

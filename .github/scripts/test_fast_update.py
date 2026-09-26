@@ -10,6 +10,18 @@ from fast_update import atomic_json, normalized_content, parse_html, stable_hash
 
 
 class FastPipelineTests(unittest.TestCase):
+    def test_expired_rules_are_removed_only_after_thirty_day_history_window(self):
+        now = datetime(2026, 9, 26)
+        self.assertTrue(fast_update.legacy.should_retain_rule(
+            {"validUntil": "2026-09-01"}, now, retention_days=30
+        ))
+        self.assertFalse(fast_update.legacy.should_retain_rule(
+            {"validUntil": "2026-08-01"}, now, retention_days=30
+        ))
+        self.assertTrue(fast_update.legacy.should_retain_rule(
+            {"validUntil": ""}, now, retention_days=30
+        ))
+
     def test_ai_prompt_json_examples_are_escaped_for_f_string(self):
         class FakeModelPool:
             requests = 0

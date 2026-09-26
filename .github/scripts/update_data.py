@@ -4,7 +4,7 @@ import re
 import time
 import hashlib
 from urllib.parse import urljoin
-from datetime import datetime
+from datetime import datetime, timedelta
 from playwright.sync_api import sync_playwright
 from google import genai
 from model_pool import ModelPool
@@ -201,6 +201,12 @@ def parse_explicit_date(value):
         return datetime(int(year), int(month), int(day), 23, 59, 59)
     except ValueError:
         return None
+
+def should_retain_rule(rule, now=None, retention_days=30):
+    """Keep expired offers for a short audit/history window, then remove them."""
+    now = now or datetime.utcnow()
+    explicit_end = parse_explicit_date(rule.get("validUntil")) or parse_explicit_date(rule.get("regDeadline"))
+    return not explicit_end or explicit_end >= now - timedelta(days=retention_days)
 
 def enrich_reward_fields(rule, source_url):
     title = f"{rule.get('title', '')} {rule.get('quotaInfo', '')}"
@@ -470,8 +476,7 @@ def main():
     now = datetime.utcnow()
     active_rules = []
     for rule in rules_map.values():
-        explicit_end = parse_explicit_date(rule.get("validUntil")) or parse_explicit_date(rule.get("regDeadline"))
-        if explicit_end and explicit_end < now:
+        if not should_retain_rule(rule, now, retention_days=30):
             continue
         active_rules.append(enrich_reward_fields(rule, rule.get("sourceUrl", "")))
 

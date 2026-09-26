@@ -1744,8 +1744,11 @@
     function renderDataQualityStatus() {
       const container = document.getElementById('data-quality-summary');
       if (!container) return;
-      const confirmed = appRules.filter(rule => rule.cardId && rule.sourceUrl).length;
-      const pending = Math.max(0, appRules.length - confirmed);
+       // 「有沒有官方來源」與「是否綁定單一卡片」是兩件事。銀行全卡友、
+       // 支付工具活動本來就可能沒有 cardId，不能因此被誤報為待補來源。
+       const confirmed = appRules.filter(rule => rule.sourceUrl).length;
+       const pending = appRules.filter(rule => !rule.sourceUrl).length;
+       const bankWideWithSource = appRules.filter(rule => !rule.cardId && rule.sourceUrl).length;
       const bankMap = new Map();
       const cardMap = new Map(appCards.map(card => [card.id, card]));
       appRules.forEach(rule => {
@@ -1753,16 +1756,17 @@
         if (!bankMap.has(bank)) bankMap.set(bank, { total: 0, confirmed: 0, pending: 0, latest: '' });
         const info = bankMap.get(bank);
         info.total += 1;
-        if (rule.cardId && rule.sourceUrl) info.confirmed += 1;
-        else info.pending += 1;
+         if (rule.sourceUrl) info.confirmed += 1;
+         else info.pending += 1;
         if (rule.fetchedAt && rule.fetchedAt > info.latest) info.latest = rule.fetchedAt;
       });
       const rows = Array.from(bankMap.entries()).sort((a, b) => b[1].total - a[1].total);
       container.innerHTML = `
         <div class="grid grid-cols-2 gap-2">
           <div class="rounded-lg bg-[#eef8f5] p-2"><div class="text-[9px] font-bold text-ghibliInk-500">資料載入</div><div class="text-[11px] font-black text-[#25877f]">已成功載入 ${appRules.length} 筆</div></div>
-          <div class="rounded-lg bg-[#fff7ed] p-2"><div class="text-[9px] font-bold text-ghibliInk-500">資料品質</div><div class="text-[11px] font-black text-amber-700">${confirmed} 筆有來源可核對／${pending} 筆待補來源</div></div>
-        </div>
+           <div class="rounded-lg bg-[#fff7ed] p-2"><div class="text-[9px] font-bold text-ghibliInk-500">資料品質</div><div class="text-[11px] font-black text-amber-700">${confirmed} 筆有官方來源／${pending} 筆缺來源</div></div>
+         </div>
+         <div class="mt-1.5 text-[9px] font-bold text-ghibliInk-500">另有 ${bankWideWithSource} 筆為全卡友／銀行共通活動，已有來源但不綁單一卡片，不列為缺漏。</div>
         <details class="mt-2"><summary class="cursor-pointer text-[10px] font-black text-ghibliInk-600">查看各銀行資料狀態</summary>
           <div class="mt-1.5 max-h-40 overflow-y-auto space-y-1">${rows.map(([bank, info]) => `<div class="flex justify-between rounded-lg bg-white px-2 py-1.5 text-[9.5px]"><span class="font-black">${bank}</span><span class="text-ghibliInk-500">可核對 ${info.confirmed}・待補 ${info.pending}${info.latest ? `・${new Date(info.latest).toLocaleDateString('zh-TW')}` : ''}</span></div>`).join('')}</div>
         </details>`;
@@ -2338,6 +2342,20 @@
       return provider?.name || '';
     }
 
+    function getRuleEndDate(rule) {
+      const text = String(rule?.validUntil || rule?.regDeadline || '');
+      const matches = [...text.matchAll(/(20\d{2})\s*[-\/年.]\s*(\d{1,2})\s*[-\/月.]\s*(\d{1,2})/g)];
+      if (!matches.length) return null;
+      const match = matches[matches.length - 1];
+      const date = new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3]), 23, 59, 59);
+      return Number.isNaN(date.getTime()) ? null : date;
+    }
+
+    function isRuleExpired(rule, now = new Date()) {
+      const end = getRuleEndDate(rule);
+      return !!end && end < now;
+    }
+
     function renderMobilePaymentList() {
       const container = document.getElementById('spending-list-container');
       const spendAmount = Math.max(0, parseFloat(document.getElementById('spend-amount-input')?.value) || 0);
@@ -2356,7 +2374,7 @@
       const cardMap = new Map(appCards.map(card => [card.id, card]));
       const matches = appRules.map(rule => {
         const provider = getRulePaymentProvider(rule);
-        if (!provider || rule.quickSearchEligible === false) return null;
+        if (!provider || rule.quickSearchEligible === false || isRuleExpired(rule)) return null;
         const merchantText = Array.isArray(rule.matchedMerchants) ? rule.matchedMerchants.join(' ') : '';
         const corpus = normalizeText(`${provider} ${rule.title || ''} ${rule.category || ''} ${merchantText} ${(rule.intentTags || []).join(' ')} ${rule.intentEvidence || ''}`);
         if (!corpus.includes(normalizedQuery)) return null;
@@ -2391,8 +2409,6 @@
           ? rule.fundingMethods.join('、')
           : card ? `需綁定 ${card.bank} ${card.cardName}` : '付款來源依官方活動規則';
         const sourceLabel = rule.offerDomain === 'PAYMENT' ? '支付工具官方活動' : '銀行合作活動';
-        const stacking = rule.stackingStatus === 'STACKABLE' ? '官方明示可疊加'
-          : rule.stackingStatus === 'NOT_STACKABLE' ? '不可疊加' : '是否疊加待確認';
         return `
           <div class="ghibli-card recommend-glass-card rounded-[22px] p-3.5 space-y-2">
             <div class="flex items-start justify-between gap-2">
@@ -2400,14 +2416,54 @@
               <div class="text-base font-black text-ghibliGold-600">${getRuleRewardLabel(rule)}</div>
             </div>
             <div class="text-xs font-black text-ghibliInk-800">${rule.title}</div>
-            <div class="flex flex-wrap gap-1 text-[9.5px] font-bold">
+             <div class="flex flex-wrap gap-1 text-[9.5px] font-bold">
               <span class="rounded-lg bg-[#eef8f5] px-2 py-1 text-[#25877f]">${funding}</span>
               ${rule.needReg ? '<span class="rounded-lg bg-[#fff1ef] px-2 py-1 text-[#d95f59]">需先登錄／領券</span>' : ''}
-              <span class="rounded-lg bg-[#f5f7f6] px-2 py-1 text-ghibliInk-500">${stacking}</span>
             </div>
-            ${renderRuleSourceLink(rule)}
-          </div>`;
-      }).join('');
+             ${renderRuleSourceLink(rule)}
+             <button type="button" data-payment-rule-id="${rule.id}" onclick="openPaymentDetailModal(this.dataset.paymentRuleId)" class="w-full rounded-xl border border-[#dce9e6] bg-white/70 px-3 py-2 text-left text-[10px] font-black text-[#25877f] active:scale-[0.99]">
+               查看活動大綱與適用條件 →
+             </button>
+           </div>`;
+       }).join('');
+     }
+
+    function openPaymentDetailModal(ruleId) {
+      const rule = appRules.find(item => item.id === ruleId);
+      if (!rule) return;
+      const card = appCards.find(item => item.id === rule.cardId);
+      const provider = getRulePaymentProvider(rule) || rule.paymentProvider || '行動支付活動';
+      const funding = rule.fundingMethods?.length
+        ? rule.fundingMethods.join('、')
+        : card ? `${card.bank} ${card.cardName}` : '依官方活動規則';
+      const summary = rule.quotaInfo || rule.intentEvidence || '官方頁面尚未提供更完整的活動摘要，請以來源頁條款為準。';
+      const merchants = rule.matchedMerchants?.length ? rule.matchedMerchants.join('、') : '依活動頁公告';
+      const requirements = rule.eligibilityRequirements?.length ? rule.eligibilityRequirements.join('、') : (rule.needReg ? '需先完成登錄或領券' : '未列額外資格');
+
+      document.getElementById('modal-card-title').innerText = `${provider}－活動說明`;
+      document.getElementById('modal-card-body').innerHTML = `
+        <div class="rounded-2xl border border-[#dce9e6] bg-[#f7fbfa] p-3 space-y-2">
+          <div class="flex items-start justify-between gap-3">
+            <div><div class="text-[10px] font-black text-ghibliInk-500">活動大綱</div><div class="mt-0.5 text-sm font-black text-ghibliInk-800">${rule.title}</div></div>
+            <div class="flex-shrink-0 text-base font-black text-ghibliGold-600">${getRuleRewardLabel(rule)}</div>
+          </div>
+          <div class="text-[11px] font-bold leading-relaxed text-ghibliInk-600">${summary}</div>
+        </div>
+        <div class="rounded-2xl border border-[#e5ecea] bg-white p-3 space-y-2 text-[10.5px]">
+          <div><span class="font-black text-ghibliInk-700">付款來源：</span><span class="font-bold text-ghibliInk-600">${funding}</span></div>
+          <div><span class="font-black text-ghibliInk-700">適用通路：</span><span class="font-bold text-ghibliInk-600">${merchants}</span></div>
+          <div><span class="font-black text-ghibliInk-700">取得條件：</span><span class="font-bold text-ghibliInk-600">${requirements}</span></div>
+          <div><span class="font-black text-ghibliInk-700">活動期限：</span><span class="font-bold text-ghibliInk-600">${rule.validUntil || rule.regDeadline || '依官方公告'}</span></div>
+        </div>
+        ${rule.stackingStatus === 'NOT_STACKABLE' ? '<div class="rounded-2xl border border-amber-200 bg-amber-50 p-3 text-[10.5px] font-bold leading-relaxed text-amber-800">此活動官方明確標示不可與其他優惠併用。</div>' : ''}
+        ${renderRuleSourceLink(rule)}
+      `;
+      const bankLinkEl = document.getElementById('modal-bank-link');
+      if (bankLinkEl) {
+        bankLinkEl.removeAttribute('href');
+        bankLinkEl.classList.add('hidden');
+      }
+      document.getElementById('card-detail-modal').classList.remove('hidden');
     }
 
     // ==================== 智慧聚合與優先推薦試算引擎 ====================
@@ -2457,6 +2513,7 @@
 
       let candidates = [];
       appRules.forEach(rule => {
+        if (isRuleExpired(rule)) return;
         const sourceCard = cardMap.get(rule.cardId);
         if (!sourceCard) return;
         if (rule.quickSearchEligible === false) return;
@@ -2717,6 +2774,7 @@
       const query = currentSearchText.trim();
       const detailCardMap = new Map(appCards.map(item => [item.id, item]));
       let cardRules = appRules.filter(r => {
+        if (isRuleExpired(r)) return false;
         if (ruleExplicitlyNamesAnotherCard(r, card, detailCardMap)) return false;
         if (r.cardId === cardId) return true;
         const sourceCard = detailCardMap.get(r.cardId);
