@@ -257,7 +257,7 @@ async def run():
                 unresolved["no_exact_title_match"].append(rule)
 
     after = sum(not rule.get("sourceUrl") for rule in data.get("rules", []))
-    if after < before:
+    if after < before or normalized_markers:
         data["version"] = datetime.now(timezone.utc).strftime("%Y.%m.%d-v%H%M%S-sourcefix")
         data["lastUpdated"] = utc_now()
         atomic_json(DATA_FILE, data)
