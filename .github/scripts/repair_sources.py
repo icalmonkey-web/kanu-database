@@ -101,6 +101,34 @@ def infer_rule_bank(rule, card_bank):
     return rule.get("bank") or card_bank.get(rule.get("cardId")) or ""
 
 
+def apply_repaired_source(rule, source_url, method):
+    """Attach verified official evidence and clear stale missing-source markers."""
+    rule["sourceUrl"] = source_url
+    rule["sourceRepairMethod"] = method
+    issues = [issue for issue in rule.get("validationIssues", [])
+              if issue != "SOURCE_MISSING"]
+    rule["validationIssues"] = issues
+    if rule.get("evidenceStatus") == "MISSING_SOURCE":
+        rule["evidenceStatus"] = "SOURCE_FOUND_NEEDS_REVALIDATION"
+
+
+def normalize_existing_source_markers(data):
+    """Clear contradictory missing-source flags from rules that already have a URL."""
+    repaired = 0
+    for rule in data.get("rules", []):
+        if not str(rule.get("sourceUrl") or "").strip():
+            continue
+        old_status = rule.get("evidenceStatus")
+        old_issues = list(rule.get("validationIssues", []))
+        issues = [issue for issue in old_issues if issue != "SOURCE_MISSING"]
+        if old_status == "MISSING_SOURCE":
+            rule["evidenceStatus"] = "SOURCE_FOUND_NEEDS_REVALIDATION"
+        rule["validationIssues"] = issues
+        if old_status != rule.get("evidenceStatus") or old_issues != issues:
+            repaired += 1
+    return repaired
+
+
 def refresh_issuer_inventory(registry, data):
     crawl_report = load_json(CRAWL_REPORT_FILE, {"banks": []})
     reports = {row.get("bank"): row for row in crawl_report.get("banks", [])}
@@ -141,8 +169,7 @@ def copy_equivalent_sources(data, issuer_by_bank):
         bank = infer_rule_bank(rule, card_bank)
         choices = known.get((bank, title_family(rule.get("title"))), set())
         if len(choices) == 1:
-            rule["sourceUrl"] = next(iter(choices))
-            rule["sourceRepairMethod"] = "equivalent_rule"
+            apply_repaired_source(rule, next(iter(choices)), "equivalent_rule")
             repaired += 1
     return repaired
 
@@ -186,6 +213,7 @@ async def run():
     registry = load_json(ISSUER_FILE, {"issuers": []})
     issuer_by_bank = {issuer.get("name"): issuer for issuer in registry.get("issuers", [])}
     card_bank = {card.get("id"): card.get("bank", "") for card in data.get("cards", [])}
+    normalized_markers = normalize_existing_source_markers(data)
     before = sum(not rule.get("sourceUrl") for rule in data.get("rules", []))
     duplicate_repairs = copy_equivalent_sources(data, issuer_by_bank)
 
@@ -195,25 +223,38 @@ async def run():
             pending_by_bank[infer_rule_bank(rule, card_bank)].append(rule)
 
     page_repairs, all_failures, ambiguous = 0, {}, []
+    unresolved = defaultdict(list)
     for bank, pending in pending_by_bank.items():
+        if not bank:
+            unresolved["missing_bank"].extend(pending)
+            continue
         issuer = issuer_by_bank.get(bank)
-        if not bank or not issuer:
+        if not issuer:
+            unresolved["issuer_not_registered"].extend(pending)
             continue
         urls = candidate_urls(bank, issuer, state, data, card_bank)
+        if not urls:
+            unresolved["no_candidate_pages"].extend(pending)
+            continue
         texts, failures = await fetch_texts(urls)
         all_failures.update(failures)
+        if not texts:
+            unresolved["all_candidate_fetches_failed"].extend(pending)
+            continue
         for rule in pending:
             needle = normalized_title(rule.get("title"))
             if len(needle) < 6:
+                unresolved["title_too_short"].append(rule)
                 continue
             matches = [url for url, text in texts.items() if needle in text]
             if len(matches) == 1:
-                rule["sourceUrl"] = matches[0]
-                rule["sourceRepairMethod"] = "unique_exact_title_match"
+                apply_repaired_source(rule, matches[0], "unique_exact_title_match")
                 page_repairs += 1
             elif len(matches) > 1:
                 ambiguous.append({"ruleId": rule.get("id"), "bank": bank,
                                   "title": rule.get("title"), "candidates": matches[:10]})
+            else:
+                unresolved["no_exact_title_match"].append(rule)
 
     after = sum(not rule.get("sourceUrl") for rule in data.get("rules", []))
     if after < before:
@@ -222,13 +263,29 @@ async def run():
         atomic_json(DATA_FILE, data)
     atomic_json(ISSUER_FILE, refresh_issuer_inventory(registry, data))
     previous_report = load_json(REPORT_FILE, {})
+    remaining_by_reason = {
+        reason: {
+            "count": len(rules),
+            "samples": [{"ruleId": rule.get("id"),
+                         "bank": infer_rule_bank(rule, card_bank),
+                         "title": rule.get("title")} for rule in rules[:20]],
+        }
+        for reason, rules in unresolved.items()
+    }
+    if ambiguous:
+        remaining_by_reason["ambiguous_exact_matches"] = {
+            "count": len(ambiguous),
+            "samples": ambiguous[:20],
+        }
     report = {"generatedAt": utc_now(), "beforeMissing": before, "afterMissing": after,
               "repairedFromEquivalentRule": duplicate_repairs,
               "repairedFromUniquePageMatch": page_repairs,
+              "normalizedExistingSourceMarkers": normalized_markers,
               "cumulativeRepaired": int(previous_report.get(
                   "cumulativeRepaired",
                   int(previous_report.get("beforeMissing", 0)) - int(previous_report.get("afterMissing", 0))))
                   + (before - after),
+              "remainingByReason": remaining_by_reason,
               "ambiguous": ambiguous, "fetchFailures": all_failures,
               "aiRequests": 0}
     atomic_json(REPORT_FILE, report)

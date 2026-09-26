@@ -45969,10 +45969,8 @@
       "registrationUrl": "",
       "intentTags": [],
       "intentEvidence": "",
-      "evidenceStatus": "MISSING_SOURCE",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "evidenceStatus": "SOURCE_FOUND_NEEDS_REVALIDATION",
+      "validationIssues": [],
       "registrationMethods": [],
       "sourceRepairMethod": "unique_exact_title_match"
     },
