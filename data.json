@@ -1,5 +1,5 @@
 {
-  "version": "2026.09.26-v173105-sourcefix",
+  "version": "2026.09.26-v174212-sourcefix",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -7805,9 +7805,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -8943,7 +8941,8 @@
       ],
       "fetchedAt": "2026-09-22T21:15:35.621956Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_overseas_physical_2026Q3",
@@ -8974,7 +8973,8 @@
       ],
       "fetchedAt": "2026-09-22T21:15:35.621959Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_birthday_overseas_dining_2026Q3",
@@ -9290,7 +9290,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622065Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_mastercard_tokyo",
@@ -9366,7 +9367,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622077Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_cosmed",
@@ -9393,7 +9395,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622079Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "esun_ns_01",
@@ -11067,9 +11070,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -11155,9 +11156,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -11760,7 +11759,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622647Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_03",
@@ -11784,7 +11784,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622651Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_04",
@@ -11808,7 +11809,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622653Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_05",
@@ -11834,7 +11836,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622656Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_06",
@@ -11860,7 +11863,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622660Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_07",
@@ -11886,7 +11890,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622663Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_08",
@@ -11912,7 +11917,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622666Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_09",
@@ -11938,7 +11944,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622668Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "parking_travel_plus",
@@ -12236,7 +12243,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622695Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "esec_base",
@@ -12832,9 +12840,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -12977,9 +12983,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -13171,7 +13175,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622775Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_twpay_focus",
@@ -13796,7 +13801,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622873Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_icash_pay_11",
@@ -15270,9 +15276,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -15315,9 +15319,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -15362,9 +15364,7 @@
       ],
       "intentEvidence": "樂活卡",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -15413,9 +15413,7 @@
       ],
       "intentEvidence": "i享樂生活卡",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -15463,9 +15461,7 @@
       ],
       "intentEvidence": "卡娜赫拉的小動物悠遊聯名卡",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -16475,9 +16471,7 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.623174Z",
       "registrationUrl": "",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
@@ -16720,9 +16714,7 @@
       "intentTags": [],
       "intentEvidence": "分期滿額贈精選好禮",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -16923,9 +16915,7 @@
       "intentTags": [],
       "intentEvidence": "分期滿額最高享NT$2,500",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -17025,9 +17015,7 @@
       "intentTags": [],
       "intentEvidence": "單筆分期滿額最高享3%",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -17074,9 +17062,7 @@
       "intentTags": [],
       "intentEvidence": "滿額最高現抵28%",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -20903,9 +20889,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -20954,9 +20938,7 @@
       ],
       "intentEvidence": "指定四大通路",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -21002,9 +20984,7 @@
       ],
       "intentEvidence": "國內/外現金回饋1%無上限",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -21048,9 +21028,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": false,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -21098,7 +21076,6 @@
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
       "validationIssues": [
-        "SOURCE_MISSING",
         "NOT_SPENDING_REWARD"
       ],
       "quickSearchEligible": false,
@@ -21144,9 +21121,7 @@
       "intentTags": [],
       "intentEvidence": "洗車",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -21193,7 +21168,6 @@
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
       "validationIssues": [
-        "SOURCE_MISSING",
         "NOT_SPENDING_REWARD"
       ],
       "quickSearchEligible": false,
@@ -21243,9 +21217,7 @@
       ],
       "intentEvidence": "雄獅旅遊",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -21294,9 +21266,7 @@
       ],
       "intentEvidence": "WIRED TOKYO",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -21342,9 +21312,7 @@
       "intentTags": [],
       "intentEvidence": "Apple Rewards Store",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -21390,9 +21358,7 @@
       ],
       "intentEvidence": "國外機票全額或80%國外旅遊團費",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": false,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -21439,9 +21405,7 @@
       ],
       "intentEvidence": "國外機票全額或80%國外旅遊團費",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": false,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -21488,9 +21452,7 @@
       ],
       "intentEvidence": "國外機票全額或80%國外旅遊團費",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": false,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -21539,9 +21501,7 @@
       ],
       "intentEvidence": "指定四大通路",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -21589,9 +21549,7 @@
       ],
       "intentEvidence": "國內/外現金回饋1%無上限",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -21658,9 +21616,7 @@
       ],
       "intentEvidence": "國內消費單筆回饋最高9%",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -21729,9 +21685,7 @@
       ],
       "intentEvidence": "指定四大通路",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -21799,9 +21753,7 @@
       ],
       "intentEvidence": "國內/外現金回饋1%無上限",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -21846,7 +21798,6 @@
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
       "validationIssues": [
-        "SOURCE_MISSING",
         "NOT_SPENDING_REWARD"
       ],
       "quickSearchEligible": false,
@@ -21893,7 +21844,6 @@
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
       "validationIssues": [
-        "SOURCE_MISSING",
         "NOT_SPENDING_REWARD"
       ],
       "quickSearchEligible": false,
@@ -22200,9 +22150,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -23500,9 +23448,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -23545,9 +23491,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -23856,9 +23800,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -23902,9 +23844,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -24232,9 +24172,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -24766,9 +24704,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -24825,9 +24761,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -27591,9 +27525,7 @@
       ],
       "intentEvidence": "指定頂級卡餐飲優惠",
       "evidenceStatus": "VERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -28464,9 +28396,7 @@
       "intentTags": [],
       "intentEvidence": "行動支付刷My樂",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -28633,9 +28563,7 @@
       ],
       "intentEvidence": "台亞加油站",
       "evidenceStatus": "VERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -32717,9 +32645,7 @@
       ],
       "intentEvidence": "盈達旅遊",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -32788,9 +32714,7 @@
       ],
       "intentEvidence": "五福旅遊",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -32971,9 +32895,7 @@
       "intentTags": [],
       "intentEvidence": "宏佳騰智慧電車",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "TIERED",
       "rewardTiers": [
@@ -33170,9 +33092,7 @@
       ],
       "intentEvidence": "旅人無限卡旅遊積分回饋",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -34967,9 +34887,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -35018,9 +34936,7 @@
       "intentTags": [],
       "intentEvidence": "海外消費",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -35069,9 +34985,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -35120,9 +35034,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -35171,9 +35083,7 @@
       "intentTags": [],
       "intentEvidence": "海外消費",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -35222,9 +35132,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -35275,9 +35183,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "TIERED",
       "rewardTiers": [
@@ -35339,9 +35245,7 @@
       "intentTags": [],
       "intentEvidence": "餐飲購物娛樂",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -36580,9 +36484,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -37463,9 +37365,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -37530,9 +37430,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -37597,9 +37495,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -37664,9 +37560,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -38678,9 +38572,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -39419,9 +39311,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -39502,9 +39392,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -39580,9 +39468,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -39625,9 +39511,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -39673,9 +39557,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -39721,9 +39603,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -39773,9 +39653,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -40082,9 +39960,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -40160,9 +40036,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -40299,9 +40173,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "TIERED",
       "rewardTiers": [
@@ -40392,9 +40264,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -40985,9 +40855,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -41128,9 +40996,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -41179,9 +41045,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -41224,9 +41088,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -43399,9 +43261,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": false,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -43784,9 +43644,7 @@
       ],
       "intentEvidence": "漢神百貨",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -43836,9 +43694,7 @@
       ],
       "intentEvidence": "昇恆昌",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -43888,9 +43744,7 @@
       ],
       "intentEvidence": "台北101",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -43940,9 +43794,7 @@
       ],
       "intentEvidence": "台灣中油直營站",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -43993,9 +43845,7 @@
       ],
       "intentEvidence": "指定加油站",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -44046,9 +43896,7 @@
       ],
       "intentEvidence": "台灣高鐵",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -44096,9 +43944,7 @@
       "intentTags": [],
       "intentEvidence": "Gogoro",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -44148,9 +43994,7 @@
       "intentTags": [],
       "intentEvidence": "VOLVO",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -44199,9 +44043,7 @@
       "intentTags": [],
       "intentEvidence": "Honda",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -44251,9 +44093,7 @@
       ],
       "intentEvidence": "碳佐麻里 精品燒肉",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -44303,9 +44143,7 @@
       ],
       "intentEvidence": "天鍋麻辣",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -44355,9 +44193,7 @@
       ],
       "intentEvidence": "台北六福萬怡酒店",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -44405,9 +44241,7 @@
       ],
       "intentEvidence": "Mister Donut",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -44457,9 +44291,7 @@
       ],
       "intentEvidence": "大地酒店",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -44507,9 +44339,7 @@
       ],
       "intentEvidence": "星饗道國際自助餐",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -44557,9 +44387,7 @@
       ],
       "intentEvidence": "台中商旅",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -44605,9 +44433,7 @@
       "intentTags": [],
       "intentEvidence": "指揮大師提勒曼與柏林國家歌劇院管弦樂團",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": false,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -44703,9 +44529,7 @@
       "intentTags": [],
       "intentEvidence": "國家兩廳院",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": false,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -44753,9 +44577,7 @@
       "intentTags": [],
       "intentEvidence": "維也納少年合唱團",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": false,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -44804,9 +44626,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -44903,7 +44723,8 @@
       "fetchedAt": "2026-09-22T21:15:35.622290Z",
       "registrationUrl": "",
       "associationStatus": "needs_review",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "RULE_CARBON_LOTTERY",
@@ -44928,7 +44749,8 @@
       "fetchedAt": "2026-09-22T21:15:35.622294Z",
       "registrationUrl": "",
       "associationStatus": "needs_review",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_coupang_01",
@@ -44958,9 +44780,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -45058,9 +44878,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -45106,9 +44924,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -45908,7 +45724,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622425Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "RULE_UNICARD_01",
@@ -46494,7 +46311,8 @@
       "fetchedAt": "2026-09-22T21:15:35.621583Z",
       "registrationUrl": "",
       "sourceRepairMethod": "equivalent_rule",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "kumamon_japan",
@@ -47223,7 +47041,8 @@
       "fetchedAt": "2026-09-22T21:15:35.621743Z",
       "registrationUrl": "",
       "sourceRepairMethod": "equivalent_rule",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_pi_general",
@@ -47292,7 +47111,8 @@
       "fetchedAt": "2026-09-22T21:15:35.621745Z",
       "registrationUrl": "",
       "sourceRepairMethod": "equivalent_rule",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_world_tuition",
@@ -47318,7 +47138,8 @@
       "fetchedAt": "2026-09-22T21:15:35.621755Z",
       "registrationUrl": "",
       "sourceRepairMethod": "equivalent_rule",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "esun_unicard_new_user",
@@ -47569,7 +47390,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622097Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "ubear_sub",
@@ -49263,9 +49085,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -49312,9 +49132,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -49362,9 +49180,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -49411,9 +49227,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -49459,9 +49273,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -49506,9 +49318,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -49556,9 +49366,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -49607,9 +49415,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -49657,9 +49463,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -52271,9 +52075,7 @@
       "intentTags": [],
       "intentEvidence": "日本韓國滿4萬起加碼0.5%~1.5%；歐美英澳加紐滿5萬起加碼0.5%~1.5%",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "TIERED",
       "rewardTiers": [
@@ -57228,9 +57030,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -57290,9 +57090,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "TIERED",
       "rewardTiers": [
@@ -57828,9 +57626,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -57889,9 +57685,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "TIERED",
       "rewardTiers": [
@@ -58441,9 +58235,7 @@
       ],
       "intentEvidence": "icash Pay綁定玉山信用卡",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -61475,9 +61267,7 @@
       ],
       "intentEvidence": "全國電子",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -61577,7 +61367,8 @@
       "fetchedAt": "2026-09-22T21:15:35.621819Z",
       "registrationUrl": "",
       "associationStatus": "needs_review",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_dept_installment_2026_2",
@@ -62076,7 +61867,8 @@
       "fetchedAt": "2026-09-22T21:15:35.621897Z",
       "registrationUrl": "",
       "associationStatus": "needs_review",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_general_01",
@@ -62104,9 +61896,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -63320,9 +63110,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -64436,9 +64224,7 @@
       "fetchedAt": "2026-09-24T00:07:36.763851Z",
       "bank": "永豐銀行",
       "registrationUrl": "",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "intentTags": [
         "百貨"
       ],
@@ -65675,9 +65461,7 @@
       ],
       "intentEvidence": "保費",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -65739,9 +65523,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "TIERED",
       "rewardTiers": [
@@ -65831,9 +65613,7 @@
       ],
       "intentEvidence": "國外消費",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "TIERED",
       "rewardTiers": [
@@ -65907,9 +65687,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -65971,9 +65749,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -66032,9 +65808,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -66092,9 +65866,7 @@
       ],
       "intentEvidence": "外幣消費",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -66161,9 +65933,7 @@
       ],
       "intentEvidence": "國外一般消費",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -66212,9 +65982,7 @@
       "intentTags": [],
       "intentEvidence": "國內一般消費",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -66265,9 +66033,7 @@
       ],
       "intentEvidence": "保費代繳",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -66426,9 +66192,7 @@
       "intentTags": [],
       "intentEvidence": "美麗華",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -66479,9 +66243,7 @@
       "intentTags": [],
       "intentEvidence": "美安",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -66534,9 +66296,7 @@
       ],
       "intentEvidence": "東森網連通",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -66585,9 +66345,7 @@
       "intentTags": [],
       "intentEvidence": "一般消費",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -66636,9 +66394,7 @@
       "intentTags": [],
       "intentEvidence": "一般消費",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -66750,9 +66506,7 @@
       ],
       "intentEvidence": "國外消費",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "TIERED",
       "rewardTiers": [
@@ -66925,9 +66679,7 @@
       "intentTags": [],
       "intentEvidence": "",
       "evidenceStatus": "UNVERIFIED",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "UNKNOWN",
       "rewardTiers": [
@@ -67969,7 +67721,6 @@
       "intentEvidence": "",
       "evidenceStatus": "WEAK",
       "validationIssues": [
-        "SOURCE_MISSING",
         "NOT_SPENDING_REWARD"
       ],
       "quickSearchEligible": false,
@@ -68000,7 +67751,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622693Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "mega_one_ipass_base",
@@ -68024,7 +67776,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-22T21:15:35.622696Z",
       "registrationUrl": "",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "infinite_base",
@@ -68301,7 +68054,8 @@
       "fetchedAt": "2026-09-22T21:15:35.622784Z",
       "registrationUrl": "",
       "associationStatus": "needs_review",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_phone",
@@ -69299,9 +69053,7 @@
       ],
       "intentEvidence": "嗶嗶繳",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -80069,9 +79821,7 @@
       ],
       "intentEvidence": "DAWHO現金回饋",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -80124,9 +79874,7 @@
       "intentTags": [],
       "intentEvidence": "精選綠色通路",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -80179,9 +79927,7 @@
       ],
       "intentEvidence": "幣倍卡",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -80283,9 +80029,7 @@
       "intentTags": [],
       "intentEvidence": "JCB卡特選通路",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -80337,9 +80081,7 @@
       ],
       "intentEvidence": "DAWAY卡",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -80391,9 +80133,7 @@
       "intentTags": [],
       "intentEvidence": "運動賺回饋",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "MAX_ONLY",
       "rewardTiers": [
@@ -80451,9 +80191,7 @@
       ],
       "intentEvidence": "夢行卡",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -85038,9 +84776,7 @@
       ],
       "intentEvidence": "保費",
       "evidenceStatus": "WEAK",
-      "validationIssues": [
-        "SOURCE_MISSING"
-      ],
+      "validationIssues": [],
       "quickSearchEligible": true,
       "rewardCalculationMode": "FLAT",
       "rewardTiers": [
@@ -88587,7 +88323,8 @@
       ],
       "fetchedAt": "2026-09-25T03:31:04.032385Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_4d268dbced59e7e22df5",
@@ -88622,7 +88359,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:31:28.744452Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_c5c347ec2b5f0de85bd7",
@@ -88656,7 +88394,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:33:10.811523Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_bcda95597e110d37af95",
@@ -88688,7 +88427,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:33:35.477790Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_8e97a4e3be826e2c5260",
@@ -88729,7 +88469,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:35:29.390255Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_25c34ea831493ce9463c",
@@ -88794,7 +88535,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:36:13.483955Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_4f39bbb07438bf02b5e5",
@@ -88872,7 +88614,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:36:36.851813Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_74967a78e8540cbfbbe1",
@@ -88906,7 +88649,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:36:53.628975Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_b47c3c004d88b20c6da4",
@@ -88940,7 +88684,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:36:53.629024Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_7bcb6dafbda52b5b334f",
@@ -88974,7 +88719,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:36:53.629052Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_096430768a83f84b630e",
@@ -89008,7 +88754,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:36:53.629078Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_b2f325bece7356fb8e5f",
@@ -89057,7 +88804,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:37:17.633362Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_2a940407060234ee97da",
@@ -89096,7 +88844,8 @@
       ],
       "fetchedAt": "2026-09-25T03:37:38.439016Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_67212187a6437e6b7261",
@@ -89130,7 +88879,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:37:38.439066Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_269c37743dd8411018ce",
@@ -89164,7 +88914,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:38:34.966385Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_872d96d2c5ca9f0d0181",
@@ -89196,7 +88947,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:38:34.966434Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_973914dc166dd04b89b4",
@@ -89230,7 +88982,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:38:34.966462Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_9e3733b4ef7df47a4695",
@@ -89262,7 +89015,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:38:34.966489Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_5aa53c22cbf7c76c2648",
@@ -89296,7 +89050,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:38:34.966516Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_65cf8f71b2b2aec2a81e",
@@ -89331,7 +89086,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:38:34.966543Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_06aa602f0966cca5fc3b",
@@ -89365,7 +89121,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:38:56.579856Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_93af9fc5c2b54e89a0b0",
@@ -89400,7 +89157,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:38:56.579908Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_eeba0e2253fe1145102e",
@@ -89434,7 +89192,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:39:22.442247Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_bd5077e001c7e387b328",
@@ -89468,7 +89227,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:39:22.442296Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_627c71895f7126646a33",
@@ -89502,7 +89262,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:39:22.442324Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_1b0e8c500fe664c558d5",
@@ -89536,7 +89297,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:39:22.442353Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_8fbc7a836f66b24afde6",
@@ -89570,7 +89332,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:39:50.500652Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_68841c414eec219e9427",
@@ -89604,7 +89367,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:39:50.500701Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_ba83bbc389ccdf852d30",
@@ -89638,7 +89402,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:39:50.500756Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_98da2be8240bfa0a6451",
@@ -89670,7 +89435,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:40:30.071506Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_f405804eaef449133c85",
@@ -89717,7 +89483,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:40:49.753185Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_aa0f3e67117670480b57",
@@ -89753,7 +89520,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:41:15.895332Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_a681efd1a7e802394bd4",
@@ -89787,7 +89555,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:41:34.879951Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_7a1688a2bfe4f32c3117",
@@ -89819,7 +89588,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:41:46.454931Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_143d3ad3b5f614904926",
@@ -89853,7 +89623,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:43:16.354493Z",
       "bank": "美國運通",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_917b814afdeb9d3b4b60",
@@ -89957,7 +89728,8 @@
       ],
       "fetchedAt": "2026-09-25T03:39:31.305517Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_ac585469e79d4a21a139",
@@ -89994,7 +89766,8 @@
       ],
       "fetchedAt": "2026-09-25T03:39:31.305562Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_ad7d87a16f1515a0e258",
@@ -90035,7 +89808,8 @@
       ],
       "fetchedAt": "2026-09-25T03:39:31.305653Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_e5ce2015f2caad071311",
@@ -90071,7 +89845,8 @@
       ],
       "fetchedAt": "2026-09-25T03:39:55.627956Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_760d8bbfc924ef13c412",
@@ -90109,7 +89884,8 @@
       ],
       "fetchedAt": "2026-09-25T03:40:13.042313Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_209182cd7ad859127417",
@@ -90154,7 +89930,8 @@
       ],
       "fetchedAt": "2026-09-25T03:40:13.042461Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_5246808f612280ca479f",
@@ -90192,7 +89969,8 @@
       ],
       "fetchedAt": "2026-09-25T03:40:35.507868Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_cc4b59625a776303a9f1",
@@ -90235,7 +90013,8 @@
       ],
       "fetchedAt": "2026-09-25T03:40:58.072922Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_0b23255ffa18f77e3cfe",
@@ -90276,7 +90055,8 @@
       ],
       "fetchedAt": "2026-09-25T03:40:58.073032Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_1f5132f88a74dc83ed04",
@@ -90311,7 +90091,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:40:58.073121Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_e27990cbc2556c8225cb",
@@ -90356,7 +90137,8 @@
       ],
       "fetchedAt": "2026-09-25T03:41:22.019607Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_e0d659549412ede9efc8",
@@ -90391,7 +90173,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:41:22.019740Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_4d9bb899d7a839c9d63b",
@@ -90436,7 +90219,8 @@
       ],
       "fetchedAt": "2026-09-25T03:44:00.624661Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_89ed4fc677515fc60163",
@@ -90477,7 +90261,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:44:00.624871Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_4582e784de1757ff951e",
@@ -90507,7 +90292,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:44:00.624977Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_5f1e5ab649d86deaeff1",
@@ -90548,7 +90334,8 @@
       ],
       "fetchedAt": "2026-09-25T03:44:00.625082Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_447b25ef27c5dd625de4",
@@ -90593,7 +90380,8 @@
       ],
       "fetchedAt": "2026-09-25T03:44:30.125500Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_5f76a86e1f5ddc5cd87a",
@@ -90631,7 +90419,8 @@
       ],
       "fetchedAt": "2026-09-25T03:45:57.608494Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_b77592a875942d6ac196",
@@ -90672,7 +90461,8 @@
       ],
       "fetchedAt": "2026-09-25T03:45:57.608634Z",
       "bank": "臺灣土地銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_337071cd2d948eeca71a",
@@ -90727,7 +90517,8 @@
       ],
       "fetchedAt": "2026-09-25T03:26:49.718470Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_6d9c5e6c8596b0d310af",
@@ -90763,7 +90554,8 @@
       ],
       "fetchedAt": "2026-09-25T03:31:34.268238Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_3ea805aea53a9da2406f",
@@ -90801,7 +90593,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:33:41.156259Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_bb5e8ab85fcfb5e356a4",
@@ -90849,7 +90642,8 @@
       ],
       "fetchedAt": "2026-09-25T03:34:03.400807Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_804bb00804b0ab012d64",
@@ -90897,7 +90691,8 @@
       ],
       "fetchedAt": "2026-09-25T03:34:03.400933Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_618534cca0de1c3cb714",
@@ -90957,7 +90752,8 @@
       ],
       "fetchedAt": "2026-09-25T03:34:29.172288Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_eefc6b794927e9d7d63e",
@@ -90995,7 +90791,8 @@
       ],
       "fetchedAt": "2026-09-25T03:35:24.357337Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_ddb66d215b7b97828151",
@@ -91031,7 +90828,8 @@
       "registrationUrl": "",
       "fetchedAt": "2026-09-25T03:37:06.164007Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_1b31ee71107ddc02fdbe",
@@ -91066,7 +90864,8 @@
       "registrationUrl": "",
       "fetchedAt": "2026-09-25T03:37:06.164128Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_35c80353858b4fb4a95c",
@@ -91100,7 +90899,8 @@
       "registrationUrl": "",
       "fetchedAt": "2026-09-25T03:37:06.164226Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_c0e0dd524765a90a1e34",
@@ -91132,7 +90932,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:37:28.200436Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_2647a0c9f2fa7b5dd29d",
@@ -91175,7 +90976,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:37:28.200487Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_41163bb25df22bb2c6c1",
@@ -91230,7 +91032,8 @@
       ],
       "fetchedAt": "2026-09-25T03:37:57.417559Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_2fba3c1fca87f381f4ce",
@@ -91268,7 +91071,8 @@
       ],
       "fetchedAt": "2026-09-25T03:38:51.036764Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_5cec749e5793a63eb0cb",
@@ -91308,7 +91112,8 @@
       ],
       "fetchedAt": "2026-09-25T03:41:03.780566Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_8645803445450734745a",
@@ -91346,7 +91151,8 @@
       ],
       "fetchedAt": "2026-09-25T03:41:30.018369Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_9bb340028b71480ed067",
@@ -91388,7 +91194,8 @@
       ],
       "fetchedAt": "2026-09-25T03:41:30.018524Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_afe8f52ae6afa73514d9",
@@ -91476,7 +91283,8 @@
       ],
       "fetchedAt": "2026-09-25T03:41:30.018661Z",
       "bank": "王道銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_903c2965422f37fe479c",
@@ -91764,7 +91572,8 @@
       ],
       "fetchedAt": "2026-09-25T03:31:16.798234Z",
       "bank": "台中銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_2e9da295ef1a3cd2e2be",
@@ -91855,7 +91664,8 @@
       ],
       "fetchedAt": "2026-09-25T03:43:35.676060Z",
       "bank": "台中銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_152c295dec50f2ec6ec4",
@@ -91887,7 +91697,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:26:57.688810Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_606cf6294c96a07f7bad",
@@ -91919,7 +91730,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:27:37.678763Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_258d868aa354aa11c297",
@@ -91949,7 +91761,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:29:33.752457Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_3fa41f79f92ff07f0f71",
@@ -91981,7 +91794,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:29:33.752565Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_15f6f0d0f614ebece16c",
@@ -92011,7 +91825,8 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T03:29:33.752650Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_7b0d69d90fb1b9217594",
@@ -92048,7 +91863,8 @@
       ],
       "fetchedAt": "2026-09-25T03:31:22.176586Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_7874a1da4207cf31103e",
@@ -92121,7 +91937,8 @@
           "activityName": "大將卡日本旅遊消費最高10% N點回饋",
           "campaignCode": ""
         }
-      ]
+      ],
+      "validationIssues": []
     },
     {
       "id": "rule_f5d08618f60861b67ab4",
@@ -92188,7 +92005,8 @@
           "activityName": "大將卡日本旅遊消費最高10% N點回饋",
           "campaignCode": ""
         }
-      ]
+      ],
+      "validationIssues": []
     },
     {
       "id": "rule_eaa486e6f5b69ec4b13e",
@@ -92225,7 +92043,8 @@
       ],
       "fetchedAt": "2026-09-25T03:33:30.468614Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_594a128950d3c98f6e30",
@@ -92262,7 +92081,8 @@
       ],
       "fetchedAt": "2026-09-25T03:33:30.468766Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_0f33952d4f9d957d0efb",
@@ -92300,7 +92120,8 @@
       ],
       "fetchedAt": "2026-09-25T03:33:55.059051Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_99c41c49fbc96d7e58a7",
@@ -92342,7 +92163,8 @@
       ],
       "fetchedAt": "2026-09-25T03:34:22.260711Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_59fe4261810a99dcc86f",
@@ -92413,7 +92235,8 @@
           "activityName": "將將卡理想生活指定通路加碼回饋",
           "campaignCode": ""
         }
-      ]
+      ],
+      "validationIssues": []
     },
     {
       "id": "rule_ece0d2ee5916fccdb0fe",
@@ -92469,7 +92292,8 @@
           "activityName": "將來支付全聯及四大超商付款享10 N點回饋",
           "campaignCode": ""
         }
-      ]
+      ],
+      "validationIssues": []
     },
     {
       "id": "rule_60cda5439e4ea818a4cc",
@@ -92510,7 +92334,8 @@
       ],
       "fetchedAt": "2026-09-25T03:36:42.275077Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_6bff4ce403b0f91387b9",
@@ -92553,7 +92378,8 @@
       ],
       "fetchedAt": "2026-09-25T03:37:46.998046Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_cd90634729747279c7fb",
@@ -92598,7 +92424,8 @@
       ],
       "fetchedAt": "2026-09-25T03:37:46.998157Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_95cb858fbe10d1df151e",
@@ -92643,7 +92470,8 @@
       ],
       "fetchedAt": "2026-09-25T03:37:46.998248Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_8d2b6142698390f96926",
@@ -92679,7 +92507,8 @@
       ],
       "fetchedAt": "2026-09-25T03:38:11.496500Z",
       "bank": "將來銀行",
-      "registrationMethods": []
+      "registrationMethods": [],
+      "validationIssues": []
     },
     {
       "id": "rule_d619cb10c35e360d6d01",
@@ -92770,7 +92599,8 @@
       "quotaInfo": "單筆滿200元享7%回饋，每會員回饋上限200元，總回饋上限50萬元",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:13:56.018403Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_8f75b09cace8e23a9544",
@@ -92843,7 +92673,8 @@
       "quotaInfo": "每筆享10.5%回饋金另免1.5%海外手續費；每會員每階段回饋上限600元",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:13:56.018448Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_11ba42015813b208b007",
@@ -92918,7 +92749,8 @@
       "quotaInfo": "繳納學雜費累計滿10,000元並完成2筆生活繳費送500元現金回饋券，每月限量500名",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:13:56.018476Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_006500b6316d8707e768",
@@ -92963,7 +92795,8 @@
       "quotaInfo": "每月每戶回饋上限 150 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249298Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_ab2c29660cbacf64f66b",
@@ -93010,7 +92843,8 @@
       "quotaInfo": "每戶每月回饋上限 200 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249341Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_4a8e0e5e17a095167e0e",
@@ -93059,7 +92893,8 @@
       "quotaInfo": "每戶回饋上限 80 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249365Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_0afe9164190a2c43cca7",
@@ -93107,7 +92942,8 @@
       "quotaInfo": "每戶回饋上限 150 點（各活動獨立計算上限）",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249393Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_e8207be3d7935ae73dc8",
@@ -93152,7 +92988,8 @@
       "quotaInfo": "每月每戶回饋上限 150 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249413Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_3acabd6c5f69a6226d84",
@@ -93200,7 +93037,8 @@
       "quotaInfo": "每月每戶回饋上限 100 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249430Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_cdae394831737b3b8c60",
@@ -93248,7 +93086,8 @@
       "quotaInfo": "每月每戶回饋上限 200 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249446Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_aa81cc87e0fe1560576e",
@@ -93296,7 +93135,8 @@
       "quotaInfo": "每日每戶回饋上限 200 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249463Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_043f713ffa2087c1b85b",
@@ -93345,7 +93185,8 @@
       "quotaInfo": "每月每戶回饋上限 50 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249479Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_9b5948e1096c7106eb6d",
@@ -93394,7 +93235,8 @@
       "quotaInfo": "每週每戶回饋上限 100 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249495Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_086aad0b03dcbdd98c84",
@@ -93445,7 +93287,8 @@
       "quotaInfo": "每公升集點 1.9 點或每公升降價 1.6 元",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249512Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_08fc6a09c30db34a46ae",
@@ -93494,7 +93337,8 @@
       "quotaInfo": "每公升集點 2.4 點或每公升降價 2.4 元",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249528Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_c848634b3218467d93e6",
@@ -93543,7 +93387,8 @@
       "quotaInfo": "每月每戶／每卡回饋上限 300 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249544Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_aa6677311263361dcedf",
@@ -93594,7 +93439,8 @@
       "quotaInfo": "每月每戶／每卡回饋上限 100 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249560Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_c3701ecf55ed1fd48c01",
@@ -93642,7 +93488,8 @@
       "quotaInfo": "每月每戶回饋上限 100 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249576Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_f56000ae7263b5c99d0d",
@@ -93690,7 +93537,8 @@
       "quotaInfo": "每月每戶回饋上限 100 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249592Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_c19009f8131beef91a91",
@@ -93738,7 +93586,8 @@
       "quotaInfo": "每月每戶回饋上限 150 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249608Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_26130f0b90b4ce798b30",
@@ -93783,7 +93632,8 @@
       "quotaInfo": "每戶每週可享乙次抽獎機會",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249627Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_a187e4df7d9ecb2fee09",
@@ -93843,7 +93693,8 @@
       "quotaInfo": "每戶限贈乙張",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249646Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_200921e7a025f2626c34",
@@ -93896,7 +93747,8 @@
       "quotaInfo": "每月每戶回饋上限 50 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249664Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_b2778607ff0e122b066c",
@@ -93945,7 +93797,8 @@
       "quotaInfo": "每季每戶回饋上限 60 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249696Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_d327347b53208e78fe30",
@@ -94020,7 +93873,8 @@
       "quotaInfo": "每戶每月回饋上限 40 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249712Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_281b4b53991c8f9a7b92",
@@ -94069,7 +93923,8 @@
       "quotaInfo": "每月每戶回饋上限 50 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249728Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_3bb4a3d95eade061ab89",
@@ -94117,7 +93972,8 @@
       "quotaInfo": "每日總上限 10,000 組",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249744Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_edc1d1c84b35b8a1a8d1",
@@ -94164,7 +94020,8 @@
       "quotaInfo": "每戶每月回饋上限 120 點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249760Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_b7c3844015d56b6eeb66",
@@ -94219,7 +94076,8 @@
         "2026/12/31"
       ],
       "fetchedAt": "2026-09-25T19:15:05.249776Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_475e9180d508251fee6e",
@@ -94267,7 +94125,8 @@
       "quotaInfo": "每戶每月回饋上限 100 點，各銀行分別計算",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249792Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_675c8e37f8b7d8b670e0",
@@ -94324,7 +94183,8 @@
       "quotaInfo": "每戶每月回饋上限 1,000 點，各銀行分別計算，活動需登錄",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:05.249809Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_3d11a662f1ec30a43d0e",
@@ -94416,7 +94276,8 @@
       "quotaInfo": "單筆滿200元享7%回饋金，每會員回饋上限200元，活動總回饋金額上限50萬元，送完為止；可與月級挑戰疊加最高10%",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:44.434475Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_b4fc2c3aaeb8c3bbe874",
@@ -94490,7 +94351,8 @@
       "quotaInfo": "每筆交易享10.5%回饋金另享免1.5%手續費合輯最高12%；每會員每階段回饋上限600元，額滿即止",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:44.434512Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_1e735a45ff1c9a4d5dea",
@@ -94557,7 +94419,8 @@
       "quotaInfo": "學雜費累計滿10,000元並完成2筆生活繳費交易可得500元現金回饋券，每月限量500名",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:15:44.434530Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_dd8e6ee6902e080fc776",
@@ -94622,7 +94485,8 @@
       "quotaInfo": "每戶活動期間回饋上限1,000點，每月總回饋上限12萬點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:17:12.971313Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_5393fd0c4956b48f291e",
@@ -94685,7 +94549,8 @@
       "quotaInfo": "每戶每月回饋上限100點，每月總回饋上限20萬點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:17:12.971347Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_6a054da90d74768855e1",
@@ -94750,7 +94615,8 @@
         "商務卡"
       ],
       "fetchedAt": "2026-09-25T19:17:12.971366Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_f950592f0f6ff79f1ff2",
@@ -94817,7 +94683,8 @@
         "商務卡"
       ],
       "fetchedAt": "2026-09-25T19:17:12.971383Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_935151f60027b34fcab7",
@@ -94882,7 +94749,8 @@
         "宜蘭認同卡"
       ],
       "fetchedAt": "2026-09-25T19:17:12.971400Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_2645c3ef9a23b74b8b76",
@@ -94949,7 +94817,8 @@
         "宜蘭認同卡"
       ],
       "fetchedAt": "2026-09-25T19:17:12.971417Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_ab78a7348393177bef92",
@@ -95012,7 +94881,8 @@
       "quotaInfo": "每戶每月回饋上限100點，每月總回饋上限12萬點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:17:12.971434Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_c7d8001db2936cafcf06",
@@ -95078,7 +94948,8 @@
         "商務卡"
       ],
       "fetchedAt": "2026-09-25T19:17:12.971450Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_bd80b280c7e747d3a977",
@@ -95143,7 +95014,8 @@
         "商務卡"
       ],
       "fetchedAt": "2026-09-25T19:17:12.971467Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_9aaf126215978bb394f6",
@@ -95206,7 +95078,8 @@
       "quotaInfo": "每戶每月回饋上限100點，每月總回饋上限1萬點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:17:12.971484Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_b8167da32ddc20b99718",
@@ -95269,7 +95142,8 @@
       "quotaInfo": "每戶每月回饋上限100點，每月總回饋上限1.5萬點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:17:12.971500Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_e0de86b169c8af40b1cd",
@@ -95329,7 +95203,8 @@
       "quotaInfo": "使用 icash Pay 消費享 0.5% OPENPOINT 回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:19:03.934535Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_5ad395a2f85806f7ee81",
@@ -95382,7 +95257,8 @@
       "quotaInfo": "限量新戶1,050名",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:20:03.759646Z",
-      "bank": "將來銀行"
+      "bank": "將來銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_d46906f01673b41853a4",
@@ -95437,7 +95313,8 @@
         "塑膠袋"
       ],
       "fetchedAt": "2026-09-25T19:20:03.759681Z",
-      "bank": "將來銀行"
+      "bank": "將來銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_08bbf4704f1a411476f9",
@@ -95488,7 +95365,8 @@
       "quotaInfo": "每人每週最高回饋上限100全點，每週限量發送16,000全點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:20:03.759699Z",
-      "bank": "將來銀行"
+      "bank": "將來銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_68a386941fbcda0eb829",
@@ -95540,7 +95418,8 @@
       "quotaInfo": "每人每週最高回饋上限100全點，每週限量發送3,000全點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:20:03.759716Z",
-      "bank": "將來銀行"
+      "bank": "將來銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_060b50e1fd03de5b9f29",
@@ -95613,7 +95492,8 @@
       "quotaInfo": "最高30%點數回饋，詳細回饋上限及優惠詳情請參閱官方說明",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:21:42.099875Z",
-      "bank": "LINE Pay"
+      "bank": "LINE Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_216e54df0eb35d4c1523",
@@ -95698,7 +95578,8 @@
         "OPENPOINT點數折抵金額"
       ],
       "fetchedAt": "2026-09-25T19:21:48.228475Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_08583c1d307e6a7fcf7b",
@@ -95769,7 +95650,8 @@
         "非悠遊卡版本"
       ],
       "fetchedAt": "2026-09-25T19:21:54.255613Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_6b8f701d418d2d1e5ace",
@@ -95836,7 +95718,8 @@
       "quotaInfo": "最高30%點數回饋＆購票優惠",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:22:10.892206Z",
-      "bank": "LINE Pay"
+      "bank": "LINE Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_1d8dac272cf4756cd94e",
@@ -95905,7 +95788,8 @@
       "quotaInfo": "[優惠一] 使用LINE Pay筆筆享10%回饋 [優惠二] 使用LINE Pay綁定富邦J卡再享10%回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:22:10.892241Z",
-      "bank": "LINE Pay"
+      "bank": "LINE Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_89b5c2182f6e449769ba",
@@ -95983,7 +95867,8 @@
         "奶粉"
       ],
       "fetchedAt": "2026-09-25T19:22:16.528237Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_9b813498e682710a60e5",
@@ -96059,7 +95944,8 @@
         "信用卡"
       ],
       "fetchedAt": "2026-09-25T19:22:24.894353Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_a536acdd795d40c63693",
@@ -96126,7 +96012,8 @@
         "信用卡"
       ],
       "fetchedAt": "2026-09-25T19:22:24.894386Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_c474aab1e58299b7847a",
@@ -96190,7 +96077,8 @@
         "信用卡"
       ],
       "fetchedAt": "2026-09-25T19:22:24.894405Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_10b51f10e20710a71088",
@@ -96259,7 +96147,8 @@
         "OPENPOINT點數折抵金額"
       ],
       "fetchedAt": "2026-09-25T19:22:38.068330Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_e3ec9c0491b4f640a94f",
@@ -96351,7 +96240,8 @@
         "分期交易"
       ],
       "fetchedAt": "2026-09-25T19:22:45.099807Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_7bf8419dc242db11bb98",
@@ -96425,7 +96315,8 @@
         "取消"
       ],
       "fetchedAt": "2026-09-25T19:23:43.840716Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_bd3a6ab6f0b2e0029fac",
@@ -96491,7 +96382,8 @@
       "quotaInfo": "單筆滿200元(含)，每月/戶回饋上限200點OPENPOINT",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:23:43.840755Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_a59a91a1439492602ae6",
@@ -96558,7 +96450,8 @@
       "quotaInfo": "每一icash Pay用戶每月回饋上限150點，每月總回饋上限35萬點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:23:43.840775Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_a4bb97df2532b9b7d69c",
@@ -96649,7 +96542,8 @@
         "採購卡"
       ],
       "fetchedAt": "2026-09-25T19:23:49.620276Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_7dac4a86b4129d2f6d0b",
@@ -96703,7 +96597,8 @@
       "quotaInfo": "活動期間每人最多可獲得三次抽獎機會，每人限中獎一次，共5名",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:23:57.628524Z",
-      "bank": "將來銀行"
+      "bank": "將來銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_5a8b5410dc2d76380844",
@@ -96802,7 +96697,8 @@
       "quotaInfo": "最高可享300元獎勵金，每戶限回饋一次，限量5,000份",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:23:57.628564Z",
-      "bank": "將來銀行"
+      "bank": "將來銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_90a246c239cf66a5dfb5",
@@ -96872,7 +96768,8 @@
         "點數折抵"
       ],
       "fetchedAt": "2026-09-25T19:24:52.023839Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_04da71b205b328287307",
@@ -96942,7 +96839,8 @@
         "通路本身不提供基本回饋之商品"
       ],
       "fetchedAt": "2026-09-25T19:25:53.375092Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_55fbe994ac88f6b860d1",
@@ -97007,7 +96905,8 @@
       "quotaInfo": "活動對象於活動期間內成功開戶並完成指定任務，即可獲得用戶禮NT$350悠遊付儲值金與Richart造型悠遊卡乙張。",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:25:58.906680Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_ad0a21cf0a64cd32b6a3",
@@ -97111,7 +97010,8 @@
         "汐金"
       ],
       "fetchedAt": "2026-09-25T19:26:10.751226Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_b2360e477532dac8dd1e",
@@ -97216,7 +97116,8 @@
         "汐金"
       ],
       "fetchedAt": "2026-09-25T19:26:10.751262Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_5ddef3f9bb8166ccda19",
@@ -97296,7 +97197,8 @@
         "2026/3/31(含)前已申請或異動以悠遊付領取補助款之悠遊付用戶"
       ],
       "fetchedAt": "2026-09-25T19:26:17.692334Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_2b7979c6cd9bf5e0b1ef",
@@ -97359,7 +97261,8 @@
       "quotaInfo": "次月份加碼15元回饋金(不累加，每一悠遊付用戶限回饋一次)",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:26:17.692369Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_bade284eeb5637b1d04e",
@@ -97462,7 +97365,8 @@
         "汐金等位於百貨/商場型門市"
       ],
       "fetchedAt": "2026-09-25T19:26:29.094103Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_b14bca5c6b9f02338f6f",
@@ -97565,7 +97469,8 @@
         "汐金等位於百貨/商場型門市"
       ],
       "fetchedAt": "2026-09-25T19:26:29.094158Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_20c4274dcaf2ea2596bc",
@@ -97638,7 +97543,8 @@
         "一歲以下嬰幼兒奶粉及藥品"
       ],
       "fetchedAt": "2026-09-25T19:26:42.359046Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_46a9feee7eb9b0d3b68c",
@@ -97710,7 +97616,8 @@
         "退貨交易"
       ],
       "fetchedAt": "2026-09-25T19:26:51.167296Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_9a1cff7dc9fb356d9cde",
@@ -97811,7 +97718,8 @@
         "電子商品券"
       ],
       "fetchedAt": "2026-09-25T19:26:58.228997Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_6895d9b86b00609d127b",
@@ -97896,7 +97804,8 @@
         "取消、退貨及退款交易"
       ],
       "fetchedAt": "2026-09-25T19:27:08.584565Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_fa34681c589842e811c0",
@@ -97995,7 +97904,8 @@
         "法定不得促銷商品"
       ],
       "fetchedAt": "2026-09-25T19:27:18.339308Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_1f8a337aecb30a7f13dc",
@@ -98072,7 +97982,8 @@
         "法定不得促銷商品"
       ],
       "fetchedAt": "2026-09-25T19:27:18.339343Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_ac9b415d091e60a3e9f1",
@@ -98149,7 +98060,8 @@
         "法定不得促銷商品"
       ],
       "fetchedAt": "2026-09-25T19:27:18.339361Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_972b475ac1da2c36dc06",
@@ -98224,7 +98136,8 @@
         "取消"
       ],
       "fetchedAt": "2026-09-25T19:27:27.893055Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_fe2193d2f8e5f54a21fe",
@@ -98342,7 +98255,8 @@
         "臺北市自來水費於每日23:58-00:13系統維護期間不適用"
       ],
       "fetchedAt": "2026-09-25T19:27:35.022760Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_797440146acef963461b",
@@ -98412,7 +98326,8 @@
         "TWQR機制交易"
       ],
       "fetchedAt": "2026-09-25T19:27:45.168935Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_de73a1bf3f3cd3855272",
@@ -98480,7 +98395,8 @@
         "TWQR機制交易"
       ],
       "fetchedAt": "2026-09-25T19:27:45.168968Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_f292a268620da6c1e7d3",
@@ -98574,7 +98490,8 @@
       "quotaInfo": "單筆滿200元享7%回饋金，每悠遊付會員回饋上限200元，活動總回饋金額上限50萬元，送完為止；可與月級挑戰筆筆最高回饋3%活動疊加最高享10%",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:27:51.498690Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_270417bec8b3e896d89f",
@@ -98643,7 +98560,8 @@
         "OPENPOINT點數折抵金額"
       ],
       "fetchedAt": "2026-09-25T19:28:33.177230Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_9ae2c7979a0abe0de228",
@@ -98708,7 +98626,8 @@
         "OPENPOINT點數折抵金額"
       ],
       "fetchedAt": "2026-09-25T19:28:33.177269Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_642e3f980cf681ccdf0b",
@@ -98799,7 +98718,8 @@
       "quotaInfo": "每會員每階段回饋上限為600元悠遊付回饋金，各階段之個人回饋上限及活動總額度均獨立計算，額滿即止",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:28:40.582172Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_df21b34e5ea738bba85b",
@@ -98884,7 +98804,8 @@
         "TWQR機制交易"
       ],
       "fetchedAt": "2026-09-25T19:28:53.606420Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_8c03e70163b595b305e0",
@@ -98952,7 +98873,8 @@
         "退貨"
       ],
       "fetchedAt": "2026-09-25T19:28:53.606454Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_ad73574fb669b0bc9ed0",
@@ -99022,7 +98944,8 @@
       "quotaInfo": "累計滿10,000元並完成2筆生活繳費交易可得500元現金回饋券，每月限量500名，每戶限贈一次",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:29:02.262073Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_5930d04d05867afe5e4a",
@@ -99088,7 +99011,8 @@
       "quotaInfo": "每筆交易滿5,999元享100元回饋，每戶限領一次，回饋總額上限10萬元",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:29:02.262127Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_8899aa8f981bd5c2cdbb",
@@ -99156,7 +99080,8 @@
       "quotaInfo": "繳納任一筆學雜費並於麥當勞APP單筆滿200元加碼送50元，限量前1萬名",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:29:02.262145Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_b485121db755543c63ca",
@@ -99216,7 +99141,8 @@
         "奶粉"
       ],
       "fetchedAt": "2026-09-25T19:29:11.318191Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_d5e7b1a5472945e0d80a",
@@ -99270,7 +99196,8 @@
       "quotaInfo": "累計減碳量達5公斤即可獲得兌獎機會",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:29:26.813162Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_5c2ea3f8a8f192787955",
@@ -99326,7 +99253,8 @@
         "公車"
       ],
       "fetchedAt": "2026-09-25T19:29:26.813199Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_c1ed8e05e4abb6b03bdf",
@@ -99412,7 +99340,8 @@
         "非活動期間註冊之舊會員"
       ],
       "fetchedAt": "2026-09-25T19:29:36.410525Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_e089cf455d4d59d9337b",
@@ -99484,7 +99413,8 @@
         "2026/6/30含以前已完成首次自動加值之卡"
       ],
       "fetchedAt": "2026-09-25T19:29:53.839351Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_ffbb5afcd331d24b06c5",
@@ -99546,7 +99476,8 @@
       "quotaInfo": "最高贈80點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:30:08.801720Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_a81c35d8ffd6919bfc0a",
@@ -99621,7 +99552,8 @@
         "奶粉"
       ],
       "fetchedAt": "2026-09-25T19:30:45.617189Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_6103e2120ba5e19e6136",
@@ -99713,7 +99645,8 @@
       "quotaInfo": "單筆滿200元享7%回饋金，每悠遊付會員回饋上限200元，活動總回饋金額上限50萬元，送完為止；可與月級挑戰疊加最高10%",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:30:54.447853Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_1b553dc85d2d01d94c72",
@@ -99787,7 +99720,8 @@
       "quotaInfo": "每會員每階段回饋上限為600元悠遊付回饋金，各階段之個人回饋上限及活動總額度均獨立計算，額滿即止",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:30:54.447891Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_033fabc313fb5005bedd",
@@ -99855,7 +99789,8 @@
       "quotaInfo": "繳納學雜費累計滿10,000元，並完成2筆生活繳費交易，可獲得500元現金回饋券，每月限量500名",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:30:54.447911Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_bfc04e846866f16dea09",
@@ -99921,7 +99856,8 @@
         "OPENPOINT 點數折抵金額"
       ],
       "fetchedAt": "2026-09-25T19:31:00.816560Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_974ddd89b14b984d4cd6",
@@ -99983,7 +99919,8 @@
       "quotaInfo": "全通路單筆滿199元以上享4%回饋，每一icash Pay用戶每月回饋上限150點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:31:00.816597Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_1deb9983a3597e23fddf",
@@ -100072,7 +100009,8 @@
         "TWQR機制"
       ],
       "fetchedAt": "2026-09-25T19:31:14.513639Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_690f1da15e08b3ae6731",
@@ -100156,7 +100094,8 @@
         "代收代售"
       ],
       "fetchedAt": "2026-09-25T19:31:27.068832Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_9a5b35132268db5b8246",
@@ -100251,7 +100190,8 @@
         "代收代售"
       ],
       "fetchedAt": "2026-09-25T19:31:27.068871Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_c1463cb2759809362cf5",
@@ -100346,7 +100286,8 @@
         "代收代售"
       ],
       "fetchedAt": "2026-09-25T19:31:27.068891Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_d609434e7a64c7d422b4",
@@ -100408,7 +100349,8 @@
       "quotaInfo": "全通路單筆滿199元回饋4%",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:31:37.263622Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_6bb235ee802e303eec9b",
@@ -100473,7 +100415,8 @@
       "quotaInfo": "需登錄",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:31:37.263660Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_4311dcb0c30a7e7a3551",
@@ -100538,7 +100481,8 @@
       "quotaInfo": "最高可享3%悠遊付回饋金",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:31:42.344223Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_4863a423813747a1b92b",
@@ -100630,7 +100574,8 @@
         "商店街"
       ],
       "fetchedAt": "2026-09-25T19:31:50.983873Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_5ca1e78053fa1fec265e",
@@ -100721,7 +100666,8 @@
         "商店街"
       ],
       "fetchedAt": "2026-09-25T19:31:50.983909Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_e1cc46d8ee856f203306",
@@ -100812,7 +100758,8 @@
         "商店街"
       ],
       "fetchedAt": "2026-09-25T19:31:50.983927Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_efb4d1ff53da4ca6df0b",
@@ -100894,7 +100841,8 @@
       "quotaInfo": "新註冊會員於指定自動繳費機使用悠遊付享最高3%回饋金",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:31:56.281027Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_e5062b26fc4d515cb603",
@@ -100994,7 +100942,8 @@
         "台中中友店"
       ],
       "fetchedAt": "2026-09-25T19:32:01.895153Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_4a4c2adbf7ac18697ed5",
@@ -101063,7 +101012,8 @@
       "quotaInfo": "各通路優惠活動期間及內容不同，詳見內文說明",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:32:22.276663Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_01ee92936385ec614f36",
@@ -101118,7 +101068,8 @@
       "quotaInfo": "悠遊付現金回饋券限量5萬張，無記名悠遊卡回饋金限量前10萬卡",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:32:22.276701Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_54145eacf012220a463a",
@@ -101170,7 +101121,8 @@
       "quotaInfo": "累計減碳量達5公斤可兌換",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:32:22.276719Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_1f576c490da5c9d62b5b",
@@ -101222,7 +101174,8 @@
       "quotaInfo": "限量4,500張",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:32:22.276738Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_b8c79f0492230a1e2388",
@@ -101298,7 +101251,8 @@
       "quotaInfo": "現金回饋券限量4,000張，20%回饋金每帳戶每月最高回饋1,000元，限量回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:32:22.276756Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_f119037ecb451b822fe9",
@@ -101375,7 +101329,8 @@
       "quotaInfo": "搭乘5次贈20點OPENPOINT、搭乘10次贈60點(不累贈)，活動期間每戶回饋上限60點，活動總上限10萬點。",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:32:29.364861Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_626bd5f35ccb20ae6c94",
@@ -101428,7 +101383,8 @@
       "quotaInfo": "每戶限領1張，限量4,000張，送完為止",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:32:44.816974Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_76b48aec67da3663b455",
@@ -101479,7 +101435,8 @@
       "quotaInfo": "每戶每月最高回饋1,000元，限量回饋、送完為止",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:32:44.817011Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_8155791031ddb2a5511f",
@@ -101544,7 +101501,8 @@
       "quotaInfo": "首筆紀錄贈50元現金回饋券，限量1萬份；後續達指定次數或重量門檻可再領20元現金回饋券",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:32:44.817066Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_d4caf9a3f6433c607025",
@@ -101613,7 +101571,8 @@
         "TWQR機制"
       ],
       "fetchedAt": "2026-09-25T19:32:49.724754Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_835483da632e26a11f8d",
@@ -101680,7 +101639,8 @@
       "quotaInfo": "餐廳取餐單筆滿200元、歡樂送單筆滿450元享10%回饋，疊加最高15%",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-25T19:33:23.570398Z",
-      "bank": "悠遊付"
+      "bank": "悠遊付",
+      "validationIssues": []
     },
     {
       "id": "rule_eafb644c5fb0c2b93d06",
@@ -101746,7 +101706,8 @@
         "OPENPOINT點數折抵金額"
       ],
       "fetchedAt": "2026-09-25T19:36:30.049054Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_0d11c4851faf128fd8c8",
@@ -101815,7 +101776,8 @@
         "OPENPOINT點數折抵金額"
       ],
       "fetchedAt": "2026-09-25T19:36:30.049087Z",
-      "bank": "icash Pay"
+      "bank": "icash Pay",
+      "validationIssues": []
     },
     {
       "id": "rule_43ca77592d84064de8fc",
@@ -101858,7 +101820,8 @@
       "quotaInfo": "開啟7大刷最高享3.8%",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:11:36.234362Z",
-      "bank": "台新銀行"
+      "bank": "台新銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_31cc239d8ba83ee25e5f",
@@ -101906,7 +101869,8 @@
       "quotaInfo": "最高享10%回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:11:36.234668Z",
-      "bank": "台新銀行"
+      "bank": "台新銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_7f4bb8703de4541f900a",
@@ -101953,7 +101917,8 @@
       "quotaInfo": "刷指定保費享1%回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:11:36.234924Z",
-      "bank": "台新銀行"
+      "bank": "台新銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_e6ab9fd75b194d440328",
@@ -101998,7 +101963,8 @@
       "quotaInfo": "最高享88折優惠",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:11:36.234975Z",
-      "bank": "台新銀行"
+      "bank": "台新銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_0b59e40dedd785dc2a17",
@@ -102067,7 +102033,8 @@
       "quotaInfo": "海外最高樂翔積分NT6元1點、國內樂翔積分NT18元1點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:11:52.091332Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_328ca17677ec5fe576f2",
@@ -102136,7 +102103,8 @@
       "quotaInfo": "國內最高3%回饋、日韓泰實體交易最高4%回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:11:52.091475Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_329640736f66d9538f5d",
@@ -102206,7 +102174,8 @@
       "quotaInfo": "Panda J卡享最高8%折扣（優惠碼RC82026），其餘指定樂天卡享5%折扣（優惠碼RC52026）",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:12:15.093399Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_f6765da3c843489a4c75",
@@ -102279,7 +102248,8 @@
       "quotaInfo": "玫瑰金卡、桃猿卡、虎航卡、樂翔卡、桃猿世界卡享5%折扣（優惠碼RC52026）",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:12:15.093556Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_ffdc9801c42dc93f7d4c",
@@ -102345,7 +102315,8 @@
         "分期付款交易"
       ],
       "fetchedAt": "2026-09-26T04:12:28.707814Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_5f06a8f1bd05acf58ee0",
@@ -102408,7 +102379,8 @@
         "分期付款交易"
       ],
       "fetchedAt": "2026-09-26T04:12:28.707981Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_684d3c6798e07067f293",
@@ -102452,7 +102424,8 @@
       "quotaInfo": "NT18元1點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:12:40.471984Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_dd35db4783e5c8682ddf",
@@ -102496,7 +102469,8 @@
       "quotaInfo": "NT6元1點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:12:40.472223Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_b7d2445138c03e409a19",
@@ -102566,7 +102540,8 @@
       "quotaInfo": "國內最高3%回饋，日韓泰實體交易最高4%回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:12:40.472383Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_e097a5b97341d63fa4d4",
@@ -102627,7 +102602,8 @@
       "quotaInfo": "滿NT$8,000現折800",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:13.573277Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_f6d115071b2672452e2c",
@@ -102747,7 +102723,8 @@
       "quotaInfo": "最高享6萬日圓現金回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:13.573376Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_ba4a6410d3668fdb9b9f",
@@ -102816,7 +102793,8 @@
       "quotaInfo": "生日當月透過指定連結購票享最高8折",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:13.573546Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_c5e56510be451699f79f",
@@ -102880,7 +102858,8 @@
       "quotaInfo": "2%回饋無上限",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:13.573588Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_dfaa51b16b2bf7b8baea",
@@ -102955,7 +102934,8 @@
       "quotaInfo": "訂房8%、機票3%折扣",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:13.573652Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_e190289d03a12ec347b3",
@@ -103016,7 +102996,8 @@
       "quotaInfo": "滿NT$10,000現折1,050",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:13.573821Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_2d0dc23b1fa3c6aa4dcf",
@@ -103079,7 +103060,8 @@
       "quotaInfo": "最高8%折扣",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:13.573983Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_993f61b5181509cf3960",
@@ -103141,7 +103123,8 @@
       "quotaInfo": "首購享70%回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:13.574017Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_5c51a676a704f1227160",
@@ -103209,7 +103192,8 @@
       "quotaInfo": "累積消費金額滿10,000元享500元刷卡金，限量1000名",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:13.574163Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_5902811f89a7e78278b5",
@@ -103283,7 +103267,8 @@
       "quotaInfo": "訂房現折6%&機票現折2%",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:13.574199Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_41d059717e9a84a8bc1e",
@@ -103346,7 +103331,8 @@
       "quotaInfo": "全球訂房享8%折扣",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:13.574233Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_cf5e442743434af57999",
@@ -103409,7 +103395,8 @@
       "quotaInfo": "全球訂房享8%折扣",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:13.574265Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_3e46aee2839208f934b9",
@@ -103484,7 +103471,8 @@
       "quotaInfo": "國內指定消費最高3%回饋、日韓實體消費2%無上限回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:13.574410Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_8db25d32488fda87176e",
@@ -103542,7 +103530,8 @@
       "quotaInfo": "指定商店刷卡消費憑優惠券享折扣或特定優惠",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:22.589932Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_29cf26ddd0b5c0c5ead7",
@@ -103598,7 +103587,8 @@
       "quotaInfo": "國內／外一般消費最高1%回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:49.343719Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_0c50dcd91b631d0823f2",
@@ -103654,7 +103644,8 @@
       "quotaInfo": "國內／國外一般消費享1%現金積點回饋無上限",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:49.343900Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_f23e0ec79b79cd3e6aa8",
@@ -103716,7 +103707,8 @@
       "quotaInfo": "日本／韓國／泰國／新加坡／美洲／歐洲地區享加碼最高5%回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:49.344068Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_f1defa1fde674467fd75",
@@ -103771,7 +103763,8 @@
       "quotaInfo": "指定海外串流影音平台享10倍活利積分",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:49.344232Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_abd57459e68831016433",
@@ -103827,7 +103820,8 @@
       "quotaInfo": "PChome內消費筆筆最高6%回饋 (分期同享)",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:49.344400Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_856e639274ba0bc8f53d",
@@ -103881,7 +103875,8 @@
       "quotaInfo": "國外消費 2.5%回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:13:49.344565Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_49a700cfbb0ac0f609e2",
@@ -104104,7 +104099,8 @@
         "事後分期"
       ],
       "fetchedAt": "2026-09-26T04:14:22.010327Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_6fbcd6869293d0fd5aa6",
@@ -104160,7 +104156,8 @@
       "quotaInfo": "最高享國內4%、國外5%現金+儲蓄點數回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:14:32.941375Z",
-      "bank": "華南銀行"
+      "bank": "華南銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_09baf865ec3d2dcfecd8",
@@ -104216,7 +104213,8 @@
       "quotaInfo": "網購消費最高2%現金回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:14:32.941537Z",
-      "bank": "華南銀行"
+      "bank": "華南銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_ba2bb624f4184ee200e8",
@@ -104272,7 +104270,8 @@
       "quotaInfo": "最高國內1%國外2%現金回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:14:32.941707Z",
-      "bank": "華南銀行"
+      "bank": "華南銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_e8e8cc7ca73df0f4b659",
@@ -104328,7 +104327,8 @@
       "quotaInfo": "指定通路最高享國內2%、國外3%現金點數回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:14:32.941858Z",
-      "bank": "華南銀行"
+      "bank": "華南銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_7d80330553bc68040f72",
@@ -104388,7 +104388,8 @@
       "quotaInfo": "日韓消費最高5倍紅利、消費滿額享6期分期0利率",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:14:32.942004Z",
-      "bank": "華南銀行"
+      "bank": "華南銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_2b762cdf3c2248343468",
@@ -104438,7 +104439,8 @@
       "quotaInfo": "每週三指定特店金豬食堂",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:14:41.035937Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_b4bd442d90c88b9e58b5",
@@ -104485,7 +104487,8 @@
       "quotaInfo": "首綁贈50全點，筆筆消費享5%",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:14:41.036002Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_3da6947da44c1bb084d7",
@@ -104544,7 +104547,8 @@
       "quotaInfo": "天天刷星展eco永續卡享1%現金積點回饋無上限",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:14:41.036251Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_27df4db48238b7396f6e",
@@ -104667,7 +104671,8 @@
         "分期本金"
       ],
       "fetchedAt": "2026-09-26T04:15:41.814544Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_d14317179ded4d99fa04",
@@ -104764,7 +104769,8 @@
         "電子票證加值"
       ],
       "fetchedAt": "2026-09-26T04:15:41.814791Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_a94b1e2d0c14c74ff20e",
@@ -104874,7 +104880,8 @@
         "年費"
       ],
       "fetchedAt": "2026-09-26T04:15:41.814839Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_88cdd5ab571cc999391b",
@@ -104932,7 +104939,8 @@
         "小額支付"
       ],
       "fetchedAt": "2026-09-26T04:15:55.445055Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_e80bbfa99de75b9331da",
@@ -104993,7 +105001,8 @@
       "quotaInfo": "PChome 內消費（含分期）最高 6% 回饋，國內外一般消費皆享 0.5%",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:15:55.445270Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_668592040edc953df69f",
@@ -105061,7 +105070,8 @@
       "quotaInfo": "回饋1%無上限，出國必備最高5%回饋，eco消費最高10%回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:15:55.445455Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_a9ab994dd8f065bd00a8",
@@ -105181,7 +105191,8 @@
         "博奕類交易"
       ],
       "fetchedAt": "2026-09-26T04:16:05.780394Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_ae2305792a41d6097fd6",
@@ -105329,7 +105340,8 @@
         "透過小額支付收費之連鎖速食店（如：麥當勞、肯德基...）"
       ],
       "fetchedAt": "2026-09-26T04:16:25.215004Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_acd6d5ce3f68d29c445e",
@@ -105449,7 +105461,8 @@
         "博奕類交易"
       ],
       "fetchedAt": "2026-09-26T04:16:38.705749Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_51ad66adad36d7eafc69",
@@ -105596,7 +105609,8 @@
         "博奕類交易"
       ],
       "fetchedAt": "2026-09-26T04:16:38.705985Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_0b0d46d845b5a6ba441f",
@@ -105677,7 +105691,8 @@
         "MCC code非指定餐飲類別之交易"
       ],
       "fetchedAt": "2026-09-26T04:16:51.958383Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_5f127a78912067912ee8",
@@ -105747,7 +105762,8 @@
         "公司卡"
       ],
       "fetchedAt": "2026-09-26T04:17:06.896870Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_8a8c6a2f4df98fa608fe",
@@ -105832,7 +105848,8 @@
         "公司卡"
       ],
       "fetchedAt": "2026-09-26T04:17:06.896928Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_f915b7f30a4e16ee8e0f",
@@ -105888,7 +105905,8 @@
       "quotaInfo": "國內／外一般消費享最高1%回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:17:31.069501Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_e6d4652bf2c326aef106",
@@ -105944,7 +105962,8 @@
       "quotaInfo": "國內／國外一般消費享1%現金積點回饋無上限",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:17:31.069749Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_17e5a94ac07c8703748a",
@@ -106007,7 +106026,8 @@
       "quotaInfo": "日本／韓國／泰國／新加坡／美洲／歐洲地區享加碼最高5%回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:17:31.069949Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_4e3ca3d57e4ae70b7da8",
@@ -106066,7 +106086,8 @@
       "quotaInfo": "透過星展申請公用事業費代扣繳每NT$25享1點活利積分",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:17:31.070145Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_489384bfd05f156d1bf0",
@@ -106123,7 +106144,8 @@
       "quotaInfo": "PChome內消費筆筆最高6%回饋 (分期同享)",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:17:31.070340Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_637bbc31c61786390008",
@@ -106182,7 +106204,8 @@
       "quotaInfo": "於遠東SOGO、遠百等指定商店消費享最高6倍點數",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:17:31.070515Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_197d5f73bf7fa82d0972",
@@ -106236,7 +106259,8 @@
       "quotaInfo": "國外消費 2.5%回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:17:31.070704Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_b76fabd11a38fc5466c6",
@@ -106298,7 +106322,8 @@
       "quotaInfo": "單月刷星展信用卡任刷國內餐飲且含3筆每筆消費達NT$888（含）以上",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:18:04.512416Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_424b778a62e6acfc8b9b",
@@ -106362,7 +106387,8 @@
       "quotaInfo": "完成活動登錄，當月享最高10%刷卡金回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:18:04.512472Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_9a462406cc577baf04a7",
@@ -106429,7 +106455,8 @@
       "quotaInfo": "每週三 LINE Pay 綁定星展信用卡於金豬食堂消費",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:18:04.512515Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_1abe946c18a3a7eb4f83",
@@ -106504,7 +106531,8 @@
       "quotaInfo": "首綁消費最高贈50全點，筆筆消費再享5%回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:18:04.512556Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_99a254f72e7d36f72f2a",
@@ -106564,7 +106592,8 @@
       "quotaInfo": "天天刷星展eco永續卡享1%現金積點回饋無上限",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:18:04.512809Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_73784f2bb2f2ecfdecae",
@@ -106629,7 +106658,8 @@
       "quotaInfo": "首次以星展信用卡繳保險費，累積達檻享最高4%回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:18:04.512856Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_e4df0e3c6b9dc6c71db9",
@@ -106690,7 +106720,8 @@
       "quotaInfo": "活動期間內消費滿額最高享300點全聯福利點",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:18:04.513054Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_22dea6f23479e3372802",
@@ -106779,7 +106810,8 @@
         "匯兌平台"
       ],
       "fetchedAt": "2026-09-26T04:18:38.737250Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_320c347e6fdf2d636818",
@@ -106868,7 +106900,8 @@
         "匯兌平台"
       ],
       "fetchedAt": "2026-09-26T04:18:38.737468Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_ca9f88c0f809b60e07e9",
@@ -106973,7 +107006,8 @@
         "稅款"
       ],
       "fetchedAt": "2026-09-26T04:18:53.948188Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_ec48e07c89e7d685218c",
@@ -107046,7 +107080,8 @@
         "退貨交易"
       ],
       "fetchedAt": "2026-09-26T04:18:53.948403Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_2c3eff4c95a7222faea3",
@@ -107141,7 +107176,8 @@
         "歐洲地區國家實體商店交易"
       ],
       "fetchedAt": "2026-09-26T04:19:09.965863Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_6b98e050d6eef93e0abb",
@@ -107226,7 +107262,8 @@
         "歐洲地區國家實體商店交易"
       ],
       "fetchedAt": "2026-09-26T04:19:09.966095Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_036a8ec3e5b6c4e3d509",
@@ -107282,7 +107319,8 @@
       "quotaInfo": "HAPPY GO特約商店一般刷卡消費享2倍點數回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:19:19.697603Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_409de50c81b73bea8aeb",
@@ -107341,7 +107379,8 @@
       "quotaInfo": "PChome內消費最高6%回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:19:19.697859Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_69adc0118e218a2085b4",
@@ -107395,7 +107434,8 @@
       "quotaInfo": "刷卡消費0.275%捐助喜憨兒社會福利基金會",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:19:19.698055Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_6fd63a8b19fb9c398375",
@@ -107465,7 +107505,8 @@
         "境外投資平台"
       ],
       "fetchedAt": "2026-09-26T04:19:34.105951Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_3169f819cb5cb09c658a",
@@ -107543,7 +107584,8 @@
         "境外投資平台"
       ],
       "fetchedAt": "2026-09-26T04:19:34.106142Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_271d9c3445440560ebb7",
@@ -107622,7 +107664,8 @@
         "境外投資平台"
       ],
       "fetchedAt": "2026-09-26T04:19:34.106313Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_1eb3d5b94876b228847d",
@@ -107745,7 +107788,8 @@
         "博奕類交易"
       ],
       "fetchedAt": "2026-09-26T04:19:43.711569Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_b998e5580465af56f4ae",
@@ -107893,7 +107937,8 @@
         "預訂後始至現場刷卡付款之消費"
       ],
       "fetchedAt": "2026-09-26T04:19:43.711669Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_336e261eccbebfa2645b",
@@ -107969,7 +108014,8 @@
         "DCC 交易部分除外條件依官方公告"
       ],
       "fetchedAt": "2026-09-26T04:19:54.704412Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_a29fda1474c2a12fb537",
@@ -108052,7 +108098,8 @@
         "特價商品"
       ],
       "fetchedAt": "2026-09-26T04:19:54.704656Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_adcaee7b8f74747d01b2",
@@ -108125,7 +108172,8 @@
       "quotaInfo": "筆筆3%現金回饋(無限量)",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:19:54.704855Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_39566dfe0c116ca8d6cf",
@@ -108233,7 +108281,8 @@
         "未完成掃碼之刷卡憑證"
       ],
       "fetchedAt": "2026-09-26T04:19:54.705052Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_b9bdd6c15931fad7de32",
@@ -108340,7 +108389,8 @@
         "特約商店分期付款交易"
       ],
       "fetchedAt": "2026-09-26T04:20:06.120619Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_eb4cf0457f2b392117e1",
@@ -108431,7 +108481,8 @@
         "信用卡年費"
       ],
       "fetchedAt": "2026-09-26T04:20:06.120703Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_bd9d92d35bef7fedc232",
@@ -108575,7 +108626,8 @@
         "街口支付"
       ],
       "fetchedAt": "2026-09-26T04:20:25.172268Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_83512b77dfbe07502833",
@@ -108690,7 +108742,8 @@
         "博弈類交易"
       ],
       "fetchedAt": "2026-09-26T04:20:31.090297Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_c8180314e731cb88a75c",
@@ -108741,7 +108794,8 @@
       "quotaInfo": "使用JCB卡進行支付即享主夾板展望台30%購票優惠",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:20:41.483473Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_3013cfdb366bd34a795f",
@@ -108792,7 +108846,8 @@
       "quotaInfo": "使用JCB卡消費享95折優惠",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:20:41.483707Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_ed69307f5b146f4466a6",
@@ -108843,7 +108898,8 @@
       "quotaInfo": "Agoda訂房刷JCB 最高享12%OFF",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:20:41.483914Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_cae4494d8838115de193",
@@ -108970,7 +109026,8 @@
         "僅收現金店家"
       ],
       "fetchedAt": "2026-09-26T04:20:52.940839Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_f7bfde928b8d3f27a1d3",
@@ -109047,7 +109104,8 @@
         "僅收現金店家"
       ],
       "fetchedAt": "2026-09-26T04:20:52.940892Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_3cec66ce3776c330dd2f",
@@ -109124,7 +109182,8 @@
         "僅收現金店家"
       ],
       "fetchedAt": "2026-09-26T04:20:52.940932Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_85b2a0d18a568baf98d1",
@@ -109206,7 +109265,8 @@
         "連鎖速食店如麥當勞、肯德基"
       ],
       "fetchedAt": "2026-09-26T04:20:52.940970Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_49850d7a6f940b7b580c",
@@ -109302,7 +109362,8 @@
         "第三方支付"
       ],
       "fetchedAt": "2026-09-26T04:21:02.549262Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_d0e02cdc1b33ca06b791",
@@ -109361,7 +109422,8 @@
       "quotaInfo": "指定線上購物特店享分期0%利率",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:21:08.373229Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_9432a24ebf8ea87d5876",
@@ -109538,7 +109600,8 @@
         "EZDING"
       ],
       "fetchedAt": "2026-09-26T04:21:42.658670Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_2b8719ffc412729684de",
@@ -109640,7 +109703,8 @@
         "EZDING"
       ],
       "fetchedAt": "2026-09-26T04:21:42.658888Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_705fc41896991f6b5285",
@@ -109697,7 +109761,8 @@
         "GOLD CLASS"
       ],
       "fetchedAt": "2026-09-26T04:21:42.658928Z",
-      "bank": "星展銀行"
+      "bank": "星展銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_b5e96053cafb61432f8e",
@@ -109767,7 +109832,8 @@
         "分期付款交易"
       ],
       "fetchedAt": "2026-09-26T04:21:51.646559Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_bca39bb03a8d0a74364c",
@@ -109846,7 +109912,8 @@
         "街口支付"
       ],
       "fetchedAt": "2026-09-26T04:22:04.224720Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_c603dee188f6f099d5a3",
@@ -109909,7 +109976,8 @@
         "銷退貨"
       ],
       "fetchedAt": "2026-09-26T04:22:17.229165Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_7cc5c12ddabee1b54ab1",
@@ -110013,7 +110081,8 @@
         "公司卡"
       ],
       "fetchedAt": "2026-09-26T04:22:52.810830Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_99030a6f0d2094820447",
@@ -110079,7 +110148,8 @@
         "樂天Panda J卡排除回饋項目"
       ],
       "fetchedAt": "2026-09-26T04:23:05.516136Z",
-      "bank": "樂天信用卡"
+      "bank": "樂天信用卡",
+      "validationIssues": []
     },
     {
       "id": "rule_321b90982d0ff311afe6",
@@ -110128,7 +110198,8 @@
       "quotaInfo": "指定通路滿額回饋飆 4%",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:23:45.243520Z",
-      "bank": "LINE Bank"
+      "bank": "LINE Bank",
+      "validationIssues": []
     },
     {
       "id": "rule_ac2a579f078b10460bdb",
@@ -110180,7 +110251,8 @@
       "quotaInfo": "滿額回饋飆 4.3%",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:23:45.243704Z",
-      "bank": "LINE Bank"
+      "bank": "LINE Bank",
+      "validationIssues": []
     },
     {
       "id": "rule_16f6e3502e2bd0a800ca",
@@ -110242,7 +110314,8 @@
       "quotaInfo": "蝦皮購物滿600/699/1000/3000回饋高達10.5%",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:23:45.243855Z",
-      "bank": "LINE Bank"
+      "bank": "LINE Bank",
+      "validationIssues": []
     },
     {
       "id": "rule_d25c5d383c8a1704f88a",
@@ -110291,7 +110364,8 @@
       "quotaInfo": "指定通路滿額回饋最高 4%",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:24:03.083132Z",
-      "bank": "LINE Bank"
+      "bank": "LINE Bank",
+      "validationIssues": []
     },
     {
       "id": "rule_27f1ec0c208c9b587608",
@@ -110341,7 +110415,8 @@
       "quotaInfo": "滿額回饋最高 4.3%",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:24:03.083271Z",
-      "bank": "LINE Bank"
+      "bank": "LINE Bank",
+      "validationIssues": []
     },
     {
       "id": "rule_bb2a9c258399d6552874",
@@ -110390,7 +110465,8 @@
       "quotaInfo": "滿600/699/1000/3000回饋高達10.5%",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:24:03.083403Z",
-      "bank": "LINE Bank"
+      "bank": "LINE Bank",
+      "validationIssues": []
     },
     {
       "id": "rule_9f1a309b5b36defa9cb7",
@@ -110452,7 +110528,8 @@
       "quotaInfo": "依官方活動指定門檻(滿500/699/1000/3000)",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:24:13.255846Z",
-      "bank": "LINE Bank"
+      "bank": "LINE Bank",
+      "validationIssues": []
     },
     {
       "id": "rule_e8d41887f286bb4c6dbc",
@@ -110516,7 +110593,8 @@
       "quotaInfo": "指定3C品牌滿額享回饋",
       "excludedKeywords": [],
       "fetchedAt": "2026-09-26T04:24:13.255997Z",
-      "bank": "LINE Bank"
+      "bank": "LINE Bank",
+      "validationIssues": []
     },
     {
       "id": "rule_0b67ade2109037569df6",
@@ -110595,7 +110673,8 @@
         "部分歐洲地區實體商店國外消費"
       ],
       "fetchedAt": "2026-09-26T04:28:36.720819Z",
-      "bank": "安泰銀行"
+      "bank": "安泰銀行",
+      "validationIssues": []
     },
     {
       "id": "rule_e8f2e573d7fd282d0bc4",
@@ -110677,5 +110756,5 @@
       "message": "政府規費、公用事業水電瓦斯多數信用卡皆排除回饋。"
     }
   ],
-  "lastUpdated": "2026-09-26T17:31:05.549967Z"
+  "lastUpdated": "2026-09-26T17:42:12.159454Z"
 }

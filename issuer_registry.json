@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "description": "台灣信用卡發卡機構主清單。enabled 僅代表已設定可執行入口，不代表涵蓋率驗證通過。",
-  "lastUpdatedAt": "2026-09-26T17:38:54.089947Z",
+  "lastUpdatedAt": "2026-09-26T17:42:12.271697Z",
   "issuers": [
     {
       "name": "永豐銀行",
