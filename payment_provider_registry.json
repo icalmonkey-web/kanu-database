@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2026-09-26T21:22:26.539622Z",
+  "lastUpdatedAt": "2026-09-27T22:26:21.455588Z",
   "providers": [
     {
       "name": "LINE Pay",
@@ -21,10 +21,10 @@
         "playwright"
       ],
       "eventLinkPattern": "(promotion|event|campaign|benefit|coupon)",
-      "lastSuccessfulScanAt": "2026-09-26T21:10:08.431429Z",
-      "lastScanAt": "2026-09-26T21:10:08.431429Z",
+      "lastSuccessfulScanAt": "2026-09-27T22:23:49.650783Z",
+      "lastScanAt": "2026-09-27T22:23:49.650783Z",
       "lastScanStatus": "completed",
-      "discoveredOfferCount": 16,
+      "discoveredOfferCount": 14,
       "unvisitedPageCount": 0,
       "failedPageCount": 0
     },
@@ -49,9 +49,9 @@
       ],
       "eventLinkPattern": "(news|event|campaign|activity|promotion|優惠|活動)",
       "lastSuccessfulScanAt": "",
-      "lastScanAt": "2026-09-26T20:59:37.603299Z",
+      "lastScanAt": "2026-09-27T22:23:50.348218Z",
       "lastScanStatus": "needs_review",
-      "discoveredOfferCount": 8,
+      "discoveredOfferCount": 9,
       "unvisitedPageCount": 0,
       "failedPageCount": 1
     },
@@ -79,7 +79,7 @@
       "lastSuccessfulScanAt": "",
       "lastScanAt": "2026-09-26T21:22:17.018634Z",
       "lastScanStatus": "needs_review",
-      "discoveredOfferCount": 82,
+      "discoveredOfferCount": 53,
       "unvisitedPageCount": 83,
       "failedPageCount": 1
     },
@@ -103,8 +103,8 @@
         "playwright"
       ],
       "eventLinkPattern": "(event|campaign|activity|promotion|優惠|活動)",
-      "lastSuccessfulScanAt": "2026-09-26T21:01:34.847263Z",
-      "lastScanAt": "2026-09-26T21:01:34.847263Z",
+      "lastSuccessfulScanAt": "2026-09-27T22:23:52.076192Z",
+      "lastScanAt": "2026-09-27T22:23:52.076192Z",
       "lastScanStatus": "completed",
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
@@ -160,8 +160,8 @@
         "pdf"
       ],
       "eventLinkPattern": "(info|event|campaign|activity|UploadFolder|優惠|活動)",
-      "lastSuccessfulScanAt": "2026-09-26T21:10:16.035357Z",
-      "lastScanAt": "2026-09-26T21:10:16.035357Z",
+      "lastSuccessfulScanAt": "2026-09-27T22:24:17.513974Z",
+      "lastScanAt": "2026-09-27T22:24:17.513974Z",
       "lastScanStatus": "completed",
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
