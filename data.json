@@ -1,5 +1,5 @@
 {
-  "version": "2026.09.28-v233158",
+  "version": "2026.09.29-v221828",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -4701,7 +4701,7 @@
       "entityType": "CARD_PRODUCT",
       "classificationConfidence": 0.99,
       "classificationEvidence": "內文明確提及「刷星展饗樂生活卡購買威秀電影票」",
-      "imageUrl": "",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/funlife_684x630.png?1",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "威秀優惠與影城特惠"
@@ -4714,7 +4714,7 @@
       "entityType": "CARD_PRODUCT",
       "classificationConfidence": 0.99,
       "classificationEvidence": "內文明確提及「全聯刷星展一卡通聯名卡享回饋」",
-      "imageUrl": "",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/offers/px_mart_ipass_684x630.jpg",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "全聯刷卡回饋"
@@ -4818,7 +4818,7 @@
       "entityType": "CARD_PRODUCT",
       "classificationConfidence": 0.98,
       "classificationEvidence": "內文明確列出星展傳說對決聯名卡與其對應回饋",
-      "imageUrl": "",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/AOV-Signature-684x630.gif",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "遊戲聯名回饋"
@@ -4831,7 +4831,7 @@
       "entityType": "CARD_PRODUCT",
       "classificationConfidence": 0.98,
       "classificationEvidence": "內文明確列出星展飛行世界商務卡與其對應回饋",
-      "imageUrl": "",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/travelworld-684x630.png",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "飛行積金哩程"
@@ -4844,7 +4844,7 @@
       "entityType": "CARD_PRODUCT",
       "classificationConfidence": 0.98,
       "classificationEvidence": "內文明確列出星展飛行世界之極卡與其對應回饋",
-      "imageUrl": "",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/Travel_World_Elite_MC_684x630.png",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "頂級飛行世界"
@@ -4857,7 +4857,7 @@
       "entityType": "CARD_PRODUCT",
       "classificationConfidence": 0.98,
       "classificationEvidence": "內文明確列出星展極耀無限卡與其對應回饋",
-      "imageUrl": "",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/insignia-684x630.png",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "極耀無限尊榮"
@@ -4870,7 +4870,7 @@
       "entityType": "CARD_PRODUCT",
       "classificationConfidence": 0.98,
       "classificationEvidence": "內文明確列出星展晶耀無限卡與其對應回饋",
-      "imageUrl": "",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/dbs-Vantage-684x630.png",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "晶耀無限尊榮"
@@ -4883,7 +4883,7 @@
       "entityType": "CARD_PRODUCT",
       "classificationConfidence": 0.98,
       "classificationEvidence": "內文明確列出星展PChome Prime聯名卡與其對應回饋",
-      "imageUrl": "",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/dbs_PChome_684x630.png",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "PChome網購"
@@ -4896,7 +4896,7 @@
       "entityType": "CARD_PRODUCT",
       "classificationConfidence": 0.98,
       "classificationEvidence": "內文明確列出星展HAPPY GO聯名卡與其對應回饋",
-      "imageUrl": "",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/dbs-happygo-684x630.png",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "HAPPY GO點數"
@@ -4909,7 +4909,7 @@
       "entityType": "CARD_PRODUCT",
       "classificationConfidence": 0.98,
       "classificationEvidence": "內文明確列出星展喜憨兒認同卡與其對應回饋",
-      "imageUrl": "",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/cru-684x630.png",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "公益愛心認同"
@@ -4922,7 +4922,7 @@
       "entityType": "CARD_PRODUCT",
       "classificationConfidence": 0.98,
       "classificationEvidence": "內文明確列出星展飛行鈦金卡與其對應回饋",
-      "imageUrl": "",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/travel-titanium-684x630.png",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "飛行鈦金回饋"
@@ -4935,7 +4935,7 @@
       "entityType": "CARD_PRODUCT",
       "classificationConfidence": 0.98,
       "classificationEvidence": "內文明確列出星展炫晶商務御璽卡與其對應回饋",
-      "imageUrl": "",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/live_fresh_signature_biz_684x630.png",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "商務現金回饋"
@@ -6694,6 +6694,123 @@
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "旅遊消費累積旅遊點數"
+    },
+    {
+      "id": "card_星展銀行_579",
+      "bank": "星展銀行",
+      "cardName": "星展eco永續極簡卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確將此名稱列為可申辦或已發行卡片",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/eco_card_titanium_EZ_684x630.png",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "eco極簡回饋"
+    },
+    {
+      "id": "card_星展銀行_580",
+      "bank": "星展銀行",
+      "cardName": "星展eco永續優選卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確將此名稱列為可申辦或已發行卡片",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/eco_card_titanium_select_684x630.png",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "eco優選回饋"
+    },
+    {
+      "id": "card_星展銀行_581",
+      "bank": "星展銀行",
+      "cardName": "星展eco永續優選PLUS卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確將此名稱列為可申辦或已發行卡片",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/eco_card_titanium_select_plus_684x630.png",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "eco優選PLUS"
+    },
+    {
+      "id": "card_星展銀行_582",
+      "bank": "星展銀行",
+      "cardName": "星展eco永續世界商務卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確將此名稱列為可申辦或已發行卡片",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/eco_card_world_684x630.png",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "eco世界商務"
+    },
+    {
+      "id": "card_星展銀行_583",
+      "bank": "星展銀行",
+      "cardName": "星展商務eco卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確將此名稱列為可申辦或已發行卡片",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/eco_titanium_business_312_684x630.png",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "商務eco回饋"
+    },
+    {
+      "id": "card_星展銀行_584",
+      "bank": "星展銀行",
+      "cardName": "星展優仕商務卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確將此名稱列為可申辦或已發行卡片",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/yours-signature-business-card-280-684x630.png",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "優仕現金回饋"
+    },
+    {
+      "id": "card_星展銀行_585",
+      "bank": "星展銀行",
+      "cardName": "星展炫晶御璽卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確將此名稱列為可申辦或已發行卡片",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/livefresh-684x630.png",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "炫晶現金回饋"
+    },
+    {
+      "id": "card_星展銀行_586",
+      "bank": "星展銀行",
+      "cardName": "星展金卡/普卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確將此名稱列為可申辦或已發行卡片",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/classic-684x630.png",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "金卡普卡回饋"
+    },
+    {
+      "id": "card_星展銀行_587",
+      "bank": "星展銀行",
+      "cardName": "星展everyday鈦金卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確將此名稱列為可申辦或已發行卡片",
+      "imageUrl": "https://www.dbs.com.tw/iwov-resources/images/cards/cardface/everyday_mc_684x630.png",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "everyday鈦金"
     }
   ],
   "rules": [
@@ -14002,6 +14119,7 @@
       "intentEvidence": "全卡別旅遊不便險",
       "evidenceStatus": "VERIFIED",
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -50277,351 +50395,6 @@
       "validationIssues": []
     },
     {
-      "id": "rule_29cf26ddd0b5c0c5ead7",
-      "cardId": "card_星展銀行_434",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展傳說對決聯名卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "國內／外一般消費 最高1%回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "BASE_BENEFIT",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "國內消費, 國外消費, 一般消費",
-      "intentTags": [
-        "一般消費",
-        "國內消費",
-        "海外消費"
-      ],
-      "intentEvidence": "國內／外一般消費 最高1%回饋",
-      "baseRate": 1.0,
-      "promoRate": 0.0,
-      "rewardType": "percent",
-      "rewardAmount": 1.0,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "一般資格",
-          "totalRate": 1.0,
-          "baseRate": 1.0,
-          "promoRate": 0,
-          "isDefault": true,
-          "requirements": [],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "國內／外一般消費最高1%回饋",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:13:49.343719Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_0c50dcd91b631d0823f2",
-      "cardId": "card_星展銀行_423",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展eco永續卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "國內／國外一般消費享1%現金積點回饋無上限",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "BASE_BENEFIT",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "國內消費, 國外消費, 一般消費, 現金積點",
-      "intentTags": [
-        "一般消費",
-        "國內消費",
-        "海外消費"
-      ],
-      "intentEvidence": "國內／國外一般消費享1%現金積點回饋無上限",
-      "baseRate": 1.0,
-      "promoRate": 0.0,
-      "rewardType": "percent",
-      "rewardAmount": 1.0,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "一般資格",
-          "totalRate": 1.0,
-          "baseRate": 1.0,
-          "promoRate": 0,
-          "isDefault": true,
-          "requirements": [],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "國內／國外一般消費享1%現金積點回饋無上限",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:13:49.343900Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_f23e0ec79b79cd3e6aa8",
-      "cardId": "card_星展銀行_423",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展eco永續卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "日本／韓國／泰國／新加坡／美洲／歐洲地區 享加碼最高5%回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "EXTRA_BOOST",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "日本",
-        "韓國",
-        "泰國",
-        "新加坡",
-        "美洲",
-        "歐洲"
-      ],
-      "searchKeywords": "日本, 韓國, 泰國, 新加坡, 美洲, 歐洲, 海外消費, 日幣, 韓元, 國外",
-      "intentTags": [
-        "海外消費",
-        "旅遊"
-      ],
-      "intentEvidence": "日本／韓國／泰國／新加坡／美洲／歐洲地區 享加碼最高5%回饋",
-      "baseRate": 1.0,
-      "promoRate": 4.0,
-      "rewardType": "percent",
-      "rewardAmount": 5.0,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "加碼資格",
-          "totalRate": 5.0,
-          "baseRate": 1.0,
-          "promoRate": 4.0,
-          "isDefault": true,
-          "requirements": [],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "日本／韓國／泰國／新加坡／美洲／歐洲地區享加碼最高5%回饋",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:13:49.344068Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_f1defa1fde674467fd75",
-      "cardId": "card_星展銀行_424",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展everyday威士御璽卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "指定海外串流影音平台享10倍活利積分",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "EXTRA_BOOST",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "指定海外串流影音平台, 串流影音, 海外消費",
-      "intentTags": [
-        "海外消費",
-        "網購"
-      ],
-      "intentEvidence": "指定海外串流影音平台享10倍活利積分(包含原消費所提供之1倍回饋)",
-      "baseRate": 1.0,
-      "promoRate": 9.0,
-      "rewardType": "points",
-      "rewardAmount": 10.0,
-      "rewardUnit": "points",
-      "capAmount": null,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "指定串流資格",
-          "totalRate": 10.0,
-          "baseRate": 1.0,
-          "promoRate": 9.0,
-          "isDefault": true,
-          "requirements": [],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "指定海外串流影音平台享10倍活利積分",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:13:49.344232Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_abd57459e68831016433",
-      "cardId": "card_星展銀行_439",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展PChome Prime聯名卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "PChome內消費筆筆最高6%回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "PChome"
-      ],
-      "searchKeywords": "PChome, PChome線上購物, 網購",
-      "intentTags": [
-        "網購"
-      ],
-      "intentEvidence": "PChome內消費筆筆最高6%回饋 (分期同享)",
-      "baseRate": 0.5,
-      "promoRate": 5.5,
-      "rewardType": "percent",
-      "rewardAmount": 6.0,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "PChome站內最高回饋",
-          "totalRate": 6.0,
-          "baseRate": 0.5,
-          "promoRate": 5.5,
-          "isDefault": true,
-          "requirements": [],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "PChome內消費筆筆最高6%回饋 (分期同享)",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:13:49.344400Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_856e639274ba0bc8f53d",
-      "cardId": "card_星展銀行_443",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展炫晶商務御璽卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "國外消費 2.5%回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "BASE_BENEFIT",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "國外消費, 海外消費, 外幣",
-      "intentTags": [
-        "海外消費"
-      ],
-      "intentEvidence": "國外消費 2.5%回饋",
-      "baseRate": 2.5,
-      "promoRate": 0.0,
-      "rewardType": "percent",
-      "rewardAmount": 2.5,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "一般國外消費",
-          "totalRate": 2.5,
-          "baseRate": 2.5,
-          "promoRate": 0,
-          "isDefault": true,
-          "requirements": [],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "國外消費 2.5%回饋",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:13:49.344565Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
       "id": "rule_27df4db48238b7396f6e",
       "cardId": "",
       "offerDomain": "CARD",
@@ -51869,878 +51642,6 @@
         "公司卡"
       ],
       "fetchedAt": "2026-09-26T04:17:06.896928Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_f915b7f30a4e16ee8e0f",
-      "cardId": "card_星展銀行_434",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展傳說對決聯名卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "國內／外一般消費 最高1%回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "BASE_BENEFIT",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "國內消費, 國外消費, 一般消費",
-      "intentTags": [
-        "一般消費",
-        "國內消費",
-        "海外消費"
-      ],
-      "intentEvidence": "國內／外一般消費 最高1%回饋",
-      "baseRate": 1.0,
-      "promoRate": 0.0,
-      "rewardType": "percent",
-      "rewardAmount": 1.0,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "一般消費回饋",
-          "totalRate": 1.0,
-          "baseRate": 1.0,
-          "promoRate": 0.0,
-          "isDefault": true,
-          "requirements": [],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "國內／外一般消費享最高1%回饋",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:17:31.069501Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_e6d4652bf2c326aef106",
-      "cardId": "card_星展銀行_423",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展eco永續卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "國內／國外一般消費享1%現金積點回饋無上限",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "BASE_BENEFIT",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "國內消費, 國外消費, 一般消費, 現金積點",
-      "intentTags": [
-        "一般消費",
-        "國內消費",
-        "海外消費"
-      ],
-      "intentEvidence": "國內／國外一般消費享1%現金積點回饋無上限",
-      "baseRate": 1.0,
-      "promoRate": 0.0,
-      "rewardType": "percent",
-      "rewardAmount": 1.0,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "一般消費無上限",
-          "totalRate": 1.0,
-          "baseRate": 1.0,
-          "promoRate": 0.0,
-          "isDefault": true,
-          "requirements": [],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "國內／國外一般消費享1%現金積點回饋無上限",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:17:31.069749Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_17e5a94ac07c8703748a",
-      "cardId": "card_星展銀行_423",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展eco永續卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "日本／韓國／泰國／新加坡／美洲／歐洲地區加碼最高5%回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "EXTRA_BOOST",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "日本",
-        "韓國",
-        "泰國",
-        "新加坡",
-        "美洲",
-        "歐洲"
-      ],
-      "searchKeywords": "日本, 韓國, 泰國, 新加坡, 美洲, 歐洲, 出國, 海外消費, 日幣, 韓元",
-      "intentTags": [
-        "海外消費",
-        "旅遊",
-        "日韓泰星美歐"
-      ],
-      "intentEvidence": "日本／韓國／泰國／新加坡／美洲／歐洲地區 享加碼最高5%回饋",
-      "baseRate": 1.0,
-      "promoRate": 4.0,
-      "rewardType": "percent",
-      "rewardAmount": 5.0,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "指定海外地區加碼",
-          "totalRate": 5.0,
-          "baseRate": 1.0,
-          "promoRate": 4.0,
-          "isDefault": true,
-          "requirements": [],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "日本／韓國／泰國／新加坡／美洲／歐洲地區享加碼最高5%回饋",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:17:31.069949Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_4e3ca3d57e4ae70b7da8",
-      "cardId": "card_星展銀行_424",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展everyday威士御璽卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "公用事業費代扣繳每NT$25享1點活利積分",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "BASE_BENEFIT",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "公用事業費代扣繳"
-      ],
-      "searchKeywords": "公用事業, 代扣繳, 水電費, 瓦斯費",
-      "intentTags": [
-        "代扣繳",
-        "公用事業"
-      ],
-      "intentEvidence": "透過星展申請公用事業費代扣繳每NT$25享1點活利積分",
-      "baseRate": 1.0,
-      "promoRate": 0.0,
-      "rewardType": "points",
-      "rewardAmount": 1.0,
-      "rewardUnit": "points",
-      "capAmount": null,
-      "capPeriod": "",
-      "minimumSpend": 25,
-      "eligibilityRequirements": [
-        "透過星展申請公用事業費代扣繳"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "公用事業代扣繳積分",
-          "totalRate": 1.0,
-          "baseRate": 1.0,
-          "promoRate": 0.0,
-          "isDefault": true,
-          "requirements": [],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "透過星展申請公用事業費代扣繳每NT$25享1點活利積分",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:17:31.070145Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_489384bfd05f156d1bf0",
-      "cardId": "card_星展銀行_439",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展PChome Prime聯名卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "PChome內消費筆筆最高6%回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "PChome"
-      ],
-      "searchKeywords": "PChome, PChome線上購物, 網購",
-      "intentTags": [
-        "網購",
-        "PChome"
-      ],
-      "intentEvidence": "PChome內消費筆筆最高6%回饋 (分期同享)",
-      "baseRate": 0.5,
-      "promoRate": 5.5,
-      "rewardType": "percent",
-      "rewardAmount": 6.0,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "PChome館內消費",
-          "totalRate": 6.0,
-          "baseRate": 0.5,
-          "promoRate": 5.5,
-          "isDefault": true,
-          "requirements": [],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "PChome內消費筆筆最高6%回饋 (分期同享)",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:17:31.070340Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_637bbc31c61786390008",
-      "cardId": "card_星展銀行_440",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展HAPPY GO聯名卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "於遠東SOGO、遠百等指定商店消費享最高6倍點數",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "遠東SOGO",
-        "遠百",
-        "HAPPY GO特約商店"
-      ],
-      "searchKeywords": "遠東SOGO, 遠百, 百貨, HAPPY GO",
-      "intentTags": [
-        "百貨",
-        "HAPPY GO"
-      ],
-      "intentEvidence": "於遠東SOGO、遠百等指定商店消費享最高6倍點數",
-      "baseRate": 1.0,
-      "promoRate": 5.0,
-      "rewardType": "points",
-      "rewardAmount": 6.0,
-      "rewardUnit": "points",
-      "capAmount": null,
-      "capPeriod": "",
-      "minimumSpend": 100,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "指定商店最高6倍點數",
-          "totalRate": 6.0,
-          "baseRate": 1.0,
-          "promoRate": 5.0,
-          "isDefault": true,
-          "requirements": [],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "於遠東SOGO、遠百等指定商店消費享最高6倍點數",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:17:31.070515Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_197d5f73bf7fa82d0972",
-      "cardId": "card_星展銀行_443",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展炫晶商務御璽卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "國外消費 2.5%回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "BASE_BENEFIT",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "國外消費, 海外消費, 外幣",
-      "intentTags": [
-        "海外消費"
-      ],
-      "intentEvidence": "國外消費 2.5%回饋",
-      "baseRate": 2.5,
-      "promoRate": 0.0,
-      "rewardType": "percent",
-      "rewardAmount": 2.5,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "國外消費2.5%",
-          "totalRate": 2.5,
-          "baseRate": 2.5,
-          "promoRate": 0.0,
-          "isDefault": true,
-          "requirements": [],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "國外消費 2.5%回饋",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:17:31.070704Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_b76fabd11a38fc5466c6",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展信用卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "聚餐用星刷 筆筆享最高12%回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "國內餐廳"
-      ],
-      "searchKeywords": "國內餐廳,餐飲,聚餐用星刷",
-      "intentTags": [
-        "餐飲"
-      ],
-      "intentEvidence": "單月刷星展信用卡任刷國內餐飲且含3筆每筆消費達NT$888",
-      "baseRate": 0,
-      "promoRate": 12.0,
-      "rewardType": "percent",
-      "rewardAmount": 0,
-      "rewardUnit": "percent",
-      "capAmount": 0,
-      "capPeriod": "",
-      "minimumSpend": 888,
-      "eligibilityRequirements": [
-        "單月任刷國內餐飲且含3筆每筆達NT$888（含）以上"
-      ],
-      "rewardCalculationMode": "MAX_ONLY",
-      "rewardTiers": [
-        {
-          "name": "最高回饋",
-          "totalRate": 12.0,
-          "baseRate": 0.0,
-          "promoRate": 12.0,
-          "isDefault": true,
-          "requirements": [
-            "單月任刷國內餐飲且含3筆每筆達NT$888（含）以上"
-          ],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [
-        "單月任刷國內餐飲且含3筆每筆達NT$888（含）以上"
-      ],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "單月刷星展信用卡任刷國內餐飲且含3筆每筆消費達NT$888（含）以上",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:18:04.512416Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_424b778a62e6acfc8b9b",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展信用卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "星饗世界 海外餐飲最高享10%回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "海外實體餐廳"
-      ],
-      "searchKeywords": "海外實體餐廳,海外餐飲,星饗世界",
-      "intentTags": [
-        "海外消費",
-        "餐飲",
-        "旅遊"
-      ],
-      "intentEvidence": "持星展信用卡於海外實體餐廳消費並完成活動登錄，當月享最高10%刷卡金回饋！",
-      "baseRate": 0,
-      "promoRate": 10.0,
-      "rewardType": "cash",
-      "rewardAmount": 0,
-      "rewardUnit": "percent",
-      "capAmount": 0,
-      "capPeriod": "MONTHLY",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "完成活動登錄"
-      ],
-      "rewardCalculationMode": "MAX_ONLY",
-      "rewardTiers": [
-        {
-          "name": "登錄享最高回饋",
-          "totalRate": 10.0,
-          "baseRate": 0.0,
-          "promoRate": 10.0,
-          "isDefault": true,
-          "requirements": [
-            "完成活動登錄"
-          ],
-          "capAmount": null,
-          "capPeriod": "MONTHLY"
-        }
-      ],
-      "maxRateRequires": [
-        "完成活動登錄"
-      ],
-      "needReg": true,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "完成活動登錄，當月享最高10%刷卡金回饋",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:18:04.512472Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_9a462406cc577baf04a7",
-      "cardId": "",
-      "offerDomain": "PAYMENT",
-      "paymentProvider": "LINE Pay",
-      "fundingMethods": [
-        "星展信用卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "週三金豬日 最高享17%回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "LINE Pay",
-        "金豬食堂"
-      ],
-      "searchKeywords": "LINE Pay,linepay,連線支付,行銷支付,金豬食堂",
-      "intentTags": [
-        "行動支付",
-        "餐飲"
-      ],
-      "intentEvidence": "每週三 LINE Pay 綁定星展信用卡於金豬食堂消費用餐最高享17%回饋！",
-      "baseRate": 0,
-      "promoRate": 17.0,
-      "rewardType": "percent",
-      "rewardAmount": 0,
-      "rewardUnit": "percent",
-      "capAmount": 0,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "每週三",
-        "LINE Pay 綁定星展信用卡"
-      ],
-      "rewardCalculationMode": "MAX_ONLY",
-      "rewardTiers": [
-        {
-          "name": "週三金豬日優惠",
-          "totalRate": 17.0,
-          "baseRate": 0.0,
-          "promoRate": 17.0,
-          "isDefault": true,
-          "requirements": [
-            "每週三",
-            "LINE Pay 綁定星展信用卡"
-          ],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [
-        "每週三",
-        "LINE Pay 綁定星展信用卡"
-      ],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "每週三 LINE Pay 綁定星展信用卡於金豬食堂消費",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:18:04.512515Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_1abe946c18a3a7eb4f83",
-      "cardId": "",
-      "offerDomain": "PAYMENT",
-      "paymentProvider": "全支付",
-      "fundingMethods": [
-        "星展信用卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "全支付 x 星展信用卡新上線首綁及筆筆消費回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "全支付"
-      ],
-      "searchKeywords": "全支付,全點",
-      "intentTags": [
-        "行動支付"
-      ],
-      "intentEvidence": "全支付x 星展信用卡新上線 首綁消費最高贈50全點 筆筆消費再享5%回饋",
-      "baseRate": 0,
-      "promoRate": 5.0,
-      "rewardType": "points",
-      "rewardAmount": 50,
-      "rewardUnit": "points",
-      "capAmount": 0,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "首綁消費贈50全點",
-        "筆筆消費享5%回饋"
-      ],
-      "rewardCalculationMode": "MAX_ONLY",
-      "rewardTiers": [
-        {
-          "name": "首綁禮",
-          "totalRate": 0.0,
-          "baseRate": 0.0,
-          "promoRate": 0.0,
-          "isDefault": true,
-          "requirements": [
-            "首綁消費"
-          ],
-          "capAmount": 50,
-          "capPeriod": "CAMPAIGN"
-        },
-        {
-          "name": "筆筆消費回饋",
-          "totalRate": 5.0,
-          "baseRate": 0.0,
-          "promoRate": 5.0,
-          "isDefault": false,
-          "requirements": [
-            "全支付綁定星展卡消費"
-          ],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [
-        "全支付綁定星展卡消費"
-      ],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "首綁消費最高贈50全點，筆筆消費再享5%回饋",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:18:04.512556Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_99a254f72e7d36f72f2a",
-      "cardId": "card_星展銀行_423",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展eco永續卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "屈臣氏 天天回饋無上限",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "BASE_BENEFIT",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "屈臣氏"
-      ],
-      "searchKeywords": "屈臣氏",
-      "intentTags": [],
-      "intentEvidence": "天天刷星展eco永續卡享1%現金積點回饋無上限！",
-      "baseRate": 1.0,
-      "promoRate": 0,
-      "rewardType": "cash",
-      "rewardAmount": 0,
-      "rewardUnit": "percent",
-      "capAmount": 0,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "刷星展eco永續卡"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "一般回饋",
-          "totalRate": 1.0,
-          "baseRate": 1.0,
-          "promoRate": 0.0,
-          "isDefault": true,
-          "requirements": [
-            "刷星展eco永續卡"
-          ],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [
-        "刷星展eco永續卡"
-      ],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "天天刷星展eco永續卡享1%現金積點回饋無上限",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:18:04.512809Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_73784f2bb2f2ecfdecae",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展信用卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "保你星想事成 最高4%回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "保險"
-      ],
-      "searchKeywords": "保險,保費",
-      "intentTags": [
-        "保費"
-      ],
-      "intentEvidence": "首次以星展信用卡繳保險費，累積達檻享最高4%回饋！",
-      "baseRate": 0,
-      "promoRate": 4.0,
-      "rewardType": "percent",
-      "rewardAmount": 0,
-      "rewardUnit": "percent",
-      "capAmount": 0,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "首次以星展信用卡繳保險費",
-        "累積達檻"
-      ],
-      "rewardCalculationMode": "MAX_ONLY",
-      "rewardTiers": [
-        {
-          "name": "首次繳保費最高回饋",
-          "totalRate": 4.0,
-          "baseRate": 0.0,
-          "promoRate": 4.0,
-          "isDefault": true,
-          "requirements": [
-            "首次以星展信用卡繳保險費",
-            "累積達檻"
-          ],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [
-        "首次以星展信用卡繳保險費",
-        "累積達檻"
-      ],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "首次以星展信用卡繳保險費，累積達檻享最高4%回饋",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:18:04.512856Z",
-      "bank": "星展銀行",
-      "validationIssues": []
-    },
-    {
-      "id": "rule_e4df0e3c6b9dc6c71db9",
-      "cardId": "card_星展銀行_426",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展一卡通聯名卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "全聯刷星展一卡通聯名卡享回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "全聯"
-      ],
-      "searchKeywords": "全聯,全聯福利中心",
-      "intentTags": [],
-      "intentEvidence": "活動期間內消費滿額最高享300點全聯福利點",
-      "baseRate": 0,
-      "promoRate": 0,
-      "rewardType": "points",
-      "rewardAmount": 300,
-      "rewardUnit": "points",
-      "capAmount": 300,
-      "capPeriod": "CAMPAIGN",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "刷星展一卡通聯名卡",
-        "消費滿額"
-      ],
-      "rewardCalculationMode": "MAX_ONLY",
-      "rewardTiers": [
-        {
-          "name": "滿額回饋",
-          "totalRate": 0.0,
-          "baseRate": 0.0,
-          "promoRate": 0.0,
-          "isDefault": true,
-          "requirements": [
-            "消費滿額"
-          ],
-          "capAmount": 300,
-          "capPeriod": "CAMPAIGN"
-        }
-      ],
-      "maxRateRequires": [
-        "消費滿額"
-      ],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "活動期間內消費滿額最高享300點全聯福利點",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T04:18:04.513054Z",
       "bank": "星展銀行",
       "validationIssues": []
     },
@@ -81740,135 +80641,6 @@
       "bank": "中國信託"
     },
     {
-      "id": "rule_f5e7338e7839bddfecb0",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "LINE Pay",
-      "fundingMethods": [
-        "星展信用卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "週三金豬日 最高享17%回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "LINE Pay",
-        "金豬食堂"
-      ],
-      "searchKeywords": "LINE Pay,linepay,連線支付,行動支付,金豬食堂",
-      "intentTags": [
-        "行動支付",
-        "餐飲"
-      ],
-      "intentEvidence": "每週三 LINE Pay 綁定星展信用卡於金豬食堂消費用餐最高享17% 回饋！",
-      "baseRate": 0.0,
-      "promoRate": 17.0,
-      "rewardType": "percent",
-      "rewardAmount": 17.0,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "MAX_ONLY",
-      "rewardTiers": [
-        {
-          "name": "最高享17%回饋",
-          "totalRate": 17.0,
-          "baseRate": 0.0,
-          "promoRate": 17.0,
-          "isDefault": true,
-          "requirements": [
-            "週三",
-            "LINE Pay綁定星展信用卡",
-            "金豬食堂消費"
-          ],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [
-        "週三",
-        "LINE Pay綁定星展信用卡",
-        "於金豬食堂消費"
-      ],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "每週三於金豬食堂透過LINE Pay綁定星展信用卡享最高17%回饋",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-27T21:48:19.262519Z",
-      "bank": "星展銀行"
-    },
-    {
-      "id": "rule_d89e27dddde0e9f3415c",
-      "cardId": "card_星展銀行_423",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展eco永續卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "屈臣氏 天天回饋無上限",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "BASE_BENEFIT",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "屈臣氏"
-      ],
-      "searchKeywords": "屈臣氏,watsons",
-      "intentTags": [
-        "網購",
-        "購物"
-      ],
-      "intentEvidence": "天天刷星展eco永續卡享1%現金積點回饋無上限！",
-      "baseRate": 1.0,
-      "promoRate": 0.0,
-      "rewardType": "points",
-      "rewardAmount": 1.0,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "持星展eco永續卡"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "一般回饋",
-          "totalRate": 1.0,
-          "baseRate": 1.0,
-          "promoRate": 0.0,
-          "isDefault": true,
-          "requirements": [
-            "持星展eco永續卡於屈臣氏消費"
-          ],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [
-        "持星展eco永續卡於屈臣氏消費"
-      ],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "天天刷星展eco永續卡享1%現金積點回饋無上限",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-27T21:48:19.262759Z",
-      "bank": "星展銀行"
-    },
-    {
       "id": "rule_15c27843072773b5a592",
       "cardId": "card_玉山銀行_323",
       "offerDomain": "CARD",
@@ -89807,6 +88579,7 @@
       "validationIssues": [
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-27T21:59:55.203851Z",
@@ -96841,6 +95614,7 @@
       "validationIssues": [
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-27T22:17:24.059916Z",
@@ -102175,6 +100949,7 @@
       "quickSearchEligible": false,
       "validationIssues": [
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-28T23:15:51.870280Z",
@@ -103261,6 +102036,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
@@ -104856,6 +103632,7 @@
       ],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
@@ -108855,6 +107632,7 @@
       "quickSearchEligible": false,
       "validationIssues": [
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-28T23:31:14.037899Z",
@@ -109310,6 +108088,2734 @@
       ],
       "fetchedAt": "2026-09-28T23:31:58.332583Z",
       "bank": "樂天信用卡"
+    },
+    {
+      "id": "rule_3c940261a978b6145def",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "星願集刷 回饋升級最高3%回饋再抽iPhone",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "星願集刷, 滿額, 刷卡加碼, 一般消費, 累積消費, 刷卡抽獎, 手機抽獎",
+      "intentTags": [
+        "一般消費"
+      ],
+      "intentEvidence": "刷5筆888元享最高3%回饋 再抽2026 iPhone Duo",
+      "baseRate": 0.0,
+      "promoRate": 3.0,
+      "rewardType": "percent",
+      "rewardAmount": 3.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 888,
+      "eligibilityRequirements": [
+        "刷5筆達888元"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "刷滿5筆且每筆金額達NT$888"
+      ],
+      "needReg": true,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "刷5筆888元享最高3%回饋，並可參加2026 iPhone Duo抽獎活動",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:10:19.181185Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_e165e65ab4d4c3a72c74",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "百貨週年慶享分期0%利率滿額最高10%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "百貨週年慶"
+      ],
+      "searchKeywords": "百貨, 百貨公司, 百貨購物, 百貨週年慶, 百貨分期",
+      "intentTags": [
+        "百貨"
+      ],
+      "intentEvidence": "百貨週年慶享分期0%利率 滿額最高10%回饋!",
+      "baseRate": 0.0,
+      "promoRate": 10.0,
+      "rewardType": "percent",
+      "rewardAmount": 10.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "於指定百貨消費達滿額門檻"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "於指定百貨週年慶活動期間刷卡達滿額門檻"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "百貨週年慶消費滿額享最高10%回饋與分期0%利率",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:10:19.181266Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_281931bd01d71fb6b3c5",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "聚餐用星刷 筆筆享最高12%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "聚餐",
+        "500碗",
+        "500甜",
+        "500盤"
+      ],
+      "searchKeywords": "聚餐, 美食, 餐廳, 美食踩點, 500碗, 500甜, 500盤",
+      "intentTags": [
+        "餐飲"
+      ],
+      "intentEvidence": "聚餐用星刷！筆筆享最高12%回饋",
+      "baseRate": 0.0,
+      "promoRate": 12.0,
+      "rewardType": "percent",
+      "rewardAmount": 12.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "於指定餐飲通路刷卡消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "指定餐飲聚餐刷卡筆筆享最高12%回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:10:19.181334Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_8c81ff9879240b693aa0",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "海外餐飲刷星展最高10%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "海外餐飲"
+      ],
+      "searchKeywords": "海外餐飲, 國外餐飲, 境外餐廳, 海外美食, 國外餐廳",
+      "intentTags": [
+        "海外消費",
+        "餐飲"
+      ],
+      "intentEvidence": "海外餐飲刷星展 最高享10%回饋",
+      "baseRate": 0.0,
+      "promoRate": 10.0,
+      "rewardType": "percent",
+      "rewardAmount": 10.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "海外餐飲通路刷卡消費"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "於海外餐飲通路進行刷卡消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "海外餐飲通路刷卡消費最高享10%回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:10:19.181400Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_9e1d8e006d354e7c5490",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "星動網購節刷星展 優享分期0%利率",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "星動網購節"
+      ],
+      "searchKeywords": "星動網購節, 網購節, 線上購物, 網路購物, 分期付款, 分期0%",
+      "intentTags": [
+        "網購"
+      ],
+      "intentEvidence": "星動網購節刷星展 優享分期0%利率",
+      "baseRate": 0.0,
+      "promoRate": 0.0,
+      "rewardType": "installment",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "於星動網購節指定通路刷卡消費並辦理分期"
+      ],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [],
+      "maxRateRequires": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "網購節指定期間刷星展信用卡享分期0%利率優惠",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:10:19.181463Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_91eb71f2fb2894f1a7dd",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "星願集刷 回饋升級",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "一般消費, 刷卡回饋, 滿額回饋, 累積刷卡, iPhone抽獎",
+      "intentTags": [
+        "一般消費"
+      ],
+      "intentEvidence": "刷5筆888元享最高3%回饋",
+      "baseRate": null,
+      "promoRate": 3.0,
+      "rewardType": "percent",
+      "rewardAmount": 3.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 888,
+      "eligibilityRequirements": [
+        "單筆消費滿888元達5筆"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "刷5筆888元"
+      ],
+      "needReg": true,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "刷5筆888元享最高3%回饋，再抽2026 iPhone Duo",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:12:25.821818Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_bae3947ba883f037bb2b",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "百貨週年慶滿額回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [],
+      "searchKeywords": "百貨, 週年慶, 百貨購物, 分期",
+      "intentTags": [
+        "百貨",
+        "購物"
+      ],
+      "intentEvidence": "百貨週年慶享分期0%利率 滿額最高10%回饋!",
+      "baseRate": null,
+      "promoRate": 10.0,
+      "rewardType": "percent",
+      "rewardAmount": 10.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "分期或達指定滿額門檻"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "消費達百貨滿額門檻"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "滿額最高10%回饋，享分期0%利率",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:12:25.821885Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_21a985a2bb5cc69210a8",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "聚餐用星刷",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [],
+      "searchKeywords": "聚餐, 美食, 餐飲, 餐廳",
+      "intentTags": [
+        "餐飲"
+      ],
+      "intentEvidence": "聚餐用星刷！筆筆享最高12%回饋",
+      "baseRate": null,
+      "promoRate": 12.0,
+      "rewardType": "percent",
+      "rewardAmount": 12.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "指定餐飲通路消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "筆筆享最高12%回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:12:25.821934Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_f96e4486f0c70cc6385a",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "海外餐飲最高10%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [],
+      "searchKeywords": "海外餐飲, 國外餐廳, 國外美食, 境外餐飲",
+      "intentTags": [
+        "海外消費",
+        "餐飲"
+      ],
+      "intentEvidence": "海外餐飲刷星展 最高享10%回饋",
+      "baseRate": null,
+      "promoRate": 10.0,
+      "rewardType": "percent",
+      "rewardAmount": 10.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "海外餐飲通路刷卡消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "最高享10%回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:12:25.821980Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_c569102f152cf8ee2e2f",
+      "cardId": "",
+      "offerDomain": "PAYMENT",
+      "paymentProvider": "全支付",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "全支付x星展信用卡全新上線",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "全支付"
+      ],
+      "searchKeywords": "全支付, pxpay plus, 行動支付",
+      "intentTags": [
+        "行動支付"
+      ],
+      "intentEvidence": "全支付x星展信用卡 全新上線",
+      "baseRate": null,
+      "promoRate": null,
+      "rewardType": "percent",
+      "rewardAmount": null,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "綁定全支付消費"
+      ],
+      "rewardCalculationMode": "UNKNOWN",
+      "rewardTiers": [],
+      "maxRateRequires": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "綁定全支付全新上線合作",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:12:25.822025Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_e1b10743f0e8e8967fa7",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "威秀影城購票優惠",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "威秀影城"
+      ],
+      "searchKeywords": "威秀影城, 威秀, 電影, 購票",
+      "intentTags": [
+        "娛樂"
+      ],
+      "intentEvidence": "威秀影城購票樂享優惠",
+      "baseRate": null,
+      "promoRate": null,
+      "rewardType": "percent",
+      "rewardAmount": null,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "於威秀影城購票消費"
+      ],
+      "rewardCalculationMode": "UNKNOWN",
+      "rewardTiers": [],
+      "maxRateRequires": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "威秀影城購票樂享專屬優惠",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:12:25.822070Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_493e5b13100f5a14e227",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "新戶申辦享Butterbear首刷好禮三選一",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Butterbear"
+      ],
+      "searchKeywords": "新戶, 首刷禮, Butterbear, 奶油熊",
+      "intentTags": [
+        "新戶禮"
+      ],
+      "intentEvidence": "新戶申辦 享Butterbear首刷好禮三選一!",
+      "baseRate": null,
+      "promoRate": null,
+      "rewardType": "points",
+      "rewardAmount": null,
+      "rewardUnit": "points",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "限新戶申辦指定卡別",
+        "核卡後達指定首刷門檻"
+      ],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "新戶申辦並達首刷門檻"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "新戶首刷享Butterbear好禮三選一",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:12:25.822116Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_706dd0d34e5aa48c01a5",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "探索世界 滿額最高解鎖RIMOWA",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "海外消費, 出國, 機票, 飯店, 免稅店, 滿額禮, RIMOWA, 行李箱",
+      "intentTags": [
+        "旅遊",
+        "一般消費"
+      ],
+      "intentEvidence": "探索世界刷星展 滿額最高解鎖RIMOWA",
+      "baseRate": null,
+      "promoRate": null,
+      "rewardType": "points",
+      "rewardAmount": null,
+      "rewardUnit": "points",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "累積刷卡消費達指定門檻"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "消費達指定高額門檻"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "消費達門檻可解鎖RIMOWA行李箱等好禮",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:12:25.822161Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_48c1b39be6f4bad3d8a1",
+      "cardId": "card_星展銀行_423",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展eco永續卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "星展eco永續卡 國內外消費與指定地區/通路回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [
+        "Tesla",
+        "Gogoro"
+      ],
+      "searchKeywords": "星展eco永續卡,一般消費,國外消費,海外消費,日本,韓國,泰國,新加坡,美洲,歐洲,Tesla,特斯勒,特斯拉,Gogoro,睿能,充電資費,電池資費,社會企業",
+      "intentTags": [
+        "海外消費",
+        "一般消費"
+      ],
+      "intentEvidence": "國內／國外一般消費享1%現金積點回饋無上限 日本／韓國／泰國／新加坡／美洲／歐洲地區 享加碼最高5%回饋 Tesla充電資費／Gogoro電池資費／星展支持的社會企業及中小企業 eco消費最高10%回饋",
+      "baseRate": 1.0,
+      "promoRate": 4.0,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "國內／國外一般消費",
+          "totalRate": 1.0,
+          "baseRate": 1.0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "指定海外地區加碼(日韓泰新美歐)",
+          "totalRate": 5.0,
+          "baseRate": 1.0,
+          "promoRate": 4.0,
+          "isDefault": false,
+          "requirements": [
+            "於日本、韓國、泰國、新加坡、美洲或歐洲地區消費"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "eco指定通路最高",
+          "totalRate": 10.0,
+          "baseRate": 1.0,
+          "promoRate": 9.0,
+          "isDefault": false,
+          "requirements": [
+            "Tesla充電資費、Gogoro電池資費或指定社會企業/中小企業消費"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "於Tesla充電資費、Gogoro電池資費或星展支持之社會企業及中小企業消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "一般消費1%無上限，指定海外地區最高5%，指定eco通路最高10%",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:13:07.756867Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_f296c368bc6d8e65eb01",
+      "cardId": "card_星展銀行_434",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展傳說對決聯名卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "星展傳說對決聯名卡 指定通路與海外回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "星展傳說對決聯名卡,傳說對決,一般消費,國外消費,海外消費,日韓泰,新美歐,生活玩家精選通路",
+      "intentTags": [
+        "海外消費",
+        "一般消費"
+      ],
+      "intentEvidence": "國內／外一般消費 最高1%回饋 生活玩家精選通路 最高10%回饋 日韓泰／新美歐 最高5%回饋",
+      "baseRate": 1.0,
+      "promoRate": 9.0,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "一般消費",
+          "totalRate": 1.0,
+          "baseRate": 1.0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "日韓泰／新美歐消費",
+          "totalRate": 5.0,
+          "baseRate": 1.0,
+          "promoRate": 4.0,
+          "isDefault": false,
+          "requirements": [
+            "於日本、韓國、泰國、新加坡、美洲、歐洲地區消費"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "生活玩家精選通路",
+          "totalRate": 10.0,
+          "baseRate": 1.0,
+          "promoRate": 9.0,
+          "isDefault": false,
+          "requirements": [
+            "於生活玩家精選通路消費"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "於生活玩家精選通路消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "一般消費最高1%，日韓泰新美歐最高5%，生活玩家精選通路最高10%",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:13:07.757081Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_860d759d2d266d37e2c6",
+      "cardId": "card_星展銀行_425",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展饗樂生活卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "星展饗樂生活卡 威秀/王品/旅遊優惠",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "威秀影城",
+        "王品集團",
+        "台灣虎航",
+        "KKday"
+      ],
+      "searchKeywords": "威秀影城, 威秀, 電影, 王品集團, 王品, 台灣虎航, 虎航, KKday",
+      "intentTags": [
+        "餐飲",
+        "旅遊"
+      ],
+      "intentEvidence": "威秀影城購票天天6折起、王品集團人氣品牌天天9折 台灣虎航全航線最優88折起、KKday旅遊體驗最優8折",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "指定特店消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "威秀影城購票天天6折起、王品天天9折，指定餐廳及威秀享雙倍活利積分",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:13:07.757282Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_60871f6de914cf6f749f",
+      "cardId": "card_星展銀行_439",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展PChome Prime聯名卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "星展PChome Prime聯名卡 PChome館內消費最高6%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "PChome"
+      ],
+      "searchKeywords": "PChome, PChome線上購物, 網購",
+      "intentTags": [
+        "網購"
+      ],
+      "intentEvidence": "PChome內消費筆筆最高6%回饋 (分期同享)",
+      "baseRate": 0.5,
+      "promoRate": 5.5,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "於PChome館內消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "PChome內消費筆筆最高6%回饋(分期同享)",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:13:07.757478Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_6eaa40ca0df82e505178",
+      "cardId": "card_星展銀行_443",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展炫晶商務御璽卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "星展炫晶商務御璽卡 國外2.5%／國內0.8%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "星展炫晶商務御璽卡,國外消費,海外消費,外幣消費,國內消費,一般消費",
+      "intentTags": [
+        "海外消費",
+        "一般消費"
+      ],
+      "intentEvidence": "國外消費 2.5%回饋 國內消費 0.8%回饋",
+      "baseRate": 0.8,
+      "promoRate": 1.7,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "國內消費",
+          "totalRate": 0.8,
+          "baseRate": 0.8,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "國外消費",
+          "totalRate": 2.5,
+          "baseRate": 0.8,
+          "promoRate": 1.7,
+          "isDefault": false,
+          "requirements": [
+            "國外消費交易"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "國外消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "國外消費2.5%，國內消費0.8%",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:13:07.757670Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_550cd39b659fb88df327",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "全支付",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "全支付 x 星展信用卡全新上線",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "全支付"
+      ],
+      "searchKeywords": "全支付, 行動支付",
+      "intentTags": [
+        "行動支付"
+      ],
+      "intentEvidence": "全支付x星展信用卡 全新上線",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "使用全支付綁定星展信用卡付款"
+      ],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [],
+      "maxRateRequires": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "全支付綁定星展信用卡消費享指定優惠",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:13:07.757717Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_681284b6a0bbda6fce42",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [],
+      "stackingStatus": "UNKNOWN",
+      "title": "星願集刷 回饋升級",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "星願集刷, 刷卡回饋, 抽獎, iPhone",
+      "intentTags": [
+        "一般消費"
+      ],
+      "intentEvidence": "刷5筆888元享最高3%回饋",
+      "baseRate": null,
+      "promoRate": 3.0,
+      "rewardType": "percent",
+      "rewardAmount": null,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 888,
+      "eligibilityRequirements": [
+        "刷5筆888元"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [
+        {
+          "name": "最高回饋",
+          "totalRate": 3.0,
+          "baseRate": null,
+          "promoRate": 3.0,
+          "isDefault": false,
+          "requirements": [
+            "刷滿5筆888元"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "刷滿5筆888元"
+      ],
+      "needReg": true,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-cards-benefits/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "刷5筆888元享最高3%回饋，再抽2026 iPhone Duo",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:13:30.524376Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_3b34e0a6c24ac6791823",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [],
+      "stackingStatus": "UNKNOWN",
+      "title": "聚餐用星刷最高12%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "聚餐, 餐飲, 美食, 餐廳, 吃飯",
+      "intentTags": [
+        "餐飲"
+      ],
+      "intentEvidence": "聚餐用星刷！筆筆享最高12%回饋",
+      "baseRate": null,
+      "promoRate": 12.0,
+      "rewardType": "percent",
+      "rewardAmount": null,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [
+        {
+          "name": "最高回饋",
+          "totalRate": 12.0,
+          "baseRate": null,
+          "promoRate": 12.0,
+          "isDefault": false,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-cards-benefits/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "筆筆享最高12%回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:13:30.524436Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_11f5746c47eb886c0bd6",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [],
+      "stackingStatus": "UNKNOWN",
+      "title": "海外餐飲最高10%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "海外餐飲, 國外餐飲, 國外餐廳, 海外美食, 國外消費, 出國",
+      "intentTags": [
+        "海外消費",
+        "餐飲"
+      ],
+      "intentEvidence": "海外餐飲刷星展 最高享10%回饋",
+      "baseRate": null,
+      "promoRate": 10.0,
+      "rewardType": "percent",
+      "rewardAmount": null,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [
+        {
+          "name": "最高回饋",
+          "totalRate": 10.0,
+          "baseRate": null,
+          "promoRate": 10.0,
+          "isDefault": false,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-cards-benefits/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "最高享10%回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:13:30.524486Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_039cb1bba862aaa45efa",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [],
+      "stackingStatus": "UNKNOWN",
+      "title": "百貨週年慶滿額最高10%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "百貨, 週年慶, 百貨公司, 購物, 分期",
+      "intentTags": [
+        "購物"
+      ],
+      "intentEvidence": "百貨週年慶享分期0%利率 滿額最高10%回饋!",
+      "baseRate": null,
+      "promoRate": 10.0,
+      "rewardType": "percent",
+      "rewardAmount": null,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "滿額"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [
+        {
+          "name": "最高回饋",
+          "totalRate": 10.0,
+          "baseRate": null,
+          "promoRate": 10.0,
+          "isDefault": false,
+          "requirements": [
+            "達滿額門檻"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "達滿額門檻"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-cards-benefits/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "滿額最高10%回饋，並享分期0%利率",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:13:30.524530Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_ced7a6ab03c3e8e9be4e",
+      "cardId": "card_星展銀行_423",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展eco永續卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "屈臣氏天天刷星展eco永續卡享1%現金積點回饋無上限",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "屈臣氏"
+      ],
+      "searchKeywords": "屈臣氏, watsons, 屈臣氏網路商店",
+      "intentTags": [
+        "藥妝"
+      ],
+      "intentEvidence": "天天刷星展eco永續卡享1%現金積點回饋無上限",
+      "baseRate": 1.0,
+      "promoRate": 0,
+      "rewardType": "points",
+      "rewardAmount": 1.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [],
+      "maxRateRequires": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "天天回饋無上限",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:14:22.600446Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_9d8660d6f1327e3cd5b4",
+      "cardId": "card_星展銀行_425",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展饗樂生活卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "威秀影城天天購票優惠6折起",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "威秀影城"
+      ],
+      "searchKeywords": "威秀影城, 威秀電影, vieshow, 威秀",
+      "intentTags": [
+        "娛樂"
+      ],
+      "intentEvidence": "刷星展饗樂生活卡購買威秀電影票，平日最優6折起，假日享83折",
+      "baseRate": 0,
+      "promoRate": 40.0,
+      "rewardType": "percent",
+      "rewardAmount": 40.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "平日購票",
+          "totalRate": 40.0,
+          "baseRate": 0,
+          "promoRate": 40.0,
+          "isDefault": true,
+          "requirements": [
+            "平日購票"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "假日購票",
+          "totalRate": 17.0,
+          "baseRate": 0,
+          "promoRate": 17.0,
+          "isDefault": false,
+          "requirements": [
+            "假日購票"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "平日於威秀影城購票消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "平日享6折、假日享83折優惠",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:14:22.600655Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_fc9d328f8655bfc6abe0",
+      "cardId": "card_星展銀行_426",
+      "offerDomain": "CARD",
+      "paymentProvider": "一卡通",
+      "fundingMethods": [
+        "星展一卡通聯名卡"
+      ],
+      "stackingStatus": "NOT_STACKABLE",
+      "title": "全聯刷星展一卡通聯名卡享回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "全聯福利中心",
+        "一卡通"
+      ],
+      "searchKeywords": "全聯, 全聯福利中心, pxmart, 一卡通, ipass",
+      "intentTags": [
+        "超市"
+      ],
+      "intentEvidence": "全聯刷星展一卡通聯名卡享回饋，活動期間內消費滿額最高享300點全聯福利點",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "points",
+      "rewardAmount": 300,
+      "rewardUnit": "points",
+      "capAmount": 300,
+      "capPeriod": "CAMPAIGN",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "消費滿額"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "活動期間內消費達指定門檻"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "消費滿額最高享300點全聯福利點",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:14:22.600869Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_45d67f3cd2d943d1eec5",
+      "cardId": "",
+      "offerDomain": "PAYMENT",
+      "paymentProvider": "LINE Pay",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "週三金豬日 LINE Pay綁星展卡最高享17%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "LINE Pay",
+        "金豬食堂"
+      ],
+      "searchKeywords": "linepay, 連線支付, 行動支付, 金豬食堂",
+      "intentTags": [
+        "行動支付",
+        "餐飲"
+      ],
+      "intentEvidence": "每週三 LINE Pay 綁定星展信用卡 於金豬食堂消費用餐最高享17% 回饋！",
+      "baseRate": 0,
+      "promoRate": 17.0,
+      "rewardType": "percent",
+      "rewardAmount": 17.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "限每週三交易",
+        "綁定 LINE Pay 支付"
+      ],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "每週三以 LINE Pay 綁定星展信用卡於金豬食堂消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "每週三限時指定通路回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:14:22.600918Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_9947d1f449c21d01a3a1",
+      "cardId": "",
+      "offerDomain": "PAYMENT",
+      "paymentProvider": "全支付",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "全支付x 星展信用卡綁定消費享5%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "全支付"
+      ],
+      "searchKeywords": "pxpayplus, 全支付, 全聯支付",
+      "intentTags": [
+        "行動支付"
+      ],
+      "intentEvidence": "首綁消費最高贈50全點 筆筆消費再享5%回饋",
+      "baseRate": 0,
+      "promoRate": 5.0,
+      "rewardType": "percent",
+      "rewardAmount": 5.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "綁定全支付"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "筆筆消費回饋",
+          "totalRate": 5.0,
+          "baseRate": 0,
+          "promoRate": 5.0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "首綁加碼回饋",
+          "totalRate": 5.0,
+          "baseRate": 0,
+          "promoRate": 5.0,
+          "isDefault": false,
+          "requirements": [
+            "新綁定全支付"
+          ],
+          "capAmount": 50,
+          "capPeriod": "CAMPAIGN"
+        }
+      ],
+      "maxRateRequires": [
+        "綁定全支付進行消費，首綁可額外獲贈最高50全點"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "首綁贈最高50全點，筆筆享5%回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:14:22.600963Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_e164639b12c7c454f295",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "指定訂房網站刷星展卡最高享16%優惠",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Agoda",
+        "Trip.com",
+        "Expedia",
+        "Hotels.com",
+        "Klook"
+      ],
+      "searchKeywords": "agoda, 雅高達, trip.com, 攜程, expedia, 智遊網, hotels.com, 好訂網, klook, 客路, 訂房",
+      "intentTags": [
+        "旅遊",
+        "網購"
+      ],
+      "intentEvidence": "於Agoda、Trip.com、Expedia、Hotels.com、Klook 刷星展信用卡，最優享16%優惠！",
+      "baseRate": 0,
+      "promoRate": 16.0,
+      "rewardType": "percent",
+      "rewardAmount": 16.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "須透過指定網頁或連結刷卡消費"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "於指定合作平台Agoda、Trip.com、Expedia、Hotels.com、Klook進行消費，各平台最高回饋率不一"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "各房型/訂單方案依合作特店網頁規範，最優享16%優惠",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:14:22.601009Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_9f29a5a84eb43405cd63",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "星饗世界 海外餐飲最高享10%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "海外餐飲, 國外餐廳, 境外用餐, 外幣消費, 日本餐飲, 韓國餐廳, 歐洲餐廳, 出國旅遊",
+      "intentTags": [
+        "海外消費",
+        "餐飲",
+        "旅遊"
+      ],
+      "intentEvidence": "持星展信用卡於海外實體餐廳消費並完成活動登錄，當月享最高10%刷卡金回饋！",
+      "baseRate": 0,
+      "promoRate": 10.0,
+      "rewardType": "percent",
+      "rewardAmount": 10.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "MONTHLY",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "海外實體餐廳消費",
+        "需完成活動登錄"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "完成當月活動登錄並於海外實體餐廳刷卡消費"
+      ],
+      "needReg": true,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [
+        {
+          "type": "WEB",
+          "label": "網頁登錄",
+          "url": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
+          "activityName": "星饗世界海外餐飲回饋"
+        }
+      ],
+      "quotaInfo": "需按月登錄，限海外實體餐廳消費享回饋",
+      "excludedKeywords": [
+        "線上外送",
+        "國內餐飲"
+      ],
+      "fetchedAt": "2026-09-29T22:14:22.601058Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_6589cac21187f017d821",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "聚餐用星刷 筆筆享最高12%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "國內餐飲, 聚餐, 餐廳, 飯店用餐, 餐廳美食",
+      "intentTags": [
+        "餐飲"
+      ],
+      "intentEvidence": "單月刷星展信用卡任刷國內餐飲且含3筆每筆消費達NT$888 ( 含 ) 以上，筆筆享最高12%回饋",
+      "baseRate": 0,
+      "promoRate": 12.0,
+      "rewardType": "percent",
+      "rewardAmount": 12.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 888,
+      "eligibilityRequirements": [
+        "單月國內餐飲消費",
+        "需含3筆每筆達NT$888(含)以上"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "單月累計3筆且每筆達NT$888之國內餐飲刷卡消費"
+      ],
+      "needReg": true,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [
+        {
+          "type": "WEB",
+          "label": "網頁登錄",
+          "url": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
+          "activityName": "聚餐用星刷"
+        }
+      ],
+      "quotaInfo": "單月需達檻3筆NT$888以上",
+      "excludedKeywords": [
+        "海外餐飲",
+        "線上外送"
+      ],
+      "fetchedAt": "2026-09-29T22:14:22.601105Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_f45d3a834635a5c95de1",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "保你星想事成 首次繳保費最高4%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "繳保費, 保險費, 保費刷卡, 壽險, 產險",
+      "intentTags": [
+        "生活繳費"
+      ],
+      "intentEvidence": "首次以星展信用卡繳保險費，累積達檻享最高4%回饋！",
+      "baseRate": 0,
+      "promoRate": 4.0,
+      "rewardType": "percent",
+      "rewardAmount": 4.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "首次以星展信用卡繳納保險費",
+        "累積達檻"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "首繳保費且累積保費達指定金額門檻"
+      ],
+      "needReg": true,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "registrationUrl": "",
+      "registrationMethods": [
+        {
+          "type": "WEB",
+          "label": "網頁登錄",
+          "url": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
+          "activityName": "保你星想事成"
+        }
+      ],
+      "quotaInfo": "首繳保險費限制並需達門檻",
+      "excludedKeywords": [
+        "續期保費自動扣繳(非首次)"
+      ],
+      "fetchedAt": "2026-09-29T22:14:22.601152Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_f915b7f30a4e16ee8e0f",
+      "cardId": "card_星展銀行_434",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展傳說對決聯名卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "國內／外一般消費 最高1%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "一般消費,國內消費,國外消費",
+      "intentTags": [
+        "一般消費",
+        "海外消費"
+      ],
+      "intentEvidence": "國內／外一般消費 最高1%回饋",
+      "baseRate": 1.0,
+      "promoRate": 0.0,
+      "rewardType": "percent",
+      "rewardAmount": 1.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [
+        {
+          "name": "一般回饋",
+          "totalRate": 1.0,
+          "baseRate": 1.0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "國內／外一般消費享最高1%回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:15:42.017888Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_013b25d621a7164553ef",
+      "cardId": "card_星展銀行_423",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展eco永續卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "國內／國外一般消費享現金積點回饋無上限",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "一般消費,國內消費,國外消費",
+      "intentTags": [
+        "一般消費",
+        "海外消費"
+      ],
+      "intentEvidence": "國內／國外一般消費享1%現金積點回饋無上限",
+      "baseRate": 1.0,
+      "promoRate": 0.0,
+      "rewardType": "cash",
+      "rewardAmount": 1.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [
+        {
+          "name": "一般回饋",
+          "totalRate": 1.0,
+          "baseRate": 1.0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "國內／國外一般消費享1%現金積點回饋無上限",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:15:42.018150Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_53ae136747ff34bdf6f0",
+      "cardId": "card_星展銀行_423",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展eco永續卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "日本／韓國／泰國／新加坡／美洲／歐洲地區加碼回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "日本",
+        "韓國",
+        "泰國",
+        "新加坡",
+        "美洲",
+        "歐洲"
+      ],
+      "searchKeywords": "日本,韓國,泰國,新加坡,美洲,歐洲,日本旅遊,韓國旅遊,泰國旅遊,新加坡旅遊,美洲旅遊,歐洲旅遊,海外消費,外幣",
+      "intentTags": [
+        "海外消費",
+        "旅遊"
+      ],
+      "intentEvidence": "日本／韓國／泰國／新加坡／美洲／歐洲地區 享加碼最高5%回饋",
+      "baseRate": 1.0,
+      "promoRate": 4.0,
+      "rewardType": "percent",
+      "rewardAmount": 5.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "一般資格",
+          "totalRate": 1.0,
+          "baseRate": 1.0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "指定地區加碼最高",
+          "totalRate": 5.0,
+          "baseRate": 1.0,
+          "promoRate": 4.0,
+          "isDefault": false,
+          "requirements": [
+            "於日本、韓國、泰國、新加坡、美洲、歐洲地區消費"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "於指定國家或地區消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "日本／韓國／泰國／新加坡／美洲／歐洲地區享加碼最高5%回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:15:42.018397Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_489384bfd05f156d1bf0",
+      "cardId": "card_星展銀行_439",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展PChome Prime聯名卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "PChome內消費筆筆最高6%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "PChome"
+      ],
+      "searchKeywords": "PChome,PChome線上購物,網購,線上購物",
+      "intentTags": [
+        "網購"
+      ],
+      "intentEvidence": "PChome內消費筆筆最高6%回饋 (分期同享)",
+      "baseRate": 0.5,
+      "promoRate": 5.5,
+      "rewardType": "percent",
+      "rewardAmount": 6.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "一般消費資格",
+          "totalRate": 0.5,
+          "baseRate": 0.5,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "PChome站內消費最高",
+          "totalRate": 6.0,
+          "baseRate": 0.5,
+          "promoRate": 5.5,
+          "isDefault": false,
+          "requirements": [
+            "於PChome站內消費"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "於PChome站內消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "PChome內消費筆筆最高6%回饋 (分期同享)",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:15:42.018642Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_02c999e74de3fb659ab9",
+      "cardId": "card_星展銀行_443",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展炫晶商務御璽卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "國外消費2.5%回饋與國內消費0.8%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "國內消費,國外消費,海外消費",
+      "intentTags": [
+        "一般消費",
+        "海外消費"
+      ],
+      "intentEvidence": "國外消費 2.5%回饋；國內消費 0.8%回饋",
+      "baseRate": 0.8,
+      "promoRate": 1.7,
+      "rewardType": "percent",
+      "rewardAmount": 2.5,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "國內消費",
+          "totalRate": 0.8,
+          "baseRate": 0.8,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "國外消費",
+          "totalRate": 2.5,
+          "baseRate": 0.8,
+          "promoRate": 1.7,
+          "isDefault": false,
+          "requirements": [
+            "國外消費"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "國外消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "國外消費 2.5%回饋、國內消費 0.8%回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:15:42.018904Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_a456a7161ace727bf16b",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "星願集刷 回饋升級 刷5筆888元享最高3%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "刷卡回饋, 消費回饋, 簽帳, 刷卡金, 抽獎, iPhone",
+      "intentTags": [
+        "一般消費"
+      ],
+      "intentEvidence": "刷5筆888元享最高3%回饋 再抽2026最新iPhone",
+      "baseRate": null,
+      "promoRate": 3.0,
+      "rewardType": "percent",
+      "rewardAmount": 3.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 888,
+      "eligibilityRequirements": [
+        "刷滿5筆且每筆達NT$888"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "刷滿5筆且每筆達NT$888"
+      ],
+      "needReg": true,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-cards-benefits/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "刷5筆888元享最高3%回饋，再抽2026最新iPhone",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:16:27.728734Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_45e95ab02921aae9b727",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "百貨週年慶享分期0%利率 滿額最高10%回饋!",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "百貨公司"
+      ],
+      "searchKeywords": "百貨公司, 百貨, 週年慶, 分期, 購物",
+      "intentTags": [
+        "百貨購物",
+        "分期付款"
+      ],
+      "intentEvidence": "百貨週年慶享分期0%利率 滿額最高10%回饋!",
+      "baseRate": null,
+      "promoRate": 10.0,
+      "rewardType": "percent",
+      "rewardAmount": 10.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": null,
+      "eligibilityRequirements": [
+        "滿額消費"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "消費達滿額門檻"
+      ],
+      "needReg": null,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-cards-benefits/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "滿額最高10%回饋，享分期0%利率",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:16:27.728828Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_16258e75da1a739b7856",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "聚餐用星刷！筆筆享最高12%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "餐廳",
+        "餐飲"
+      ],
+      "searchKeywords": "餐廳, 餐飲, 聚餐, 美食, 餐廳消費",
+      "intentTags": [
+        "餐飲"
+      ],
+      "intentEvidence": "聚餐用星刷！筆筆享最高12%回饋",
+      "baseRate": null,
+      "promoRate": 12.0,
+      "rewardType": "percent",
+      "rewardAmount": 12.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": null,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [],
+      "needReg": null,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-cards-benefits/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "筆筆享最高12%回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:16:27.728878Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_d110dab3feca689f6f1a",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "海外餐飲最高享10%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "海外餐飲"
+      ],
+      "searchKeywords": "海外餐飲, 國外餐廳, 國外美食, 境外餐廳",
+      "intentTags": [
+        "海外消費",
+        "餐飲"
+      ],
+      "intentEvidence": "海外餐飲刷星展 最高享10%回饋",
+      "baseRate": null,
+      "promoRate": 10.0,
+      "rewardType": "percent",
+      "rewardAmount": 10.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": null,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [],
+      "needReg": null,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-cards-benefits/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "海外餐飲刷星展，最高享10%回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:16:27.728924Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_a14288a13d4c2819177e",
+      "cardId": "",
+      "offerDomain": "PAYMENT",
+      "paymentProvider": "全支付",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "全支付x星展信用卡 全新上線",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "全支付"
+      ],
+      "searchKeywords": "全支付, pxpay plus, 行動支付",
+      "intentTags": [
+        "行動支付"
+      ],
+      "intentEvidence": "全支付x星展信用卡 全新上線",
+      "baseRate": null,
+      "promoRate": null,
+      "rewardType": "points",
+      "rewardAmount": null,
+      "rewardUnit": "",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": null,
+      "eligibilityRequirements": [
+        "綁定全支付"
+      ],
+      "rewardCalculationMode": "UNKNOWN",
+      "rewardTiers": [],
+      "maxRateRequires": [],
+      "needReg": null,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-cards-benefits/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "全支付x星展信用卡全新上線",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:16:27.728970Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_be0b73588e71bf766d8a",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "威秀影城購票樂享優惠",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "威秀影城"
+      ],
+      "searchKeywords": "威秀影城, 威秀, movie, vieshow, 電影, 購票",
+      "intentTags": [
+        "電影"
+      ],
+      "intentEvidence": "威秀影城購票樂享優惠",
+      "baseRate": null,
+      "promoRate": null,
+      "rewardType": "percent",
+      "rewardAmount": null,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": null,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "UNKNOWN",
+      "rewardTiers": [],
+      "maxRateRequires": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-cards-benefits/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "威秀影城購票樂享優惠",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:16:27.729014Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_4c5a1f7bf2f92331746f",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "旅平險及不便險",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "旅平險, 旅遊不便險, 旅行平安險, 機場, 出國, 保障, 保險",
+      "intentTags": [
+        "旅遊"
+      ],
+      "intentEvidence": "旅平險及不便險 出行無憂，保障旅程",
+      "baseRate": null,
+      "promoRate": null,
+      "rewardType": "insurance_benefit",
+      "rewardAmount": null,
+      "rewardUnit": "",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": null,
+      "eligibilityRequirements": [
+        "使用星展信用卡刷卡支付全額公共運輸工具票價或80%以上旅行團費"
+      ],
+      "rewardCalculationMode": "UNKNOWN",
+      "rewardTiers": [],
+      "maxRateRequires": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-cards-benefits/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "出行無憂，保障旅程",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:16:27.729061Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_7acacbeb790b8de298ce",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "專屬機場接送優惠",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "機場接送, 接送, 接機, 送機, 出國, 旅遊",
+      "intentTags": [
+        "旅遊"
+      ],
+      "intentEvidence": "專屬機場接送優惠",
+      "baseRate": null,
+      "promoRate": null,
+      "rewardType": "percent",
+      "rewardAmount": null,
+      "rewardUnit": "",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": null,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "UNKNOWN",
+      "rewardTiers": [],
+      "maxRateRequires": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-cards-benefits/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "專屬機場接送優惠",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:16:27.729107Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_d71ffc4097b6515bab9b",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "天天免費市區停車優惠",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "市區停車, 停車, 停車優惠, 天天免費停車",
+      "intentTags": [
+        "一般消費"
+      ],
+      "intentEvidence": "最優享天天免費市區停車",
+      "baseRate": null,
+      "promoRate": null,
+      "rewardType": "points",
+      "rewardAmount": null,
+      "rewardUnit": "",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": null,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "UNKNOWN",
+      "rewardTiers": [],
+      "maxRateRequires": [],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-cards-benefits/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "最優享天天免費市區停車",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:16:27.729151Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_b76fabd11a38fc5466c6",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "聚餐用星刷 筆筆享最高12%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "國內餐飲"
+      ],
+      "searchKeywords": "國內餐飲,餐飲,餐廳,美食",
+      "intentTags": [
+        "餐飲"
+      ],
+      "intentEvidence": "單月刷星展信用卡任刷國內餐飲且含3筆每筆消費達NT$888 ( 含 ) 以上，筆筆享最高12%回饋",
+      "baseRate": 0,
+      "promoRate": 12.0,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 888,
+      "eligibilityRequirements": [
+        "單月任刷國內餐飲且含3筆每筆達NT$888(含)以上"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [
+        {
+          "name": "最高回饋資格",
+          "totalRate": 12.0,
+          "baseRate": 0,
+          "promoRate": 12.0,
+          "isDefault": false,
+          "requirements": [
+            "單月任刷國內餐飲且含3筆每筆達NT$888(含)以上"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "單月任刷國內餐飲且含3筆每筆達NT$888(含)以上"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "單月刷星展信用卡任刷國內餐飲且含3筆每筆消費達NT$888 ( 含 ) 以上",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:17:31.249321Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_9a462406cc577baf04a7",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "LINE Pay",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "週三金豬日 最高享17%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "LINE Pay",
+        "金豬食堂"
+      ],
+      "searchKeywords": "LINE Pay,linepay,連線支付,行動支付,金豬食堂",
+      "intentTags": [
+        "行動支付",
+        "餐飲"
+      ],
+      "intentEvidence": "每週三 LINE Pay 綁定星展信用卡於金豬食堂消費用餐最高享17% 回饋！",
+      "baseRate": 0,
+      "promoRate": 17.0,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "每週三使用 LINE Pay 綁定星展信用卡於金豬食堂消費"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [
+        {
+          "name": "最高回饋",
+          "totalRate": 17.0,
+          "baseRate": 0,
+          "promoRate": 17.0,
+          "isDefault": false,
+          "requirements": [
+            "每週三使用 LINE Pay 綁定星展信用卡於金豬食堂消費"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "每週三使用 LINE Pay 綁定星展信用卡於金豬食堂消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "每週三 LINE Pay 綁定星展信用卡於金豬食堂消費用餐",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:17:31.249382Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_8f9cb16cd6e16f7fbaee",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "全支付",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "全支付x星展信用卡新上線",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "全支付"
+      ],
+      "searchKeywords": "全支付,全支付x星展信用卡",
+      "intentTags": [
+        "行動支付"
+      ],
+      "intentEvidence": "全支付x 星展信用卡新上線 首綁消費最高贈50全點 筆筆消費再享5%回饋",
+      "baseRate": 0,
+      "promoRate": 5.0,
+      "rewardType": "percent",
+      "rewardAmount": 50,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "首綁消費",
+        "筆筆消費"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [
+        {
+          "name": "筆筆消費回饋",
+          "totalRate": 5.0,
+          "baseRate": 0,
+          "promoRate": 5.0,
+          "isDefault": false,
+          "requirements": [
+            "筆筆消費"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "綁定全支付消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "首綁消費最高贈50全點，筆筆消費再享5%回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:17:31.249430Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_99a254f72e7d36f72f2a",
+      "cardId": "card_星展銀行_423",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展eco永續卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "屈臣氏 天天回饋無上限",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "屈臣氏"
+      ],
+      "searchKeywords": "屈臣氏,watsons",
+      "intentTags": [
+        "網購",
+        "百貨"
+      ],
+      "intentEvidence": "天天刷星展eco永續卡享1%現金積點回饋無上限！",
+      "baseRate": 1.0,
+      "promoRate": 0,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "使用星展eco永續卡於屈臣氏消費"
+      ],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [
+        {
+          "name": "基本回饋",
+          "totalRate": 1.0,
+          "baseRate": 1.0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "使用星展eco永續卡於屈臣氏消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "天天刷星展eco永續卡享1%現金積點回饋無上限",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-09-29T22:17:31.249699Z",
+      "bank": "星展銀行"
     }
   ],
   "commonExclusions": [
@@ -109341,5 +110847,5 @@
       "message": "政府規費、公用事業水電瓦斯多數信用卡皆排除回饋。"
     }
   ],
-  "lastUpdated": "2026-09-28T23:31:58.388784Z"
+  "lastUpdated": "2026-09-29T22:18:28.941970Z"
 }
