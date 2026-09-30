@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-09-30T12:45:27.951454+00:00",
-  "added": [],
-  "withImage": 15,
+  "generatedAt": "2026-09-30T12:48:42.597040+00:00",
+  "added": [
+    {
+      "id": "card_樂天信用卡_428",
+      "cardName": "桃猿卡",
+      "imageUrl": "https://image.card.tw.r10s.com/images/common/m3.png"
+    }
+  ],
+  "withImage": 207,
   "missing": [
     {
       "id": "card_cathay_cube",
@@ -9,19 +15,9 @@
       "cardName": "CUBE卡"
     },
     {
-      "id": "card_esun_ubear",
-      "bank": "玉山銀行",
-      "cardName": "玉山 U Bear卡"
-    },
-    {
       "id": "card_taishin_gogo",
       "bank": "台新銀行",
       "cardName": "@GoGo卡"
-    },
-    {
-      "id": "card_fubon_costco",
-      "bank": "台北富邦",
-      "cardName": "富邦 Costco聯名卡"
     },
     {
       "id": "card_國泰世華_5",
@@ -42,16 +38,6 @@
       "id": "card_國泰世華_8",
       "bank": "國泰世華",
       "cardName": "亞洲萬里通聯名卡"
-    },
-    {
-      "id": "card_玉山銀行_9",
-      "bank": "玉山銀行",
-      "cardName": "玉山 Unicard 信用卡"
-    },
-    {
-      "id": "card_玉山銀行_10",
-      "bank": "玉山銀行",
-      "cardName": "玉山熊本熊信用卡"
     },
     {
       "id": "card_永豐銀行_11",
@@ -129,11 +115,6 @@
       "cardName": "永傳世界卡"
     },
     {
-      "id": "card_永豐銀行_26",
-      "bank": "永豐銀行",
-      "cardName": "永富世界卡"
-    },
-    {
       "id": "card_國泰世華_31",
       "bank": "國泰世華",
       "cardName": "現金回饋御璽卡"
@@ -142,76 +123,6 @@
       "id": "card_國泰世華_32",
       "bank": "國泰世華",
       "cardName": "雙幣卡"
-    },
-    {
-      "id": "card_玉山銀行_34",
-      "bank": "玉山銀行",
-      "cardName": "玉山ＵBear信用卡"
-    },
-    {
-      "id": "card_玉山銀行_35",
-      "bank": "玉山銀行",
-      "cardName": "玉山 Pi 拍錢包信用卡"
-    },
-    {
-      "id": "card_玉山銀行_36",
-      "bank": "玉山銀行",
-      "cardName": "玉山星宇航空聯名卡"
-    },
-    {
-      "id": "card_玉山銀行_37",
-      "bank": "玉山銀行",
-      "cardName": "玉山易遊卡"
-    },
-    {
-      "id": "card_玉山銀行_38",
-      "bank": "玉山銀行",
-      "cardName": "玉山雙幣信用卡"
-    },
-    {
-      "id": "card_台北富邦_44",
-      "bank": "台北富邦",
-      "cardName": "富邦J卡"
-    },
-    {
-      "id": "card_台北富邦_45",
-      "bank": "台北富邦",
-      "cardName": "富邦鑽保卡"
-    },
-    {
-      "id": "card_台北富邦_46",
-      "bank": "台北富邦",
-      "cardName": "富邦富利生活系列卡"
-    },
-    {
-      "id": "card_台北富邦_47",
-      "bank": "台北富邦",
-      "cardName": "悍將勇士聯名卡"
-    },
-    {
-      "id": "card_台北富邦_48",
-      "bank": "台北富邦",
-      "cardName": "momo卡"
-    },
-    {
-      "id": "card_台北富邦_49",
-      "bank": "台北富邦",
-      "cardName": "Open Possible聯名卡"
-    },
-    {
-      "id": "card_台新銀行_50",
-      "bank": "台新銀行",
-      "cardName": "台新Richart卡"
-    },
-    {
-      "id": "card_中國信託_51",
-      "bank": "中國信託",
-      "cardName": "中國信託LINE Pay卡"
-    },
-    {
-      "id": "card_玉山銀行_59",
-      "bank": "玉山銀行",
-      "cardName": "玉山世界卡"
     },
     {
       "id": "card_台新銀行_60",
@@ -304,84 +215,9 @@
       "cardName": "南山人壽聯名卡"
     },
     {
-      "id": "card_玉山銀行_103",
-      "bank": "玉山銀行",
-      "cardName": "玉山數位保險卡"
-    },
-    {
       "id": "card_滙豐銀行_106",
       "bank": "滙豐銀行",
       "cardName": "匯鑽卡"
-    },
-    {
-      "id": "card_滙豐銀行_107",
-      "bank": "滙豐銀行",
-      "cardName": "旅人御璽卡"
-    },
-    {
-      "id": "card_滙豐銀行_108",
-      "bank": "滙豐銀行",
-      "cardName": "Live+現金回饋卡"
-    },
-    {
-      "id": "card_滙豐銀行_109",
-      "bank": "滙豐銀行",
-      "cardName": "旅人輕旅卡"
-    },
-    {
-      "id": "card_滙豐銀行_110",
-      "bank": "滙豐銀行",
-      "cardName": "卓越理財信用卡"
-    },
-    {
-      "id": "card_滙豐銀行_111",
-      "bank": "滙豐銀行",
-      "cardName": "現金回饋御璽卡"
-    },
-    {
-      "id": "card_滙豐銀行_112",
-      "bank": "滙豐銀行",
-      "cardName": "滙豐現金回饋御璽卡"
-    },
-    {
-      "id": "card_兆豐銀行_128",
-      "bank": "兆豐銀行",
-      "cardName": "宇宙明星BT21信用卡"
-    },
-    {
-      "id": "card_兆豐銀行_129",
-      "bank": "兆豐銀行",
-      "cardName": "Mega One一卡通聯名卡"
-    },
-    {
-      "id": "card_兆豐銀行_130",
-      "bank": "兆豐銀行",
-      "cardName": "兆豐無限卡"
-    },
-    {
-      "id": "card_兆豐銀行_131",
-      "bank": "兆豐銀行",
-      "cardName": "e秒刷悠遊/一卡通聯名卡"
-    },
-    {
-      "id": "card_兆豐銀行_132",
-      "bank": "兆豐銀行",
-      "cardName": "利多御璽卡"
-    },
-    {
-      "id": "card_兆豐銀行_133",
-      "bank": "兆豐銀行",
-      "cardName": "將來銀行聯名卡"
-    },
-    {
-      "id": "card_兆豐銀行_134",
-      "bank": "兆豐銀行",
-      "cardName": "e秒Happy悠遊聯名卡"
-    },
-    {
-      "id": "card_兆豐銀行_136",
-      "bank": "兆豐銀行",
-      "cardName": "雙幣鈦金商旅卡"
     },
     {
       "id": "card_兆豐銀行_138",
@@ -394,29 +230,14 @@
       "cardName": "個人商旅卡Basic"
     },
     {
-      "id": "card_兆豐銀行_141",
-      "bank": "兆豐銀行",
-      "cardName": "威天宮關聖帝君認同卡"
-    },
-    {
       "id": "card_兆豐銀行_142",
       "bank": "兆豐銀行",
       "cardName": "自然美聯名卡"
     },
     {
-      "id": "card_兆豐銀行_143",
-      "bank": "兆豐銀行",
-      "cardName": "中興保全聯名卡"
-    },
-    {
       "id": "card_兆豐銀行_144",
       "bank": "兆豐銀行",
       "cardName": "幸福普卡"
-    },
-    {
-      "id": "card_兆豐銀行_148",
-      "bank": "兆豐銀行",
-      "cardName": "Mega One卡"
     },
     {
       "id": "card_兆豐銀行_149",
@@ -454,29 +275,9 @@
       "cardName": "雙幣鈦金卡"
     },
     {
-      "id": "card_兆豐銀行_169",
-      "bank": "兆豐銀行",
-      "cardName": "美福聯名無限卡"
-    },
-    {
       "id": "card_兆豐銀行_170",
       "bank": "兆豐銀行",
       "cardName": "e秒Happy卡"
-    },
-    {
-      "id": "card_兆豐銀行_171",
-      "bank": "兆豐銀行",
-      "cardName": "Gogoro聯名卡"
-    },
-    {
-      "id": "card_兆豐銀行_172",
-      "bank": "兆豐銀行",
-      "cardName": "歐付寶悠遊聯名卡"
-    },
-    {
-      "id": "card_合作金庫_176",
-      "bank": "合作金庫",
-      "cardName": "無限金鑽卡"
     },
     {
       "id": "card_合作金庫_178",
@@ -487,11 +288,6 @@
       "id": "card_合作金庫_179",
       "bank": "合作金庫",
       "cardName": "法人商務卡"
-    },
-    {
-      "id": "card_合作金庫_181",
-      "bank": "合作金庫",
-      "cardName": "合庫利High卡"
     },
     {
       "id": "card_合作金庫_182",
@@ -507,21 +303,6 @@
       "id": "card_合作金庫_184",
       "bank": "合作金庫",
       "cardName": "i享樂生活卡（VISA）"
-    },
-    {
-      "id": "card_合作金庫_185",
-      "bank": "合作金庫",
-      "cardName": "樂活卡"
-    },
-    {
-      "id": "card_合作金庫_186",
-      "bank": "合作金庫",
-      "cardName": "i享樂生活卡"
-    },
-    {
-      "id": "card_合作金庫_187",
-      "bank": "合作金庫",
-      "cardName": "卡娜赫拉的小動物悠遊聯名卡"
     },
     {
       "id": "card_合作金庫_192",
@@ -569,54 +350,14 @@
       "cardName": "合作金庫法人商務卡"
     },
     {
-      "id": "card_渣打銀行_385",
-      "bank": "渣打銀行",
-      "cardName": "渣打昇利卡(現金回饋)"
-    },
-    {
       "id": "card_渣打銀行_386",
       "bank": "渣打銀行",
       "cardName": "渣打昇利卡(紅利回饋)"
     },
     {
-      "id": "card_渣打銀行_389",
-      "bank": "渣打銀行",
-      "cardName": "渣打Combo信用卡"
-    },
-    {
-      "id": "card_渣打銀行_390",
-      "bank": "渣打銀行",
-      "cardName": "渣打H信用卡"
-    },
-    {
       "id": "card_渣打銀行_393",
       "bank": "渣打銀行",
       "cardName": "Rewards省息卡 (即原ShoppingCard省息卡)"
-    },
-    {
-      "id": "card_渣打銀行_395",
-      "bank": "渣打銀行",
-      "cardName": "渣打Rewards 分期卡"
-    },
-    {
-      "id": "card_台北富邦_225",
-      "bank": "台北富邦",
-      "cardName": "富邦尊御世界卡"
-    },
-    {
-      "id": "card_台北富邦_229",
-      "bank": "台北富邦",
-      "cardName": "富邦Costco聯名世界卡"
-    },
-    {
-      "id": "card_台北富邦_233",
-      "bank": "台北富邦",
-      "cardName": "富邦富利生活卡"
-    },
-    {
-      "id": "card_台北富邦_239",
-      "bank": "台北富邦",
-      "cardName": "富邦Costco聯名鈦商卡"
     },
     {
       "id": "card_台北富邦_243",
@@ -639,51 +380,6 @@
       "cardName": "台灣大哥大聯名卡"
     },
     {
-      "id": "card_台北富邦_300",
-      "bank": "台北富邦",
-      "cardName": "台茂聯名卡"
-    },
-    {
-      "id": "card_台北富邦_301",
-      "bank": "台北富邦",
-      "cardName": "采盟聯名卡"
-    },
-    {
-      "id": "card_台北富邦_302",
-      "bank": "台北富邦",
-      "cardName": "福華聯名卡"
-    },
-    {
-      "id": "card_台北富邦_303",
-      "bank": "台北富邦",
-      "cardName": "Angel天使公益認同卡"
-    },
-    {
-      "id": "card_台北富邦_304",
-      "bank": "台北富邦",
-      "cardName": "法鼓山自在卡"
-    },
-    {
-      "id": "card_台北富邦_305",
-      "bank": "台北富邦",
-      "cardName": "台北市政府認同卡"
-    },
-    {
-      "id": "card_台北富邦_317",
-      "bank": "台北富邦",
-      "cardName": "富邦IMPERIAL尊御世界卡"
-    },
-    {
-      "id": "card_台北富邦_325",
-      "bank": "台北富邦",
-      "cardName": "台灣大哥大Open Possible聯名卡"
-    },
-    {
-      "id": "card_台新銀行_226",
-      "bank": "台新銀行",
-      "cardName": "全家Richart聯名卡"
-    },
-    {
       "id": "card_台新銀行_230",
       "bank": "台新銀行",
       "cardName": "Gogoro聯名卡"
@@ -692,16 +388,6 @@
       "id": "card_台新銀行_231",
       "bank": "台新銀行",
       "cardName": "三商美邦卡"
-    },
-    {
-      "id": "card_台新銀行_234",
-      "bank": "台新銀行",
-      "cardName": "大全聯信用卡"
-    },
-    {
-      "id": "card_台新銀行_244",
-      "bank": "台新銀行",
-      "cardName": "卓富無限卡"
     },
     {
       "id": "card_台新銀行_245",
@@ -719,16 +405,6 @@
       "cardName": "環球無限卡"
     },
     {
-      "id": "card_台新銀行_248",
-      "bank": "台新銀行",
-      "cardName": "太陽卡"
-    },
-    {
-      "id": "card_台新銀行_249",
-      "bank": "台新銀行",
-      "cardName": "玫瑰卡"
-    },
-    {
       "id": "card_台新銀行_250",
       "bank": "台新銀行",
       "cardName": "Mercedes-Benz無限卡"
@@ -737,31 +413,6 @@
       "id": "card_台新銀行_254",
       "bank": "台新銀行",
       "cardName": "尊爵世界卡"
-    },
-    {
-      "id": "card_台新銀行_259",
-      "bank": "台新銀行",
-      "cardName": "街口聯名卡"
-    },
-    {
-      "id": "card_台新銀行_263",
-      "bank": "台新銀行",
-      "cardName": "遠傳friDay聯名卡"
-    },
-    {
-      "id": "card_台新銀行_264",
-      "bank": "台新銀行",
-      "cardName": "Gogoro Rewards 聯名卡"
-    },
-    {
-      "id": "card_台新銀行_265",
-      "bank": "台新銀行",
-      "cardName": "台新雙幣卡"
-    },
-    {
-      "id": "card_台新銀行_266",
-      "bank": "台新銀行",
-      "cardName": "燦坤聯名卡"
     },
     {
       "id": "card_台新銀行_268",
@@ -819,11 +470,6 @@
       "cardName": "彰化銀行LINE Pay信用卡"
     },
     {
-      "id": "card_彰化銀行_392",
-      "bank": "彰化銀行",
-      "cardName": "My樂卡"
-    },
-    {
       "id": "card_彰化銀行_396",
       "bank": "彰化銀行",
       "cardName": "彰銀Visa御璽卡"
@@ -847,11 +493,6 @@
       "id": "card_彰化銀行_408",
       "bank": "彰化銀行",
       "cardName": "彰化銀行 Combo信用卡"
-    },
-    {
-      "id": "card_彰化銀行_409",
-      "bank": "彰化銀行",
-      "cardName": "My購卡"
     },
     {
       "id": "card_元大銀行_258",
@@ -1094,21 +735,6 @@
       "cardName": "零碳信用卡"
     },
     {
-      "id": "card_滙豐銀行_256",
-      "bank": "滙豐銀行",
-      "cardName": "滙豐旅人無限卡"
-    },
-    {
-      "id": "card_滙豐銀行_257",
-      "bank": "滙豐銀行",
-      "cardName": "滙豐旅人輕旅卡"
-    },
-    {
-      "id": "card_滙豐銀行_260",
-      "bank": "滙豐銀行",
-      "cardName": "滙豐匯鑽卡"
-    },
-    {
       "id": "card_滙豐銀行_269",
       "bank": "滙豐銀行",
       "cardName": "滙豐環球Visa金融卡"
@@ -1134,39 +760,14 @@
       "cardName": "滙豐 TravelOne 信用卡"
     },
     {
-      "id": "card_滙豐銀行_335",
-      "bank": "滙豐銀行",
-      "cardName": "滙豐 現金回饋商務鈦金卡"
-    },
-    {
-      "id": "card_滙豐銀行_336",
-      "bank": "滙豐銀行",
-      "cardName": "滙豐 Live+ 信用卡"
-    },
-    {
-      "id": "card_滙豐銀行_339",
-      "bank": "滙豐銀行",
-      "cardName": "滙豐卓越理財信用卡"
-    },
-    {
       "id": "card_滙豐銀行_397",
       "bank": "滙豐銀行",
       "cardName": "Traveller’s Infinite Credit Card"
     },
     {
-      "id": "card_滙豐銀行_398",
-      "bank": "滙豐銀行",
-      "cardName": "TravelOne Signature Credit Card"
-    },
-    {
       "id": "card_滙豐銀行_399",
       "bank": "滙豐銀行",
       "cardName": "TravelOne Credit Card"
-    },
-    {
-      "id": "card_滙豐銀行_400",
-      "bank": "滙豐銀行",
-      "cardName": "Live+ Credit Card"
     },
     {
       "id": "card_滙豐銀行_401",
@@ -1179,44 +780,14 @@
       "cardName": "Cashback Signature Credit Card"
     },
     {
-      "id": "card_滙豐銀行_405",
-      "bank": "滙豐銀行",
-      "cardName": "HSBC Traveller’s Infinite Card"
-    },
-    {
       "id": "card_滙豐銀行_407",
       "bank": "滙豐銀行",
       "cardName": "HSBC TravelOne Signature Credit Card"
     },
     {
-      "id": "card_玉山銀行_223",
-      "bank": "玉山銀行",
-      "cardName": "玉山icash聯名卡"
-    },
-    {
-      "id": "card_玉山銀行_224",
-      "bank": "玉山銀行",
-      "cardName": "寶雅悠遊聯名卡"
-    },
-    {
-      "id": "card_玉山銀行_227",
-      "bank": "玉山銀行",
-      "cardName": "E.SUN Unicard"
-    },
-    {
-      "id": "card_玉山銀行_228",
-      "bank": "玉山銀行",
-      "cardName": "U Bear Credit Card"
-    },
-    {
       "id": "card_玉山銀行_232",
       "bank": "玉山銀行",
       "cardName": "玉山教師鈦金卡"
-    },
-    {
-      "id": "card_玉山銀行_276",
-      "bank": "玉山銀行",
-      "cardName": "玉山數位e卡"
     },
     {
       "id": "card_玉山銀行_277",
@@ -1269,11 +840,6 @@
       "cardName": "山隆優油鈦金卡"
     },
     {
-      "id": "card_玉山銀行_287",
-      "bank": "玉山銀行",
-      "cardName": "公務人員國民旅遊卡"
-    },
-    {
       "id": "card_玉山銀行_294",
       "bank": "玉山銀行",
       "cardName": "玉山星宇航空世界之極卡"
@@ -1282,11 +848,6 @@
       "id": "card_玉山銀行_295",
       "bank": "玉山銀行",
       "cardName": "玉山星宇航空商務鈦金卡"
-    },
-    {
-      "id": "card_玉山銀行_297",
-      "bank": "玉山銀行",
-      "cardName": "玉山醫師世界卡"
     },
     {
       "id": "card_玉山銀行_298",
@@ -1337,36 +898,6 @@
       "id": "card_玉山銀行_315",
       "bank": "玉山銀行",
       "cardName": "玉山雙幣信用卡(JCB日圓極緻卡)"
-    },
-    {
-      "id": "card_玉山銀行_321",
-      "bank": "玉山銀行",
-      "cardName": "玉山Only卡"
-    },
-    {
-      "id": "card_玉山銀行_322",
-      "bank": "玉山銀行",
-      "cardName": "玉山JCB晶緻悠遊卡"
-    },
-    {
-      "id": "card_玉山銀行_323",
-      "bank": "玉山銀行",
-      "cardName": "玉山悠遊聯名卡"
-    },
-    {
-      "id": "card_玉山銀行_326",
-      "bank": "玉山銀行",
-      "cardName": "玉山商務御璽卡"
-    },
-    {
-      "id": "card_玉山銀行_329",
-      "bank": "玉山銀行",
-      "cardName": "玉山幸運鈦金卡"
-    },
-    {
-      "id": "card_玉山銀行_330",
-      "bank": "玉山銀行",
-      "cardName": "玉山幸運PLUS鈦金卡"
     },
     {
       "id": "card_永豐銀行_211",
@@ -1459,11 +990,6 @@
       "cardName": "永豐幣倍卡"
     },
     {
-      "id": "card_永豐銀行_288",
-      "bank": "永豐銀行",
-      "cardName": "現金回饋Debit卡"
-    },
-    {
       "id": "card_永豐銀行_289",
       "bank": "永豐銀行",
       "cardName": "運動卡"
@@ -1507,11 +1033,6 @@
       "id": "card_中國信託_324",
       "bank": "中國信託",
       "cardName": "LINE Pay鼎極卡"
-    },
-    {
-      "id": "card_中國信託_327",
-      "bank": "中國信託",
-      "cardName": "中國信託 LINE Pay 鼎極卡"
     },
     {
       "id": "card_中國信託_328",
@@ -1629,11 +1150,6 @@
       "cardName": "彰化銀行鈦金商旅卡(My購卡)"
     },
     {
-      "id": "card_兆豐銀行_374",
-      "bank": "兆豐銀行",
-      "cardName": "海悅國際聯名卡"
-    },
-    {
       "id": "card_合作金庫_375",
       "bank": "合作金庫",
       "cardName": "商旅卡"
@@ -1642,21 +1158,6 @@
       "id": "card_兆豐銀行_376",
       "bank": "兆豐銀行",
       "cardName": "e秒Happy金融信用卡"
-    },
-    {
-      "id": "card_兆豐銀行_377",
-      "bank": "兆豐銀行",
-      "cardName": "中鼎集團CTCI/ECOVE認同卡"
-    },
-    {
-      "id": "card_兆豐銀行_378",
-      "bank": "兆豐銀行",
-      "cardName": "雅芳御璽悠遊聯名卡"
-    },
-    {
-      "id": "card_兆豐銀行_379",
-      "bank": "兆豐銀行",
-      "cardName": "兆豐悠遊聯名卡"
     },
     {
       "id": "card_安泰銀行_382",
@@ -1682,11 +1183,6 @@
       "id": "card_安泰銀行_386",
       "bank": "安泰銀行",
       "cardName": "安泰Visa御璽卡"
-    },
-    {
-      "id": "card_遠東商銀_387",
-      "bank": "遠東商銀",
-      "cardName": "遠東頂級快樂卡"
     },
     {
       "id": "card_遠東商銀_389",
@@ -1749,29 +1245,14 @@
       "cardName": "一般民眾國民旅遊卡"
     },
     {
-      "id": "card_合作金庫_405",
-      "bank": "合作金庫",
-      "cardName": "卡娜赫拉的小動物悠遊聯名卡(環保綠)"
-    },
-    {
       "id": "card_遠東商銀_406",
       "bank": "遠東商銀",
       "cardName": "遠東New Century信用卡"
     },
     {
-      "id": "card_合作金庫_408",
-      "bank": "合作金庫",
-      "cardName": "國防醫學院鈦金認同卡"
-    },
-    {
       "id": "card_遠東商銀_409",
       "bank": "遠東商銀",
       "cardName": "遠銀eTag聯名信用卡"
-    },
-    {
-      "id": "card_合作金庫_410",
-      "bank": "合作金庫",
-      "cardName": "中台世界博物館御璽悠遊認同卡"
     },
     {
       "id": "card_合作金庫_411",
@@ -1809,11 +1290,6 @@
       "cardName": "將來銀行將將卡"
     },
     {
-      "id": "card_將來銀行_369",
-      "bank": "將來銀行",
-      "cardName": "將將卡"
-    },
-    {
       "id": "card_樂天國際商業銀行_370",
       "bank": "樂天國際商業銀行",
       "cardName": "樂天國際銀行簽帳金融卡"
@@ -1839,19 +1315,9 @@
       "cardName": "JCB媽祖悠遊晶緻卡"
     },
     {
-      "id": "card_台中銀行_378",
-      "bank": "台中銀行",
-      "cardName": "MasterCard世界卡"
-    },
-    {
       "id": "card_王道銀行_379",
       "bank": "王道銀行",
       "cardName": "簽帳金融卡"
-    },
-    {
-      "id": "card_台中銀行_380",
-      "bank": "台中銀行",
-      "cardName": "瑪利亞公益認同卡"
     },
     {
       "id": "card_王道銀行_381",
@@ -1864,11 +1330,6 @@
       "cardName": "王道銀行交通減碳卡"
     },
     {
-      "id": "card_台中銀行_383",
-      "bank": "台中銀行",
-      "cardName": "媽祖卡"
-    },
-    {
       "id": "card_將來銀行_384",
       "bank": "將來銀行",
       "cardName": "將來銀行簽帳金融卡"
@@ -1877,11 +1338,6 @@
       "id": "card_王道銀行_385",
       "bank": "王道銀行",
       "cardName": "王道銀行 Visa 簽帳金融卡"
-    },
-    {
-      "id": "card_台中銀行_386",
-      "bank": "台中銀行",
-      "cardName": "樂購卡"
     },
     {
       "id": "card_台中銀行_387",
@@ -2029,54 +1485,9 @@
       "cardName": "王道銀行彩虹認同卡"
     },
     {
-      "id": "card_樂天信用卡_417",
-      "bank": "樂天信用卡",
-      "cardName": "樂天樂翔卡"
-    },
-    {
-      "id": "card_樂天信用卡_419",
-      "bank": "樂天信用卡",
-      "cardName": "樂天玫瑰金卡"
-    },
-    {
-      "id": "card_樂天信用卡_420",
-      "bank": "樂天信用卡",
-      "cardName": "樂天桃猿卡"
-    },
-    {
       "id": "card_樂天信用卡_421",
       "bank": "樂天信用卡",
       "cardName": "樂天公司卡"
-    },
-    {
-      "id": "card_樂天信用卡_422",
-      "bank": "樂天信用卡",
-      "cardName": "樂虎卡"
-    },
-    {
-      "id": "card_星展銀行_423",
-      "bank": "星展銀行",
-      "cardName": "星展eco永續卡"
-    },
-    {
-      "id": "card_星展銀行_424",
-      "bank": "星展銀行",
-      "cardName": "星展everyday威士御璽卡"
-    },
-    {
-      "id": "card_星展銀行_425",
-      "bank": "星展銀行",
-      "cardName": "星展饗樂生活卡"
-    },
-    {
-      "id": "card_星展銀行_426",
-      "bank": "星展銀行",
-      "cardName": "星展一卡通聯名卡"
-    },
-    {
-      "id": "card_樂天信用卡_428",
-      "bank": "樂天信用卡",
-      "cardName": "桃猿卡"
     },
     {
       "id": "card_樂天信用卡_431",
@@ -2087,61 +1498,6 @@
       "id": "card_樂天信用卡_432",
       "bank": "樂天信用卡",
       "cardName": "樂天JCB玫瑰金卡"
-    },
-    {
-      "id": "card_樂天信用卡_433",
-      "bank": "樂天信用卡",
-      "cardName": "樂天信用卡"
-    },
-    {
-      "id": "card_星展銀行_434",
-      "bank": "星展銀行",
-      "cardName": "星展傳說對決聯名卡"
-    },
-    {
-      "id": "card_星展銀行_435",
-      "bank": "星展銀行",
-      "cardName": "星展飛行世界商務卡"
-    },
-    {
-      "id": "card_星展銀行_436",
-      "bank": "星展銀行",
-      "cardName": "星展飛行世界之極卡"
-    },
-    {
-      "id": "card_星展銀行_437",
-      "bank": "星展銀行",
-      "cardName": "星展極耀無限卡"
-    },
-    {
-      "id": "card_星展銀行_438",
-      "bank": "星展銀行",
-      "cardName": "星展晶耀無限卡"
-    },
-    {
-      "id": "card_星展銀行_439",
-      "bank": "星展銀行",
-      "cardName": "星展PChome Prime聯名卡"
-    },
-    {
-      "id": "card_星展銀行_440",
-      "bank": "星展銀行",
-      "cardName": "星展HAPPY GO聯名卡"
-    },
-    {
-      "id": "card_星展銀行_441",
-      "bank": "星展銀行",
-      "cardName": "星展喜憨兒認同卡"
-    },
-    {
-      "id": "card_星展銀行_442",
-      "bank": "星展銀行",
-      "cardName": "星展飛行鈦金卡"
-    },
-    {
-      "id": "card_星展銀行_443",
-      "bank": "星展銀行",
-      "cardName": "星展炫晶商務御璽卡"
     },
     {
       "id": "card_華南銀行_444",
@@ -2174,11 +1530,6 @@
       "cardName": "彰化銀行 MasterCard世界卡"
     },
     {
-      "id": "card_樂天信用卡_450",
-      "bank": "樂天信用卡",
-      "cardName": "樂天虎航聯名卡"
-    },
-    {
       "id": "card_樂天信用卡_451",
       "bank": "樂天信用卡",
       "cardName": "樂天台灣虎航聯名卡"
@@ -2192,16 +1543,6 @@
       "id": "card_樂天信用卡_453",
       "bank": "樂天信用卡",
       "cardName": "樂天Visa卡"
-    },
-    {
-      "id": "card_樂天信用卡_454",
-      "bank": "樂天信用卡",
-      "cardName": "樂天JCB晶緻卡"
-    },
-    {
-      "id": "card_星展銀行_455",
-      "bank": "星展銀行",
-      "cardName": "星展豐盛御璽卡"
     },
     {
       "id": "card_遠東商銀_456",
@@ -2259,11 +1600,6 @@
       "cardName": "VISA御璽卡"
     },
     {
-      "id": "card_安泰銀行_467",
-      "bank": "安泰銀行",
-      "cardName": "安泰銀行Mastercard世界卡"
-    },
-    {
       "id": "card_安泰銀行_468",
       "bank": "安泰銀行",
       "cardName": "VISA 分期白金卡"
@@ -2272,812 +1608,1112 @@
       "id": "card_安泰銀行_469",
       "bank": "安泰銀行",
       "cardName": "JCB 晶緻卡"
+    },
+    {
+      "id": "card_將來銀行_470",
+      "bank": "將來銀行",
+      "cardName": "將來銀行大將卡"
+    },
+    {
+      "id": "card_玉山銀行_482",
+      "bank": "玉山銀行",
+      "cardName": "E. SUN Kumamon Card"
+    },
+    {
+      "id": "card_永豐銀行_490",
+      "bank": "永豐銀行",
+      "cardName": "永豐銀行 VISA 無限卡"
+    },
+    {
+      "id": "card_玉山銀行_491",
+      "bank": "玉山銀行",
+      "cardName": "玉山國民旅遊卡"
+    },
+    {
+      "id": "card_永豐銀行_495",
+      "bank": "永豐銀行",
+      "cardName": "永豐 DAWHO 現金回饋信用卡"
+    },
+    {
+      "id": "card_永豐銀行_496",
+      "bank": "永豐銀行",
+      "cardName": "山富採購卡"
+    },
+    {
+      "id": "card_永豐銀行_497",
+      "bank": "永豐銀行",
+      "cardName": "環球採購卡"
+    },
+    {
+      "id": "card_永豐銀行_502",
+      "bank": "永豐銀行",
+      "cardName": "VISA 商務御璽卡"
+    },
+    {
+      "id": "card_永豐銀行_503",
+      "bank": "永豐銀行",
+      "cardName": "Mastercard 世界卡"
+    },
+    {
+      "id": "card_永豐銀行_505",
+      "bank": "永豐銀行",
+      "cardName": "MasterCard 世界商務卡"
+    },
+    {
+      "id": "card_台新銀行_508",
+      "bank": "台新銀行",
+      "cardName": "企業卡"
+    },
+    {
+      "id": "card_台新銀行_509",
+      "bank": "台新銀行",
+      "cardName": "雙幣卡"
+    },
+    {
+      "id": "card_台新銀行_510",
+      "bank": "台新銀行",
+      "cardName": "smart御璽卡"
+    },
+    {
+      "id": "card_台新銀行_511",
+      "bank": "台新銀行",
+      "cardName": "Mercedes-Benz御璽卡/白金卡"
+    },
+    {
+      "id": "card_永豐銀行_512",
+      "bank": "永豐銀行",
+      "cardName": "JCB 晶緻卡"
+    },
+    {
+      "id": "card_樂天信用卡_516",
+      "bank": "樂天信用卡",
+      "cardName": "JCB玫瑰金卡"
+    },
+    {
+      "id": "card_元大銀行_518",
+      "bank": "元大銀行",
+      "cardName": "icash愛現晶緻/鈦金卡"
+    },
+    {
+      "id": "card_元大銀行_519",
+      "bank": "元大銀行",
+      "cardName": "樂享晶緻/icash樂享卡"
+    },
+    {
+      "id": "card_元大銀行_520",
+      "bank": "元大銀行",
+      "cardName": "分享御璽卡／分享鈦金卡"
+    },
+    {
+      "id": "card_元大銀行_521",
+      "bank": "元大銀行",
+      "cardName": "元大HCE 行動信用卡"
+    },
+    {
+      "id": "card_元大銀行_522",
+      "bank": "元大銀行",
+      "cardName": "鑽金會員適用卡片"
+    },
+    {
+      "id": "card_元大銀行_523",
+      "bank": "元大銀行",
+      "cardName": "商務御璽卡"
+    },
+    {
+      "id": "card_合作金庫_533",
+      "bank": "合作金庫",
+      "cardName": "國防醫學院鈦金悠遊認同卡"
+    },
+    {
+      "id": "card_合作金庫_534",
+      "bank": "合作金庫",
+      "cardName": "御璽愛家卡(本行房貸客戶限定)"
+    },
+    {
+      "id": "card_彰化銀行_535",
+      "bank": "彰化銀行",
+      "cardName": "鈦金商旅卡(My購卡)"
+    },
+    {
+      "id": "card_合作金庫_537",
+      "bank": "合作金庫",
+      "cardName": "雙幣卡"
+    },
+    {
+      "id": "card_彰化銀行_538",
+      "bank": "彰化銀行",
+      "cardName": "彰化銀行鈦金商旅卡(My樂現金回饋卡)"
+    },
+    {
+      "id": "card_彰化銀行_539",
+      "bank": "彰化銀行",
+      "cardName": "Combo信用卡"
+    },
+    {
+      "id": "card_兆豐銀行_541",
+      "bank": "兆豐銀行",
+      "cardName": "政府採購卡"
+    },
+    {
+      "id": "card_安泰銀行_546",
+      "bank": "安泰銀行",
+      "cardName": "鈦金悠遊卡"
+    },
+    {
+      "id": "card_台新銀行_547",
+      "bank": "台新銀行",
+      "cardName": "國泰航空翱翔鈦金卡"
+    },
+    {
+      "id": "card_台中銀行_548",
+      "bank": "台中銀行",
+      "cardName": "JCB現金回饋晶緻卡"
+    },
+    {
+      "id": "card_台中銀行_549",
+      "bank": "台中銀行",
+      "cardName": "VISA白金卡"
+    },
+    {
+      "id": "card_台中銀行_550",
+      "bank": "台中銀行",
+      "cardName": "VISA普卡"
+    },
+    {
+      "id": "card_台中銀行_551",
+      "bank": "台中銀行",
+      "cardName": "Mastercard樂購鈦金卡"
+    },
+    {
+      "id": "card_台中銀行_552",
+      "bank": "台中銀行",
+      "cardName": "Mastercard樂購商旅白金卡"
+    },
+    {
+      "id": "card_台中銀行_553",
+      "bank": "台中銀行",
+      "cardName": "Mastercard樂購普卡"
+    },
+    {
+      "id": "card_台中銀行_554",
+      "bank": "台中銀行",
+      "cardName": "Mastercard瑪利亞鈦金卡"
+    },
+    {
+      "id": "card_台中銀行_555",
+      "bank": "台中銀行",
+      "cardName": "Mastercard瑪利亞普卡"
+    },
+    {
+      "id": "card_台中銀行_556",
+      "bank": "台中銀行",
+      "cardName": "JCB瑪利亞晶緻卡"
+    },
+    {
+      "id": "card_台中銀行_557",
+      "bank": "台中銀行",
+      "cardName": "Mastercard媽祖鈦金卡"
+    },
+    {
+      "id": "card_台中銀行_558",
+      "bank": "台中銀行",
+      "cardName": "Mastercard媽祖商旅白金卡"
+    },
+    {
+      "id": "card_台中銀行_559",
+      "bank": "台中銀行",
+      "cardName": "Mastercard媽祖普卡"
+    },
+    {
+      "id": "card_台中銀行_560",
+      "bank": "台中銀行",
+      "cardName": "JCBQ版媽祖晶緻卡"
+    },
+    {
+      "id": "card_台中銀行_561",
+      "bank": "台中銀行",
+      "cardName": "Mastercard媽祖悠遊鈦金卡"
+    },
+    {
+      "id": "card_台中銀行_562",
+      "bank": "台中銀行",
+      "cardName": "Mastercard媽祖悠遊商旅白金卡"
+    },
+    {
+      "id": "card_台中銀行_563",
+      "bank": "台中銀行",
+      "cardName": "Mastercard悠遊加油鈦金卡"
+    },
+    {
+      "id": "card_台中銀行_564",
+      "bank": "台中銀行",
+      "cardName": "Mastercard悠遊加油普卡"
+    },
+    {
+      "id": "card_台中銀行_565",
+      "bank": "台中銀行",
+      "cardName": "JCB悠遊加油晶緻卡"
+    },
+    {
+      "id": "card_台中銀行_566",
+      "bank": "台中銀行",
+      "cardName": "JCB現金回饋悠遊晶緻卡"
+    },
+    {
+      "id": "card_台中銀行_567",
+      "bank": "台中銀行",
+      "cardName": "MySense悠遊御璽卡"
+    },
+    {
+      "id": "card_滙豐銀行_568",
+      "bank": "滙豐銀行",
+      "cardName": "滙豐信用卡"
+    },
+    {
+      "id": "card_樂天信用卡_569",
+      "bank": "樂天信用卡",
+      "cardName": "台灣樂天信用卡"
+    },
+    {
+      "id": "card_安泰銀行_571",
+      "bank": "安泰銀行",
+      "cardName": "VISA御璽卡/分期白金卡"
+    },
+    {
+      "id": "card_安泰銀行_572",
+      "bank": "安泰銀行",
+      "cardName": "分期白金卡"
+    },
+    {
+      "id": "card_安泰銀行_573",
+      "bank": "安泰銀行",
+      "cardName": "悠遊聯名卡"
+    },
+    {
+      "id": "card_安泰銀行_574",
+      "bank": "安泰銀行",
+      "cardName": "Mastercard 悠遊鈦金卡"
+    },
+    {
+      "id": "card_安泰銀行_575",
+      "bank": "安泰銀行",
+      "cardName": "MasterCard 金卡"
+    },
+    {
+      "id": "card_安泰銀行_576",
+      "bank": "安泰銀行",
+      "cardName": "Mastercard 悠遊分期卡"
+    },
+    {
+      "id": "card_安泰銀行_577",
+      "bank": "安泰銀行",
+      "cardName": "VISA 普卡"
     }
   ],
   "pages": [
     {
       "bank": "永豐銀行",
       "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/list.html",
-      "candidates": 0,
-      "error": ""
-    },
-    {
-      "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/business/list.html",
-      "candidates": 0,
-      "error": ""
-    },
-    {
-      "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/WBFU.html",
-      "candidates": 0,
-      "error": ""
-    },
-    {
-      "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/cashcard.html",
-      "candidates": 0,
-      "error": ""
-    },
-    {
-      "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/dual-currency-card.html",
-      "candidates": 0,
-      "error": ""
-    },
-    {
-      "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/debit/debit.html",
-      "candidates": 0,
-      "error": ""
-    },
-    {
-      "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/co-brand/list.html",
-      "candidates": 0,
-      "error": ""
-    },
-    {
-      "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/debit/list.html",
-      "candidates": 0,
-      "error": ""
-    },
-    {
-      "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/WBCH.html",
-      "candidates": 0,
-      "error": ""
-    },
-    {
-      "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/DAWHO.html",
-      "candidates": 0,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "永豐銀行",
       "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/list.html",
-      "candidates": 0,
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "永豐銀行",
+      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/debit/debit.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "永豐銀行",
+      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/co-brand/list.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "永豐銀行",
+      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/business/list.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "永豐銀行",
+      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/WBCH.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "永豐銀行",
+      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/WBFU.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "永豐銀行",
+      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/DAWHO.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "永豐銀行",
+      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/cashcard.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "永豐銀行",
+      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/dual-currency-card.html",
+      "cached": true,
       "error": ""
     },
     {
       "bank": "國泰世華",
       "url": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/",
-      "candidates": 0,
+      "cached": true,
       "error": "SSLError"
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card",
-      "candidates": 57,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro",
-      "candidates": 57,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/tools/do",
-      "candidates": 14,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro#3",
-      "candidates": 57,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/teacher-card",
-      "candidates": 12,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/payment/e_pay",
-      "candidates": 24,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/travel-card/traveler-card",
-      "candidates": 12,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/tools/mark_up",
-      "candidates": 8,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/tools/adjustment",
-      "candidates": 8,
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro#3",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/payment/e_pay",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/travel-card/traveler-card",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/tools/do",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/tools/mark_up",
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard",
-      "candidates": 15,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/kumamon_card",
-      "candidates": 16,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/u-bear",
-      "candidates": 16,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/pi-card",
-      "candidates": 14,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "candidates": 10,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/eztravel",
-      "candidates": 12,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/WORLD",
-      "candidates": 12,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/infinite-card",
-      "candidates": 11,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/e-card",
-      "candidates": 12,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/icash-card",
-      "candidates": 12,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/dualcurrency-card",
-      "candidates": 11,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/inscard",
-      "candidates": 13,
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/teacher-card",
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/only-card",
-      "candidates": 12,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/signature-card",
-      "candidates": 12,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/jcb-card",
-      "candidates": 12,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/easy-card",
-      "candidates": 12,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/business-card",
-      "candidates": 12,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/titanium-card",
-      "candidates": 12,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/plus-titanium-card",
-      "candidates": 12,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/poya-card",
-      "candidates": 12,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "台北富邦",
       "url": "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm",
-      "candidates": 0,
-      "error": "SSLError"
-    },
-    {
-      "bank": "台北富邦",
-      "url": "https://www.fubon.com/banking/personal/credit_card/index.htm",
-      "candidates": 0,
-      "error": "SSLError"
-    },
-    {
-      "bank": "台北富邦",
-      "url": "https://www.fubon.com/banking/personal/credit_card/card_refer/card_refer.htm",
-      "candidates": 0,
-      "error": "SSLError"
-    },
-    {
-      "bank": "台北富邦",
-      "url": "https://www.fubon.com/banking/personal/credit_card/all_card/lifestyle/lifestyle.htm",
-      "candidates": 0,
-      "error": "SSLError"
-    },
-    {
-      "bank": "台北富邦",
-      "url": "https://www.fubon.com/banking/personal/credit_card/all_card/Guardians_Braves/Guardians_Braves.htm",
-      "candidates": 0,
-      "error": "SSLError"
-    },
-    {
-      "bank": "台北富邦",
-      "url": "https://www.fubon.com/banking/personal/credit_card/all_card/momo/momo.htm",
-      "candidates": 0,
+      "cached": true,
       "error": "SSLError"
     },
     {
       "bank": "台北富邦",
       "url": "https://www.fubon.com/banking/personal/credit_card/all_card/digitallife/digitallife.htm",
-      "candidates": 0,
+      "cached": true,
       "error": "SSLError"
     },
     {
       "bank": "台北富邦",
       "url": "https://www.fubon.com/banking/personal/credit_card/all_card/fortune/fortune.htm",
-      "candidates": 0,
+      "cached": true,
+      "error": "SSLError"
+    },
+    {
+      "bank": "台北富邦",
+      "url": "https://www.fubon.com/banking/personal/credit_card/index.htm",
+      "cached": true,
+      "error": "SSLError"
+    },
+    {
+      "bank": "台北富邦",
+      "url": "https://www.fubon.com/banking/personal/credit_card/card_refer/card_refer.htm",
+      "cached": true,
       "error": "SSLError"
     },
     {
       "bank": "台北富邦",
       "url": "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm?cardkind=mobile",
-      "candidates": 0,
+      "cached": true,
       "error": "SSLError"
     },
     {
       "bank": "台北富邦",
       "url": "https://www.fubon.com/banking/personal/credit_card/all_card/imperial/imperial.htm",
-      "candidates": 0,
+      "cached": true,
       "error": "SSLError"
     },
     {
       "bank": "台北富邦",
       "url": "https://www.fubon.com/banking/personal/credit_card/all_card/omiyage/omiyage.htm",
-      "candidates": 0,
+      "cached": true,
       "error": "SSLError"
     },
     {
       "bank": "台北富邦",
       "url": "https://www.fubon.com/banking/personal/credit_card/all_card/insurance/insurance.htm",
-      "candidates": 0,
+      "cached": true,
+      "error": "SSLError"
+    },
+    {
+      "bank": "台北富邦",
+      "url": "https://www.fubon.com/banking/personal/credit_card/all_card/lifestyle/lifestyle.htm",
+      "cached": true,
+      "error": "SSLError"
+    },
+    {
+      "bank": "台北富邦",
+      "url": "https://www.fubon.com/banking/personal/credit_card/all_card/Guardians_Braves/Guardians_Braves.htm",
+      "cached": true,
+      "error": "SSLError"
+    },
+    {
+      "bank": "台北富邦",
+      "url": "https://www.fubon.com/banking/personal/credit_card/all_card/momo/momo.htm",
+      "cached": true,
       "error": "SSLError"
     },
     {
       "bank": "台北富邦",
       "url": "https://www.fubon.com/banking/personal/credit_card/all_card/openpossible/openpossible.htm",
-      "candidates": 0,
+      "cached": true,
       "error": "SSLError"
     },
     {
       "bank": "台新銀行",
       "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg021/card001/",
-      "candidates": 0,
-      "error": "SSLError"
-    },
-    {
-      "bank": "台新銀行",
-      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg010/card001/",
-      "candidates": 0,
-      "error": "SSLError"
-    },
-    {
-      "bank": "台新銀行",
-      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/parking/right0306/",
-      "candidates": 0,
-      "error": "SSLError"
-    },
-    {
-      "bank": "台新銀行",
-      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/road-rescue/right0401/",
-      "candidates": 0,
-      "error": "SSLError"
-    },
-    {
-      "bank": "台新銀行",
-      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/favorable/right0502/",
-      "candidates": 0,
+      "cached": true,
       "error": "SSLError"
     },
     {
       "bank": "台新銀行",
       "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/",
-      "candidates": 0,
+      "cached": true,
       "error": "SSLError"
     },
     {
       "bank": "台新銀行",
-      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/insurance/right0205/",
-      "candidates": 0,
+      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg010/card001/",
+      "cached": true,
+      "error": "SSLError"
+    },
+    {
+      "bank": "台新銀行",
+      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/parking/right0306/",
+      "cached": true,
+      "error": "SSLError"
+    },
+    {
+      "bank": "台新銀行",
+      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/road-rescue/right0401/",
+      "cached": true,
+      "error": "SSLError"
+    },
+    {
+      "bank": "台新銀行",
+      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/favorable/right0502/",
+      "cached": true,
       "error": "SSLError"
     },
     {
       "bank": "台新銀行",
       "url": "https://www.taishinbank.com.tw/TSB/personal/credit/",
-      "candidates": 0,
+      "cached": true,
       "error": "SSLError"
     },
     {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/twrbo/zh_tw/cc_index/cc_product/cc_introduction_index.html",
-      "candidates": 0,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/index.html",
-      "candidates": 11,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/gifts.html",
-      "candidates": 46,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_food.html",
-      "candidates": 66,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_pet.html",
-      "candidates": 68,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_shopping.html",
-      "candidates": 83,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
-      "candidates": 95,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_fashion.html",
-      "candidates": 90,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_travel.html",
-      "candidates": 98,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/store.html",
-      "candidates": 12,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html",
-      "candidates": 6,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/default.page",
-      "candidates": 12,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
-      "candidates": 29,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
-      "candidates": 58,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-personal-card-carousel-ATL",
-      "candidates": 8,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/index.html?pid=tw-personal-card-carousel-ACQ",
-      "candidates": 23,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel",
-      "candidates": 10,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
-      "candidates": 29,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
-      "candidates": 58,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/index.html?pid=tw-pweb-personal-card-featured_cardtile-ACQ",
-      "candidates": 23,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/offers/vsoffer/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-vsoffer",
-      "candidates": 0,
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "cached": true,
       "error": ""
     },
     {
       "bank": "樂天信用卡",
       "url": "https://www.card.rakuten.com.tw/",
-      "candidates": 6,
-      "error": ""
-    },
-    {
-      "bank": "樂天信用卡",
-      "url": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2304",
-      "candidates": 19,
-      "error": ""
-    },
-    {
-      "bank": "樂天信用卡",
-      "url": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2435",
-      "candidates": 9,
-      "error": ""
-    },
-    {
-      "bank": "樂天信用卡",
-      "url": "https://www.card.rakuten.com.tw/corp/product/",
-      "candidates": 25,
-      "error": ""
-    },
-    {
-      "bank": "樂天信用卡",
-      "url": "https://www.card.rakuten.com.tw/corp/campaign/",
-      "candidates": 85,
-      "error": ""
-    },
-    {
-      "bank": "樂天信用卡",
-      "url": "https://www.card.rakuten.com.tw/corp/japan-benefit/",
-      "candidates": 2,
-      "error": ""
-    },
-    {
-      "bank": "樂天信用卡",
-      "url": "https://www.card.rakuten.com.tw/corp/merchant-installment/",
-      "candidates": 2,
-      "error": ""
-    },
-    {
-      "bank": "樂天信用卡",
-      "url": "https://www.card.rakuten.com.tw/corp/product/insurance.xhtml",
-      "candidates": 8,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "樂天信用卡",
       "url": "https://www.card.rakuten.com.tw/corp/ads/11.xhtml",
-      "candidates": 8,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "樂天信用卡",
       "url": "https://www.card.rakuten.com.tw/corp/ads/04.xhtml",
-      "candidates": 16,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "樂天信用卡",
       "url": "https://www.card.rakuten.com.tw/corp/ads/09.xhtml",
-      "candidates": 19,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "樂天信用卡",
       "url": "https://www.card.rakuten.com.tw/corp/ads/16.xhtml",
-      "candidates": 21,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "樂天信用卡",
-      "url": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2479&l-id=corp_pc_top_cpn2479",
-      "candidates": 11,
+      "url": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2435",
+      "cached": true,
       "error": ""
     },
     {
       "bank": "樂天信用卡",
-      "url": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2476&l-id=corp_pc_top_cpn2476",
-      "candidates": 12,
+      "url": "https://www.card.rakuten.com.tw/corp/product/",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "樂天信用卡",
+      "url": "https://www.card.rakuten.com.tw/corp/campaign/",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "樂天信用卡",
+      "url": "https://www.card.rakuten.com.tw/corp/japan-benefit/",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "樂天信用卡",
+      "url": "https://www.card.rakuten.com.tw/corp/merchant-installment/",
+      "cached": true,
       "error": ""
     },
     {
       "bank": "樂天信用卡",
       "url": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2462&l-id=corp_pc_top_cpn2462",
-      "candidates": 5,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "樂天信用卡",
       "url": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2461&l-id=corp_pc_top_cpn2461",
-      "candidates": 8,
-      "error": ""
-    },
-    {
-      "bank": "樂天信用卡",
-      "url": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2454&l-id=corp_pc_top_cpn2454",
-      "candidates": 13,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "樂天信用卡",
       "url": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2435&l-id=corp_pc_top_cpn2435",
-      "candidates": 9,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "樂天信用卡",
       "url": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2474&l-id=corp_pc_top_cpn2474",
-      "candidates": 4,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "樂天信用卡",
       "url": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2426&l-id=corp_pc_top_cpn2426",
-      "candidates": 3,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "樂天信用卡",
       "url": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2453&l-id=corp_pc_top_cpn2453",
-      "candidates": 13,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "樂天信用卡",
       "url": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2216&l-id=corp_pc_top_cpn2216",
-      "candidates": 4,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "台中銀行",
       "url": "https://www.tcbbank.com.tw/",
-      "candidates": 0,
+      "cached": true,
       "error": "ConnectionError"
     },
     {
       "bank": "台中銀行",
       "url": "https://www.tcbbank.com.tw/CreditCard/J_Credit_World/index.html",
-      "candidates": 0,
+      "cached": true,
       "error": "ConnectionError"
     },
     {
       "bank": "滙豐銀行",
       "url": "https://www.hsbc.com.tw/credit-cards/",
-      "candidates": 2,
-      "error": ""
-    },
-    {
-      "bank": "滙豐銀行",
-      "url": "https://www.hsbc.com.tw/credit-cards/products/travel/visa-infinite/",
-      "candidates": 23,
-      "error": ""
-    },
-    {
-      "bank": "滙豐銀行",
-      "url": "https://www.hsbc.com.tw/credit-cards/products/travelone-signature/",
-      "candidates": 8,
-      "error": ""
-    },
-    {
-      "bank": "滙豐銀行",
-      "url": "https://www.hsbc.com.tw/credit-cards/products/travelone/",
-      "candidates": 5,
-      "error": ""
-    },
-    {
-      "bank": "滙豐銀行",
-      "url": "https://www.hsbc.com.tw/credit-cards/benefits/airport-transfer/",
-      "candidates": 3,
-      "error": ""
-    },
-    {
-      "bank": "滙豐銀行",
-      "url": "https://www.hsbc.com.tw/credit-cards/benefits/",
-      "candidates": 8,
-      "error": ""
-    },
-    {
-      "bank": "滙豐銀行",
-      "url": "https://www.hsbc.com.tw/credit-cards/benefits/travel-insurance/",
-      "candidates": 3,
-      "error": ""
-    },
-    {
-      "bank": "滙豐銀行",
-      "url": "https://www.hsbc.com.tw/credit-cards/benefits/airport-parking/",
-      "candidates": 3,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "滙豐銀行",
       "url": "https://www.hsbc.com.tw/en-tw/credit-cards/",
-      "candidates": 2,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "滙豐銀行",
-      "url": "https://www.hsbc.com.tw/credit-cards/products/premier/",
-      "candidates": 2,
+      "url": "https://www.hsbc.com.tw/credit-cards/products/travel/visa-infinite/",
+      "cached": true,
       "error": ""
     },
     {
       "bank": "滙豐銀行",
-      "url": "https://www.hsbc.com.tw/credit-cards/products/liveplus/",
-      "candidates": 2,
-      "error": ""
-    },
-    {
-      "bank": "滙豐銀行",
-      "url": "https://www.hsbc.com.tw/credit-cards/products/cashback-titanium/",
-      "candidates": 13,
+      "url": "https://www.hsbc.com.tw/credit-cards/products/travelone-signature/",
+      "cached": true,
       "error": ""
     },
     {
       "bank": "滙豐銀行",
       "url": "https://www.hsbc.com.tw/credit-cards/products/cashback-signature/",
-      "candidates": 14,
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "滙豐銀行",
+      "url": "https://www.hsbc.com.tw/credit-cards/products/premier/",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "滙豐銀行",
+      "url": "https://www.hsbc.com.tw/credit-cards/products/travelone/",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "滙豐銀行",
+      "url": "https://www.hsbc.com.tw/credit-cards/products/liveplus/",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "滙豐銀行",
+      "url": "https://www.hsbc.com.tw/credit-cards/products/cashback-titanium/",
+      "cached": true,
       "error": ""
     },
     {
       "bank": "渣打銀行",
       "url": "https://www.sc.com/tw/credit-cards/",
-      "candidates": 24,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "元大銀行",
       "url": "https://www.yuantabank.com.tw/bank-web/personal/credit-card/",
-      "candidates": 0,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "華南銀行",
       "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
-      "candidates": 0,
+      "cached": true,
       "error": "SSLError"
     },
     {
       "bank": "彰化銀行",
       "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33",
-      "candidates": 21,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "兆豐銀行",
       "url": "https://www.megabank.com.tw/personal/credit-card",
-      "candidates": 47,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "合作金庫",
       "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
-      "candidates": 25,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "遠東商銀",
       "url": "https://www.feib.com.tw/",
-      "candidates": 0,
+      "cached": true,
       "error": "SSLError"
     },
     {
       "bank": "安泰銀行",
       "url": "https://www.entiebank.com.tw/",
-      "candidates": 0,
+      "cached": true,
       "error": "SSLError"
     },
     {
       "bank": "王道銀行",
       "url": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
-      "candidates": 11,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "將來銀行",
       "url": "https://www.nextbank.com.tw/product/card",
-      "candidates": 0,
+      "cached": true,
       "error": "SSLError"
     },
     {
       "bank": "LINE Bank",
       "url": "https://www.linebank.com.tw/",
-      "candidates": 0,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "樂天國際商業銀行",
       "url": "https://www.rakuten-bank.com.tw/",
-      "candidates": 0,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "美國運通",
       "url": "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/",
-      "candidates": 21,
+      "cached": true,
       "error": ""
     },
     {
       "bank": "臺灣土地銀行",
       "url": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1",
+      "cached": true,
+      "error": "SSLError"
+    },
+    {
+      "bank": "永豐銀行",
+      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/right/master-world-business.html",
+      "candidates": 0,
+      "error": ""
+    },
+    {
+      "bank": "永豐銀行",
+      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/manage/billpay-staging.html",
+      "candidates": 0,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+      "candidates": 26,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/en/personal/credit-card/intro",
+      "candidates": 17,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card",
+      "candidates": 20,
+      "error": ""
+    },
+    {
+      "bank": "台北富邦",
+      "url": "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm",
       "candidates": 0,
       "error": "SSLError"
+    },
+    {
+      "bank": "樂天信用卡",
+      "url": "https://www.card.rakuten.com.tw/corp/campaign/rakuten.xhtml",
+      "candidates": 21,
+      "error": ""
+    },
+    {
+      "bank": "滙豐銀行",
+      "url": "https://www.hsbc.com.tw/credit-cards/compare/",
+      "candidates": 2,
+      "error": ""
+    },
+    {
+      "bank": "滙豐銀行",
+      "url": "https://www.hsbc.com.tw/credit-cards/offers/acquisition-gift/terms-and-conditions/",
+      "candidates": 2,
+      "error": ""
+    },
+    {
+      "bank": "滙豐銀行",
+      "url": "https://www.hsbc.com.tw/credit-cards/benefits/travel-secretary/",
+      "candidates": 3,
+      "error": ""
+    },
+    {
+      "bank": "滙豐銀行",
+      "url": "https://www.hsbc.com.tw/en-tw/credit-cards/products/travelone-signature/",
+      "candidates": 5,
+      "error": ""
     }
   ]
 }

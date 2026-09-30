@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T18:05:31.617691Z",
+  "generatedAt": "2026-09-29T22:18:29.641629Z",
   "banks": [
     {
       "bank": "星展銀行",
@@ -11,98 +11,98 @@
           "parent": null,
           "depth": 0,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/cards/offers/default.page",
           "parent": null,
           "depth": 0,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/sites/i-bank-zh/searchresults.page?q=%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%B4%BB%E5%8B%95%E7%99%BB%E9%8C%84",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/sites/i-bank-zh/searchresults.page?q=%E4%BF%A1%E7%94%A8%E5%8D%A1%E9%96%8B%E5%8D%A1",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/sites/i-bank-zh/searchresults.page?q=%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%8D%A8%E4%BA%AB%E5%84%AA%E6%83%A0",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/sites/i-bank-zh/searchresults.page?q=%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%AC%8A%E7%9B%8A",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/digital-service/cardplus/default.page?pid=tw-pweb-personal_zh-digitalservice-header",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/cards/default.page?pid=tw-pweb-personal_zh-cards-header",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-cards-benefits/default.page?pid=tw-pweb-personal_zh-cards-header",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/cards/rewards/default.page?pid=tw-pweb-personal_zh-cards-header",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/cards/services/default.page?pid=tw-pweb-personal_zh-cards-header",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/cards/credit-card-management/default.page?pid=tw-pweb-personal_zh-cards-header",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-personal-card-carousel-ATL",
@@ -165,49 +165,49 @@
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-cards-benefits/default.page",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/cards/rewards/default.page",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/cards/services/default.page",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/cards/credit-card-management/default.page",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/cards/digital-service/default.page",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/index.html?pid=tw-pweb-personal-card-featured_cardtile-ACQ",
@@ -270,21 +270,21 @@
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "unchanged_static_hash"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/LostCard_disclaimer.page",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal/cards/default.page",
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "unchanged_static_hash"
         }
       ],
       "unvisited": [
@@ -1409,16 +1409,40 @@
           "parent": "https://www.dbs.com.tw/personal/cards/default.page"
         }
       ],
-      "startedAt": "2026-09-26T18:05:28.933350Z",
-      "completedAt": "2026-09-26T18:05:30.850259Z"
+      "startedAt": "2026-09-29T22:09:52.041250Z",
+      "completedAt": "2026-09-29T22:18:28.876055Z"
+    },
+    {
+      "bank": "LINE Bank",
+      "sourceType": "CARD",
+      "status": "needs_review",
+      "pages": [
+        {
+          "url": "https://www.linebank.com.tw/",
+          "parent": null,
+          "depth": 0,
+          "renderer": "playwright",
+          "status": "insufficient_content"
+        },
+        {
+          "url": "https://www.linebank.com.tw/notice/events",
+          "parent": "https://www.linebank.com.tw/",
+          "depth": 1,
+          "renderer": "playwright",
+          "status": "insufficient_content"
+        }
+      ],
+      "unvisited": [],
+      "startedAt": "2026-09-29T22:09:52.041718Z",
+      "completedAt": "2026-09-29T22:09:58.916486Z"
     }
   ],
   "summary": {
-    "banks": 1,
-    "needsReview": 1,
-    "aiRequests": 9,
+    "banks": 2,
+    "needsReview": 2,
+    "aiRequests": 81,
     "status": "completed",
     "aiFailedPages": 0,
-    "datasetChanged": false
+    "datasetChanged": true
   }
 }
