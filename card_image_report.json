@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T13:43:48.584152+00:00",
+  "generatedAt": "2026-09-30T22:11:18.289967+00:00",
   "added": [],
   "withImage": 225,
   "missing": [
@@ -2390,13 +2390,13 @@
     },
     {
       "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/index.html?pid=tw-pweb-personal-card-featured_cardtile-ACQ",
       "cached": true,
       "error": ""
     },
     {
       "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/index.html?pid=tw-pweb-personal-card-featured_cardtile-ACQ",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
       "cached": true,
       "error": ""
     },
@@ -2558,6 +2558,24 @@
     },
     {
       "bank": "滙豐銀行",
+      "url": "https://www.hsbc.com.tw/en-tw/credit-cards/products/travel/",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "滙豐銀行",
+      "url": "https://www.hsbc.com.tw/en-tw/credit-cards/products/travelone/",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "滙豐銀行",
+      "url": "https://www.hsbc.com.tw/en-tw/credit-cards/products/liveplus/",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "滙豐銀行",
       "url": "https://www.hsbc.com.tw/credit-cards/products/premier/",
       "cached": true,
       "error": ""
@@ -2675,24 +2693,6 @@
       "url": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1",
       "cached": true,
       "error": "SSLError"
-    },
-    {
-      "bank": "滙豐銀行",
-      "url": "https://www.hsbc.com.tw/en-tw/credit-cards/products/travel/",
-      "candidates": 4,
-      "error": ""
-    },
-    {
-      "bank": "滙豐銀行",
-      "url": "https://www.hsbc.com.tw/en-tw/credit-cards/products/travelone/",
-      "candidates": 5,
-      "error": ""
-    },
-    {
-      "bank": "滙豐銀行",
-      "url": "https://www.hsbc.com.tw/en-tw/credit-cards/products/liveplus/",
-      "candidates": 2,
-      "error": ""
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-09-30T13:43:46.571544+00:00",
+  "generatedAt": "2026-09-30T22:11:18.062851+00:00",
   "targetAccuracy": 0.98,
   "measuredAccuracy": null,
   "coveragePercent": null,
   "acceptanceStatus": "NOT_ESTABLISHED",
   "reason": "需要獨立官方基準清單及逐欄核對；結構通過率、測試通過率都不是優惠準確率。",
-  "totalRules": 1737,
+  "totalRules": 1738,
   "issueCounts": {
     "UNRESOLVED_CARD_ASSOCIATION": 475,
     "MISSING_OR_UNSAFE_SOURCE": 253,
-    "MISSING_CAMPAIGN_END": 801,
+    "MISSING_CAMPAIGN_END": 802,
     "UNKNOWN_CALCULATION": 519,
-    "NO_INDEPENDENT_TERM_REVIEW": 1734,
-    "UNSTRUCTURED_REGISTRATION_WINDOW": 274,
+    "NO_INDEPENDENT_TERM_REVIEW": 1735,
+    "UNSTRUCTURED_REGISTRATION_WINDOW": 275,
     "UNKNOWN_CAP_SCOPE": 979,
-    "MAXIMUM_ONLY": 188
+    "MAXIMUM_ONLY": 187
   },
   "rules": [
     {
@@ -15320,74 +15320,6 @@
       ]
     },
     {
-      "id": "rule_f915b7f30a4e16ee8e0f",
-      "bank": "星展銀行",
-      "title": "國內／外一般消費 最高1%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_a8c98546d95b4fb4cd1b",
-      "bank": "星展銀行",
-      "title": "生活玩家精選通路 最高10%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_1cba2646deccf894f985",
-      "bank": "星展銀行",
-      "title": "日韓泰／新美歐 最高5%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_e6d4652bf2c326aef106",
-      "bank": "星展銀行",
-      "title": "國內／國外一般消費享1%現金積點回饋無上限",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_c3e63a30939121d5fb26",
-      "bank": "星展銀行",
-      "title": "日本／韓國／泰國／新加坡／美洲／歐洲地區 享加碼最高5%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_3e7103ec654880a246dd",
-      "bank": "星展銀行",
-      "title": "Tesla充電資費／Gogoro電池資費／星展支持的社會企業及中小企業 eco消費最高10%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_489384bfd05f156d1bf0",
-      "bank": "星展銀行",
-      "title": "PChome內消費筆筆最高6%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_f6d115071b2672452e2c",
       "bank": "樂天信用卡",
       "title": "線上投保明台產險旅遊險享最高2%刷卡金回饋",
@@ -17393,6 +17325,83 @@
       "bank": "悠遊付",
       "title": "基北北桃我的減碳存摺2.0步行減碳換平安金",
       "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_9ee99036d35d48194ac4",
+      "bank": "星展銀行",
+      "title": "星願集刷 回饋升級",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_8db706d921c0f7bca0aa",
+      "bank": "星展銀行",
+      "title": "海外餐飲最高10%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_be58ae378679286e3dae",
+      "bank": "星展銀行",
+      "title": "聚餐用星刷最高12%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_fa2e562ff423c0d1f8fc",
+      "bank": "星展銀行",
+      "title": "百貨週年慶最高10%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_faf6353008d18858839f",
+      "bank": "星展銀行",
+      "title": "新戶申辦享Butterbear首刷好禮三選一",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f915b7f30a4e16ee8e0f",
+      "bank": "星展銀行",
+      "title": "國內／外一般消費 最高1%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_e6d4652bf2c326aef106",
+      "bank": "星展銀行",
+      "title": "國內／國外一般消費享1%現金積點回饋無上限",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_197d5f73bf7fa82d0972",
+      "bank": "星展銀行",
+      "title": "國外消費 2.5%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     }
