@@ -10,60 +10,19 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://raw.githubusercontent.com; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests" />
   <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=(), usb=()" />
   <title>卡奴 - 信用卡回饋・消費查詢・記錄</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@600;700;800;900&family=Zen+Maru+Gothic:wght@700;900&display=swap" rel="stylesheet">
 
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            ghibliSky: {
-              100: '#eef6fc',
-              200: '#cce6f8',
-              300: '#a3d3f2',
-              400: '#7bc0ea'
-            },
-            ghibliCream: {
-              50: '#fdfcf9',
-              100: '#faf5eb',
-              200: '#f4ebd8',
-              300: '#ebdcc0',
-            },
-            ghibliInk: {
-              900: '#231c15',
-              800: '#2a3642',
-              700: '#344352',
-              600: '#56687a',
-            },
-            ghibliGold: {
-              300: '#fad668',
-              400: '#f4b83f',
-              500: '#df9e24',
-              600: '#b87913',
-            },
-            ghibliGreen: {
-              100: '#e7f3e8',
-              200: '#c8e5cb',
-              500: '#397843',
-              600: '#265730',
-            }
-          },
-          fontFamily: {
-            sans: ['"Noto Sans TC"', '"Zen Maru Gothic"', 'sans-serif']
-          }
-        }
-      }
-    }
-  </script>
 
+
+  <style id="compiled-utilities">*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:Noto Sans TC,Zen Maru Gothic,sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.\!container{width:100%!important}.container{width:100%}@media (min-width:640px){.\!container{max-width:640px!important}.container{max-width:640px}}@media (min-width:768px){.\!container{max-width:768px!important}.container{max-width:768px}}@media (min-width:1024px){.\!container{max-width:1024px!important}.container{max-width:1024px}}@media (min-width:1280px){.\!container{max-width:1280px!important}.container{max-width:1280px}}@media (min-width:1536px){.\!container{max-width:1536px!important}.container{max-width:1536px}}.pointer-events-none{pointer-events:none}.visible{visibility:visible}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0}.left-1\/2{left:50%}.left-3\.5{left:.875rem}.right-0{right:0}.right-2\.5{right:.625rem}.top-10{top:2.5rem}.top-14{top:3.5rem}.top-2\.5{top:.625rem}.z-0{z-index:0}.z-20{z-index:20}.z-30{z-index:30}.z-50{z-index:50}.z-\[60\]{z-index:60}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:.25rem}.mb-1\.5{margin-bottom:.375rem}.mb-2{margin-bottom:.5rem}.ml-auto{margin-left:auto}.mt-0\.5{margin-top:.125rem}.mt-1{margin-top:.25rem}.mt-1\.5{margin-top:.375rem}.mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.inline{display:inline}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-2\.5{height:.625rem}.h-3{height:.75rem}.h-4{height:1rem}.h-6{height:1.5rem}.h-7{height:1.75rem}.h-8{height:2rem}.h-9{height:2.25rem}.h-\[100dvh\]{height:100dvh}.h-\[18px\]{height:18px}.h-\[60px\]{height:60px}.h-\[82dvh\]{height:82dvh}.h-full{height:100%}.max-h-40{max-height:10rem}.max-h-\[85dvh\]{max-height:85dvh}.min-h-\[92px\]{min-height:92px}.min-h-screen{min-height:100vh}.w-10{width:2.5rem}.w-2\.5{width:.625rem}.w-20{width:5rem}.w-32{width:8rem}.w-4{width:1rem}.w-6{width:1.5rem}.w-7{width:1.75rem}.w-8{width:2rem}.w-9{width:2.25rem}.w-\[18px\]{width:18px}.w-\[96px\]{width:96px}.w-full{width:100%}.min-w-0{min-width:0}.max-w-\[340px\]{max-width:340px}.max-w-\[360px\]{max-width:360px}.max-w-\[380px\]{max-width:380px}.max-w-\[420px\]{max-width:420px}.flex-1{flex:1 1 0%}.flex-shrink-0{flex-shrink:0}.-translate-x-1\/2{--tw-translate-x:-50%}.-translate-x-1\/2,.-translate-y-2{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-y-2{--tw-translate-y:-0.5rem}.translate-y-0{--tw-translate-y:0px}.transform,.translate-y-0{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.select-none{-webkit-user-select:none;-moz-user-select:none;user-select:none}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-around{justify-content:space-around}.gap-1{gap:.25rem}.gap-1\.5{gap:.375rem}.gap-2{gap:.5rem}.gap-2\.5{gap:.625rem}.gap-3{gap:.75rem}.-space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(-.25rem*var(--tw-space-x-reverse));margin-left:calc(-.25rem*(1 - var(--tw-space-x-reverse)))}.space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.25rem*var(--tw-space-x-reverse));margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)))}.space-x-1\.5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.375rem*var(--tw-space-x-reverse));margin-left:calc(.375rem*(1 - var(--tw-space-x-reverse)))}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.5rem*var(--tw-space-x-reverse));margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)))}.space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.75rem*var(--tw-space-x-reverse));margin-left:calc(.75rem*(1 - var(--tw-space-x-reverse)))}.space-y-0\.5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.125rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.125rem*var(--tw-space-y-reverse))}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.25rem*var(--tw-space-y-reverse))}.space-y-1\.5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.375rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.375rem*var(--tw-space-y-reverse))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem*var(--tw-space-y-reverse))}.space-y-2\.5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.625rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.625rem*var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem*var(--tw-space-y-reverse))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem*var(--tw-space-y-reverse))}.self-center{align-self:center}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.whitespace-normal{white-space:normal}.rounded{border-radius:.25rem}.rounded-2xl{border-radius:1rem}.rounded-\[18px\]{border-radius:18px}.rounded-\[20px\]{border-radius:20px}.rounded-\[22px\]{border-radius:22px}.rounded-\[26px\]{border-radius:26px}.rounded-\[28px\]{border-radius:28px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-md{border-radius:.375rem}.rounded-none{border-radius:0}.rounded-sm{border-radius:.125rem}.rounded-xl{border-radius:.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-\[\#55bdb4\]{--tw-border-opacity:1;border-color:rgb(85 189 180/var(--tw-border-opacity,1))}.border-\[\#bfe5df\]{--tw-border-opacity:1;border-color:rgb(191 229 223/var(--tw-border-opacity,1))}.border-\[\#ccece7\]{--tw-border-opacity:1;border-color:rgb(204 236 231/var(--tw-border-opacity,1))}.border-\[\#cfded9\]{--tw-border-opacity:1;border-color:rgb(207 222 217/var(--tw-border-opacity,1))}.border-\[\#d5e5e1\]{--tw-border-opacity:1;border-color:rgb(213 229 225/var(--tw-border-opacity,1))}.border-\[\#dce5e2\]{--tw-border-opacity:1;border-color:rgb(220 229 226/var(--tw-border-opacity,1))}.border-\[\#dce6e3\]{--tw-border-opacity:1;border-color:rgb(220 230 227/var(--tw-border-opacity,1))}.border-\[\#dce9e6\]{--tw-border-opacity:1;border-color:rgb(220 233 230/var(--tw-border-opacity,1))}.border-\[\#dde5e2\]{--tw-border-opacity:1;border-color:rgb(221 229 226/var(--tw-border-opacity,1))}.border-\[\#deebe8\]{--tw-border-opacity:1;border-color:rgb(222 235 232/var(--tw-border-opacity,1))}.border-\[\#dfe8e5\]{--tw-border-opacity:1;border-color:rgb(223 232 229/var(--tw-border-opacity,1))}.border-\[\#e2ebe8\]{--tw-border-opacity:1;border-color:rgb(226 235 232/var(--tw-border-opacity,1))}.border-\[\#e3ebe8\]{--tw-border-opacity:1;border-color:rgb(227 235 232/var(--tw-border-opacity,1))}.border-\[\#e4d7c3\]{--tw-border-opacity:1;border-color:rgb(228 215 195/var(--tw-border-opacity,1))}.border-\[\#e4d8c5\]{--tw-border-opacity:1;border-color:rgb(228 216 197/var(--tw-border-opacity,1))}.border-\[\#e4e8e7\]{--tw-border-opacity:1;border-color:rgb(228 232 231/var(--tw-border-opacity,1))}.border-\[\#e4ecea\]{--tw-border-opacity:1;border-color:rgb(228 236 234/var(--tw-border-opacity,1))}.border-\[\#e5eae8\]{--tw-border-opacity:1;border-color:rgb(229 234 232/var(--tw-border-opacity,1))}.border-\[\#e5ecea\]{--tw-border-opacity:1;border-color:rgb(229 236 234/var(--tw-border-opacity,1))}.border-\[\#e7eeec\]{--tw-border-opacity:1;border-color:rgb(231 238 236/var(--tw-border-opacity,1))}.border-\[\#e8dcc8\]{--tw-border-opacity:1;border-color:rgb(232 220 200/var(--tw-border-opacity,1))}.border-\[\#eaded4\]{--tw-border-opacity:1;border-color:rgb(234 222 212/var(--tw-border-opacity,1))}.border-\[\#ecd8be\]{--tw-border-opacity:1;border-color:rgb(236 216 190/var(--tw-border-opacity,1))}.border-\[\#ecdac2\]{--tw-border-opacity:1;border-color:rgb(236 218 194/var(--tw-border-opacity,1))}.border-\[\#eddcc5\]{--tw-border-opacity:1;border-color:rgb(237 220 197/var(--tw-border-opacity,1))}.border-\[\#eee1ce\]{--tw-border-opacity:1;border-color:rgb(238 225 206/var(--tw-border-opacity,1))}.border-\[\#f0d9d5\]{--tw-border-opacity:1;border-color:rgb(240 217 213/var(--tw-border-opacity,1))}.border-\[\#f0deb8\]{--tw-border-opacity:1;border-color:rgb(240 222 184/var(--tw-border-opacity,1))}.border-\[\#f1d9d1\]{--tw-border-opacity:1;border-color:rgb(241 217 209/var(--tw-border-opacity,1))}.border-\[\#f2e8da\]{--tw-border-opacity:1;border-color:rgb(242 232 218/var(--tw-border-opacity,1))}.border-\[\#f4e9db\]{--tw-border-opacity:1;border-color:rgb(244 233 219/var(--tw-border-opacity,1))}.border-\[\#f4eadb\]{--tw-border-opacity:1;border-color:rgb(244 234 219/var(--tw-border-opacity,1))}.border-amber-100\/70{border-color:hsla(48,96%,89%,.7)}.border-amber-200{--tw-border-opacity:1;border-color:rgb(253 230 138/var(--tw-border-opacity,1))}.border-amber-200\/60{border-color:hsla(48,97%,77%,.6)}.border-amber-200\/80{border-color:hsla(48,97%,77%,.8)}.border-emerald-300\/30{border-color:rgba(110,231,183,.3)}.border-ghibliGreen-200{--tw-border-opacity:1;border-color:rgb(200 229 203/var(--tw-border-opacity,1))}.border-ghibliSky-300{--tw-border-opacity:1;border-color:rgb(163 211 242/var(--tw-border-opacity,1))}.border-white\/60{border-color:hsla(0,0%,100%,.6)}.bg-\[\#55bdb4\]{--tw-bg-opacity:1;background-color:rgb(85 189 180/var(--tw-bg-opacity,1))}.bg-\[\#dff7f2\]{--tw-bg-opacity:1;background-color:rgb(223 247 242/var(--tw-bg-opacity,1))}.bg-\[\#e9f8f5\]{--tw-bg-opacity:1;background-color:rgb(233 248 245/var(--tw-bg-opacity,1))}.bg-\[\#eee4d4\]{--tw-bg-opacity:1;background-color:rgb(238 228 212/var(--tw-bg-opacity,1))}.bg-\[\#eef3f1\]{--tw-bg-opacity:1;background-color:rgb(238 243 241/var(--tw-bg-opacity,1))}.bg-\[\#eef8f5\]{--tw-bg-opacity:1;background-color:rgb(238 248 245/var(--tw-bg-opacity,1))}.bg-\[\#f0f6f4\]{--tw-bg-opacity:1;background-color:rgb(240 246 244/var(--tw-bg-opacity,1))}.bg-\[\#f0faf8\]{--tw-bg-opacity:1;background-color:rgb(240 250 248/var(--tw-bg-opacity,1))}.bg-\[\#f0fbf9\]{--tw-bg-opacity:1;background-color:rgb(240 251 249/var(--tw-bg-opacity,1))}.bg-\[\#f1f4f3\]{--tw-bg-opacity:1;background-color:rgb(241 244 243/var(--tw-bg-opacity,1))}.bg-\[\#f4f6f5\]{--tw-bg-opacity:1;background-color:rgb(244 246 245/var(--tw-bg-opacity,1))}.bg-\[\#f5faf9\]{--tw-bg-opacity:1;background-color:rgb(245 250 249/var(--tw-bg-opacity,1))}.bg-\[\#f7f9f8\]{--tw-bg-opacity:1;background-color:rgb(247 249 248/var(--tw-bg-opacity,1))}.bg-\[\#f7faf9\]{--tw-bg-opacity:1;background-color:rgb(247 250 249/var(--tw-bg-opacity,1))}.bg-\[\#f7fbfa\]{--tw-bg-opacity:1;background-color:rgb(247 251 250/var(--tw-bg-opacity,1))}.bg-\[\#f8f3e9\]{--tw-bg-opacity:1;background-color:rgb(248 243 233/var(--tw-bg-opacity,1))}.bg-\[\#f8faf9\]{--tw-bg-opacity:1;background-color:rgb(248 250 249/var(--tw-bg-opacity,1))}.bg-\[\#f8fbfa\]{--tw-bg-opacity:1;background-color:rgb(248 251 250/var(--tw-bg-opacity,1))}.bg-\[\#faf5eb\]{--tw-bg-opacity:1;background-color:rgb(250 245 235/var(--tw-bg-opacity,1))}.bg-\[\#faf6ee\]{--tw-bg-opacity:1;background-color:rgb(250 246 238/var(--tw-bg-opacity,1))}.bg-\[\#fbf2e0\]{--tw-bg-opacity:1;background-color:rgb(251 242 224/var(--tw-bg-opacity,1))}.bg-\[\#fff1ef\]{--tw-bg-opacity:1;background-color:rgb(255 241 239/var(--tw-bg-opacity,1))}.bg-\[\#fff7ed\]{--tw-bg-opacity:1;background-color:rgb(255 247 237/var(--tw-bg-opacity,1))}.bg-\[\#fff8f5\]{--tw-bg-opacity:1;background-color:rgb(255 248 245/var(--tw-bg-opacity,1))}.bg-\[\#fff8f6\]{--tw-bg-opacity:1;background-color:rgb(255 248 246/var(--tw-bg-opacity,1))}.bg-\[\#fff9eb\]{--tw-bg-opacity:1;background-color:rgb(255 249 235/var(--tw-bg-opacity,1))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199/var(--tw-bg-opacity,1))}.bg-amber-400\/90{background-color:rgba(251,191,36,.9)}.bg-amber-50{--tw-bg-opacity:1;background-color:rgb(255 251 235/var(--tw-bg-opacity,1))}.bg-amber-50\/80{background-color:rgba(255,251,235,.8)}.bg-amber-50\/90{background-color:rgba(255,251,235,.9)}.bg-black\/45{background-color:rgba(0,0,0,.45)}.bg-black\/50{background-color:rgba(0,0,0,.5)}.bg-emerald-400\/10{background-color:rgba(52,211,153,.1)}.bg-emerald-50{--tw-bg-opacity:1;background-color:rgb(236 253 245/var(--tw-bg-opacity,1))}.bg-ghibliCream-100{--tw-bg-opacity:1;background-color:rgb(250 245 235/var(--tw-bg-opacity,1))}.bg-ghibliGold-400{--tw-bg-opacity:1;background-color:rgb(244 184 63/var(--tw-bg-opacity,1))}.bg-ghibliGreen-100{--tw-bg-opacity:1;background-color:rgb(231 243 232/var(--tw-bg-opacity,1))}.bg-ghibliSky-200{--tw-bg-opacity:1;background-color:rgb(204 230 248/var(--tw-bg-opacity,1))}.bg-red-500\/90{background-color:rgba(239,68,68,.9)}.bg-rose-50{--tw-bg-opacity:1;background-color:rgb(255 241 242/var(--tw-bg-opacity,1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity,1))}.bg-white\/70{background-color:hsla(0,0%,100%,.7)}.bg-white\/95{background-color:hsla(0,0%,100%,.95)}.object-contain{-o-object-fit:contain;object-fit:contain}.p-1{padding:.25rem}.p-1\.5{padding:.375rem}.p-2{padding:.5rem}.p-2\.5{padding:.625rem}.p-3{padding:.75rem}.p-3\.5{padding:.875rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.p-7{padding:1.75rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-1\.5{padding-left:.375rem;padding-right:.375rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-2\.5{padding-left:.625rem;padding-right:.625rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-1\.5{padding-top:.375rem;padding-bottom:.375rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-7{padding-top:1.75rem;padding-bottom:1.75rem}.pb-1\.5{padding-bottom:.375rem}.pb-2{padding-bottom:.5rem}.pb-3{padding-bottom:.75rem}.pb-4{padding-bottom:1rem}.pb-6{padding-bottom:1.5rem}.pl-9{padding-left:2.25rem}.pr-2{padding-right:.5rem}.pr-8{padding-right:2rem}.pt-0{padding-top:0}.pt-0\.5{padding-top:.125rem}.pt-1{padding-top:.25rem}.pt-1\.5{padding-top:.375rem}.pt-2{padding-top:.5rem}.text-center{text-align:center}.text-right{text-align:right}.text-2xl{font-size:1.5rem;line-height:2rem}.text-\[10\.5px\]{font-size:10.5px}.text-\[10px\]{font-size:10px}.text-\[11\.5px\]{font-size:11.5px}.text-\[11px\]{font-size:11px}.text-\[12px\]{font-size:12px}.text-\[14px\]{font-size:14px}.text-\[22px\]{font-size:22px}.text-\[6\.5px\]{font-size:6.5px}.text-\[9\.5px\]{font-size:9.5px}.text-\[9px\]{font-size:9px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-medium{font-weight:500}.leading-none{line-height:1}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-.025em}.text-\[\#25877f\]{--tw-text-opacity:1;color:rgb(37 135 127/var(--tw-text-opacity,1))}.text-\[\#276e68\]{--tw-text-opacity:1;color:rgb(39 110 104/var(--tw-text-opacity,1))}.text-\[\#2f9f96\]{--tw-text-opacity:1;color:rgb(47 159 150/var(--tw-text-opacity,1))}.text-\[\#58716b\]{--tw-text-opacity:1;color:rgb(88 113 107/var(--tw-text-opacity,1))}.text-\[\#667773\]{--tw-text-opacity:1;color:rgb(102 119 115/var(--tw-text-opacity,1))}.text-\[\#7e8a87\]{--tw-text-opacity:1;color:rgb(126 138 135/var(--tw-text-opacity,1))}.text-\[\#87938f\]{--tw-text-opacity:1;color:rgb(135 147 143/var(--tw-text-opacity,1))}.text-\[\#99a5a2\]{--tw-text-opacity:1;color:rgb(153 165 162/var(--tw-text-opacity,1))}.text-\[\#d95f59\]{--tw-text-opacity:1;color:rgb(217 95 89/var(--tw-text-opacity,1))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6/var(--tw-text-opacity,1))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9/var(--tw-text-opacity,1))}.text-amber-800{--tw-text-opacity:1;color:rgb(146 64 14/var(--tw-text-opacity,1))}.text-amber-900{--tw-text-opacity:1;color:rgb(120 53 15/var(--tw-text-opacity,1))}.text-emerald-200{--tw-text-opacity:1;color:rgb(167 243 208/var(--tw-text-opacity,1))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87/var(--tw-text-opacity,1))}.text-ghibliGold-500{--tw-text-opacity:1;color:rgb(223 158 36/var(--tw-text-opacity,1))}.text-ghibliGold-600{--tw-text-opacity:1;color:rgb(184 121 19/var(--tw-text-opacity,1))}.text-ghibliGreen-600{--tw-text-opacity:1;color:rgb(38 87 48/var(--tw-text-opacity,1))}.text-ghibliInk-600{--tw-text-opacity:1;color:rgb(86 104 122/var(--tw-text-opacity,1))}.text-ghibliInk-700{--tw-text-opacity:1;color:rgb(52 67 82/var(--tw-text-opacity,1))}.text-ghibliInk-800{--tw-text-opacity:1;color:rgb(42 54 66/var(--tw-text-opacity,1))}.text-rose-500{--tw-text-opacity:1;color:rgb(244 63 94/var(--tw-text-opacity,1))}.text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72/var(--tw-text-opacity,1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.underline{text-decoration-line:underline}.opacity-0{opacity:0}.opacity-100{opacity:1}.opacity-60{opacity:.6}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgba(0,0,0,.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color)}.shadow-2xl,.shadow-lg{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgba(0,0,0,.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.outline{outline-style:solid}.blur{--tw-blur:blur(8px)}.blur,.drop-shadow{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow{--tw-drop-shadow:drop-shadow(0 1px 2px rgba(0,0,0,.1)) drop-shadow(0 1px 1px rgba(0,0,0,.06))}.grayscale{--tw-grayscale:grayscale(100%)}.filter,.grayscale{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-filter{-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-200{transition-duration:.2s}.duration-300{transition-duration:.3s}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.hover\:bg-ghibliGold-500:hover{--tw-bg-opacity:1;background-color:rgb(223 158 36/var(--tw-bg-opacity,1))}.hover\:bg-rose-50:hover{--tw-bg-opacity:1;background-color:rgb(255 241 242/var(--tw-bg-opacity,1))}.hover\:bg-rose-500:hover{--tw-bg-opacity:1;background-color:rgb(244 63 94/var(--tw-bg-opacity,1))}.hover\:text-ghibliInk-800:hover{--tw-text-opacity:1;color:rgb(42 54 66/var(--tw-text-opacity,1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.hover\:underline:hover{text-decoration-line:underline}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.active\:scale-95:active{--tw-scale-x:.95;--tw-scale-y:.95}.active\:scale-95:active,.active\:scale-\[\.98\]:active{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.active\:scale-\[\.98\]:active{--tw-scale-x:.98;--tw-scale-y:.98}.active\:scale-\[0\.99\]:active{--tw-scale-x:0.99;--tw-scale-y:0.99;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@media (min-width:640px){.sm\:h-\[880px\]{height:880px}.sm\:rounded-\[46px\]{border-radius:46px}.sm\:border-\[8px\]{border-width:8px}.sm\:border-\[\#382f27\]{--tw-border-opacity:1;border-color:rgb(56 47 39/var(--tw-border-opacity,1))}.sm\:px-4{padding-left:1rem;padding-right:1rem}.sm\:py-6{padding-top:1.5rem;padding-bottom:1.5rem}.sm\:shadow-\[0_25px_60px_-15px_rgba\(58\2c 45\2c 34\2c 0\.5\)\]{--tw-shadow:0 25px 60px -15px rgba(58,45,34,.5);--tw-shadow-colored:0 25px 60px -15px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}}</style>
   <style>
     body {
       font-family: 'Zen Maru Gothic', sans-serif;
       background: #dfd5c4;
-      background-image: 
+      background-image:
         radial-gradient(circle at 15% 15%, rgba(255, 255, 255, 0.45) 0%, transparent 45%),
         radial-gradient(circle at 85% 85%, rgba(190, 168, 140, 0.35) 0%, transparent 50%),
         linear-gradient(135deg, #d8ccb9 0%, #ece5d8 50%, #d5c8b3 100%);
@@ -1030,15 +989,15 @@
             <span class="search-line-icon absolute left-3.5 top-2.5 text-ghibliInk-500 text-sm" aria-hidden="true">
               <svg viewBox="0 0 32 32" fill="none"><circle cx="13" cy="13" r="8" stroke="currentColor" stroke-width="3"/><path d="M19 19L27 27" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
             </span>
-            <input 
-              id="search-input" 
-              type="text" 
+            <input
+              id="search-input"
+              type="text"
               placeholder="輸入任意消費品項、店家或通路..."
               oninput="handleSearchInput()"
               class="w-full ghibli-input rounded-xl pl-9 pr-8 py-2 text-xs font-black placeholder:text-ghibliInk-500/65 focus:outline-none"
             />
-            <button 
-              id="clear-search-btn" 
+            <button
+              id="clear-search-btn"
               onclick="clearSearchInput()"
               class="hidden absolute right-2.5 top-2.5 text-ghibliInk-500 hover:text-ghibliInk-800 text-xs font-black px-1.5 py-0.5 rounded-full bg-[#eee4d4]">
               ✕
@@ -1047,18 +1006,18 @@
           <div id="search-context-clarifier" class="hidden rounded-xl border border-[#dce9e6] bg-[#f5faf9] px-3 py-2"></div>
 
           <div id="card-scope-controls" class="grid grid-cols-2 gap-2 pt-0.5">
-            <button 
-              id="btn-scope-my" 
-              onclick="setScope('my')" 
+            <button
+              id="btn-scope-my"
+              onclick="setScope('my')"
               class="flex items-center justify-center space-x-1.5 py-2 px-2 rounded-xl font-bold text-xs transition"
               aria-pressed="false">
               <svg class="scope-icon" viewBox="0 0 32 24" fill="none" aria-hidden="true"><rect x="2" y="3" width="28" height="18" rx="4" stroke="currentColor" stroke-width="2.5"/><path d="M4 9H28" stroke="currentColor" stroke-width="2.5"/><rect x="6" y="13" width="7" height="3" rx="1" fill="currentColor"/></svg>
               <span class="scope-copy"><strong>我的卡包</strong><small>推薦刷哪張</small></span>
             </button>
 
-            <button 
-              id="btn-scope-all" 
-              onclick="setScope('all')" 
+            <button
+              id="btn-scope-all"
+              onclick="setScope('all')"
               class="scope-active flex items-center justify-center space-x-1.5 py-2 px-2 rounded-xl font-black text-xs transition"
               aria-pressed="true">
               <svg class="scope-icon globe-icon" viewBox="0 0 28 28" fill="none" aria-hidden="true"><circle cx="14" cy="14" r="11" stroke="currentColor" stroke-width="2.3"/><path d="M3 14H25M14 3C18 7 18 21 14 25M14 3C10 7 10 21 14 25" stroke="currentColor" stroke-width="1.8"/></svg>
@@ -1075,11 +1034,11 @@
             <span class="text-[11px] font-bold text-ghibliInk-600">預計消費試算金額：</span>
             <div class="flex items-center space-x-1">
               <span class="text-xs font-black text-ghibliGold-600">NT$</span>
-              <input 
-                id="spend-amount-input" 
-                type="number" 
-                value="2000" 
-                step="500" 
+              <input
+                id="spend-amount-input"
+                type="number"
+                value="2000"
+                step="500"
                 min="0"
                 oninput="renderSpendingList()"
                 class="w-20 ghibli-input rounded-lg px-2 py-0.5 text-right text-xs font-black"
@@ -1146,15 +1105,15 @@
 
         <div class="relative">
           <span class="absolute left-3.5 top-2.5 text-ghibliInk-500 text-xs">🔍</span>
-          <input 
-            id="reg-search-input" 
-            type="text" 
-            placeholder="搜尋登錄活動..." 
+          <input
+            id="reg-search-input"
+            type="text"
+            placeholder="搜尋登錄活動..."
             oninput="handleRegSearchInput()"
             class="w-full ghibli-input rounded-xl pl-9 pr-8 py-2 text-xs font-black placeholder:text-ghibliInk-500/65 focus:outline-none"
           />
-          <button 
-            id="reg-clear-search-btn" 
+          <button
+            id="reg-clear-search-btn"
             onclick="clearRegSearchInput()"
             class="hidden absolute right-2.5 top-2.5 text-ghibliInk-500 hover:text-ghibliInk-800 text-xs font-black px-1.5 py-0.5 rounded-full bg-[#eee4d4]">
             ✕
@@ -1165,11 +1124,12 @@
 
         <div class="flex gap-1.5 overflow-x-auto no-scrollbar text-[10.5px] font-bold">
           <button onclick="setRegFilter('upcoming')" id="reg-tab-upcoming" class="reg-state-tab flex-shrink-0 px-3 py-2 rounded-xl">即將開放 <span id="reg-upcoming-badge">0</span></button>
-          <button onclick="setRegFilter('available')" id="reg-tab-available" class="reg-state-tab reg-filter-active flex-shrink-0 px-3 py-2 rounded-xl font-black">可以登錄 <span id="reg-available-badge">0</span></button>
+          <button onclick="setRegFilter('available')" id="reg-tab-available" class="reg-state-tab reg-filter-active flex-shrink-0 px-3 py-2 rounded-xl font-black">公告期間內 <span id="reg-available-badge">0</span></button>
           <button onclick="setRegFilter('marked')" id="reg-tab-marked" class="reg-state-tab flex-shrink-0 px-3 py-2 rounded-xl">已標記登錄 <span id="reg-marked-badge">0</span></button>
           <button onclick="setRegFilter('expired')" id="reg-tab-expired" class="reg-state-tab flex-shrink-0 px-3 py-2 rounded-xl">已截止 <span id="reg-expired-badge">0</span></button>
         </div>
 
+        <button onclick="setRegFilter('unknown')" id="reg-tab-unknown" class="reg-state-tab px-3 py-2 rounded-xl">時間待確認 <span id="reg-unknown-badge">0</span></button>
         <div id="rewards-store-container" class="space-y-2.5 pb-6"></div>
       </section>
 
@@ -1194,7 +1154,7 @@
               <span class="font-bold text-ghibliInk-700">登錄活動開放前 5 分鐘推播</span>
               <span class="text-[11px] font-black text-ghibliGreen-600">已開啟 ✔</span>
             </div>
-            
+
             <div class="p-2.5 rounded-xl bg-[#faf6ee] space-y-2">
               <div class="flex items-center justify-between">
                 <span class="font-bold text-ghibliInk-700">銀行與回饋資料庫版次</span>
@@ -1316,7 +1276,7 @@
         </div>
         <div class="grid grid-cols-2 gap-2">
           <button onclick="confirmReturnedRegistration(false)" class="py-2.5 rounded-xl border border-[#dce5e2] bg-[#f7faf9] text-xs font-black text-ghibliInk-600">還沒完成</button>
-          <button onclick="confirmReturnedRegistration(true)" class="py-2.5 rounded-xl bg-[#55bdb4] text-white text-xs font-black shadow-sm">已完成登錄</button>
+          <button onclick="confirmReturnedRegistration(true)" class="py-2.5 rounded-xl bg-[#55bdb4] text-white text-xs font-black shadow-sm">我已在銀行完成登錄</button>
         </div>
         <button onclick="closeRegistrationReturnModal()" class="w-full text-[10.5px] font-bold text-ghibliInk-500">稍後再確認</button>
       </div>
@@ -1347,7 +1307,7 @@
     let currentRecommendationMode = localStorage.getItem('kanu_recommendation_mode') || 'max';
     let currentOfferView = 'daily';
 
-    const REMOTE_DATA_URL = "https://raw.githubusercontent.com/icalmonkey-web/kanu-database/main/data.json"; 
+    const REMOTE_DATA_URL = "https://raw.githubusercontent.com/icalmonkey-web/kanu-database/main/data.json";
     // 資料關聯／去重邏輯改版時必須換 cache namespace；只比資料版本會讓
     // 舊的錯誤關聯永遠留在瀏覽器，即使程式已修正。
     const LOCAL_CACHE_KEY = "kanu_remote_database_v2";
@@ -1355,6 +1315,135 @@
 
     // GitHub 上的 JSON 屬於外部輸入。所有會進入 innerHTML／inline handler 的
     // 文字先轉為純文字，ID 則限制為安全字元，避免資料庫遭竄改時形成 XSS。
+/* Shared deterministic rules. No network, DOM, or AI assertions. */
+(function (root) {
+  'use strict';
+  const number = v => typeof v === 'number' && Number.isFinite(v) && v >= 0 ? v : null;
+  const taipei = now => new Date(now.getTime() + 8 * 3600000);
+  function date(value, end = false) {
+    const text = String(value || '').trim();
+    const m = text.match(/^(20\d{2})[-/.年](\d{1,2})[-/.月](\d{1,2})日?(?:[T\s]+(\d{1,2}):(\d{2})(?::(\d{2}))?(\.\d+)?(Z|[+-]\d{2}:\d{2})?)?$/);
+    if (!m) return null;
+    const [y, mo, d] = m.slice(1, 4).map(Number);
+    const h = m[4] === undefined ? (end ? 23 : 0) : +m[4];
+    const mi = m[5] === undefined ? (end ? 59 : 0) : +m[5];
+    const s = m[6] === undefined ? (end && m[4] === undefined ? 59 : 0) : +m[6];
+    const check = new Date(Date.UTC(y, mo - 1, d));
+    if (check.getUTCFullYear() !== y || check.getUTCMonth() !== mo - 1 || check.getUTCDate() !== d || h > 23 || mi > 59 || s > 59) return null;
+    const pad = n => String(n).padStart(2, '0');
+    const result = new Date(`${y}-${pad(mo)}-${pad(d)}T${pad(h)}:${pad(mi)}:${pad(s)}${m[7] || (end && m[4] === undefined ? '.999' : '')}${m[8] || '+08:00'}`);
+    return Number.isNaN(+result) ? null : result;
+  }
+  function registrationWindow(rule) {
+    if (rule.registrationStart || rule.registrationEnd) return {
+      start: date(rule.registrationStart), end: date(rule.registrationEnd, true)
+    };
+    const text = String(rule.regDeadline || '');
+    // Recurrence and abbreviated date ranges need explicit structured windows.
+    if (/每月|每週|當月/.test(text)) return { start: null, end: null };
+    const dates = [...text.matchAll(/20\d{2}[-/.年]\d{1,2}[-/.月]\d{1,2}日?(?:[ T]\d{1,2}:\d{2}(?::\d{2})?(?:Z|[+-]\d{2}:\d{2})?)?/g)].map(m => m[0]);
+    if (dates.length === 2) return { start: date(dates[0]), end: date(dates[1], true) };
+    if (dates.length === 1 && !/[~～至]/.test(text)) {
+      if (/開放|開始|起/.test(text) && !/截止/.test(text)) return { start: date(dates[0]), end: null };
+      return { start: null, end: date(dates[0], true) };
+    }
+    return { start: null, end: null };
+  }
+  function periodKey(rule, now = new Date()) {
+    const t = taipei(now);
+    const cycle = /每月|當月/.test(rule.regDeadline || '') || rule.registrationCycle === 'MONTHLY'
+      ? `${t.getUTCFullYear()}-${t.getUTCMonth() + 1}` : '';
+    return JSON.stringify([rule.id, rule.sourceUrl, rule.validFrom, rule.validUntil,
+      rule.registrationStart, rule.registrationEnd, rule.regDeadline, cycle]);
+  }
+  function lifecycle(rule, now = new Date()) {
+    const w = registrationWindow(rule);
+    const end = date(rule.validUntil, true);
+    if ((end && end < now) || (w.end && w.end < now)) return 'expired';
+    if (w.start && w.start > now) return 'upcoming';
+    if (rule.registered && rule.registeredPeriod === periodKey(rule, now)) return 'marked';
+    return w.start && w.end ? 'available' : 'unknown';
+  }
+  function calculate(rule, amount) {
+    const spendAmount = number(amount) || 0;
+    const result = { effectiveRate: 0, potentialRate: 0, totalCash: 0, potentialCash: 0,
+      spendAmount, isBoostActive: false, capped: false, capAmount: number(rule.capAmount),
+      calculable: false, reason: '', assumptions: [] };
+    const fail = reason => ({ ...result, reason });
+    const type = String(rule.rewardType || '').toLowerCase();
+    const unit = String(rule.rewardUnit || '').toLowerCase();
+    if (['draw', 'installment', 'insurance_benefit'].includes(type)) return fail('非保證現金回饋');
+    if (type === 'points' && unit !== 'percent' && unit !== 'twd') return fail('點數未確認兌換價值');
+    const min = number(rule.minimumSpend);
+    if (min !== null && spendAmount < min) return fail('本筆未達最低消費門檻');
+    if (/累積|累計/.test(rule.quotaInfo || '') && rule.spendBasis !== 'PER_TRANSACTION') return fail('累積消費資格未確認');
+    const base = number(rule.baseRate) || 0;
+    const promo = number(rule.promoRate) || 0;
+    const mode = rule.rewardCalculationMode;
+    const tiers = (rule.rewardTiers || []).filter(t => number(t.totalRate) !== null && t.totalRate <= 100);
+    let current = { totalRate: base + promo, baseRate: base, capAmount: rule.capAmount };
+    let best = current;
+    if (mode === 'TIERED') {
+      if (!tiers.length) return fail('缺少分級條件');
+      current = tiers.find(t => t.isDefault && !(t.requirements || []).length);
+      best = [...tiers].sort((a, b) => b.totalRate - a.totalRate)[0];
+      if (!current) result.assumptions.push('未確認適用資格，僅供達標情境試算');
+    } else if (mode === 'MAX_ONLY') {
+      result.potentialRate = Math.max(base, promo, unit === 'percent' ? number(rule.rewardAmount) || 0 : 0);
+      return fail('最高回饋缺少可試算的一般資格');
+    } else if (mode !== 'FLAT') return fail('回饋計算方式待確認');
+    if (base > 100 || promo > 100 || best.totalRate > 100) return fail('回饋率異常');
+    const fixed = type === 'cash' || (type === 'points' && unit === 'twd');
+    if (fixed && (rule.spendBasis !== 'PER_TRANSACTION' || min === null || number(rule.rewardAmount) === null)) return fail('固定回饋門檻或計次方式未確認');
+    if (rule.roundingMode !== 'FLOOR_COMPONENT' && rule.roundingMode !== 'FLOOR' && rule.roundingMode !== 'ROUND') result.assumptions.push('銀行取整方式待確認，金額僅為試算');
+    const round = n => rule.roundingMode === 'ROUND' ? Math.round(n) : rule.roundingMode?.startsWith('FLOOR') ? Math.floor(n + 1e-9) : Math.floor((n + 1e-9) * 100) / 100;
+    function cash(tier) {
+      if (!tier) return 0;
+      const total = tier.totalRate;
+      const b = fixed ? 0 : Math.min(number(tier.baseRate) ?? base, total);
+      let baseCash = spendAmount * b / 100;
+      let bonusCash = fixed ? rule.rewardAmount : spendAmount * (total - b) / 100;
+      const cap = number(tier.capAmount) ?? number(rule.capAmount);
+      if (rule.roundingMode === 'FLOOR_COMPONENT') { baseCash = round(baseCash); bonusCash = round(bonusCash); }
+      if (cap !== null) {
+        if (!['PROMO', 'TOTAL', 'NONE'].includes(rule.capScope)) return null;
+        if (rule.capScope !== 'NONE') {
+          const remaining = number(rule.remainingCap);
+          const limit = remaining === null ? cap : Math.min(cap, remaining);
+          if (rule.capPeriod !== 'PER_TRANSACTION' && remaining === null) result.assumptions.push('假設本期回饋額度尚未使用');
+          if (rule.capScope === 'TOTAL') { result.capped ||= baseCash + bonusCash > limit; return round(Math.min(baseCash + bonusCash, limit)); }
+          result.capped ||= bonusCash > limit;
+          bonusCash = Math.min(bonusCash, limit);
+        }
+      }
+      return round(baseCash + bonusCash);
+    }
+    result.potentialRate = fixed ? 0 : best.totalRate;
+    const potential = cash(best);
+    if (potential === null) return fail('回饋上限適用範圍未確認');
+    result.potentialCash = potential;
+    const qualified = (!rule.needReg || (rule.registered && rule.registeredPeriod === periodKey(rule)))
+      && !(rule.eligibilityRequirements || []).length && rule.selectionMode !== 'SWITCHABLE';
+    result.effectiveRate = qualified && current ? current.totalRate : 0;
+    result.totalCash = qualified && current ? cash(current) : 0;
+    if (result.totalCash === null) return fail('一般資格上限待確認');
+    result.isBoostActive = qualified && !!current;
+    result.calculable = true;
+    result.assumptions = [...new Set(result.assumptions)];
+    return result;
+  }
+  function isReviewed(rule, now = new Date()) {
+    const review = rule.accuracyReview;
+    const checked = date(review?.checkedAt);
+    return !!(review?.status === 'SOURCE_CHECKED' && !review.issues?.length
+      && review.fields?.length && review.sourceUrl === rule.sourceUrl && checked
+      && checked <= now && now - checked <= 14 * 86400000);
+  }
+  const api = { date, registrationWindow, periodKey, lifecycle, calculate, isReviewed };
+  if (typeof module !== 'undefined') module.exports = api;
+  else root.KanuAccuracy = api;
+})(typeof globalThis !== 'undefined' ? globalThis : this);
+
     function safePlainText(value, fallback = '') {
       return String(value ?? fallback)
         .replace(/[<>&"'`\\]/g, '')
@@ -1521,7 +1610,17 @@
         rewardUnit: rawRule.rewardUnit || '',
         capAmount: typeof rawRule.capAmount === 'number' ? rawRule.capAmount : null,
         needReg: !!rawRule.needReg,
-        registered: !!rawRule.registered,
+        registered: false,
+        registeredPeriod: '',
+        accuracyReview: rawRule.accuracyReview || null,
+        validFrom: safePlainText(rawRule.validFrom),
+        registrationStart: safePlainText(rawRule.registrationStart),
+        registrationEnd: safePlainText(rawRule.registrationEnd),
+        registrationCycle: safePlainText(rawRule.registrationCycle),
+        registrationWindows: Array.isArray(rawRule.registrationWindows) ? rawRule.registrationWindows : [],
+        capScope: safePlainText(rawRule.capScope),
+        roundingMode: safePlainText(rawRule.roundingMode),
+        spendBasis: safePlainText(rawRule.spendBasis),
         regDeadline: safePlainText(rawRule.regDeadline, '依官方公告'),
         validUntil: safePlainText(rawRule.validUntil),
         benefitPlan: safePlainText(rawRule.benefitPlan),
@@ -1556,7 +1655,7 @@
           promoRate: Number(tier.promoRate) || 0,
           isDefault: tier.isDefault === true,
           requirements: Array.isArray(tier.requirements) ? tier.requirements.map(value => safePlainText(value)) : [],
-          capAmount: Number.isFinite(Number(tier.capAmount)) ? Number(tier.capAmount) : null,
+          capAmount: typeof tier.capAmount === 'number' && Number.isFinite(tier.capAmount) ? tier.capAmount : null,
           capPeriod: safePlainText(tier.capPeriod)
         })).filter(tier => tier.totalRate >= 0 && tier.totalRate <= 100) : [],
         maxRateRequires: Array.isArray(rawRule.maxRateRequires) ? rawRule.maxRateRequires.map(value => safePlainText(value)) : [],
@@ -1599,7 +1698,8 @@
 
       try {
         if (statusLabel) statusLabel.innerText = "連線更新中...";
-        const response = await fetch(`${REMOTE_DATA_URL}?_t=${Date.now()}`);
+        const dataUrl = location.protocol === 'file:' ? REMOTE_DATA_URL : './data.json';
+        const response = await fetch(dataUrl + '?_t=' + Date.now(), {signal: AbortSignal.timeout(15000)});
         if (!response.ok) throw new Error("連線異常");
 
         const declaredSize = Number(response.headers.get('content-length') || 0);
@@ -1616,10 +1716,10 @@
           localStorage.setItem(LOCAL_CACHE_KEY, JSON.stringify(remoteData));
           localStorage.setItem(LOCAL_VERSION_KEY, remoteData.version);
 
-          if (remoteData.cards && remoteData.cards.length > 0) {
+          if (Array.isArray(remoteData.cards)) {
             appCards = remoteData.cards.map((c, i) => formatCardObject(c, i));
           }
-          if (remoteData.rules && remoteData.rules.length > 0) {
+          if (Array.isArray(remoteData.rules)) {
             appRules = remoteData.rules.map((r, i) => formatRuleObject(r, i));
           }
           deduplicateCardProducts();
@@ -1746,8 +1846,8 @@
       if (!container) return;
        // 「有沒有官方來源」與「是否綁定單一卡片」是兩件事。銀行全卡友、
        // 支付工具活動本來就可能沒有 cardId，不能因此被誤報為待補來源。
-       const confirmed = appRules.filter(rule => rule.sourceUrl).length;
-       const pending = appRules.filter(rule => !rule.sourceUrl).length;
+       const confirmed = appRules.filter(rule => KanuAccuracy.isReviewed(rule)).length;
+       const pending = appRules.length - confirmed;
        const bankWideWithSource = appRules.filter(rule => !rule.cardId && rule.sourceUrl).length;
       const bankMap = new Map();
       const cardMap = new Map(appCards.map(card => [card.id, card]));
@@ -1764,9 +1864,9 @@
       container.innerHTML = `
         <div class="grid grid-cols-2 gap-2">
           <div class="rounded-lg bg-[#eef8f5] p-2"><div class="text-[9px] font-bold text-ghibliInk-500">資料載入</div><div class="text-[11px] font-black text-[#25877f]">已成功載入 ${appRules.length} 筆</div></div>
-           <div class="rounded-lg bg-[#fff7ed] p-2"><div class="text-[9px] font-bold text-ghibliInk-500">資料品質</div><div class="text-[11px] font-black text-amber-700">${confirmed} 筆有官方來源／${pending} 筆缺來源</div></div>
+           <div class="rounded-lg bg-[#fff7ed] p-2"><div class="text-[9px] font-bold text-ghibliInk-500">資料品質</div><div class="text-[11px] font-black text-amber-700">${confirmed} 筆已核對條款／${pending} 筆待核對</div></div>
          </div>
-         <div class="mt-1.5 text-[9px] font-bold text-ghibliInk-500">另有 ${bankWideWithSource} 筆為全卡友／銀行共通活動，已有來源但不綁單一卡片，不列為缺漏。</div>
+         <div class="mt-1.5 text-[9px] font-bold text-ghibliInk-500">準確率尚未驗收；目標 98%，有來源不等於內容正確。另有 ${bankWideWithSource} 筆為全卡友／銀行共通活動，已有來源但不綁單一卡片，不列為缺漏。</div>
         <details class="mt-2"><summary class="cursor-pointer text-[10px] font-black text-ghibliInk-600">查看各銀行資料狀態</summary>
           <div class="mt-1.5 max-h-40 overflow-y-auto space-y-1">${rows.map(([bank, info]) => `<div class="flex justify-between rounded-lg bg-white px-2 py-1.5 text-[9.5px]"><span class="font-black">${bank}</span><span class="text-ghibliInk-500">可核對 ${info.confirmed}・待補 ${info.pending}${info.latest ? `・${new Date(info.latest).toLocaleDateString('zh-TW')}` : ''}</span></div>`).join('')}</div>
         </details>`;
@@ -1817,7 +1917,7 @@
 
     function renderBankFilterTabs() {
       const banks = ['ALL', ...new Set(appCards.filter(isRealCardProduct).map(c => c.bank))];
-      
+
       const deckFilter = document.getElementById('bank-filter-bar');
       if (deckFilter) {
         deckFilter.innerHTML = banks.map(b => `
@@ -1996,88 +2096,14 @@
     document.addEventListener('scroll', () => closeCardActionMenus(), true);
 
     function calcRuleCashBack(rule, spendAmount) {
-      if (isInsuranceBenefitRule(rule)) {
-        return { effectiveRate: 0, potentialRate: 0, isBoostActive: false,
-          totalCash: 0, potentialCash: 0, capped: false, capAmount: null, spendAmount };
-      }
-      const rewardType = String(rule.rewardType || '').toLowerCase();
-      const rewardUnit = String(rule.rewardUnit || '').toLowerCase();
-      const rewardAmount = Math.max(0, Number(rule.rewardAmount) || 0);
-      const minimumSpend = Math.max(0, Number(rule.minimumSpend) || 0);
-      const pointCashPromoRate = rewardType === 'points' && rewardUnit === 'twd'
-        && rewardAmount > 0 && minimumSpend > 0
-        ? (rewardAmount / minimumSpend) * 100
-        : null;
-      // 「滿 NT$1,000 加碼 45 點」等值 4.5%，若資料又填 promoRate=5，
-      // 不能再疊成 5.5%。rewardUnit=TWD 表示這批點數可按等值金額比較。
-      const normalizedPromoRate = pointCashPromoRate !== null
-        ? pointCashPromoRate
-        : (Number(rule.promoRate) || 0);
-      let isBoostActive = false;
-      let effectiveRate = rule.baseRate || 0;
-      let potentialRate = (rule.baseRate || 0) + normalizedPromoRate;
-      const tiers = Array.isArray(rule.rewardTiers) ? rule.rewardTiers.filter(tier => tier.totalRate >= 0) : [];
-      if (rule.rewardCalculationMode === 'TIERED' && tiers.length) {
-        const defaultTier = tiers.find(tier => tier.isDefault) || [...tiers].sort((a, b) => a.totalRate - b.totalRate)[0];
-        effectiveRate = Number(defaultTier.totalRate) || 0;
-        potentialRate = Math.max(...tiers.map(tier => Number(tier.totalRate) || 0));
-      } else if (rule.rewardCalculationMode === 'MAX_ONLY') {
-        effectiveRate = 0;
-        potentialRate = Math.max(Number(rule.baseRate) || 0, Number(rule.promoRate) || 0);
-      }
-      
-      if (!rule.needReg || rule.registered) {
-        effectiveRate += normalizedPromoRate;
-        isBoostActive = true;
-      }
-
-      // 銀行文案若明確寫「最高 X%」，該數字通常已包含基本回饋，不能再把
-      // baseRate 疊上去。爬蟲偶爾會把最高總回饋誤存成 promoRate，這裡以
-      // 官方文案標示的上限作為安全護欄，避免 25% 被顯示成 26%。
-      const advertisedText = `${rule.title || ''} ${rule.quotaInfo || ''}`;
-      const advertisedRates = [...advertisedText.matchAll(/(?:最優(?:享)?|最高(?:享)?|合計最高(?:享)?)\s*(\d+(?:\.\d+)?)\s*%/gi)]
-        .map(match => Number(match[1]))
-        .filter(rate => Number.isFinite(rate) && rate > 0);
-      const structuredRewardRate = String(rule.rewardUnit || '').toLowerCase() === 'percent'
-        && (/最優|最高/.test(advertisedText)
-          || String(rule.selectionMode || '').toUpperCase() === 'SWITCHABLE')
-        ? Number(rule.rewardAmount)
-        : 0;
-      if (Number.isFinite(structuredRewardRate) && structuredRewardRate > 0) {
-        advertisedRates.push(structuredRewardRate);
-      }
-      const advertisedMaxRate = advertisedRates.length ? Math.max(...advertisedRates) : null;
-      if (advertisedMaxRate !== null && effectiveRate > advertisedMaxRate) {
-        effectiveRate = advertisedMaxRate;
-      }
-      if (advertisedMaxRate !== null && potentialRate > advertisedMaxRate) {
-        potentialRate = advertisedMaxRate;
-      }
-
-      const baseRate = Math.max(0, Number(rule.baseRate) || 0);
-      const promoContributionRate = Math.max(0, potentialRate - baseRate);
-      const baseCash = spendAmount * (baseRate / 100);
-      const rawPotentialPromoCash = spendAmount * (promoContributionRate / 100);
-      const potentialPromoCash = rule.capAmount
-        ? Math.min(rawPotentialPromoCash, Number(rule.capAmount))
-        : rawPotentialPromoCash;
-      const actualPromoCash = isBoostActive ? potentialPromoCash : 0;
-      const totalCash = baseCash + actualPromoCash;
-      const potentialCash = baseCash + potentialPromoCash;
-      return {
-        effectiveRate: parseFloat(effectiveRate.toFixed(1)),
-        potentialRate: parseFloat(potentialRate.toFixed(1)),
-        isBoostActive,
-        totalCash: Math.round(totalCash),
-        potentialCash: Math.round(potentialCash),
-        capped: !!rule.capAmount && rawPotentialPromoCash > Number(rule.capAmount),
-        capAmount: rule.capAmount ? Number(rule.capAmount) : null,
-        spendAmount
-      };
+      if (isInsuranceBenefitRule(rule)) return KanuAccuracy.calculate({...rule, rewardType: 'insurance_benefit'}, spendAmount);
+      return KanuAccuracy.calculate(rule, spendAmount);
     }
 
     // 百分比、固定金額、抽獎與分期是不同回饋型態，不能把非百分比活動顯示成「+0%」。
     function getRuleRewardLabel(rule) {
+      if (rule.accuracyReview?.status === 'CONFLICT') return '回饋資料衝突，暫停推薦';
+      if (!KanuAccuracy.isReviewed(rule)) return '回饋條款待核實';
       const baseRate = Number(rule.baseRate) || 0;
       const promoRate = Number(rule.promoRate) || 0;
       const rewardType = String(rule.rewardType || '').toLowerCase();
@@ -2100,26 +2126,10 @@
     }
 
     function getRewardRankingMetrics(rule, calc) {
-      const rewardType = String(rule.rewardType || '').toLowerCase();
-      const rewardUnit = String(rule.rewardUnit || '').toLowerCase();
-      const rewardAmount = Number(rule.rewardAmount) || 0;
-      const estimatedCash = Number(rule.needReg && !rule.registered ? calc.potentialCash : calc.totalCash) || 0;
-      const minimumSpend = Number(rule.minimumSpend) || 0;
-      // 只有門檻與本筆金額都明確時，固定刷卡金才可跟百分比回饋直接比較。
-      // 舊資料常把「最高回饋上限／外幣額度」誤放進 rewardAmount；若沒有
-      // 明確消費門檻，把它拿來排序會讓 NT$10,000 之類的上限錯排第一。
-      const fixedCash = rewardType === 'cash' && rewardAmount > 0
-        && minimumSpend > 0 && Number(calc.spendAmount) >= minimumSpend
-        ? rewardAmount : 0;
-      const knownPoints = rewardType === 'points' && rewardUnit !== 'percent' && rewardAmount > 0 ? rewardAmount : 0;
-      // 固定刷卡金不可再用標題中的百分比重算；例如「20%／上限 NT$20」
-      // 對本筆交易可比較的最高價值仍是 NT$20。
-      const comparableCash = fixedCash > 0 ? fixedCash : estimatedCash;
-      return {
-        cash: comparableCash,
-        points: knownPoints,
-        known: Math.max(comparableCash, knownPoints) > 0 ? 1 : 0
-      };
+      // Unverified terms and non-cash points must not win a cash comparison.
+      const trusted = KanuAccuracy.isReviewed(rule);
+      const cash = trusted && calc.calculable ? calc.potentialCash : 0;
+      return {cash, points: 0, known: cash > 0 ? 1 : 0};
     }
 
     function getRuleHeadline(rule, calc) {
@@ -2137,13 +2147,14 @@
     }
 
     function getProminentRewardLabel(rule, calc) {
+      if (!KanuAccuracy.isReviewed(rule) || !calc.calculable) return '回饋條款待確認';
       const rewardType = String(rule.rewardType || '').toLowerCase();
       const rewardUnit = String(rule.rewardUnit || '').toLowerCase();
       const isPercent = !['cash', 'draw', 'installment'].includes(rewardType)
         && !(rewardType === 'points' && rewardUnit !== 'percent')
         && calc.potentialRate > 0;
       if (isPercent) {
-        const rate = rule.needReg && !rule.registered ? calc.potentialRate : calc.effectiveRate;
+        const rate = calc.potentialRate;
         return `最高回饋 ${rate}%`;
       }
       return getRuleRewardLabel(rule);
@@ -2151,6 +2162,9 @@
 
     function getRuleConditionStatus(rule, card) {
       const reasons = [];
+      if (!KanuAccuracy.isReviewed(rule)) reasons.push('條款待核實');
+      if (rule.eligibilityRequirements?.length) reasons.push(...rule.eligibilityRequirements);
+      if (Number(rule.minimumSpend) > 0) reasons.push(`最低消費 NT$${rule.minimumSpend}`);
       if (rule.needReg && !rule.registered) reasons.push('需先登錄');
       const plan = inferBenefitPlan(rule, card || {});
       if (String(rule.selectionMode || '').toUpperCase() === 'SWITCHABLE' || (plan && /CUBE/i.test(card?.cardName || ''))) {
@@ -2179,6 +2193,9 @@
     }
 
     function getRecommendationHeadline(rule, calc, condition) {
+      if (!KanuAccuracy.isReviewed(rule)) {
+        return '<span class="recommend-reward-amount">待核實</span><span class="recommend-reward-caption">未納入現金回饋比較，請查看條款與來源</span>';
+      }
       const rewardType = String(rule.rewardType || '').toLowerCase();
       const rewardUnit = String(rule.rewardUnit || '').toLowerCase();
       const rewardAmount = Number(rule.rewardAmount) || 0;
@@ -2221,7 +2238,9 @@
         amount = '優惠活動';
         caption = '回饋資料待確認';
       }
-      if (!rule.sourceUrl || rule.associationStatus === 'needs_review') caption += ' · 資料待確認';
+      if (!calc.calculable) caption = calc.reason || '試算條件待確認';
+      if (!KanuAccuracy.isReviewed(rule)) caption += ' · 條款待核實';
+      if (calc.assumptions?.length) caption += ' · ' + calc.assumptions.join('；');
       return `<span class="recommend-reward-amount">${amount}</span><span class="recommend-reward-caption">${caption}</span>`;
     }
 
@@ -2243,20 +2262,14 @@
     }
 
     function getExplicitRegistrationDeadline(rule) {
-      const text = String(rule.regDeadline || '');
-      const matches = [...text.matchAll(/(20\d{2})\s*[\/年.]\s*(\d{1,2})\s*[\/月.]\s*(\d{1,2})/g)];
-      if (!matches.length) return null;
-      // 區間活動取最後一個日期作為截止日，例如「2026/9/1~2026/9/30」。
-      const match = matches[matches.length - 1];
-      const date = new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3]), 23, 59, 59);
-      return Number.isNaN(date.getTime()) ? null : date;
+      return KanuAccuracy.registrationWindow(rule).end;
     }
 
     function getTrackerRules() {
       const now = new Date();
       return appRules
         .filter(rule => {
-          if (!rule.needReg) return false;
+          if (!rule.needReg || isRuleExpired(rule) || getRegistrationLifecycle(rule) === 'expired') return false;
           const deadline = getExplicitRegistrationDeadline(rule);
           return !deadline || deadline >= now;
         })
@@ -2279,7 +2292,7 @@
         if (parsed.protocol === 'https:' && !parsed.username && !parsed.password) safeImage = parsed.href;
       } catch (e) {}
       if (safeImage) {
-        return `<div class="w-[96px] h-[60px] rounded-xl overflow-hidden bg-white border border-[#dce6e3] shadow-sm flex-shrink-0 cursor-pointer" onclick="openCardDetailModal('${card.id}', '${preferredRuleId}')"><img src="${safeImage.replace(/&/g, '&amp;').replace(/"/g, '&quot;')}" alt="${card.cardName}" class="w-full h-full object-contain" loading="lazy" /></div>`;
+        return `<div class="w-[96px] h-[60px] rounded-xl overflow-hidden bg-white border border-[#dce6e3] shadow-sm flex-shrink-0 cursor-pointer" onclick="openCardDetailModal('${card.id}', '${preferredRuleId}')"><img src="${safeImage.replace(/&/g, '&amp;').replace(/"/g, '&quot;')}" alt="${card.cardName}" class="w-full h-full object-contain" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.classList.remove('hidden')" /><span class="hidden p-2 text-[10px] font-bold">${card.cardName}<br>卡面暫無法載入</span></div>`;
       }
       return `
         <div class="w-[96px] h-[60px] rounded-xl p-2 flex flex-col justify-between relative shadow-sm border-2 border-white/60 flex-shrink-0 cursor-pointer" onclick="openCardDetailModal('${card.id}', '${preferredRuleId}')" style="background: ${card.themeBg || '#2a5298'}; box-shadow: 0 3px 0 rgba(49, 34, 23, .22);">
@@ -2302,9 +2315,9 @@
     function normalizeText(str) {
       if (!str) return '';
       return str.toString()
-        .replace(/\s+/g, '')       
-        .replace(/[\uff01-\uff5e]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0xfee0)) 
-        .toUpperCase();            
+        .replace(/\s+/g, '')
+        .replace(/[\uff01-\uff5e]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0xfee0))
+        .toUpperCase();
     }
 
     function isInsuranceBenefitRule(rule) {
@@ -2365,12 +2378,7 @@
     }
 
     function getRuleEndDate(rule) {
-      const text = String(rule?.validUntil || rule?.regDeadline || '');
-      const matches = [...text.matchAll(/(20\d{2})\s*[-\/年.]\s*(\d{1,2})\s*[-\/月.]\s*(\d{1,2})/g)];
-      if (!matches.length) return null;
-      const match = matches[matches.length - 1];
-      const date = new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3]), 23, 59, 59);
-      return Number.isNaN(date.getTime()) ? null : date;
+      return KanuAccuracy.date(rule.validUntil, true);
     }
 
     function isRuleExpired(rule, now = new Date()) {
@@ -2396,7 +2404,7 @@
       const cardMap = new Map(appCards.map(card => [card.id, card]));
       const matches = appRules.map(rule => {
         const provider = getRulePaymentProvider(rule);
-        if (!provider || rule.quickSearchEligible === false || isRuleExpired(rule)) return null;
+        if (!provider || rule.quickSearchEligible === false || isRuleExpired(rule) || (KanuAccuracy.date(rule.validFrom) && KanuAccuracy.date(rule.validFrom) > new Date())) return null;
         const merchantText = Array.isArray(rule.matchedMerchants) ? rule.matchedMerchants.join(' ') : '';
         const corpus = normalizeText(`${provider} ${rule.title || ''} ${rule.category || ''} ${merchantText} ${(rule.intentTags || []).join(' ')} ${rule.intentEvidence || ''}`);
         if (!corpus.includes(normalizedQuery)) return null;
@@ -2550,7 +2558,7 @@
 
       let candidates = [];
       appRules.forEach(rule => {
-        if (isRuleExpired(rule)) return;
+        if (isRuleExpired(rule) || (KanuAccuracy.date(rule.validFrom) && KanuAccuracy.date(rule.validFrom) > new Date())) return;
         const sourceCard = cardMap.get(rule.cardId);
         if (!sourceCard) return;
         if (rule.quickSearchEligible === false) return;
@@ -2670,7 +2678,7 @@
         const condition = getRuleConditionStatus(rule, card);
         const resultKey = `${rule.cardId}::${condition.conditional ? 'conditional' : 'direct'}`;
         const existing = cardBestRuleMap.get(resultKey);
-        
+
         if (!existing) {
           cardBestRuleMap.set(resultKey, { rule, calc, condition });
         } else {
@@ -2788,6 +2796,15 @@
 
     // ==================== 彈出詳細回饋視窗（支援依目前搜尋關鍵字精準過濾） ====================
     function renderRuleSourceLink(rule) {
+      const audit = rule.accuracyReview;
+      const checked = KanuAccuracy.isReviewed(rule);
+      const note = '<div class="text-[10px] font-bold text-amber-800 mb-1">' +
+        (checked ? '已核對官方條款' : '條款待核實，請勿將最高回饋視為保證實得') +
+        (rule.fetchedAt ? ' · 擷取 ' + safePlainText(rule.fetchedAt.slice(0, 10)) : ' · 擷取日期不明') + '</div>';
+      return note + renderRuleSourceLinkBody(rule);
+    }
+
+    function renderRuleSourceLinkBody(rule) {
       try {
         const destination = getRegistrationDestination(rule);
         const url = new URL(destination || rule.sourceUrl);
@@ -2822,7 +2839,7 @@
       const titleEl = document.getElementById('modal-card-title');
       const bodyEl = document.getElementById('modal-card-body');
       const bankLinkEl = document.getElementById('modal-bank-link');
-      
+
       titleEl.innerText = `${card.bank} - ${card.cardName}`;
 
       const query = currentSearchText.trim();
@@ -2859,9 +2876,9 @@
           || (!!benefitPlan && /CUBE/i.test(card.cardName || ''));
         answerHtml = `
           <div class="rounded-2xl border border-[#f1d9d1] bg-[#fff8f5] p-3 space-y-1.5">
-            <div class="text-[10px] font-black text-ghibliInk-500">針對「${query}」的建議</div>
+          <div class="text-[10px] font-black text-ghibliInk-500">與「${query}」相關的活動</div>
             <div class="text-[22px] leading-none font-black text-rose-500">${getProminentRewardLabel(best.rule, best.calc)}</div>
-            <div class="text-xs font-black text-ghibliInk-800">${query}${benefitPlan ? `適用「${benefitPlan}」` : '適用此活動'}</div>
+            <div class="text-xs font-black text-ghibliInk-800">${benefitPlan ? `須確認「${benefitPlan}」方案資格` : '請核對付款方式、通路與排除條件'}</div>
             ${needsSwitch ? `<div class="rounded-lg bg-amber-50 border border-amber-200 px-2.5 py-2 text-[10.5px] font-black text-amber-800">⚠️ 消費前須至銀行 App 切換為「${benefitPlan}」，方案不能同時疊加。</div>` : ''}
           </div>`;
         cardRules = [best.rule, ...rankedRules.filter(item => item.rule !== best.rule).map(item => item.rule)];
@@ -2960,7 +2977,7 @@
                 </div>
               </div>
             </div>
-            ${rule.registered 
+            ${rule.registered
               ? `<span class="text-[10px] font-black text-ghibliGold-600 bg-[#fbf2e0] px-2 py-0.5 rounded-full border border-[#f0deb8] flex-shrink-0">
                   ${getRuleRewardLabel(rule)}
                  </span>`
@@ -2995,7 +3012,7 @@
         });
       }
 
-      const lifecycleGroups = { upcoming: [], available: [], marked: [], expired: [] };
+      const lifecycleGroups = { upcoming: [], available: [], unknown: [], marked: [], expired: [] };
       regRules.forEach(rule => {
         const lifecycle = getRegistrationLifecycle(rule);
         lifecycleGroups[lifecycle].push(rule);
@@ -3023,7 +3040,7 @@
         const statusText = lifecycle === 'marked' ? '✓ 你已標記登錄（未向銀行驗證）'
           : lifecycle === 'expired' ? '已截止'
           : lifecycle === 'upcoming' ? (nextOpening ? `下次 ${formatRegistrationOpening(nextOpening)} 開放` : '尚未開放登錄')
-          : '現在可以登錄';
+          : lifecycle === 'unknown' ? '登錄時間待確認，請查看官方活動頁' : '公告登錄期間內，剩餘名額未確認';
         html += `
           <div class="ghibli-card rounded-[20px] p-3.5 space-y-2 bg-white">
             <div class="flex items-center justify-between">
@@ -3033,7 +3050,7 @@
             <div class="text-xs font-black text-ghibliGold-600">${rule.title}・${getRuleRewardLabel(rule)}</div>
             ${rule.quotaInfo ? `<div class="text-[10px] text-amber-800 bg-amber-50 rounded-md px-1.5 py-0.5 border border-amber-200/60 font-bold">名額說明：${rule.quotaInfo}</div>` : ''}
             ${renderRegistrationMethodInfo(rule)}
-            
+
             <div class="pt-1 border-t border-[#f4eadb] space-y-2">
               <div class="flex items-center justify-between">
                 <span class="text-[10px] font-bold ${lifecycle === 'marked' ? 'text-ghibliGreen-600' : lifecycle === 'expired' ? 'text-ghibliInk-500' : 'text-amber-600'}">
@@ -3055,47 +3072,16 @@
       container.innerHTML = html || '<div class="p-6 text-center text-xs font-bold text-ghibliInk-500">查無符合條件的登錄活動</div>';
     }
 
-    function getRegistrationLifecycle(rule) {
-      if (rule.registered) return 'marked';
-      const now = new Date();
-      const deadline = getExplicitRegistrationDeadline(rule);
-      if (deadline && deadline < now) return 'expired';
-      const text = String(rule.regDeadline || '');
-      const first = text.match(/(20\d{2})\s*[\/年.]\s*(\d{1,2})\s*[\/月.]\s*(\d{1,2})/);
-      if (/開放/.test(text) && first) {
-        const openDate = new Date(Number(first[1]), Number(first[2]) - 1, Number(first[3]));
-        if (!Number.isNaN(openDate.getTime()) && openDate > now) return 'upcoming';
-      }
-      return 'available';
+    function getRegistrationLifecycle(rule, now = new Date()) {
+      return KanuAccuracy.lifecycle(rule, now);
     }
 
     function getNextRecurringRegistrationOpening(rule, now = new Date()) {
-      const text = String(rule?.regDeadline || '');
-      if (!/(?:每月|當月).{0,24}開放/.test(text)) return null;
-      const days = [...text.matchAll(/(\d{1,2})\s*(?:日|號)/g)]
-        .map(match => Number(match[1]))
-        .filter(day => day >= 1 && day <= 31);
-      if (!days.length) return null;
-
-      let hour = 9;
-      let minute = 0;
-      const time = text.match(/(上午|早上|下午|晚上)?\s*(\d{1,2})(?::|點)(\d{2})?/);
-      if (time) {
-        hour = Number(time[2]);
-        minute = Number(time[3] || 0);
-        if (/下午|晚上/.test(time[1] || '') && hour < 12) hour += 12;
-        if (/上午|早上/.test(time[1] || '') && hour === 12) hour = 0;
-      }
-
-      const uniqueDays = [...new Set(days)].sort((a, b) => a - b);
-      for (let monthOffset = 0; monthOffset <= 1; monthOffset += 1) {
-        for (const day of uniqueDays) {
-          const candidate = new Date(now.getFullYear(), now.getMonth() + monthOffset, day, hour, minute, 0, 0);
-          if (candidate.getMonth() !== (now.getMonth() + monthOffset) % 12) continue;
-          if (candidate > now) return candidate;
-        }
-      }
-      return null;
+      // Never invent 09:00, day 31 overflow, or another month after campaign end.
+      const windows = Array.isArray(rule.registrationWindows) ? rule.registrationWindows : [];
+      const end = getRuleEndDate(rule);
+      return windows.map(w => KanuAccuracy.date(w.start)).filter(d => d && d > now && (!end || d <= end))
+        .sort((a, b) => a - b)[0] || null;
     }
 
     function formatRegistrationOpening(date) {
@@ -3170,18 +3156,22 @@
     }
 
     function formatIcsLocal(date) {
-      const pad = value => String(value).padStart(2, '0');
-      return `${date.getFullYear()}${pad(date.getMonth() + 1)}${pad(date.getDate())}T${pad(date.getHours())}${pad(date.getMinutes())}00`;
+      return date.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}Z$/, 'Z');
     }
 
     function addRegistrationReminder(ruleIndex) {
       const rule = appRules[ruleIndex];
       if (!rule) return;
       const deadline = getExplicitRegistrationDeadline(rule);
-      const reminder = deadline ? new Date(deadline) : new Date();
-      if (deadline) reminder.setDate(reminder.getDate() - 1);
-      else reminder.setDate(reminder.getDate() + 1);
-      reminder.setHours(9, 0, 0, 0);
+      const opening = getNextRecurringRegistrationOpening(rule) || KanuAccuracy.registrationWindow(rule).start;
+      const now = new Date();
+      if (getRegistrationLifecycle(rule) === 'expired' || (!deadline && !opening)) {
+        showTip('尚無可確認的未來登錄時間，請先查看官方公告');
+        return;
+      }
+      const target = opening && opening > now ? opening : deadline;
+      if (!target || target <= now) { showTip('沒有可建立提醒的未來時間'); return; }
+      const reminder = new Date(Math.max(now.getTime() + 1000, target.getTime() - 5 * 60000));
       const end = new Date(reminder.getTime() + 30 * 60 * 1000);
       const destination = getRegistrationDestination(rule);
       const description = `${rule.quotaInfo || '請確認活動門檻'}${rule.regDeadline ? `；登錄期限：${rule.regDeadline}` : '；尚無明確截止日，請至官方頁面確認'}${destination ? `；官方頁面：${destination}` : ''}`;
@@ -3195,7 +3185,7 @@
         `SUMMARY:${escapeIcsText(`信用卡活動登錄：${rule.title}`)}`,
         `DESCRIPTION:${escapeIcsText(description)}`,
         destination ? `URL:${destination}` : '',
-        'BEGIN:VALARM', 'TRIGGER:-PT1H', 'ACTION:DISPLAY',
+        'BEGIN:VALARM', 'TRIGGER:PT0S', 'ACTION:DISPLAY',
         `DESCRIPTION:${escapeIcsText(`記得登錄：${rule.title}`)}`,
         'END:VALARM', 'END:VEVENT', 'END:VCALENDAR'
       ].filter(Boolean).join('\r\n');
@@ -3208,11 +3198,11 @@
       anchor.click();
       anchor.remove();
       setTimeout(() => URL.revokeObjectURL(url), 1000);
-      showTip(deadline ? '📅 已建立截止前一天的行事曆提醒' : '📅 已建立明天的行事曆提醒');
+      showTip('📅 已建立官方時間前 5 分鐘的提醒（接近時間則立即提醒）');
     }
 
     function getRuleStateKey(rule) {
-      return `${rule.id || ''}::${rule.cardId || ''}::${rule.title || ''}`;
+      return KanuAccuracy.periodKey(rule);
     }
 
     let pendingRegistrationRuleKey = '';
@@ -3382,11 +3372,12 @@
       const rule = appRules.find(r => r.id === ruleId);
       if (rule) {
         rule.registered = !rule.registered;
+        rule.registeredPeriod = getRuleStateKey(rule);
         saveRegisteredState();
         renderSpendingList();
         renderHomePromotions();
         renderRewardsStore();
-        showTip(rule.registered ? `✨ 已標記「${rule.title}」登錄生效！` : `已取消「${rule.title}」登錄狀態`);
+        showTip(rule.registered ? `✨ 已標記「${rule.title}」已儲存（未向銀行驗證）` : `已取消「${rule.title}」登錄狀態`);
       }
     }
 
@@ -3437,7 +3428,7 @@
 
     function setRegFilter(filter) {
       currentRegFilter = filter;
-      ['upcoming', 'available', 'marked', 'expired'].forEach(status => {
+      ['upcoming', 'available', 'unknown', 'marked', 'expired'].forEach(status => {
         const button = document.getElementById(`reg-tab-${status}`);
         if (!button) return;
         const active = status === filter;
@@ -3476,21 +3467,24 @@
 
     function saveRegisteredState() {
       try {
-        const regIds = appRules.filter(r => r.registered).map(r => r.id);
-        localStorage.setItem('kanu_user_registered_ids', JSON.stringify(regIds));
-      } catch (e) {}
+        const state = {};
+        appRules.filter(r => r.registered).forEach(r => {
+          const key = getRuleStateKey(r);
+          if (!r.registeredPeriod) r.registeredPeriod = key;
+          if (r.registeredPeriod === key) state[key] = true;
+        });
+        localStorage.setItem('kanu_registration_periods_v3', JSON.stringify(state));
+      } catch (e) { showTip('登錄標記未能儲存，請檢查瀏覽器儲存空間'); }
     }
 
     function loadRegisteredState() {
       try {
-        const saved = localStorage.getItem('kanu_user_registered_ids');
-        if (saved) {
-          const set = new Set(JSON.parse(saved));
-          appRules.forEach(r => {
-            if (set.has(r.id)) r.registered = true;
-          });
-        }
-      } catch (e) {}
+        const state = JSON.parse(localStorage.getItem('kanu_registration_periods_v3') || '{}');
+        appRules.forEach(r => {
+          r.registeredPeriod = getRuleStateKey(r);
+          r.registered = state[r.registeredPeriod] === true;
+        });
+      } catch (e) { appRules.forEach(r => r.registered = false); }
     }
 
     function clearCacheAndReset() {

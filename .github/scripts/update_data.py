@@ -356,6 +356,9 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False, p
       "rewardUnit": "percent 或 TWD 或 points 或 chance",
       "capAmount": 500,
       "capPeriod": "PER_TRANSACTION 或 MONTHLY 或 PER_ACCOUNT 或 CAMPAIGN；內文未明示則留空字串",
+      "capScope": "PROMO=只限制加碼、TOTAL=總回饋上限、NONE=明示無上限；不確定留空",
+      "roundingMode": "FLOOR_COMPONENT=基本和加碼各別捨去、FLOOR=合計捨去、ROUND=四捨五入；無證據留空",
+      "spendBasis": "PER_TRANSACTION 或 CUMULATIVE；未明示留空",
       "minimumSpend": 0,
       "eligibilityRequirements": ["新戶", "完成指定任務"],
       "rewardCalculationMode": "FLAT、TIERED、MAX_ONLY 或 UNKNOWN",
@@ -366,6 +369,9 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False, p
       "maxRateRequires": ["取得最高回饋所需的全部條件"],
       "needReg": false,
       "regDeadline": "登錄時間或方案適用期",
+      "registrationStart": "登錄開始 YYYY-MM-DDTHH:mm:ss+08:00；無明確時間留空，不可猜測九點",
+      "registrationEnd": "登錄結束 YYYY-MM-DDTHH:mm:ss+08:00；與消費期限不同，未明示留空",
+      "validFrom": "消費起日 YYYY-MM-DD；未明示留空",
       "validUntil": "YYYY-MM-DD；未明示則留空字串",
       "sourceUrl": "{source_url}",
       "registrationUrl": "若內文明確提供本活動的官方登錄按鈕或登錄表單網址，填入完整 https 網址；只有介紹頁或無法確認時留空字串",
@@ -547,6 +553,8 @@ def merge_data(bank, result, cards_map, rules_map, source_url):
         validate_rule_card_association(bank, r, cards_map)
 
         r = enrich_reward_fields(r, source_url)
+        # Model-generated VERIFIED is not an independent review of the terms.
+        r.pop("accuracyReview", None)
         r["sourceUrl"] = source_url
         r['bank'] = bank
         r['fetchedAt'] = datetime.utcnow().isoformat() + 'Z'

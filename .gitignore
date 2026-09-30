@@ -1,4 +1,7 @@
 checkpoints/
+.test-deps/
+.build-deps/
+test-output/
 __pycache__/
 *.pyc
 semantic_review.csv
