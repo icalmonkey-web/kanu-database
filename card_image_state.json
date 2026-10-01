@@ -8718,5 +8718,19 @@
       ]
     ],
     "error": ""
+  },
+  "https://www.card.rakuten.com.tw/corp/coupon/": {
+    "checkedAt": "2026-10-01T23:37:51.158524+00:00",
+    "images": [
+      [
+        "https://image.card.tw.r10s.com/images/common/ft_facebook_icon.svg",
+        "Facebook icon"
+      ],
+      [
+        "https://image.card.tw.r10s.com/images/common/ft_line_icon.svg",
+        "Line free icon"
+      ]
+    ],
+    "error": ""
   }
 }
