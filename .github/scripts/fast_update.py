@@ -434,6 +434,18 @@ class AiGate:
                 self.last_request_at = loop.time()
 
 
+def invalidate_source_reviews(rules, urls):
+    """Content changed: retain old offers for reference, never retain their approval."""
+    count = 0
+    for rule in rules.values():
+        review = rule.get('accuracyReview') or {}
+        if rule.get('sourceUrl') in urls and review.get('status') == 'SOURCE_CHECKED':
+            rule['accuracyReview'] = {**review, 'status': 'RECHECK_REQUIRED',
+                'issues': list(dict.fromkeys([*review.get('issues', []), 'OFFICIAL_SOURCE_CHANGED']))}
+            count += 1
+    return count
+
+
 async def analyze_changed_page(ai_gate, bank, product_types, text, url, deadline):
     if asyncio.get_running_loop().time() >= deadline:
         return TIME_BUDGET_EXHAUSTED
@@ -507,6 +519,9 @@ async def crawl_bank(config, client, browser, state, state_lock, ai_gate, merge_
             elif len(cleaned) < 150:
                 row["status"] = "insufficient_content"
             else:
+                if prior_digest and prior_digest != digest:
+                    async with merge_lock:
+                        invalidate_source_reviews(rules, {url, result.url})
                 extracted = await analyze_changed_page(
                     ai_gate, bank, config.get("product_types", ["CREDIT"]), cleaned, result.url, deadline)
                 if extracted is TIME_BUDGET_EXHAUSTED:

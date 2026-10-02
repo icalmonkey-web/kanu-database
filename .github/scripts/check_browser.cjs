@@ -19,6 +19,35 @@ const root = path.resolve(__dirname, '../..');
   await page.goto(`http://127.0.0.1:${server.address().port}`,{waitUntil:'domcontentloaded'});
   await page.waitForFunction(()=>typeof appRules!=='undefined' && appRules.length>0);
   assert.equal(await page.evaluate(()=>appRules.length),JSON.parse(fs.readFileSync(path.join(root,'data.json'))).rules.length);
+  const quality = await page.evaluate(()=>{
+    const checked=appRules.filter(r=>KanuAccuracy.isReviewed(r));
+    const unsafe=appRules.filter(r=>!KanuAccuracy.isReviewed(r)).some(r=>getRewardRankingMetrics(r,calcRuleCashBack(r,2000)).cash>0);
+    const r=structuredClone(checked[0]);r.promoRate+=10;
+    const pointRule=appRules.find(r=>r.id==='rule_1704bb66da21702598dd');
+    return {checked:checked.length,unsafe,mutatedStillTrusted:KanuAccuracy.isReviewed(r),pointType:pointRule.rewardType};
+  });
+  assert.deepEqual(quality,{checked:8,unsafe:false,mutatedStillTrusted:false,pointType:'points'});
+  const assessmentDisplay=await page.evaluate(()=>{
+    const r={...appRules.find(r=>r.id==='review_ubear_online_202609'),id:'reference_fixture',accuracyReview:null,
+      title:'最高3%網購回饋',rewardType:'percent',rewardUnit:'percent',sourceUrl:'https://bank.test/offer'};
+    const calc=calcRuleCashBack(r,2000);
+    return {headline:getRecommendationHeadline(r,calc,getRuleConditionStatus(r,null)),label:getRuleRewardLabel(r),cash:getRewardRankingMetrics(r,calc).cash};
+  });
+  assert.ok(assessmentDisplay.headline.includes('3%'));
+  assert.ok(assessmentDisplay.headline.includes('資料列示'));
+  assert.ok(!assessmentDisplay.headline.includes('待核實'));
+  assert.equal(assessmentDisplay.cash,0);
+  for (const query of ['LINE Pay','Apple Store','中油','海外']) {
+    await page.evaluate(query=>{setScope('all');document.getElementById('search-input').value=query;handleSearchInput()},query);
+    await page.waitForTimeout(100);
+    const text=await page.locator('#spending-list-container').innerText();
+    assert.ok(text.includes('Unicard'),query+' must include a verified Unicard recommendation');
+    assert.ok(text.includes('4.5%'),query+' must show total rate, not add base twice');
+    const groups=page.locator('#spending-list-container details');
+    if (await groups.count()) assert.equal(await groups.first().getAttribute('open'),null);
+  }
+  await page.evaluate(()=>{appCards.find(c=>c.id==='card_玉山銀行_9').owned=true;setScope('my');document.getElementById('search-input').value='LINE Pay';handleSearchInput()});
+  assert.ok((await page.locator('#spending-list-container').innerText()).includes('Unicard'));
   await page.evaluate(()=>{setScope('all');document.getElementById('search-input').value='網購';handleSearchInput()});
   await page.waitForTimeout(400);
   assert.ok((await page.locator('#spending-list-container').innerText()).length>0);

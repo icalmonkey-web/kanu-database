@@ -99,6 +99,7 @@ jobs:
           node --test .github/scripts/test_accuracy.cjs
           python .github/scripts/repair_accuracy.py
           python .github/scripts/audit_accuracy.py
+          node .github/scripts/quality_queue.cjs
 
       - name: 補齊官方卡面（已取得略過、缺圖頁每週重試）
         run: python .github/scripts/repair_card_images.py
@@ -113,6 +114,7 @@ jobs:
             checkpoints/
             source_repair_report.json
             accuracy_report.json
+            quality_queue.json
             card_image_report.json
           if-no-files-found: ignore
 
@@ -140,7 +142,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
           git pull --rebase --autostash origin main
-          for file in data.json crawler_state.json crawl_report.json source_repair_report.json issuer_registry.json payment_provider_registry.json accuracy_report.json card_image_report.json card_image_state.json; do
+          for file in data.json crawler_state.json crawl_report.json source_repair_report.json issuer_registry.json payment_provider_registry.json accuracy_report.json quality_queue.json card_image_report.json card_image_state.json; do
             if [ -e "$file" ]; then git add "$file"; fi
           done
           if git diff --staged --quiet; then

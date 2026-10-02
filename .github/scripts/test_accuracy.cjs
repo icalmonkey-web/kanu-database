@@ -34,8 +34,46 @@ test('HTML inline scripts compile',()=>{const html=fs.readFileSync(require('node
 test('deployed engine matches tested engine',()=>{const p=require('node:path');const html=fs.readFileSync(p.join(__dirname,'../../index.html'),'utf8').replace(/\r\n/g,'\n');const core=fs.readFileSync(p.join(__dirname,'../../accuracy-core.js'),'utf8').replace(/\r\n/g,'\n');assert.ok(html.includes(core.trim()));});
 test('independent reviews expire and must match the source',()=>{
  const r={sourceUrl:'https://bank.test/offer',accuracyReview:{status:'SOURCE_CHECKED',sourceUrl:'https://bank.test/offer',fields:['baseRate'],checkedAt:'2026-09-01T00:00:00Z'}};
+ r.accuracyReview.termsSnapshot=A.termsSnapshot(r);
  assert.ok(A.isReviewed(r,new Date('2026-09-02T00:00Z')));
  assert.equal(A.isReviewed(r,new Date('2026-09-20T00:00Z')),false);
  r.sourceUrl='https://bank.test/other';assert.equal(A.isReviewed(r,new Date('2026-09-02T00:00Z')),false);
 });
+test('changed terms invalidate review even at same URL',()=>{
+ const r={...flat,sourceUrl:'https://bank.test/offer',accuracyReview:{status:'SOURCE_CHECKED',sourceUrl:'https://bank.test/offer',fields:['baseRate'],checkedAt:'2026-10-02T00:00:00Z'}};
+ r.accuracyReview.termsSnapshot=A.termsSnapshot(r);
+ assert.equal(A.isReviewed(r,new Date('2026-10-03T00:00Z')),true);
+ r.promoRate=20;assert.equal(A.isReviewed(r,new Date('2026-10-03T00:00Z')),false);
+});
+test('percentage points without exchange evidence are not cash',()=>assert.equal(A.calculate({...flat,rewardType:'points',rewardUnit:'percent'},2000).calculable,false));
+test('structured cumulative threshold is never a single purchase',()=>assert.equal(A.calculate({...flat,spendBasis:'CAMPAIGN',minimumSpend:6000},10000).calculable,false));
+test('expired offers cannot yield a reward estimate',()=>assert.equal(A.calculate({...flat,validUntil:'2020-01-01'},2000).calculable,false));
+test('future offers cannot yield a current reward estimate',()=>assert.equal(A.calculate({...flat,validFrom:'2099-01-01'},2000).calculable,false));
+test('review snapshots include the search scope, not only reward numbers',()=>{
+ const r={searchKeywords:'LINE Pay',accuracyReview:{}};r.accuracyReview.termsSnapshot=A.termsSnapshot(r);
+ assert.equal(A.reviewMatches(r),true);r.searchKeywords='海外';assert.equal(A.reviewMatches(r),false);
+});
+test('reviewed Unicard separates scheme total, cap and point value',()=>{
+ const data=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../../data.json'),'utf8'));
+ const r=data.rules.find(r=>r.id==='review_unicard_linepay_202610');
+ assert.ok(r); assert.equal(A.calculate(r,2000).potentialCash,90);
+ assert.equal(A.calculate(r,2000).totalCash,0); // e-bill, debit and scheme are not confirmed by this app.
+ assert.equal(A.calculate(r,2000).potentialRate,4.5);
+ assert.equal(A.calculate({...r,remainingCap:0},2000).potentialCash,20);
+ assert.equal(A.calculate(r,149).potentialCash,6); // basic round(1.49) + bonus round(5.215)
+});
 test('offline utilities are bundled',()=>{const html=fs.readFileSync(require('node:path').join(__dirname,'../../index.html'),'utf8');assert.ok(html.includes('id="compiled-utilities"'));assert.ok(!html.includes('<script src="https://cdn.tailwindcss.com">'));});
+test('having a source is useful reference, not automatic factual approval',()=>{
+ const r={...flat,sourceUrl:'https://bank.test/offer',title:'最高3%回饋'};
+ assert.equal(A.assessment(r).level,'REFERENCE');assert.equal(A.assessment(r).cashAllowed,false);
+ assert.equal(A.referenceReward(r),'最高 3%（資料列示）');
+});
+test('cash cap is not presented as a fixed gift and zero points are not promoted',()=>{
+ assert.equal(A.referenceReward({rewardType:'cash',rewardAmount:150,capAmount:150}),'活動優惠（條件待補）');
+ assert.equal(A.referenceReward({rewardType:'points',rewardAmount:0,rewardUnit:'points'}),'活動優惠（條件待補）');
+});
+test('conflicts and changed official sources stop numeric recommendation',()=>{
+ assert.equal(A.assessment({sourceUrl:'https://bank.test',accuracyReview:{status:'CONFLICT'}}).level,'BLOCKED');
+ assert.equal(A.assessment({sourceUrl:'https://bank.test',accuracyReview:{status:'RECHECK_REQUIRED'}}).level,'BLOCKED');
+ assert.equal(A.referenceReward({title:'旅遊保險',rewardType:'cash',rewardAmount:3190000}),'保險保障，非刷卡回饋');
+});

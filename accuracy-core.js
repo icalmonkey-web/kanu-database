@@ -3,6 +3,23 @@
   'use strict';
   const number = v => typeof v === 'number' && Number.isFinite(v) && v >= 0 ? v : null;
   const taipei = now => new Date(now.getTime() + 8 * 3600000);
+  const termFields = ['cardId','sourceUrl','title','baseRate','promoRate','rewardType','rewardUnit','rewardAmount',
+    'capAmount','capScope','capPeriod','minimumSpend','spendBasis','roundingMode','validFrom','validUntil',
+    'needReg','regDeadline','registrationStart','registrationEnd','registrationCycle','registrationMethods',
+    'eligibilityRequirements','rewardCalculationMode','rewardTiers','selectionMode','benefitPlan',
+    'matchedMerchants','excludedKeywords','quotaInfo','pointValueTwd','associationStatus',
+    'category','scope','searchKeywords','intentTags','intentEvidence','offerDomain','fundingMethods','bank'];
+  function termsSnapshot(rule) {
+    return JSON.parse(JSON.stringify(Object.fromEntries(termFields.map(key => [key, rule[key] ?? null]))));
+  }
+  function stable(value) {
+    if (Array.isArray(value)) return value.map(stable);
+    if (value && typeof value === 'object') return Object.fromEntries(Object.keys(value).sort().map(k=>[k,stable(value[k])]));
+    return value;
+  }
+  function reviewMatches(rule) {
+    return !!rule.accuracyReview?.termsSnapshot && JSON.stringify(stable(termsSnapshot(rule))) === JSON.stringify(stable(rule.accuracyReview.termsSnapshot));
+  }
   function date(value, end = false) {
     const text = String(value || '').trim();
     const m = text.match(/^(20\d{2})[-/.年](\d{1,2})[-/.月](\d{1,2})日?(?:[T\s]+(\d{1,2}):(\d{2})(?::(\d{2}))?(\.\d+)?(Z|[+-]\d{2}:\d{2})?)?$/);
@@ -53,13 +70,18 @@
       spendAmount, isBoostActive: false, capped: false, capAmount: number(rule.capAmount),
       calculable: false, reason: '', assumptions: [] };
     const fail = reason => ({ ...result, reason });
+    const now = new Date();
+    const until = date(rule.validUntil, true);
+    if (until && until < now) return fail('活動已截止');
+    if (rule.validFrom && date(rule.validFrom) > now) return fail('活動尚未開始');
     const type = String(rule.rewardType || '').toLowerCase();
     const unit = String(rule.rewardUnit || '').toLowerCase();
     if (['draw', 'installment', 'insurance_benefit'].includes(type)) return fail('非保證現金回饋');
-    if (type === 'points' && unit !== 'percent' && unit !== 'twd') return fail('點數未確認兌換價值');
+    if (type === 'points' && unit !== 'twd' && !(unit === 'percent' && rule.pointValueTwd === 1)) return fail('點數未確認兌換價值');
     const min = number(rule.minimumSpend);
     if (min !== null && spendAmount < min) return fail('本筆未達最低消費門檻');
-    if (/累積|累計/.test(rule.quotaInfo || '') && rule.spendBasis !== 'PER_TRANSACTION') return fail('累積消費資格未確認');
+    if (['CAMPAIGN','MONTHLY','STATEMENT'].includes(rule.spendBasis)
+      || (/累積|累計/.test([rule.quotaInfo,...(rule.eligibilityRequirements || [])].join(' ')) && rule.spendBasis !== 'PER_TRANSACTION')) return fail('累積消費資格未確認');
     const base = number(rule.baseRate) || 0;
     const promo = number(rule.promoRate) || 0;
     const mode = rule.rewardCalculationMode;
@@ -78,8 +100,8 @@
     if (base > 100 || promo > 100 || best.totalRate > 100) return fail('回饋率異常');
     const fixed = type === 'cash' || (type === 'points' && unit === 'twd');
     if (fixed && (rule.spendBasis !== 'PER_TRANSACTION' || min === null || number(rule.rewardAmount) === null)) return fail('固定回饋門檻或計次方式未確認');
-    if (rule.roundingMode !== 'FLOOR_COMPONENT' && rule.roundingMode !== 'FLOOR' && rule.roundingMode !== 'ROUND') result.assumptions.push('銀行取整方式待確認，金額僅為試算');
-    const round = n => rule.roundingMode === 'ROUND' ? Math.round(n) : rule.roundingMode?.startsWith('FLOOR') ? Math.floor(n + 1e-9) : Math.floor((n + 1e-9) * 100) / 100;
+    if (!['FLOOR_COMPONENT','FLOOR','ROUND','ROUND_COMPONENT'].includes(rule.roundingMode)) result.assumptions.push('銀行取整方式待確認，金額僅為試算');
+    const round = n => rule.roundingMode?.startsWith('ROUND') ? Math.round(n + 1e-9) : rule.roundingMode?.startsWith('FLOOR') ? Math.floor(n + 1e-9) : Math.floor((n + 1e-9) * 100) / 100;
     function cash(tier) {
       if (!tier) return 0;
       const total = tier.totalRate;
@@ -87,7 +109,7 @@
       let baseCash = spendAmount * b / 100;
       let bonusCash = fixed ? rule.rewardAmount : spendAmount * (total - b) / 100;
       const cap = number(tier.capAmount) ?? number(rule.capAmount);
-      if (rule.roundingMode === 'FLOOR_COMPONENT') { baseCash = round(baseCash); bonusCash = round(bonusCash); }
+      if (['FLOOR_COMPONENT','ROUND_COMPONENT'].includes(rule.roundingMode)) { baseCash = round(baseCash); bonusCash = round(bonusCash); }
       if (cap !== null) {
         if (!['PROMO', 'TOTAL', 'NONE'].includes(rule.capScope)) return null;
         if (rule.capScope !== 'NONE') {
@@ -120,9 +142,42 @@
     const checked = date(review?.checkedAt);
     return !!(review?.status === 'SOURCE_CHECKED' && !review.issues?.length
       && review.fields?.length && review.sourceUrl === rule.sourceUrl && checked
+      && (rule._reviewTermsMatch === undefined ? reviewMatches(rule) : rule._reviewTermsMatch === true
+        && JSON.stringify(stable(termsSnapshot(rule))) === JSON.stringify(stable(rule._reviewTermsBaseline)))
+      && !rule.validationIssues?.length && rule.associationStatus !== 'needs_review'
       && checked <= now && now - checked <= 14 * 86400000);
   }
-  const api = { date, registrationWindow, periodKey, lifecycle, calculate, isReviewed };
+  function assessment(rule) {
+    if (isReviewed(rule)) return {level:'CHECKED',priority:3,label:'已核對條款',cashAllowed:true};
+    const review=rule.accuracyReview || {};
+    const conflict=review.status==='CONFLICT' || review.status==='RECHECK_REQUIRED'
+      || rule.associationStatus==='needs_review' || rule.unresolvedCardId
+      || (rule.validationIssues || []).some(s=>/MIXED_|ORPHAN|CARD_ASSOCIATION|WRONG_CARD/.test(s));
+    if (conflict) return {level:'BLOCKED',priority:0,label:'資料有衝突，暫停推薦',cashAllowed:false};
+    let source=false;
+    try { const url=new URL(rule.sourceUrl);source=url.protocol==='https:' && !!url.hostname && !url.username && !url.password; } catch {}
+    if (!source) return {level:'BLOCKED',priority:0,label:'缺少可核對來源',cashAllowed:false};
+    if (review.status==='PARTIAL' && review.evidence && review.fields?.length)
+      return {level:'PARTIAL',priority:2,label:'部分條件已核對',cashAllowed:false};
+    return {level:'REFERENCE',priority:1,label:'有來源，尚未完整覆核',cashAllowed:false};
+  }
+  function referenceReward(rule) {
+    const type=String(rule.rewardType || '').toLowerCase(),unit=String(rule.rewardUnit || '').toLowerCase();
+    if (type==='insurance_benefit' || /旅平險|旅遊.*保險|旅遊不便險/.test(rule.title || '')) return '保險保障，非刷卡回饋';
+    if (type==='draw') return '抽獎活動';
+    if (type==='installment') return '分期優惠';
+    if (type==='points' && unit!=='percent' && number(rule.rewardAmount)>0) return `${rule.rewardAmount} 點（資料列示）`;
+    if (type==='cash' && number(rule.rewardAmount)>0 && rule.rewardAmount!==rule.capAmount) return `NT$${rule.rewardAmount}（資料列示）`;
+    // A cap is never an award. Do not add base + promo without verified semantics.
+    if (type==='percent' || unit==='percent') {
+      const titleRate=String(rule.title || '').match(/(?:最高|享)\s*(\d+(?:\.\d+)?)\s*%/);
+      if (titleRate && +titleRate[1]>0 && +titleRate[1]<=100) return `最高 ${+titleRate[1]}%（資料列示）`;
+      if (number(rule.promoRate)>0 && rule.promoRate<=100) return `加碼 ${rule.promoRate}%（資料列示）`;
+      if (number(rule.baseRate)>0 && rule.baseRate<=100) return `${rule.baseRate}%（資料列示）`;
+    }
+    return '活動優惠（條件待補）';
+  }
+  const api = { date, registrationWindow, periodKey, lifecycle, calculate, isReviewed, termsSnapshot, reviewMatches, assessment, referenceReward };
   if (typeof module !== 'undefined') module.exports = api;
   else root.KanuAccuracy = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

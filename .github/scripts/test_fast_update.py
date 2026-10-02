@@ -10,6 +10,15 @@ from fast_update import atomic_json, normalized_content, parse_html, stable_hash
 
 
 class FastPipelineTests(unittest.TestCase):
+    def test_changed_official_source_revokes_review_even_if_ai_later_fails(self):
+        rules = {'one': {'sourceUrl': 'https://bank.test/offer',
+            'accuracyReview': {'status': 'SOURCE_CHECKED', 'checkedAt': 'original'}},
+            'two': {'sourceUrl': 'https://bank.test/other', 'accuracyReview': {'status': 'SOURCE_CHECKED'}}}
+        self.assertEqual(fast_update.invalidate_source_reviews(rules, {'https://bank.test/offer'}), 1)
+        self.assertEqual(rules['one']['accuracyReview']['status'], 'RECHECK_REQUIRED')
+        self.assertEqual(rules['one']['accuracyReview']['checkedAt'], 'original')
+        self.assertEqual(rules['two']['accuracyReview']['status'], 'SOURCE_CHECKED')
+        self.assertEqual(fast_update.invalidate_source_reviews(rules, {'https://bank.test/offer'}), 0)
     def test_expired_rules_are_removed_only_after_thirty_day_history_window(self):
         now = datetime(2026, 9, 26)
         self.assertTrue(fast_update.legacy.should_retain_rule(

@@ -56,6 +56,11 @@ def audit(data, now=None):
                     issues.append('STALE_TERM_REVIEW')
                 if review.get('sourceUrl') != rule.get('sourceUrl') or review.get('issues'):
                     issues.append('TERM_REVIEW_CONFLICT')
+                snapshot = review.get('termsSnapshot')
+                if not isinstance(snapshot, dict) or not snapshot:
+                    issues.append('MISSING_REVIEW_SNAPSHOT')
+                elif any(rule.get(field) != value for field, value in snapshot.items()):
+                    issues.append('REVIEWED_TERMS_CHANGED')
             except (ValueError, TypeError):
                 issues.append('INVALID_REVIEW_DATE')
         for issue in issues:

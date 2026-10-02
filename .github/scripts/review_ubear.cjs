@@ -5,7 +5,7 @@ const root = path.resolve(__dirname,'../..');
 const file = path.join(root,'data.json');
 const data = JSON.parse(fs.readFileSync(file,'utf8'));
 const source = 'https://event.esunbank.com.tw/credit/ubear/card.html';
-const checkedAt = '2026-09-29T01:00:00+08:00';
+const checkedAt = '2026-10-03T00:00:00+08:00';
 const fields = ['baseRate','promoRate','capAmount','capScope','capPeriod','validFrom','validUntil','eligibilityRequirements','excludedKeywords','roundingMode'];
 const common = {cardId:'card_esun_ubear',bank:'玉山銀行',offerDomain:'CARD',sourceUrl:source,
  validFrom:'2026-09-01',validUntil:'2027-02-28',fetchedAt:checkedAt,needReg:false,
@@ -20,7 +20,7 @@ const corrected=[
   matchedMerchants:['國內一般消費','海外一般消費','日本實體消費'],searchKeywords:'一般消費 日本 實體',capAmount:null,capScope:'NONE',
   eligibilityRequirements:['電子帳單或玉山臺幣帳戶自扣；自扣须扣款成功'],
   rewardTiers:[tier('符合其中一項',.5,.5,['帳單e化或成功自扣']),tier('兩項皆符合',1,1,['帳單e化及成功自扣'])],
-  excludedKeywords:['數位訂閱','分期','全聯','大全聯','繳費'],
+  excludedKeywords:['數位訂閱','Netflix','ChatGPT','Gemini','Steam','Nintendo','PlayStation','Google One','Google Services','分期','全聯','大全聯','超商','7-ELEVEN','全家','萊爾富','OK超商','繳費','繳稅','學費','醫療費','政府規費','小額支付','儲值','自動加值','eTag','投資平台','賭博','躉繳保費','三商美邦投資型保單'],
   quotaInfo:'依帳單e化與玉山臺幣帳戶自扣資格，回饋0.5%或1%；兩者皆符合才是1%。分期及指定訂閱不適用。逐筆捨去至元，正附卡合併。'},
  {...common,id:'review_ubear_online_202609',title:'U Bear 網路消費：符合任務最高3%',category:'網購',baseRate:0,promoRate:0,rewardAmount:3,
   matchedMerchants:['網路消費','LINE Pay','Booking.com','agoda','Trip.com'],searchKeywords:'網購 訂房 網路消費 LINE Pay',
@@ -41,6 +41,10 @@ for(const r of data.rules){
  }
 }
 data.rules=data.rules.filter(r=>!corrected.some(c=>c.id===r.id)).concat(corrected);
+for (const r of corrected) r.accuracyReview = {...r.accuracyReview,
+ fields:Object.keys(require('../../accuracy-core.js').termsSnapshot(r)),
+ evidenceSources:[source,'https://event.esunbank.com.tw/credit/notice/index.html'],
+ evidence:r.quotaInfo,termsSnapshot:require('../../accuracy-core.js').termsSnapshot(r)};
 data.version += data.version.includes('-ubear-review')?'':'-ubear-review';
 fs.writeFileSync(file,JSON.stringify(data,null,2));
 console.log('Added 3 separately scoped official U Bear rules; quarantined mixed rate rule.');

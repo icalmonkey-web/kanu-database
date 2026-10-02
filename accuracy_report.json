@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-30T12:48:10.332079+00:00",
+  "generatedAt": "2026-10-02T16:21:35.895269+00:00",
   "targetAccuracy": 0.98,
   "measuredAccuracy": null,
   "coveragePercent": null,
   "acceptanceStatus": "NOT_ESTABLISHED",
   "reason": "需要獨立官方基準清單及逐欄核對；結構通過率、測試通過率都不是優惠準確率。",
-  "totalRules": 1830,
+  "totalRules": 1835,
   "issueCounts": {
     "UNRESOLVED_CARD_ASSOCIATION": 510,
     "MISSING_OR_UNSAFE_SOURCE": 268,
     "MISSING_CAMPAIGN_END": 895,
-    "UNKNOWN_CALCULATION": 532,
+    "UNKNOWN_CALCULATION": 533,
     "NO_INDEPENDENT_TERM_REVIEW": 1827,
-    "UNSTRUCTURED_REGISTRATION_WINDOW": 324,
-    "UNKNOWN_CAP_SCOPE": 1233,
+    "UNSTRUCTURED_REGISTRATION_WINDOW": 322,
+    "UNKNOWN_CAP_SCOPE": 1229,
     "MAXIMUM_ONLY": 220
   },
   "rules": [
@@ -11183,8 +11183,6 @@
       "bank": "將來銀行",
       "title": "【大將卡】Part 1-行前準備指定通路加碼2.5%回饋",
       "issues": [
-        "UNKNOWN_CAP_SCOPE",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -11193,8 +11191,6 @@
       "bank": "將來銀行",
       "title": "【大將卡】Part 2-日本當地實體消費加碼5%回饋",
       "issues": [
-        "UNKNOWN_CAP_SCOPE",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -16778,16 +16774,15 @@
       "bank": "將來銀行",
       "title": "Part 1-基本回饋 0.5%",
       "issues": [
-        "UNKNOWN_CAP_SCOPE",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
     {
       "id": "rule_599877f136e1ea70a6cb",
       "bank": "將來銀行",
-      "title": "Part 2-理想生活指定通路加碼4.5%",
+      "title": "理想生活指定通路：單筆滿1,000元固定加碼45 N點",
       "issues": [
-        "UNKNOWN_CAP_SCOPE",
+        "UNKNOWN_CALCULATION",
         "UNSTRUCTURED_REGISTRATION_WINDOW",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
@@ -18631,6 +18626,36 @@
       "id": "review_ubear_subscription_202609",
       "bank": "玉山銀行",
       "title": "U Bear 指定數位訂閱10%（每期上限100元）",
+      "issues": []
+    },
+    {
+      "id": "review_unicard_general_202610",
+      "bank": "玉山銀行",
+      "title": "Unicard 一般消費：依帳單與自扣資格最高1%",
+      "issues": []
+    },
+    {
+      "id": "review_unicard_linepay_202610",
+      "bank": "玉山銀行",
+      "title": "Unicard LINE Pay：依方案及任務最高4.5%",
+      "issues": []
+    },
+    {
+      "id": "review_unicard_apple_202610",
+      "bank": "玉山銀行",
+      "title": "Unicard 台灣Apple直營通路：依方案及任務最高4.5%",
+      "issues": []
+    },
+    {
+      "id": "review_unicard_cpc_202610",
+      "bank": "玉山銀行",
+      "title": "Unicard 中油直營站：依方案及任務最高4.5%",
+      "issues": []
+    },
+    {
+      "id": "review_unicard_overseas_202610",
+      "bank": "玉山銀行",
+      "title": "Unicard 指定國家實體消費：依方案及任務最高4.5%",
       "issues": []
     }
   ]
