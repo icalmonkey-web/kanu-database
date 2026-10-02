@@ -41,8 +41,10 @@ const patches = {
 let ledger = {startedAt: checkedAt, scope: 'Every existing rule; pending is NOT verified', entries: {}};
 const ledgerFile = path.join(root, 'rule_review_ledger.json');
 if (fs.existsSync(ledgerFile)) ledger = JSON.parse(fs.readFileSync(ledgerFile, 'utf8'));
+for (const entry of Object.values(ledger.entries)) entry.active = false;
 for (const rule of data.rules) {
   ledger.entries[rule.id] ||= {status: 'PENDING', title: rule.title, sourceUrl: rule.sourceUrl || ''};
+  ledger.entries[rule.id].active = true;
   const patch = patches[rule.id];
   if (!patch) continue;
   const before = JSON.parse(JSON.stringify(rule));
@@ -52,11 +54,11 @@ for (const rule of data.rules) {
   // Terms checked, but insufficient to claim a fully verified cash estimate.
   rule.accuracyReview = {status: 'PARTIAL', checkedAt, sourceUrl: rule.sourceUrl,
     method: 'official_terms_read', fields: Object.keys(fields), issues, evidence};
-  ledger.entries[rule.id] = {status: 'PARTIAL', checkedAt, sourceUrl: rule.sourceUrl,
-    evidence, issues, before, corrected: JSON.parse(JSON.stringify(rule))};
+  ledger.entries[rule.id] = {status: 'PARTIAL', active:true, checkedAt, sourceUrl: rule.sourceUrl,
+    evidence, issues, before:ledger.entries[rule.id].before || before, corrected: JSON.parse(JSON.stringify(rule))};
 }
 ledger.updatedAt = checkedAt;
-ledger.counts = Object.values(ledger.entries).reduce((a,r) => (a[r.status]=(a[r.status]||0)+1,a),{});
+ledger.counts = Object.values(ledger.entries).filter(r=>r.active).reduce((a,r) => (a[r.status]=(a[r.status]||0)+1,a),{});
 fs.writeFileSync(file, JSON.stringify(data, null, 2));
 fs.writeFileSync(ledgerFile, JSON.stringify(ledger, null, 2));
 console.log(JSON.stringify(ledger.counts));

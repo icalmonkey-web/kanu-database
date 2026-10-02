@@ -8656,5 +8656,81 @@
       ]
     ],
     "error": ""
+  },
+  "https://www.hsbc.com.tw/en-tw/credit-cards/products/travel/": {
+    "checkedAt": "2026-09-30T13:43:46.701498+00:00",
+    "images": [
+      [
+        "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/logos/hsbc-logo.svg",
+        "HSBC Taiwan Bank"
+      ],
+      [
+        "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/logos/hsbc-logo.svg",
+        "HSBC Taiwan Bank"
+      ],
+      [
+        "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/credit-cards/16-9/7745-colorfu-hot-air-balloons-flying-over-mountain-899x500.jpg",
+        "Toy robots are lining up  in front of a door, image used for HSBC Taiwan HSBC Visa Travelers' Card page. "
+      ],
+      [
+        "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/credit-cards/7745/7745-infinite-black-front-cmyk-1600x900.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg",
+        "HSBC Visa Infinite  credit card image"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.hsbc.com.tw/en-tw/credit-cards/products/travelone/": {
+    "checkedAt": "2026-09-30T13:43:46.701498+00:00",
+    "images": [
+      [
+        "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/logos/hsbc-logo.svg",
+        "HSBC Taiwan Bank"
+      ],
+      [
+        "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/logos/hsbc-logo.svg",
+        "HSBC Taiwan Bank"
+      ],
+      [
+        "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/credit-cards/16-9/16465-ihg-logo-889x500.jpg",
+        "IHG優悅會"
+      ],
+      [
+        "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/credit-cards/16-9/16465-all-logo-889x500.jpg",
+        "ALL – Accor Live Limitless 雅高心悅界"
+      ],
+      [
+        "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/credit-cards/16-9/16465-marriot-bonvoy-logo-889x500.jpg",
+        "MARRIOTT BONVOY 萬豪旅享家®"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.hsbc.com.tw/en-tw/credit-cards/products/liveplus/": {
+    "checkedAt": "2026-09-30T13:43:46.701498+00:00",
+    "images": [
+      [
+        "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/logos/hsbc-logo.svg",
+        "HSBC Taiwan Bank"
+      ],
+      [
+        "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/logos/hsbc-logo.svg",
+        "HSBC Taiwan Bank"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.card.rakuten.com.tw/corp/coupon/": {
+    "checkedAt": "2026-10-01T23:37:51.158524+00:00",
+    "images": [
+      [
+        "https://image.card.tw.r10s.com/images/common/ft_facebook_icon.svg",
+        "Facebook icon"
+      ],
+      [
+        "https://image.card.tw.r10s.com/images/common/ft_line_icon.svg",
+        "Line free icon"
+      ]
+    ],
+    "error": ""
   }
 }
