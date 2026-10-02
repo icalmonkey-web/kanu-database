@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "description": "台灣信用卡發卡機構主清單。enabled 僅代表已設定可執行入口，不代表涵蓋率驗證通過。",
-  "lastUpdatedAt": "2026-10-01T23:37:48.184912Z",
+  "lastUpdatedAt": "2026-10-02T17:32:35.235131Z",
   "issuers": [
     {
       "name": "永豐銀行",
@@ -82,7 +82,7 @@
       "eventLinkPattern": "/personal/credit-card/(discount|tools)/",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 75,
-      "discoveredOfferCount": 223,
+      "discoveredOfferCount": 228,
       "unvisitedPageCount": 145,
       "failedPageCount": 1,
       "lastScanAt": "2026-10-01T23:01:40.512722Z",
@@ -196,10 +196,10 @@
       "eventLinkPattern": "/(cards|offers|promotions|campaigns)/",
       "lastSuccessfulScanAt": "2026-09-24T21:26:01.503063Z",
       "discoveredCardCount": 25,
-      "discoveredOfferCount": 62,
+      "discoveredOfferCount": 77,
       "unvisitedPageCount": 224,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-01T23:00:28.403761Z",
+      "lastScanAt": "2026-10-02T17:23:29.528620Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -691,12 +691,12 @@
       "eventLinkPattern": "(debit|card|event|activity|offer)",
       "coverageNote": "僅收錄具實質消費回饋的簽帳金融卡",
       "lastSuccessfulScanAt": "2026-09-25T03:52:33.701377Z",
-      "discoveredCardCount": 16,
-      "discoveredOfferCount": 22,
-      "unvisitedPageCount": 0,
+      "discoveredCardCount": 30,
+      "discoveredOfferCount": 61,
+      "unvisitedPageCount": 170,
       "failedPageCount": 0,
-      "lastScanAt": "2026-09-25T03:52:33.701377Z",
-      "lastScanStatus": "completed"
+      "lastScanAt": "2026-10-02T17:32:26.319535Z",
+      "lastScanStatus": "needs_review"
     },
     {
       "name": "將來銀行",
@@ -766,7 +766,7 @@
       "discoveredOfferCount": 8,
       "unvisitedPageCount": 0,
       "failedPageCount": 1,
-      "lastScanAt": "2026-10-01T23:12:56.444046Z",
+      "lastScanAt": "2026-10-02T16:51:29.707936Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -794,12 +794,12 @@
       ],
       "eventLinkPattern": "(card|debit|event|campaign|news)",
       "coverageNote": "只收錄具實質消費回饋的簽帳金融卡",
-      "lastSuccessfulScanAt": "2026-09-25T03:52:03.063111Z",
+      "lastSuccessfulScanAt": "2026-10-02T17:23:17.933898Z",
       "discoveredCardCount": 1,
-      "discoveredOfferCount": 0,
+      "discoveredOfferCount": 1,
       "unvisitedPageCount": 0,
       "failedPageCount": 0,
-      "lastScanAt": "2026-09-25T03:52:03.063111Z",
+      "lastScanAt": "2026-10-02T17:23:17.933898Z",
       "lastScanStatus": "completed"
     },
     {
@@ -828,11 +828,11 @@
       ],
       "eventLinkPattern": "(credit-cards|benefits|offers)",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 9,
-      "discoveredOfferCount": 36,
-      "unvisitedPageCount": 29,
+      "discoveredCardCount": 18,
+      "discoveredOfferCount": 71,
+      "unvisitedPageCount": 187,
       "failedPageCount": 11,
-      "lastScanAt": "2026-09-25T03:52:22.912931Z",
+      "lastScanAt": "2026-10-02T17:29:57.575128Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -864,7 +864,7 @@
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
       "failedPageCount": 1,
-      "lastScanAt": "2026-09-25T03:52:06.494358Z",
+      "lastScanAt": "2026-10-02T17:23:19.752518Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -891,12 +891,12 @@
         "playwright"
       ],
       "eventLinkPattern": "(credit-card|card|event|activity)",
-      "lastSuccessfulScanAt": "2026-09-25T03:52:08.047231Z",
+      "lastSuccessfulScanAt": "2026-10-02T17:23:21.080465Z",
       "discoveredCardCount": 0,
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
       "failedPageCount": 0,
-      "lastScanAt": "2026-09-25T03:52:08.047231Z",
+      "lastScanAt": "2026-10-02T17:23:21.080465Z",
       "lastScanStatus": "completed"
     },
     {
@@ -924,11 +924,11 @@
       ],
       "eventLinkPattern": "(credit|card|event|activity)",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 13,
-      "discoveredOfferCount": 19,
+      "discoveredCardCount": 18,
+      "discoveredOfferCount": 40,
       "unvisitedPageCount": 1,
-      "failedPageCount": 1,
-      "lastScanAt": "2026-09-25T03:55:11.486735Z",
+      "failedPageCount": 0,
+      "lastScanAt": "2026-10-02T17:32:34.408994Z",
       "lastScanStatus": "needs_review"
     }
   ]

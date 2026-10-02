@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-01T23:37:55.419544+00:00",
-  "added": [],
-  "withImage": 240,
+  "generatedAt": "2026-10-02T17:32:36.330030+00:00",
+  "added": [
+    {
+      "id": "card_美國運通_624",
+      "cardName": "長榮航空簽帳白金卡",
+      "imageUrl": "https://icm.aexp-static.com/Internet/internationalcardshop/zh_tw/images/cards/eva-plat.png"
+    },
+    {
+      "id": "card_美國運通_626",
+      "cardName": "美國運通簽帳金卡",
+      "imageUrl": "https://icm.aexp-static.com/Internet/internationalcardshop/zh_tw/images/cards/EVAGold_480x304.png"
+    }
+  ],
+  "withImage": 261,
   "missing": [
     {
       "id": "card_cathay_cube",
@@ -1189,19 +1200,9 @@
       "cardName": "VISA 簽帳金融卡"
     },
     {
-      "id": "card_王道銀行_365",
-      "bank": "王道銀行",
-      "cardName": "O-Bank簽帳金融卡"
-    },
-    {
       "id": "card_LINE Bank_366",
       "bank": "LINE Bank",
       "cardName": "LINE Bank 簽帳金融卡"
-    },
-    {
-      "id": "card_王道銀行_367",
-      "bank": "王道銀行",
-      "cardName": "王道銀行簽帳金融卡"
     },
     {
       "id": "card_將來銀行_368",
@@ -1212,11 +1213,6 @@
       "id": "card_樂天國際商業銀行_370",
       "bank": "樂天國際商業銀行",
       "cardName": "樂天國際銀行簽帳金融卡"
-    },
-    {
-      "id": "card_美國運通_371",
-      "bank": "美國運通",
-      "cardName": "美國運通簽帳白金卡"
     },
     {
       "id": "card_王道銀行_375",
@@ -1279,24 +1275,9 @@
       "cardName": "美國運通 Centurion 卡"
     },
     {
-      "id": "card_美國運通_391",
-      "bank": "美國運通",
-      "cardName": "美國運通信用白金卡"
-    },
-    {
       "id": "card_美國運通_393",
       "bank": "美國運通",
       "cardName": "美國運通信用金卡"
-    },
-    {
-      "id": "card_王道銀行_394",
-      "bank": "王道銀行",
-      "cardName": "味全龍聯名卡"
-    },
-    {
-      "id": "card_臺灣土地銀行_395",
-      "bank": "臺灣土地銀行",
-      "cardName": "icash2.0聯名鈦金卡"
     },
     {
       "id": "card_臺灣土地銀行_396",
@@ -1307,11 +1288,6 @@
       "id": "card_王道銀行_397",
       "bank": "王道銀行",
       "cardName": "交通減碳卡"
-    },
-    {
-      "id": "card_臺灣土地銀行_398",
-      "bank": "臺灣土地銀行",
-      "cardName": "土銀icash2.0聯名鈦金卡"
     },
     {
       "id": "card_臺灣土地銀行_399",
@@ -1329,19 +1305,9 @@
       "cardName": "土銀JCB晶緻卡"
     },
     {
-      "id": "card_王道銀行_402",
-      "bank": "王道銀行",
-      "cardName": "O! Range Card"
-    },
-    {
       "id": "card_美國運通_403",
       "bank": "美國運通",
       "cardName": "簽帳白金卡"
-    },
-    {
-      "id": "card_王道銀行_404",
-      "bank": "王道銀行",
-      "cardName": "公益認同卡"
     },
     {
       "id": "card_王道銀行_405",
@@ -1357,11 +1323,6 @@
       "id": "card_王道銀行_407",
       "bank": "王道銀行",
       "cardName": "王道銀行 O! Range 簽帳金融卡"
-    },
-    {
-      "id": "card_臺灣土地銀行_408",
-      "bank": "臺灣土地銀行",
-      "cardName": "金速Pay-HCE手機信用卡"
     },
     {
       "id": "card_臺灣土地銀行_409",
@@ -1917,6 +1878,91 @@
       "id": "card_安泰銀行_623",
       "bank": "安泰銀行",
       "cardName": "安泰銀行 VISA御璽卡"
+    },
+    {
+      "id": "card_美國運通_625",
+      "bank": "美國運通",
+      "cardName": "美國運通企業卡"
+    },
+    {
+      "id": "card_美國運通_627",
+      "bank": "美國運通",
+      "cardName": "美國運通尊榮會員簽帳金卡"
+    },
+    {
+      "id": "card_美國運通_628",
+      "bank": "美國運通",
+      "cardName": "美國運通商務金卡"
+    },
+    {
+      "id": "card_美國運通_629",
+      "bank": "美國運通",
+      "cardName": "美國運通商務卡"
+    },
+    {
+      "id": "card_美國運通_630",
+      "bank": "美國運通",
+      "cardName": "美國運通企業金卡"
+    },
+    {
+      "id": "card_美國運通_631",
+      "bank": "美國運通",
+      "cardName": "美國運通企業會議卡"
+    },
+    {
+      "id": "card_美國運通_632",
+      "bank": "美國運通",
+      "cardName": "美國運通企業採購卡"
+    },
+    {
+      "id": "card_王道銀行_635",
+      "bank": "王道銀行",
+      "cardName": "王道銀行新北國王聯名卡"
+    },
+    {
+      "id": "card_臺灣土地銀行_641",
+      "bank": "臺灣土地銀行",
+      "cardName": "土地銀行JCB信用卡"
+    },
+    {
+      "id": "card_王道銀行_642",
+      "bank": "王道銀行",
+      "cardName": "聯名卡"
+    },
+    {
+      "id": "card_王道銀行_643",
+      "bank": "王道銀行",
+      "cardName": "頂級卡"
+    },
+    {
+      "id": "card_臺灣土地銀行_644",
+      "bank": "臺灣土地銀行",
+      "cardName": "麟洋羽球認同卡(熱血版)"
+    },
+    {
+      "id": "card_臺灣土地銀行_645",
+      "bank": "臺灣土地銀行",
+      "cardName": "麟洋羽球認同卡(吶喊版)"
+    },
+    {
+      "id": "card_王道銀行_648",
+      "bank": "王道銀行",
+      "cardName": "王道銀行低碳卡"
+    },
+    {
+      "id": "card_臺灣土地銀行_649",
+      "bank": "臺灣土地銀行",
+      "cardName": "康鉑卡系列"
+    },
+    {
+      "id": "card_臺灣土地銀行_650",
+      "bank": "臺灣土地銀行",
+      "cardName": "菁英康鉑晶片卡"
+    },
+    {
+      "id": "card_王道銀行_651",
+      "bank": "王道銀行",
+      "cardName": "低碳生活卡"
     }
   ],
   "pages": [
@@ -2384,18 +2430,6 @@
     },
     {
       "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/index.html?pid=tw-personal-card-carousel-ACQ",
       "cached": true,
       "error": ""
@@ -2408,13 +2442,25 @@
     },
     {
       "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
       "cached": true,
       "error": ""
     },
     {
       "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
       "cached": true,
       "error": ""
     },
@@ -2481,6 +2527,12 @@
     {
       "bank": "樂天信用卡",
       "url": "https://www.card.rakuten.com.tw/corp/campaign/rakuten.xhtml",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "樂天信用卡",
+      "url": "https://www.card.rakuten.com.tw/corp/coupon/",
       "cached": true,
       "error": ""
     },
@@ -2717,12 +2769,6 @@
       "url": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1",
       "cached": true,
       "error": "SSLError"
-    },
-    {
-      "bank": "樂天信用卡",
-      "url": "https://www.card.rakuten.com.tw/corp/coupon/",
-      "candidates": 2,
-      "error": ""
     }
   ]
 }
