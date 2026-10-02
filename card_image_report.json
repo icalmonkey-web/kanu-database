@@ -1,18 +1,7 @@
 {
-  "generatedAt": "2026-10-02T17:32:36.330030+00:00",
-  "added": [
-    {
-      "id": "card_美國運通_624",
-      "cardName": "長榮航空簽帳白金卡",
-      "imageUrl": "https://icm.aexp-static.com/Internet/internationalcardshop/zh_tw/images/cards/eva-plat.png"
-    },
-    {
-      "id": "card_美國運通_626",
-      "cardName": "美國運通簽帳金卡",
-      "imageUrl": "https://icm.aexp-static.com/Internet/internationalcardshop/zh_tw/images/cards/EVAGold_480x304.png"
-    }
-  ],
-  "withImage": 261,
+  "generatedAt": "2026-10-02T22:11:21.327952+00:00",
+  "added": [],
+  "withImage": 262,
   "missing": [
     {
       "id": "card_cathay_cube",
@@ -1960,9 +1949,9 @@
       "cardName": "菁英康鉑晶片卡"
     },
     {
-      "id": "card_王道銀行_651",
+      "id": "card_王道銀行_652",
       "bank": "王道銀行",
-      "cardName": "低碳生活卡"
+      "cardName": "O-Bank一般簽帳金融卡"
     }
   ],
   "pages": [

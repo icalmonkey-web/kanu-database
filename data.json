@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.02-v173234",
+  "version": "2026.10.02-v221119",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -7679,10 +7679,23 @@
       "entityType": "CARD_PRODUCT",
       "classificationConfidence": 0.98,
       "classificationEvidence": "內文列出低碳生活卡為永續生活實踐派之簽帳金融卡產品",
-      "imageUrl": "",
+      "imageUrl": "https://www.o-bank.com/web/Event/lowcarboncard/img/card_01.png",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "永續生活實踐派"
+    },
+    {
+      "id": "card_王道銀行_652",
+      "bank": "王道銀行",
+      "cardName": "O-Bank一般簽帳金融卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確將此名稱列為可申辦或已發行一般簽帳金融卡產品",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "國內外1%無上限"
     }
   ],
   "rules": [
@@ -15055,6 +15068,7 @@
       "intentEvidence": "全卡別旅遊不便險",
       "evidenceStatus": "VERIFIED",
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -65573,6 +65587,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-28T23:16:52.214472Z",
@@ -70692,6 +70707,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-30T13:18:48.324055Z",
@@ -74117,6 +74133,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-30T13:26:34.308769Z",
@@ -75328,6 +75345,7 @@
       ],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -76776,6 +76794,7 @@
       ],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -96351,6 +96370,7 @@
       "validationIssues": [
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-10-01T23:06:54.817558Z",
@@ -96404,6 +96424,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
@@ -98641,6 +98662,7 @@
       ],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
@@ -117415,6 +117437,1194 @@
       ],
       "fetchedAt": "2026-10-02T17:32:26.319452Z",
       "bank": "王道銀行"
+    },
+    {
+      "id": "rule_40f3ff686ddc78def284",
+      "cardId": "card_王道銀行_402",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "O! Range Card"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "新戶綁定指定行動支付刷卡最高享5%現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Apple Pay",
+        "LINE Pay",
+        "街口支付",
+        "悠遊付",
+        "全盈+",
+        "ipass money",
+        "icash pay",
+        "全支付"
+      ],
+      "searchKeywords": "Apple Pay,LINE Pay,街口支付,悠遊付,全盈+,ipass money,icash pay,全支付,行動支付,linepay,街口,悠遊付,全支付",
+      "intentTags": [
+        "行動支付"
+      ],
+      "intentEvidence": "新戶核卡後45天內使用本行簽帳金融卡綁定指定支付刷卡一般消費",
+      "baseRate": 1.0,
+      "promoRate": 4.0,
+      "rewardType": "percent",
+      "rewardAmount": 500,
+      "rewardUnit": "percent",
+      "capAmount": 500,
+      "capPeriod": "CAMPAIGN",
+      "capScope": "PROMO",
+      "roundingMode": "",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "新戶",
+        "核卡後45天內"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "一般資格",
+          "totalRate": 1.0,
+          "baseRate": 1.0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "新戶加碼資格",
+          "totalRate": 5.0,
+          "baseRate": 1.0,
+          "promoRate": 4.0,
+          "isDefault": false,
+          "requirements": [
+            "新戶核卡後45天內",
+            "綁定指定行動支付"
+          ],
+          "capAmount": 500,
+          "capPeriod": "CAMPAIGN"
+        }
+      ],
+      "maxRateRequires": [
+        "新戶核卡後45天內",
+        "綁定指定行動支付",
+        "限額6,000名"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-30",
+      "sourceUrl": "https://www.o-bank.com/web/event/cm_108022801/index.html",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "限新戶核卡後45天內，限額6,000名",
+      "excludedKeywords": [
+        "國外提款手續費",
+        "簽帳金融卡年費",
+        "稅款",
+        "交通罰鍰",
+        "保險費",
+        "學雜費",
+        "停車費",
+        "公共事業代扣繳",
+        "基金申購",
+        "醫療院所費用",
+        "Smart Pay",
+        "一卡通自動加值",
+        "境外投資及匯款平台",
+        "部分歐洲地區國家消費",
+        "抖音"
+      ],
+      "fetchedAt": "2026-10-02T22:10:04.750596Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_ce1576e48dde6d8efc4f",
+      "cardId": "card_王道銀行_402",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "O! Range Card"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "O! Range Card 支付、外送最高享3.8%現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Apple Pay",
+        "LINE Pay",
+        "foodpanda",
+        "UberEats"
+      ],
+      "searchKeywords": "Apple Pay,LINE Pay,foodpanda,UberEats,外送,行動支付,linepay",
+      "intentTags": [
+        "行動支付",
+        "餐飲"
+      ],
+      "intentEvidence": "當月透過指定支付及外送通路刷卡一般消費享額外加碼2.8%現金回饋",
+      "baseRate": 1.0,
+      "promoRate": 2.8,
+      "rewardType": "percent",
+      "rewardAmount": 500,
+      "rewardUnit": "percent",
+      "capAmount": 500,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "消費當月最終日活存餘額達10萬元以上"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "一般資格",
+          "totalRate": 1.0,
+          "baseRate": 1.0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "達標加碼資格",
+          "totalRate": 3.8,
+          "baseRate": 1.0,
+          "promoRate": 2.8,
+          "isDefault": false,
+          "requirements": [
+            "消費當月最終日活存餘額達10萬元(含)以上",
+            "使用指定支付或外送通路"
+          ],
+          "capAmount": 500,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "消費當月最終日活存餘額達10萬元(含)以上",
+        "使用指定支付或外送通路"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/web/event/cm_108022801/index.html",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "消費當月最終日活存餘額達10萬元(含)以上",
+      "excludedKeywords": [
+        "國外提款手續費",
+        "簽帳金融卡年費",
+        "稅款",
+        "交通罰鍰",
+        "保險費",
+        "學雜費",
+        "停車費",
+        "公共事業代扣繳",
+        "基金申購",
+        "醫療院所費用",
+        "Smart Pay",
+        "一卡通自動加值",
+        "境外投資及匯款平台",
+        "部分歐洲地區國家消費",
+        "抖音"
+      ],
+      "fetchedAt": "2026-10-02T22:10:04.750931Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_373b3f91b910413d885d",
+      "cardId": "card_王道銀行_402",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "簽帳金融卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "刷支付 給利是王道 最高享6%現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Apple Pay",
+        "LINE Pay",
+        "街口支付",
+        "悠遊付",
+        "全盈+",
+        "ipass money",
+        "icash pay",
+        "全支付"
+      ],
+      "searchKeywords": "Apple Pay,LINE Pay,街口支付,悠遊付,全盈+,ipass money,icash pay,全支付,行動支付,linepay,街口,悠遊付,全支付",
+      "intentTags": [
+        "行動支付"
+      ],
+      "intentEvidence": "使用以下指定行動支付綁定本行簽帳金融卡，單筆刷卡一般消費達新台幣300元(含)以上，並完成登錄享額外加碼5%現金回饋",
+      "baseRate": 1.0,
+      "promoRate": 5.0,
+      "rewardType": "percent",
+      "rewardAmount": 1200,
+      "rewardUnit": "percent",
+      "capAmount": 1200,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "ROUND",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 300,
+      "eligibilityRequirements": [
+        "單筆消費達300元以上",
+        "完成當月登錄",
+        "財富無限卡免登錄"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "一般資格",
+          "totalRate": 1.0,
+          "baseRate": 1.0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "登錄加碼資格",
+          "totalRate": 6.0,
+          "baseRate": 1.0,
+          "promoRate": 5.0,
+          "isDefault": false,
+          "requirements": [
+            "單筆消費達新台幣300元",
+            "完成當月登錄",
+            "指定行動支付"
+          ],
+          "capAmount": 1200,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "單筆消費達新台幣300元(含)以上",
+        "完成當月登錄",
+        "每月限額5,000名"
+      ],
+      "needReg": true,
+      "regDeadline": "每月活動期間",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/web/event/cm_108022801/index.html",
+      "registrationUrl": "https://www.o-bank.com/egift/RegisterCampaign",
+      "registrationMethods": [
+        {
+          "type": "WEB",
+          "label": "網頁登錄",
+          "url": "https://www.o-bank.com/egift/RegisterCampaign",
+          "activityName": "刷支付 給利是王道"
+        }
+      ],
+      "quotaInfo": "每月1日中午12:00起開放登錄，每月限額5,000名",
+      "excludedKeywords": [
+        "國外提款手續費",
+        "簽帳金融卡年費",
+        "稅款",
+        "交通罰鍰",
+        "保險費",
+        "學雜費",
+        "停車費",
+        "公共事業代扣繳",
+        "基金申購",
+        "醫療院所費用",
+        "Smart Pay",
+        "一卡通自動加值",
+        "境外投資及匯款平台",
+        "部分歐洲地區國家消費",
+        "抖音"
+      ],
+      "fetchedAt": "2026-10-02T22:10:04.751251Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_3ad05ea25f43e3b665a0",
+      "cardId": "card_王道銀行_402",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "簽帳金融卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "出國、海外網購刷王道 現金回饋最高1,500元",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "海外消費,出國,海外網購,免稅店,外幣,機票,飯店,海外",
+      "intentTags": [
+        "海外消費",
+        "旅遊",
+        "網購"
+      ],
+      "intentEvidence": "持卡於海外通路消費享最高10%現金回饋(含原卡片現金回饋及額外加碼5%現金回饋)",
+      "baseRate": 1.0,
+      "promoRate": 5.0,
+      "rewardType": "percent",
+      "rewardAmount": 1500,
+      "rewardUnit": "percent",
+      "capAmount": 1500,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "需當月完成登錄",
+        "不適用綁定行動支付之交易",
+        "財富無限卡免登錄"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "一般海外資格",
+          "totalRate": 1.0,
+          "baseRate": 1.0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "登錄海外加碼資格",
+          "totalRate": 6.0,
+          "baseRate": 1.0,
+          "promoRate": 5.0,
+          "isDefault": false,
+          "requirements": [
+            "當月完成登錄",
+            "海外通路消費"
+          ],
+          "capAmount": 1500,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "當月完成登錄",
+        "每月限額3,000名",
+        "海外通路消費"
+      ],
+      "needReg": true,
+      "regDeadline": "每月活動期間",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/web/event/cm_108022801/index.html",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "每月第一個營業日中午12:00起開放登錄，每月限額3,000名",
+      "excludedKeywords": [
+        "綁定行動支付之交易",
+        "部分歐洲地區國家消費",
+        "國外提款或交易之手續費"
+      ],
+      "fetchedAt": "2026-10-02T22:10:04.751546Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_e73b2d7b3ee81cacfcbe",
+      "cardId": "card_王道銀行_651",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "低碳生活卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "國內、外一般消費基本現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "國內消費,國外消費,一般消費,海外消費",
+      "intentTags": [
+        "國內消費",
+        "海外消費"
+      ],
+      "intentEvidence": "國內及國外刷卡一般消費皆享1%基本現金回饋，回饋無上限。",
+      "baseRate": 1.0,
+      "promoRate": 0.0,
+      "rewardType": "percent",
+      "rewardAmount": 1.0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "capScope": "NONE",
+      "roundingMode": "FLOOR",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [
+        {
+          "name": "一般資格",
+          "totalRate": 1.0,
+          "baseRate": 1.0,
+          "promoRate": 0.0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/web/Event/lowcarboncard/index.html",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "國內、外不限通路刷卡一般消費現金回饋1%無上限",
+      "excludedKeywords": [
+        "國外提款",
+        "簽帳金融卡年費",
+        "逾期補繳款",
+        "稅款",
+        "交通罰鍰",
+        "代扣繳",
+        "基金申購",
+        "醫療院所費用",
+        "一卡通自動加值"
+      ],
+      "fetchedAt": "2026-10-02T22:10:26.804043Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_35cc7827adb12b7fef38",
+      "cardId": "card_王道銀行_651",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "低碳生活卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "低碳消費加碼現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "碳排放明細,低碳生活,國內消費,國外消費",
+      "intentTags": [
+        "國內消費",
+        "海外消費"
+      ],
+      "intentEvidence": "於O-Bank行動銀行/網路銀行開啟「消費碳排放明細」功能、當月有一筆以上刷卡一般消費、當月平均每元消費碳排放量低於８公克(含)，當月享國內及國外0.5%加碼現金回饋",
+      "baseRate": 1.0,
+      "promoRate": 0.5,
+      "rewardType": "percent",
+      "rewardAmount": 1.5,
+      "rewardUnit": "percent",
+      "capAmount": 100,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "FLOOR",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "開啟消費碳排放明細功能",
+        "當月至少一筆刷卡一般消費",
+        "當月平均每元消費碳排放量8公克以下"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "一般消費回饋",
+          "totalRate": 1.0,
+          "baseRate": 1.0,
+          "promoRate": 0.0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "低碳達標加碼",
+          "totalRate": 1.5,
+          "baseRate": 1.0,
+          "promoRate": 0.5,
+          "isDefault": false,
+          "requirements": [
+            "開啟消費碳排放明細",
+            "當月1筆一般消費",
+            "平均每元碳排放量8公克以下"
+          ],
+          "capAmount": 100,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "開啟消費碳排放明細功能",
+        "當月有一筆以上刷卡一般消費",
+        "當月平均每元消費碳排放量低於8公克(含)"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/web/Event/lowcarboncard/index.html",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "國內刷卡一般消費新台幣20,000元內享1.5%現金回饋（國內加碼上限100元/月），國外刷卡一般消費無上限享1.5%現金回饋",
+      "excludedKeywords": [
+        "國外提款",
+        "簽帳金融卡年費",
+        "稅款",
+        "代扣繳",
+        "基金申購"
+      ],
+      "fetchedAt": "2026-10-02T22:10:26.804382Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_312e20b25b7b7697f39e",
+      "cardId": "card_王道銀行_651",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "低碳生活卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "低碳生活卡合作綠色商店加碼回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "綠藤生機",
+        "鮮乳坊",
+        "勝利廚房",
+        "綠然能源DOMI",
+        "掌生穀粒",
+        "直接跟農夫買",
+        "繭裹子",
+        "格外農品",
+        "2021社會企業",
+        "台灣好漁",
+        "芙彤園",
+        "講茶",
+        "樂芽",
+        "源天然",
+        "德朱利斯國際食品",
+        "點點善",
+        "仁舟淨塑",
+        "艾瑪絲",
+        "果嶼",
+        "陽光伏特家",
+        "成真咖啡",
+        "臺灣藍鵲茶",
+        "淡然有味",
+        "樸實",
+        "咱兜ㄟ養雞場",
+        "淨毒五郎"
+      ],
+      "searchKeywords": "綠藤生機,鮮乳坊,勝利廚房,綠然能源DOMI,掌生穀粒,直接跟農夫買,繭裹子,格外農品,2021社會企業,台灣好漁,芙彤園,講茶,樂芽,源天然,德朱利斯國際食品,點點善,仁舟淨塑,艾瑪絲,果嶼,陽光伏特家,成真咖啡,臺灣藍鵲茶,淡然有味,樸實,咱兜ㄟ養雞場,淨毒五郎,網購,綠色商店",
+      "intentTags": [
+        "網購"
+      ],
+      "intentEvidence": "持低碳生活卡至以下「低碳生活卡」合作綠色商店之適用通路刷卡消費，可享免登錄加碼4.22%現金回饋。",
+      "baseRate": 1.0,
+      "promoRate": 4.22,
+      "rewardType": "percent",
+      "rewardAmount": 5.22,
+      "rewardUnit": "percent",
+      "capAmount": 100,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "FLOOR",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "持低碳生活卡至指定綠色商店適用通路消費"
+      ],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "於指定合作綠色商店刷卡消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/web/Event/lowcarboncard/index.html",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "免登錄加碼4.22%，與綠色消費力合計上限每人每月新台幣100元",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-10-02T22:10:26.804702Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_33109ad516364d5b8e16",
+      "cardId": "card_王道銀行_651",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "低碳生活卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "綠色消費力合作綠色商店加碼回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "大愛感恩科技",
+        "生態綠",
+        "SHES旭思",
+        "歐舒丹"
+      ],
+      "searchKeywords": "大愛感恩科技,生態綠,SHES旭思,歐舒丹,網購,綠色商店",
+      "intentTags": [
+        "網購"
+      ],
+      "intentEvidence": "持低碳生活卡至以下「綠色消費力」合作綠色商店之適用通路刷卡消費，並於消費當月完成活動登錄可享加碼4.22%現金回饋。",
+      "baseRate": 1.0,
+      "promoRate": 4.22,
+      "rewardType": "percent",
+      "rewardAmount": 5.22,
+      "rewardUnit": "percent",
+      "capAmount": 100,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "FLOOR",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "於消費當月完成活動登錄"
+      ],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "於指定綠色消費力商店刷卡消費",
+        "當月完成活動登錄"
+      ],
+      "needReg": true,
+      "regDeadline": "消費當月完成登錄",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/web/Event/lowcarboncard/index.html",
+      "registrationUrl": "",
+      "registrationMethods": [
+        {
+          "type": "WEB",
+          "label": "網頁登錄",
+          "url": "https://www.o-bank.com/web/Event/lowcarboncard/index.html",
+          "activityName": "綠色消費力加碼活動"
+        }
+      ],
+      "quotaInfo": "消費當月完成活動登錄享加碼4.22%，與低碳生活卡商店合計加碼上限每人每月新台幣100元",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-10-02T22:10:26.805005Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_654f5877eab7c3dd339f",
+      "cardId": null,
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "O-Bank帳戶存款"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "一般簽帳金融卡國內、外一般消費現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "國內消費,國外消費,海外消費,一般消費,外幣,出國",
+      "intentTags": [
+        "國內消費",
+        "海外消費",
+        "一般消費"
+      ],
+      "intentEvidence": "活動期間持本行一般簽帳金融卡刷卡消費，不限金額、不分國內外，一般消費皆享1%現金回饋。",
+      "baseRate": 1.0,
+      "promoRate": 0.0,
+      "rewardType": "percent",
+      "rewardAmount": 1.0,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capPeriod": "",
+      "capScope": "NONE",
+      "roundingMode": "ROUND",
+      "spendBasis": "CUMULATIVE",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "持有王道銀行一般簽帳金融卡"
+      ],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [
+        {
+          "name": "一般消費回饋",
+          "totalRate": 1.0,
+          "baseRate": 1.0,
+          "promoRate": 0.0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/cardmain_New",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "不限金額、不分國內外，一般消費皆享1%現金回饋，回饋無上限。",
+      "excludedKeywords": [
+        "國外提款或交易之手續費",
+        "簽帳金融卡年費",
+        "逾期補繳款",
+        "取消交易款項",
+        "退貨款項",
+        "各項稅款",
+        "交通罰鍰",
+        "電子化繳費稅處理平台",
+        "全國繳費平台",
+        "代扣繳各項公共事業",
+        "中華電信各項費用",
+        "基金申購及代扣繳手續費",
+        "醫療院所費用",
+        "金融卡Smart Pay購物消費",
+        "一卡通簽帳金融卡之自動加值、人工加值及設備加值",
+        "部分歐洲地區國家消費",
+        "境外投資及匯款轉帳交易平台",
+        "抖音各交易平台"
+      ],
+      "associationStatus": "needs_review",
+      "associationReason": "copy_names_other_card:王道銀行簽帳金融卡",
+      "fetchedAt": "2026-10-02T22:10:32.964031Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_58f67efddc33ec991d35",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行簽帳金融卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "O! for Youth 青春就是王道 - 指定行動支付加碼",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Apple Pay",
+        "LINE Pay"
+      ],
+      "searchKeywords": "Apple Pay, applepay, 蘋果支付, LINE Pay, linepay, 連線支付, 行動支付",
+      "intentTags": [
+        "行動支付"
+      ],
+      "intentEvidence": "使用本行簽帳金融卡綁定指定行動支付或於指定數位通路刷卡消費，享額外2%現金回饋。",
+      "baseRate": 1.0,
+      "promoRate": 2.0,
+      "rewardType": "percent",
+      "rewardAmount": 300,
+      "rewardUnit": "TWD",
+      "capAmount": 300,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "1996/10/1至2008/12/31間出生",
+        "持本行有效簽帳金融卡",
+        "完成活動登錄"
+      ],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "一般卡卡友國內外基本回饋1%（無上限）",
+        "O! for Youth 青春就是王道加碼回饋2%",
+        "符合其他指定疊加活動資格"
+      ],
+      "needReg": true,
+      "regDeadline": "2026/12/31",
+      "registrationStart": "2026-10-01T12:00:00+08:00",
+      "registrationEnd": "",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/web/event/o-for-youth/index.html",
+      "registrationUrl": "https://www.o-bank.com/egift/RegisterCampaign",
+      "registrationMethods": [
+        {
+          "type": "WEB",
+          "label": "網頁登錄",
+          "url": "https://www.o-bank.com/egift/RegisterCampaign",
+          "activityName": "O! for Youth 青春就是王道 簽帳金融卡消費加碼2%現金回饋"
+        }
+      ],
+      "quotaInfo": "每人每月加碼回饋上限新台幣300元，每月限額8,000名",
+      "excludedKeywords": [
+        "國外提款或交易之手續費",
+        "簽帳金融卡年費",
+        "取消交易款項",
+        "退貨款項",
+        "各項稅款",
+        "交通罰鍰",
+        "繳費平台",
+        "代扣繳各項公共事業",
+        "基金申購",
+        "醫療院所費用",
+        "Smart Pay購物消費",
+        "一卡通自動加值",
+        "境外投資及匯款轉帳交易平台",
+        "部分歐洲地區國家消費",
+        "抖音各交易平台"
+      ],
+      "fetchedAt": "2026-10-02T22:10:41.619878Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_a4f1fd106c2dcf9a84c9",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行簽帳金融卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "O! for Youth 青春就是王道 - 指定數位通路加碼",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Google Play",
+        "Apple 媒體服務",
+        "Nintendo",
+        "Steam"
+      ],
+      "searchKeywords": "Google Play, googleplay, 谷歌商店, Apple 媒體服務, App Store, Apple Music, iCloud, Nintendo, 任天堂, Steam, 蒸汽平台, 數位通路",
+      "intentTags": [
+        "網購"
+      ],
+      "intentEvidence": "使用本行簽帳金融卡透過指定行動支付或指定數位通路消費，可享額外2%現金回饋。",
+      "baseRate": 1.0,
+      "promoRate": 2.0,
+      "rewardType": "percent",
+      "rewardAmount": 300,
+      "rewardUnit": "TWD",
+      "capAmount": 300,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "1996/10/1至2008/12/31間出生",
+        "持本行有效簽帳金融卡",
+        "完成活動登錄"
+      ],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "一般卡卡友國內外基本回饋1%（無上限）",
+        "O! for Youth 青春就是王道加碼回饋2%",
+        "符合其他指定疊加活動資格"
+      ],
+      "needReg": true,
+      "regDeadline": "2026/12/31",
+      "registrationStart": "2026-10-01T12:00:00+08:00",
+      "registrationEnd": "",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/web/event/o-for-youth/index.html",
+      "registrationUrl": "https://www.o-bank.com/egift/RegisterCampaign",
+      "registrationMethods": [
+        {
+          "type": "WEB",
+          "label": "網頁登錄",
+          "url": "https://www.o-bank.com/egift/RegisterCampaign",
+          "activityName": "O! for Youth 青春就是王道 簽帳金融卡消費加碼2%現金回饋"
+        }
+      ],
+      "quotaInfo": "每人每月加碼回饋上限新台幣300元，每月限額8,000名",
+      "excludedKeywords": [
+        "綁定行動支付之交易",
+        "國外提款或交易之手續費",
+        "簽帳金融卡年費",
+        "取消交易款項",
+        "退貨款項",
+        "各項稅款",
+        "交通罰鍰",
+        "繳費平台",
+        "代扣繳各項公共事業",
+        "基金申購",
+        "醫療院所費用",
+        "Smart Pay購物消費",
+        "一卡通自動加值",
+        "境外投資及匯款轉帳交易平台",
+        "部分歐洲地區國家消費",
+        "抖音各交易平台"
+      ],
+      "fetchedAt": "2026-10-02T22:10:41.619948Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_73c1f81b995edfd6fe7d",
+      "cardId": "card_王道銀行_367",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行簽帳金融卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "王道購物節！蝦皮購物消費加碼回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "蝦皮購物",
+        "Shopee",
+        "Apple Pay",
+        "LINE Pay",
+        "街口支付"
+      ],
+      "searchKeywords": "蝦皮購物, Shopee, 蝦皮, 網購, applepay, linepay, 連線支付, 街口支付, 行動支付",
+      "intentTags": [
+        "網購",
+        "行動支付"
+      ],
+      "intentEvidence": "活動內容：於蝦皮購物刷卡消費...且適用綁定行動支付之交易，如Apple Pay、LINE Pay、街口支付等",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "cash",
+      "rewardAmount": 1088,
+      "rewardUnit": "TWD",
+      "capAmount": 1088,
+      "capPeriod": "MONTHLY",
+      "capScope": "TOTAL",
+      "roundingMode": "ROUND",
+      "spendBasis": "CUMULATIVE",
+      "minimumSpend": 2000,
+      "eligibilityRequirements": [
+        "每月須完成活動登錄",
+        "累積消費達指定門檻"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "每月滿額禮",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": false,
+          "requirements": [
+            "當月累積消費滿2,000元"
+          ],
+          "capAmount": 200,
+          "capPeriod": "MONTHLY"
+        },
+        {
+          "name": "限時額外加碼",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": false,
+          "requirements": [
+            "每月10-12號消費",
+            "當月累積消費滿10,000元"
+          ],
+          "capAmount": 1088,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "每月10-12號期間於蝦皮購物消費滿10,000元",
+        "完成每月登錄",
+        "名額內"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-12-31",
+      "registrationStart": "2026-10-01T12:00:00+08:00",
+      "registrationEnd": "",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_9",
+      "registrationUrl": "",
+      "registrationMethods": [
+        {
+          "type": "WEB",
+          "label": "網頁登錄",
+          "url": "",
+          "activityName": "王道購物節-蝦皮購物加碼"
+        }
+      ],
+      "quotaInfo": "每月滿額禮限3,000名；限時加碼禮限300名。財富無限卡免登錄。",
+      "excludedKeywords": [
+        "各項稅款",
+        "交通罰鍰",
+        "公共事業費",
+        "基金申購",
+        "醫療費用",
+        "一卡通自動加值",
+        "歐洲地區國家消費",
+        "抖音",
+        "Binance",
+        "e-Toro"
+      ],
+      "fetchedAt": "2026-10-02T22:11:05.659256Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_33971987afd52d384d4e",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行簽帳金融卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "王道購物節！刷Coupang酷澎享最高新台幣1,088元現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Coupang酷澎",
+        "Apple Pay",
+        "LINE Pay",
+        "街口支付"
+      ],
+      "searchKeywords": "Coupang酷澎, 酷澎, coupang, Apple Pay, applepay, LINE Pay, linepay, 連線支付, 行動支付, 街口支付, 街口",
+      "intentTags": [
+        "網購",
+        "行動支付"
+      ],
+      "intentEvidence": "活動期間內持王道銀行簽帳金融卡於Coupang酷澎刷卡消費，且適用綁定行動支付之交易，如Apple Pay、LINE Pay、街口支付等。",
+      "baseRate": 0.0,
+      "promoRate": 0.0,
+      "rewardType": "cash",
+      "rewardAmount": 1088,
+      "rewardUnit": "TWD",
+      "capAmount": 1088,
+      "capPeriod": "CAMPAIGN",
+      "capScope": "PROMO",
+      "roundingMode": "ROUND",
+      "spendBasis": "CUMULATIVE",
+      "minimumSpend": 2000,
+      "eligibilityRequirements": [
+        "王道銀行簽帳金融卡持卡人",
+        "當月累積消費滿新台幣2,000元(含)以上",
+        "完成活動登錄"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "一般加碼",
+          "totalRate": 0.0,
+          "baseRate": 0.0,
+          "promoRate": 0.0,
+          "isDefault": true,
+          "requirements": [
+            "當月累積消費滿新台幣2,000元(含)以上",
+            "完成活動登錄"
+          ],
+          "capAmount": 200,
+          "capPeriod": "MONTHLY"
+        },
+        {
+          "name": "限時額外加碼(每月10-12號)",
+          "totalRate": 0.0,
+          "baseRate": 0.0,
+          "promoRate": 0.0,
+          "isDefault": false,
+          "requirements": [
+            "每月10日至12號消費",
+            "累積達新台幣1萬(含)元以上",
+            "完成活動登錄"
+          ],
+          "capAmount": 888,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "當月累積消費滿新台幣2,000元",
+        "每月10日至12號累積消費達新台幣1萬元以上",
+        "完成活動登錄"
+      ],
+      "needReg": true,
+      "regDeadline": "消費當月月底前完成活動登錄",
+      "registrationStart": "2026-10-01T12:00:00+08:00",
+      "registrationEnd": "2026-12-31T23:59:59+08:00",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_8",
+      "registrationUrl": "",
+      "registrationMethods": [
+        {
+          "type": "WEB",
+          "label": "網頁登錄",
+          "url": "",
+          "activityName": "王道購物節！刷Coupang酷澎享最高新台幣1,088元現金回饋"
+        }
+      ],
+      "quotaInfo": "一般加碼每月限額3,000名；限時額外加碼(10-12號)每月限額300名，持王道財富無限卡客戶免登錄",
+      "excludedKeywords": [
+        "國外提款或交易之手續費",
+        "簽帳金融卡年費",
+        "取消交易款項",
+        "退貨款項",
+        "各項稅款",
+        "交通罰鍰",
+        "電子化繳費稅處理平台",
+        "全國繳費平台",
+        "代扣繳各項公共事業",
+        "基金申購及代扣繳手續費",
+        "醫療院所費用",
+        "Smart Pay購物消費",
+        "一卡通簽帳金融卡自動加值",
+        "境外投資及匯款轉帳交易平台",
+        "部分歐洲地區國家消費",
+        "抖音各交易平台"
+      ],
+      "fetchedAt": "2026-10-02T22:11:12.310940Z",
+      "bank": "王道銀行"
     }
   ],
   "commonExclusions": [
@@ -117446,5 +118656,5 @@
       "message": "政府規費、公用事業水電瓦斯多數信用卡皆排除回饋。"
     }
   ],
-  "lastUpdated": "2026-10-02T17:32:34.489345Z"
+  "lastUpdated": "2026-10-02T22:11:19.555423Z"
 }

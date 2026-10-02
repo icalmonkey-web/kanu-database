@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-02T17:32:36.097Z",
+  "generatedAt": "2026-10-02T22:11:21.094Z",
   "disclaimer": "結構檢查不是事實核對；待確認點數不換算現金。",
-  "totalRules": 1821,
+  "totalRules": 1834,
   "reviewed": 8,
   "comparable": 8,
   "expired": 138,
-  "sourceGroups": 502,
+  "sourceGroups": 508,
   "queue": [
     {
       "sourceUrl": "",
@@ -2218,6 +2218,28 @@
       "activeRules": 4
     },
     {
+      "sourceUrl": "https://www.o-bank.com/web/event/cm_108022801/index.html",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_40f3ff686ddc78def284",
+        "rule_ce1576e48dde6d8efc4f",
+        "rule_373b3f91b910413d885d",
+        "rule_3ad05ea25f43e3b665a0"
+      ],
+      "activeRules": 4
+    },
+    {
+      "sourceUrl": "https://www.o-bank.com/web/Event/lowcarboncard/index.html",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_e73b2d7b3ee81cacfcbe",
+        "rule_35cc7827adb12b7fef38",
+        "rule_312e20b25b7b7697f39e",
+        "rule_33109ad516364d5b8e16"
+      ],
+      "activeRules": 4
+    },
+    {
       "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/437203357.html",
       "bank": "未分類",
       "ruleIds": [
@@ -3513,6 +3535,15 @@
       "ruleIds": [
         "rule_8f047fd9ad2337b31729",
         "rule_518f7ca405a1eb25f6d8"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.o-bank.com/web/event/o-for-youth/index.html",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_58f67efddc33ec991d35",
+        "rule_a4f1fd106c2dcf9a84c9"
       ],
       "activeRules": 2
     },
@@ -5008,6 +5039,30 @@
       "bank": "王道銀行",
       "ruleIds": [
         "rule_f2cbef21fa37a8b50144"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.o-bank.com/retail/debit/cardmain_New",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_654f5877eab7c3dd339f"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_9",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_73c1f81b995edfd6fe7d"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_8",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_33971987afd52d384d4e"
       ],
       "activeRules": 1
     },
@@ -29447,6 +29502,165 @@
       "comparable": false,
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_40f3ff686ddc78def284",
+      "bank": "王道銀行",
+      "title": "新戶綁定指定行動支付刷卡最高享5%現金回饋",
+      "sourceUrl": "https://www.o-bank.com/web/event/cm_108022801/index.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_ce1576e48dde6d8efc4f",
+      "bank": "王道銀行",
+      "title": "O! Range Card 支付、外送最高享3.8%現金回饋",
+      "sourceUrl": "https://www.o-bank.com/web/event/cm_108022801/index.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_373b3f91b910413d885d",
+      "bank": "王道銀行",
+      "title": "刷支付 給利是王道 最高享6%現金回饋",
+      "sourceUrl": "https://www.o-bank.com/web/event/cm_108022801/index.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_3ad05ea25f43e3b665a0",
+      "bank": "王道銀行",
+      "title": "出國、海外網購刷王道 現金回饋最高1,500元",
+      "sourceUrl": "https://www.o-bank.com/web/event/cm_108022801/index.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_e73b2d7b3ee81cacfcbe",
+      "bank": "王道銀行",
+      "title": "國內、外一般消費基本現金回饋",
+      "sourceUrl": "https://www.o-bank.com/web/Event/lowcarboncard/index.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_35cc7827adb12b7fef38",
+      "bank": "王道銀行",
+      "title": "低碳消費加碼現金回饋",
+      "sourceUrl": "https://www.o-bank.com/web/Event/lowcarboncard/index.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_312e20b25b7b7697f39e",
+      "bank": "王道銀行",
+      "title": "低碳生活卡合作綠色商店加碼回饋",
+      "sourceUrl": "https://www.o-bank.com/web/Event/lowcarboncard/index.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_33109ad516364d5b8e16",
+      "bank": "王道銀行",
+      "title": "綠色消費力合作綠色商店加碼回饋",
+      "sourceUrl": "https://www.o-bank.com/web/Event/lowcarboncard/index.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_654f5877eab7c3dd339f",
+      "bank": "王道銀行",
+      "title": "一般簽帳金融卡國內、外一般消費現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/cardmain_New",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "UNRESOLVED_CARD_ASSOCIATION",
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_58f67efddc33ec991d35",
+      "bank": "王道銀行",
+      "title": "O! for Youth 青春就是王道 - 指定行動支付加碼",
+      "sourceUrl": "https://www.o-bank.com/web/event/o-for-youth/index.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_a4f1fd106c2dcf9a84c9",
+      "bank": "王道銀行",
+      "title": "O! for Youth 青春就是王道 - 指定數位通路加碼",
+      "sourceUrl": "https://www.o-bank.com/web/event/o-for-youth/index.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_73c1f81b995edfd6fe7d",
+      "bank": "王道銀行",
+      "title": "王道購物節！蝦皮購物消費加碼回饋",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_9",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "累積消費資格未確認"
+      ]
+    },
+    {
+      "id": "rule_33971987afd52d384d4e",
+      "bank": "王道銀行",
+      "title": "王道購物節！刷Coupang酷澎享最高新台幣1,088元現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_8",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "累積消費資格未確認"
       ]
     }
   ]

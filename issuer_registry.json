@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "description": "台灣信用卡發卡機構主清單。enabled 僅代表已設定可執行入口，不代表涵蓋率驗證通過。",
-  "lastUpdatedAt": "2026-10-02T17:32:35.235131Z",
+  "lastUpdatedAt": "2026-10-02T22:11:20.300520Z",
   "issuers": [
     {
       "name": "永豐銀行",
@@ -199,7 +199,7 @@
       "discoveredOfferCount": 77,
       "unvisitedPageCount": 224,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-02T17:23:29.528620Z",
+      "lastScanAt": "2026-10-02T22:07:55.151090Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -691,11 +691,11 @@
       "eventLinkPattern": "(debit|card|event|activity|offer)",
       "coverageNote": "僅收錄具實質消費回饋的簽帳金融卡",
       "lastSuccessfulScanAt": "2026-09-25T03:52:33.701377Z",
-      "discoveredCardCount": 30,
-      "discoveredOfferCount": 61,
-      "unvisitedPageCount": 170,
+      "discoveredCardCount": 31,
+      "discoveredOfferCount": 73,
+      "unvisitedPageCount": 176,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-02T17:32:26.319535Z",
+      "lastScanAt": "2026-10-02T22:11:19.466679Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -761,13 +761,13 @@
       ],
       "eventLinkPattern": "(card|debit|event|campaign|news)",
       "coverageNote": "快點卡等具消費回饋的簽帳金融卡",
-      "lastSuccessfulScanAt": "2026-09-26T04:24:57.557818Z",
+      "lastSuccessfulScanAt": "2026-10-02T22:07:58.471164Z",
       "discoveredCardCount": 4,
       "discoveredOfferCount": 8,
       "unvisitedPageCount": 0,
-      "failedPageCount": 1,
-      "lastScanAt": "2026-10-02T16:51:29.707936Z",
-      "lastScanStatus": "needs_review"
+      "failedPageCount": 0,
+      "lastScanAt": "2026-10-02T22:07:58.471164Z",
+      "lastScanStatus": "completed"
     },
     {
       "name": "樂天國際商業銀行",
@@ -829,7 +829,7 @@
       "eventLinkPattern": "(credit-cards|benefits|offers)",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 18,
-      "discoveredOfferCount": 71,
+      "discoveredOfferCount": 69,
       "unvisitedPageCount": 187,
       "failedPageCount": 11,
       "lastScanAt": "2026-10-02T17:29:57.575128Z",
@@ -925,7 +925,7 @@
       "eventLinkPattern": "(credit|card|event|activity)",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 18,
-      "discoveredOfferCount": 40,
+      "discoveredOfferCount": 37,
       "unvisitedPageCount": 1,
       "failedPageCount": 0,
       "lastScanAt": "2026-10-02T17:32:34.408994Z",
