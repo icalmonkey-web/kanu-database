@@ -8732,5 +8732,39 @@
       ]
     ],
     "error": ""
+  },
+  "https://www.card.rakuten.com.tw/activation/": {
+    "checkedAt": "2026-10-03T21:54:02.929711+00:00",
+    "images": [
+      [
+        "https://image.card.tw.r10s.com/images/common/logo/ttl_rc_c.png",
+        "樂天信用卡"
+      ],
+      [
+        "https://image.card.tw.r10s.com/images/common/ft_facebook_icon.svg",
+        "Facebook icon"
+      ],
+      [
+        "https://image.card.tw.r10s.com/images/common/ft_line_icon.svg",
+        "Line free icon"
+      ],
+      [
+        "https://image.card.tw.r10s.com/images/common/ft_facebook_icon.svg",
+        "Facebook icon"
+      ],
+      [
+        "https://image.card.tw.r10s.com/images/common/ft_line_icon.svg",
+        "Line free icon"
+      ],
+      [
+        "https://image.card.tw.r10s.com/images/common/apple_store_mail.png",
+        "apple_store"
+      ],
+      [
+        "https://image.card.tw.r10s.com/images/common/google_play_mail.png",
+        "google_play"
+      ]
+    ],
+    "error": ""
   }
 }
