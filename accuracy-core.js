@@ -113,9 +113,11 @@
       if (cap !== null) {
         if (!['PROMO', 'TOTAL', 'NONE'].includes(rule.capScope)) return null;
         if (rule.capScope !== 'NONE') {
+          const used = number(rule.userUsedCap) || 0;
           const remaining = number(rule.remainingCap);
-          const limit = remaining === null ? cap : Math.min(cap, remaining);
-          if (rule.capPeriod !== 'PER_TRANSACTION' && remaining === null) result.assumptions.push('假設本期回饋額度尚未使用');
+          const effectiveRemaining = remaining === null ? Math.max(0, cap - used) : Math.max(0, Math.min(remaining, cap - used));
+          const limit = effectiveRemaining;
+          if (rule.capPeriod !== 'PER_TRANSACTION' && remaining === null && used === 0) result.assumptions.push('假設本期回饋額度尚未使用');
           if (rule.capScope === 'TOTAL') { result.capped ||= baseCash + bonusCash > limit; return round(Math.min(baseCash + bonusCash, limit)); }
           result.capped ||= bonusCash > limit;
           bonusCash = Math.min(bonusCash, limit);
