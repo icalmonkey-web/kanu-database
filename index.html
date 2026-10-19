@@ -1857,8 +1857,20 @@
 
     function loadCachedDatabase() {
       try {
-        const cachedRaw = localStorage.getItem(LOCAL_CACHE_KEY);
-        const cachedVer = localStorage.getItem(LOCAL_VERSION_KEY);
+        let cachedRaw = localStorage.getItem(LOCAL_CACHE_KEY);
+        let cachedVer = localStorage.getItem(LOCAL_VERSION_KEY);
+        if (!cachedRaw) {
+          const bundledEl = document.getElementById("bundled-data");
+          if (bundledEl && bundledEl.textContent.trim()) {
+            cachedRaw = bundledEl.textContent;
+            try {
+              const parsed = JSON.parse(cachedRaw);
+              cachedVer = parsed.version;
+              localStorage.setItem(LOCAL_CACHE_KEY, cachedRaw);
+              localStorage.setItem(LOCAL_VERSION_KEY, cachedVer);
+            } catch (err) {}
+          }
+        }
         if (cachedRaw) {
           const cached = JSON.parse(cachedRaw);
           if (cached.cards && cached.cards.length > 0) {
