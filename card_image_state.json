@@ -1,66 +1,66 @@
 {
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/list.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/business/list.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
-    "error": ""
+    "error": "ConnectTimeout"
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/WBFU.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/cashcard.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/dual-currency-card.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
-    "error": ""
+    "error": "ConnectTimeout"
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/debit/debit.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
-    "error": ""
+    "error": "ConnectTimeout"
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/co-brand/list.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
-    "error": ""
+    "error": "ConnectTimeout"
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/debit/list.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
-    "error": ""
+    "error": "ConnectTimeout"
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/WBCH.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/DAWHO.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/list.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
-    "error": ""
+    "error": "ConnectTimeout"
   },
   "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
-    "error": "SSLError"
+    "error": "redirect outside official hosts"
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -294,7 +294,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -528,7 +528,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/tools/do": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -590,7 +590,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro#3": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -824,7 +824,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/teacher-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -878,7 +878,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/payment/e_pay": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -980,7 +980,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/travel-card/traveler-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1034,7 +1034,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/tools/mark_up": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1072,7 +1072,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/tools/adjustment": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1110,7 +1110,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1176,7 +1176,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/kumamon_card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1201,10 +1201,6 @@
       [
         "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/u-bear/NS2.png",
         "NS2"
-      ],
-      [
-        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/Copy-of-e-card/Sony-WH-1000XM6.png",
-        "耳機"
       ],
       [
         "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/mutual_content/Wallet/walletauto.jpg",
@@ -1246,7 +1242,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/u-bear": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1259,10 +1255,6 @@
       [
         "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/u-bear/u-bear_460x288_2022.webp?h=288&w=460&hash=429B530C4240CB92E058001541D3B98C",
         "Ubear信用卡"
-      ],
-      [
-        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/u-bear/NS2.png",
-        "NS2"
       ],
       [
         "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/u-bear/NS2.png",
@@ -1316,7 +1308,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/pi-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1378,7 +1370,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1424,7 +1416,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/eztravel": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1478,7 +1470,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/WORLD": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1532,7 +1524,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/infinite-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1582,7 +1574,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/e-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1636,7 +1628,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/icash-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1690,7 +1682,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/dualcurrency-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1740,7 +1732,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/inscard": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1798,7 +1790,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/only-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1852,7 +1844,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/signature-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1906,7 +1898,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/jcb-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1960,7 +1952,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/easy-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -2014,7 +2006,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/business-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -2068,7 +2060,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/titanium-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -2122,7 +2114,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/plus-titanium-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -2176,7 +2168,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/poya-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -2230,84 +2222,1328 @@
     "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
+        "å°åå¯é¦éè¡-logo"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "å¯é¦éæ§"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "éæ§æå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/online-service.svg",
+        "æ¸ä½å®¢æ"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/J%E5%8D%A1.gif",
+        "å¯é¦Jå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E9%91%BD%E4%BF%9D%E5%8D%A1_VS.png",
+        "å¯é¦é½ä¿å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%AF%8C%E5%88%A9_MT.png",
+        "å¯é¦å¯å©çæ´»ç³»åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/C%E5%8D%A1%E5%8D%A1%E9%9D%A2.png",
+        "å¯é¦Costcoè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%8B%87%E8%81%AF%E5%90%8D%E5%8D%A1_MT.png",
+        "æå°åå£«è¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/momo2026new.gif",
+        "momoå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/OP_200-x-200-02.png",
+        "å°ç£å¤§å¥å¤§Open Possibleè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/J%E5%8D%A1.gif",
+        "å¯é¦Jå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%B0%8A%E5%BE%A1%E5%8D%A1_MW.png",
+        "å¯é¦IMPERIALå°å¾¡ä¸çå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB.gif",
+        "å¯é¦æ¸ä½çæ´»å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E9%91%BD%E4%BF%9D%E5%8D%A1_VS.png",
+        "å¯é¦é½ä¿å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E8%B2%A1%E7%A5%9EMP.png",
+        "å¯é¦è²¡ç¥å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/OP_200-x-200-02.png",
+        "å°ç£å¤§å¥å¤§Open Possibleè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/J%E5%8D%A1.gif",
+        "å¯é¦Jå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%AF%8C%E5%88%A9_MT.png",
+        "å¯é¦å¯å©çæ´»ç³»åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E4%B8%96%E7%95%8C%E5%8D%A1_MW.png",
+        "å¯é¦ä¸çå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E7%84%A1%E9%99%90%E5%8D%A1_VW.png",
+        "å¯é¦ç¡éå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E9%88%A6%E9%87%91%E5%8D%A1_MT.png",
+        "å¯é¦é¦éå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E9%8A%80%E8%A1%8C%E5%8D%A1_JP.png",
+        "å¯é¦éè¡å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%95%86%E5%8B%99%E5%8D%A1_MT.png",
+        "å¯é¦ååå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/C%E5%8D%A1%E5%8D%A1%E9%9D%A2.png",
+        "å¯é¦Costcoè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%8B%87%E8%81%AF%E5%90%8D%E5%8D%A1_MT.png",
+        "æå°åå£«è¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/momo2026new.gif",
+        "momoå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%8F%B0%E8%8C%82.png",
+        "å°èè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E9%87%87%E7%9B%9F%E5%8D%A1.png",
+        "éçè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E7%A6%8F%E8%8F%AF%E5%8D%A1.png",
+        "ç¦è¯è¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%B0%87%E5%8D%A1.png",
+        "å¯é¦æå°æ éè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%A4%A9%E4%BD%BF%E5%8D%A1.png",
+        "Angelå¤©ä½¿å¬çèªåå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%B3%95%E9%BC%93%E5%B1%B1.png",
+        "æ³é¼å±±èªå¨å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%8C%97%E5%B8%82%E5%BA%9C%E8%AA%8D%E5%90%8C%E5%8D%A1.png",
+        "å°åå¸æ¿åºèªåå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/sogo%E5%8D%A1.png",
+        "å»£ä¸SOGOè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E9%BA%97%E5%AC%B0%E6%88%BF.gif",
+        "éºå¬°æ¿è¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/DHC%E5%8D%A1.png",
+        "DHCè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/applepay.jpg",
+        "Apple Pay"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/GooglePay.jpg",
+        "Google Pay"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/samsung_pay.jpg",
+        "Samsung Pay"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/GarminPay.jpg",
+        "Garmin Pay"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/HCEcard.jpg",
+        "å°ç£è¡åæ¯ä»"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%8B%87%E9%87%91%E8%9E%8D%E5%8D%A1_MD.png",
+        "æå°åå£«ç°½å¸³éèå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%B0%87VD.png",
+        "åå£«ç°½å¸³éèå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%B0%87%E7%B0%BD%E5%B8%B3.png",
+        "æå°ç°½å¸³éèå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E9%87%91%E8%9E%8D%E5%8D%A1_VP.png",
+        "VISAç°½å¸³éèå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/mo%E7%B0%BD%E5%B8%B3%E5%8D%A1.png",
+        "momoç°½å¸³éèå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%94%BF%E5%BA%9C%E6%8E%A1%E8%B3%BC%E5%8D%A1.png",
+        "æ¿åºæ¡è³¼å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/LINE_VP.png",
+        "LINE FRIENDSå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/Amoney_VS.png",
+        "å¯é¦ï¼¡ moneyå¡(ä¸æä¾ç³è«)"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/amiles_MP.png",
+        "å¯é¦a milesèªç©ºå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/costco_bccard.png",
+        "å¯é¦Costcoæ¡è³¼å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%8F%B0%E7%81%A3%E5%A4%A7%E6%82%A0%E9%81%8A%E5%8D%A1.png",
+        "å°ç£å¤§å¥å¤§æ éè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-line.svg",
+        "å°åå¯é¦éè¡-line"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-facebook.svg",
+        "é®®å¯å¹«-facebook"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon-app-cdic.png",
+        "ä¸­å¤®å­æ¬¾ä¿éª"
+      ]
+    ],
+    "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/index.htm": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
+        "å°åå¯é¦éè¡-logo"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "å¯é¦éæ§"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "éæ§æå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/online-service.svg",
+        "æ¸ä½å®¢æ"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%8B%87MGM_LINE OA 1920x300.jpg",
+        "æ­¡æ¶ä¸å¸ä¸é±å¹´ Fubon Angelsè¦é¢æä¾äºï¼"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/JQ4bn_L2_1920x300.jpg",
+        "ç°¡å®å·å¡ è¼é¬åé¥ï¼æ¥éæ³°æéå·Jå¡æé«6%åé¥"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%8B%87%E5%8D%A12026H2_1920x300.jpg",
+        "æå°åå£«è¯åå¡ ä¸»å ´è³¼ç¥¨5æèµ·"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/C%E5%8D%A11920X300_L2_01.jpg",
+        "å¯é¦Costcoè¯åå¡ç²¾é¸æµ·å¤æé5%"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/OP%E5%8D%A1%E5%87%BA%E5%9C%8B%E8%B6%85%E5%A5%BD%E5%88%B7_banner_L2_1920x300.jpg",
+        "åºåè¶å¥½å·"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/banner_L2_1920X300.jpg",
+        "å¯é¦ä¿¡è²¸ ç¨å­£è³éåç­å¾"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/0701_%E5%AF%8C%E9%82%A6momo%E5%8D%A1%E6%96%B0%E5%8D%A1%E4%B8%8A%E5%B8%82_banner_1920x300.jpg",
+        "momoå¡é»ç½å¡é¢å¨æ°ç»å ´ï¼ç¾å¨ç³è¾¦æ°æ¶é¦å·é1000åmoå¹£ï¼"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E8%BE%A6%E5%8D%A1%E9%96%8B%E5%8D%A1_515x280.jpg",
+        "è¾¦å¡Â·éå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%96%B0%E5%AE%98%E7%B6%B2.jpg",
+        "æåç³è«"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E7%99%BE%E8%B2%A8545x280.jpg",
+        "åªæ æ¬ç"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/515X280.jpg",
+        "ä¿¡ç¨å¡çè²¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-line.svg",
+        "å°åå¯é¦éè¡-line"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-facebook.svg",
+        "é®®å¯å¹«-facebook"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon-app-cdic.png",
+        "ä¸­å¤®å­æ¬¾ä¿éª"
+      ]
+    ],
+    "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/card_refer/card_refer.htm": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
+        "å°åå¯é¦éè¡-logo"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "å¯é¦éæ§"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "éæ§æå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/online-service.svg",
+        "æ¸ä½å®¢æ"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%B0%8A%E5%BE%A1%E5%8D%A1_MW.png",
+        "å¯é¦å°å¾¡ä¸çå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/686824CCWORLD.png",
+        "å¯é¦Costcoè¯åä¸çå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/686824CCBUSINESS.png",
+        "å¯é¦Costcoè¯åé¦åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/C%E5%8D%A1%E5%8D%A1%E9%9D%A2.png",
+        "å¯é¦Costcoè¯åé¦éå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/J%E5%8D%A1.gif",
+        "å¯é¦Jå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E9%91%BD%E4%BF%9D%E5%8D%A1_VS.png",
+        "å¯é¦é½ä¿å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/OP_200-x-200-02.png",
+        "å°ç£å¤§å¥å¤§Open Possibleè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%AF%8C%E5%88%A9_MT.png",
+        "å¯é¦å¯å©çæ´»ç³»åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%8B%87%E8%81%AF%E5%90%8D%E5%8D%A1_MT.png",
+        "æå°åå£«è¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/DHC%E5%8D%A1.png",
+        "DHCè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E7%A6%8F%E8%8F%AF%E5%8D%A1.png",
+        "ç¦è¯è¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E9%BA%97%E5%AC%B0%E6%88%BF.gif",
+        "éºå¬°æ¿è¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%8F%B0%E8%8C%82.png",
+        "å°èè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/sogo%E5%8D%A1.png",
+        "å»£ä¸SOGOè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E9%87%87%E7%9B%9F%E5%8D%A1.png",
+        "éçè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%A4%A9%E4%BD%BF%E5%8D%A1.png",
+        "Angelå¤©ä½¿å¬çèªåå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%B3%95%E9%BC%93%E5%B1%B1.png",
+        "æ³é¼å±±èªå¨å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%8C%97%E5%B8%82%E5%BA%9C%E8%AA%8D%E5%90%8C%E5%8D%A1.png",
+        "å°åå¸æ¿åºèªåå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/momo2026new.gif",
+        "momoå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-line.svg",
+        "å°åå¯é¦éè¡-line"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-facebook.svg",
+        "é®®å¯å¹«-facebook"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon-app-cdic.png",
+        "ä¸­å¤®å­æ¬¾ä¿éª"
+      ]
+    ],
+    "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/lifestyle/lifestyle.htm": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
+        "å°åå¯é¦éè¡-logo"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "å¯é¦éæ§"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "éæ§æå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/online-service.svg",
+        "æ¸ä½å®¢æ"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/Lifestyle.jpg",
+        "å¯é¦å¯å©çæ´»å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/LIFE8635.jpg",
+        "8å¤§çæ´»æ¶è²»éè·¯"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-line.svg",
+        "å°åå¯é¦éè¡-line"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-facebook.svg",
+        "é®®å¯å¹«-facebook"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon-app-cdic.png",
+        "ä¸­å¤®å­æ¬¾ä¿éª"
+      ]
+    ],
+    "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/Guardians_Braves/Guardians_Braves.htm": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
+        "å°åå¯é¦éè¡-logo"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "å¯é¦éæ§"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "éæ§æå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/online-service.svg",
+        "æ¸ä½å®¢æ"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%8B%87%E8%81%AF%E5%90%8D%E5%8D%A1_MT.png",
+        "æå°åå£«è¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-line.svg",
+        "å°åå¯é¦éè¡-line"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-facebook.svg",
+        "é®®å¯å¹«-facebook"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon-app-cdic.png",
+        "ä¸­å¤®å­æ¬¾ä¿éª"
+      ]
+    ],
+    "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/momo/momo.htm": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
+        "å°åå¯é¦éè¡-logo"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "å¯é¦éæ§"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "éæ§æå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/online-service.svg",
+        "æ¸ä½å®¢æ"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/momo2026new.gif",
+        "momoå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-line.svg",
+        "å°åå¯é¦éè¡-line"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-facebook.svg",
+        "é®®å¯å¹«-facebook"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon-app-cdic.png",
+        "ä¸­å¤®å­æ¬¾ä¿éª"
+      ]
+    ],
+    "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/digitallife/digitallife.htm": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
+        "å°åå¯é¦éè¡-logo"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "å¯é¦éæ§"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "éæ§æå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/online-service.svg",
+        "æ¸ä½å®¢æ"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/Digitallife_G.gif",
+        "æ¸ä½çæ´»å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-line.svg",
+        "å°åå¯é¦éè¡-line"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-facebook.svg",
+        "é®®å¯å¹«-facebook"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon-app-cdic.png",
+        "ä¸­å¤®å­æ¬¾ä¿éª"
+      ]
+    ],
+    "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/fortune/fortune.htm": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
+        "å°åå¯é¦éè¡-logo"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "å¯é¦éæ§"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "éæ§æå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/online-service.svg",
+        "æ¸ä½å®¢æ"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/fortune.jpg",
+        "ææ©ä¿¡ç¨å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-line.svg",
+        "å°åå¯é¦éè¡-line"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-facebook.svg",
+        "é®®å¯å¹«-facebook"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon-app-cdic.png",
+        "ä¸­å¤®å­æ¬¾ä¿éª"
+      ]
+    ],
+    "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm?cardkind=mobile": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
+        "å°åå¯é¦éè¡-logo"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "å¯é¦éæ§"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "éæ§æå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/online-service.svg",
+        "æ¸ä½å®¢æ"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/J%E5%8D%A1.gif",
+        "å¯é¦Jå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E9%91%BD%E4%BF%9D%E5%8D%A1_VS.png",
+        "å¯é¦é½ä¿å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%AF%8C%E5%88%A9_MT.png",
+        "å¯é¦å¯å©çæ´»ç³»åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/C%E5%8D%A1%E5%8D%A1%E9%9D%A2.png",
+        "å¯é¦Costcoè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%8B%87%E8%81%AF%E5%90%8D%E5%8D%A1_MT.png",
+        "æå°åå£«è¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/momo2026new.gif",
+        "momoå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/OP_200-x-200-02.png",
+        "å°ç£å¤§å¥å¤§Open Possibleè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/J%E5%8D%A1.gif",
+        "å¯é¦Jå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%B0%8A%E5%BE%A1%E5%8D%A1_MW.png",
+        "å¯é¦IMPERIALå°å¾¡ä¸çå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%95%B8%E4%BD%8D%E7%94%9F%E6%B4%BB.gif",
+        "å¯é¦æ¸ä½çæ´»å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E9%91%BD%E4%BF%9D%E5%8D%A1_VS.png",
+        "å¯é¦é½ä¿å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E8%B2%A1%E7%A5%9EMP.png",
+        "å¯é¦è²¡ç¥å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/OP_200-x-200-02.png",
+        "å°ç£å¤§å¥å¤§Open Possibleè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/J%E5%8D%A1.gif",
+        "å¯é¦Jå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%AF%8C%E5%88%A9_MT.png",
+        "å¯é¦å¯å©çæ´»ç³»åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E4%B8%96%E7%95%8C%E5%8D%A1_MW.png",
+        "å¯é¦ä¸çå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E7%84%A1%E9%99%90%E5%8D%A1_VW.png",
+        "å¯é¦ç¡éå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E9%88%A6%E9%87%91%E5%8D%A1_MT.png",
+        "å¯é¦é¦éå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E9%8A%80%E8%A1%8C%E5%8D%A1_JP.png",
+        "å¯é¦éè¡å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%95%86%E5%8B%99%E5%8D%A1_MT.png",
+        "å¯é¦ååå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/C%E5%8D%A1%E5%8D%A1%E9%9D%A2.png",
+        "å¯é¦Costcoè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%8B%87%E8%81%AF%E5%90%8D%E5%8D%A1_MT.png",
+        "æå°åå£«è¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/momo2026new.gif",
+        "momoå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%8F%B0%E8%8C%82.png",
+        "å°èè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E9%87%87%E7%9B%9F%E5%8D%A1.png",
+        "éçè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E7%A6%8F%E8%8F%AF%E5%8D%A1.png",
+        "ç¦è¯è¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%B0%87%E5%8D%A1.png",
+        "å¯é¦æå°æ éè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%A4%A9%E4%BD%BF%E5%8D%A1.png",
+        "Angelå¤©ä½¿å¬çèªåå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%B3%95%E9%BC%93%E5%B1%B1.png",
+        "æ³é¼å±±èªå¨å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%8C%97%E5%B8%82%E5%BA%9C%E8%AA%8D%E5%90%8C%E5%8D%A1.png",
+        "å°åå¸æ¿åºèªåå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/sogo%E5%8D%A1.png",
+        "å»£ä¸SOGOè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E9%BA%97%E5%AC%B0%E6%88%BF.gif",
+        "éºå¬°æ¿è¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/DHC%E5%8D%A1.png",
+        "DHCè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/applepay.jpg",
+        "Apple Pay"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/GooglePay.jpg",
+        "Google Pay"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/samsung_pay.jpg",
+        "Samsung Pay"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/GarminPay.jpg",
+        "Garmin Pay"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/HCEcard.jpg",
+        "å°ç£è¡åæ¯ä»"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%8B%87%E9%87%91%E8%9E%8D%E5%8D%A1_MD.png",
+        "æå°åå£«ç°½å¸³éèå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%B0%87VD.png",
+        "åå£«ç°½å¸³éèå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%B0%87%E7%B0%BD%E5%B8%B3.png",
+        "æå°ç°½å¸³éèå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E9%87%91%E8%9E%8D%E5%8D%A1_VP.png",
+        "VISAç°½å¸³éèå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/mo%E7%B0%BD%E5%B8%B3%E5%8D%A1.png",
+        "momoç°½å¸³éèå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%94%BF%E5%BA%9C%E6%8E%A1%E8%B3%BC%E5%8D%A1.png",
+        "æ¿åºæ¡è³¼å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/LINE_VP.png",
+        "LINE FRIENDSå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/Amoney_VS.png",
+        "å¯é¦ï¼¡ moneyå¡(ä¸æä¾ç³è«)"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/amiles_MP.png",
+        "å¯é¦a milesèªç©ºå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/costco_bccard.png",
+        "å¯é¦Costcoæ¡è³¼å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E5%8F%B0%E7%81%A3%E5%A4%A7%E6%82%A0%E9%81%8A%E5%8D%A1.png",
+        "å°ç£å¤§å¥å¤§æ éè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-line.svg",
+        "å°åå¯é¦éè¡-line"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-facebook.svg",
+        "é®®å¯å¹«-facebook"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon-app-cdic.png",
+        "ä¸­å¤®å­æ¬¾ä¿éª"
+      ]
+    ],
+    "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/imperial/imperial.htm": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
+        "å°åå¯é¦éè¡-logo"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "å¯é¦éæ§"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "éæ§æå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/online-service.svg",
+        "æ¸ä½å®¢æ"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/imperial.jpg",
+        "å¯é¦IMPERIALå°å¾¡ä¸çå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-line.svg",
+        "å°åå¯é¦éè¡-line"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-facebook.svg",
+        "é®®å¯å¹«-facebook"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon-app-cdic.png",
+        "ä¸­å¤®å­æ¬¾ä¿éª"
+      ]
+    ],
+    "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/omiyage/omiyage.htm": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
+        "å°åå¯é¦éè¡-logo"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "å¯é¦éæ§"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "éæ§æå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/online-service.svg",
+        "æ¸ä½å®¢æ"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/J%E5%8D%A1.gif",
+        "å¯é¦Jå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/LINEPaybindingSTEP.jpg",
+        "/"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-line.svg",
+        "å°åå¯é¦éè¡-line"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-facebook.svg",
+        "é®®å¯å¹«-facebook"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon-app-cdic.png",
+        "ä¸­å¤®å­æ¬¾ä¿éª"
+      ]
+    ],
+    "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/insurance/insurance.htm": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
+        "å°åå¯é¦éè¡-logo"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "å¯é¦éæ§"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "éæ§æå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/online-service.svg",
+        "æ¸ä½å®¢æ"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/insurance.jpg",
+        "å¯é¦é½ä¿å¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-line.svg",
+        "å°åå¯é¦éè¡-line"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-facebook.svg",
+        "é®®å¯å¹«-facebook"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon-app-cdic.png",
+        "ä¸­å¤®å­æ¬¾ä¿éª"
+      ]
+    ],
+    "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/openpossible/openpossible.htm": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
+        "å°åå¯é¦éè¡-logo"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "å¯é¦éæ§"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "éæ§æå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/online-service.svg",
+        "æ¸ä½å®¢æ"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/OP_200-x-200-02.png",
+        "Open Possibleè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/2025_æé.jpg",
+        "/"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/BicCameraåé«å³¶å±.png",
+        "/"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/è¥å¦.jpg",
+        "/"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/Visa FY26 VSRA x Trip.com Outbound Offer (from now on-31 Dec. 2026) .jpg",
+        "/"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-line.svg",
+        "å°åå¯é¦éè¡-line"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-facebook.svg",
+        "é®®å¯å¹«-facebook"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon-app-cdic.png",
+        "ä¸­å¤®å­æ¬¾ä¿éª"
+      ]
+    ],
+    "error": ""
   },
   "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg021/card001/": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon1.svg",
+        "匯利率"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon2.svg",
+        "繳費/申辦"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon3.svg",
+        "試算"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon4.svg",
+        "文件下載"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon5.svg",
+        "我的收藏"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon6-1.svg",
+        "客服"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/creditcard/megaphone.png",
+        "megaphone"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/creditcard/_550x320.png",
+        "【推薦好友申辦台新卡】達檻最高加碼送iPhone 17"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-1.png",
+        "台新銀行"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-45.png",
+        "台新優惠市集"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/Instagram-Icon.png",
+        "圓環旁的說書人"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/YouTube-Icon_20251127.png",
+        "台新新光金控"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-27.png",
+        "台新服務網"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/cdic_icon.png",
+        "存款保險"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/system/modules/com.thesys.project.TSB/resources/img/ts-463.png",
+        "智能客服"
+      ]
+    ],
+    "error": ""
   },
   "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg010/card001/": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon1.svg",
+        "匯利率"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon2.svg",
+        "繳費/申辦"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon3.svg",
+        "試算"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon4.svg",
+        "文件下載"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon5.svg",
+        "我的收藏"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon6-1.svg",
+        "客服"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/creditcard/mgpx3.gif",
+        "大全聯信用卡"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/creditcard/_550x320.png",
+        "【推薦好友申辦台新卡】達檻最高加碼送iPhone 17"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/images/2018/20240620",
+        "台新-居家服務項目(20221201)"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/creditcard/3db2ca25-0310-button-01.png",
+        "3db2ca25-0310-button-01"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/images/2018/createCard/yellow885_20240828",
+        "11305240624"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/creditcard/PXPay02.png",
+        "PXPay02"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-1.png",
+        "台新銀行"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-45.png",
+        "台新優惠市集"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/Instagram-Icon.png",
+        "圓環旁的說書人"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/YouTube-Icon_20251127.png",
+        "台新新光金控"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-27.png",
+        "台新服務網"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/cdic_icon.png",
+        "存款保險"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/system/modules/com.thesys.project.TSB/resources/img/ts-463.png",
+        "智能客服"
+      ]
+    ],
+    "error": ""
   },
   "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/parking/right0306/": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon1.svg",
+        "匯利率"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon2.svg",
+        "繳費/申辦"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon3.svg",
+        "試算"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon4.svg",
+        "文件下載"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon5.svg",
+        "我的收藏"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon6-1.svg",
+        "客服"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-1.png",
+        "台新銀行"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-45.png",
+        "台新優惠市集"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/Instagram-Icon.png",
+        "圓環旁的說書人"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/YouTube-Icon_20251127.png",
+        "台新新光金控"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-27.png",
+        "台新服務網"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/cdic_icon.png",
+        "存款保險"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/system/modules/com.thesys.project.TSB/resources/img/ts-463.png",
+        "智能客服"
+      ]
+    ],
+    "error": ""
   },
   "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/road-rescue/right0401/": {
     "checkedAt": "2026-09-30T12:44:48.953728+00:00",
@@ -2315,14 +3551,120 @@
     "error": "SSLError"
   },
   "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/favorable/right0502/": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon1.svg",
+        "匯利率"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon2.svg",
+        "繳費/申辦"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon3.svg",
+        "試算"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon4.svg",
+        "文件下載"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon5.svg",
+        "我的收藏"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon6-1.svg",
+        "客服"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-1.png",
+        "台新銀行"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-45.png",
+        "台新優惠市集"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/Instagram-Icon.png",
+        "圓環旁的說書人"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/YouTube-Icon_20251127.png",
+        "台新新光金控"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-27.png",
+        "台新服務網"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/cdic_icon.png",
+        "存款保險"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/system/modules/com.thesys.project.TSB/resources/img/ts-463.png",
+        "智能客服"
+      ]
+    ],
+    "error": ""
   },
   "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon1.svg",
+        "匯利率"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon2.svg",
+        "繳費/申辦"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon3.svg",
+        "試算"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon4.svg",
+        "文件下載"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon5.svg",
+        "我的收藏"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon6-1.svg",
+        "客服"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-1.png",
+        "台新銀行"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-45.png",
+        "台新優惠市集"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/Instagram-Icon.png",
+        "圓環旁的說書人"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/YouTube-Icon_20251127.png",
+        "台新新光金控"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-27.png",
+        "台新服務網"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/cdic_icon.png",
+        "存款保險"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/system/modules/com.thesys.project.TSB/resources/img/ts-463.png",
+        "智能客服"
+      ]
+    ],
+    "error": ""
   },
   "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/insurance/right0205/": {
     "checkedAt": "2026-09-30T12:44:48.953728+00:00",
@@ -2335,12 +3677,12 @@
     "error": "SSLError"
   },
   "https://www.ctbcbank.com/content/twrbo/zh_tw/cc_index/cc_product/cc_introduction_index.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/index.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -2371,8 +3713,8 @@
         "æ¥æ¥è²ç "
       ],
       [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/index/index_carousel_img_shopback.png",
-        "ç±è¡èªä¿¡ç©¿æ­"
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/index/index_carousel_img_goamazing.png",
+        "è³¼ç²¾å½©"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/index/index_carousel_img_travel.png",
@@ -2390,7 +3732,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/gifts.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -2580,7 +3922,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_food.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -2636,11 +3978,11 @@
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/food/food_promotions_store_breakfast.png",
-        "LINE Payå¥½åº·å°å_æ©é¤åå¡"
+        "æ©é¤åå¡"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/food/food_promotions_store_restaurant.png",
-        "LINE Payå¥½åº·å°å_åçé¤å»³"
+        "åçé¤å»³"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/food/food_promotions_store_lopia.png",
@@ -2716,7 +4058,7 @@
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopback_lightbox_text_shopback-xs.png",
-        "SHOPBACKå¹³å°åªæ åå®¶ï¼æé«äº«11%"
+        "SHOPBACKå¹³å°åªæ åå®¶ï¼æé«äº«8%"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopback_lightbox_slidercard_shopbackstore_title-xs.png",
@@ -2765,10 +4107,6 @@
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_books.png",
         "SHOPBACKåºå®¶ï¼åå®¢ä¾"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_taobao.png",
-        "SHOPBACKåºå®¶ï¼æ·å¯¶"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_etmall.png",
@@ -2850,7 +4188,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_pet.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -2994,7 +4332,7 @@
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopback_lightbox_text_shopback-xs.png",
-        "SHOPBACKå¹³å°åªæ åå®¶ï¼æé«äº«11%"
+        "SHOPBACKå¹³å°åªæ åå®¶ï¼æé«äº«8%"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopback_lightbox_slidercard_shopbackstore_title-xs.png",
@@ -3043,10 +4381,6 @@
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_books.png",
         "SHOPBACKåºå®¶ï¼åå®¢ä¾"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_taobao.png",
-        "SHOPBACKåºå®¶ï¼æ·å¯¶"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_etmall.png",
@@ -3128,7 +4462,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_shopping.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -3137,14 +4471,6 @@
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopping/shopping_kv_layer-xs.png",
         "èå¥½è³¼_KV_è£é£¾å"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopping/shopping_promotions_store_taobao.png",
-        "Taobao æ·å¯¶"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopping/shopping_promotions_store_goamazing.png",
-        "GoAmazing è³¼ç²¾å½©"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopping/shopping_promotions_store_coupang.png",
@@ -3227,10 +4553,6 @@
         "SHOPBACKå¹³å°_åå®¢ä¾"
       ],
       [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_promotions_store_shopback_taobao.png",
-        "SHOPBACKå¹³å°_æ·å¯¶"
-      ],
-      [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_promotions_store_shopback_etmall.png",
         "SHOPBACKå¹³å°_ETMallæ±æ£®è³¼ç©å®ç¶²"
       ],
@@ -3253,14 +4575,6 @@
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopping/shopping_lightbox_text_taobao-xs.png",
         "Taobaoæ·å¯¶ï¼äº«LINE POINTS 5%"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopping/shopping_lightbox_logo_goamazing-xs.png",
-        "GoAmazingè³¼ç²¾å½©"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopping/shopping_lightbox_text_goamazing-xs.png",
-        "GoAmazingè³¼ç²¾å½©ï¼æé«äº«LINE POINTS 6%"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopping/shopping_lightbox_logo_samsung-xs.png",
@@ -3332,7 +4646,7 @@
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopback_lightbox_text_shopback-xs.png",
-        "SHOPBACKå¹³å°åªæ åå®¶ï¼æé«äº«11%"
+        "SHOPBACKå¹³å°åªæ åå®¶ï¼æé«äº«8%"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopback_lightbox_slidercard_shopbackstore_title-xs.png",
@@ -3381,10 +4695,6 @@
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_books.png",
         "SHOPBACKåºå®¶ï¼åå®¢ä¾"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_taobao.png",
-        "SHOPBACKåºå®¶ï¼æ·å¯¶"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_etmall.png",
@@ -3466,7 +4776,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -3533,6 +4843,10 @@
         "CASETiFY"
       ],
       [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/life/life_promotions_store_goamazing.png",
+        "GoAmazing è³¼ç²¾å½©"
+      ],
+      [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/life_promotions_store_shopback_xiaomi.png",
         "SHOPBACKå¹³å°_Xiaomi å°ç±³"
       ],
@@ -3597,6 +4911,18 @@
         "SHOPBACKå¹³å°_ISPO"
       ],
       [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/life/life_promotions_store_uniprosperity.png",
+        "è¬å®¶ç¦/æ¨å®¶åº·"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/life/life_promotions_store_ikea.png",
+        "IKEA"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/life/life_promotions_store_skm.png",
+        "æ°åä¸è¶"
+      ],
+      [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/life/life_promotions_store_outlet.png",
         "äººæ°£Outlet"
       ],
@@ -3623,6 +4949,14 @@
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/life/life_lightbox_text_greattree-xs.png",
         "å¤§æ¨¹è¥å±ï¼æé«äº«8%"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/life/life_lightbox_logo_goamazing-xs.png",
+        "GoAmazingè³¼ç²¾å½©"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/life/life_lightbox_text_goamazing-xs.png",
+        "GoAmazingè³¼ç²¾å½©ï¼æé«äº«LINE POINTS 6%"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/life/life_lightbox_logo_kkbox-xs.png",
@@ -3718,7 +5052,7 @@
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopback_lightbox_text_shopback-xs.png",
-        "SHOPBACKå¹³å°åªæ åå®¶ï¼æé«äº«11%"
+        "SHOPBACKå¹³å°åªæ åå®¶ï¼æé«äº«8%"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopback_lightbox_slidercard_shopbackstore_title-xs.png",
@@ -3767,10 +5101,6 @@
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_books.png",
         "SHOPBACKåºå®¶ï¼åå®¢ä¾"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_taobao.png",
-        "SHOPBACKåºå®¶ï¼æ·å¯¶"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_etmall.png",
@@ -3852,7 +5182,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_fashion.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -3913,6 +5243,10 @@
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/fashion/fashion_promotions_store_watsons.png",
         "watsons å±è£æ°"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/fashion/fashion_promotions_store_vacanza.png",
+        "VACANZA"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/fashion/fashion_promotions_store_sisley.png",
@@ -4015,6 +5349,10 @@
         "watsons å±è£æ°ï¼æé«äº«LINE POINTS 7%"
       ],
       [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/fashion/fashion_lightbox_logo_vacanza-xs.png",
+        "VACANZA"
+      ],
+      [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/fashion/fashion_lightbox_logo_kafen-xs.png",
         "kafen"
       ],
@@ -4084,7 +5422,7 @@
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopback_lightbox_text_shopback-xs.png",
-        "SHOPBACKå¹³å°åªæ åå®¶ï¼æé«äº«11%"
+        "SHOPBACKå¹³å°åªæ åå®¶ï¼æé«äº«8%"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopback_lightbox_slidercard_shopbackstore_title-xs.png",
@@ -4133,10 +5471,6 @@
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_books.png",
         "SHOPBACKåºå®¶ï¼åå®¢ä¾"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_taobao.png",
-        "SHOPBACKåºå®¶ï¼æ·å¯¶"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_etmall.png",
@@ -4218,7 +5552,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_travel.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -4277,12 +5611,28 @@
         "åç¤º_èèªéæ»é"
       ],
       [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_npcPowerExpress.png",
-        "å¨åç¹æ¥é»PowerExpress"
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_hotelscom.png",
+        "Hotels.com"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_wamazing.png",
+        "å®ç¾è¡æ»éª"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_overseas.png",
         "ä¸éåå¥åå¤å¯¦é«åº"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_uspace.png",
+        "USPACE"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_uspace.png",
+        "USPACE"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_ugo.png",
+        "UGO"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_carplus.png",
@@ -4297,16 +5647,16 @@
         "éåæå®ååº"
       ],
       [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_wamazing.png",
-        "å®ç¾è¡è³¼ç©"
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_oliveyoungglobal.png",
+        "OLIVE YOUNG Global"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_kkday.png",
         "kkday"
       ],
       [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_hotelscom.png",
-        "Hotels.com"
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_agoda.png",
+        "Agoda"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_tripcom.png",
@@ -4337,6 +5687,10 @@
         "NPCå¨åå æ²¹ç«"
       ],
       [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_npcPowerExpress.png",
+        "å¨åç¹æ¥é»PowerExpress"
+      ],
+      [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_klook.png",
         "Klook"
       ],
@@ -4357,12 +5711,20 @@
         "æ¾é«é©"
       ],
       [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_npcPowerExpress-xs.png",
-        "å¨åç¹æ¥é»npcPowerExpress"
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_hotelscom-xs.png",
+        "Hotels.com"
       ],
       [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_text_npcPowerExpress-xs.png",
-        "å¨åç¹æ¥é»npcPowerExpressï¼äº«LINE POINTS 10%"
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_text_hotelscom-xs.png",
+        "Hotels.comï¼æé«äº«LINE POINTS 16%"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_wamazing-xs.png",
+        "å®ç¾è¡æ»éª"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_text_wamazing-xs.png",
+        "å®ç¾è¡æ»éªï¼æ»¿é¡æé«äº« ç¾æ800æ¥å+LINE POINTS 5%"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_overseas-xs.png",
@@ -4373,12 +5735,44 @@
         "ä¸éåå¥åå¤å¯¦é«ååºï¼äº«LINE POINTS 5%"
       ],
       [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_wamazing-xs.png",
-        "å®ç¾è¡è³¼ç©"
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_uspace-xs.png",
+        "USPACE"
       ],
       [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_text_wamazing-xs.png",
-        "åªæ è³è¨èªªæ_å®ç¾è¡è³¼ç©"
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_text_uspacepark-xs.png",
+        "USPACEï¼æé åè»é+LINE POINTS 7%"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_uspace-xs.png",
+        "USPACE"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_text_uspacewash-xs.png",
+        "USPACEï¼æé«LINE POINTS 7%"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_ugo-xs.png",
+        "UGO"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_text_ugo-xs.png",
+        "UGOï¼æé«LINE POINTS 7%"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_carplus-xs.png",
+        "æ ¼ä¸ç§è»"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_text_carplus-xs.png",
+        "æ ¼ä¸ç§è»ï¼æé«ææµNT650å+LINE POINTS 8%"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_twdd-xs.png",
+        "å°ç£ä»£é§"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_text_twdd-xs.png",
+        "å°ç£ä»£é§ï¼æé«ææµNT800å+LINE POINTS 6%"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_kkday-xs.png",
@@ -4387,14 +5781,6 @@
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_text_kkday-xs.png",
         "kkdayï¼æé«äº«LINE POINTS 10%"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_hotelscom-xs.png",
-        "Hotels.com"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_text_hotelscom-xs.png",
-        "Hotels.comï¼æé«äº«LINE POINTS 20%"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_tripcom-xs.png",
@@ -4426,7 +5812,7 @@
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_text_eztravel-xs.png",
-        "eztravelæéç¶²ï¼æé«äº«6%"
+        "eztravelæéç¶²ï¼æé«äº«3%"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_npcgas-xs.png",
@@ -4435,6 +5821,14 @@
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_text_npcgas-xs.png",
         "NPCå¨åå æ²¹ç«ï¼äº«LINE POINTS 5%"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_npcPowerExpress-xs.png",
+        "å¨åç¹æ¥é»npcPowerExpress"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_text_npcPowerExpress-xs.png",
+        "å¨åç¹æ¥é»npcPowerExpressï¼äº«LINE POINTS 10%"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_klook-xs.png",
@@ -4458,23 +5852,7 @@
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_text_expedia-xs.png",
-        "Expediaï¼æé«äº«LINE POINTS 18%"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_carplus-xs.png",
-        "æ ¼ä¸ç§è»"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_text_carplus-xs.png",
-        "æ ¼ä¸ç§è»ï¼æé«ææµNT650å+LINE POINTS 8%"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_logo_twdd-xs.png",
-        "å°ç£ä»£é§"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_lightbox_text_twdd-xs.png",
-        "å°ç£ä»£é§ï¼æé«ææµNT800å+LINE POINTS 6%"
+        "Expediaï¼æé«äº«LINE POINTS 8%"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopback_lightbox_logo_shopback-xs.png",
@@ -4482,7 +5860,7 @@
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopback_lightbox_text_shopback-xs.png",
-        "SHOPBACKå¹³å°åªæ åå®¶ï¼æé«äº«11%"
+        "SHOPBACKå¹³å°åªæ åå®¶ï¼æé«äº«8%"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopback_lightbox_slidercard_shopbackstore_title-xs.png",
@@ -4531,10 +5909,6 @@
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_books.png",
         "SHOPBACKåºå®¶ï¼åå®¢ä¾"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_taobao.png",
-        "SHOPBACKåºå®¶ï¼æ·å¯¶"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/shopping_lightbox_slidercard_shopback_etmall.png",
@@ -4700,7 +6074,7 @@
     "error": ""
   },
   "https://www.dbs.com.tw/personal-zh/cards/default.page": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.dbs.com.tw/iwov-resources/flp/images/dbs_logo.svg",
@@ -5759,7 +7133,7 @@
     "error": ""
   },
   "https://www.card.rakuten.com.tw/": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://image.card.tw.r10s.com/images/corp/campaign/2216/banner/710x310.jpg",
@@ -7099,7 +8473,7 @@
     "error": ""
   },
   "https://www.tcbbank.com.tw/": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
     "error": "ConnectionError"
   },
@@ -7109,7 +8483,7 @@
     "error": "ConnectionError"
   },
   "https://www.hsbc.com.tw/credit-cards/": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/logos/13608-hsbc-masterbrand-tc-logo.png",
@@ -7641,17 +9015,17 @@
     "error": ""
   },
   "https://www.yuantabank.com.tw/bank-web/personal/credit-card/": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
     "error": ""
   },
   "https://www.hncb.com.tw/wps/portal/HNCB/creditcard": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
-    "error": "SSLError"
+    "error": "ConnectTimeout"
   },
   "https://www.bankchb.com/frontend/mashup.jsp?funcId=33": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.bankchb.com/frontend/img/icon-menu-01.svg",
@@ -7741,14 +9115,14 @@
     "error": ""
   },
   "https://www.megabank.com.tw/personal/credit-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.megabank.com.tw/-/media/mega/images/default-image/footerv2/logo_bank_new.svg?iar=0",
         "Mega Bank Logo"
       ],
       [
-        "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/event/discount-detail/ina/aptrc2040bn11507v2.jpg?h=1080&iar=0&w=2040",
+        "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/event/discount-detail/ina/aptrc2040bn11510v2.jpg?h=1080&iar=0&w=2040",
         "Apple Pay交通卡BN"
       ],
       [
@@ -7756,20 +9130,24 @@
         "MegaOne海外消費最高4%回饋"
       ],
       [
-        "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/event/discount-detail/wei/citylink11509_2040.jpg?h=540&iar=0&w=1020",
-        "CITYLINK消費購划算，台灣Pay享20%回饋"
+        "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/event/discount-detail/ina/11510yoyo2040.jpg?h=1080&iar=0&w=2040",
+        "11510-12悠遊付滿額10%"
+      ],
+      [
+        "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/event/discount-detail/010190/megaone/11509freecard2040.jpg?h=1080&iar=0&w=2040",
+        "優惠自由選指定通路加碼1%回饋"
       ],
       [
         "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/event/discount-detail/012505/11508_twomarket2040.jpg?h=1080&iar=0&w=2040",
         "老少咸宜作伙台灣Pay！華西街×師大商圈享20%回饋"
       ],
       [
-        "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/event/discount-detail/twponepointfive/11509ecbn-2040x1080.jpg?h=1080&iar=0&w=2040",
-        "99網購刷兆豐 滿額享2200元"
+        "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/event/discount-detail/twponepointfive/202610ecbn2040x1080.jpg?h=1080&iar=0&w=2040",
+        "雙十網購刷兆豐 滿額享2500元"
       ],
       [
-        "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/event/discount-detail/wei/depart11509_2040x1080.jpg?h=1080&iar=0&w=2040",
-        "週年慶刷兆豐，最高送1800元"
+        "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/event/discount-detail/wei/115deebuy2040.jpg?h=1080&iar=0&w=2040",
+        "週年慶放心刷兆豐，最高回饋14,000元"
       ],
       [
         "https://www.megabank.com.tw/-/media/mega/images/bankv2/icon/40x40/online_card.svg?h=40&iar=0&w=40",
@@ -7844,16 +9222,16 @@
         "GAGA龍"
       ],
       [
-        "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/event/discount-detail/genie/ftc/115q3ftcbb.jpg?h=1080&iar=0&w=2040",
-        "【優惠自由選】旅遊/支付/便利生活等通路享加碼1%回饋"
+        "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/event/discount-detail/hsin/11509freecard2040.jpg?h=1080&iar=0&w=2040",
+        "【優惠自由選】旅遊/支付/百貨/網購等通路享加碼1%回饋"
       ],
       [
         "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/event/discount-detail/media-folder/11501_firstgiftb.jpg?h=1080&iar=0&w=2040",
         "115年新戶首刷禮"
       ],
       [
-        "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/event/discount-detail/010976/11506_travel2000b.jpg?h=1080&iar=0&w=2040",
-        "精選旅遊通路滿額回饋NT$2,000"
+        "https://www.megabank.com.tw/-/media/mega/images/bankv2/personal/credit-card/event/discount-detail/010976/11509_travelall.jpg?h=1080&iar=0&w=2040",
+        "紅葉季追楓去 旅遊最高回饋5,000元"
       ],
       [
         "https://www.megabank.com.tw/-/media/mega/images/default-image/expand-list-with-tab/faq.svg?iar=0",
@@ -7935,7 +9313,7 @@
     "error": ""
   },
   "https://www.tcb-bank.com.tw/personal-banking/credit-card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.tcb-bank.com.tw/themes/bank/images/logo/logo-simple-wt.svg",
@@ -7986,14 +9364,6 @@
         "無限金鑽卡宣傳圖"
       ],
       [
-        "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/discount/115-0173/115-0173-360-1.jpg?iar=0&sc_lang=zh-tw&hash=02B844992081DB5D11D71F4E91247313",
-        "115-0173-360-1"
-      ],
-      [
-        "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/discount/115-0173/115-0173-1940-1.png?iar=0&sc_lang=zh-tw&hash=978D4E8D5BE9FFBA05A96D1B8011F206",
-        "115-0173-1940-1"
-      ],
-      [
         "https://www.tcb-bank.com.tw/-/media/images/bank/personal-banking/credit-card/intro/ipass-intro/230718_ipass_bn_1920x400.jpg?iar=0&sc_lang=zh-tw&hash=79049EE576E4E84210AE444C786C95BF",
         "IPASS"
       ],
@@ -8041,17 +9411,22 @@
     "error": ""
   },
   "https://www.feib.com.tw/": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.feib.com.tw/upload/cdic/cdic120.png",
+        "cdid.gov"
+      ]
+    ],
+    "error": ""
   },
   "https://www.entiebank.com.tw/": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
-    "error": "SSLError"
+    "error": ""
   },
   "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.o-bank.com/-/media/486bc56a4eb54699bf79f5bcd5f2f04f.png?iar=0&hash=9683C6365D6D317CBE8B63AA26B01783",
@@ -8101,43 +9476,204 @@
     "error": ""
   },
   "https://www.nextbank.com.tw/product/card": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.nextbank.com.tw/images/img-logo.svg",
+        "將來銀行 next bank 純網銀 LOGO"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/icons/icon-search.svg",
+        "search"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-account-section1_dollar.png",
+        "簽帳金融卡聰明理財"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section1-card_branded.png",
+        "兆豐將來銀行聯名卡"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section4_card_black.png",
+        "VISA 商務御璽卡"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section3_card_white.png",
+        "VISA 簽帳金融卡"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section1-card_branded.png",
+        "兆豐將來銀行聯名卡"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section4_card_black.png",
+        "VISA 商務御璽卡"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section3_card_white.png",
+        "VISA 簽帳金融卡"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section1-card_branded.png",
+        "兆豐將來銀行聯名卡"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section1_cards.png",
+        "VISA簽帳金融卡提款方面刷卡迅速"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section4_card_white.png",
+        "簽帳金融卡片輕鬆控管刷卡帳戶"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section2_package.png",
+        "簽帳金融卡消費紅利回饋"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section2_point1.png",
+        "VISA簽帳金融卡回饋點數累積"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section2_point2.png",
+        "VISA簽帳金融卡聰明帳戶管理"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section2_ripple.png",
+        "光波"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section3_notify_3.png",
+        "帳戶明細通知"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section3_notify_2.png",
+        "帳戶明細通知"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section3_notify_1.png",
+        "帳戶明細通知"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section3_phone.png",
+        "帳戶明細管理功能"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section4_card_white.png",
+        "VISA 簽帳金融卡"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section4_card_white.png",
+        "簽帳金融卡片輕鬆控管刷卡帳戶"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section4_card_yellow.png",
+        "將來銀行簽帳金融卡片黃色"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section4_card_gray.png",
+        "將來銀行簽帳金融卡片灰色"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section4_card_black.png",
+        "將來銀行簽帳金融卡片黑色"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section4_card_white.png",
+        "將來銀行簽帳金融卡片白色"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section5_phonelock@2x.png",
+        "鎖定卡片"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section5_switch_close.png",
+        "卡片暫停"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section5_switch_open.png",
+        "卡片啟用"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section5_phone.png",
+        "簽帳金融卡刷卡功能鎖定控管"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section5_ripple.png",
+        "鎖定卡片"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section5_lock.png",
+        "鎖定卡片"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section4_card_white.png",
+        "簽帳金融卡聰明理財鎖定信用卡功能"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section6_light.png",
+        "全功能卡"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section6_ipass.png",
+        "iPASS一卡通"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section6_atm.png",
+        "iPASS一卡通"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-card-section6_credit.png",
+        "iPASS一卡通"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/bg-product_m.svg",
+        "background"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-payment-list_1.png",
+        "外部機關合作平台"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-payment-list_2.png",
+        "行動支付工具"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/product/img-payment-list_4.png",
+        "VISA 御璽卡優惠"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/img-qrcode.png",
+        "qrcode"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/img-download_ios@2x.png",
+        "ios app"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/img-download_android@2x.png",
+        "android app"
+      ],
+      [
+        "https://www.nextbank.com.tw/images/icon-cdic.png",
+        "中央存款保險公司"
+      ]
+    ],
+    "error": ""
   },
   "https://www.linebank.com.tw/": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
     "error": ""
   },
   "https://www.rakuten-bank.com.tw/": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
     "error": ""
   },
   "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
-      [
-        "https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-bluebox-solid.svg",
-        "American Express"
-      ],
-      [
-        "https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-stack.svg",
-        "American Express"
-      ],
-      [
-        "https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-stack-white.svg",
-        "American Express"
-      ],
-      [
-        "https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-stack.svg",
-        "American Express"
-      ],
-      [
-        "https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.8.0/package/dist/img/logos/dls-logo-stack-white.svg",
-        "American Express"
-      ],
       [
         "https://icm.aexp-static.com/Internet/internationalcardshop/zh_tw/images/cards/plat.png",
         "美國運通簽帳白金卡"
@@ -8183,6 +9719,10 @@
         "美國運通簽帳卡"
       ],
       [
+        "https://icm.aexp-static.com/Internet/internationalcardshop/zh_tw/images/cards/plat.png",
+        "美國運通簽帳白金卡"
+      ],
+      [
         "https://icm.aexp-static.com/Internet/internationalcardshop/zh_tw/images/layout/whyAmex_slide1.jpg",
         "隨時享有尊榮優惠與服務"
       ],
@@ -8193,27 +9733,132 @@
       [
         "https://icm.aexp-static.com/Internet/internationalcardshop/zh_tw/images/layout/whyAmex_slide3.jpg",
         "消費無憂"
-      ],
-      [
-        "https://www.aexp-static.com/cdaas/one/statics/axp-static-assets/1.7.1/package/dist/img/logos/dls-logo-line.svg",
-        "American Express"
-      ],
-      [
-        "https://www.aexp-static.com/cdaas/one/statics/@americanexpress/static-assets/2.32.1/package/dist/img/flags/dls-flag-tw.svg",
-        "臺灣"
       ]
     ],
     "error": ""
   },
   "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.landbank.com.tw/Uploads/Temp/040cafaa-bef0-4a3f-b1fe-2a4f495ebabb.PNG",
+        "個人貸款 | 信用卡服務"
+      ],
+      [
+        "https://www.landbank.com.tw/Uploads/BulletinFrontCover/7eee59ed-7b2d-4ac1-9895-c2dcc7d3d0ad.jpg",
+        "【土銀信用卡】轉出好運發發發行銷活動（115/10/1-115/11/30）"
+      ],
+      [
+        "https://www.landbank.com.tw/Uploads/Temp/e7a1b42e-5520-4375-9f8a-76b9ad5ba0c2.jpg",
+        "iCash2.0聯名鈦金卡刷卡優惠"
+      ],
+      [
+        "https://www.landbank.com.tw/Uploads/Temp/2d869a6a-50cf-44c1-b902-ede123d90dbb.png",
+        "台灣Pay最新訊息"
+      ],
+      [
+        "https://www.landbank.com.tw/Uploads/Temp/ad425c0d-9a5a-4db1-aba0-9be5f31c9de6.png",
+        "理財最新消息"
+      ],
+      [
+        "https://www.landbank.com.tw/Uploads/Temp/32a97af4-ca11-4bce-baec-1a4f8c38db16.png",
+        "公益信託"
+      ],
+      [
+        "https://www.landbank.com.tw/Uploads/Temp/7d92950d-6d8b-4eb5-96bb-feca19ad9fcb.png",
+        "數位存款帳戶"
+      ],
+      [
+        "https://www.landbank.com.tw/Uploads/Temp/9bb2524f-1d81-4b26-a79c-f52a41da1496.png",
+        "智能客服"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/home.png",
+        "*"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/bulletin-default.png",
+        "本行「智能客服」將於115/10/20（二）17時至20時進行系統維護作業，屆時將暫停服務"
+      ],
+      [
+        "https://www.landbank.com.tw/Uploads/BulletinFrontCover/7eee59ed-7b2d-4ac1-9895-c2dcc7d3d0ad.jpg",
+        "【土銀信用卡】轉出好運發發發行銷活動（115/10/1-115/11/30）"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/bulletin-default.png",
+        "【台灣Pay】「漢神巨蛋就愛台灣Pay 滿2000送200元漢神巨蛋商品券」活動（1151008-1151213）"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/bulletin-default.png",
+        "【土銀信用卡】看電影刷土銀信用卡購票享優惠"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/bulletin-default.png",
+        "【台灣Pay】美十樂連鎖藥局-台灣Pay 20%回饋（115/6/25-115/11/30）"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/bulletin-default.png",
+        "【台灣Pay】土銀JCB╳台灣Pay 與您一起發發（115/8/1-115/12/31）"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/bulletin-default.png",
+        "【土銀icash2.0聯名鈦金卡】115年度刷卡優惠"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/bulletin-default.png",
+        "【土銀JCB極緻卡】115年刷卡優惠"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/bulletin-default.png",
+        "【土銀JCB晶緻卡】新戶首刷滿額禮二重送、國外刷卡2%回饋無上限、國內刷卡1%回饋"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/bulletin-default.png",
+        "臺灣土地銀行114年度「房貸信用卡利率減碼抽獎活動」中獎名單"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/Read.png",
+        "文字語音朗讀助理圖片"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/r_1.png",
+        "使用文字語音朗讀助理播放截圖"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/r_2.jpg",
+        "使用文字語音朗讀助理播放截圖"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/r_3.png",
+        "左下角可調整字體大小，右下角可調整視窗大小"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/r_4.png",
+        "齒輪調整語音速度、聲調或是手動選取語言"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/home/footer/map.svg",
+        "地圖ICON"
+      ],
+      [
+        "https://www.landbank.com.tw/File/Get/6fc3abed-2f88-4415-830a-e064d8a3f6ec",
+        "個人網路銀行"
+      ],
+      [
+        "https://www.landbank.com.tw/File/Get/8727aa2e-0293-4401-8a3d-aac77e53353b",
+        "數位存款帳戶線上開戶"
+      ],
+      [
+        "https://www.landbank.com.tw/Uploads/BannerImage/70178973-3799-4dd6-b575-725485599559.svg",
+        "理財網"
+      ]
+    ],
+    "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/right/master-world-business.html": {
-    "checkedAt": "2026-09-30T12:48:40.309986+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
-    "error": ""
+    "error": "ConnectTimeout"
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/manage/billpay-staging.html": {
     "checkedAt": "2026-09-30T12:48:40.309986+00:00",
@@ -8331,7 +9976,7 @@
     "error": ""
   },
   "https://www.esunbank.com/en/personal/credit-card/intro": {
-    "checkedAt": "2026-09-30T12:48:40.309986+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -8405,7 +10050,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card": {
-    "checkedAt": "2026-09-30T12:48:40.309986+00:00",
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -8428,10 +10073,6 @@
         "travel-campaign"
       ],
       [
-        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/home/1-32.jpg?h=252&w=400&hash=9CAC46534F77B8848046C7E11E007ABA",
-        "400_8079"
-      ],
-      [
         "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/home/1-23.jpg?h=252&w=400&hash=AA1F9683B5F8B6D3249F8BF12DFE9E2F",
         "1-23"
       ],
@@ -8452,8 +10093,20 @@
         "1-3"
       ],
       [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/home/1-30.jpg?h=252&w=400&hash=4223DD31D9D1E5E9869F2462C241E2A2",
+        "___400x252"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Discount/home/hot/hot_19.jpg?h=252&w=400&hash=5547CF0FA0FD1EC9B36E36083B0DBF8C",
+        "2510_bn_400x252"
+      ],
+      [
         "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/home/1-18.jpg?h=252&w=400&hash=E88CB24A62EEF6C6D1F0BF11DDC24012",
         "1-18"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/home/1-31.jpg?h=252&w=400&hash=8E0EFAB1A09E3207427BBE1E2B53D5CD",
+        "1-31"
       ],
       [
         "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/home/12.svg?h=209&w=209&hash=8B15401B5724F5ED7CF8727CF17A3EC5",
@@ -8491,9 +10144,50 @@
     "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm": {
-    "checkedAt": "2026-09-30T12:48:40.309986+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
+        "å°åå¯é¦éè¡-logo"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "å¯é¦éæ§"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "éæ§æå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/online-service.svg",
+        "æ¸ä½å®¢æ"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/C%E5%8D%A1%E5%8D%A1%E9%9D%A2.png",
+        "å¯é¦Costcoè¯åå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-line.svg",
+        "å°åå¯é¦éè¡-line"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-facebook.svg",
+        "é®®å¯å¹«-facebook"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon-app-cdic.png",
+        "ä¸­å¤®å­æ¬¾ä¿éª"
+      ]
+    ],
+    "error": ""
   },
   "https://www.card.rakuten.com.tw/corp/campaign/rakuten.xhtml": {
     "checkedAt": "2026-09-30T12:48:40.309986+00:00",
@@ -8766,5 +10460,1074 @@
       ]
     ],
     "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/310482674.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/437203357.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/755685802.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/417322625.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/931137313.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/326609214.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/650410355.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/536198523.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/814407078.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/354768986.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/306230598.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/928190552.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/845537577.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/821445043.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/750916543.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/020616393.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/953559172.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/946930985.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/110381825.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/502664361.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/250392714.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": "ConnectTimeout"
+  },
+  "https://www.cathaybk.com.tw/cathaybk/personal/cards/": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://www.cathaybk.com.tw/cathaybk/personal/event/overview?category=credit-card": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": "redirect outside official hosts"
+  },
+  "https://www.cathaybk.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/online-shopping/202609/shopee202609_3.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3278": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/ESUNBANK-Mobile/Images/Discount/shops/C_Travel/532_3278.jpg?h=532&w=532&hash=EA62CDAA7D1FD5450A57EC3525EE0DE1",
+        "532_3278"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/tools/apply/electronicbill": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/tools/open": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/ECard/open/cardlo700.jpg?h=442&w=700&hash=CE7D2A63F04D5909AD8849A4F571F88F",
+        "cardlo700"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/ECard/open/card33_700.png?h=442&w=700&hash=6212E594E65D861D0745BE06AC817257",
+        "_Wallet_240402"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=7034": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/ESUNBANK-Mobile/Images/Discount/shops/H_Transport/532_7034.jpg?h=532&w=532&hash=283B3F2456651D1D2D0F8F2BD69104F8",
+        "Unnamed item"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3015": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": "redirect outside official hosts"
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=8009": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": "redirect outside official hosts"
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=travel": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=8016": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category01.svg",
+        "icon百貨購物"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category02.svg",
+        "icon線上購物"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category03.svg",
+        "icon旅遊住宿"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category04.svg",
+        "icon3C通訊"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category05.svg",
+        "icon生活藥妝"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category06.svg",
+        "icon量販居家"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category07.svg",
+        "icon美食饗宴"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category08.svg",
+        "icon交通汽修"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category09.svg",
+        "icon電影休閒"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category10.svg",
+        "icon其他優惠"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Discount/home/hot/hot_05.jpg?h=252&w=400&hash=DB9E14D30FCB3BF24575FEE4A8ACB4C5",
+        "hot_05"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Discount/home/hot/hot_06.jpg?h=252&w=400&hash=2CF6EF9E6C69F1330884027437112742",
+        "hot_06"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Discount/home/hot/hot_19.jpg?h=252&w=400&hash=5547CF0FA0FD1EC9B36E36083B0DBF8C",
+        "2510_bn_400x252"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Discount/home/hot/hot_20.jpg?h=252&w=400&hash=88085352872614440488D4AACA7D8EA6",
+        "hot_20"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Discount/home/hot/hot_07.jpg?h=252&w=400&hash=82AA692C795B69EA389B91FBA5BBCAC1",
+        "hot_07"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/home/1-23.jpg?h=252&w=400&hash=AA1F9683B5F8B6D3249F8BF12DFE9E2F",
+        "1-23"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/home/1-3.jpg?h=252&w=400&hash=E469962A9C5383463A2B2AC44B3F4810",
+        "1-3"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Discount/home/hot/hot_03.jpg?h=252&w=400&hash=4CAAC77405ABA7A97776AE9A18EE119F",
+        "hot_03"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/en/personal/credit-card/discount/shops": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category01.svg",
+        "icon百貨購物"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category02.svg",
+        "icon線上購物"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category03.svg",
+        "icon旅遊住宿"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category04.svg",
+        "icon3C通訊"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category05.svg",
+        "icon生活藥妝"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category06.svg",
+        "icon量販居家"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category07.svg",
+        "icon美食饗宴"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category08.svg",
+        "icon交通汽修"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category09.svg",
+        "icon電影休閒"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/discount/-/media/New ESUNBANK/Credit Card/Discount/home/catagory/category10.svg",
+        "icon其他優惠"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Discount/home/hot/hot_05.jpg?h=252&w=400&hash=DB9E14D30FCB3BF24575FEE4A8ACB4C5",
+        "hot_05"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Discount/home/hot/hot_06.jpg?h=252&w=400&hash=2CF6EF9E6C69F1330884027437112742",
+        "hot_06"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Discount/home/hot/hot_19.jpg?h=252&w=400&hash=5547CF0FA0FD1EC9B36E36083B0DBF8C",
+        "2510_bn_400x252"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Discount/home/hot/hot_20.jpg?h=252&w=400&hash=88085352872614440488D4AACA7D8EA6",
+        "hot_20"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Discount/home/hot/hot_07.jpg?h=252&w=400&hash=82AA692C795B69EA389B91FBA5BBCAC1",
+        "hot_07"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/home/1-23.jpg?h=252&w=400&hash=AA1F9683B5F8B6D3249F8BF12DFE9E2F",
+        "1-23"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/home/1-3.jpg?h=252&w=400&hash=E469962A9C5383463A2B2AC44B3F4810",
+        "1-3"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Discount/home/hot/hot_03.jpg?h=252&w=400&hash=4CAAC77405ABA7A97776AE9A18EE119F",
+        "hot_03"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3182": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=others": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=deptstore": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=food": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=literature": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=8029": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/ESUNBANK-Mobile/Images/Discount/shops/J_Others/532_8029_logo.jpg?h=532&w=532&hash=ACE3A9080FBE7B6E1D8D2EA6E1DA750F",
+        "532_8029_logo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/tools/apply/auco": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=onlineshop": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3125": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/ESUNBANK-Mobile/Images/Discount/shops/C_Travel/532_3125.jpg?h=532&w=532&hash=BFC2A30DFC20D6ABA25180673CC3EA22",
+        "532_3140"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=lifestyle": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=transport": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=3c": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=daily": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
+        "loading"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/mega-menu/logo_efingo.svg",
+        "e.Fingo"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/line.svg",
+        "icon-LINE"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Footer/fb.svg",
+        "icon-facebook"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/CDIC.png?h=89&w=89&hash=2006F48CEB4B0E72698EBFB66CCA7044",
+        "存保標章"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Home/Megafooter/accessibleBig.jpg?h=70&w=196&hash=BB15201B865F4B56226D043093AA0CC1",
+        "通過A無障礙網頁檢測"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.fubon.com/banking/personal/credit_card/": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [
+      [
+        "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
+        "å°åå¯é¦éè¡-logo"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-search.svg",
+        "æå°"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "å¯é¦éæ§"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/ic-arrow-forward-w.svg",
+        "éæ§æå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/online-service.svg",
+        "æ¸ä½å®¢æ"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%8B%87MGM_LINE OA 1920x300.jpg",
+        "æ­¡æ¶ä¸å¸ä¸é±å¹´ Fubon Angelsè¦é¢æä¾äºï¼"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/JQ4bn_L2_1920x300.jpg",
+        "ç°¡å®å·å¡ è¼é¬åé¥ï¼æ¥éæ³°æéå·Jå¡æé«6%åé¥"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%82%8D%E5%8B%87%E5%8D%A12026H2_1920x300.jpg",
+        "æå°åå£«è¯åå¡ ä¸»å ´è³¼ç¥¨5æèµ·"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/C%E5%8D%A11920X300_L2_01.jpg",
+        "å¯é¦Costcoè¯åå¡ç²¾é¸æµ·å¤æé5%"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/OP%E5%8D%A1%E5%87%BA%E5%9C%8B%E8%B6%85%E5%A5%BD%E5%88%B7_banner_L2_1920x300.jpg",
+        "åºåè¶å¥½å·"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/banner_L2_1920X300.jpg",
+        "å¯é¦ä¿¡è²¸ ç¨å­£è³éåç­å¾"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/0701_%E5%AF%8C%E9%82%A6momo%E5%8D%A1%E6%96%B0%E5%8D%A1%E4%B8%8A%E5%B8%82_banner_1920x300.jpg",
+        "momoå¡é»ç½å¡é¢å¨æ°ç»å ´ï¼ç¾å¨ç³è¾¦æ°æ¶é¦å·é1000åmoå¹£ï¼"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E8%BE%A6%E5%8D%A1%E9%96%8B%E5%8D%A1_515x280.jpg",
+        "è¾¦å¡Â·éå¡"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E6%96%B0%E5%AE%98%E7%B6%B2.jpg",
+        "æåç³è«"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/%E7%99%BE%E8%B2%A8545x280.jpg",
+        "åªæ æ¬ç"
+      ],
+      [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/515X280.jpg",
+        "ä¿¡ç¨å¡çè²¡"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-line.svg",
+        "å°åå¯é¦éè¡-line"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon/sc-facebook.svg",
+        "é®®å¯å¹«-facebook"
+      ],
+      [
+        "https://www.fubon.com/banking/common_content/images/icon-app-cdic.png",
+        "ä¸­å¤®å­æ¬¾ä¿éª"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/index.html": {
+    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "images": [],
+    "error": "HTTPError"
   }
 }
