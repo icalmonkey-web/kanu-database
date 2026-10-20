@@ -542,7 +542,7 @@ async def crawl_bank(config, client, browser, state, state_lock, ai_gate, merge_
                         offer["offerDomain"] = "PAYMENT"
                         offer["paymentProvider"] = bank
                 async with merge_lock:
-                    stale = [key for key, rule in rules.items() if rule.get("bank") == bank and rule.get("sourceUrl") == result.url]
+                    stale = [key for key, rule in rules.items() if rule.get("bank") == bank and rule.get("sourceUrl") == result.url and (rule.get("accuracyReview") or {}).get("status") != "SOURCE_CHECKED"]
                     for key in stale:
                         del rules[key]
                     legacy.merge_data(bank, extracted, cards, rules, result.url)

@@ -96,6 +96,8 @@ jobs:
 
       - name: 檢查回饋計算及全量資料品質
         run: |
+          node .github/scripts/review_ubear.cjs
+          node .github/scripts/review_unicard.cjs
           node --test .github/scripts/test_accuracy.cjs
           python .github/scripts/repair_accuracy.py
           python .github/scripts/audit_accuracy.py
