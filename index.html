@@ -2269,6 +2269,33 @@
     }
 
     // 百分比、固定金額、抽獎與分期是不同回饋型態，不能把非百分比活動顯示成「+0%」。
+    function getRuleDisplayBadge(rule, calc) {
+      if (calc && Number(calc.potentialRate) > 0) {
+        return { rate: calc.potentialRate + '%', isPercent: true, rateNum: Number(calc.potentialRate) };
+      }
+      if (calc && Number(calc.potentialCash) > 0) {
+        return { rate: '$' + calc.potentialCash, isPercent: false, rateNum: 0 };
+      }
+      const titleText = (rule.title || '') + ' ' + (rule.quotaInfo || '');
+      const rateMatch = titleText.match(/(?:最高|享|加碼|回饋)\s*(\d+(?:\.\d+)?)\s*%/i) || titleText.match(/(\d+(?:\.\d+)?)\s*%/);
+      if (rateMatch && +rateMatch[1] > 0 && +rateMatch[1] <= 100) {
+        return { rate: rateMatch[1] + '%', isPercent: true, rateNum: +rateMatch[1] };
+      }
+      const promo = Number(rule.promoRate) || 0;
+      const base = Number(rule.baseRate) || 0;
+      const amount = Number(rule.rewardAmount) || 0;
+      const unit = String(rule.rewardUnit || '').toLowerCase();
+      const type = String(rule.rewardType || '').toLowerCase();
+      if (unit === 'percent' || type === 'percent') {
+        const total = promo > 0 ? (base + promo) : (amount > 0 ? amount : base);
+        if (total > 0 && total <= 100) return { rate: total + '%', isPercent: true, rateNum: total };
+      }
+      if (promo > 0 && promo <= 100) return { rate: (base + promo) + '%', isPercent: true, rateNum: base + promo };
+      if (amount > 0 && (type === 'points' || unit === 'points')) return { rate: amount + '點', isPercent: false, rateNum: 0 };
+      if (amount > 0 && (type === 'cash' || unit === 'twd')) return { rate: '$' + amount, isPercent: false, rateNum: 0 };
+      return { rate: '優惠', isPercent: false, rateNum: 0 };
+    }
+
     function getRuleRewardLabel(rule) {
       if (rule.accuracyReview?.status === 'CONFLICT') return '回饋資料衝突，暫停推薦';
       if (!KanuAccuracy.isReviewed(rule)) return KanuAccuracy.assessment(rule).level === 'BLOCKED'
@@ -2909,7 +2936,9 @@
             && a.calc.rankingMetrics.points !== b.calc.rankingMetrics.points) {
           return b.calc.rankingMetrics.points - a.calc.rankingMetrics.points;
         }
-        const rateDiff = (b.calc.rankingMetrics.known ? Number(b.calc.potentialRate) || 0 : 0) - (a.calc.rankingMetrics.known ? Number(a.calc.potentialRate) || 0 : 0);
+        const aRate = a.calc.rankingMetrics.known ? (Number(a.calc.potentialRate) || 0) : getRuleDisplayBadge(a.rule, a.calc).rateNum;
+        const bRate = b.calc.rankingMetrics.known ? (Number(b.calc.potentialRate) || 0) : getRuleDisplayBadge(b.rule, b.calc).rateNum;
+        const rateDiff = bRate - aRate;
         if (rateDiff) return rateDiff;
         const searchScoreDiff = (Number(b.rule._searchMatchScore) || 0) - (Number(a.rule._searchMatchScore) || 0);
         if (searchScoreDiff) return searchScoreDiff;
@@ -2972,7 +3001,7 @@
                 <div class="text-[11px] font-bold text-ghibliInk-600 truncate mt-0.5">${rule.title}</div>
               </div>
               <div class="recommend-reward-badge flex-shrink-0 cursor-pointer" onclick="openCardDetailModal('${card.id}', '${rule.id}')">
-                <div class="recommend-big-rate">${calc.potentialRate > 0 ? (calc.potentialRate + "%") : (calc.potentialCash > 0 ? ("$" + calc.potentialCash) : "優惠")}</div>
+                <div class="recommend-big-rate">${getRuleDisplayBadge(rule, calc).rate}</div>
                 <div class="recommend-sub-cash">${calc.totalCash > 0 ? ("預估 NT$" + calc.totalCash) : (condition.conditional ? "達成條件" : "直接刷")}</div>
               </div>
             </div>
