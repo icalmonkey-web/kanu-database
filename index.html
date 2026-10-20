@@ -1330,6 +1330,25 @@
     // 舊的錯誤關聯永遠留在瀏覽器，即使程式已修正。
     const LOCAL_CACHE_KEY = "kanu_remote_database_v3";
     const LOCAL_VERSION_KEY = "kanu_data_version_v3";
+    // 目前記憶體中實際載入的資料版本。資料庫超過 localStorage 容量（約 5MB）時
+    // 無法寫入快取，因此版本比對與顯示一律以「實際已載入」的資料為準。
+    let activeDataVersion = '';
+
+    // localStorage 有容量上限；寫入失敗時清掉半套快取，避免版本號與資料不一致。
+    function saveDatabaseCache(raw, version) {
+      try {
+        localStorage.setItem(LOCAL_CACHE_KEY, raw);
+        localStorage.setItem(LOCAL_VERSION_KEY, version || '');
+        return true;
+      } catch (err) {
+        try {
+          localStorage.removeItem(LOCAL_CACHE_KEY);
+          localStorage.removeItem(LOCAL_VERSION_KEY);
+        } catch (e) {}
+        console.warn('資料庫超過瀏覽器快取容量，改為每次開啟時重新載入:', err);
+        return false;
+      }
+    }
 
     // GitHub 上的 JSON 屬於外部輸入。所有會進入 innerHTML／inline handler 的
     // 文字先轉為純文字，ID 則限制為安全字元，避免資料庫遭竄改時形成 XSS。
@@ -1799,22 +1818,29 @@
         if (statusLabel) statusLabel.innerText = "正在連線 GitHub 查詢最新版本...";
 
         const dataUrl = location.protocol === 'file:' ? REMOTE_DATA_URL : './data.json';
-        const response = await fetch(dataUrl + '?_t=' + Date.now(), {signal: AbortSignal.timeout(15000)});
-        if (!response.ok) throw new Error("連線異常 (HTTP " + response.status + ")");
-
-        const declaredSize = Number(response.headers.get('content-length') || 0);
-        if (declaredSize > 8 * 1024 * 1024) throw new Error('資料檔超過安全大小限制');
-
-        const remoteData = await response.json();
+        let remoteData;
+        try {
+          const response = await fetch(dataUrl + '?_t=' + Date.now(), {cache: 'no-store', signal: AbortSignal.timeout(60000)});
+          if (!response.ok) throw new Error("連線異常 (HTTP " + response.status + ")");
+          const declaredSize = Number(response.headers.get('content-length') || 0);
+          if (declaredSize > 40 * 1024 * 1024) throw new Error('資料檔超過安全大小限制');
+          remoteData = await response.json();
+        } catch (fetchErr) {
+          // 離線或無法連線時，改用 HTML 內建的資料庫（桌面單檔版）。
+          const bundledEl = document.getElementById('bundled-data');
+          if (!bundledEl || !bundledEl.textContent.trim()) throw fetchErr;
+          console.warn('雲端連線失敗，改用內建資料庫:', fetchErr);
+          remoteData = JSON.parse(bundledEl.textContent);
+        }
         if (!remoteData || !Array.isArray(remoteData.cards) || !Array.isArray(remoteData.rules)
             || remoteData.cards.length > 5000 || remoteData.rules.length > 50000) {
           throw new Error('資料格式或筆數超過安全限制');
         }
-        const savedVersion = localStorage.getItem(LOCAL_VERSION_KEY);
+        const savedVersion = activeDataVersion;
 
         if (remoteData.version && (remoteData.version !== savedVersion || appCards.length === 0)) {
-          localStorage.setItem(LOCAL_CACHE_KEY, JSON.stringify(remoteData));
-          localStorage.setItem(LOCAL_VERSION_KEY, remoteData.version);
+          saveDatabaseCache(JSON.stringify(remoteData), remoteData.version);
+          activeDataVersion = remoteData.version;
 
           if (Array.isArray(remoteData.cards)) {
             appCards = remoteData.cards.map((c, i) => formatCardObject(c, i));
@@ -1846,12 +1872,10 @@
         }
       } catch (err) {
         console.warn("使用本機快取:", err);
-        const fallbackVer = localStorage.getItem(LOCAL_VERSION_KEY);
-        if (versionLabel && (!versionLabel.innerText || versionLabel.innerText.includes('載入') || versionLabel.innerText.includes('未同步'))) {
-          versionLabel.innerText = fallbackVer ? 'v' + fallbackVer : (appRules.length > 0 ? 'v本機快取' : 'v未同步');
-        }
-        if (statusLabel) statusLabel.innerText = fallbackVer ? "離線快取運行中 (v" + fallbackVer + ")" : "離線快取運行中";
-        if (manualTrigger) showTip('⚠️ 無法連線雲端或處於離線狀態，目前繼續使用本機資料庫。');
+        const reason = (err && err.message) ? err.message : String(err);
+        if (versionLabel) versionLabel.innerText = activeDataVersion ? 'v' + activeDataVersion : '未同步';
+        if (statusLabel) statusLabel.innerText = (activeDataVersion ? "離線運行中 (v" + activeDataVersion + ")" : "同步失敗") + "：" + reason;
+        if (manualTrigger) showTip('⚠️ 同步失敗：' + reason);
       } finally {
         if (syncBtn) {
           syncBtn.disabled = false;
@@ -1862,44 +1886,37 @@
     }
 
     function loadCachedDatabase() {
+      const versionLabel = document.getElementById('current-version-label');
+      const applyDatabase = (cached) => {
+        if (!cached || !Array.isArray(cached.cards) || !Array.isArray(cached.rules) || !cached.rules.length) return false;
+        appCards = cached.cards.map((c, i) => formatCardObject(c, i));
+        appRules = cached.rules.map((r, i) => formatRuleObject(r, i));
+        deduplicateCardProducts();
+        reconcileRuleCardAssociations();
+        if (cached.commonExclusions) COMMON_EXCLUSIONS = cached.commonExclusions;
+        activeDataVersion = cached.version || '';
+        return true;
+      };
+      let loaded = false;
       try {
-        let cachedRaw = localStorage.getItem(LOCAL_CACHE_KEY);
-        let cachedVer = localStorage.getItem(LOCAL_VERSION_KEY);
-        if (!cachedRaw) {
-          const bundledEl = document.getElementById("bundled-data");
-          if (bundledEl && bundledEl.textContent.trim()) {
-            cachedRaw = bundledEl.textContent;
-            try {
-              const parsed = JSON.parse(cachedRaw);
-              cachedVer = parsed.version;
-              localStorage.setItem(LOCAL_CACHE_KEY, cachedRaw);
-              localStorage.setItem(LOCAL_VERSION_KEY, cachedVer);
-            } catch (err) {}
-          }
-        }
-        if (cachedRaw) {
-          const cached = JSON.parse(cachedRaw);
-          if (cached.version && !cachedVer) {
-            cachedVer = cached.version;
-            localStorage.setItem(LOCAL_VERSION_KEY, cachedVer);
-          }
-          if (cached.cards && cached.cards.length > 0) {
-            appCards = cached.cards.map((c, i) => formatCardObject(c, i));
-          }
-          if (cached.rules && cached.rules.length > 0) {
-            appRules = cached.rules.map((r, i) => formatRuleObject(r, i));
-          }
-          deduplicateCardProducts();
-          reconcileRuleCardAssociations();
-          if (cached.commonExclusions) {
-            COMMON_EXCLUSIONS = cached.commonExclusions;
-          }
-        }
-        const versionLabel = document.getElementById('current-version-label');
-        if (versionLabel) versionLabel.innerText = 'v' + (cachedVer || (appRules.length > 0 ? '本機快取' : '未同步'));
+        const cachedRaw = localStorage.getItem(LOCAL_CACHE_KEY);
+        if (cachedRaw) loaded = applyDatabase(JSON.parse(cachedRaw));
       } catch (e) {
         console.error("快取讀取異常", e);
       }
+      // 內建資料（桌面單檔版）比瀏覽器舊快取新時，以內建資料為準。
+      try {
+        const bundledEl = document.getElementById("bundled-data");
+        if (bundledEl && bundledEl.textContent.trim()) {
+          const bundled = JSON.parse(bundledEl.textContent);
+          if (!loaded || (bundled.version && bundled.version > activeDataVersion)) {
+            loaded = applyDatabase(bundled) || loaded;
+          }
+        }
+      } catch (e) {
+        console.error("內建資料讀取異常", e);
+      }
+      if (versionLabel) versionLabel.innerText = activeDataVersion ? 'v' + activeDataVersion : '下載中...';
     }
 
         function recordSpendForCard(cardId, amount) {
