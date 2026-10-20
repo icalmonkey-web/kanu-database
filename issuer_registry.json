@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "description": "台灣信用卡發卡機構主清單。enabled 僅代表已設定可執行入口，不代表涵蓋率驗證通過。",
-  "lastUpdatedAt": "2026-10-20T12:58:36.685617Z",
+  "lastUpdatedAt": "2026-10-20T21:31:12.873876Z",
   "issuers": [
     {
       "name": "永豐銀行",
@@ -82,7 +82,7 @@
       "eventLinkPattern": "/personal/credit-card/(discount|tools)/",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 75,
-      "discoveredOfferCount": 270,
+      "discoveredOfferCount": 275,
       "unvisitedPageCount": 146,
       "failedPageCount": 1,
       "lastScanAt": "2026-10-20T12:27:38.768284Z",
@@ -199,7 +199,7 @@
       "discoveredOfferCount": 76,
       "unvisitedPageCount": 224,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-20T12:27:47.788985Z",
+      "lastScanAt": "2026-10-20T21:30:42.499301Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -308,7 +308,7 @@
       "eventLinkPattern": "/tw/(credit-cards|promotions)/",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 16,
-      "discoveredOfferCount": 38,
+      "discoveredOfferCount": 37,
       "unvisitedPageCount": 27,
       "failedPageCount": 1,
       "lastScanAt": "2026-10-20T12:29:13.495057Z",
@@ -470,7 +470,7 @@
       "eventLinkPattern": "(credit-card|creditcard|event|activity)",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 44,
-      "discoveredOfferCount": 94,
+      "discoveredOfferCount": 93,
       "unvisitedPageCount": 99,
       "failedPageCount": 0,
       "lastScanAt": "2026-10-20T12:30:26.259146Z",
@@ -605,7 +605,7 @@
       "eventLinkPattern": "(credit|card|event|activity)",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 22,
-      "discoveredOfferCount": 8,
+      "discoveredOfferCount": 7,
       "unvisitedPageCount": 59,
       "failedPageCount": 4,
       "lastScanAt": "2026-10-20T12:39:15.790616Z",
@@ -693,9 +693,9 @@
       "lastSuccessfulScanAt": "2026-09-25T03:52:33.701377Z",
       "discoveredCardCount": 35,
       "discoveredOfferCount": 66,
-      "unvisitedPageCount": 167,
+      "unvisitedPageCount": 164,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-20T12:33:48.962730Z",
+      "lastScanAt": "2026-10-20T21:30:57.702219Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -761,13 +761,13 @@
       ],
       "eventLinkPattern": "(card|debit|event|campaign|news)",
       "coverageNote": "快點卡等具消費回饋的簽帳金融卡",
-      "lastSuccessfulScanAt": "2026-10-02T22:07:58.471164Z",
+      "lastSuccessfulScanAt": "2026-10-20T21:31:11.877677Z",
       "discoveredCardCount": 4,
-      "discoveredOfferCount": 6,
+      "discoveredOfferCount": 4,
       "unvisitedPageCount": 0,
-      "failedPageCount": 2,
-      "lastScanAt": "2026-10-20T12:34:47.700625Z",
-      "lastScanStatus": "needs_review"
+      "failedPageCount": 0,
+      "lastScanAt": "2026-10-20T21:31:11.877677Z",
+      "lastScanStatus": "completed"
     },
     {
       "name": "樂天國際商業銀行",
@@ -925,7 +925,7 @@
       "eventLinkPattern": "(credit|card|event|activity)",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 19,
-      "discoveredOfferCount": 28,
+      "discoveredOfferCount": 26,
       "unvisitedPageCount": 1,
       "failedPageCount": 0,
       "lastScanAt": "2026-10-20T12:36:30.564954Z",

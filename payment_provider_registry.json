@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2026-10-20T12:58:36.688094Z",
+  "lastUpdatedAt": "2026-10-20T21:31:12.876347Z",
   "providers": [
     {
       "name": "LINE Pay",
@@ -24,7 +24,7 @@
       "lastSuccessfulScanAt": "2026-10-20T12:36:09.272513Z",
       "lastScanAt": "2026-10-20T12:36:09.272513Z",
       "lastScanStatus": "completed",
-      "discoveredOfferCount": 20,
+      "discoveredOfferCount": 13,
       "unvisitedPageCount": 0,
       "failedPageCount": 0
     },
@@ -79,7 +79,7 @@
       "lastSuccessfulScanAt": "",
       "lastScanAt": "2026-10-20T12:37:31.525227Z",
       "lastScanStatus": "needs_review",
-      "discoveredOfferCount": 92,
+      "discoveredOfferCount": 74,
       "unvisitedPageCount": 70,
       "failedPageCount": 1
     },
@@ -134,7 +134,7 @@
       "lastSuccessfulScanAt": "",
       "lastScanAt": "2026-10-20T12:37:02.408717Z",
       "lastScanStatus": "needs_review",
-      "discoveredOfferCount": 92,
+      "discoveredOfferCount": 91,
       "unvisitedPageCount": 16,
       "failedPageCount": 0
     },

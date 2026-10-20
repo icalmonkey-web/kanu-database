@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-20T12:58:38.323Z",
+  "generatedAt": "2026-10-20T21:31:14.537Z",
   "disclaimer": "結構檢查不是事實核對；待確認點數不換算現金。",
   "totalRules": 1641,
   "reviewed": 995,
   "comparable": 119,
   "expired": 140,
-  "sourceGroups": 215,
+  "sourceGroups": 214,
   "queue": [
     {
       "sourceUrl": "https://www.cathaybk.com.tw/",
@@ -1019,6 +1019,16 @@
       "activeRules": 3
     },
     {
+      "sourceUrl": "https://www.linebank.com.tw/notice/events",
+      "bank": "LINE Bank",
+      "ruleIds": [
+        "rule_2e5d1aa679b91dd12000",
+        "rule_fc4ce30ab73c905eaafa",
+        "rule_0e4be6d86479d85046c0"
+      ],
+      "activeRules": 3
+    },
+    {
       "sourceUrl": "https://event.esunbank.com.tw/credit/ubear/card.html",
       "bank": "玉山銀行",
       "ruleIds": [
@@ -1152,15 +1162,6 @@
       "ruleIds": [
         "rule_b95837b049a357148955",
         "rule_ca42d919c0df98ce84c7"
-      ],
-      "activeRules": 2
-    },
-    {
-      "sourceUrl": "https://www.linebank.com.tw/notice/events",
-      "bank": "LINE Bank",
-      "ruleIds": [
-        "rule_d902bfff7a46e257895b",
-        "rule_16f6e3502e2bd0a800ca"
       ],
       "activeRules": 2
     },
@@ -1647,14 +1648,6 @@
       "bank": "彰化銀行",
       "ruleIds": [
         "rule_deb109fa5564ccd00d58"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.linebank.com.tw/notice/events?page=2",
-      "bank": "LINE Bank",
-      "ruleIds": [
-        "rule_953439468bbfd5a42a4a"
       ],
       "activeRules": 1
     },
@@ -8718,45 +8711,6 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "回饋計算方式待確認"
-      ]
-    },
-    {
-      "id": "rule_d902bfff7a46e257895b",
-      "bank": "LINE Bank",
-      "title": "【快點出發日韓泰 立享最高15%現折】LINE Bank快點卡刷 Trip.com 日韓泰機票/飯店/機+酒立享最高15%現折",
-      "sourceUrl": "https://www.linebank.com.tw/notice/events",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_16f6e3502e2bd0a800ca",
-      "bank": "LINE Bank",
-      "title": "【快點卡獨家優惠】蝦皮購物滿600/699/1000/3000回饋高達10.5%",
-      "sourceUrl": "https://www.linebank.com.tw/notice/events",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_953439468bbfd5a42a4a",
-      "bank": "LINE Bank",
-      "title": "盛夏購物節 LINE Bank快點卡指定3C品牌滿額回饋飆1.5%",
-      "sourceUrl": "https://www.linebank.com.tw/notice/events?page=2",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "回饋上限適用範圍未確認"
       ]
     },
     {
@@ -22017,6 +21971,45 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_2e5d1aa679b91dd12000",
+      "bank": "LINE Bank",
+      "title": "快點出發日韓泰 立享最高15%現折",
+      "sourceUrl": "https://www.linebank.com.tw/notice/events",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_fc4ce30ab73c905eaafa",
+      "bank": "LINE Bank",
+      "title": "友感零距離指定通路滿額回饋飆 4%",
+      "sourceUrl": "https://www.linebank.com.tw/notice/events",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_0e4be6d86479d85046c0",
+      "bank": "LINE Bank",
+      "title": "蝦皮購物滿額回饋高達10.5%",
+      "sourceUrl": "https://www.linebank.com.tw/notice/events",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
       ]
     },
     {

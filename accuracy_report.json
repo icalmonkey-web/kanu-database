@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T12:58:38.191177+00:00",
+  "generatedAt": "2026-10-20T21:31:14.399141+00:00",
   "targetAccuracy": 0.98,
   "measuredAccuracy": null,
   "coveragePercent": null,
@@ -10,9 +10,9 @@
     "UNRESOLVED_CARD_ASSOCIATION": 44,
     "MISSING_CAMPAIGN_END": 671,
     "UNKNOWN_CALCULATION": 317,
-    "UNKNOWN_CAP_SCOPE": 656,
+    "UNKNOWN_CAP_SCOPE": 655,
     "UNSTRUCTURED_REGISTRATION_WINDOW": 237,
-    "MAXIMUM_ONLY": 183,
+    "MAXIMUM_ONLY": 184,
     "NO_INDEPENDENT_TERM_REVIEW": 607,
     "STALE_TERM_REVIEW": 8
   },
@@ -4609,36 +4609,6 @@
       "issues": [
         "MISSING_CAMPAIGN_END",
         "UNKNOWN_CALCULATION",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d902bfff7a46e257895b",
-      "bank": "LINE Bank",
-      "title": "【快點出發日韓泰 立享最高15%現折】LINE Bank快點卡刷 Trip.com 日韓泰機票/飯店/機+酒立享最高15%現折",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_16f6e3502e2bd0a800ca",
-      "bank": "LINE Bank",
-      "title": "【快點卡獨家優惠】蝦皮購物滿600/699/1000/3000回饋高達10.5%",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_953439468bbfd5a42a4a",
-      "bank": "LINE Bank",
-      "title": "盛夏購物節 LINE Bank快點卡指定3C品牌滿額回饋飆1.5%",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "UNKNOWN_CAP_SCOPE",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -14021,6 +13991,36 @@
       "bank": "icash Pay",
       "title": "享鑽生活11%活動",
       "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_2e5d1aa679b91dd12000",
+      "bank": "LINE Bank",
+      "title": "快點出發日韓泰 立享最高15%現折",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_fc4ce30ab73c905eaafa",
+      "bank": "LINE Bank",
+      "title": "友感零距離指定通路滿額回饋飆 4%",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_0e4be6d86479d85046c0",
+      "bank": "LINE Bank",
+      "title": "蝦皮購物滿額回饋高達10.5%",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.20-v125835-ubear-review-trusted-core-20261003",
+  "version": "2026.10.20-v213111-ubear-review-trusted-core-20261003",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -16261,6 +16261,7 @@
       ],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-30T13:26:34.308769Z",
@@ -98836,6 +98837,7 @@
       "quickSearchEligible": false,
       "validationIssues": [
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-10-19T18:01:09.147925Z",
@@ -101688,193 +101690,6 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-10-19T17:58:54.300257Z",
       "bank": "彰化銀行"
-    },
-    {
-      "id": "rule_d902bfff7a46e257895b",
-      "cardId": "card_LINE Bank_462",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "LINE Bank快點卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "【快點出發日韓泰 立享最高15%現折】LINE Bank快點卡刷 Trip.com 日韓泰機票/飯店/機+酒立享最高15%現折",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "Trip.com"
-      ],
-      "searchKeywords": "Trip.com, Trip, 日韓泰機票, 飯店, 機+酒, 海外消費, 旅遊, 機票, 飯店",
-      "intentTags": [
-        "海外消費",
-        "旅遊",
-        "機票"
-      ],
-      "intentEvidence": "LINE Bank快點卡刷 Trip.com 日韓泰機票/飯店/機+酒立享最高15%現折",
-      "baseRate": 0,
-      "promoRate": 15,
-      "rewardType": "percent",
-      "rewardAmount": 0,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "capScope": "",
-      "roundingMode": "",
-      "spendBasis": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "MAX_ONLY",
-      "rewardTiers": [
-        {
-          "name": "最高優惠",
-          "totalRate": 15,
-          "baseRate": 0,
-          "promoRate": 15,
-          "isDefault": true,
-          "requirements": [
-            "刷 Trip.com 日韓泰機票/飯店/機+酒"
-          ],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [
-        "刷 Trip.com 日韓泰機票/飯店/機+酒"
-      ],
-      "needReg": false,
-      "regDeadline": "",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.linebank.com.tw/notice/events",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "刷 Trip.com 日韓泰機票/飯店/機+酒立享最高15%現折",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-10-19T18:06:48.092243Z",
-      "bank": "LINE Bank"
-    },
-    {
-      "id": "rule_16f6e3502e2bd0a800ca",
-      "cardId": "card_LINE Bank_462",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "LINE Bank快點卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "【快點卡獨家優惠】蝦皮購物滿600/699/1000/3000回饋高達10.5%",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "蝦皮購物"
-      ],
-      "searchKeywords": "蝦皮購物, 蝦皮, 網購, 購物",
-      "intentTags": [
-        "網購"
-      ],
-      "intentEvidence": "蝦皮購物滿600/699/1000/3000回饋高達10.5%",
-      "baseRate": 0,
-      "promoRate": 10.5,
-      "rewardType": "percent",
-      "rewardAmount": 0,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "capScope": "",
-      "roundingMode": "",
-      "spendBasis": "",
-      "minimumSpend": 600,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "MAX_ONLY",
-      "rewardTiers": [
-        {
-          "name": "最高優惠",
-          "totalRate": 10.5,
-          "baseRate": 0,
-          "promoRate": 10.5,
-          "isDefault": true,
-          "requirements": [
-            "蝦皮購物滿額"
-          ],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [
-        "蝦皮購物滿額"
-      ],
-      "needReg": false,
-      "regDeadline": "",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.linebank.com.tw/notice/events",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "滿600/699/1000/3000回饋高達10.5%",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-10-19T18:06:48.092415Z",
-      "bank": "LINE Bank"
-    },
-    {
-      "id": "rule_953439468bbfd5a42a4a",
-      "cardId": "card_LINE Bank_462",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "LINE Bank快點卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "盛夏購物節 LINE Bank快點卡指定3C品牌滿額回饋飆1.5%",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "指定3C品牌",
-        "LINE購物Apple導購"
-      ],
-      "searchKeywords": "指定3C品牌, 3C, 網購, LINE購物Apple導購, Apple",
-      "intentTags": [
-        "網購",
-        "3C"
-      ],
-      "intentEvidence": "LINE Bank快點卡指定3C品牌滿額回饋飆1.5%，搭配LINE購物Apple導購優惠飆3.6%",
-      "baseRate": 0,
-      "promoRate": 1.5,
-      "rewardType": "percent",
-      "rewardAmount": 1.5,
-      "rewardUnit": "percent",
-      "capAmount": 0,
-      "capPeriod": "",
-      "capScope": "",
-      "roundingMode": "",
-      "spendBasis": "PER_TRANSACTION",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "2026-07-14",
-      "validUntil": "",
-      "sourceUrl": "https://www.linebank.com.tw/notice/events?page=2",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "指定3C品牌滿額回饋飆1.5%",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-10-19T18:07:19.820292Z",
-      "bank": "LINE Bank"
     },
     {
       "id": "rule_152c295dec50f2ec6ec4",
@@ -130258,6 +130073,7 @@
       "quickSearchEligible": false,
       "validationIssues": [
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-10-19T17:58:07.750461Z",
@@ -156765,6 +156581,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-28T23:16:52.214472Z",
@@ -230761,6 +230578,7 @@
       ],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-30T13:29:25.273568Z",
@@ -235559,6 +235377,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
@@ -259260,6 +259079,7 @@
       "quickSearchEligible": false,
       "validationIssues": [
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-10-20T12:29:04.933280Z",
@@ -261409,6 +261229,7 @@
       "quickSearchEligible": false,
       "validationIssues": [
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-10-20T12:34:45.151204Z",
@@ -262290,6 +262111,207 @@
       ],
       "fetchedAt": "2026-10-20T12:36:58.895677Z",
       "bank": "icash Pay"
+    },
+    {
+      "id": "rule_2e5d1aa679b91dd12000",
+      "cardId": "card_LINE Bank_462",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "LINE Bank快點卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "快點出發日韓泰 立享最高15%現折",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Trip.com"
+      ],
+      "searchKeywords": "Trip.com, Trip, 日韓泰機票, 日韓泰飯店, 機加酒, 海外旅遊, 機票, 飯店",
+      "intentTags": [
+        "海外消費",
+        "旅遊",
+        "機票",
+        "飯店"
+      ],
+      "intentEvidence": "LINE Bank快點卡刷 Trip.com 日韓泰機票/飯店/機+酒立享最高15%現折",
+      "baseRate": 0,
+      "promoRate": 15,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "capScope": "",
+      "roundingMode": "",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [
+        {
+          "name": "最高現折",
+          "totalRate": 15,
+          "baseRate": 0,
+          "promoRate": 15,
+          "isDefault": false,
+          "requirements": [
+            "使用LINE Bank快點卡刷 Trip.com 日韓泰機票/飯店/機+酒"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "使用LINE Bank快點卡刷 Trip.com 日韓泰機票/飯店/機+酒"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.linebank.com.tw/notice/events",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-10-20T21:30:48.245823Z",
+      "bank": "LINE Bank"
+    },
+    {
+      "id": "rule_fc4ce30ab73c905eaafa",
+      "cardId": "card_LINE Bank_462",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "LINE Bank快點卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "友感零距離指定通路滿額回饋飆 4%",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [],
+      "searchKeywords": "",
+      "intentTags": [],
+      "intentEvidence": "",
+      "baseRate": 0,
+      "promoRate": 4,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "capScope": "",
+      "roundingMode": "",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "達成指定通路滿額門檻"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [
+        {
+          "name": "指定通路滿額回饋",
+          "totalRate": 4,
+          "baseRate": 0,
+          "promoRate": 4,
+          "isDefault": false,
+          "requirements": [
+            "指定通路滿額"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "指定通路滿額"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.linebank.com.tw/notice/events",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-10-20T21:30:48.246107Z",
+      "bank": "LINE Bank"
+    },
+    {
+      "id": "rule_0e4be6d86479d85046c0",
+      "cardId": "card_LINE Bank_462",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "LINE Bank快點卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "蝦皮購物滿額回饋高達10.5%",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "蝦皮購物"
+      ],
+      "searchKeywords": "蝦皮購物, 蝦皮, shopee, 網購",
+      "intentTags": [
+        "網購"
+      ],
+      "intentEvidence": "【快點卡獨家優惠】蝦皮購物滿600/699/1000/3000回饋高達10.5%",
+      "baseRate": 0,
+      "promoRate": 10.5,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "capScope": "",
+      "roundingMode": "",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 600,
+      "eligibilityRequirements": [
+        "達指定滿額門檻(600/699/1000/3000)"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [
+        {
+          "name": "蝦皮購物最高回饋",
+          "totalRate": 10.5,
+          "baseRate": 0,
+          "promoRate": 10.5,
+          "isDefault": false,
+          "requirements": [
+            "達指定滿額門檻"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "達指定滿額門檻"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.linebank.com.tw/notice/events",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "滿600/699/1000/3000回饋高達10.5%",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-10-20T21:30:48.246341Z",
+      "bank": "LINE Bank"
     },
     {
       "cardId": "card_esun_ubear",
@@ -264859,5 +264881,5 @@
       "message": "政府規費、公用事業水電瓦斯多數信用卡皆排除回饋。"
     }
   ],
-  "lastUpdated": "2026-10-20T12:58:35.679272Z"
+  "lastUpdated": "2026-10-20T21:31:11.936351Z"
 }
