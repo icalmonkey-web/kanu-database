@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-20T21:31:14.972791+00:00",
+  "generatedAt": "2026-10-21T22:20:11.729767+00:00",
   "added": [],
-  "withImage": 299,
+  "withImage": 301,
   "missing": [
     {
       "id": "card_cathay_cube",
@@ -1922,6 +1922,11 @@
       "id": "card_台中銀行_664",
       "bank": "台中銀行",
       "cardName": "媽祖平安認同卡"
+    },
+    {
+      "id": "card_台北富邦_684",
+      "bank": "台北富邦",
+      "cardName": "尊御卡"
     }
   ],
   "pages": [
@@ -2083,19 +2088,7 @@
     },
     {
       "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/debit/list.html",
-      "cached": true,
-      "error": "ConnectTimeout"
-    },
-    {
-      "bank": "永豐銀行",
       "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/business/list.html",
-      "cached": true,
-      "error": "ConnectTimeout"
-    },
-    {
-      "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/right/master-world-business.html",
       "cached": true,
       "error": "ConnectTimeout"
     },
@@ -2449,12 +2442,6 @@
     },
     {
       "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/WORLD",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/infinite-card",
       "cached": true,
       "error": ""
@@ -2462,6 +2449,12 @@
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/dualcurrency-card",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/WORLD",
       "cached": true,
       "error": ""
     },
@@ -2479,18 +2472,6 @@
     },
     {
       "bank": "台北富邦",
-      "url": "https://www.fubon.com/banking/personal/credit_card/index.htm",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "台北富邦",
-      "url": "https://www.fubon.com/banking/personal/credit_card/card_refer/card_refer.htm",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "台北富邦",
       "url": "https://www.fubon.com/banking/personal/credit_card/all_card/digitallife/digitallife.htm",
       "cached": true,
       "error": ""
@@ -2503,6 +2484,24 @@
     },
     {
       "bank": "台北富邦",
+      "url": "https://www.fubon.com/banking/personal/credit_card/all_card/openpossible/openpossible.htm",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "台北富邦",
+      "url": "https://www.fubon.com/banking/personal/credit_card/index.htm",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "台北富邦",
+      "url": "https://www.fubon.com/banking/personal/credit_card/card_refer/card_refer.htm",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "台北富邦",
       "url": "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm?cardkind=mobile",
       "cached": true,
       "error": ""
@@ -2510,6 +2509,12 @@
     {
       "bank": "台北富邦",
       "url": "https://www.fubon.com/banking/personal/credit_card/all_card/imperial/imperial.htm",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "台北富邦",
+      "url": "https://www.fubon.com/banking/personal/credit_card/all_card/omiyage/omiyage.htm",
       "cached": true,
       "error": ""
     },
@@ -2533,12 +2538,6 @@
     },
     {
       "bank": "台北富邦",
-      "url": "https://www.fubon.com/banking/personal/credit_card/all_card/omiyage/omiyage.htm",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "台北富邦",
       "url": "https://www.fubon.com/banking/personal/credit_card/all_card/Guardians_Braves/Guardians_Braves.htm",
       "cached": true,
       "error": ""
@@ -2546,12 +2545,6 @@
     {
       "bank": "台北富邦",
       "url": "https://www.fubon.com/banking/personal/credit_card/all_card/momo/momo.htm",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "台北富邦",
-      "url": "https://www.fubon.com/banking/personal/credit_card/all_card/openpossible/openpossible.htm",
       "cached": true,
       "error": ""
     },
@@ -2636,12 +2629,6 @@
     {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_fashion.html",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "中國信託",
-      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_travel.html",
       "cached": true,
       "error": ""
     },
@@ -2745,6 +2732,24 @@
       "bank": "臺灣土地銀行",
       "url": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1",
       "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html",
+      "candidates": 6,
+      "error": ""
+    },
+    {
+      "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share.html",
+      "candidates": 4,
+      "error": ""
+    },
+    {
+      "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share-article-01.html",
+      "candidates": 4,
       "error": ""
     }
   ]

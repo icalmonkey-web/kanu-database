@@ -6044,7 +6044,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-21T22:20:10.155900+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -11529,5 +11529,49 @@
     "checkedAt": "2026-10-20T12:58:38.709106+00:00",
     "images": [],
     "error": "HTTPError"
+  },
+  "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share.html": {
+    "checkedAt": "2026-10-21T22:20:10.155900+00:00",
+    "images": [
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
+        "ä¸­åä¿¡è¨éè¡ x LINE Pay"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/share/share_kv_image_bg-xs.png",
+        "LINE Payå¡æ»ç¥"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/share/share_kv_image_linefriends-xs.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/share/share_list_article-01_img.png",
+        "ä¸­ä¿¡LINE Payå¡åé¥æ»ç¥"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share-article-01.html": {
+    "checkedAt": "2026-10-21T22:20:10.155900+00:00",
+    "images": [
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
+        "ä¸­åä¿¡è¨éè¡ x LINE Pay"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/share/share_article-01_img-xs.png",
+        "LINE Payå¡æ»ç¥"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/icon_arrow_blue.png",
+        "å±éç®­é ­"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/icon_arrow_blue.png",
+        "å±éç®­é ­"
+      ]
+    ],
+    "error": ""
   }
 }
