@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-21T22:20:09.626143+00:00",
+  "generatedAt": "2026-10-22T21:31:37.945948+00:00",
   "targetAccuracy": 0.98,
   "measuredAccuracy": null,
   "coveragePercent": null,
   "acceptanceStatus": "NOT_ESTABLISHED",
   "reason": "需要獨立官方基準清單及逐欄核對；結構通過率、測試通過率都不是優惠準確率。",
-  "totalRules": 1621,
+  "totalRules": 1626,
   "issueCounts": {
     "UNRESOLVED_CARD_ASSOCIATION": 43,
-    "MISSING_CAMPAIGN_END": 640,
+    "MISSING_CAMPAIGN_END": 641,
     "UNKNOWN_CALCULATION": 310,
     "UNKNOWN_CAP_SCOPE": 662,
-    "UNSTRUCTURED_REGISTRATION_WINDOW": 249,
-    "MAXIMUM_ONLY": 185,
-    "NO_INDEPENDENT_TERM_REVIEW": 634,
+    "UNSTRUCTURED_REGISTRATION_WINDOW": 252,
+    "MAXIMUM_ONLY": 186,
+    "NO_INDEPENDENT_TERM_REVIEW": 640,
     "STALE_TERM_REVIEW": 8
   },
   "rules": [
@@ -2594,12 +2594,6 @@
       "issues": [
         "UNSTRUCTURED_REGISTRATION_WINDOW"
       ]
-    },
-    {
-      "id": "rule_654f5877eab7c3dd339f",
-      "bank": "王道銀行",
-      "title": "一般簽帳金融卡國內、外一般消費現金回饋",
-      "issues": []
     },
     {
       "id": "rule_73c1f81b995edfd6fe7d",
@@ -13900,6 +13894,59 @@
       "bank": "icash Pay",
       "title": "享鑽生活11%活動",
       "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f6a86d26a13017f43c6b",
+      "bank": "王道銀行",
+      "title": "一卡通卡友限定 ! 刷卡消費限時最高享3%現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d95b98fefd0763515a71",
+      "bank": "王道銀行",
+      "title": "2026年基本現金回饋方案",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f122284224f465858a41",
+      "bank": "王道銀行",
+      "title": "味全龍奪冠應援 第一重：贏球隔日指定行動支付享最高3%現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_29721c7c382fb7994355",
+      "bank": "王道銀行",
+      "title": "味全龍應援 第二重：味全龍大巨蛋實體商店現場享9折優惠",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b1fdb155a8e98894051f",
+      "bank": "王道銀行",
+      "title": "味全龍應援 第二重：大巨蛋實體商店滿額抽味全龍簽名商品",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b365ed7453383f9eaa97",
+      "bank": "王道銀行",
+      "title": "一卡通卡友限定！刷卡消費限時最高享3%現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },

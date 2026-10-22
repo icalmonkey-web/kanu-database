@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "description": "台灣信用卡發卡機構主清單。enabled 僅代表已設定可執行入口，不代表涵蓋率驗證通過。",
-  "lastUpdatedAt": "2026-10-21T22:20:08.198415Z",
+  "lastUpdatedAt": "2026-10-22T21:31:36.923658Z",
   "issuers": [
     {
       "name": "永豐銀行",
@@ -199,7 +199,7 @@
       "discoveredOfferCount": 74,
       "unvisitedPageCount": 224,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-21T21:41:52.248635Z",
+      "lastScanAt": "2026-10-22T21:26:13.313768Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -691,11 +691,11 @@
       "eventLinkPattern": "(debit|card|event|activity|offer)",
       "coverageNote": "僅收錄具實質消費回饋的簽帳金融卡",
       "lastSuccessfulScanAt": "2026-09-25T03:52:33.701377Z",
-      "discoveredCardCount": 35,
-      "discoveredOfferCount": 69,
-      "unvisitedPageCount": 165,
+      "discoveredCardCount": 37,
+      "discoveredOfferCount": 74,
+      "unvisitedPageCount": 164,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-21T21:55:50.427944Z",
+      "lastScanAt": "2026-10-22T21:31:36.059084Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -765,9 +765,9 @@
       "discoveredCardCount": 4,
       "discoveredOfferCount": 3,
       "unvisitedPageCount": 0,
-      "failedPageCount": 0,
-      "lastScanAt": "2026-10-20T21:31:11.877677Z",
-      "lastScanStatus": "completed"
+      "failedPageCount": 2,
+      "lastScanAt": "2026-10-22T21:26:15.513209Z",
+      "lastScanStatus": "needs_review"
     },
     {
       "name": "樂天國際商業銀行",

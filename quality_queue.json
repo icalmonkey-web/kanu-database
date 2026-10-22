@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-21T22:20:09.768Z",
+  "generatedAt": "2026-10-22T21:31:38.033Z",
   "disclaimer": "結構檢查不是事實核對；待確認點數不換算現金。",
-  "totalRules": 1621,
-  "reviewed": 948,
-  "comparable": 105,
+  "totalRules": 1626,
+  "reviewed": 947,
+  "comparable": 104,
   "expired": 140,
-  "sourceGroups": 220,
+  "sourceGroups": 224,
   "queue": [
     {
       "sourceUrl": "https://www.cathaybk.com.tw/",
@@ -1076,6 +1076,16 @@
         "rule_9c5a1bdbd6ad9d6c5f36",
         "rule_ac87e3fd8cf89ac0b4f8",
         "rule_d259cbe803bfa61173f1"
+      ],
+      "activeRules": 3
+    },
+    {
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/wd-twseries-2026",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_f122284224f465858a41",
+        "rule_29721c7c382fb7994355",
+        "rule_b1fdb155a8e98894051f"
       ],
       "activeRules": 3
     },
@@ -2175,6 +2185,30 @@
       "bank": "icash Pay",
       "ruleIds": [
         "rule_ce8e403c8833f66c25f2"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_f6a86d26a13017f43c6b"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.o-bank.com/retail/debit/cardmain_New",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_d95b98fefd0763515a71"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/debit_20261031_2",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_b365ed7453383f9eaa97"
       ],
       "activeRules": 1
     },
@@ -6005,16 +6039,6 @@
       "bank": "王道銀行",
       "title": "綠色消費力合作綠色商店加碼回饋",
       "sourceUrl": "https://www.o-bank.com/web/Event/lowcarboncard/index.html",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "SOURCE_CHECKED",
-      "comparable": true,
-      "issues": []
-    },
-    {
-      "id": "rule_654f5877eab7c3dd339f",
-      "bank": "王道銀行",
-      "title": "一般簽帳金融卡國內、外一般消費現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail/debit/cardmain_New",
       "lifecycle": "ACTIVE_OR_UNKNOWN",
       "reviewStatus": "SOURCE_CHECKED",
       "comparable": true,
@@ -21887,6 +21911,80 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_f6a86d26a13017f43c6b",
+      "bank": "王道銀行",
+      "title": "一卡通卡友限定 ! 刷卡消費限時最高享3%現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_d95b98fefd0763515a71",
+      "bank": "王道銀行",
+      "title": "2026年基本現金回饋方案",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/cardmain_New",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_f122284224f465858a41",
+      "bank": "王道銀行",
+      "title": "味全龍奪冠應援 第一重：贏球隔日指定行動支付享最高3%現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/wd-twseries-2026",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_29721c7c382fb7994355",
+      "bank": "王道銀行",
+      "title": "味全龍應援 第二重：味全龍大巨蛋實體商店現場享9折優惠",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/wd-twseries-2026",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_b1fdb155a8e98894051f",
+      "bank": "王道銀行",
+      "title": "味全龍應援 第二重：大巨蛋實體商店滿額抽味全龍簽名商品",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/wd-twseries-2026",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "非保證現金回饋"
+      ]
+    },
+    {
+      "id": "rule_b365ed7453383f9eaa97",
+      "bank": "王道銀行",
+      "title": "一卡通卡友限定！刷卡消費限時最高享3%現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/debit_20261031_2",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
       ]
     },
     {

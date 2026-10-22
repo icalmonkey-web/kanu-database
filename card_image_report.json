@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T22:20:11.729767+00:00",
+  "generatedAt": "2026-10-22T21:31:38.299580+00:00",
   "added": [],
   "withImage": 301,
   "missing": [
@@ -1927,6 +1927,16 @@
       "id": "card_台北富邦_684",
       "bank": "台北富邦",
       "cardName": "尊御卡"
+    },
+    {
+      "id": "card_王道銀行_687",
+      "bank": "王道銀行",
+      "cardName": "王道銀行 O! Range卡"
+    },
+    {
+      "id": "card_王道銀行_688",
+      "bank": "王道銀行",
+      "cardName": "王道銀行一卡通票證功能之簽帳金融卡"
     }
   ],
   "pages": [
@@ -2604,6 +2614,24 @@
     },
     {
       "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share-article-01.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_food.html",
       "cached": true,
       "error": ""
@@ -2732,24 +2760,6 @@
       "bank": "臺灣土地銀行",
       "url": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1",
       "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "中國信託",
-      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html",
-      "candidates": 6,
-      "error": ""
-    },
-    {
-      "bank": "中國信託",
-      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share.html",
-      "candidates": 4,
-      "error": ""
-    },
-    {
-      "bank": "中國信託",
-      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share-article-01.html",
-      "candidates": 4,
       "error": ""
     }
   ]
