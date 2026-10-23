@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "description": "台灣信用卡發卡機構主清單。enabled 僅代表已設定可執行入口，不代表涵蓋率驗證通過。",
-  "lastUpdatedAt": "2026-10-22T21:31:36.923658Z",
+  "lastUpdatedAt": "2026-10-23T22:09:54.216085Z",
   "issuers": [
     {
       "name": "永豐銀行",
@@ -24,10 +24,10 @@
       "eventLinkPattern": "discount/(?!list).+\\.html",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 75,
-      "discoveredOfferCount": 122,
+      "discoveredOfferCount": 121,
       "unvisitedPageCount": 126,
-      "failedPageCount": 2,
-      "lastScanAt": "2026-10-21T21:54:29.131306Z",
+      "failedPageCount": 0,
+      "lastScanAt": "2026-10-23T21:47:56.351163Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -49,12 +49,12 @@
         "playwright"
       ],
       "eventLinkPattern": "/personal/event/",
-      "lastSuccessfulScanAt": "2026-10-21T21:32:02.281182Z",
+      "lastSuccessfulScanAt": "2026-10-23T21:20:53.027926Z",
       "discoveredCardCount": 7,
       "discoveredOfferCount": 70,
       "unvisitedPageCount": 0,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-21T21:32:02.281182Z",
+      "lastScanAt": "2026-10-23T21:20:53.027926Z",
       "lastScanStatus": "completed"
     },
     {
@@ -85,7 +85,7 @@
       "discoveredOfferCount": 273,
       "unvisitedPageCount": 147,
       "failedPageCount": 1,
-      "lastScanAt": "2026-10-21T21:34:57.653251Z",
+      "lastScanAt": "2026-10-23T21:28:38.158224Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -108,11 +108,11 @@
       ],
       "eventLinkPattern": "/event/.+\\.htm",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 32,
-      "discoveredOfferCount": 76,
+      "discoveredCardCount": 33,
+      "discoveredOfferCount": 83,
       "unvisitedPageCount": 77,
-      "failedPageCount": 1,
-      "lastScanAt": "2026-10-21T21:52:25.121606Z",
+      "failedPageCount": 0,
+      "lastScanAt": "2026-10-23T21:26:05.831773Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -136,10 +136,10 @@
       "eventLinkPattern": "/personal/credit/discount/",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 53,
-      "discoveredOfferCount": 27,
+      "discoveredOfferCount": 34,
       "unvisitedPageCount": 36,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-21T21:39:56.607679Z",
+      "lastScanAt": "2026-10-23T21:36:54.590918Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -171,7 +171,7 @@
       "discoveredOfferCount": 88,
       "unvisitedPageCount": 75,
       "failedPageCount": 27,
-      "lastScanAt": "2026-10-21T21:44:04.682972Z",
+      "lastScanAt": "2026-10-23T21:26:46.356234Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -195,11 +195,11 @@
       ],
       "eventLinkPattern": "/(cards|offers|promotions|campaigns)/",
       "lastSuccessfulScanAt": "2026-09-24T21:26:01.503063Z",
-      "discoveredCardCount": 25,
-      "discoveredOfferCount": 74,
+      "discoveredCardCount": 26,
+      "discoveredOfferCount": 75,
       "unvisitedPageCount": 224,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-22T21:26:13.313768Z",
+      "lastScanAt": "2026-10-23T21:36:48.619384Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -224,10 +224,10 @@
       "eventLinkPattern": "/(card|campaign|event|corp)/",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 28,
-      "discoveredOfferCount": 46,
+      "discoveredOfferCount": 57,
       "unvisitedPageCount": 315,
-      "failedPageCount": 3,
-      "lastScanAt": "2026-10-21T21:53:52.301025Z",
+      "failedPageCount": 0,
+      "lastScanAt": "2026-10-23T21:43:47.300995Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -255,9 +255,9 @@
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 29,
       "discoveredOfferCount": 7,
-      "unvisitedPageCount": 0,
-      "failedPageCount": 1,
-      "lastScanAt": "2026-10-21T21:44:30.840896Z",
+      "unvisitedPageCount": 62,
+      "failedPageCount": 0,
+      "lastScanAt": "2026-10-23T21:38:16.683646Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -284,7 +284,7 @@
       "discoveredOfferCount": 89,
       "unvisitedPageCount": 63,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-21T21:45:19.819609Z",
+      "lastScanAt": "2026-10-23T21:37:43.610149Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -309,9 +309,9 @@
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 16,
       "discoveredOfferCount": 37,
-      "unvisitedPageCount": 27,
+      "unvisitedPageCount": 28,
       "failedPageCount": 1,
-      "lastScanAt": "2026-10-21T21:45:25.345035Z",
+      "lastScanAt": "2026-10-23T21:38:09.031799Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -333,12 +333,12 @@
         "playwright"
       ],
       "eventLinkPattern": "/personal-banking/credit-card/",
-      "lastSuccessfulScanAt": "2026-10-21T21:45:29.658604Z",
+      "lastSuccessfulScanAt": "2026-10-23T21:38:12.525042Z",
       "discoveredCardCount": 0,
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-21T21:45:29.658604Z",
+      "lastScanAt": "2026-10-23T21:38:12.525042Z",
       "lastScanStatus": "completed"
     },
     {
@@ -362,10 +362,10 @@
       "eventLinkPattern": "/bank-web/personal/credit-card/",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 56,
-      "discoveredOfferCount": 47,
+      "discoveredOfferCount": 31,
       "unvisitedPageCount": 139,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-21T21:47:35.372585Z",
+      "lastScanAt": "2026-10-23T21:45:23.019477Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -388,11 +388,11 @@
       ],
       "eventLinkPattern": "(creditcard|credit-card)",
       "lastSuccessfulScanAt": "",
-      "discoveredCardCount": 6,
+      "discoveredCardCount": 7,
       "discoveredOfferCount": 5,
-      "unvisitedPageCount": 45,
+      "unvisitedPageCount": 44,
       "failedPageCount": 37,
-      "lastScanAt": "2026-10-21T22:20:07.148241Z",
+      "lastScanAt": "2026-10-23T22:09:53.363461Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -419,7 +419,7 @@
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
       "failedPageCount": 1,
-      "lastScanAt": "2026-10-21T21:52:25.505996Z",
+      "lastScanAt": "2026-10-23T21:43:47.544785Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -441,12 +441,12 @@
         "playwright"
       ],
       "eventLinkPattern": "(credit|card|event|activity)",
-      "lastSuccessfulScanAt": "2026-10-21T21:52:44.270223Z",
+      "lastSuccessfulScanAt": "2026-10-23T21:44:06.464085Z",
       "discoveredCardCount": 15,
       "discoveredOfferCount": 2,
       "unvisitedPageCount": 0,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-21T21:52:44.270223Z",
+      "lastScanAt": "2026-10-23T21:44:06.464085Z",
       "lastScanStatus": "completed"
     },
     {
@@ -473,7 +473,7 @@
       "discoveredOfferCount": 93,
       "unvisitedPageCount": 99,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-21T21:53:15.672367Z",
+      "lastScanAt": "2026-10-23T21:44:37.491742Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -500,7 +500,7 @@
       "discoveredOfferCount": 94,
       "unvisitedPageCount": 55,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-21T21:54:03.849340Z",
+      "lastScanAt": "2026-10-23T21:45:22.231042Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -527,7 +527,7 @@
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
       "failedPageCount": 2,
-      "lastScanAt": "2026-10-21T21:53:54.635040Z",
+      "lastScanAt": "2026-10-23T21:45:23.861280Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -552,9 +552,9 @@
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 35,
       "discoveredOfferCount": 73,
-      "unvisitedPageCount": 31,
+      "unvisitedPageCount": 33,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-21T21:58:42.055550Z",
+      "lastScanAt": "2026-10-23T21:45:56.385728Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -576,12 +576,12 @@
         "playwright"
       ],
       "eventLinkPattern": "/TW/Personal/CreditCard",
-      "lastSuccessfulScanAt": "2026-10-21T21:54:06.355878Z",
+      "lastSuccessfulScanAt": "2026-10-23T21:45:25.505156Z",
       "discoveredCardCount": 0,
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-21T21:54:06.355878Z",
+      "lastScanAt": "2026-10-23T21:45:25.505156Z",
       "lastScanStatus": "completed"
     },
     {
@@ -606,9 +606,9 @@
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 22,
       "discoveredOfferCount": 7,
-      "unvisitedPageCount": 66,
-      "failedPageCount": 3,
-      "lastScanAt": "2026-10-21T22:01:42.671570Z",
+      "unvisitedPageCount": 65,
+      "failedPageCount": 7,
+      "lastScanAt": "2026-10-23T21:52:53.144710Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -630,12 +630,12 @@
         "playwright"
       ],
       "eventLinkPattern": "(credit|card|event|activity)",
-      "lastSuccessfulScanAt": "2026-10-21T21:54:30.679170Z",
+      "lastSuccessfulScanAt": "2026-10-23T21:45:58.033665Z",
       "discoveredCardCount": 0,
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-21T21:54:30.679170Z",
+      "lastScanAt": "2026-10-23T21:45:58.033665Z",
       "lastScanStatus": "completed"
     },
     {
@@ -657,12 +657,12 @@
         "playwright"
       ],
       "eventLinkPattern": "(credit|card|event|activity)",
-      "lastSuccessfulScanAt": "2026-10-21T21:54:36.451575Z",
+      "lastSuccessfulScanAt": "2026-10-23T21:45:59.355382Z",
       "discoveredCardCount": 0,
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-21T21:54:36.451575Z",
+      "lastScanAt": "2026-10-23T21:45:59.355382Z",
       "lastScanStatus": "completed"
     },
     {
@@ -692,10 +692,10 @@
       "coverageNote": "僅收錄具實質消費回饋的簽帳金融卡",
       "lastSuccessfulScanAt": "2026-09-25T03:52:33.701377Z",
       "discoveredCardCount": 37,
-      "discoveredOfferCount": 74,
+      "discoveredOfferCount": 73,
       "unvisitedPageCount": 164,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-22T21:31:36.059084Z",
+      "lastScanAt": "2026-10-23T21:46:24.611299Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -729,10 +729,10 @@
       "coverageNote": "將將卡等具消費回饋的簽帳金融卡",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 8,
-      "discoveredOfferCount": 31,
+      "discoveredOfferCount": 32,
       "unvisitedPageCount": 334,
       "failedPageCount": 1,
-      "lastScanAt": "2026-10-21T21:57:19.004745Z",
+      "lastScanAt": "2026-10-23T21:47:12.563508Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -763,10 +763,10 @@
       "coverageNote": "快點卡等具消費回饋的簽帳金融卡",
       "lastSuccessfulScanAt": "2026-10-20T21:31:11.877677Z",
       "discoveredCardCount": 4,
-      "discoveredOfferCount": 3,
+      "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
-      "failedPageCount": 2,
-      "lastScanAt": "2026-10-22T21:26:15.513209Z",
+      "failedPageCount": 1,
+      "lastScanAt": "2026-10-23T21:47:47.616558Z",
       "lastScanStatus": "needs_review"
     },
     {
