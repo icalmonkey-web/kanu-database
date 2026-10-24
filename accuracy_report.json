@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-23T22:09:57.779970+00:00",
+  "generatedAt": "2026-10-24T20:42:25.198872+00:00",
   "targetAccuracy": 0.98,
   "measuredAccuracy": null,
   "coveragePercent": null,
   "acceptanceStatus": "NOT_ESTABLISHED",
   "reason": "需要獨立官方基準清單及逐欄核對；結構通過率、測試通過率都不是優惠準確率。",
-  "totalRules": 1633,
+  "totalRules": 1637,
   "issueCounts": {
     "UNRESOLVED_CARD_ASSOCIATION": 46,
-    "MISSING_CAMPAIGN_END": 653,
+    "MISSING_CAMPAIGN_END": 657,
     "UNKNOWN_CALCULATION": 296,
     "UNKNOWN_CAP_SCOPE": 661,
     "UNSTRUCTURED_REGISTRATION_WINDOW": 253,
-    "MAXIMUM_ONLY": 192,
-    "NO_INDEPENDENT_TERM_REVIEW": 685,
+    "MAXIMUM_ONLY": 197,
+    "NO_INDEPENDENT_TERM_REVIEW": 689,
     "STALE_TERM_REVIEW": 8
   },
   "rules": [
@@ -12695,15 +12695,6 @@
       ]
     },
     {
-      "id": "rule_99a254f72e7d36f72f2a",
-      "bank": "星展銀行",
-      "title": "屈臣氏 天天回饋無上限",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_d8cccfa09e5568f75f10",
       "bank": "樂天信用卡",
       "title": "樂天桃猿世界卡精選通路5%回饋",
@@ -14055,6 +14046,56 @@
       "issues": [
         "MISSING_CAMPAIGN_END",
         "UNKNOWN_CALCULATION",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_0ed0edb5e2d502f617ed",
+      "bank": "王道銀行",
+      "title": "一卡通卡友限定！刷卡消費限時最高享3%現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_0c3933c2aadb8674dd60",
+      "bank": "星展銀行",
+      "title": "星願集刷 回饋升級 刷5筆888元享最高3%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b4755735a4e8c944a848",
+      "bank": "星展銀行",
+      "title": "百貨週年慶滿額最高10%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b76fabd11a38fc5466c6",
+      "bank": "星展銀行",
+      "title": "聚餐用星刷 筆筆享最高12%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_df3fe7c1b16f76f2e66d",
+      "bank": "星展銀行",
+      "title": "海外餐飲刷星展 最高享10%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },

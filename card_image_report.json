@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T22:10:03.010553+00:00",
+  "generatedAt": "2026-10-24T20:42:25.677050+00:00",
   "added": [],
   "withImage": 302,
   "missing": [
@@ -1947,6 +1947,11 @@
       "id": "card_華南銀行_691",
       "bank": "華南銀行",
       "cardName": "華南熊Q卡"
+    },
+    {
+      "id": "card_王道銀行_692",
+      "bank": "王道銀行",
+      "cardName": "王道銀行一卡通簽帳金融卡"
     }
   ],
   "pages": [
@@ -2599,6 +2604,12 @@
       "error": ""
     },
     {
+      "bank": "台新銀行",
+      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/",
+      "cached": true,
+      "error": ""
+    },
+    {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/twrbo/zh_tw/cc_index/cc_product/cc_introduction_index.html",
       "cached": true,
@@ -2764,12 +2775,6 @@
       "bank": "臺灣土地銀行",
       "url": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1",
       "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "台新銀行",
-      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/",
-      "candidates": 19,
       "error": ""
     }
   ]

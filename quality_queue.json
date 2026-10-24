@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-23T22:09:57.864Z",
+  "generatedAt": "2026-10-24T20:42:25.318Z",
   "disclaimer": "結構檢查不是事實核對；待確認點數不換算現金。",
-  "totalRules": 1633,
+  "totalRules": 1637,
   "reviewed": 909,
   "comparable": 102,
   "expired": 142,
-  "sourceGroups": 232,
+  "sourceGroups": 233,
   "queue": [
     {
       "sourceUrl": "https://www.cathaybk.com.tw/",
@@ -943,6 +943,17 @@
         "rule_e17aea013bbfd3cb1457",
         "rule_104865c06b0027bb0542",
         "rule_e6770cbdf24f25e423a7"
+      ],
+      "activeRules": 4
+    },
+    {
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "bank": "星展銀行",
+      "ruleIds": [
+        "rule_0c3933c2aadb8674dd60",
+        "rule_b4755735a4e8c944a848",
+        "rule_b76fabd11a38fc5466c6",
+        "rule_df3fe7c1b16f76f2e66d"
       ],
       "activeRules": 4
     },
@@ -2089,14 +2100,6 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
-      "bank": "星展銀行",
-      "ruleIds": [
-        "rule_99a254f72e7d36f72f2a"
-      ],
-      "activeRules": 1
-    },
-    {
       "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2435",
       "bank": "樂天信用卡",
       "ruleIds": [
@@ -2310,6 +2313,14 @@
       "bank": "悠遊付",
       "ruleIds": [
         "rule_91f5faba34dc319c20ef"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_0ed0edb5e2d502f617ed"
       ],
       "activeRules": 1
     },
@@ -20263,18 +20274,6 @@
       ]
     },
     {
-      "id": "rule_99a254f72e7d36f72f2a",
-      "bank": "星展銀行",
-      "title": "屈臣氏 天天回饋無上限",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
       "id": "rule_d8cccfa09e5568f75f10",
       "bank": "樂天信用卡",
       "title": "樂天桃猿世界卡精選通路5%回饋",
@@ -22214,6 +22213,71 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "回饋計算方式待確認"
+      ]
+    },
+    {
+      "id": "rule_0ed0edb5e2d502f617ed",
+      "bank": "王道銀行",
+      "title": "一卡通卡友限定！刷卡消費限時最高享3%現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_0c3933c2aadb8674dd60",
+      "bank": "星展銀行",
+      "title": "星願集刷 回饋升級 刷5筆888元享最高3%回饋",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_b4755735a4e8c944a848",
+      "bank": "星展銀行",
+      "title": "百貨週年慶滿額最高10%回饋",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_b76fabd11a38fc5466c6",
+      "bank": "星展銀行",
+      "title": "聚餐用星刷 筆筆享最高12%回饋",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_df3fe7c1b16f76f2e66d",
+      "bank": "星展銀行",
+      "title": "海外餐飲刷星展 最高享10%回饋",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
       ]
     },
     {
