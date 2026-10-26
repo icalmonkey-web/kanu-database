@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-24T20:42:25.677050+00:00",
+  "generatedAt": "2026-10-26T23:00:36.231628+00:00",
   "added": [],
-  "withImage": 302,
+  "withImage": 305,
   "missing": [
     {
       "id": "card_cathay_cube",
@@ -1279,11 +1279,6 @@
       "cardName": "彰化銀行 MasterCard世界卡"
     },
     {
-      "id": "card_樂天信用卡_451",
-      "bank": "樂天信用卡",
-      "cardName": "樂天台灣虎航聯名卡"
-    },
-    {
       "id": "card_星展銀行_452",
       "bank": "星展銀行",
       "cardName": "星展萬事達卡信用卡"
@@ -1849,11 +1844,6 @@
       "cardName": "台新玫瑰卡"
     },
     {
-      "id": "card_台新銀行_681",
-      "bank": "台新銀行",
-      "cardName": "台新太陽卡"
-    },
-    {
       "id": "card_元大銀行_682",
       "bank": "元大銀行",
       "cardName": "元大銀行零碳信用卡"
@@ -1952,6 +1942,61 @@
       "id": "card_王道銀行_692",
       "bank": "王道銀行",
       "cardName": "王道銀行一卡通簽帳金融卡"
+    },
+    {
+      "id": "card_安泰銀行_694",
+      "bank": "安泰銀行",
+      "cardName": "鈦金卡/鈦金悠遊卡"
+    },
+    {
+      "id": "card_永豐銀行_693",
+      "bank": "永豐銀行",
+      "cardName": "永豐Mastercard世界商務卡"
+    },
+    {
+      "id": "card_中國信託_695",
+      "bank": "中國信託",
+      "cardName": "中國信託萬豪旅享家聯名卡"
+    },
+    {
+      "id": "card_中國信託_696",
+      "bank": "中國信託",
+      "cardName": "中國信託uniopen聯名卡"
+    },
+    {
+      "id": "card_中國信託_697",
+      "bank": "中國信託",
+      "cardName": "中國信託ALL ME卡"
+    },
+    {
+      "id": "card_中國信託_698",
+      "bank": "中國信託",
+      "cardName": "中國信託遠東SOGO聯名卡"
+    },
+    {
+      "id": "card_中國信託_699",
+      "bank": "中國信託",
+      "cardName": "中國信託Agoda聯名卡"
+    },
+    {
+      "id": "card_中國信託_700",
+      "bank": "中國信託",
+      "cardName": "中國信託中華航空聯名卡"
+    },
+    {
+      "id": "card_中國信託_701",
+      "bank": "中國信託",
+      "cardName": "中國信託ANA聯名卡"
+    },
+    {
+      "id": "card_中國信託_702",
+      "bank": "中國信託",
+      "cardName": "中國信託大中華攜手飛聯名卡"
+    },
+    {
+      "id": "card_王道銀行_703",
+      "bank": "王道銀行",
+      "cardName": "一卡通卡片"
     }
   ],
   "pages": [
@@ -2101,12 +2146,6 @@
     },
     {
       "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/list.html",
-      "cached": true,
-      "error": "ConnectTimeout"
-    },
-    {
-      "bank": "永豐銀行",
       "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/co-brand/list.html",
       "cached": true,
       "error": "ConnectTimeout"
@@ -2140,6 +2179,12 @@
       "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/cashcard.html",
       "cached": true,
       "error": ""
+    },
+    {
+      "bank": "永豐銀行",
+      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/list.html",
+      "cached": true,
+      "error": "ConnectTimeout"
     },
     {
       "bank": "國泰世華",
@@ -2425,19 +2470,7 @@
     },
     {
       "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/kumamon_card",
       "cached": true,
       "error": ""
     },
@@ -2467,12 +2500,6 @@
     },
     {
       "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/dualcurrency-card",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/u-bear",
       "cached": true,
       "error": ""
@@ -2480,6 +2507,24 @@
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/WORLD",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/kumamon_card",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/dualcurrency-card",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card",
       "cached": true,
       "error": ""
     },
@@ -2604,12 +2649,6 @@
       "error": ""
     },
     {
-      "bank": "台新銀行",
-      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/",
-      "cached": true,
-      "error": ""
-    },
-    {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/twrbo/zh_tw/cc_index/cc_product/cc_introduction_index.html",
       "cached": true,
@@ -2672,6 +2711,12 @@
     {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_fashion.html",
       "cached": true,
       "error": ""
     },
