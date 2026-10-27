@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-26T23:00:35.831Z",
+  "generatedAt": "2026-10-27T22:32:51.817Z",
   "disclaimer": "結構檢查不是事實核對；待確認點數不換算現金。",
-  "totalRules": 1642,
-  "reviewed": 906,
+  "totalRules": 1665,
+  "reviewed": 897,
   "comparable": 102,
-  "expired": 140,
-  "sourceGroups": 239,
+  "expired": 141,
+  "sourceGroups": 243,
   "queue": [
     {
       "sourceUrl": "https://www.cathaybk.com.tw/",
@@ -56,6 +56,27 @@
       "activeRules": 16
     },
     {
+      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
+      "bank": "臺灣土地銀行",
+      "ruleIds": [
+        "rule_4ede8e03f79ea7f912cc",
+        "rule_29682efd9ea8601ad44e",
+        "rule_4fc9ca59213248aab033",
+        "rule_debfc7b6a03948c992eb",
+        "rule_5d2d663fb03515901abd",
+        "rule_f4669dd95eb6ffe26a1a",
+        "rule_9a83f6a8464acaad94d6",
+        "rule_00a5b17a2e277c6f90d0",
+        "rule_b32f0b11407ed430e183",
+        "rule_8a56e30fcad803b5f2c8",
+        "rule_f743210358b7c9cdaf4a",
+        "rule_275487ee57cda3e5be42",
+        "rule_e9149d66d47b703caaf9",
+        "rule_3aab37166d54cee9434a"
+      ],
+      "activeRules": 14
+    },
+    {
       "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/card_refer/card_refer.htm",
       "bank": "台北富邦",
       "ruleIds": [
@@ -91,7 +112,7 @@
         "rule_42c72b059edb8be8e7c1",
         "rule_db263b88345b085b5977"
       ],
-      "activeRules": 12
+      "activeRules": 11
     },
     {
       "sourceUrl": "https://www.megabank.com.tw/personal/credit-card/rights/city-parking",
@@ -325,6 +346,22 @@
       "activeRules": 9
     },
     {
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "bank": "星展銀行",
+      "ruleIds": [
+        "rule_99a254f72e7d36f72f2a",
+        "rule_89e3b27196129ab76dd1",
+        "rule_e4df0e3c6b9dc6c71db9",
+        "rule_9a462406cc577baf04a7",
+        "rule_b76fabd11a38fc5466c6",
+        "rule_424b778a62e6acfc8b9b",
+        "rule_d2790cdf9d2d99df4acd",
+        "rule_5ddfa086f62a2909ee1d",
+        "rule_73784f2bb2f2ecfdecae"
+      ],
+      "activeRules": 9
+    },
+    {
       "sourceUrl": "https://www.hsbc.com.tw/credit-cards/offers/acquisition-gift/terms-and-conditions/",
       "bank": "滙豐銀行",
       "ruleIds": [
@@ -507,6 +544,35 @@
         "rule_148315d45763d8f154c1",
         "rule_97d11ae5d374ead95cc6",
         "rule_64c560043bdecbd0a3de"
+      ],
+      "activeRules": 7
+    },
+    {
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/",
+      "bank": "美國運通",
+      "ruleIds": [
+        "rule_bd9b1ad7b5a966f84cec",
+        "rule_35b983fe3c15c77bc6aa",
+        "rule_3d268e04374bf7e75007",
+        "rule_b5cb9653ec027fc95c08",
+        "rule_6d19efd61669d7b2169c",
+        "rule_58f4294fc7a2fd719da8",
+        "rule_279f59a99dc5582e414c"
+      ],
+      "activeRules": 7
+    },
+    {
+      "sourceUrl": "https://www.landbank.com.tw/Category/Bulletins/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF",
+      "bank": "臺灣土地銀行",
+      "ruleIds": [
+        "rule_bfc6b62ddfb196d16c3f",
+        "rule_6a80d027d0d2934b3b53",
+        "rule_9e23c618361ff296f7d1",
+        "rule_a3f66b3747d9caf55a68",
+        "rule_28e9f7e58f01662a393c",
+        "rule_ae257f8468edd1e5af7d",
+        "rule_cb91fd9564efab90d2e9",
+        "rule_0fc30c105e9cf0473797"
       ],
       "activeRules": 7
     },
@@ -700,18 +766,6 @@
       "activeRules": 5
     },
     {
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
-      "bank": "星展銀行",
-      "ruleIds": [
-        "rule_0c3933c2aadb8674dd60",
-        "rule_37adfbe4967e15542ead",
-        "rule_64c099ec06b10f3bab31",
-        "rule_df3fe7c1b16f76f2e66d",
-        "rule_d94b35ad1713df01e275"
-      ],
-      "activeRules": 5
-    },
-    {
       "sourceUrl": "https://www.easycard.com.tw/",
       "bank": "悠遊付",
       "ruleIds": [
@@ -731,39 +785,6 @@
         "rule_3ae36bb3cc51a5144f9c",
         "rule_e4c9af6377ba243b44a2",
         "rule_8ebea0eec5aa6e2dac2f"
-      ],
-      "activeRules": 4
-    },
-    {
-      "sourceUrl": "https://www.landbank.com.tw/Category/Bulletins/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF",
-      "bank": "臺灣土地銀行",
-      "ruleIds": [
-        "rule_b6f24c9e0724eb9a1319",
-        "rule_6058cec332a65412ce42",
-        "rule_ae34c034c9ce8f4bf5b9",
-        "rule_63bf590f8ce6dcf67d94"
-      ],
-      "activeRules": 4
-    },
-    {
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/18f55961-22b0-4ed3-a6df-b4b3007cd9ce?code=C100",
-      "bank": "臺灣土地銀行",
-      "ruleIds": [
-        "rule_cf9c70e90f2f1c642ca8",
-        "rule_dcaf31cd68a0ba05e858",
-        "rule_4f59e3b3854ddb3f3db1",
-        "rule_56b49dcc15221f797d30"
-      ],
-      "activeRules": 4
-    },
-    {
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9?code=C100",
-      "bank": "臺灣土地銀行",
-      "ruleIds": [
-        "rule_5449be3f3ff09cff7c4a",
-        "rule_fbd7830dea17bcebc1f9",
-        "rule_5626ac46090cd047031d",
-        "rule_ac5687b3c8dba67f4ddf"
       ],
       "activeRules": 4
     },
@@ -928,32 +949,45 @@
       "activeRules": 4
     },
     {
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/18f55961-22b0-4ed3-a6df-b4b3007cd9ce?code=C100",
+      "bank": "臺灣土地銀行",
+      "ruleIds": [
+        "rule_cf9c70e90f2f1c642ca8",
+        "rule_dcaf31cd68a0ba05e858",
+        "rule_4f59e3b3854ddb3f3db1",
+        "rule_56b49dcc15221f797d30"
+      ],
+      "activeRules": 4
+    },
+    {
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/3c01a21b-e857-481a-afa5-adf800984a6f?code=C100",
+      "bank": "臺灣土地銀行",
+      "ruleIds": [
+        "rule_cc4b59625a776303a9f1",
+        "rule_d50f250975ce607a9bac",
+        "rule_1f5132f88a74dc83ed04",
+        "rule_aba430fcef8d52594353"
+      ],
+      "activeRules": 4
+    },
+    {
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9",
+      "bank": "臺灣土地銀行",
+      "ruleIds": [
+        "rule_55a3e34e08a31dd44ce1",
+        "rule_f1e860e09f325587f18c",
+        "rule_231f0ed3b80282513bb1",
+        "rule_cf5ed49ec4de14ac9746"
+      ],
+      "activeRules": 4
+    },
+    {
       "sourceUrl": "https://www.hsbc.com.tw/credit-cards/products/cashback-titanium/",
       "bank": "未分類",
       "ruleIds": [
         "hsbc_titanium_base",
         "rule_578a5d7f1307b489e5c1",
         "rule_300bb417feb5953753cd"
-      ],
-      "activeRules": 3
-    },
-    {
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9",
-      "bank": "臺灣土地銀行",
-      "ruleIds": [
-        "rule_f76636f19dc98c0b40a6",
-        "rule_24723370285581aa9c12",
-        "rule_b77592a875942d6ac196"
-      ],
-      "activeRules": 3
-    },
-    {
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/3c01a21b-e857-481a-afa5-adf800984a6f?code=C100",
-      "bank": "臺灣土地銀行",
-      "ruleIds": [
-        "rule_151223776820c1aa168b",
-        "rule_d50f250975ce607a9bac",
-        "rule_fea37159ac5744fd9e49"
       ],
       "activeRules": 3
     },
@@ -1190,6 +1224,16 @@
       "activeRules": 3
     },
     {
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9?code=C100",
+      "bank": "臺灣土地銀行",
+      "ruleIds": [
+        "rule_d4c3d85823fb678f2ba2",
+        "rule_4582e784de1757ff951e",
+        "rule_a714e7a6802f84ace831"
+      ],
+      "activeRules": 3
+    },
+    {
       "sourceUrl": "https://event.esunbank.com.tw/credit/ubear/card.html",
       "bank": "玉山銀行",
       "ruleIds": [
@@ -1198,33 +1242,6 @@
         "review_ubear_subscription_202609"
       ],
       "activeRules": 3
-    },
-    {
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/ce9aecbc-dea2-4a89-ab98-af710030e8f3?code=C100",
-      "bank": "臺灣土地銀行",
-      "ruleIds": [
-        "rule_5dd2b1fe7557b3435475",
-        "rule_96f77b9867dce9696db0"
-      ],
-      "activeRules": 2
-    },
-    {
-      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
-      "bank": "臺灣土地銀行",
-      "ruleIds": [
-        "rule_566dbd7bc8f4f6098f78",
-        "rule_9f26381a463e01cf28e8"
-      ],
-      "activeRules": 2
-    },
-    {
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/ce9aecbc-dea2-4a89-ab98-af710030e8f3",
-      "bank": "臺灣土地銀行",
-      "ruleIds": [
-        "rule_5e9089dc8cacc6c4a579",
-        "rule_3204ada4a967e398c762"
-      ],
-      "activeRules": 2
     },
     {
       "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/get-started/the-platinum-card/",
@@ -1561,6 +1578,24 @@
       "activeRules": 2
     },
     {
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/ce9aecbc-dea2-4a89-ab98-af710030e8f3?code=C100",
+      "bank": "臺灣土地銀行",
+      "ruleIds": [
+        "rule_d87674d1d7f75bafe539",
+        "rule_843e9968d7f49f26792e"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/ce9aecbc-dea2-4a89-ab98-af710030e8f3",
+      "bank": "臺灣土地銀行",
+      "ruleIds": [
+        "rule_fee27ce3acf9076106aa",
+        "rule_3ba157a90a3a36a20b0a"
+      ],
+      "activeRules": 2
+    },
+    {
       "sourceUrl": "https://www.entiebank.com.tw/",
       "bank": "未分類",
       "ruleIds": [
@@ -1577,34 +1612,10 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/5b3c9939-205c-44fe-a898-b162001ce095?code=C100",
-      "bank": "臺灣土地銀行",
-      "ruleIds": [
-        "rule_f314bca5257e434c1fcf"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/89715c58-7ebf-403a-823c-b00a007276e0?code=C100",
-      "bank": "臺灣土地銀行",
-      "ruleIds": [
-        "rule_5246808f612280ca479f"
-      ],
-      "activeRules": 1
-    },
-    {
       "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/travel/the-platinum-card/",
       "bank": "美國運通",
       "ruleIds": [
         "rule_6eeb40836e71c546b30e"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/offers/fun-taiwan/dinings/northern.html",
-      "bank": "美國運通",
-      "ruleIds": [
-        "rule_4f39bbb07438bf02b5e5"
       ],
       "activeRules": 1
     },
@@ -1939,6 +1950,14 @@
       "activeRules": 1
     },
     {
+      "sourceUrl": "https://www.hncb.com.tw/wps/portal/HNCB/msg/071/pb-moretaiwanpay/FamilyMart2026",
+      "bank": "華南銀行",
+      "ruleIds": [
+        "rule_c09542708fe1e21786fc"
+      ],
+      "activeRules": 1
+    },
+    {
       "sourceUrl": "https://www.hncb.com.tw/wps/portal/HNCB/msg/071/pb-moretaiwanpay/changchun",
       "bank": "華南銀行",
       "ruleIds": [
@@ -2245,14 +2264,6 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.o-bank.com/retail",
-      "bank": "王道銀行",
-      "ruleIds": [
-        "rule_cec3e86f7d58161d18f0"
-      ],
-      "activeRules": 1
-    },
-    {
       "sourceUrl": "https://www.card.rakuten.com.tw/corp/japan-benefit/",
       "bank": "樂天信用卡",
       "ruleIds": [
@@ -2357,20 +2368,69 @@
       "activeRules": 1
     },
     {
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_2bcbadd26116381afd1c"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/offers/fun-taiwan/dinings/northern.html",
+      "bank": "美國運通",
+      "ruleIds": [
+        "rule_95db8c205635450387ab"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.rakuten-bank.com.tw/portal/campaign/mgm",
+      "bank": "樂天國際商業銀行",
+      "ruleIds": [
+        "rule_818a2b1e64ef76d24a41"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/5b3c9939-205c-44fe-a898-b162001ce095?code=C100",
+      "bank": "臺灣土地銀行",
+      "ruleIds": [
+        "rule_f314bca5257e434c1fcf"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.rakuten-bank.com.tw/portal/campaign/55688",
+      "bank": "樂天國際商業銀行",
+      "ruleIds": [
+        "rule_3d1a02e04ce66951eeb5"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/46039b69-7d82-4513-a1ed-b4ea0033db21?code=C100",
+      "bank": "臺灣土地銀行",
+      "ruleIds": [
+        "rule_d4732c26aa6edd9a8bbb",
+        "rule_558bafee8b98754ae419"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/89715c58-7ebf-403a-823c-b00a007276e0?code=C100",
+      "bank": "臺灣土地銀行",
+      "ruleIds": [
+        "rule_5246808f612280ca479f"
+      ],
+      "activeRules": 1
+    },
+    {
       "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=5",
       "bank": "悠遊付",
       "ruleIds": [
         "rule_7b01537eee158e15ecef",
         "rule_b07dfdfda6acbacbb86f",
         "rule_bfc980cbbf6a5d468445"
-      ],
-      "activeRules": 0
-    },
-    {
-      "sourceUrl": "https://www.hncb.com.tw/wps/portal/HNCB/msg/071/pb-moretaiwanpay/FamilyMart2026",
-      "bank": "華南銀行",
-      "ruleIds": [
-        "rule_c09542708fe1e21786fc"
       ],
       "activeRules": 0
     },
@@ -2885,329 +2945,6 @@
       ]
     },
     {
-      "id": "rule_b6f24c9e0724eb9a1319",
-      "bank": "臺灣土地銀行",
-      "title": "總督數位影城刷土銀信用卡購票優惠",
-      "sourceUrl": "https://www.landbank.com.tw/Category/Bulletins/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "回饋上限適用範圍未確認"
-      ]
-    },
-    {
-      "id": "rule_6058cec332a65412ce42",
-      "bank": "臺灣土地銀行",
-      "title": "美麗華大直影城刷土銀JCB信用卡購票優惠",
-      "sourceUrl": "https://www.landbank.com.tw/Category/Bulletins/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "回饋上限適用範圍未確認"
-      ]
-    },
-    {
-      "id": "rule_ae34c034c9ce8f4bf5b9",
-      "bank": "臺灣土地銀行",
-      "title": "喜樂時代影城刷土銀JCB信用卡購票優惠",
-      "sourceUrl": "https://www.landbank.com.tw/Category/Bulletins/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "回饋上限適用範圍未確認"
-      ]
-    },
-    {
-      "id": "rule_63bf590f8ce6dcf67d94",
-      "bank": "臺灣土地銀行",
-      "title": "親親影城刷土銀JCB信用卡購票優惠",
-      "sourceUrl": "https://www.landbank.com.tw/Category/Bulletins/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "回饋上限適用範圍未確認"
-      ]
-    },
-    {
-      "id": "rule_f314bca5257e434c1fcf",
-      "bank": "臺灣土地銀行",
-      "title": "轉出好運發發發行銷活動",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/5b3c9939-205c-44fe-a898-b162001ce095?code=C100",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "非保證現金回饋"
-      ]
-    },
-    {
-      "id": "rule_cf9c70e90f2f1c642ca8",
-      "bank": "臺灣土地銀行",
-      "title": "總督數位影城購票優惠",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/18f55961-22b0-4ed3-a6df-b4b3007cd9ce?code=C100",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "回饋率異常"
-      ]
-    },
-    {
-      "id": "rule_dcaf31cd68a0ba05e858",
-      "bank": "臺灣土地銀行",
-      "title": "美麗華大直影城購票優惠",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/18f55961-22b0-4ed3-a6df-b4b3007cd9ce?code=C100",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_4f59e3b3854ddb3f3db1",
-      "bank": "臺灣土地銀行",
-      "title": "喜樂時代影城購票優惠",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/18f55961-22b0-4ed3-a6df-b4b3007cd9ce?code=C100",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_56b49dcc15221f797d30",
-      "bank": "臺灣土地銀行",
-      "title": "親親影城購票優惠",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/18f55961-22b0-4ed3-a6df-b4b3007cd9ce?code=C100",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_5246808f612280ca479f",
-      "bank": "臺灣土地銀行",
-      "title": "美十樂連鎖藥局-台灣Pay 20%回饋",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/89715c58-7ebf-403a-823c-b00a007276e0?code=C100",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_5dd2b1fe7557b3435475",
-      "bank": "臺灣土地銀行",
-      "title": "新戶首刷滿額雙重送 - 第一重刷卡金",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/ce9aecbc-dea2-4a89-ab98-af710030e8f3?code=C100",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
-      "id": "rule_96f77b9867dce9696db0",
-      "bank": "臺灣土地銀行",
-      "title": "新戶首刷滿額雙重送 - 第二重加碼禮券",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/ce9aecbc-dea2-4a89-ab98-af710030e8f3?code=C100",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_5449be3f3ff09cff7c4a",
-      "bank": "臺灣土地銀行",
-      "title": "新戶首刷滿額禮第一重：一般消費累計滿3,000元送300元刷卡金",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9?code=C100",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
-      "id": "rule_fbd7830dea17bcebc1f9",
-      "bank": "臺灣土地銀行",
-      "title": "新戶首刷滿額禮第二重：申辦電子帳單並代繳公共事業費加碼500元禮券",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9?code=C100",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_5626ac46090cd047031d",
-      "bank": "臺灣土地銀行",
-      "title": "國外刷卡2%回饋無上限",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9?code=C100",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_ac5687b3c8dba67f4ddf",
-      "bank": "臺灣土地銀行",
-      "title": "國內刷卡一般消費最高回饋 1%",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9?code=C100",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_f76636f19dc98c0b40a6",
-      "bank": "臺灣土地銀行",
-      "title": "新戶首刷滿額禮第一重",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
-      "id": "rule_24723370285581aa9c12",
-      "bank": "臺灣土地銀行",
-      "title": "國外刷卡消費回饋無上限",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_b77592a875942d6ac196",
-      "bank": "臺灣土地銀行",
-      "title": "國內刷卡一般消費回饋",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_151223776820c1aa168b",
-      "bank": "臺灣土地銀行",
-      "title": "新戶滿額首刷禮",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/3c01a21b-e857-481a-afa5-adf800984a6f?code=C100",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
-      "id": "rule_d50f250975ce607a9bac",
-      "bank": "臺灣土地銀行",
-      "title": "國內一般消費不限金額1%回饋",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/3c01a21b-e857-481a-afa5-adf800984a6f?code=C100",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_fea37159ac5744fd9e49",
-      "bank": "臺灣土地銀行",
-      "title": "EZTABLE網站餐廳訂位滿額享10%現折優惠",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/3c01a21b-e857-481a-afa5-adf800984a6f?code=C100",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_566dbd7bc8f4f6098f78",
-      "bank": "臺灣土地銀行",
-      "title": "iCash2.0聯名鈦金卡國內一般消費回饋",
-      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_9f26381a463e01cf28e8",
-      "bank": "臺灣土地銀行",
-      "title": "iCash2.0聯名鈦金卡國外消費回饋",
-      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_5e9089dc8cacc6c4a579",
-      "bank": "臺灣土地銀行",
-      "title": "新戶首刷滿額禮",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/ce9aecbc-dea2-4a89-ab98-af710030e8f3",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
-      "id": "rule_3204ada4a967e398c762",
-      "bank": "臺灣土地銀行",
-      "title": "申請電子帳單並代繳公共事業費加碼禮",
-      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/ce9aecbc-dea2-4a89-ab98-af710030e8f3",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
       "id": "rule_269c37743dd8411018ce",
       "bank": "美國運通",
       "title": "2026人壽保險優惠",
@@ -3457,78 +3194,6 @@
       "comparable": false,
       "issues": [
         "回饋計算方式待確認"
-      ]
-    },
-    {
-      "id": "rule_71bde3ffd6d6d3436df4",
-      "bank": "美國運通",
-      "title": "新申辦首刷好禮2選1與美饌刷卡金",
-      "sourceUrl": "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "SOURCE_CHECKED",
-      "comparable": false,
-      "issues": [
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_9cc77d875ace8f7f75de",
-      "bank": "美國運通",
-      "title": "限時新申辦不限金額首刷享60,000「長榮航空」哩程",
-      "sourceUrl": "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "SOURCE_CHECKED",
-      "comparable": false,
-      "issues": [
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_c208678a4058e4e36e97",
-      "bank": "美國運通",
-      "title": "耀金卡新申辦首刷好禮2選1",
-      "sourceUrl": "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "SOURCE_CHECKED",
-      "comparable": false,
-      "issues": [
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_2bfcf3a7708636b4709c",
-      "bank": "美國運通",
-      "title": "指定通路消費享月月刷卡金回饋與住宿優惠",
-      "sourceUrl": "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "SOURCE_CHECKED",
-      "comparable": false,
-      "issues": [
-        "固定回饋門檻或計次方式未確認"
-      ]
-    },
-    {
-      "id": "rule_e54fe99b355f554440d2",
-      "bank": "美國運通",
-      "title": "新申辦首3個月首刷享3,000哩程",
-      "sourceUrl": "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "SOURCE_CHECKED",
-      "comparable": false,
-      "issues": [
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_891813488a0be1427b95",
-      "bank": "美國運通",
-      "title": "長榮航空簽帳金卡國內外消費哩程回饋",
-      "sourceUrl": "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "SOURCE_CHECKED",
-      "comparable": false,
-      "issues": [
-        "點數未確認兌換價值"
       ]
     },
     {
@@ -3964,19 +3629,6 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "非保證現金回饋"
-      ]
-    },
-    {
-      "id": "rule_4f39bbb07438bf02b5e5",
-      "bank": "美國運通",
-      "title": "全卡別專屬餐飲優惠",
-      "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/offers/fun-taiwan/dinings/northern.html",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "回饋計算方式待確認"
       ]
     },
     {
@@ -8214,12 +7866,11 @@
       "bank": "華南銀行",
       "title": "全家消費台灣Pay，10%回饋超級配",
       "sourceUrl": "https://www.hncb.com.tw/wps/portal/HNCB/msg/071/pb-moretaiwanpay/FamilyMart2026",
-      "lifecycle": "UPCOMING",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
       "reviewStatus": "PENDING",
       "comparable": false,
       "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "活動尚未開始"
+        "INDEPENDENT_REVIEW_REQUIRED"
       ]
     },
     {
@@ -9646,30 +9297,6 @@
       ]
     },
     {
-      "id": "pxpayplus_crossborder_kr_jp_2026",
-      "bank": "國泰世華",
-      "title": "全支付日韓跨境消費享回饋",
-      "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/cards/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "SOURCE_CHECKED",
-      "comparable": false,
-      "issues": [
-        "回饋計算方式待確認"
-      ]
-    },
-    {
-      "id": "pxpayplus_designated_store_2026",
-      "bank": "國泰世華",
-      "title": "全支付指定通路消費享回饋",
-      "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/cards/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "SOURCE_CHECKED",
-      "comparable": false,
-      "issues": [
-        "回饋計算方式待確認"
-      ]
-    },
-    {
       "id": "rule_coupang",
       "bank": "國泰世華",
       "title": "Coupang酷澎限時加碼",
@@ -9995,18 +9622,6 @@
       "id": "RULE_COSMED",
       "bank": "國泰世華",
       "title": "康是美網購eShop單筆滿額現折",
-      "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/cards/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "SOURCE_CHECKED",
-      "comparable": false,
-      "issues": [
-        "回饋計算方式待確認"
-      ]
-    },
-    {
-      "id": "cube_extra_japan_korea",
-      "bank": "國泰世華",
-      "title": "全支付日韓跨境消費加碼",
       "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/cards/",
       "lifecycle": "ACTIVE_OR_UNKNOWN",
       "reviewStatus": "SOURCE_CHECKED",
@@ -14340,12 +13955,12 @@
       "bank": "遠東商銀",
       "title": "愛買刷卡最高享NT$1,000",
       "sourceUrl": "https://www.feib.com.tw/upload/creditcard/phasedshopping/index.html",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "lifecycle": "EXPIRED",
       "reviewStatus": "PENDING",
       "comparable": false,
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
+        "活動已截止"
       ]
     },
     {
@@ -21519,71 +21134,6 @@
       ]
     },
     {
-      "id": "rule_0c3933c2aadb8674dd60",
-      "bank": "星展銀行",
-      "title": "星願集刷 回饋升級 刷5筆888元享最高3%回饋",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_37adfbe4967e15542ead",
-      "bank": "星展銀行",
-      "title": "百貨週年慶享分期0%利率 滿額最高10%回饋",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_64c099ec06b10f3bab31",
-      "bank": "星展銀行",
-      "title": "聚餐用星刷！筆筆享最高12%回饋",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_df3fe7c1b16f76f2e66d",
-      "bank": "星展銀行",
-      "title": "海外餐飲刷星展 最高享10%回饋",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_d94b35ad1713df01e275",
-      "bank": "星展銀行",
-      "title": "全支付x星展信用卡 全新上線",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "回饋計算方式待確認"
-      ]
-    },
-    {
       "id": "rule_2e9f1a7cbcba990d22d2",
       "bank": "樂天信用卡",
       "title": "樂天Panda J卡專屬優惠，樂天旅遊享最高8%折扣",
@@ -21669,19 +21219,6 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_cec3e86f7d58161d18f0",
-      "bank": "王道銀行",
-      "title": "一卡通卡友限定 ! 刷卡消費限時最高享3%現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
       ]
     },
     {
@@ -22386,6 +21923,826 @@
       "bank": "遠東商銀",
       "title": "2026年刷遠東樂家+卡做公益",
       "sourceUrl": "https://www.feib.com.tw/activity?id=4766",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_bd9b1ad7b5a966f84cec",
+      "bank": "美國運通",
+      "title": "美國運通簽帳白金卡 新申辦刷卡禮(刷卡金方案)",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "固定回饋門檻或計次方式未確認"
+      ]
+    },
+    {
+      "id": "rule_35b983fe3c15c77bc6aa",
+      "bank": "美國運通",
+      "title": "美國運通簽帳白金卡 新申辦刷卡禮(會員酬賓積分方案)",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_3d268e04374bf7e75007",
+      "bank": "美國運通",
+      "title": "美國運通簽帳白金卡 白金美饌刷卡金",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "固定回饋門檻或計次方式未確認"
+      ]
+    },
+    {
+      "id": "rule_b5cb9653ec027fc95c08",
+      "bank": "美國運通",
+      "title": "美國運通長榮航空簽帳白金卡 限時新申辦首刷禮",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_6d19efd61669d7b2169c",
+      "bank": "美國運通",
+      "title": "美國運通耀金卡 新申辦刷卡禮(刷卡金方案)",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "固定回饋門檻或計次方式未確認"
+      ]
+    },
+    {
+      "id": "rule_58f4294fc7a2fd719da8",
+      "bank": "美國運通",
+      "title": "美國運通耀金卡 新申辦刷卡禮(會員酬賓積分方案)",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_279f59a99dc5582e414c",
+      "bank": "美國運通",
+      "title": "美國運通長榮航空簽帳金卡 新申辦首刷禮",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_2bcbadd26116381afd1c",
+      "bank": "王道銀行",
+      "title": "一卡通卡友限定 刷卡消費限時最高享3%現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_95db8c205635450387ab",
+      "bank": "美國運通",
+      "title": "美國運通全卡別北部專屬餐飲優惠",
+      "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/offers/fun-taiwan/dinings/northern.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_99a254f72e7d36f72f2a",
+      "bank": "星展銀行",
+      "title": "屈臣氏 天天回饋無上限",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_89e3b27196129ab76dd1",
+      "bank": "星展銀行",
+      "title": "星展饗樂生活卡 威秀影城購票最優6折起",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_e4df0e3c6b9dc6c71db9",
+      "bank": "星展銀行",
+      "title": "全聯刷星展一卡通聯名卡享回饋",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_9a462406cc577baf04a7",
+      "bank": "星展銀行",
+      "title": "週三金豬日 最高享17%回饋",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_b76fabd11a38fc5466c6",
+      "bank": "星展銀行",
+      "title": "聚餐用星刷 筆筆享最高12%回饋",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_424b778a62e6acfc8b9b",
+      "bank": "星展銀行",
+      "title": "星饗世界 海外餐飲最高享10%回饋",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_d2790cdf9d2d99df4acd",
+      "bank": "星展銀行",
+      "title": "出遊訂房就刷星展卡 最高享16%優惠",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_5ddfa086f62a2909ee1d",
+      "bank": "星展銀行",
+      "title": "Apple Pay 綁定星展卡 北捷免費搭",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_73784f2bb2f2ecfdecae",
+      "bank": "星展銀行",
+      "title": "保你星想事成 最高4%回饋",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/cards-offers/default.page",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "累積消費資格未確認"
+      ]
+    },
+    {
+      "id": "rule_818a2b1e64ef76d24a41",
+      "bank": "樂天國際商業銀行",
+      "title": "樂天好朋友推薦活動（新戶連結指定行動支付付款享500元）",
+      "sourceUrl": "https://www.rakuten-bank.com.tw/portal/campaign/mgm",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_bfc6b62ddfb196d16c3f",
+      "bank": "臺灣土地銀行",
+      "title": "轉出好運發發發行銷活動",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Bulletins/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "非保證現金回饋"
+      ]
+    },
+    {
+      "id": "rule_6a80d027d0d2934b3b53",
+      "bank": "臺灣土地銀行",
+      "title": "土銀JCB極緻卡新戶首刷滿額禮",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Bulletins/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_9e23c618361ff296f7d1",
+      "bank": "臺灣土地銀行",
+      "title": "環球購物中心刷卡滿額贈",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Bulletins/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_a3f66b3747d9caf55a68",
+      "bank": "臺灣土地銀行",
+      "title": "JC Park時尚廣場刷卡滿額贈",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Bulletins/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF",
+      "lifecycle": "UPCOMING",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "活動尚未開始"
+      ]
+    },
+    {
+      "id": "rule_28e9f7e58f01662a393c",
+      "bank": "臺灣土地銀行",
+      "title": "漢神巨蛋就愛台灣Pay 滿2000送200元漢神巨蛋商品券",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Bulletins/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_ae257f8468edd1e5af7d",
+      "bank": "臺灣土地銀行",
+      "title": "總督數位影城購票優惠",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Bulletins/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_cb91fd9564efab90d2e9",
+      "bank": "臺灣土地銀行",
+      "title": "美麗華大直影城JCB刷卡優惠",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Bulletins/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_0fc30c105e9cf0473797",
+      "bank": "臺灣土地銀行",
+      "title": "喜樂時代影城JCB刷卡優惠",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Bulletins/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_f314bca5257e434c1fcf",
+      "bank": "臺灣土地銀行",
+      "title": "轉出好運發發發行銷活動",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/5b3c9939-205c-44fe-a898-b162001ce095?code=C100",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "非保證現金回饋"
+      ]
+    },
+    {
+      "id": "rule_d87674d1d7f75bafe539",
+      "bank": "臺灣土地銀行",
+      "title": "新戶首刷滿額禮（第一重）",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/ce9aecbc-dea2-4a89-ab98-af710030e8f3?code=C100",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "UNRESOLVED_CARD_ASSOCIATION",
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_843e9968d7f49f26792e",
+      "bank": "臺灣土地銀行",
+      "title": "申請電子帳單並代繳公共事業費加碼禮（第二重）",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/ce9aecbc-dea2-4a89-ab98-af710030e8f3?code=C100",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_3d1a02e04ce66951eeb5",
+      "bank": "樂天國際商業銀行",
+      "title": "新戶專屬領NT 750 搭車金",
+      "sourceUrl": "https://www.rakuten-bank.com.tw/portal/campaign/55688",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "回饋率異常"
+      ]
+    },
+    {
+      "id": "rule_d4732c26aa6edd9a8bbb",
+      "bank": "臺灣土地銀行",
+      "title": "環球購物中心刷卡滿額贈",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/46039b69-7d82-4513-a1ed-b4ea0033db21?code=C100",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_558bafee8b98754ae419",
+      "bank": "臺灣土地銀行",
+      "title": "JC Park時尚廣場刷卡滿額贈",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/46039b69-7d82-4513-a1ed-b4ea0033db21?code=C100",
+      "lifecycle": "UPCOMING",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "活動尚未開始"
+      ]
+    },
+    {
+      "id": "rule_cf9c70e90f2f1c642ca8",
+      "bank": "臺灣土地銀行",
+      "title": "總督數位影城購票優惠",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/18f55961-22b0-4ed3-a6df-b4b3007cd9ce?code=C100",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_dcaf31cd68a0ba05e858",
+      "bank": "臺灣土地銀行",
+      "title": "美麗華大直影城購票優惠",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/18f55961-22b0-4ed3-a6df-b4b3007cd9ce?code=C100",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_4f59e3b3854ddb3f3db1",
+      "bank": "臺灣土地銀行",
+      "title": "喜樂時代影城購票優惠",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/18f55961-22b0-4ed3-a6df-b4b3007cd9ce?code=C100",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_56b49dcc15221f797d30",
+      "bank": "臺灣土地銀行",
+      "title": "親親影城購票優惠",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/18f55961-22b0-4ed3-a6df-b4b3007cd9ce?code=C100",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_5246808f612280ca479f",
+      "bank": "臺灣土地銀行",
+      "title": "美十樂連鎖藥局-台灣Pay 20%回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/89715c58-7ebf-403a-823c-b00a007276e0?code=C100",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_cc4b59625a776303a9f1",
+      "bank": "臺灣土地銀行",
+      "title": "新戶首刷滿額禮",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/3c01a21b-e857-481a-afa5-adf800984a6f?code=C100",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_d50f250975ce607a9bac",
+      "bank": "臺灣土地銀行",
+      "title": "國內一般消費不限金額1%回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/3c01a21b-e857-481a-afa5-adf800984a6f?code=C100",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_1f5132f88a74dc83ed04",
+      "bank": "臺灣土地銀行",
+      "title": "EZTABLE網站餐廳訂位滿額享10%現折",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/3c01a21b-e857-481a-afa5-adf800984a6f?code=C100",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_aba430fcef8d52594353",
+      "bank": "臺灣土地銀行",
+      "title": "享饗生活10%活動",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/3c01a21b-e857-481a-afa5-adf800984a6f?code=C100",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_d4c3d85823fb678f2ba2",
+      "bank": "臺灣土地銀行",
+      "title": "新戶首刷滿額禮",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9?code=C100",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_4582e784de1757ff951e",
+      "bank": "臺灣土地銀行",
+      "title": "國外刷卡消費回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9?code=C100",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_a714e7a6802f84ace831",
+      "bank": "臺灣土地銀行",
+      "title": "國內一般消費回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9?code=C100",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_fee27ce3acf9076106aa",
+      "bank": "臺灣土地銀行",
+      "title": "JCB極緻卡新戶首刷滿額第一重刷卡金回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/ce9aecbc-dea2-4a89-ab98-af710030e8f3",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "UNRESOLVED_CARD_ASSOCIATION",
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_3ba157a90a3a36a20b0a",
+      "bank": "臺灣土地銀行",
+      "title": "JCB極緻卡新戶申辦電子帳單並代繳公共事業費額外加碼禮券",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/ce9aecbc-dea2-4a89-ab98-af710030e8f3",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "UNRESOLVED_CARD_ASSOCIATION",
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_4ede8e03f79ea7f912cc",
+      "bank": "臺灣土地銀行",
+      "title": "現金紅利回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_29682efd9ea8601ad44e",
+      "bank": "臺灣土地銀行",
+      "title": "國外刷卡消費現金紅利回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_4fc9ca59213248aab033",
+      "bank": "臺灣土地銀行",
+      "title": "國內刷卡消費現金紅利回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_debfc7b6a03948c992eb",
+      "bank": "臺灣土地銀行",
+      "title": "國外刷卡消費現金紅利回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_5d2d663fb03515901abd",
+      "bank": "臺灣土地銀行",
+      "title": "國內刷卡消費現金紅利回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_f4669dd95eb6ffe26a1a",
+      "bank": "臺灣土地銀行",
+      "title": "國外刷卡消費現金紅利回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_9a83f6a8464acaad94d6",
+      "bank": "臺灣土地銀行",
+      "title": "國內刷卡消費現金紅利回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_00a5b17a2e277c6f90d0",
+      "bank": "臺灣土地銀行",
+      "title": "現金紅利回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_b32f0b11407ed430e183",
+      "bank": "臺灣土地銀行",
+      "title": "現金紅利回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_8a56e30fcad803b5f2c8",
+      "bank": "臺灣土地銀行",
+      "title": "現金紅利回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_f743210358b7c9cdaf4a",
+      "bank": "臺灣土地銀行",
+      "title": "現金紅利回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "固定回饋門檻或計次方式未確認"
+      ]
+    },
+    {
+      "id": "rule_275487ee57cda3e5be42",
+      "bank": "臺灣土地銀行",
+      "title": "現金紅利回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "固定回饋門檻或計次方式未確認"
+      ]
+    },
+    {
+      "id": "rule_e9149d66d47b703caaf9",
+      "bank": "臺灣土地銀行",
+      "title": "現金紅利回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "固定回饋門檻或計次方式未確認"
+      ]
+    },
+    {
+      "id": "rule_3aab37166d54cee9434a",
+      "bank": "臺灣土地銀行",
+      "title": "現金紅利回饋",
+      "sourceUrl": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1-%E5%90%84%E9%A0%85%E5%84%AA%E6%83%A0",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "固定回饋門檻或計次方式未確認"
+      ]
+    },
+    {
+      "id": "rule_55a3e34e08a31dd44ce1",
+      "bank": "臺灣土地銀行",
+      "title": "新戶首刷滿額禮第一重：一般消費累計滿3,000元送300元刷卡金",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_f1e860e09f325587f18c",
+      "bank": "臺灣土地銀行",
+      "title": "新戶首刷滿額禮第二重：申請電子帳單並代繳公共事業費加碼500元禮券",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "回饋率異常"
+      ]
+    },
+    {
+      "id": "rule_231f0ed3b80282513bb1",
+      "bank": "臺灣土地銀行",
+      "title": "國外刷卡2%回饋無上限",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_cf5ed49ec4de14ac9746",
+      "bank": "臺灣土地銀行",
+      "title": "國內刷卡一般消費最高回饋 1%",
+      "sourceUrl": "https://www.landbank.com.tw/Bulletin/Detail/1bc3bf67-9695-47e6-bd78-b133008f27e9",
       "lifecycle": "ACTIVE_OR_UNKNOWN",
       "reviewStatus": "PENDING",
       "comparable": false,
