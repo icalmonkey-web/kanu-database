@@ -5709,7 +5709,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_travel.html": {
-    "checkedAt": "2026-10-20T12:58:38.709106+00:00",
+    "checkedAt": "2026-10-28T23:03:30.122348+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -5802,10 +5802,6 @@
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_koreastore.png",
         "éåæå®ååº"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_oliveyoungglobal.png",
-        "OLIVE YOUNG Global"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_kkday.png",
@@ -6142,12 +6138,28 @@
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/fashion_lightbox_slidercard_shopback_m2.png",
         "SHOPBACKåºå®¶ï¼M2ç¾åº¦"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/life_lightbox_slidercard_shopback_trplus.png",
+        "SHOPBACKåºå®¶ï¼ç¹åå±ç·ä¸è³¼ç©"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/life_lightbox_slidercard_shopback_funaicare.png",
+        "SHOPBACKåºå®¶ï¼è¹äºçé«"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/life_lightbox_slidercard_shopback_waysim.png",
+        "SHOPBACKåºå®¶ï¼Waysim å¨è¨"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/shopback/life_lightbox_slidercard_shopback_farfetch.png",
+        "SHOPBACKåºå®¶ï¼Farfetch"
       ]
     ],
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/store.html": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-28T23:03:30.122348+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -6159,6 +6171,86 @@
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_kv_image_linefriends-xs.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_leftCenter-lg.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_rightCenter-lg.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_leftBottom_xs.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_rightBottom_xs.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_leftCenter-lg.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_rightCenter-lg.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_leftBottom_xs.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_rightBottom_xs.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_leftCenter-lg.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_rightCenter-lg.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_leftBottom_xs.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_rightBottom_xs.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_leftCenter-lg.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_rightCenter-lg.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_leftBottom_xs.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_rightBottom_xs.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_leftCenter-lg.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_rightCenter-lg.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_leftBottom_xs.png",
+        "è£é£¾å"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/store/store_inventory_obj_rightBottom_xs.png",
         "è£é£¾å"
       ],
       [
@@ -6201,7 +6293,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html": {
-    "checkedAt": "2026-10-21T22:20:10.155900+00:00",
+    "checkedAt": "2026-10-28T23:03:30.122348+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -11713,7 +11805,7 @@
     "error": "HTTPError"
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share.html": {
-    "checkedAt": "2026-10-21T22:20:10.155900+00:00",
+    "checkedAt": "2026-10-28T23:03:30.122348+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -11735,7 +11827,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share-article-01.html": {
-    "checkedAt": "2026-10-21T22:20:10.155900+00:00",
+    "checkedAt": "2026-10-28T23:03:30.122348+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
