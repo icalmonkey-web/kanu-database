@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "description": "台灣信用卡發卡機構主清單。enabled 僅代表已設定可執行入口，不代表涵蓋率驗證通過。",
-  "lastUpdatedAt": "2026-10-28T23:03:28.378786Z",
+  "lastUpdatedAt": "2026-10-29T22:57:37.933440Z",
   "issuers": [
     {
       "name": "永豐銀行",
@@ -49,12 +49,12 @@
         "playwright"
       ],
       "eventLinkPattern": "/personal/event/",
-      "lastSuccessfulScanAt": "2026-10-28T22:31:24.527815Z",
+      "lastSuccessfulScanAt": "2026-10-29T22:44:49.749465Z",
       "discoveredCardCount": 7,
       "discoveredOfferCount": 67,
       "unvisitedPageCount": 0,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-28T22:31:24.527815Z",
+      "lastScanAt": "2026-10-29T22:44:49.749465Z",
       "lastScanStatus": "completed"
     },
     {
@@ -82,7 +82,7 @@
       "eventLinkPattern": "/personal/credit-card/(discount|tools)/",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 79,
-      "discoveredOfferCount": 232,
+      "discoveredOfferCount": 237,
       "unvisitedPageCount": 146,
       "failedPageCount": 1,
       "lastScanAt": "2026-10-28T22:59:48.352655Z",
@@ -112,7 +112,7 @@
       "discoveredOfferCount": 83,
       "unvisitedPageCount": 77,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-28T22:31:37.469123Z",
+      "lastScanAt": "2026-10-29T22:52:33.706648Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -171,7 +171,7 @@
       "discoveredOfferCount": 88,
       "unvisitedPageCount": 75,
       "failedPageCount": 27,
-      "lastScanAt": "2026-10-28T22:39:16.058264Z",
+      "lastScanAt": "2026-10-29T22:45:26.618067Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -199,7 +199,7 @@
       "discoveredOfferCount": 79,
       "unvisitedPageCount": 224,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-28T22:49:31.206878Z",
+      "lastScanAt": "2026-10-29T22:44:48.179309Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -692,10 +692,10 @@
       "coverageNote": "僅收錄具實質消費回饋的簽帳金融卡",
       "lastSuccessfulScanAt": "2026-09-25T03:52:33.701377Z",
       "discoveredCardCount": 40,
-      "discoveredOfferCount": 80,
-      "unvisitedPageCount": 167,
+      "discoveredOfferCount": 79,
+      "unvisitedPageCount": 166,
       "failedPageCount": 0,
-      "lastScanAt": "2026-10-28T22:57:23.917164Z",
+      "lastScanAt": "2026-10-29T22:57:36.883716Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -729,7 +729,7 @@
       "coverageNote": "將將卡等具消費回饋的簽帳金融卡",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 8,
-      "discoveredOfferCount": 32,
+      "discoveredOfferCount": 29,
       "unvisitedPageCount": 336,
       "failedPageCount": 1,
       "lastScanAt": "2026-10-28T23:00:29.476095Z",
@@ -765,8 +765,8 @@
       "discoveredCardCount": 4,
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
-      "failedPageCount": 2,
-      "lastScanAt": "2026-10-28T22:59:44.040420Z",
+      "failedPageCount": 1,
+      "lastScanAt": "2026-10-29T22:44:56.053086Z",
       "lastScanStatus": "needs_review"
     },
     {

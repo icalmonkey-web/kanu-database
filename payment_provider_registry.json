@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2026-10-28T23:03:28.386335Z",
+  "lastUpdatedAt": "2026-10-29T22:57:37.935835Z",
   "providers": [
     {
       "name": "LINE Pay",
@@ -24,7 +24,7 @@
       "lastSuccessfulScanAt": "2026-10-28T23:00:43.400813Z",
       "lastScanAt": "2026-10-28T23:00:43.400813Z",
       "lastScanStatus": "completed",
-      "discoveredOfferCount": 23,
+      "discoveredOfferCount": 16,
       "unvisitedPageCount": 0,
       "failedPageCount": 0
     },
@@ -51,7 +51,7 @@
       "lastSuccessfulScanAt": "",
       "lastScanAt": "2026-10-28T22:59:49.234124Z",
       "lastScanStatus": "needs_review",
-      "discoveredOfferCount": 9,
+      "discoveredOfferCount": 6,
       "unvisitedPageCount": 0,
       "failedPageCount": 1
     },
@@ -79,7 +79,7 @@
       "lastSuccessfulScanAt": "",
       "lastScanAt": "2026-10-28T23:03:27.155223Z",
       "lastScanStatus": "needs_review",
-      "discoveredOfferCount": 76,
+      "discoveredOfferCount": 72,
       "unvisitedPageCount": 69,
       "failedPageCount": 1
     },
@@ -160,12 +160,12 @@
         "pdf"
       ],
       "eventLinkPattern": "(info|event|campaign|activity|UploadFolder|優惠|活動)",
-      "lastSuccessfulScanAt": "2026-10-26T23:00:00.585394Z",
-      "lastScanAt": "2026-10-28T23:00:50.450519Z",
-      "lastScanStatus": "needs_review",
+      "lastSuccessfulScanAt": "2026-10-29T22:54:28.449503Z",
+      "lastScanAt": "2026-10-29T22:54:28.449503Z",
+      "lastScanStatus": "completed",
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
-      "failedPageCount": 3
+      "failedPageCount": 0
     }
   ]
 }

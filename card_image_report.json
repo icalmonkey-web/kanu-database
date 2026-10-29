@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T23:03:32.667780+00:00",
+  "generatedAt": "2026-10-29T22:57:41.346412+00:00",
   "added": [],
   "withImage": 315,
   "missing": [
@@ -2696,6 +2696,24 @@
     },
     {
       "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share-article-01.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_food.html",
       "cached": true,
       "error": ""
@@ -2721,6 +2739,18 @@
     {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_fashion.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_travel.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/store.html",
       "cached": true,
       "error": ""
     },
@@ -2824,36 +2854,6 @@
       "bank": "臺灣土地銀行",
       "url": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1",
       "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "中國信託",
-      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html",
-      "candidates": 6,
-      "error": ""
-    },
-    {
-      "bank": "中國信託",
-      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share.html",
-      "candidates": 4,
-      "error": ""
-    },
-    {
-      "bank": "中國信託",
-      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share-article-01.html",
-      "candidates": 4,
-      "error": ""
-    },
-    {
-      "bank": "中國信託",
-      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_travel.html",
-      "candidates": 111,
-      "error": ""
-    },
-    {
-      "bank": "中國信託",
-      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/store.html",
-      "candidates": 32,
       "error": ""
     }
   ]

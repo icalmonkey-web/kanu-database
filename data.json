@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.28-v230327-ubear-review-trusted-core-20261003",
+  "version": "2026.10.29-v225736-ubear-review-trusted-core-20261003",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -27627,6 +27627,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -69031,6 +69032,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-30T13:29:25.273568Z",
@@ -73838,6 +73840,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-10-19T17:50:42.069259Z",
@@ -77091,6 +77094,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-30T13:26:34.308769Z",
@@ -78441,70 +78445,6 @@
         "爭議款"
       ],
       "fetchedAt": "2026-10-19T17:50:08.477370Z",
-      "bank": "樂天信用卡"
-    },
-    {
-      "id": "rule_c603dee188f6f099d5a3",
-      "cardId": "card_樂天信用卡_420",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "樂天桃猿世界卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "樂天桃猿世界卡獨家寵粉「女孩見面會」",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "REG_PROMOTION",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "一般消費, 海外消費, 國內消費",
-      "intentTags": [
-        "一般消費",
-        "海外消費",
-        "國內消費"
-      ],
-      "intentEvidence": "本活動所稱之一般消費不限國內或海外交易",
-      "baseRate": 0,
-      "promoRate": 0,
-      "rewardType": "draw",
-      "rewardAmount": 1,
-      "rewardUnit": "chance",
-      "capAmount": 100,
-      "capPeriod": "CAMPAIGN",
-      "capScope": "PROMO",
-      "roundingMode": "",
-      "spendBasis": "CUMULATIVE",
-      "minimumSpend": 10000,
-      "eligibilityRequirements": [
-        "刷樂天桃猿世界卡",
-        "累積一般消費達NT10,000元且完成入帳",
-        "成功活動登錄"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [],
-      "needReg": true,
-      "regDeadline": "2026-09-28",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "2026-08-01",
-      "validUntil": "2026-09-28",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2426&l-id=corp_pc_top_cpn2426",
-      "registrationUrl": "",
-      "registrationMethods": [
-        {
-          "type": "WEB",
-          "label": "網頁登錄",
-          "url": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2426&l-id=corp_pc_top_cpn2426",
-          "activityName": "樂天桃猿世界卡獨家寵粉「女孩見面會」"
-        }
-      ],
-      "quotaInfo": "每場參與人數上限100人，若符合資格者超過上限將以登錄順序認定",
-      "excludedKeywords": [
-        "樂天桃猿卡【排除回饋項目】"
-      ],
-      "fetchedAt": "2026-10-20T12:35:41.825803Z",
       "bank": "樂天信用卡"
     },
     {
@@ -129606,164 +129546,6 @@
       }
     },
     {
-      "id": "rule_26130f0b90b4ce798b30",
-      "cardId": "",
-      "offerDomain": "PAYMENT",
-      "paymentProvider": "icash Pay",
-      "fundingMethods": [
-        "icash Pay"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "icash Pay APP 週週抽 999 點",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "全通路, 抽獎, APP消費",
-      "intentTags": [
-        "行動支付",
-        "抽獎"
-      ],
-      "intentEvidence": "icash Pay APP 完成任一筆不限金額消費，即可參與「週週抽 999 點」抽獎",
-      "baseRate": 0,
-      "promoRate": 0,
-      "rewardType": "draw",
-      "rewardAmount": 999,
-      "rewardUnit": "chance",
-      "capAmount": null,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "icash Pay APP 完成任一筆不限金額消費"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [
-        "完成任一筆不限金額消費"
-      ],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "2026-09-28",
-      "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "每戶每週可享乙次抽獎機會",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T21:05:55.814447Z",
-      "bank": "icash Pay",
-      "validationIssues": [],
-      "_reviewTermsBaseline": {
-        "cardId": "",
-        "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
-        "title": "icash Pay APP 週週抽 999 點",
-        "baseRate": 0,
-        "promoRate": 0,
-        "rewardType": "draw",
-        "rewardUnit": "chance",
-        "rewardAmount": 999,
-        "capAmount": null,
-        "capScope": null,
-        "capPeriod": "",
-        "minimumSpend": 0,
-        "spendBasis": null,
-        "roundingMode": null,
-        "validFrom": null,
-        "validUntil": "2026-09-28",
-        "needReg": false,
-        "regDeadline": "",
-        "registrationStart": null,
-        "registrationEnd": null,
-        "registrationCycle": null,
-        "registrationMethods": [],
-        "eligibilityRequirements": [
-          "icash Pay APP 完成任一筆不限金額消費"
-        ],
-        "rewardCalculationMode": "FLAT",
-        "rewardTiers": [],
-        "selectionMode": "",
-        "benefitPlan": "",
-        "matchedMerchants": [],
-        "excludedKeywords": [],
-        "quotaInfo": "每戶每週可享乙次抽獎機會",
-        "pointValueTwd": null,
-        "associationStatus": null,
-        "category": null,
-        "scope": "ALL",
-        "searchKeywords": "全通路, 抽獎, APP消費",
-        "intentTags": [
-          "行動支付",
-          "抽獎"
-        ],
-        "intentEvidence": "icash Pay APP 完成任一筆不限金額消費，即可參與「週週抽 999 點」抽獎",
-        "offerDomain": "PAYMENT",
-        "fundingMethods": [
-          "icash Pay"
-        ],
-        "bank": "icash Pay"
-      },
-      "accuracyReview": {
-        "status": "SOURCE_CHECKED",
-        "checkedAt": "2026-10-19T17:10:56.583Z",
-        "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
-        "fields": [
-          "baseRate",
-          "promoRate",
-          "capAmount"
-        ],
-        "termsSnapshot": {
-          "cardId": "",
-          "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
-          "title": "icash Pay APP 週週抽 999 點",
-          "baseRate": 0,
-          "promoRate": 0,
-          "rewardType": "draw",
-          "rewardUnit": "chance",
-          "rewardAmount": 999,
-          "capAmount": null,
-          "capScope": null,
-          "capPeriod": "",
-          "minimumSpend": 0,
-          "spendBasis": null,
-          "roundingMode": null,
-          "validFrom": null,
-          "validUntil": "2026-09-28",
-          "needReg": false,
-          "regDeadline": "",
-          "registrationStart": null,
-          "registrationEnd": null,
-          "registrationCycle": null,
-          "registrationMethods": [],
-          "eligibilityRequirements": [
-            "icash Pay APP 完成任一筆不限金額消費"
-          ],
-          "rewardCalculationMode": "FLAT",
-          "rewardTiers": [],
-          "selectionMode": "",
-          "benefitPlan": "",
-          "matchedMerchants": [],
-          "excludedKeywords": [],
-          "quotaInfo": "每戶每週可享乙次抽獎機會",
-          "pointValueTwd": null,
-          "associationStatus": null,
-          "category": null,
-          "scope": "ALL",
-          "searchKeywords": "全通路, 抽獎, APP消費",
-          "intentTags": [
-            "行動支付",
-            "抽獎"
-          ],
-          "intentEvidence": "icash Pay APP 完成任一筆不限金額消費，即可參與「週週抽 999 點」抽獎",
-          "offerDomain": "PAYMENT",
-          "fundingMethods": [
-            "icash Pay"
-          ],
-          "bank": "icash Pay"
-        },
-        "issues": []
-      }
-    },
-    {
       "id": "rule_a2bb7dad1cc99dd147ba",
       "cardId": "",
       "offerDomain": "PAYMENT",
@@ -135202,242 +134984,6 @@
       }
     },
     {
-      "id": "rule_0bf54cb63efe180798ae",
-      "cardId": "",
-      "offerDomain": "PAYMENT",
-      "paymentProvider": "icash Pay",
-      "fundingMethods": [
-        "icash Pay APP 支付",
-        "連結指定銀行帳戶"
-      ],
-      "stackingStatus": "NOT_STACKABLE",
-      "title": "遊食購嗶出好運消費月 icash Pay APP支付週週抽999點",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "icash Pay, 行動支付, 國內消費",
-      "intentTags": [
-        "行動支付"
-      ],
-      "intentEvidence": "活動期間使用 icash Pay APP 完成任一筆不限金額之國內消費",
-      "baseRate": 0,
-      "promoRate": 0,
-      "rewardType": "draw",
-      "rewardAmount": 999,
-      "rewardUnit": "chance",
-      "capAmount": null,
-      "capPeriod": "CAMPAIGN",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "icash Pay APP 用戶",
-        "完成註冊及連結指定銀行帳戶流程",
-        "具備 uniopen 會員資格"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "週週抽999點",
-          "totalRate": 0,
-          "baseRate": 0,
-          "promoRate": 0,
-          "isDefault": true,
-          "requirements": [
-            "使用 icash Pay APP 完成任一筆不限金額之國內消費"
-          ],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [
-        "使用 icash Pay APP 完成任一筆不限金額之國內消費"
-      ],
-      "needReg": false,
-      "regDeadline": "",
-      "validUntil": "2026-09-28",
-      "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2478",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "每位符合活動資格之 icash Pay 用戶每週可享乙次抽獎機會，每週抽出 175 名，活動四週共計抽出 700 名",
-      "excludedKeywords": [
-        "自動加值",
-        "現金加值",
-        "代收代售項目",
-        "儲值類交易",
-        "自助加油",
-        "菸類商品",
-        "繳稅",
-        "繳費",
-        "海外消費",
-        "OPENPOINT 點數折抵金額"
-      ],
-      "fetchedAt": "2026-09-26T21:16:21.303320Z",
-      "bank": "icash Pay",
-      "validationIssues": [],
-      "_reviewTermsBaseline": {
-        "cardId": "",
-        "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2478",
-        "title": "遊食購嗶出好運消費月 icash Pay APP支付週週抽999點",
-        "baseRate": 0,
-        "promoRate": 0,
-        "rewardType": "draw",
-        "rewardUnit": "chance",
-        "rewardAmount": 999,
-        "capAmount": null,
-        "capScope": null,
-        "capPeriod": "CAMPAIGN",
-        "minimumSpend": 0,
-        "spendBasis": null,
-        "roundingMode": null,
-        "validFrom": null,
-        "validUntil": "2026-09-28",
-        "needReg": false,
-        "regDeadline": "",
-        "registrationStart": null,
-        "registrationEnd": null,
-        "registrationCycle": null,
-        "registrationMethods": [],
-        "eligibilityRequirements": [
-          "icash Pay APP 用戶",
-          "完成註冊及連結指定銀行帳戶流程",
-          "具備 uniopen 會員資格"
-        ],
-        "rewardCalculationMode": "FLAT",
-        "rewardTiers": [
-          {
-            "name": "週週抽999點",
-            "totalRate": 0,
-            "baseRate": 0,
-            "promoRate": 0,
-            "isDefault": true,
-            "requirements": [
-              "使用 icash Pay APP 完成任一筆不限金額之國內消費"
-            ],
-            "capAmount": null,
-            "capPeriod": ""
-          }
-        ],
-        "selectionMode": "",
-        "benefitPlan": "",
-        "matchedMerchants": [],
-        "excludedKeywords": [
-          "自動加值",
-          "現金加值",
-          "代收代售項目",
-          "儲值類交易",
-          "自助加油",
-          "菸類商品",
-          "繳稅",
-          "繳費",
-          "海外消費",
-          "OPENPOINT 點數折抵金額"
-        ],
-        "quotaInfo": "每位符合活動資格之 icash Pay 用戶每週可享乙次抽獎機會，每週抽出 175 名，活動四週共計抽出 700 名",
-        "pointValueTwd": null,
-        "associationStatus": null,
-        "category": null,
-        "scope": "ALL",
-        "searchKeywords": "icash Pay, 行動支付, 國內消費",
-        "intentTags": [
-          "行動支付"
-        ],
-        "intentEvidence": "活動期間使用 icash Pay APP 完成任一筆不限金額之國內消費",
-        "offerDomain": "PAYMENT",
-        "fundingMethods": [
-          "icash Pay APP 支付",
-          "連結指定銀行帳戶"
-        ],
-        "bank": "icash Pay"
-      },
-      "accuracyReview": {
-        "status": "SOURCE_CHECKED",
-        "checkedAt": "2026-10-19T17:10:56.584Z",
-        "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2478",
-        "fields": [
-          "baseRate",
-          "promoRate",
-          "capAmount"
-        ],
-        "termsSnapshot": {
-          "cardId": "",
-          "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2478",
-          "title": "遊食購嗶出好運消費月 icash Pay APP支付週週抽999點",
-          "baseRate": 0,
-          "promoRate": 0,
-          "rewardType": "draw",
-          "rewardUnit": "chance",
-          "rewardAmount": 999,
-          "capAmount": null,
-          "capScope": null,
-          "capPeriod": "CAMPAIGN",
-          "minimumSpend": 0,
-          "spendBasis": null,
-          "roundingMode": null,
-          "validFrom": null,
-          "validUntil": "2026-09-28",
-          "needReg": false,
-          "regDeadline": "",
-          "registrationStart": null,
-          "registrationEnd": null,
-          "registrationCycle": null,
-          "registrationMethods": [],
-          "eligibilityRequirements": [
-            "icash Pay APP 用戶",
-            "完成註冊及連結指定銀行帳戶流程",
-            "具備 uniopen 會員資格"
-          ],
-          "rewardCalculationMode": "FLAT",
-          "rewardTiers": [
-            {
-              "name": "週週抽999點",
-              "totalRate": 0,
-              "baseRate": 0,
-              "promoRate": 0,
-              "isDefault": true,
-              "requirements": [
-                "使用 icash Pay APP 完成任一筆不限金額之國內消費"
-              ],
-              "capAmount": null,
-              "capPeriod": ""
-            }
-          ],
-          "selectionMode": "",
-          "benefitPlan": "",
-          "matchedMerchants": [],
-          "excludedKeywords": [
-            "自動加值",
-            "現金加值",
-            "代收代售項目",
-            "儲值類交易",
-            "自助加油",
-            "菸類商品",
-            "繳稅",
-            "繳費",
-            "海外消費",
-            "OPENPOINT 點數折抵金額"
-          ],
-          "quotaInfo": "每位符合活動資格之 icash Pay 用戶每週可享乙次抽獎機會，每週抽出 175 名，活動四週共計抽出 700 名",
-          "pointValueTwd": null,
-          "associationStatus": null,
-          "category": null,
-          "scope": "ALL",
-          "searchKeywords": "icash Pay, 行動支付, 國內消費",
-          "intentTags": [
-            "行動支付"
-          ],
-          "intentEvidence": "活動期間使用 icash Pay APP 完成任一筆不限金額之國內消費",
-          "offerDomain": "PAYMENT",
-          "fundingMethods": [
-            "icash Pay APP 支付",
-            "連結指定銀行帳戶"
-          ],
-          "bank": "icash Pay"
-        },
-        "issues": []
-      }
-    },
-    {
       "id": "rule_c1ed8e05e4abb6b03bdf",
       "cardId": "",
       "offerDomain": "PAYMENT",
@@ -137263,675 +136809,6 @@
             "華南銀行全信用卡",
             "滙豐銀行全信用卡",
             "玉山銀行全信用卡"
-          ],
-          "bank": "icash Pay"
-        },
-        "issues": []
-      }
-    },
-    {
-      "id": "rule_10f1a5b794d374036e1d",
-      "cardId": "",
-      "offerDomain": "PAYMENT",
-      "paymentProvider": "icash Pay",
-      "fundingMethods": [
-        "icash Pay帳戶/存款帳戶/指定銀行帳戶"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "icash Pay博客來購物最好Pay 單筆滿額贈",
-      "benefitPlan": "",
-      "selectionMode": "STACKABLE",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "博客來"
-      ],
-      "searchKeywords": "博客來, 博客來線上購物, 博客來APP, 網購, 電商, icashPay",
-      "intentTags": [
-        "網購",
-        "行動支付"
-      ],
-      "intentEvidence": "於博客來以icash Pay支付單筆消費滿NT2,500元",
-      "baseRate": 0,
-      "promoRate": 100,
-      "rewardType": "points",
-      "rewardAmount": 100,
-      "rewardUnit": "points",
-      "capAmount": 300,
-      "capPeriod": "CAMPAIGN",
-      "minimumSpend": 2500,
-      "eligibilityRequirements": [
-        "不限新舊戶",
-        "於博客來以icash Pay支付"
-      ],
-      "rewardCalculationMode": "TIERED",
-      "rewardTiers": [
-        {
-          "name": "單筆滿2500元",
-          "totalRate": 0,
-          "baseRate": 0,
-          "promoRate": 0,
-          "isDefault": true,
-          "requirements": [
-            "單筆消費滿NT2,500元"
-          ],
-          "capAmount": 300,
-          "capPeriod": "CAMPAIGN"
-        },
-        {
-          "name": "單筆滿5000元",
-          "totalRate": 0,
-          "baseRate": 0,
-          "promoRate": 0,
-          "isDefault": false,
-          "requirements": [
-            "單筆消費滿NT5,000元"
-          ],
-          "capAmount": 300,
-          "capPeriod": "CAMPAIGN"
-        }
-      ],
-      "maxRateRequires": [
-        "單筆消費滿NT2,500元以上，可累贈，上限300點"
-      ],
-      "needReg": false,
-      "regDeadline": "2026/9/27-9/28",
-      "validUntil": "2026-09-28",
-      "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2531",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "單筆消費滿NT2,500元享100點，可累贈，每戶活動期間回饋上限300點。活動期間總回饋上限10萬點。",
-      "excludedKeywords": [
-        "OPENPOINT點數折抵金額"
-      ],
-      "fetchedAt": "2026-09-26T21:18:49.681661Z",
-      "bank": "icash Pay",
-      "validationIssues": [],
-      "_reviewTermsBaseline": {
-        "cardId": "",
-        "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2531",
-        "title": "icash Pay博客來購物最好Pay 單筆滿額贈",
-        "baseRate": 0,
-        "promoRate": 100,
-        "rewardType": "points",
-        "rewardUnit": "points",
-        "rewardAmount": 100,
-        "capAmount": 300,
-        "capScope": null,
-        "capPeriod": "CAMPAIGN",
-        "minimumSpend": 2500,
-        "spendBasis": null,
-        "roundingMode": null,
-        "validFrom": null,
-        "validUntil": "2026-09-28",
-        "needReg": false,
-        "regDeadline": "2026/9/27-9/28",
-        "registrationStart": null,
-        "registrationEnd": null,
-        "registrationCycle": null,
-        "registrationMethods": [],
-        "eligibilityRequirements": [
-          "不限新舊戶",
-          "於博客來以icash Pay支付"
-        ],
-        "rewardCalculationMode": "TIERED",
-        "rewardTiers": [
-          {
-            "name": "單筆滿2500元",
-            "totalRate": 0,
-            "baseRate": 0,
-            "promoRate": 0,
-            "isDefault": true,
-            "requirements": [
-              "單筆消費滿NT2,500元"
-            ],
-            "capAmount": 300,
-            "capPeriod": "CAMPAIGN"
-          },
-          {
-            "name": "單筆滿5000元",
-            "totalRate": 0,
-            "baseRate": 0,
-            "promoRate": 0,
-            "isDefault": false,
-            "requirements": [
-              "單筆消費滿NT5,000元"
-            ],
-            "capAmount": 300,
-            "capPeriod": "CAMPAIGN"
-          }
-        ],
-        "selectionMode": "STACKABLE",
-        "benefitPlan": "",
-        "matchedMerchants": [
-          "博客來"
-        ],
-        "excludedKeywords": [
-          "OPENPOINT點數折抵金額"
-        ],
-        "quotaInfo": "單筆消費滿NT2,500元享100點，可累贈，每戶活動期間回饋上限300點。活動期間總回饋上限10萬點。",
-        "pointValueTwd": null,
-        "associationStatus": null,
-        "category": null,
-        "scope": "SPECIFIC",
-        "searchKeywords": "博客來, 博客來線上購物, 博客來APP, 網購, 電商, icashPay",
-        "intentTags": [
-          "網購",
-          "行動支付"
-        ],
-        "intentEvidence": "於博客來以icash Pay支付單筆消費滿NT2,500元",
-        "offerDomain": "PAYMENT",
-        "fundingMethods": [
-          "icash Pay帳戶/存款帳戶/指定銀行帳戶"
-        ],
-        "bank": "icash Pay"
-      },
-      "accuracyReview": {
-        "status": "SOURCE_CHECKED",
-        "checkedAt": "2026-10-19T17:10:56.585Z",
-        "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2531",
-        "fields": [
-          "baseRate",
-          "promoRate",
-          "capAmount"
-        ],
-        "termsSnapshot": {
-          "cardId": "",
-          "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2531",
-          "title": "icash Pay博客來購物最好Pay 單筆滿額贈",
-          "baseRate": 0,
-          "promoRate": 100,
-          "rewardType": "points",
-          "rewardUnit": "points",
-          "rewardAmount": 100,
-          "capAmount": 300,
-          "capScope": null,
-          "capPeriod": "CAMPAIGN",
-          "minimumSpend": 2500,
-          "spendBasis": null,
-          "roundingMode": null,
-          "validFrom": null,
-          "validUntil": "2026-09-28",
-          "needReg": false,
-          "regDeadline": "2026/9/27-9/28",
-          "registrationStart": null,
-          "registrationEnd": null,
-          "registrationCycle": null,
-          "registrationMethods": [],
-          "eligibilityRequirements": [
-            "不限新舊戶",
-            "於博客來以icash Pay支付"
-          ],
-          "rewardCalculationMode": "TIERED",
-          "rewardTiers": [
-            {
-              "name": "單筆滿2500元",
-              "totalRate": 0,
-              "baseRate": 0,
-              "promoRate": 0,
-              "isDefault": true,
-              "requirements": [
-                "單筆消費滿NT2,500元"
-              ],
-              "capAmount": 300,
-              "capPeriod": "CAMPAIGN"
-            },
-            {
-              "name": "單筆滿5000元",
-              "totalRate": 0,
-              "baseRate": 0,
-              "promoRate": 0,
-              "isDefault": false,
-              "requirements": [
-                "單筆消費滿NT5,000元"
-              ],
-              "capAmount": 300,
-              "capPeriod": "CAMPAIGN"
-            }
-          ],
-          "selectionMode": "STACKABLE",
-          "benefitPlan": "",
-          "matchedMerchants": [
-            "博客來"
-          ],
-          "excludedKeywords": [
-            "OPENPOINT點數折抵金額"
-          ],
-          "quotaInfo": "單筆消費滿NT2,500元享100點，可累贈，每戶活動期間回饋上限300點。活動期間總回饋上限10萬點。",
-          "pointValueTwd": null,
-          "associationStatus": null,
-          "category": null,
-          "scope": "SPECIFIC",
-          "searchKeywords": "博客來, 博客來線上購物, 博客來APP, 網購, 電商, icashPay",
-          "intentTags": [
-            "網購",
-            "行動支付"
-          ],
-          "intentEvidence": "於博客來以icash Pay支付單筆消費滿NT2,500元",
-          "offerDomain": "PAYMENT",
-          "fundingMethods": [
-            "icash Pay帳戶/存款帳戶/指定銀行帳戶"
-          ],
-          "bank": "icash Pay"
-        },
-        "issues": []
-      }
-    },
-    {
-      "id": "rule_8c72603b75ae177ffba1",
-      "cardId": "",
-      "offerDomain": "PAYMENT",
-      "paymentProvider": "icash Pay",
-      "fundingMethods": [
-        "uniopen聯名卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "icash Pay綁定uniopen聯名卡再加碼",
-      "benefitPlan": "",
-      "selectionMode": "STACKABLE",
-      "activityType": "EXTRA_BOOST",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "博客來"
-      ],
-      "searchKeywords": "博客來, uniopen聯名卡, 網購, 電商, icashPay",
-      "intentTags": [
-        "網購",
-        "行動支付"
-      ],
-      "intentEvidence": "於博客來以icash Pay綁定uniopen聯名卡支付單筆消費",
-      "baseRate": 0,
-      "promoRate": 100,
-      "rewardType": "points",
-      "rewardAmount": 100,
-      "rewardUnit": "points",
-      "capAmount": 300,
-      "capPeriod": "CAMPAIGN",
-      "minimumSpend": 2500,
-      "eligibilityRequirements": [
-        "綁定uniopen聯名卡",
-        "於博客來消費"
-      ],
-      "rewardCalculationMode": "TIERED",
-      "rewardTiers": [
-        {
-          "name": "單筆滿2500元加碼",
-          "totalRate": 0,
-          "baseRate": 0,
-          "promoRate": 0,
-          "isDefault": true,
-          "requirements": [
-            "綁定uniopen聯名卡單筆滿NT2,500元"
-          ],
-          "capAmount": 300,
-          "capPeriod": "CAMPAIGN"
-        }
-      ],
-      "maxRateRequires": [
-        "綁定uniopen聯名卡單筆滿NT2,500元，可累贈，上限300點"
-      ],
-      "needReg": false,
-      "regDeadline": "2026/9/27-9/28",
-      "validUntil": "2026-09-28",
-      "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2531",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "單筆消費滿NT2,500元享100點，可累贈，每戶活動期間回饋上限300點。活動期間總回饋上限30萬點。",
-      "excludedKeywords": [
-        "OPENPOINT點數折抵金額"
-      ],
-      "fetchedAt": "2026-09-26T21:18:49.681728Z",
-      "bank": "icash Pay",
-      "validationIssues": [],
-      "_reviewTermsBaseline": {
-        "cardId": "",
-        "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2531",
-        "title": "icash Pay綁定uniopen聯名卡再加碼",
-        "baseRate": 0,
-        "promoRate": 100,
-        "rewardType": "points",
-        "rewardUnit": "points",
-        "rewardAmount": 100,
-        "capAmount": 300,
-        "capScope": null,
-        "capPeriod": "CAMPAIGN",
-        "minimumSpend": 2500,
-        "spendBasis": null,
-        "roundingMode": null,
-        "validFrom": null,
-        "validUntil": "2026-09-28",
-        "needReg": false,
-        "regDeadline": "2026/9/27-9/28",
-        "registrationStart": null,
-        "registrationEnd": null,
-        "registrationCycle": null,
-        "registrationMethods": [],
-        "eligibilityRequirements": [
-          "綁定uniopen聯名卡",
-          "於博客來消費"
-        ],
-        "rewardCalculationMode": "TIERED",
-        "rewardTiers": [
-          {
-            "name": "單筆滿2500元加碼",
-            "totalRate": 0,
-            "baseRate": 0,
-            "promoRate": 0,
-            "isDefault": true,
-            "requirements": [
-              "綁定uniopen聯名卡單筆滿NT2,500元"
-            ],
-            "capAmount": 300,
-            "capPeriod": "CAMPAIGN"
-          }
-        ],
-        "selectionMode": "STACKABLE",
-        "benefitPlan": "",
-        "matchedMerchants": [
-          "博客來"
-        ],
-        "excludedKeywords": [
-          "OPENPOINT點數折抵金額"
-        ],
-        "quotaInfo": "單筆消費滿NT2,500元享100點，可累贈，每戶活動期間回饋上限300點。活動期間總回饋上限30萬點。",
-        "pointValueTwd": null,
-        "associationStatus": null,
-        "category": null,
-        "scope": "SPECIFIC",
-        "searchKeywords": "博客來, uniopen聯名卡, 網購, 電商, icashPay",
-        "intentTags": [
-          "網購",
-          "行動支付"
-        ],
-        "intentEvidence": "於博客來以icash Pay綁定uniopen聯名卡支付單筆消費",
-        "offerDomain": "PAYMENT",
-        "fundingMethods": [
-          "uniopen聯名卡"
-        ],
-        "bank": "icash Pay"
-      },
-      "accuracyReview": {
-        "status": "SOURCE_CHECKED",
-        "checkedAt": "2026-10-19T17:10:56.585Z",
-        "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2531",
-        "fields": [
-          "baseRate",
-          "promoRate",
-          "capAmount"
-        ],
-        "termsSnapshot": {
-          "cardId": "",
-          "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2531",
-          "title": "icash Pay綁定uniopen聯名卡再加碼",
-          "baseRate": 0,
-          "promoRate": 100,
-          "rewardType": "points",
-          "rewardUnit": "points",
-          "rewardAmount": 100,
-          "capAmount": 300,
-          "capScope": null,
-          "capPeriod": "CAMPAIGN",
-          "minimumSpend": 2500,
-          "spendBasis": null,
-          "roundingMode": null,
-          "validFrom": null,
-          "validUntil": "2026-09-28",
-          "needReg": false,
-          "regDeadline": "2026/9/27-9/28",
-          "registrationStart": null,
-          "registrationEnd": null,
-          "registrationCycle": null,
-          "registrationMethods": [],
-          "eligibilityRequirements": [
-            "綁定uniopen聯名卡",
-            "於博客來消費"
-          ],
-          "rewardCalculationMode": "TIERED",
-          "rewardTiers": [
-            {
-              "name": "單筆滿2500元加碼",
-              "totalRate": 0,
-              "baseRate": 0,
-              "promoRate": 0,
-              "isDefault": true,
-              "requirements": [
-                "綁定uniopen聯名卡單筆滿NT2,500元"
-              ],
-              "capAmount": 300,
-              "capPeriod": "CAMPAIGN"
-            }
-          ],
-          "selectionMode": "STACKABLE",
-          "benefitPlan": "",
-          "matchedMerchants": [
-            "博客來"
-          ],
-          "excludedKeywords": [
-            "OPENPOINT點數折抵金額"
-          ],
-          "quotaInfo": "單筆消費滿NT2,500元享100點，可累贈，每戶活動期間回饋上限300點。活動期間總回饋上限30萬點。",
-          "pointValueTwd": null,
-          "associationStatus": null,
-          "category": null,
-          "scope": "SPECIFIC",
-          "searchKeywords": "博客來, uniopen聯名卡, 網購, 電商, icashPay",
-          "intentTags": [
-            "網購",
-            "行動支付"
-          ],
-          "intentEvidence": "於博客來以icash Pay綁定uniopen聯名卡支付單筆消費",
-          "offerDomain": "PAYMENT",
-          "fundingMethods": [
-            "uniopen聯名卡"
-          ],
-          "bank": "icash Pay"
-        },
-        "issues": []
-      }
-    },
-    {
-      "id": "rule_59d97340b2d316d4f2f9",
-      "cardId": "",
-      "offerDomain": "PAYMENT",
-      "paymentProvider": "icash Pay",
-      "fundingMethods": [
-        "icash Pay帳戶/指定付款方式"
-      ],
-      "stackingStatus": "NOT_STACKABLE",
-      "title": "新戶首購最好PAY",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "REG_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "博客來"
-      ],
-      "searchKeywords": "博客來, 新戶首購, 網購, icashPay",
-      "intentTags": [
-        "網購",
-        "行動支付"
-      ],
-      "intentEvidence": "活動期間首次註冊icash Pay之新用戶，首次交易於博客來以icash Pay支付消費不限金額",
-      "baseRate": 0,
-      "promoRate": 50,
-      "rewardType": "points",
-      "rewardAmount": 50,
-      "rewardUnit": "points",
-      "capAmount": 50,
-      "capPeriod": "CAMPAIGN",
-      "minimumSpend": 1,
-      "eligibilityRequirements": [
-        "活動期間首次註冊icash Pay之新用戶",
-        "首次交易於博客來不限金額"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "新戶首購禮",
-          "totalRate": 0,
-          "baseRate": 0,
-          "promoRate": 0,
-          "isDefault": true,
-          "requirements": [
-            "首次註冊新戶",
-            "首次交易不限金額"
-          ],
-          "capAmount": 50,
-          "capPeriod": "CAMPAIGN"
-        }
-      ],
-      "maxRateRequires": [
-        "首次註冊新戶且首次交易不限金額(NT1元以上)"
-      ],
-      "needReg": false,
-      "regDeadline": "2026/9/27-9/28",
-      "validUntil": "2026-09-28",
-      "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2531",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "贈50點OPENPOINT及博客來NT50元E-Coupon各一次，每戶限回饋乙次，活動期間總回饋上限1萬點及200份。",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-26T21:18:49.681759Z",
-      "bank": "icash Pay",
-      "validationIssues": [],
-      "_reviewTermsBaseline": {
-        "cardId": "",
-        "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2531",
-        "title": "新戶首購最好PAY",
-        "baseRate": 0,
-        "promoRate": 50,
-        "rewardType": "points",
-        "rewardUnit": "points",
-        "rewardAmount": 50,
-        "capAmount": 50,
-        "capScope": null,
-        "capPeriod": "CAMPAIGN",
-        "minimumSpend": 1,
-        "spendBasis": null,
-        "roundingMode": null,
-        "validFrom": null,
-        "validUntil": "2026-09-28",
-        "needReg": false,
-        "regDeadline": "2026/9/27-9/28",
-        "registrationStart": null,
-        "registrationEnd": null,
-        "registrationCycle": null,
-        "registrationMethods": [],
-        "eligibilityRequirements": [
-          "活動期間首次註冊icash Pay之新用戶",
-          "首次交易於博客來不限金額"
-        ],
-        "rewardCalculationMode": "FLAT",
-        "rewardTiers": [
-          {
-            "name": "新戶首購禮",
-            "totalRate": 0,
-            "baseRate": 0,
-            "promoRate": 0,
-            "isDefault": true,
-            "requirements": [
-              "首次註冊新戶",
-              "首次交易不限金額"
-            ],
-            "capAmount": 50,
-            "capPeriod": "CAMPAIGN"
-          }
-        ],
-        "selectionMode": "",
-        "benefitPlan": "",
-        "matchedMerchants": [
-          "博客來"
-        ],
-        "excludedKeywords": [],
-        "quotaInfo": "贈50點OPENPOINT及博客來NT50元E-Coupon各一次，每戶限回饋乙次，活動期間總回饋上限1萬點及200份。",
-        "pointValueTwd": null,
-        "associationStatus": null,
-        "category": null,
-        "scope": "SPECIFIC",
-        "searchKeywords": "博客來, 新戶首購, 網購, icashPay",
-        "intentTags": [
-          "網購",
-          "行動支付"
-        ],
-        "intentEvidence": "活動期間首次註冊icash Pay之新用戶，首次交易於博客來以icash Pay支付消費不限金額",
-        "offerDomain": "PAYMENT",
-        "fundingMethods": [
-          "icash Pay帳戶/指定付款方式"
-        ],
-        "bank": "icash Pay"
-      },
-      "accuracyReview": {
-        "status": "SOURCE_CHECKED",
-        "checkedAt": "2026-10-19T17:10:56.585Z",
-        "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2531",
-        "fields": [
-          "baseRate",
-          "promoRate",
-          "capAmount"
-        ],
-        "termsSnapshot": {
-          "cardId": "",
-          "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2531",
-          "title": "新戶首購最好PAY",
-          "baseRate": 0,
-          "promoRate": 50,
-          "rewardType": "points",
-          "rewardUnit": "points",
-          "rewardAmount": 50,
-          "capAmount": 50,
-          "capScope": null,
-          "capPeriod": "CAMPAIGN",
-          "minimumSpend": 1,
-          "spendBasis": null,
-          "roundingMode": null,
-          "validFrom": null,
-          "validUntil": "2026-09-28",
-          "needReg": false,
-          "regDeadline": "2026/9/27-9/28",
-          "registrationStart": null,
-          "registrationEnd": null,
-          "registrationCycle": null,
-          "registrationMethods": [],
-          "eligibilityRequirements": [
-            "活動期間首次註冊icash Pay之新用戶",
-            "首次交易於博客來不限金額"
-          ],
-          "rewardCalculationMode": "FLAT",
-          "rewardTiers": [
-            {
-              "name": "新戶首購禮",
-              "totalRate": 0,
-              "baseRate": 0,
-              "promoRate": 0,
-              "isDefault": true,
-              "requirements": [
-                "首次註冊新戶",
-                "首次交易不限金額"
-              ],
-              "capAmount": 50,
-              "capPeriod": "CAMPAIGN"
-            }
-          ],
-          "selectionMode": "",
-          "benefitPlan": "",
-          "matchedMerchants": [
-            "博客來"
-          ],
-          "excludedKeywords": [],
-          "quotaInfo": "贈50點OPENPOINT及博客來NT50元E-Coupon各一次，每戶限回饋乙次，活動期間總回饋上限1萬點及200份。",
-          "pointValueTwd": null,
-          "associationStatus": null,
-          "category": null,
-          "scope": "SPECIFIC",
-          "searchKeywords": "博客來, 新戶首購, 網購, icashPay",
-          "intentTags": [
-            "網購",
-            "行動支付"
-          ],
-          "intentEvidence": "活動期間首次註冊icash Pay之新用戶，首次交易於博客來以icash Pay支付消費不限金額",
-          "offerDomain": "PAYMENT",
-          "fundingMethods": [
-            "icash Pay帳戶/指定付款方式"
           ],
           "bank": "icash Pay"
         },
@@ -170537,6 +169414,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-28T23:16:52.214472Z",
@@ -200494,6 +199372,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-10-19T18:01:09.147925Z",
@@ -209817,578 +208696,6 @@
       "bank": "台新銀行"
     },
     {
-      "id": "rule_bf8b0b97668a5c090685",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "王道銀行簽帳金融卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "青年簽帳金融卡消費加碼2%現金回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "EXTRA_BOOST",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "指定行動支付",
-        "指定數位通路"
-      ],
-      "searchKeywords": "指定行動支付,指定數位通路,行動支付,數位通路",
-      "intentTags": [
-        "行動支付",
-        "網購"
-      ],
-      "intentEvidence": "使用本行簽帳金融卡透過指定行動支付或指定數位通路消費，可享額外2%現金回饋。",
-      "baseRate": 0,
-      "promoRate": 2,
-      "rewardType": "cash",
-      "rewardAmount": 0,
-      "rewardUnit": "TWD",
-      "capAmount": null,
-      "capPeriod": "",
-      "capScope": "PROMO",
-      "roundingMode": "",
-      "spendBasis": "PER_TRANSACTION",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "青年簽帳金融卡持卡人",
-        "需登錄"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [
-        "需登錄"
-      ],
-      "needReg": true,
-      "regDeadline": "2026/12/31",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "2026-10-01",
-      "validUntil": "2026-12-31",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "需登錄",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-10-26T22:54:19.380333Z",
-      "bank": "王道銀行"
-    },
-    {
-      "id": "rule_ec95cc76dc0fb088b7e9",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "王道銀行簽帳金融卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "回饋金撲滿Lucky Money指定行動支付加碼現金回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "EXTRA_BOOST",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "指定行動支付"
-      ],
-      "searchKeywords": "指定行動支付,行動支付",
-      "intentTags": [
-        "行動支付"
-      ],
-      "intentEvidence": "使用指定行動支付綁定本行簽帳金融卡(非回饋金撲滿)刷卡一般消費單筆達新台幣100元(含)以上",
-      "baseRate": 0,
-      "promoRate": 0,
-      "rewardType": "cash",
-      "rewardAmount": 50,
-      "rewardUnit": "TWD",
-      "capAmount": 50,
-      "capPeriod": "CAMPAIGN",
-      "capScope": "PROMO",
-      "roundingMode": "",
-      "spendBasis": "PER_TRANSACTION",
-      "minimumSpend": 100,
-      "eligibilityRequirements": [
-        "首次成功開啟Lucky money回饋金撲滿",
-        "單筆消費達新台幣100元以上"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [
-        "首次成功開啟Lucky money回饋金撲滿",
-        "綁定指定行動支付單筆達100元"
-      ],
-      "needReg": false,
-      "regDeadline": "",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "2026-09-15",
-      "validUntil": "2026-12-31",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "每人於活動期間限回饋乙次，每月名額限前3,000名",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-10-26T22:54:19.380416Z",
-      "bank": "王道銀行"
-    },
-    {
-      "id": "rule_e4e9f1929b9f16fe8db2",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "王道銀行簽帳金融卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "龍王登基 王道加碼同慶最高6%現金回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "EXTRA_BOOST",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "Line Pay",
-        "Apple Pay"
-      ],
-      "searchKeywords": "Line Pay, Apple Pay, 行動支付",
-      "intentTags": [
-        "行動支付"
-      ],
-      "intentEvidence": "使用本行簽帳金融卡綁定Line Pay或Apple Pay刷卡一般消費，可享最高6%現金回饋。",
-      "baseRate": 1,
-      "promoRate": 5,
-      "rewardType": "percent",
-      "rewardAmount": 600,
-      "rewardUnit": "TWD",
-      "capAmount": 600,
-      "capPeriod": "PER_TRANSACTION",
-      "capScope": "PROMO",
-      "roundingMode": "",
-      "spendBasis": "PER_TRANSACTION",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "完成活動登錄",
-        "綁定Line Pay或Apple Pay"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [
-        "完成活動登錄"
-      ],
-      "needReg": true,
-      "regDeadline": "2026-10-29",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "2026-10-27",
-      "validUntil": "2026-10-29",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "每場最高回饋新台幣600元",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-10-26T22:54:19.380483Z",
-      "bank": "王道銀行"
-    },
-    {
-      "id": "rule_ade0b129c694e32220e4",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "王道銀行一卡通票證功能之簽帳金融卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "一卡通卡友限定 ! 刷卡消費限時最高享3%現金回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "EXTRA_BOOST",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "一般消費",
-      "intentTags": [],
-      "intentEvidence": "",
-      "baseRate": 1,
-      "promoRate": 2,
-      "rewardType": "percent",
-      "rewardAmount": 100,
-      "rewardUnit": "TWD",
-      "capAmount": 100,
-      "capPeriod": "CAMPAIGN",
-      "capScope": "PROMO",
-      "roundingMode": "",
-      "spendBasis": "PER_TRANSACTION",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "王道銀行一卡通票證功能之簽帳金融卡持卡人",
-        "需登錄",
-        "限量5,000名"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [
-        "需登錄"
-      ],
-      "needReg": true,
-      "regDeadline": "2026-10-31",
-      "registrationStart": "2026-10-15T12:00:00+08:00",
-      "registrationEnd": "",
-      "validFrom": "2026-10-15",
-      "validUntil": "2026-10-31",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "每一持卡人最高加碼回饋上限新台幣100元，限量5,000名",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-10-26T22:54:19.380547Z",
-      "bank": "王道銀行"
-    },
-    {
-      "id": "rule_b37cadcd77d47ce35ec7",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "王道銀行簽帳金融卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "王道購物節！刷蝦皮購物享最高新台幣1,088元現金回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "EXTRA_BOOST",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "蝦皮購物"
-      ],
-      "searchKeywords": "蝦皮購物, 蝦皮, 網購",
-      "intentTags": [
-        "網購"
-      ],
-      "intentEvidence": "於蝦皮購物刷卡消費",
-      "baseRate": 1,
-      "promoRate": 0,
-      "rewardType": "cash",
-      "rewardAmount": 200,
-      "rewardUnit": "TWD",
-      "capAmount": 1088,
-      "capPeriod": "MONTHLY",
-      "capScope": "TOTAL",
-      "roundingMode": "",
-      "spendBasis": "CUMULATIVE",
-      "minimumSpend": 2000,
-      "eligibilityRequirements": [
-        "當月累積消費滿新台幣2,000元以上",
-        "完成活動登錄(持王道財富無限卡客戶免登錄)"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [
-        "當月累積滿1萬元",
-        "完成登錄"
-      ],
-      "needReg": true,
-      "regDeadline": "2026-12-31",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "2026-10-01",
-      "validUntil": "2026-12-31",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "每人每月限加碼回饋乙次，每月限額3,000名",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-10-26T22:54:19.380611Z",
-      "bank": "王道銀行"
-    },
-    {
-      "id": "rule_f642d781d0202436a278",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "王道銀行簽帳金融卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "王道購物節！刷Coupang酷澎享最高新台幣1,088元現金回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "EXTRA_BOOST",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "Coupang酷澎"
-      ],
-      "searchKeywords": "Coupang酷澎, 酷澎, 網購",
-      "intentTags": [
-        "網購"
-      ],
-      "intentEvidence": "於Coupang酷澎刷卡消費",
-      "baseRate": 1,
-      "promoRate": 0,
-      "rewardType": "cash",
-      "rewardAmount": 200,
-      "rewardUnit": "TWD",
-      "capAmount": 1088,
-      "capPeriod": "MONTHLY",
-      "capScope": "TOTAL",
-      "roundingMode": "",
-      "spendBasis": "CUMULATIVE",
-      "minimumSpend": 2000,
-      "eligibilityRequirements": [
-        "當月累積消費滿新台幣2,000元以上",
-        "完成活動登錄(持王道財富無限卡客戶免登錄)"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [
-        "當月累積滿1萬元",
-        "完成登錄"
-      ],
-      "needReg": true,
-      "regDeadline": "2026-12-31",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "2026-10-01",
-      "validUntil": "2026-12-31",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "每人每月限加碼回饋乙次，每月限額3,000名",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-10-26T22:54:19.380675Z",
-      "bank": "王道銀行"
-    },
-    {
-      "id": "rule_6bf637f2a14117fe103b",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "王道銀行簽帳金融卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "王道購物節！刷momo購物享最高新台幣1,088元現金回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "EXTRA_BOOST",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "momo購物"
-      ],
-      "searchKeywords": "momo購物, momo, 富邦momo, 網購",
-      "intentTags": [
-        "網購"
-      ],
-      "intentEvidence": "於momo購物刷卡消費",
-      "baseRate": 1,
-      "promoRate": 0,
-      "rewardType": "cash",
-      "rewardAmount": 200,
-      "rewardUnit": "TWD",
-      "capAmount": 1088,
-      "capPeriod": "MONTHLY",
-      "capScope": "TOTAL",
-      "roundingMode": "",
-      "spendBasis": "CUMULATIVE",
-      "minimumSpend": 2000,
-      "eligibilityRequirements": [
-        "當月累積消費滿新台幣2,000元以上",
-        "完成活動登錄(持王道財富無限卡客戶免登錄)"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [
-        "當月累積滿1萬元",
-        "完成登錄"
-      ],
-      "needReg": true,
-      "regDeadline": "2026-12-31",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "2026-10-01",
-      "validUntil": "2026-12-31",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "每人每月限加碼回饋乙次，每月限額3,000名",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-10-26T22:54:19.380738Z",
-      "bank": "王道銀行"
-    },
-    {
-      "id": "rule_d33b2fef75bdebdc2229",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "王道銀行實體簽帳金融卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "年終犒賞季 ! 指定百貨餐飲最高享8.8%現金回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "EXTRA_BOOST",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "指定實體百貨餐飲"
-      ],
-      "searchKeywords": "指定實體百貨餐飲, 百貨, 餐飲",
-      "intentTags": [
-        "餐飲"
-      ],
-      "intentEvidence": "於以下指定實體百貨餐飲刷卡一般消費",
-      "baseRate": 1,
-      "promoRate": 7.8,
-      "rewardType": "percent",
-      "rewardAmount": 500,
-      "rewardUnit": "TWD",
-      "capAmount": 500,
-      "capPeriod": "MONTHLY",
-      "capScope": "PROMO",
-      "roundingMode": "",
-      "spendBasis": "PER_TRANSACTION",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "使用實體簽帳金融卡直接刷卡交易",
-        "完成活動登錄(持王道財富無限卡客戶免登錄)"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [
-        "完成活動登錄",
-        "符合指定卡別與方案"
-      ],
-      "needReg": true,
-      "regDeadline": "2026-12-31",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "2026-10-01",
-      "validUntil": "2026-12-31",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "活動期間每人每月加碼最高回饋上限新台幣500元，每月總限額2,000名",
-      "excludedKeywords": [
-        "不適用綁定Apple Pay、LINE Pay等行動支付之交易"
-      ],
-      "fetchedAt": "2026-10-26T22:54:19.380801Z",
-      "bank": "王道銀行"
-    },
-    {
-      "id": "rule_905cc6af2413c11a91b3",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "王道銀行簽帳金融卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "刷支付 給利就是王道 最高享6%現金回饋 !",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "EXTRA_BOOST",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "Apple Pay",
-        "LINE Pay",
-        "街口支付",
-        "悠遊付",
-        "全盈+",
-        "ipass money",
-        "icash pay",
-        "全支付"
-      ],
-      "searchKeywords": "Apple Pay, LINE Pay, 街口支付, 悠遊付, 全盈+, ipass money, icash pay, 全支付, 行動支付",
-      "intentTags": [
-        "行動支付"
-      ],
-      "intentEvidence": "使用以下指定行動支付綁定本行簽帳金融卡，單筆刷卡一般消費達新台幣300元(含)以上",
-      "baseRate": 1,
-      "promoRate": 5,
-      "rewardType": "percent",
-      "rewardAmount": 1200,
-      "rewardUnit": "TWD",
-      "capAmount": 1200,
-      "capPeriod": "MONTHLY",
-      "capScope": "PROMO",
-      "roundingMode": "",
-      "spendBasis": "PER_TRANSACTION",
-      "minimumSpend": 300,
-      "eligibilityRequirements": [
-        "單筆刷卡一般消費達新台幣300元以上",
-        "完成登錄(持王道財富無限卡客戶免登錄)"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [
-        "完成登錄",
-        "單筆滿300元"
-      ],
-      "needReg": true,
-      "regDeadline": "2026-12-31",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "2026-10-01",
-      "validUntil": "2026-12-31",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "每人每月加碼回饋上限新台幣1,200元，每月限額5,000名",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-10-26T22:54:19.380864Z",
-      "bank": "王道銀行"
-    },
-    {
-      "id": "rule_81ad2ed90bb4c73e90ea",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "王道銀行簽帳金融卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "出國、海外網購刷王道！最高享新台幣1,500元現金回饋！",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "EXTRA_BOOST",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "海外實體商店, 海外網路商店, 海外消費, 出國, 國外",
-      "intentTags": [
-        "海外消費"
-      ],
-      "intentEvidence": "持王道銀行簽帳金融卡於海外實體商店或海外網路商店刷卡一般消費",
-      "baseRate": 1,
-      "promoRate": 9,
-      "rewardType": "percent",
-      "rewardAmount": 1500,
-      "rewardUnit": "TWD",
-      "capAmount": 1500,
-      "capPeriod": "CAMPAIGN",
-      "capScope": "PROMO",
-      "roundingMode": "",
-      "spendBasis": "PER_TRANSACTION",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "於當月完成登錄"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [
-        "完成登錄"
-      ],
-      "needReg": true,
-      "regDeadline": "2026-12-31",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "2026-10-01",
-      "validUntil": "2026-12-31",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "最高享10%現金回饋",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-10-26T22:54:19.380927Z",
-      "bank": "王道銀行"
-    },
-    {
       "id": "rule_312f5c223b2a343e390b",
       "cardId": "",
       "offerDomain": "CARD",
@@ -216881,6 +215188,7 @@
       "quickSearchEligible": false,
       "validationIssues": [
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-10-28T22:46:37.932063Z",
@@ -219828,6 +218136,7 @@
       "quickSearchEligible": false,
       "validationIssues": [
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-10-28T22:50:49.525255Z",
@@ -220908,6 +219217,7 @@
       ],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
@@ -222039,6 +220349,7 @@
       "quickSearchEligible": false,
       "validationIssues": [
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-10-28T22:53:50.365778Z",
@@ -222097,6 +220408,7 @@
       "associationReason": "copy_names_other_card:其他樂天信用卡",
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
@@ -225173,72 +223485,6 @@
       "bank": "玉山銀行"
     },
     {
-      "id": "rule_f6a86d26a13017f43c6b",
-      "cardId": "card_王道銀行_675",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "一卡通簽帳金融卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "一卡通卡友限定 ! 刷卡消費限時最高享3%現金回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "刷卡消費,一般消費,現金回饋",
-      "intentTags": [
-        "一般消費"
-      ],
-      "intentEvidence": "刷卡消費限時最高享3%現金回饋",
-      "baseRate": 0,
-      "promoRate": 3,
-      "rewardType": "percent",
-      "rewardAmount": 3,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "capScope": "NONE",
-      "roundingMode": "",
-      "spendBasis": "PER_TRANSACTION",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "一卡通卡友限定"
-      ],
-      "rewardCalculationMode": "MAX_ONLY",
-      "rewardTiers": [
-        {
-          "name": "最高回饋",
-          "totalRate": 3,
-          "baseRate": 0,
-          "promoRate": 3,
-          "isDefault": false,
-          "requirements": [
-            "一卡通卡友限定"
-          ],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [
-        "一卡通卡友限定"
-      ],
-      "needReg": false,
-      "regDeadline": "",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.o-bank.com/retail",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "一卡通卡友限定，刷卡消費限時最高享3%現金回饋",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-10-28T22:55:58.399187Z",
-      "bank": "王道銀行"
-    },
-    {
       "id": "rule_963a08e14b6aab1a9038",
       "cardId": "card_玉山銀行_313",
       "offerDomain": "CARD",
@@ -227661,6 +225907,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
@@ -232193,6 +230440,812 @@
       "bank": "悠遊付"
     },
     {
+      "id": "rule_f28af4a1366d0aa976fb",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "一卡通簽帳金融卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "一卡通卡友限定 ! 刷卡消費限時最高享3%現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "一卡通,刷卡消費,現金回饋",
+      "intentTags": [
+        "一般消費"
+      ],
+      "intentEvidence": "一卡通卡友限定 ! 刷卡消費限時最高享3%現金回饋",
+      "baseRate": null,
+      "promoRate": 3,
+      "rewardType": "percent",
+      "rewardAmount": null,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "capScope": "",
+      "roundingMode": "",
+      "spendBasis": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "王道銀行一卡通卡友"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [
+        {
+          "name": "最高回饋等級",
+          "totalRate": 3,
+          "baseRate": null,
+          "promoRate": 3,
+          "isDefault": false,
+          "requirements": [
+            "一卡通卡友限定"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "持有王道銀行一卡通簽帳金融卡並符合活動指定消費條件"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "一卡通卡友限定，刷卡消費限時最高享3%現金回饋（詳細分級門檻與限制依官網活動說明為準）",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-10-29T22:46:09.846588Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_622d3d0c0cd06d022880",
+      "cardId": "card_王道銀行_634",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行味全龍聯名卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "龍戰台灣大賽 贏球隔日行動支付享最高3%現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Line Pay",
+        "Apple Pay"
+      ],
+      "searchKeywords": "Line Pay, LINE Pay, Apple Pay, 行動支付",
+      "intentTags": [
+        "行動支付"
+      ],
+      "intentEvidence": "於味全龍贏球隔日使用味全龍聯名卡綁定Line Pay或Apple Pay刷卡一般消費",
+      "baseRate": null,
+      "promoRate": null,
+      "rewardType": "percent",
+      "rewardAmount": null,
+      "rewardUnit": "percent",
+      "capAmount": 200,
+      "capPeriod": "PER_TRANSACTION",
+      "capScope": "TOTAL",
+      "roundingMode": "",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "味全龍聯名卡持卡人",
+        "完成指定場次活動登錄",
+        "味全龍贏球隔日消費"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [
+        {
+          "name": "贏球隔日加碼",
+          "totalRate": 3,
+          "baseRate": 0,
+          "promoRate": 3,
+          "isDefault": false,
+          "requirements": [
+            "完成指定場次登錄",
+            "贏球隔日綁定Line Pay或Apple Pay消費"
+          ],
+          "capAmount": 200,
+          "capPeriod": "PER_TRANSACTION"
+        }
+      ],
+      "maxRateRequires": [
+        "完成指定場次活動登錄",
+        "味全龍贏球隔日消費"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-10-26",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "2026-10-16",
+      "validUntil": "2026-10-26",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "每場最高回饋新台幣200元",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-10-29T22:57:33.654374Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_8c8aece87a9ac4d79081",
+      "cardId": "card_王道銀行_367",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行一卡通票證功能之簽帳金融卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "一卡通卡友限定 刷卡消費限時加碼2%現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "一般消費, 全通路, 刷卡消費, 一卡通聯名卡",
+      "intentTags": [],
+      "intentEvidence": "",
+      "baseRate": 0,
+      "promoRate": 2,
+      "rewardType": "percent",
+      "rewardAmount": null,
+      "rewardUnit": "percent",
+      "capAmount": 100,
+      "capPeriod": "CAMPAIGN",
+      "capScope": "PROMO",
+      "roundingMode": "",
+      "spendBasis": "CUMULATIVE",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "持王道銀行一卡通票證功能之簽帳金融卡",
+        "登錄活動限量5,000名"
+      ],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [
+        {
+          "name": "一卡通卡友加碼",
+          "totalRate": 2,
+          "baseRate": 0,
+          "promoRate": 2,
+          "isDefault": true,
+          "requirements": [
+            "持王道銀行一卡通票證功能簽帳金融卡",
+            "完成登錄"
+          ],
+          "capAmount": 100,
+          "capPeriod": "CAMPAIGN"
+        }
+      ],
+      "maxRateRequires": [
+        "持王道銀行一卡通票證功能之簽帳金融卡",
+        "完成活動登錄"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-10-31",
+      "registrationStart": "2026-10-15T12:00:00+08:00",
+      "registrationEnd": "2026-10-31T23:59:59+08:00",
+      "validFrom": "2026-10-15",
+      "validUntil": "2026-10-31",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "每一持卡人最高加碼回饋上限新台幣100元，限量5,000名",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-10-29T22:57:33.654815Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_f28bad65e55af5bad9f2",
+      "cardId": "card_王道銀行_367",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行簽帳金融卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "王道購物節 蝦皮購物滿額加碼最高1,088元",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "蝦皮購物"
+      ],
+      "searchKeywords": "蝦皮購物, 蝦皮, Shopee, 網購",
+      "intentTags": [
+        "網購"
+      ],
+      "intentEvidence": "於蝦皮購物刷卡消費",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "cash",
+      "rewardAmount": 200,
+      "rewardUnit": "TWD",
+      "capAmount": 1088,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "",
+      "spendBasis": "CUMULATIVE",
+      "minimumSpend": 2000,
+      "eligibilityRequirements": [
+        "按月登錄",
+        "當月累積消費滿額",
+        "每月限額3,000名(王道財富無限卡免登錄)"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "滿額回饋",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [
+            "當月累積消費滿2,000元",
+            "完成登錄"
+          ],
+          "capAmount": 200,
+          "capPeriod": "MONTHLY"
+        },
+        {
+          "name": "限時加碼(每月10-12號)",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": false,
+          "requirements": [
+            "每月10號至12號累積達10,000元",
+            "完成登錄",
+            "每月限額300名"
+          ],
+          "capAmount": 888,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "當月累積滿2,000元登錄享200元",
+        "每月10至12號累積達10,000元享加贈888元"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-12-31",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "當月累積滿2,000元享200元(每月限3,000名)；10-12號累積滿10,000元再贈888元(每月限300名)",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-10-29T22:57:33.655205Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_d1dac73d80673658d251",
+      "cardId": "card_王道銀行_367",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行簽帳金融卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "王道購物節 Coupang酷澎滿額加碼最高1,088元",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Coupang酷澎"
+      ],
+      "searchKeywords": "Coupang酷澎, Coupang, 酷澎, 網購",
+      "intentTags": [
+        "網購"
+      ],
+      "intentEvidence": "於Coupang酷澎刷卡消費",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "cash",
+      "rewardAmount": 200,
+      "rewardUnit": "TWD",
+      "capAmount": 1088,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "",
+      "spendBasis": "CUMULATIVE",
+      "minimumSpend": 2000,
+      "eligibilityRequirements": [
+        "按月登錄",
+        "當月累積消費滿額",
+        "每月限額3,000名(王道財富無限卡免登錄)"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "滿額回饋",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [
+            "當月累積消費滿2,000元",
+            "完成登錄"
+          ],
+          "capAmount": 200,
+          "capPeriod": "MONTHLY"
+        },
+        {
+          "name": "限時加碼(每月10-12號)",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": false,
+          "requirements": [
+            "每月10號至12號累積達10,000元",
+            "完成登錄",
+            "每月限額300名"
+          ],
+          "capAmount": 888,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "當月累積滿2,000元登錄享200元",
+        "每月10至12號累積達10,000元享加贈888元"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-12-31",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "當月累積滿2,000元享200元(每月限3,000名)；10-12號累積滿10,000元再贈888元(每月限300名)",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-10-29T22:57:33.655585Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_8069aab9ecda7236d166",
+      "cardId": "card_王道銀行_367",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行簽帳金融卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "王道購物節 momo購物滿額加碼最高1,088元",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "momo購物"
+      ],
+      "searchKeywords": "momo購物, momo, 富邦momo, 網購",
+      "intentTags": [
+        "網購"
+      ],
+      "intentEvidence": "於momo購物刷卡消費",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "cash",
+      "rewardAmount": 200,
+      "rewardUnit": "TWD",
+      "capAmount": 1088,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "",
+      "spendBasis": "CUMULATIVE",
+      "minimumSpend": 2000,
+      "eligibilityRequirements": [
+        "按月登錄",
+        "當月累積消費滿額",
+        "每月限額3,000名(王道財富無限卡免登錄)"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "滿額回饋",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [
+            "當月累積消費滿2,000元",
+            "完成登錄"
+          ],
+          "capAmount": 200,
+          "capPeriod": "MONTHLY"
+        },
+        {
+          "name": "限時加碼(每月10-12號)",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": false,
+          "requirements": [
+            "每月10號至12號累積達10,000元",
+            "完成登錄",
+            "每月限額300名"
+          ],
+          "capAmount": 888,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "當月累積滿2,000元登錄享200元",
+        "每月10至12號累積達10,000元享加贈888元"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-12-31",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "當月累積滿2,000元享200元(每月限3,000名)；10-12號累積滿10,000元再贈888元(每月限300名)",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-10-29T22:57:33.655961Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_958e8fc8f4042c6487d8",
+      "cardId": "card_王道銀行_367",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行實體簽帳金融卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "年終犒賞季 指定百貨餐飲加碼5%現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "指定實體百貨餐飲"
+      ],
+      "searchKeywords": "指定實體百貨餐飲, 百貨, 餐飲",
+      "intentTags": [
+        "餐飲"
+      ],
+      "intentEvidence": "於以下指定實體百貨餐飲刷卡一般消費",
+      "baseRate": 1,
+      "promoRate": 5,
+      "rewardType": "percent",
+      "rewardAmount": null,
+      "rewardUnit": "percent",
+      "capAmount": 500,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "持本行實體簽帳金融卡直接刷卡",
+        "排除行動支付",
+        "每月按月登錄(每月限額2,000名，王道財富無限卡免登錄)"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "一般卡片登錄加碼",
+          "totalRate": 6,
+          "baseRate": 1,
+          "promoRate": 5,
+          "isDefault": true,
+          "requirements": [
+            "實體卡刷卡",
+            "完成當月登錄"
+          ],
+          "capAmount": 500,
+          "capPeriod": "MONTHLY"
+        },
+        {
+          "name": "O! Range Card加碼等級",
+          "totalRate": 8.8,
+          "baseRate": 1,
+          "promoRate": 7.8,
+          "isDefault": false,
+          "requirements": [
+            "持O! Range Card",
+            "完成當月登錄"
+          ],
+          "capAmount": 500,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "持O! Range Card刷指定百貨餐飲",
+        "完成當月登錄"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-12-31",
+      "registrationStart": "2026-10-01T12:00:00+08:00",
+      "registrationEnd": "2026-12-31T23:59:59+08:00",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "每人每月加碼最高回饋上限新台幣500元，每月總限額2,000名",
+      "excludedKeywords": [
+        "Apple Pay",
+        "LINE Pay",
+        "行動支付"
+      ],
+      "fetchedAt": "2026-10-29T22:57:33.656318Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_d495f4e2a5ff6bfbcae6",
+      "cardId": "card_王道銀行_367",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行簽帳金融卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "刷支付 給利就是王道 指定行動支付加碼5%現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Apple Pay",
+        "LINE Pay",
+        "街口支付",
+        "悠遊付",
+        "全盈+",
+        "ipass money",
+        "icash pay",
+        "全支付"
+      ],
+      "searchKeywords": "Apple Pay, LINE Pay, 連線支付, linepay, 街口支付, 街口, Jko pay, 悠遊付, Easy Wallet, 全盈+, 全盈支付, Plus Pay, ipass money, 一卡通Money, icash pay, 愛金卡, 全支付, PxPay Plus, 行動支付",
+      "intentTags": [
+        "行動支付"
+      ],
+      "intentEvidence": "使用以下指定行動支付綁定本行簽帳金融卡",
+      "baseRate": 1,
+      "promoRate": 5,
+      "rewardType": "percent",
+      "rewardAmount": null,
+      "rewardUnit": "percent",
+      "capAmount": 1200,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 300,
+      "eligibilityRequirements": [
+        "單筆達300元以上",
+        "按月登錄(每月限額5,000名，王道財富無限卡免登錄)"
+      ],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [
+        {
+          "name": "指定行動支付加碼",
+          "totalRate": 6,
+          "baseRate": 1,
+          "promoRate": 5,
+          "isDefault": true,
+          "requirements": [
+            "單筆達300元以上",
+            "完成當月登錄"
+          ],
+          "capAmount": 1200,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "綁定指定行動支付單筆滿300元(含)以上",
+        "完成每月登錄"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-12-31",
+      "registrationStart": "2026-10-01T12:00:00+08:00",
+      "registrationEnd": "2026-12-31T23:59:59+08:00",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "單筆滿300元享加碼5%，每人每月加碼上限1,200元，每月限量5,000名",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-10-29T22:57:33.656687Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_77cf3d025853316fbe87",
+      "cardId": null,
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行簽帳金融卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "出國、海外網購刷王道 海外消費加碼5%現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "海外消費, 國外消費, 出國, 外幣, 日幣, 美元, 歐元, 機票, 海外實體, 海外網購, 跨境消費",
+      "intentTags": [
+        "海外消費",
+        "網購"
+      ],
+      "intentEvidence": "海外實體商店或海外網路商店刷卡一般消費",
+      "baseRate": 1,
+      "promoRate": 5,
+      "rewardType": "percent",
+      "rewardAmount": null,
+      "rewardUnit": "percent",
+      "capAmount": 1500,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "海外實體商店或海外網路商店刷卡一般消費",
+        "當月完成登錄(每月限額3,000名，王道財富無限卡免登錄)",
+        "不適用行動支付"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "一般簽帳金融卡",
+          "totalRate": 6,
+          "baseRate": 1,
+          "promoRate": 5,
+          "isDefault": true,
+          "requirements": [
+            "持一般簽帳金融卡",
+            "完成當月登錄"
+          ],
+          "capAmount": 1500,
+          "capPeriod": "MONTHLY"
+        },
+        {
+          "name": "王道財富無限卡",
+          "totalRate": 7.5,
+          "baseRate": 2.5,
+          "promoRate": 5,
+          "isDefault": false,
+          "requirements": [
+            "持王道財富無限卡(免登錄)"
+          ],
+          "capAmount": 1500,
+          "capPeriod": "MONTHLY"
+        },
+        {
+          "name": "CAMA CAFÉ 卡",
+          "totalRate": 10,
+          "baseRate": 5,
+          "promoRate": 5,
+          "isDefault": false,
+          "requirements": [
+            "持 CAMA CAFÉ 卡",
+            "完成當月登錄"
+          ],
+          "capAmount": 1500,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "持 CAMA CAFÉ 聯名卡海外消費",
+        "完成當月登錄"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-12-31",
+      "registrationStart": "2026-10-01T12:00:00+08:00",
+      "registrationEnd": "2026-12-31T23:59:59+08:00",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "每人每月加碼上限1,500元，每月限額3,000名(王道財富無限卡免登錄)",
+      "excludedKeywords": [
+        "Apple Pay",
+        "LINE Pay",
+        "街口支付",
+        "行動支付"
+      ],
+      "associationStatus": "needs_review",
+      "associationReason": "copy_names_other_card:王道財富無限卡",
+      "fetchedAt": "2026-10-29T22:57:33.656803Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_80e0c7e53ee8679ecf14",
+      "cardId": "card_王道銀行_367",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行簽帳金融卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "Lucky money回饋金撲滿行動支付首刷加碼50元",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "指定行動支付"
+      ],
+      "searchKeywords": "指定行動支付, 行動支付",
+      "intentTags": [
+        "行動支付"
+      ],
+      "intentEvidence": "使用指定行動支付綁定本行簽帳金融卡(非回饋金撲滿)刷卡一般消費",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "cash",
+      "rewardAmount": 50,
+      "rewardUnit": "TWD",
+      "capAmount": 50,
+      "capPeriod": "CAMPAIGN",
+      "capScope": "TOTAL",
+      "roundingMode": "",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 100,
+      "eligibilityRequirements": [
+        "首次成功開啟Lucky money回饋金撲滿",
+        "指定行動支付綁定簽帳金融卡單筆滿100元",
+        "每人限回饋乙次，每月限前3,000名"
+      ],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [
+        {
+          "name": "首刷加碼",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [
+            "首次開啟Lucky money撲滿",
+            "行動支付單筆滿100元"
+          ],
+          "capAmount": 50,
+          "capPeriod": "CAMPAIGN"
+        }
+      ],
+      "maxRateRequires": [
+        "首次成功開啟回饋金撲滿",
+        "指定行動支付單筆滿100元(含)以上"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "2026-09-15",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "每人限回饋乙次，每月限量前3,000名",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-10-29T22:57:33.657189Z",
+      "bank": "王道銀行"
+    },
+    {
       "cardId": "card_esun_ubear",
       "bank": "玉山銀行",
       "offerDomain": "CARD",
@@ -234760,5 +233813,5 @@
       "message": "政府規費、公用事業水電瓦斯多數信用卡皆排除回饋。"
     }
   ],
-  "lastUpdated": "2026-10-28T23:03:27.270110Z"
+  "lastUpdated": "2026-10-29T22:57:36.993398Z"
 }

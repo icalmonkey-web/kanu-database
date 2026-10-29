@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-28T23:03:29.840Z",
+  "generatedAt": "2026-10-29T22:57:40.935Z",
   "disclaimer": "結構檢查不是事實核對；待確認點數不換算現金。",
-  "totalRules": 1608,
-  "reviewed": 779,
+  "totalRules": 1601,
+  "reviewed": 774,
   "comparable": 85,
-  "expired": 137,
-  "sourceGroups": 277,
+  "expired": 136,
+  "sourceGroups": 276,
   "queue": [
     {
       "sourceUrl": "https://www.cathaybk.com.tw/",
@@ -240,23 +240,6 @@
       "activeRules": 10
     },
     {
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "bank": "王道銀行",
-      "ruleIds": [
-        "rule_bf8b0b97668a5c090685",
-        "rule_ec95cc76dc0fb088b7e9",
-        "rule_e4e9f1929b9f16fe8db2",
-        "rule_ade0b129c694e32220e4",
-        "rule_b37cadcd77d47ce35ec7",
-        "rule_f642d781d0202436a278",
-        "rule_6bf637f2a14117fe103b",
-        "rule_d33b2fef75bdebdc2229",
-        "rule_905cc6af2413c11a91b3",
-        "rule_81ad2ed90bb4c73e90ea"
-      ],
-      "activeRules": 10
-    },
-    {
       "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/list.html",
       "bank": "永豐銀行",
       "ruleIds": [
@@ -410,6 +393,22 @@
         "rule_0f97d733c8f4cfffae87",
         "rule_c6e578b5dd5a20a4aebf",
         "rule_f5d14ab9ff9d3ba384e4"
+      ],
+      "activeRules": 8
+    },
+    {
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_622d3d0c0cd06d022880",
+        "rule_8c8aece87a9ac4d79081",
+        "rule_f28bad65e55af5bad9f2",
+        "rule_d1dac73d80673658d251",
+        "rule_8069aab9ecda7236d166",
+        "rule_958e8fc8f4042c6487d8",
+        "rule_d495f4e2a5ff6bfbcae6",
+        "rule_77cf3d025853316fbe87",
+        "rule_80e0c7e53ee8679ecf14"
       ],
       "activeRules": 8
     },
@@ -1187,16 +1186,6 @@
         "rule_2f4d926f1f2457629107",
         "rule_cd7aed92afe7619777fa",
         "rule_ed466373d954c615cc3d"
-      ],
-      "activeRules": 3
-    },
-    {
-      "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2574",
-      "bank": "icash Pay",
-      "ruleIds": [
-        "rule_8f0ec45cadfe85b0fb68",
-        "rule_71ae344addb916077aa1",
-        "rule_7962c6dcabaf08dc0078"
       ],
       "activeRules": 3
     },
@@ -2324,14 +2313,6 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/wd-champion-2026",
-      "bank": "王道銀行",
-      "ruleIds": [
-        "rule_312f5c223b2a343e390b"
-      ],
-      "activeRules": 1
-    },
-    {
       "sourceUrl": "https://www.feib.com.tw/activity?id=4762",
       "bank": "遠東商銀",
       "ruleIds": [
@@ -2489,14 +2470,6 @@
       "bank": "合作金庫",
       "ruleIds": [
         "rule_fb151b955920fac04ffd"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.o-bank.com/retail",
-      "bank": "王道銀行",
-      "ruleIds": [
-        "rule_f6a86d26a13017f43c6b"
       ],
       "activeRules": 1
     },
@@ -2709,18 +2682,18 @@
       "activeRules": 1
     },
     {
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_f28af4a1366d0aa976fb"
+      ],
+      "activeRules": 1
+    },
+    {
       "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2454&l-id=corp_pc_top_cpn2454",
       "bank": "樂天信用卡",
       "ruleIds": [
         "rule_beb6c68e319ac482fc96"
-      ],
-      "activeRules": 0
-    },
-    {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2426&l-id=corp_pc_top_cpn2426",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_c603dee188f6f099d5a3"
       ],
       "activeRules": 0
     },
@@ -2739,6 +2712,24 @@
       "bank": "中國信託",
       "ruleIds": [
         "rule_6a9da0e1c7570645c430"
+      ],
+      "activeRules": 0
+    },
+    {
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/wd-champion-2026",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_312f5c223b2a343e390b"
+      ],
+      "activeRules": 0
+    },
+    {
+      "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2574",
+      "bank": "icash Pay",
+      "ruleIds": [
+        "rule_8f0ec45cadfe85b0fb68",
+        "rule_71ae344addb916077aa1",
+        "rule_7962c6dcabaf08dc0078"
       ],
       "activeRules": 0
     },
@@ -8882,19 +8873,6 @@
       ]
     },
     {
-      "id": "rule_c603dee188f6f099d5a3",
-      "bank": "樂天信用卡",
-      "title": "樂天桃猿世界卡獨家寵粉「女孩見面會」",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2426&l-id=corp_pc_top_cpn2426",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "活動已截止"
-      ]
-    },
-    {
       "id": "cube_concert_priority",
       "bank": "國泰世華",
       "title": "CUBE卡 演唱會優先購票",
@@ -12228,18 +12206,6 @@
       ]
     },
     {
-      "id": "rule_26130f0b90b4ce798b30",
-      "bank": "icash Pay",
-      "title": "icash Pay APP 週週抽 999 點",
-      "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "SOURCE_CHECKED",
-      "comparable": false,
-      "issues": [
-        "活動已截止"
-      ]
-    },
-    {
       "id": "rule_a2bb7dad1cc99dd147ba",
       "bank": "icash Pay",
       "title": "新戶登錄贈酷聖石冰淇淋兌換券",
@@ -12516,18 +12482,6 @@
       ]
     },
     {
-      "id": "rule_0bf54cb63efe180798ae",
-      "bank": "icash Pay",
-      "title": "遊食購嗶出好運消費月 icash Pay APP支付週週抽999點",
-      "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2478",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "SOURCE_CHECKED",
-      "comparable": false,
-      "issues": [
-        "活動已截止"
-      ]
-    },
-    {
       "id": "rule_c1ed8e05e4abb6b03bdf",
       "bank": "icash Pay",
       "title": "icash Pay新戶登錄贈酷聖石冰淇淋兌換券",
@@ -12621,42 +12575,6 @@
       "comparable": false,
       "issues": [
         "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_10f1a5b794d374036e1d",
-      "bank": "icash Pay",
-      "title": "icash Pay博客來購物最好Pay 單筆滿額贈",
-      "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2531",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "SOURCE_CHECKED",
-      "comparable": false,
-      "issues": [
-        "活動已截止"
-      ]
-    },
-    {
-      "id": "rule_8c72603b75ae177ffba1",
-      "bank": "icash Pay",
-      "title": "icash Pay綁定uniopen聯名卡再加碼",
-      "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2531",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "SOURCE_CHECKED",
-      "comparable": false,
-      "issues": [
-        "活動已截止"
-      ]
-    },
-    {
-      "id": "rule_59d97340b2d316d4f2f9",
-      "bank": "icash Pay",
-      "title": "新戶首購最好PAY",
-      "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2531",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "SOURCE_CHECKED",
-      "comparable": false,
-      "issues": [
-        "活動已截止"
       ]
     },
     {
@@ -18550,138 +18468,16 @@
       ]
     },
     {
-      "id": "rule_bf8b0b97668a5c090685",
-      "bank": "王道銀行",
-      "title": "青年簽帳金融卡消費加碼2%現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_ec95cc76dc0fb088b7e9",
-      "bank": "王道銀行",
-      "title": "回饋金撲滿Lucky Money指定行動支付加碼現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_e4e9f1929b9f16fe8db2",
-      "bank": "王道銀行",
-      "title": "龍王登基 王道加碼同慶最高6%現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_ade0b129c694e32220e4",
-      "bank": "王道銀行",
-      "title": "一卡通卡友限定 ! 刷卡消費限時最高享3%現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_b37cadcd77d47ce35ec7",
-      "bank": "王道銀行",
-      "title": "王道購物節！刷蝦皮購物享最高新台幣1,088元現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "累積消費資格未確認"
-      ]
-    },
-    {
-      "id": "rule_f642d781d0202436a278",
-      "bank": "王道銀行",
-      "title": "王道購物節！刷Coupang酷澎享最高新台幣1,088元現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "累積消費資格未確認"
-      ]
-    },
-    {
-      "id": "rule_6bf637f2a14117fe103b",
-      "bank": "王道銀行",
-      "title": "王道購物節！刷momo購物享最高新台幣1,088元現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "累積消費資格未確認"
-      ]
-    },
-    {
-      "id": "rule_d33b2fef75bdebdc2229",
-      "bank": "王道銀行",
-      "title": "年終犒賞季 ! 指定百貨餐飲最高享8.8%現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_905cc6af2413c11a91b3",
-      "bank": "王道銀行",
-      "title": "刷支付 給利就是王道 最高享6%現金回饋 !",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_81ad2ed90bb4c73e90ea",
-      "bank": "王道銀行",
-      "title": "出國、海外網購刷王道！最高享新台幣1,500元現金回饋！",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
       "id": "rule_312f5c223b2a343e390b",
       "bank": "王道銀行",
       "title": "狂賀6冠，最高6%回饋",
       "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/wd-champion-2026",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "lifecycle": "EXPIRED",
       "reviewStatus": "PENDING",
       "comparable": false,
       "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "活動已截止"
       ]
     },
     {
@@ -18689,12 +18485,12 @@
       "bank": "icash Pay",
       "title": "icash Pay 博客來購物最好Pay 單筆滿額贈",
       "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2574",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "lifecycle": "EXPIRED",
       "reviewStatus": "PENDING",
       "comparable": false,
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
+        "活動已截止"
       ]
     },
     {
@@ -18702,12 +18498,12 @@
       "bank": "icash Pay",
       "title": "icash Pay 綁定 uniopen 聯名卡博客來加碼",
       "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2574",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "lifecycle": "EXPIRED",
       "reviewStatus": "PENDING",
       "comparable": false,
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
+        "活動已截止"
       ]
     },
     {
@@ -18715,12 +18511,12 @@
       "bank": "icash Pay",
       "title": "博客來 icash Pay 新戶首購最好PAY",
       "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2574",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "lifecycle": "EXPIRED",
       "reviewStatus": "PENDING",
       "comparable": false,
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
+        "活動已截止"
       ]
     },
     {
@@ -21253,19 +21049,6 @@
       ]
     },
     {
-      "id": "rule_f6a86d26a13017f43c6b",
-      "bank": "王道銀行",
-      "title": "一卡通卡友限定 ! 刷卡消費限時最高享3%現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
       "id": "rule_963a08e14b6aab1a9038",
       "bank": "玉山銀行",
       "title": "國內外一般消費基本回饋",
@@ -22436,6 +22219,132 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "活動已截止"
+      ]
+    },
+    {
+      "id": "rule_f28af4a1366d0aa976fb",
+      "bank": "王道銀行",
+      "title": "一卡通卡友限定 ! 刷卡消費限時最高享3%現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_622d3d0c0cd06d022880",
+      "bank": "王道銀行",
+      "title": "龍戰台灣大賽 贏球隔日行動支付享最高3%現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "lifecycle": "EXPIRED",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "活動已截止"
+      ]
+    },
+    {
+      "id": "rule_8c8aece87a9ac4d79081",
+      "bank": "王道銀行",
+      "title": "一卡通卡友限定 刷卡消費限時加碼2%現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_f28bad65e55af5bad9f2",
+      "bank": "王道銀行",
+      "title": "王道購物節 蝦皮購物滿額加碼最高1,088元",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "累積消費資格未確認"
+      ]
+    },
+    {
+      "id": "rule_d1dac73d80673658d251",
+      "bank": "王道銀行",
+      "title": "王道購物節 Coupang酷澎滿額加碼最高1,088元",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "累積消費資格未確認"
+      ]
+    },
+    {
+      "id": "rule_8069aab9ecda7236d166",
+      "bank": "王道銀行",
+      "title": "王道購物節 momo購物滿額加碼最高1,088元",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "累積消費資格未確認"
+      ]
+    },
+    {
+      "id": "rule_958e8fc8f4042c6487d8",
+      "bank": "王道銀行",
+      "title": "年終犒賞季 指定百貨餐飲加碼5%現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_d495f4e2a5ff6bfbcae6",
+      "bank": "王道銀行",
+      "title": "刷支付 給利就是王道 指定行動支付加碼5%現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_77cf3d025853316fbe87",
+      "bank": "王道銀行",
+      "title": "出國、海外網購刷王道 海外消費加碼5%現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "UNRESOLVED_CARD_ASSOCIATION",
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_80e0c7e53ee8679ecf14",
+      "bank": "王道銀行",
+      "title": "Lucky money回饋金撲滿行動支付首刷加碼50元",
+      "sourceUrl": "https://www.o-bank.com/retail/event/event-compaign",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
       ]
     },
     {
