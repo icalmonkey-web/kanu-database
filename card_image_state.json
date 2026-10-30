@@ -3672,7 +3672,7 @@
     "error": "SSLError"
   },
   "https://www.taishinbank.com.tw/TSB/personal/credit/": {
-    "checkedAt": "2026-10-23T22:09:58.096346+00:00",
+    "checkedAt": "2026-10-30T23:07:16.534424+00:00",
     "images": [
       [
         "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon1.svg",
@@ -11846,6 +11846,11 @@
         "å±éç®­é ­"
       ]
     ],
+    "error": ""
+  },
+  "https://bank.sinopac.com/sinopacBT/personal/credit-card/right/master-world.html": {
+    "checkedAt": "2026-10-30T23:07:16.534424+00:00",
+    "images": [],
     "error": ""
   }
 }
