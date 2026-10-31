@@ -6737,7 +6737,7 @@
     "error": ""
   },
   "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-personal-card-carousel-ATL": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-31T21:40:44.743771+00:00",
     "images": [
       [
         "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/images/card/eco_w_a.png",
@@ -6873,7 +6873,7 @@
     "error": ""
   },
   "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-10-31T21:40:44.743771+00:00",
     "images": [
       [
         "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/images/point_tag.png",
@@ -11851,6 +11851,92 @@
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/right/master-world.html": {
     "checkedAt": "2026-10-30T23:07:16.534424+00:00",
     "images": [],
+    "error": ""
+  },
+  "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovsdining/index.html?pid=tw-personal-card-carousel-20260912ovsdining": {
+    "checkedAt": "2026-10-31T21:40:44.743771+00:00",
+    "images": [
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovsdining/images/cover/cover_1.png",
+        "æ¢ç´¢ä¸çå·æå±"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovsdining/images/cover/cover_2.png",
+        "åºéå°±å·æå±å¡"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovsdining/images/cover/cover_3.png",
+        "æé¡éå·"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovsdining/images/ATL_stickyBar_Q3.png",
+        "æé¡éå· ç«å³äºè§£"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovsdining/images/eco_stickyBar.png",
+        "æå±ecoæ°¸çºå¡"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/index.html?pid=tw-personal-card-carousel-pxpayplus": {
+    "checkedAt": "2026-10-31T21:40:44.743771+00:00",
+    "images": [
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/images/item_1.png",
+        "å¨æ¯ä»"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/images/point2.png",
+        "5%"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel": {
+    "checkedAt": "2026-10-31T21:40:44.743771+00:00",
+    "images": [
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/images/point_tag.png",
+        "DBS TOUR æç´è±ªç¦®"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/images/point_tag_n.png",
+        "DBS TOUR æç´å ç¢¼"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/images/Mastercard-Logo.wine.svg",
+        "Mastercard"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/images/cover/cover_6.png",
+        "æµ·å¤é¤é£²å·æå±"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/images/cover/cover_1.png",
+        "æµ·å¤è³¼ç©å·æå±"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/images/cover/cover_2.png",
+        "åºéå°±å·æå±å¡"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/images/cover/cover_5.png",
+        "æé¡éå· "
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/images/ATL_stickyBar_Q4.png",
+        "æé¡éå· ç«å³äºè§£"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/images/eco_stickyBar_n.png",
+        "æå±ecoæ°¸çºå¡"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/images/sticky_event.png",
+        "å·å¡æ»ç¥"
+      ]
+    ],
     "error": ""
   }
 }
