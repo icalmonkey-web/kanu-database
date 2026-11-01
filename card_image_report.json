@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-31T21:40:44.985992+00:00",
+  "generatedAt": "2026-11-01T22:37:11.026871+00:00",
   "added": [],
-  "withImage": 319,
+  "withImage": 322,
   "missing": [
     {
       "id": "card_cathay_cube",
@@ -1229,11 +1229,6 @@
       "cardName": "王道銀行彩虹認同卡"
     },
     {
-      "id": "card_樂天信用卡_421",
-      "bank": "樂天信用卡",
-      "cardName": "樂天公司卡"
-    },
-    {
       "id": "card_樂天信用卡_431",
       "bank": "樂天信用卡",
       "cardName": "台灣虎航聯名卡(樂虎卡)"
@@ -2168,19 +2163,7 @@
     },
     {
       "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/list.html",
-      "cached": true,
-      "error": "ConnectTimeout"
-    },
-    {
-      "bank": "永豐銀行",
       "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/co-brand/list.html",
-      "cached": true,
-      "error": "ConnectTimeout"
-    },
-    {
-      "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/business/list.html",
       "cached": true,
       "error": "ConnectTimeout"
     },
@@ -2199,6 +2182,12 @@
     {
       "bank": "永豐銀行",
       "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/WBFU.html",
+      "cached": true,
+      "error": "ConnectTimeout"
+    },
+    {
+      "bank": "永豐銀行",
+      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/business/list.html",
       "cached": true,
       "error": "ConnectTimeout"
     },
@@ -2420,12 +2409,6 @@
     },
     {
       "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/dualcurrency-card",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/inscard",
       "cached": true,
       "error": ""
@@ -2486,6 +2469,12 @@
     },
     {
       "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/poya-card",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard",
       "cached": true,
       "error": ""
@@ -2510,7 +2499,7 @@
     },
     {
       "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/poya-card",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/dualcurrency-card",
       "cached": true,
       "error": ""
     },
@@ -2630,12 +2619,6 @@
     },
     {
       "bank": "台新銀行",
-      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "台新銀行",
       "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg010/card001/",
       "cached": true,
       "error": ""
@@ -2727,6 +2710,36 @@
     {
       "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/default.page",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-personal-card-carousel-ATL",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovsdining/index.html?pid=tw-personal-card-carousel-20260912ovsdining",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/index.html?pid=tw-personal-card-carousel-pxpayplus",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
       "cached": true,
       "error": ""
     },
@@ -2828,32 +2841,14 @@
     },
     {
       "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-personal-card-carousel-ATL",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-2026q2atl",
       "candidates": 8,
       "error": ""
     },
     {
       "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel",
-      "candidates": 10,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovsdining/index.html?pid=tw-personal-card-carousel-20260912ovsdining",
-      "candidates": 5,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/index.html?pid=tw-personal-card-carousel-pxpayplus",
-      "candidates": 2,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
-      "candidates": 10,
+      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/vsoffer/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-vsoffer",
+      "candidates": 0,
       "error": ""
     }
   ]

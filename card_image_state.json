@@ -7377,7 +7377,7 @@
     "error": ""
   },
   "https://www.dbs.com.tw/personal-zh/cards/offers/vsoffer/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-vsoffer": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-11-01T22:37:10.679316+00:00",
     "images": [],
     "error": ""
   },
@@ -11935,6 +11935,44 @@
       [
         "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/images/sticky_event.png",
         "å·å¡æ»ç¥"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-2026q2atl": {
+    "checkedAt": "2026-11-01T22:37:10.679316+00:00",
+    "images": [
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/images/card/eco_w_a.png",
+        "ecoæ°¸çºå¡"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/images/highline_text.png",
+        "æå®æ¶è²»æ½çæ©æåç¿»åï¼å·è¶å¤ç­æ½çæ©æè¶å¤ï¼"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/images/highline_text_m.png",
+        "æå®æ¶è²»æ½çæ©æåç¿»åï¼å·è¶å¤ç­æ½çæ©æè¶å¤ï¼"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/images/cover/case_Q3_1.png",
+        "æææéå®¶"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/images/cover/case_Q3_2.png",
+        "èé¤å·æå±"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/images/cover/case_Q3_3.png",
+        "åå§æéå·æå±å¡"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/images/cardguide_sticky.png",
+        "æå±ä¿¡ç¨å¡å·å¡æ»ç¥"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/images/eco_stickyBar_n.png",
+        "æå±ecoæ°¸çºå¡"
       ]
     ],
     "error": ""

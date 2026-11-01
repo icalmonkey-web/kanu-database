@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2026-10-31T21:40:43.240665Z",
+  "lastUpdatedAt": "2026-11-01T22:37:09.364232Z",
   "providers": [
     {
       "name": "LINE Pay",
@@ -21,10 +21,10 @@
         "playwright"
       ],
       "eventLinkPattern": "(promotion|event|campaign|benefit|coupon)",
-      "lastSuccessfulScanAt": "2026-10-30T22:45:08.920359Z",
-      "lastScanAt": "2026-10-30T22:45:08.920359Z",
+      "lastSuccessfulScanAt": "2026-11-01T22:21:26.101219Z",
+      "lastScanAt": "2026-11-01T22:21:26.101219Z",
       "lastScanStatus": "completed",
-      "discoveredOfferCount": 17,
+      "discoveredOfferCount": 20,
       "unvisitedPageCount": 0,
       "failedPageCount": 0
     },
@@ -49,9 +49,9 @@
       ],
       "eventLinkPattern": "(news|event|campaign|activity|promotion|優惠|活動)",
       "lastSuccessfulScanAt": "",
-      "lastScanAt": "2026-10-30T22:45:09.705245Z",
+      "lastScanAt": "2026-11-01T22:21:22.986080Z",
       "lastScanStatus": "needs_review",
-      "discoveredOfferCount": 6,
+      "discoveredOfferCount": 5,
       "unvisitedPageCount": 0,
       "failedPageCount": 1
     },
@@ -77,11 +77,11 @@
       ],
       "eventLinkPattern": "(news|event|campaign|activity|easywallet|優惠|活動)",
       "lastSuccessfulScanAt": "",
-      "lastScanAt": "2026-10-30T22:49:04.574185Z",
+      "lastScanAt": "2026-11-01T22:25:04.894814Z",
       "lastScanStatus": "needs_review",
-      "discoveredOfferCount": 78,
-      "unvisitedPageCount": 73,
-      "failedPageCount": 1
+      "discoveredOfferCount": 89,
+      "unvisitedPageCount": 69,
+      "failedPageCount": 3
     },
     {
       "name": "街口支付",
@@ -103,8 +103,8 @@
         "playwright"
       ],
       "eventLinkPattern": "(event|campaign|activity|promotion|優惠|活動)",
-      "lastSuccessfulScanAt": "2026-10-30T22:45:31.350073Z",
-      "lastScanAt": "2026-10-30T22:45:31.350073Z",
+      "lastSuccessfulScanAt": "2026-11-01T22:21:27.206150Z",
+      "lastScanAt": "2026-11-01T22:21:27.206150Z",
       "lastScanStatus": "completed",
       "discoveredOfferCount": 3,
       "unvisitedPageCount": 0,
@@ -132,10 +132,10 @@
       ],
       "eventLinkPattern": "(advertMessage|event|campaign|activity|cobrandcard)",
       "lastSuccessfulScanAt": "",
-      "lastScanAt": "2026-10-30T22:47:06.885244Z",
+      "lastScanAt": "2026-11-01T22:22:24.694522Z",
       "lastScanStatus": "needs_review",
-      "discoveredOfferCount": 108,
-      "unvisitedPageCount": 16,
+      "discoveredOfferCount": 99,
+      "unvisitedPageCount": 19,
       "failedPageCount": 0
     },
     {
@@ -160,8 +160,8 @@
         "pdf"
       ],
       "eventLinkPattern": "(info|event|campaign|activity|UploadFolder|優惠|活動)",
-      "lastSuccessfulScanAt": "2026-10-31T21:36:04.402068Z",
-      "lastScanAt": "2026-10-31T21:36:04.402068Z",
+      "lastSuccessfulScanAt": "2026-11-01T22:23:03.211847Z",
+      "lastScanAt": "2026-11-01T22:23:03.211847Z",
       "lastScanStatus": "completed",
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
