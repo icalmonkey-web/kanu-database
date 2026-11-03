@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-03T01:24:34.584848+00:00",
+  "generatedAt": "2026-11-03T23:25:20.972487+00:00",
   "targetAccuracy": 0.98,
   "measuredAccuracy": null,
   "coveragePercent": null,
   "acceptanceStatus": "NOT_ESTABLISHED",
   "reason": "需要獨立官方基準清單及逐欄核對；結構通過率、測試通過率都不是優惠準確率。",
-  "totalRules": 1532,
+  "totalRules": 1549,
   "issueCounts": {
-    "UNRESOLVED_CARD_ASSOCIATION": 45,
-    "MISSING_CAMPAIGN_END": 617,
+    "UNRESOLVED_CARD_ASSOCIATION": 46,
+    "MISSING_CAMPAIGN_END": 622,
     "UNKNOWN_CALCULATION": 253,
-    "STALE_TERM_REVIEW": 686,
+    "STALE_TERM_REVIEW": 685,
     "UNKNOWN_CAP_SCOPE": 490,
-    "NO_INDEPENDENT_TERM_REVIEW": 846,
-    "UNSTRUCTURED_REGISTRATION_WINDOW": 193,
-    "MAXIMUM_ONLY": 188
+    "NO_INDEPENDENT_TERM_REVIEW": 864,
+    "UNSTRUCTURED_REGISTRATION_WINDOW": 194,
+    "MAXIMUM_ONLY": 189
   },
   "rules": [
     {
@@ -270,14 +270,6 @@
         "UNKNOWN_CALCULATION",
         "UNKNOWN_CAP_SCOPE",
         "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "STALE_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_163aa1385c0508ac7eb1",
-      "bank": "樂天國際商業銀行",
-      "title": "樂天銀行【WIN】新戶開戶任務送300元現金與胖達頸枕",
-      "issues": [
         "STALE_TERM_REVIEW"
       ]
     },
@@ -877,16 +869,6 @@
       "bank": "美國運通",
       "title": "在地好店 滿額現折",
       "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_45b258e3311dae1b583c",
-      "bank": "美國運通",
-      "title": "指定通路刷卡金回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -9368,69 +9350,6 @@
       ]
     },
     {
-      "id": "rule_bd9b1ad7b5a966f84cec",
-      "bank": "美國運通",
-      "title": "美國運通簽帳白金卡 新申辦刷卡禮(刷卡金方案)",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_35b983fe3c15c77bc6aa",
-      "bank": "美國運通",
-      "title": "美國運通簽帳白金卡 新申辦刷卡禮(會員酬賓積分方案)",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_3d268e04374bf7e75007",
-      "bank": "美國運通",
-      "title": "美國運通簽帳白金卡 白金美饌刷卡金",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b5cb9653ec027fc95c08",
-      "bank": "美國運通",
-      "title": "美國運通長榮航空簽帳白金卡 限時新申辦首刷禮",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_6d19efd61669d7b2169c",
-      "bank": "美國運通",
-      "title": "美國運通耀金卡 新申辦刷卡禮(刷卡金方案)",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_58f4294fc7a2fd719da8",
-      "bank": "美國運通",
-      "title": "美國運通耀金卡 新申辦刷卡禮(會員酬賓積分方案)",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_279f59a99dc5582e414c",
-      "bank": "美國運通",
-      "title": "美國運通長榮航空簽帳金卡 新申辦首刷禮",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_95db8c205635450387ab",
       "bank": "美國運通",
       "title": "美國運通全卡別北部專屬餐飲優惠",
@@ -9440,197 +9359,9 @@
       ]
     },
     {
-      "id": "rule_818a2b1e64ef76d24a41",
-      "bank": "樂天國際商業銀行",
-      "title": "樂天好朋友推薦活動（新戶連結指定行動支付付款享500元）",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_bfc6b62ddfb196d16c3f",
-      "bank": "臺灣土地銀行",
-      "title": "轉出好運發發發行銷活動",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_6a80d027d0d2934b3b53",
-      "bank": "臺灣土地銀行",
-      "title": "土銀JCB極緻卡新戶首刷滿額禮",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_9e23c618361ff296f7d1",
-      "bank": "臺灣土地銀行",
-      "title": "環球購物中心刷卡滿額贈",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_a3f66b3747d9caf55a68",
-      "bank": "臺灣土地銀行",
-      "title": "JC Park時尚廣場刷卡滿額贈",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_28e9f7e58f01662a393c",
-      "bank": "臺灣土地銀行",
-      "title": "漢神巨蛋就愛台灣Pay 滿2000送200元漢神巨蛋商品券",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_ae257f8468edd1e5af7d",
-      "bank": "臺灣土地銀行",
-      "title": "總督數位影城購票優惠",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_cb91fd9564efab90d2e9",
-      "bank": "臺灣土地銀行",
-      "title": "美麗華大直影城JCB刷卡優惠",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_0fc30c105e9cf0473797",
-      "bank": "臺灣土地銀行",
-      "title": "喜樂時代影城JCB刷卡優惠",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f314bca5257e434c1fcf",
-      "bank": "臺灣土地銀行",
-      "title": "轉出好運發發發行銷活動",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d87674d1d7f75bafe539",
-      "bank": "臺灣土地銀行",
-      "title": "新戶首刷滿額禮（第一重）",
-      "issues": [
-        "UNRESOLVED_CARD_ASSOCIATION",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_843e9968d7f49f26792e",
-      "bank": "臺灣土地銀行",
-      "title": "申請電子帳單並代繳公共事業費加碼禮（第二重）",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_3d1a02e04ce66951eeb5",
       "bank": "樂天國際商業銀行",
       "title": "新戶專屬領NT 750 搭車金",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d4732c26aa6edd9a8bbb",
-      "bank": "臺灣土地銀行",
-      "title": "環球購物中心刷卡滿額贈",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_558bafee8b98754ae419",
-      "bank": "臺灣土地銀行",
-      "title": "JC Park時尚廣場刷卡滿額贈",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_cf9c70e90f2f1c642ca8",
-      "bank": "臺灣土地銀行",
-      "title": "總督數位影城購票優惠",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_dcaf31cd68a0ba05e858",
-      "bank": "臺灣土地銀行",
-      "title": "美麗華大直影城購票優惠",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_4f59e3b3854ddb3f3db1",
-      "bank": "臺灣土地銀行",
-      "title": "喜樂時代影城購票優惠",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_56b49dcc15221f797d30",
-      "bank": "臺灣土地銀行",
-      "title": "親親影城購票優惠",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_5246808f612280ca479f",
-      "bank": "臺灣土地銀行",
-      "title": "美十樂連鎖藥局-台灣Pay 20%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_cc4b59625a776303a9f1",
-      "bank": "臺灣土地銀行",
-      "title": "新戶首刷滿額禮",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d50f250975ce607a9bac",
-      "bank": "臺灣土地銀行",
-      "title": "國內一般消費不限金額1%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_1f5132f88a74dc83ed04",
-      "bank": "臺灣土地銀行",
-      "title": "EZTABLE網站餐廳訂位滿額享10%現折",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_aba430fcef8d52594353",
-      "bank": "臺灣土地銀行",
-      "title": "享饗生活10%活動",
       "issues": [
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
@@ -9656,151 +9387,6 @@
       "bank": "臺灣土地銀行",
       "title": "國內一般消費回饋",
       "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_fee27ce3acf9076106aa",
-      "bank": "臺灣土地銀行",
-      "title": "JCB極緻卡新戶首刷滿額第一重刷卡金回饋",
-      "issues": [
-        "UNRESOLVED_CARD_ASSOCIATION",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_3ba157a90a3a36a20b0a",
-      "bank": "臺灣土地銀行",
-      "title": "JCB極緻卡新戶申辦電子帳單並代繳公共事業費額外加碼禮券",
-      "issues": [
-        "UNRESOLVED_CARD_ASSOCIATION",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_4ede8e03f79ea7f912cc",
-      "bank": "臺灣土地銀行",
-      "title": "現金紅利回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_29682efd9ea8601ad44e",
-      "bank": "臺灣土地銀行",
-      "title": "國外刷卡消費現金紅利回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_4fc9ca59213248aab033",
-      "bank": "臺灣土地銀行",
-      "title": "國內刷卡消費現金紅利回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_debfc7b6a03948c992eb",
-      "bank": "臺灣土地銀行",
-      "title": "國外刷卡消費現金紅利回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_5d2d663fb03515901abd",
-      "bank": "臺灣土地銀行",
-      "title": "國內刷卡消費現金紅利回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f4669dd95eb6ffe26a1a",
-      "bank": "臺灣土地銀行",
-      "title": "國外刷卡消費現金紅利回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_9a83f6a8464acaad94d6",
-      "bank": "臺灣土地銀行",
-      "title": "國內刷卡消費現金紅利回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_00a5b17a2e277c6f90d0",
-      "bank": "臺灣土地銀行",
-      "title": "現金紅利回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b32f0b11407ed430e183",
-      "bank": "臺灣土地銀行",
-      "title": "現金紅利回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_8a56e30fcad803b5f2c8",
-      "bank": "臺灣土地銀行",
-      "title": "現金紅利回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f743210358b7c9cdaf4a",
-      "bank": "臺灣土地銀行",
-      "title": "現金紅利回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_275487ee57cda3e5be42",
-      "bank": "臺灣土地銀行",
-      "title": "現金紅利回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_e9149d66d47b703caaf9",
-      "bank": "臺灣土地銀行",
-      "title": "現金紅利回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_3aab37166d54cee9434a",
-      "bank": "臺灣土地銀行",
-      "title": "現金紅利回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -13330,60 +12916,6 @@
       ]
     },
     {
-      "id": "rule_23e1af989f57df5d0281",
-      "bank": "王道銀行",
-      "title": "青年簽帳金融卡消費加碼2%現金回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b37cadcd77d47ce35ec7",
-      "bank": "王道銀行",
-      "title": "王道購物節！刷蝦皮購物享最高新台幣1,088元現金回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f642d781d0202436a278",
-      "bank": "王道銀行",
-      "title": "王道購物節！刷Coupang酷澎享最高新台幣1,088元現金回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_6bf637f2a14117fe103b",
-      "bank": "王道銀行",
-      "title": "王道購物節！刷momo購物享最高新台幣1,088元現金回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_905cc6af2413c11a91b3",
-      "bank": "王道銀行",
-      "title": "刷支付 給利就是王道 最高享6%現金回饋 !",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_81ad2ed90bb4c73e90ea",
-      "bank": "王道銀行",
-      "title": "出國、海外網購刷王道！最高享新台幣1,500元現金回饋！",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_e083773e1b526772c829",
       "bank": "樂天信用卡",
       "title": "日本高島屋及BicCamera門市10%現金回饋",
@@ -13992,6 +13524,618 @@
       "title": "Coupang酷澎刷遠銀卡單月單筆分期滿額最高享3%刷卡金",
       "issues": [
         "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_882e603c58c67efea846",
+      "bank": "美國運通",
+      "title": "新申辦首刷禮 (刷卡金或會員酬賓積分)",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_875919bc63a71f96617d",
+      "bank": "美國運通",
+      "title": "限時新申辦首刷享長榮哩程",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_e5b05e6050194586cc2d",
+      "bank": "美國運通",
+      "title": "指定通路刷卡金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_3614790b5c4d1ac9b931",
+      "bank": "美國運通",
+      "title": "會員酬賓積分回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_7c3e556066cb8e737b0c",
+      "bank": "美國運通",
+      "title": "新申辦首刷享長榮哩程",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_ebdab662aee24e6e661d",
+      "bank": "美國運通",
+      "title": "國內外消費長榮哩程回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_40a62efcb032c58147a2",
+      "bank": "美國運通",
+      "title": "簽帳白金卡 新申辦刷卡禮 好禮1 (最高NT$25,000刷卡金)",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_18e415f95eb102c90cfb",
+      "bank": "美國運通",
+      "title": "簽帳白金卡 新申辦刷卡禮 好禮2 (最高60,000會員酬賓積分)",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_bccd26d68fbaedbd1e42",
+      "bank": "美國運通",
+      "title": "簽帳白金卡 白金美饌刷卡金 (最高NT$10,000)",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_a5d05544e86421a5fbd8",
+      "bank": "美國運通",
+      "title": "長榮航空簽帳白金卡 限時新申辦不限金額首刷禮 (60,000哩程)",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_00bef9ad7b05b995ace9",
+      "bank": "美國運通",
+      "title": "耀金卡 新申辦刷卡禮 好禮1 (最高NT$7,000刷卡金)",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_777c4cc1b898f0086ff8",
+      "bank": "美國運通",
+      "title": "耀金卡 新申辦刷卡禮 好禮2 (20,000會員酬賓積分)",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_2006a685896fd04a2e74",
+      "bank": "美國運通",
+      "title": "長榮航空簽帳金卡 首3個月不限金額首刷禮 (3,000哩)",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f648b5e578caa2ee4130",
+      "bank": "樂天國際商業銀行",
+      "title": "【新戶限定】新開戶填推薦序號【PANDA】享現金NT$300",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_781c66264503b4e90eb0",
+      "bank": "樂天國際商業銀行",
+      "title": "【新戶禮】連結指定行動支付付款一次享NT$500現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_5144484f750e7c5d6a3d",
+      "bank": "樂天國際商業銀行",
+      "title": "【新戶獨享】新開戶填推薦序號【WIN】成功支付1次送現金NT$300",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_80e2e4d94fa1f2cdc62b",
+      "bank": "樂天國際商業銀行",
+      "title": "【新戶限定】新開戶訂閱KOBO PLUS扣款滿3次享NT$1,000獎勵",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_a22a75f715890782bf23",
+      "bank": "樂天國際商業銀行",
+      "title": "【新戶限定】新開戶填推薦序號【55688】連結行動支付付款送NT$750搭車金",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_bf8b0b97668a5c090685",
+      "bank": "王道銀行",
+      "title": "青年簽帳金融卡消費加碼2%現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b37cadcd77d47ce35ec7",
+      "bank": "王道銀行",
+      "title": "王道購物節！刷蝦皮購物享最高新台幣1,088元現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f642d781d0202436a278",
+      "bank": "王道銀行",
+      "title": "王道購物節！刷Coupang酷澎享最高新台幣1,088元現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_6bf637f2a14117fe103b",
+      "bank": "王道銀行",
+      "title": "王道購物節！刷momo購物享最高新台幣1,088元現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d33b2fef75bdebdc2229",
+      "bank": "王道銀行",
+      "title": "年終犒賞季 ! 指定百貨餐飲最高享8.8%現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_905cc6af2413c11a91b3",
+      "bank": "王道銀行",
+      "title": "刷支付 給利就是王道 最高享6%現金回饋 !",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_81ad2ed90bb4c73e90ea",
+      "bank": "王道銀行",
+      "title": "出國、海外網購刷王道！最高享新台幣1,500元現金回饋！",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c01d1e044d52f36041ed",
+      "bank": "樂天國際商業銀行",
+      "title": "新戶開戶填推薦碼【WIN】綁定指定行動支付消費享 300 元現金與胖達頸枕",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f0fd4a082b2252c78af4",
+      "bank": "臺灣土地銀行",
+      "title": "百貨刷卡滿額贈 - 環球購物中心",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b84d94ba798d466ae358",
+      "bank": "臺灣土地銀行",
+      "title": "百貨刷卡滿額贈 - JC Park食尚廣場",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_56d1b73df880c4db24d3",
+      "bank": "臺灣土地銀行",
+      "title": "百貨刷卡滿額贈 - 台茂購物中心",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d47624e3830dbe5206ba",
+      "bank": "臺灣土地銀行",
+      "title": "百貨刷卡滿額贈 - 新竹遠東巨城購物中心",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_7291df892bceddd605f0",
+      "bank": "臺灣土地銀行",
+      "title": "百貨刷卡滿額贈 - 京站時尚廣場",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_87776aeb0775e13679ff",
+      "bank": "臺灣土地銀行",
+      "title": "115年土銀信用卡繳地價稅享3、6期0利率，12期5%分期利率優惠方案",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_a9741e0c81c908822dc0",
+      "bank": "臺灣土地銀行",
+      "title": "地價稅用台灣Pay 土銀回饋更加倍",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_95ed51737fba6ce5e5a2",
+      "bank": "臺灣土地銀行",
+      "title": "【土銀信用卡】轉出好運發發發行銷活動",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f14aefb87525b17ead8a",
+      "bank": "臺灣土地銀行",
+      "title": "土銀JCB極緻卡 - 新戶首刷滿額雙重送（第一重）",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f314bca5257e434c1fcf",
+      "bank": "臺灣土地銀行",
+      "title": "轉出好運發發發行銷活動",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d4732c26aa6edd9a8bbb",
+      "bank": "臺灣土地銀行",
+      "title": "環球購物中心刷卡滿額贈",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_be1090bea8866ee0facc",
+      "bank": "臺灣土地銀行",
+      "title": "JC Park食尚廣場刷卡滿額贈",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_010641353cca048e078d",
+      "bank": "臺灣土地銀行",
+      "title": "台茂購物中心刷卡滿額贈",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_99b985c1cd04c1760744",
+      "bank": "臺灣土地銀行",
+      "title": "新竹遠東巨城購物中心刷卡滿額贈",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_a558aa424eb0736b9918",
+      "bank": "臺灣土地銀行",
+      "title": "京站時尚廣場刷卡滿額贈",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_8127005d0058b2d68db7",
+      "bank": "樂天國際商業銀行",
+      "title": "新戶輸入推薦代碼SNOOPY開戶並以指定行動支付消費5次送SNOOPY 20吋前開行李箱",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_4fe298ee915bbfdb113c",
+      "bank": "臺灣土地銀行",
+      "title": "115年土銀信用卡繳地價稅享3、6期0利率，12期5%分期利率優惠方案",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_476c1161040967e5b19e",
+      "bank": "臺灣土地銀行",
+      "title": "地價稅用台灣Pay 土銀回饋更加倍",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d0826d9d0c659c09f733",
+      "bank": "臺灣土地銀行",
+      "title": "新戶首刷滿額雙重送-第一重一般消費滿額刷卡金",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c1b2dfd9720885f7fd58",
+      "bank": "臺灣土地銀行",
+      "title": "新戶首刷滿額雙重送-第二重電子帳單與代繳公用事業費加碼禮券",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_cf9c70e90f2f1c642ca8",
+      "bank": "臺灣土地銀行",
+      "title": "總督數位影城購票優惠",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_9d0e47a433ed360ea197",
+      "bank": "臺灣土地銀行",
+      "title": "美麗華大直影城刷卡優惠",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_20bcb3c7ba76bb4bf7c5",
+      "bank": "臺灣土地銀行",
+      "title": "喜樂時代影城刷卡優惠",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_804bfde6edc38fa54474",
+      "bank": "臺灣土地銀行",
+      "title": "親親影城刷卡優惠",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_afd44eff3d8d297ab907",
+      "bank": "臺灣土地銀行",
+      "title": "美十樂連鎖藥局-台灣Pay 20%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f54f167d8791cb8b7f3a",
+      "bank": "臺灣土地銀行",
+      "title": "新戶滿額首刷禮",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_8c43af4637a10a8a729f",
+      "bank": "臺灣土地銀行",
+      "title": "國內一般消費不限金額1%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c0b9374181906f40cb07",
+      "bank": "臺灣土地銀行",
+      "title": "EZTABLE網站餐廳訂位滿額享10%現折",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_12236d7a811033f9e7ab",
+      "bank": "臺灣土地銀行",
+      "title": "享饗生活icash2.0功能10%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d377327274154421ff09",
+      "bank": "臺灣土地銀行",
+      "title": "新戶首刷滿額雙重送 - 第一重一般消費滿額贈",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_781808bc9fa4dd96f3a8",
+      "bank": "臺灣土地銀行",
+      "title": "新戶首刷滿額雙重送 - 第二重申辦電子帳單並代繳公共事業費加碼",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_153994aeac7d02398580",
+      "bank": "臺灣土地銀行",
+      "title": "麟洋羽球認同卡 現金紅利回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_3ae1fccfd3a361eceb9b",
+      "bank": "臺灣土地銀行",
+      "title": "icash2.0聯名鈦金卡 國外刷卡消費現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_7baebd1a1bcb5fc8a673",
+      "bank": "臺灣土地銀行",
+      "title": "icash2.0聯名鈦金卡 國內刷卡消費現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_05b72f6bf56e2641ed8d",
+      "bank": "臺灣土地銀行",
+      "title": "JCB極緻卡系列 國外刷卡消費現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d94992df84d9a708ff5b",
+      "bank": "臺灣土地銀行",
+      "title": "JCB極緻卡系列 國內刷卡消費現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_21be0e2c9f15f9062b42",
+      "bank": "臺灣土地銀行",
+      "title": "白金商務卡 國外刷卡消費現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_bd94f9e5b4429f7c13d0",
+      "bank": "臺灣土地銀行",
+      "title": "白金商務卡 國內刷卡消費現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_a0a5a869e3393e460f20",
+      "bank": "臺灣土地銀行",
+      "title": "JCB一卡通聯名晶緻卡 國外刷卡消費現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_162bb6343bdf47e05c10",
+      "bank": "臺灣土地銀行",
+      "title": "JCB一卡通聯名晶緻卡 國內刷卡消費現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_1c3020689cd905b78c94",
+      "bank": "臺灣土地銀行",
+      "title": "國際信用卡 現金紅利回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_380e3362f84c90158fdf",
+      "bank": "臺灣土地銀行",
+      "title": "康鉑晶片卡（一般客戶） 現金紅利回饋",
+      "issues": [
+        "UNRESOLVED_CARD_ASSOCIATION",
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_36c7d8ea6dd914859797",
+      "bank": "臺灣土地銀行",
+      "title": "康鉑晶片卡（房貸客戶） 現金紅利回饋",
+      "issues": [
+        "UNRESOLVED_CARD_ASSOCIATION",
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_30d3dec6b34de1057ba0",
+      "bank": "臺灣土地銀行",
+      "title": "勞動保障康鉑晶片卡 現金紅利回饋",
+      "issues": [
+        "UNRESOLVED_CARD_ASSOCIATION",
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_0e0e1c5523c557686ce5",
+      "bank": "臺灣土地銀行",
+      "title": "菁英康鉑晶片卡（綜合消費貸款客戶） 現金紅利回饋",
+      "issues": [
+        "UNRESOLVED_CARD_ASSOCIATION",
+        "MISSING_CAMPAIGN_END",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
