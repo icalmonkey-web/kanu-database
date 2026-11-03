@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-01T22:37:11.026871+00:00",
+  "generatedAt": "2026-11-03T01:24:37.138819+00:00",
   "added": [],
-  "withImage": 322,
+  "withImage": 323,
   "missing": [
     {
       "id": "card_cathay_cube",
@@ -2145,18 +2145,6 @@
     },
     {
       "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/DAWHO.html",
-      "cached": true,
-      "error": "ConnectTimeout"
-    },
-    {
-      "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/cashcard.html",
-      "cached": true,
-      "error": "ConnectTimeout"
-    },
-    {
-      "bank": "永豐銀行",
       "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/debit/debit.html",
       "cached": true,
       "error": ""
@@ -2166,12 +2154,6 @@
       "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/co-brand/list.html",
       "cached": true,
       "error": "ConnectTimeout"
-    },
-    {
-      "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/right/master-world.html",
-      "cached": true,
-      "error": ""
     },
     {
       "bank": "永豐銀行",
@@ -2188,6 +2170,18 @@
     {
       "bank": "永豐銀行",
       "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/business/list.html",
+      "cached": true,
+      "error": "ConnectTimeout"
+    },
+    {
+      "bank": "永豐銀行",
+      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/DAWHO.html",
+      "cached": true,
+      "error": "ConnectTimeout"
+    },
+    {
+      "bank": "永豐銀行",
+      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/cashcard.html",
       "cached": true,
       "error": "ConnectTimeout"
     },
@@ -2373,24 +2367,6 @@
     },
     {
       "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/eztravel",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/WORLD",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/infinite-card",
       "cached": true,
       "error": ""
@@ -2469,12 +2445,6 @@
     },
     {
       "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/poya-card",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard",
       "cached": true,
       "error": ""
@@ -2500,6 +2470,30 @@
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/dualcurrency-card",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/eztravel",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/WORLD",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/poya-card",
       "cached": true,
       "error": ""
     },
@@ -2655,12 +2649,6 @@
     },
     {
       "bank": "中國信託",
-      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share.html",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share-article-01.html",
       "cached": true,
       "error": ""
@@ -2708,6 +2696,12 @@
       "error": ""
     },
     {
+      "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share.html",
+      "cached": true,
+      "error": ""
+    },
+    {
       "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/default.page",
       "cached": true,
@@ -2721,25 +2715,19 @@
     },
     {
       "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovsdining/index.html?pid=tw-personal-card-carousel-20260912ovsdining",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/index.html?pid=tw-personal-card-carousel-pxpayplus",
       "cached": true,
       "error": ""
     },
     {
       "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-2026q2atl",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/vsoffer/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-vsoffer",
       "cached": true,
       "error": ""
     },
@@ -2840,15 +2828,27 @@
       "error": ""
     },
     {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-2026q2atl",
-      "candidates": 8,
+      "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share-article-02.html",
+      "candidates": 5,
       "error": ""
     },
     {
       "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/vsoffer/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-vsoffer",
-      "candidates": 0,
+      "url": "https://www.dbs.com.tw/personal-zh/cards/MGM/index.html?pid=tw-personal-card-carousel-MGM",
+      "candidates": 5,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/MGM/index.html?pid=tw-pweb-personal-card-featured-cardtile-MGM",
+      "candidates": 5,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/ce/default.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-online-shopping",
+      "candidates": 19,
       "error": ""
     }
   ]
