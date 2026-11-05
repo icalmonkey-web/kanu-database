@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-03T23:25:20.972487+00:00",
+  "generatedAt": "2026-11-05T00:20:48.140268+00:00",
   "targetAccuracy": 0.98,
   "measuredAccuracy": null,
   "coveragePercent": null,
   "acceptanceStatus": "NOT_ESTABLISHED",
   "reason": "需要獨立官方基準清單及逐欄核對；結構通過率、測試通過率都不是優惠準確率。",
-  "totalRules": 1549,
+  "totalRules": 1517,
   "issueCounts": {
-    "UNRESOLVED_CARD_ASSOCIATION": 46,
-    "MISSING_CAMPAIGN_END": 622,
-    "UNKNOWN_CALCULATION": 253,
-    "STALE_TERM_REVIEW": 685,
-    "UNKNOWN_CAP_SCOPE": 490,
-    "NO_INDEPENDENT_TERM_REVIEW": 864,
-    "UNSTRUCTURED_REGISTRATION_WINDOW": 194,
-    "MAXIMUM_ONLY": 189
+    "UNRESOLVED_CARD_ASSOCIATION": 43,
+    "MISSING_CAMPAIGN_END": 605,
+    "UNKNOWN_CALCULATION": 246,
+    "STALE_TERM_REVIEW": 673,
+    "UNKNOWN_CAP_SCOPE": 479,
+    "NO_INDEPENDENT_TERM_REVIEW": 844,
+    "UNSTRUCTURED_REGISTRATION_WINDOW": 175,
+    "MAXIMUM_ONLY": 163
   },
   "rules": [
     {
@@ -406,16 +406,6 @@
       "id": "rule_eeba0e2253fe1145102e",
       "bank": "美國運通",
       "title": "台中大遠百百貨週年慶滿額贈禮遇",
-      "issues": [
-        "UNKNOWN_CALCULATION",
-        "UNKNOWN_CAP_SCOPE",
-        "STALE_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_bd5077e001c7e387b328",
-      "bank": "美國運通",
-      "title": "台北SOGO Garden City 開幕慶",
       "issues": [
         "UNKNOWN_CALCULATION",
         "UNKNOWN_CAP_SCOPE",
@@ -7234,54 +7224,6 @@
       ]
     },
     {
-      "id": "rule_a2d7a4119a159ae8f3d7",
-      "bank": "王道銀行",
-      "title": "O! Range指定任務行動支付加碼",
-      "issues": [
-        "STALE_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_ad2be0811b387bd75f7a",
-      "bank": "王道銀行",
-      "title": "全支付綁卡指定通路消費回饋",
-      "issues": [
-        "STALE_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_21aa3c8e49571b17e263",
-      "bank": "王道銀行",
-      "title": "全支付首綁禮",
-      "issues": [
-        "STALE_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_404ba4c148c1eb62a014",
-      "bank": "王道銀行",
-      "title": "iPASS MONEY綁王道卡一般消費綠點加碼",
-      "issues": [
-        "STALE_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d5169b9a03951b2908ae",
-      "bank": "王道銀行",
-      "title": "O! Range指定任務百貨與餐飲加碼",
-      "issues": [
-        "STALE_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_9808f463e3c99ae5e0d7",
-      "bank": "王道銀行",
-      "title": "O! Range指定任務外送加碼",
-      "issues": [
-        "STALE_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_a6726dfaa1752bef304a",
       "bank": "王道銀行",
       "title": "一般消費現金回饋",
@@ -7425,64 +7367,6 @@
       ]
     },
     {
-      "id": "rule_316b3c0f95ff57bd5eeb",
-      "bank": "王道銀行",
-      "title": "2026年基本現金回饋方案",
-      "issues": [
-        "UNRESOLVED_CARD_ASSOCIATION",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f0db1b9813ed9dac4753",
-      "bank": "王道銀行",
-      "title": "2026年基本現金回饋方案",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_a304ee384f168c111af1",
-      "bank": "王道銀行",
-      "title": "2026年底前公益認同卡現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_1480baeaa0b11b835afa",
-      "bank": "王道銀行",
-      "title": "校園認同卡國內外一般消費現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_ebfb1259491392508e5c",
-      "bank": "王道銀行",
-      "title": "一般消費基本現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_99e798bb727143e2120f",
-      "bank": "王道銀行",
-      "title": "低碳生活卡消費碳排放達標加碼回饋",
-      "issues": [
-        "UNRESOLVED_CARD_ASSOCIATION",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_7396a93403239362b1fd",
-      "bank": "王道銀行",
-      "title": "財富無限卡現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_4229f6b4e06ec380eed5",
       "bank": "王道銀行",
       "title": "刷卡回饋再放大！Lucky Money 刷卡滿額享現金回饋",
@@ -7585,35 +7469,6 @@
       ]
     },
     {
-      "id": "rule_27df4db48238b7396f6e",
-      "bank": "星展銀行",
-      "title": "星願集刷 刷滿5筆 回饋升級",
-      "issues": [
-        "UNKNOWN_CAP_SCOPE",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "STALE_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d14317179ded4d99fa04",
-      "bank": "星展銀行",
-      "title": "eco永續卡搭配星願集刷",
-      "issues": [
-        "UNKNOWN_CAP_SCOPE",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "STALE_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_a94b1e2d0c14c74ff20e",
-      "bank": "星展銀行",
-      "title": "刷星展卡抽 iPhone Duo",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "STALE_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_5f127a78912067912ee8",
       "bank": "星展銀行",
       "title": "首綁星展卡滿額贈50全點",
@@ -7629,25 +7484,6 @@
       "issues": [
         "MAXIMUM_ONLY",
         "UNKNOWN_CAP_SCOPE",
-        "STALE_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b9bdd6c15931fad7de32",
-      "bank": "星展銀行",
-      "title": "星願集刷 刷滿5筆 回饋升級",
-      "issues": [
-        "UNKNOWN_CAP_SCOPE",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "STALE_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_eb4cf0457f2b392117e1",
-      "bank": "星展銀行",
-      "title": "刷星展卡 抽 iPhone Duo",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
         "STALE_TERM_REVIEW"
       ]
     },
@@ -9013,287 +8849,6 @@
       ]
     },
     {
-      "id": "rule_7be28ae51b1ff4d8255b",
-      "bank": "中國信託",
-      "title": "國外實體商店信用卡回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_dfca2e24608c145ab827",
-      "bank": "中國信託",
-      "title": "國內外一般消費回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_bf0e97b1c4d11a0fb2db",
-      "bank": "中國信託",
-      "title": "一卡通支付全台大眾交通工具回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_36ee09062d528e127dbc",
-      "bank": "中國信託",
-      "title": "大樹母嬰用品日",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_08a40a8180ff16448a91",
-      "bank": "中國信託",
-      "title": "foodpanda指定代碼優惠",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_681876489680b798102e",
-      "bank": "中國信託",
-      "title": "LINE Pay卡新戶首刷禮",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_582616f9de7085e99afb",
-      "bank": "中國信託",
-      "title": "撥撥貓砂優惠回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_04ea85e54197c106589b",
-      "bank": "中國信託",
-      "title": "樂天Kobo閱讀器、咖啡機回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d086dbf6e1239f17e010",
-      "bank": "中國信託",
-      "title": "出國旅遊指定通路回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_9481727def52f80f74bd",
-      "bank": "中國信託",
-      "title": "格上租車優惠回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f37970818cbe46aa41c2",
-      "bank": "中國信託",
-      "title": "台灣代駕優惠回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_98e522d28e478531dcdb",
-      "bank": "中國信託",
-      "title": "新卡禮活動",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b2a08bc6023091ae78f7",
-      "bank": "中國信託",
-      "title": "新戶禮活動",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b6a1e2517652708c891f",
-      "bank": "中國信託",
-      "title": "國內外一般消費LINE POINTS點數回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_02d342bf71118f6a54cd",
-      "bank": "中國信託",
-      "title": "國外實體商店加碼回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_c651551fc1efb849f4da",
-      "bank": "中國信託",
-      "title": "國內外一般消費回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_5101315ae3a2e2c6480e",
-      "bank": "中國信託",
-      "title": "蝦皮購物 Visa 卡加碼",
-      "issues": [
-        "UNRESOLVED_CARD_ASSOCIATION",
-        "MISSING_CAMPAIGN_END",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_3126576167d316e5ba19",
-      "bank": "中國信託",
-      "title": "屈臣氏實體與線上消費加碼",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_2b8d149844122742bef9",
-      "bank": "中國信託",
-      "title": "大樹藥局消費回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_720225b5c215af4e3dd5",
-      "bank": "中國信託",
-      "title": "寵物公園 LINE Pay 支付加碼",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_bbe14e794bf56a7500f3",
-      "bank": "中國信託",
-      "title": "Uber Eats 享 LINE POINTS 5%",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_aa72b6d5e052d3fbed55",
-      "bank": "中國信託",
-      "title": "星巴克 享 LINE POINTS 5%",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_e0847d93610af0e3c70a",
-      "bank": "中國信託",
-      "title": "壽司郎 享 LINE POINTS 10%",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_82d81863da8006fe257b",
-      "bank": "中國信託",
-      "title": "客美多咖啡 享 LINE POINTS 10%",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_65106511fad13035b3e5",
-      "bank": "中國信託",
-      "title": "摩斯漢堡 享 LINE POINTS 10%",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_9406d3fc525ca74300a5",
-      "bank": "中國信託",
-      "title": "藏壽司 享 LINE POINTS 10%",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_a04d6bd0205ea45a1edd",
-      "bank": "中國信託",
-      "title": "魚中魚貓狗水族大賣場刷卡優惠",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_1ae3df7eacb6dd227ed1",
-      "bank": "中國信託",
-      "title": "好狗命寵物幸福生活城刷卡優惠",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_65191efa0b7d5603187c",
-      "bank": "中國信託",
-      "title": "好狗運貓狗福利中心刷卡優惠",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_3b8dfc6578a1c1d25af4",
-      "bank": "中國信託",
-      "title": "撥撥貓砂官網消費回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_8397fdff12f18149f0b8",
-      "bank": "中國信託",
-      "title": "寵物公園實體門市及官網線上門市回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_69b1d0c69d14d359220f",
-      "bank": "中國信託",
-      "title": "毛孩時代官方網站消費回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_345b7f666854ae6a2431",
-      "bank": "中國信託",
-      "title": "超凝小姐官方網站消費回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_312f5c223b2a343e390b",
       "bank": "王道銀行",
       "title": "狂賀6冠，最高6%回饋",
@@ -9424,239 +8979,6 @@
       ]
     },
     {
-      "id": "rule_3d1a436f7b7c3f7cc6b0",
-      "bank": "玉山銀行",
-      "title": "玉山Unicard 每週三全聯/大全聯消費領取優惠最高10%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f7490e0e5175cb409e7b",
-      "bank": "玉山銀行",
-      "title": "玉山Unicard momo購物網、臺灣中油(直營店)等百大指定消費最高4.5%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_78e05ce173c6f13edb27",
-      "bank": "玉山銀行",
-      "title": "玉山熊本熊卡 日本消費最高享8.5%現金回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d7ef8caf0f96c32ff353",
-      "bank": "玉山銀行",
-      "title": "玉山ＵBear信用卡 指定數位訂閱平台消費最高享10%現金回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_1734af6b7ca22bf5d378",
-      "bank": "玉山銀行",
-      "title": "玉山 Pi 拍錢包信用卡 國內外一般消費最高3% P幣",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_7cfe03825c3176ab5612",
-      "bank": "玉山銀行",
-      "title": "玉山 Pi 拍錢包信用卡 保費1.2% P幣無上限",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_2ca39bf5cd7ca150afd7",
-      "bank": "玉山銀行",
-      "title": "玉山星宇航空聯名卡 國外消費最優10元1哩",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_43c7d1ed5f45101055c4",
-      "bank": "玉山銀行",
-      "title": "玉山星宇航空聯名卡 星宇航空官網/App購票9折起",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_360d8afefb685fc2477b",
-      "bank": "玉山銀行",
-      "title": "玉山易遊卡 一般消費0.5%回饋無上限",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_74b44ab2e88c3437a0cb",
-      "bank": "玉山銀行",
-      "title": "玉山易遊卡 易遊網消費2%回饋無上限",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_fe9ea294ca83de6bed21",
-      "bank": "玉山銀行",
-      "title": "玉山易遊卡 機票/訂房/團旅/遊輪最高10%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_ee96ad4f08052f30cb29",
-      "bank": "玉山銀行",
-      "title": "玉山熊本熊卡 日本一般消費最高8.5%優惠",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_541a7e4d15ed55136fee",
-      "bank": "玉山銀行",
-      "title": "玉山熊本熊卡日本消費最高享8.5%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f069549f1ff325a868ea",
-      "bank": "玉山銀行",
-      "title": "每週三全聯/大全聯消費領取優惠享最高10%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_76fe8f7c7c551a50c72f",
-      "bank": "玉山銀行",
-      "title": "momo購物網、臺灣中油等百大指定消費享最高4.5%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_7bf3a96b03fe7ab4b1d2",
-      "bank": "玉山銀行",
-      "title": "日本消費最高享8.5%現金回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b36b8d05e88b1f43aed6",
-      "bank": "玉山銀行",
-      "title": "指定數位訂閱平台消費最高享10%現金回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_4409f67b155f04953dbb",
-      "bank": "玉山銀行",
-      "title": "國內外一般消費最高3%P幣",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_8a5621e86019666e4fef",
-      "bank": "玉山銀行",
-      "title": "保費1.2%P幣無上限",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d4d90c6ed21876b61b4b",
-      "bank": "玉山銀行",
-      "title": "國外消費最優10元1哩",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_3d950482fd52cf988854",
-      "bank": "玉山銀行",
-      "title": "星宇航空官方網站/App購票9折起",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_c3c211d2efa27bb48f6a",
-      "bank": "玉山銀行",
-      "title": "一般消費0.5%回饋無上限",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_304c0e920f87ab0a2f98",
-      "bank": "玉山銀行",
-      "title": "易遊網消費2%回饋無上限",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_e1db58513c980aeaa86d",
-      "bank": "玉山銀行",
-      "title": "機票/訂房/團旅/遊輪最高10%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_9ca14e60298f1ba22f91",
       "bank": "元大銀行",
       "title": "新戶申辦鑽金智富卡或黑啤分享卡消費達檻登錄享刷卡金新臺幣777元",
@@ -9667,353 +8989,9 @@
       ]
     },
     {
-      "id": "rule_5aa5bec412b729afc157",
-      "bank": "玉山銀行",
-      "title": "每週三全聯/大全聯消費領取優惠享最高10%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "UNKNOWN_CAP_SCOPE",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_bcf4a0adaa37a5ebe7b7",
-      "bank": "玉山銀行",
-      "title": "日本一般消費最高享8.5%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "UNKNOWN_CAP_SCOPE",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_719a6cab648a292c3948",
-      "bank": "玉山銀行",
-      "title": "日本PayPay消費最高享5%優惠",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "UNKNOWN_CAP_SCOPE",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_13316280bc5d8fefbb48",
-      "bank": "玉山銀行",
-      "title": "新戶最高10%P幣，滿額贈AirPods 4",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "UNKNOWN_CAP_SCOPE",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_07d81d80d30d2f6ff17f",
-      "bank": "玉山銀行",
-      "title": "一般消費不限通路最高3% P幣",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "UNKNOWN_CAP_SCOPE",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_ae82992106147caf0336",
-      "bank": "玉山銀行",
-      "title": "網路消費最高享3%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "UNKNOWN_CAP_SCOPE",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_e29eaddfe87fdaf8be6b",
-      "bank": "玉山銀行",
-      "title": "指定數位訂閱平台最高享10%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "UNKNOWN_CAP_SCOPE",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_255f3f73917ba67d8aee",
-      "bank": "玉山銀行",
-      "title": "指定卡別享美國/歐盟地區最高2%優惠",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "UNKNOWN_CAP_SCOPE",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_abca2e3731a899a21305",
-      "bank": "玉山銀行",
-      "title": "LINE Pay、國內餐飲與百大指定消費最高4.5%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_44194f71d6855504a998",
-      "bank": "玉山銀行",
-      "title": "玉山Unicard 百大特店消費最高5%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_fb151b955920fac04ffd",
       "bank": "合作金庫",
       "title": "刷合庫卡享高鐵尊榮升等優惠",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_492fd496d2246faafa95",
-      "bank": "玉山銀行",
-      "title": "國內外一般消費基本回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_17caaae08beb723796c9",
-      "bank": "玉山銀行",
-      "title": "首刷禮：新戶或財富管理會員刷卡滿額禮",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_201887218358695553fe",
-      "bank": "玉山銀行",
-      "title": "國外實體消費最高2%現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_030af5295727226c2a44",
-      "bank": "玉山銀行",
-      "title": "指定航空、高鐵最高享3%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b61ae197ef34de871cc9",
-      "bank": "玉山銀行",
-      "title": "秋楓冬雪漫游趣滿額最高享4,000元回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_25e1ddcfb81078e16ed5",
-      "bank": "玉山銀行",
-      "title": "玉山無限卡扣繳壽險保費 最高享1.66%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_963a08e14b6aab1a9038",
-      "bank": "玉山銀行",
-      "title": "國內外一般消費基本回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_524217b9b4522eea9a99",
-      "bank": "玉山銀行",
-      "title": "環保、有機e起來 指定類別消費加碼",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b6159e499d25306b11f4",
-      "bank": "玉山銀行",
-      "title": "輕時尚版專屬優惠 指定百貨/美妝通路",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_06ba3c638f328eb6b5c6",
-      "bank": "玉山銀行",
-      "title": "寵生活版專屬優惠 指定咖啡/支付通路",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_e866d2b795cdadc3506a",
-      "bank": "玉山銀行",
-      "title": "國內外一般消費基本回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_02817fd4645f707c6840",
-      "bank": "玉山銀行",
-      "title": "icash Pay綁定消費回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_3a5be484a8b2a2b030e0",
-      "bank": "玉山銀行",
-      "title": "7-ELEVEN實體門市消費登錄享6%回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_758bdbe5474cffea3845",
-      "bank": "玉山銀行",
-      "title": "享鑽生活消費享11%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_852a218ed42990d1a16f",
-      "bank": "玉山銀行",
-      "title": "萬家福/萬家福線上購物/樂家康/Mia C'bon登錄享5%回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_5dbeaeea644b564fbbe2",
-      "bank": "玉山銀行",
-      "title": "一般消費回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f748869a460489d963d0",
-      "bank": "玉山銀行",
-      "title": "扣繳保費一次付清回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_e578e05709d20561e3a4",
-      "bank": "玉山銀行",
-      "title": "保費分期0利率與回饋方案",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_35b2eec2b7c4aecc794e",
-      "bank": "玉山銀行",
-      "title": "一般消費現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_69291a9a4344ab8a5c3d",
-      "bank": "玉山銀行",
-      "title": "基本回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d3ea12e882296b9428c3",
-      "bank": "玉山銀行",
-      "title": "Fun大紅利 紅利倍多芬",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_8c4589c87d476283cf0a",
-      "bank": "玉山銀行",
-      "title": "國內外一般消費基本回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_1a37922564c4696cb8cc",
-      "bank": "玉山銀行",
-      "title": "一般消費現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_8140ec04cca136900236",
-      "bank": "玉山銀行",
-      "title": "悠遊卡自動加值現金回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_afa6e01bf9698c339dc9",
-      "bank": "玉山銀行",
-      "title": "一般消費享0.2%玉山e point回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_94547918413001ffac75",
-      "bank": "玉山銀行",
-      "title": "一般消費玉山e point回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_c48cd655d1681d165d1e",
-      "bank": "玉山銀行",
-      "title": "一般消費現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d2ddc6b511bab412a04c",
-      "bank": "玉山銀行",
-      "title": "現金+HAPPY GO點數 雙回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_6b5d7434d11c816e5b4f",
-      "bank": "玉山銀行",
-      "title": "HAPPY GO點數特約商店累積",
       "issues": [
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
@@ -10163,55 +9141,6 @@
       ]
     },
     {
-      "id": "rule_f6774b88dccdc1c089f6",
-      "bank": "永豐銀行",
-      "title": "Apple Pay綁定 萬元驚喜抽",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_97235444430cc88f939f",
-      "bank": "玉山銀行",
-      "title": "一般消費最高6.5%回饋 (現金1%+加碼5.5% e point)",
-      "issues": [
-        "UNRESOLVED_CARD_ASSOCIATION",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_abe472fc9d688093ca45",
-      "bank": "玉山銀行",
-      "title": "【百貨購 旅遊GO！】指定通路單筆滿8千加碼3%玉山e point",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_07062ce07294a0796985",
-      "bank": "玉山銀行",
-      "title": "OwlJourney全站訂房享8%折扣",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_408a7999ee7183e33a12",
-      "bank": "玉山銀行",
-      "title": "易遊網專屬滿4,500元現折500元",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_999a195575c59f2869b0",
-      "bank": "永豐銀行",
-      "title": "Apple Pay綁定 萬元驚喜抽",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_fb2d5206f173cad32b45",
       "bank": "星展銀行",
       "title": "新戶首刷禮遇 750點 HAPPY GO點數",
@@ -10263,50 +9192,6 @@
       "id": "rule_708eb005bbb402269338",
       "bank": "星展銀行",
       "title": "新戶禮遇 NT$300刷卡金",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_7e9828600fe0af0622e2",
-      "bank": "永豐銀行",
-      "title": "分期享筆筆2%刷卡金回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_c36c6ba0d23e37012490",
-      "bank": "永豐銀行",
-      "title": "付費分期新戶滿額最高贈500元",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_166c27c02720fcf69b69",
-      "bank": "永豐銀行",
-      "title": "國外交易單筆分期滿額最高贈400元",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_73fe69f9534092689ea1",
-      "bank": "永豐銀行",
-      "title": "分期滿2筆抽500元刷卡金折抵分期利息",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_2c89d0d921ec0f91bb0d",
-      "bank": "永豐銀行",
-      "title": "【2026分期加碼活動】完成分期最高享NT$500刷卡金！",
       "issues": [
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
@@ -10400,14 +9285,6 @@
       "title": "旅遊積分回饋無上限",
       "issues": [
         "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_557dc5da8a1f0f9c4f92",
-      "bank": "滙豐銀行",
-      "title": "滙豐卓越理財信用卡升級禮遇加碼回饋",
-      "issues": [
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -10670,50 +9547,6 @@
       ]
     },
     {
-      "id": "rule_7fa08e13bb5fd23ff2f0",
-      "bank": "永豐銀行",
-      "title": "分期享筆筆2%刷卡金回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_6e7a541f97d83888d9b1",
-      "bank": "永豐銀行",
-      "title": "付費分期新戶滿額最高贈500元",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_594de31d4121a83446d9",
-      "bank": "永豐銀行",
-      "title": "國外交易單筆分期滿額最高贈400元",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_32ccdddac63c4d9a5351",
-      "bank": "永豐銀行",
-      "title": "分期滿2筆抽500元刷卡金折抵分期利息",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_1306d2ec84b3f505f3a1",
-      "bank": "永豐銀行",
-      "title": "【2026分期加碼活動】完成分期最高享NT$500刷卡金！",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_2b8b32817ffb8bb1f699",
       "bank": "永豐銀行",
       "title": "紅利享樂回饋計畫",
@@ -10950,57 +9783,6 @@
       ]
     },
     {
-      "id": "rule_5fd98e0aa4e8e02e858a",
-      "bank": "悠遊付",
-      "title": "悠遊付繳地價稅筆筆3% 滿額最高回饋7%",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "UNKNOWN_CAP_SCOPE",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_0018a68098816b62a492",
-      "bank": "悠遊付",
-      "title": "7-ELEVEN 嗶悠遊卡結帳滿$500現折$50",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_ae3033b173373879c339",
-      "bank": "悠遊付",
-      "title": "悠遊付暢遊金門 筆筆最高回饋23%",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "UNKNOWN_CAP_SCOPE",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_79b69034dfd4f4c9a6a3",
-      "bank": "悠遊付",
-      "title": "2026悠遊付掃碼領100元金門暢遊券",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_0c5279e3ba8f0cf8d39f",
-      "bank": "悠遊付",
-      "title": "東門市場開幕慶 悠遊付筆筆最高13%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "UNKNOWN_CAP_SCOPE",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_c48e7e30d1a02ce44595",
       "bank": "台北富邦",
       "title": "日韓泰旅遊 最高6%回饋",
@@ -11131,202 +9913,6 @@
       ]
     },
     {
-      "id": "rule_3dbbcbb9e9cc9eff6f80",
-      "bank": "玉山銀行",
-      "title": "玉山雙11購物盛典，最高享9,800元回饋",
-      "issues": [
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d7eae0daf3507b5ee9ae",
-      "bank": "玉山銀行",
-      "title": "玉山信用卡 繳地價稅 最高享0.2%玉山e point回饋或3期0利率",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "UNKNOWN_CAP_SCOPE",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_4b502205bd26b6f4e9a1",
-      "bank": "玉山銀行",
-      "title": "玉山信用卡綁定全支付 繳稅費享3%全點回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "UNKNOWN_CAP_SCOPE",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f2db5e4c3d2106b4ff21",
-      "bank": "玉山銀行",
-      "title": "Trip.com 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限！",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f9c4b3396e53979fcdf2",
-      "bank": "玉山銀行",
-      "title": "一般消費最高享1%",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_829ff44e256d65e63dc4",
-      "bank": "玉山銀行",
-      "title": "簡單選方案-百大指定消費加碼",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_a2ab225107940fb57985",
-      "bank": "玉山銀行",
-      "title": "日本一般消費",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_2dc886d020389320160d",
-      "bank": "玉山銀行",
-      "title": "指定日本商店消費加碼",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_59a6f4ee32107af3504a",
-      "bank": "玉山銀行",
-      "title": "綁定玉山Wallet日本PayPay消費",
-      "issues": [
-        "UNRESOLVED_CARD_ASSOCIATION",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d093aac045e3e15e1636",
-      "bank": "玉山銀行",
-      "title": "國內一般消費",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b7c2dd0b34f2d825836a",
-      "bank": "玉山銀行",
-      "title": "國內外一般消費最高1%現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_899219b59b943c6f0f79",
-      "bank": "玉山銀行",
-      "title": "網路消費最高3%現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_bb8c165ae84b5081f0a0",
-      "bank": "玉山銀行",
-      "title": "指定數位訂閱平台消費最高10%現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_37fe02a7d6582b61b347",
-      "bank": "玉山銀行",
-      "title": "申辦自扣享加碼5%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_fa3fe532f2e90487e181",
-      "bank": "玉山銀行",
-      "title": "新戶首刷禮不限通路加碼10%現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_aee04c5eda15a44d3196",
-      "bank": "玉山銀行",
-      "title": "新卡友指定三大通路加碼10%現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b88ff60ca8334d0905d1",
-      "bank": "玉山銀行",
-      "title": "一般消費最高享3% P幣回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_e244847612ae8b415927",
-      "bank": "玉山銀行",
-      "title": "新戶最高享10% P幣回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_6e7e00f4beb20f8abf2a",
-      "bank": "玉山銀行",
-      "title": "保費享1.2% P幣或分期0利率",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_52ee3ebb568221696d7e",
-      "bank": "玉山銀行",
-      "title": "申辦玉山自扣享加碼5%回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_17a7af258f7eafb7255e",
-      "bank": "玉山銀行",
-      "title": "綁定 Pi 拍錢包APP最高享5% P幣",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_0e26671212c5f0861d73",
-      "bank": "玉山銀行",
-      "title": "Pi 拍錢包指定通路最高贈611 P幣",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_aa9e8bf25c1abeaf483f",
-      "bank": "玉山銀行",
-      "title": "PChome 24h購物 1111回饋節最高贈1,800 P幣",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_a0d257c0eb4bba506dd3",
       "bank": "永豐銀行",
       "title": "鈦金商務公司卡 國內消費回饋",
@@ -11341,31 +9927,6 @@
       "title": "鈦金商務公司卡 國外消費回饋",
       "issues": [
         "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_ae8ac4a24c272c454215",
-      "bank": "玉山銀行",
-      "title": "國內一般消費回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_69176ddc5ea314cbc377",
-      "bank": "玉山銀行",
-      "title": "國外消費回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_e5c990ba35c3d3b21723",
-      "bank": "玉山銀行",
-      "title": "台灣中油直營站加油回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -11423,88 +9984,6 @@
       ]
     },
     {
-      "id": "rule_0360db1c841611de84a5",
-      "bank": "華南銀行",
-      "title": "長春商圈X台灣Pay消費20%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_a24670d6ee42b2eeb52f",
-      "bank": "王道銀行",
-      "title": "新北國王聯名卡 國內、外刷卡一般消費現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_1905e482dfb5a981a9df",
-      "bank": "王道銀行",
-      "title": "CAMA CAFE聯名卡 店內刷卡現金回饋",
-      "issues": [
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_6dcd8e75aa49303041b6",
-      "bank": "王道銀行",
-      "title": "CAMA CAFE聯名卡 海外刷卡現金回饋",
-      "issues": [
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_ee957604ae5c9db2a0c3",
-      "bank": "王道銀行",
-      "title": "FunNow聯名卡 國內/外一般消費現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_1c3a80514065ce49c38c",
-      "bank": "王道銀行",
-      "title": "一般簽帳金融卡 基本現金回饋方案",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_ffa9612045f8e8733dc6",
-      "bank": "悠遊付",
-      "title": "悠遊付繳納地價稅筆筆3%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_0bb17ebd6c5a9613a420",
-      "bank": "悠遊付",
-      "title": "悠遊付繳納地價稅早鳥滿額送$100",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d812c9e350c47566dbf7",
-      "bank": "悠遊付",
-      "title": "friDay購物悠遊付－狂購節",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_8b7bc6ce06960bfd5d86",
-      "bank": "悠遊付",
-      "title": "南門週年感謝祭-悠遊付滿額最高享30%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_c4ffc08c70399da59982",
       "bank": "icash Pay",
       "title": "icash Pay週日PAY你吃-肯德基線上訂餐滿額享5%",
@@ -11517,33 +9996,6 @@
       "bank": "icash Pay",
       "title": "icash Pay週日PAY你吃-必勝客線上訂餐滿額享5%",
       "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_e5a5c5e8096a69bc8798",
-      "bank": "悠遊付",
-      "title": "悠遊付繳納地價稅筆筆3%回饋與早鳥滿額贈",
-      "issues": [
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_bd93cc1ad5063cd831e7",
-      "bank": "悠遊付",
-      "title": "friDay購物悠遊付－狂購節",
-      "issues": [
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_06d37c079eeb1908c481",
-      "bank": "悠遊付",
-      "title": "南門週年感謝祭-悠遊付滿額最高享30%回饋",
-      "issues": [
-        "MAXIMUM_ONLY",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -11592,144 +10044,6 @@
       ]
     },
     {
-      "id": "rule_c6fd6790f2c26e390873",
-      "bank": "悠遊付",
-      "title": "悠遊付繳納地價稅 筆筆3%回饋金",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_7e0fb9f060c544ee1cb1",
-      "bank": "悠遊付",
-      "title": "悠遊付繳納地價稅 早鳥滿額送$100",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_5a260302fbf5a262c729",
-      "bank": "悠遊付",
-      "title": "悠遊付繳納地價稅 滿額回饋券與高額滿額禮",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_169fa99488917a19b8de",
-      "bank": "悠遊付",
-      "title": "玉山銀行 悠遊付綁定玉山信用卡繳地價稅優惠",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_22f3d4116dc9f9ee3c9b",
-      "bank": "悠遊付",
-      "title": "台中銀行 悠遊付綁定存款帳戶消費滿額回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_eaaa8dedf8fde5efcbc5",
-      "bank": "悠遊付",
-      "title": "第一銀行 iLEO數位帳戶新戶禮",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_c8a45b19f4400e4c1ae8",
-      "bank": "悠遊付",
-      "title": "第一銀行 週五5%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_a9e38bbce09ad0a51866",
-      "bank": "悠遊付",
-      "title": "friDay購物悠遊付－狂購節",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d353bc891f1529b94d7a",
-      "bank": "悠遊付",
-      "title": "南門週年感謝祭-悠遊付滿額最高享30%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f292a268620da6c1e7d3",
-      "bank": "悠遊付",
-      "title": "日常採買悠遊付滿額最高10%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_e5218f049d87433c8f2a",
-      "bank": "悠遊付",
-      "title": "赴韓旅遊必備悠遊付 筆筆最高送12%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_19d43126f7640726f6f0",
-      "bank": "悠遊付",
-      "title": "悠遊付繳納學雜費最高10%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_5ac9bb5fa6c38be90508",
-      "bank": "悠遊付",
-      "title": "元大銀行帳戶繳納學雜費加碼",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_87aae8ff683202eb321a",
-      "bank": "悠遊付",
-      "title": "玉山信用卡繳納學雜費分期優惠",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_57074bd5876db17b2c2a",
-      "bank": "悠遊付",
-      "title": "悠遊付繳納地價稅 筆筆3%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_621b1d7fd34fb0e31f99",
-      "bank": "悠遊付",
-      "title": "friDay購物悠遊付－狂購節",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_5d4cd1bfa4fa1e00974b",
-      "bank": "悠遊付",
-      "title": "南門週年感謝祭-悠遊付滿額最高享30%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_b512a150df703dea51fa",
       "bank": "悠遊付",
       "title": "三麗鷗灰白娃娃掛飾SuperCard悠遊卡盲盒悠遊付會員限定搶購",
@@ -11744,99 +10058,6 @@
       "title": "悠遊付新朋友專屬好禮",
       "issues": [
         "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f0838c70baf874bfb8e4",
-      "bank": "悠遊付",
-      "title": "日常採買悠遊付滿額最高10%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_09fdb9b6c3bb7c433c41",
-      "bank": "悠遊付",
-      "title": "赴韓旅遊悠遊付每筆最高送12%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_0220cae531cf3a80b12d",
-      "bank": "悠遊付",
-      "title": "繳納學雜費悠遊付最高享10%回饋",
-      "issues": [
-        "MAXIMUM_ONLY",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_20b20d91d4af012b733a",
-      "bank": "悠遊付",
-      "title": "減塑EasyLife第二波集集樂挑戰賽",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_8297925e275c4d914010",
-      "bank": "悠遊付",
-      "title": "全台7-ELEVEN門市使用悠遊付消費最高12%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_cde04028163206b79d34",
-      "bank": "玉山銀行",
-      "title": "一般消費與海外消費累積星宇哩程",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_fe07120e491f4bc88c1a",
-      "bank": "玉山銀行",
-      "title": "星宇航空指定通路哩程2倍加速",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_ca93b92be767cbc7ea45",
-      "bank": "玉山銀行",
-      "title": "生日當月國外實體通路一般消費哩程2倍",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_092ef35b6f00986107bb",
-      "bank": "玉山銀行",
-      "title": "星宇航空官網/App購票指定票價產品最高9折",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_a7ae5895a9bbf14e81d4",
-      "bank": "玉山銀行",
-      "title": "星宇航空機上免稅品與形象門市購物最優8折",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_43e2e52a593553e7a422",
-      "bank": "玉山銀行",
-      "title": "玉山數位帳戶新戶刷卡加碼10%玉山 e point",
-      "issues": [
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -11861,270 +10082,6 @@
       "bank": "台新銀行",
       "title": "店外一般消費回饋",
       "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_c63a18dbda72626cd4a0",
-      "bank": "玉山銀行",
-      "title": "一般消費 0.5% eMoney點數回饋無上限",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_af746be26b5b961a65cc",
-      "bank": "玉山銀行",
-      "title": "易遊網線上消費 2% eMoney點數回饋無上限",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_3f97eb68ce738d93ab74",
-      "bank": "玉山銀行",
-      "title": "易遊網機票/國外團旅/遊輪 最高10% eMoney點數回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_1f8afefafe6db589e980",
-      "bank": "玉山銀行",
-      "title": "易遊網訂房 最高10% eMoney點數回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_c5d3e3610b65bb9fb8e7",
-      "bank": "玉山銀行",
-      "title": "ez首購 新戶/首辦現折1,000元折扣碼",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_3f9effd6412880f184fa",
-      "bank": "玉山銀行",
-      "title": "秋楓冬雪漫遊趣 指定旅遊通路滿額最高送2,000點e point及2,000元好禮即享券",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_2da8ca4e0e3dda369972",
-      "bank": "中國信託",
-      "title": "蝦皮購物 享 LINE POINTS 5%",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_91b0eb9c8ec3d7038ee4",
-      "bank": "中國信託",
-      "title": "淘寶活動 享 LINE POINTS 5%",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_99d5723447011d94a266",
-      "bank": "中國信託",
-      "title": "三星商城 每週四/五單筆滿額享 LINE POINTS 1,000點",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_fb3d1e05aceda87b7375",
-      "bank": "中國信託",
-      "title": "LG官方線上商城 週一至週五單筆滿額享 LINE POINTS 500點",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_e9570c558a3edd777d97",
-      "bank": "中國信託",
-      "title": "UNIQLO / GU 享 LINE POINTS 10%",
-      "issues": [
-        "UNKNOWN_CAP_SCOPE",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_ea3f5aea08b393197289",
-      "bank": "中國信託",
-      "title": "Coupang 酷澎(台灣) 滿額最高享 9%",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_0f1d49cee7f12d7b09e5",
-      "bank": "玉山銀行",
-      "title": "年終樂章：冬月相隨的犒賞",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_faf61bc15f0ca2caa1de",
-      "bank": "玉山銀行",
-      "title": "指定休旅通路最高3.2%回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b9b45084831c746e54d4",
-      "bank": "玉山銀行",
-      "title": "國內消費基本回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_87156db9f00a171a239e",
-      "bank": "玉山銀行",
-      "title": "國外消費基本回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_5e0e6b3fa49e7e1d9d37",
-      "bank": "玉山銀行",
-      "title": "國外實體消費最高3.5%現金回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_8180f6b4e6f997f44c6f",
-      "bank": "玉山銀行",
-      "title": "秋楓冬雪漫遊趣滿額最高享4,000元回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_cf46615117763ebf8a9b",
-      "bank": "玉山銀行",
-      "title": "生日禮國內一般消費加碼",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_21af6742593b22718c44",
-      "bank": "玉山銀行",
-      "title": "壽險保費加碼0.9%玉山e point",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_a8e280259d9eec708b39",
-      "bank": "玉山銀行",
-      "title": "保險單筆滿額加碼活動",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_5fbe80c9c2ccdb0563f0",
-      "bank": "永豐銀行",
-      "title": "一般消費/海外消費 基本回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_8f227f8f66570b98e2bb",
-      "bank": "永豐銀行",
-      "title": "指定任務加碼回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_c412c6120dfe8c72bb6c",
-      "bank": "永豐銀行",
-      "title": "悠遊卡自動加值回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b9897732b93058e343d3",
-      "bank": "永豐銀行",
-      "title": "新戶指定行動支付最高20%刷卡金",
-      "issues": [
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_c7cda596d059fad0d294",
-      "bank": "永豐銀行",
-      "title": "首登APP享最高NT$3,500現金回饋-首登禮500元",
-      "issues": [
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_36e56ce719ad1cef450f",
-      "bank": "永豐銀行",
-      "title": "旅行綜合平安險",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "UNKNOWN_CALCULATION",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_83d107cf7632257282a2",
-      "bank": "中國信託",
-      "title": "大樹藥局刷卡加碼",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_9e4989ee994b0608e7ac",
-      "bank": "中國信託",
-      "title": "GoAmazing購精彩滿額享優惠與回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f5293c4c9a4f41fb819c",
-      "bank": "中國信託",
-      "title": "KKBOX中信LINE Pay卡友優惠",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_2124fd242f42c9eb571b",
-      "bank": "中國信託",
-      "title": "Netflix消費加碼回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -12183,103 +10140,6 @@
       ]
     },
     {
-      "id": "rule_5107e2a14fe56e7486a7",
-      "bank": "玉山銀行",
-      "title": "店內消費點數累積",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_560b2c7a5dca9baa8ce0",
-      "bank": "玉山銀行",
-      "title": "店外一般消費回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_fcf85ed7f50e094e3508",
-      "bank": "玉山銀行",
-      "title": "新卡首刷禮 15%現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f7cfe712bda61c44a0d1",
-      "bank": "玉山銀行",
-      "title": "週末狂歡日13%回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_fa2dc1cc2f216c7b5d59",
-      "bank": "玉山銀行",
-      "title": "1111放縱購-第一波",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_14f67cb77942f84afe55",
-      "bank": "玉山銀行",
-      "title": "1111放縱購-第二波",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_66fb1b3438b6e25c5999",
-      "bank": "永豐銀行",
-      "title": "現金回饋Green卡一般消費與國外消費回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_13d90053adb666eaee64",
-      "bank": "永豐銀行",
-      "title": "現金回饋Green卡 精選國內綠色通路最高5%現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_0a38b773fe0b233c39fd",
-      "bank": "中國信託",
-      "title": "屈臣氏週五週日卡友日最高LINE POINTS 7%",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_6837be230c27b55a024a",
-      "bank": "中國信託",
-      "title": "VACANZA線上商城最高81折+LINE POINTS 6%",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_086e2346a6d5cdfda852",
-      "bank": "中國信託",
-      "title": "KAFEN官方網站LINE POINTS 8%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_56a848286205f2ead851",
-      "bank": "中國信託",
-      "title": "Sisley官方網站LINE POINTS 6%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_76c5921d57d050c47fdb",
       "bank": "星展銀行",
       "title": "星級豪禮｜累積指定旅遊消費，最高解鎖RIMOWA登機箱",
@@ -12296,97 +10156,11 @@
       ]
     },
     {
-      "id": "rule_d3e0deaa369d7ee14e32",
-      "bank": "樂天信用卡",
-      "title": "樂天Panda J卡國內與海外指定通路回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_ce3b27af667f16b7a5de",
-      "bank": "中國信託",
-      "title": "Hotels.com享最高LINE POINTS 16%",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_827461974f6b4be82a40",
-      "bank": "中國信託",
-      "title": "完美行滑雪滿額最高享現折800日圓 + LINE POINTS 5%",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_db0896134b13dba79739",
-      "bank": "中國信託",
-      "title": "國外實體店享LINE POINTS 5%",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_693657e8e42aa4567143",
-      "bank": "中國信託",
-      "title": "USPACE停車享最高LINE POINTS 7%",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_0191f1bc4f1647125505",
-      "bank": "中國信託",
-      "title": "USPACE洗車享最高LINE POINTS 7%",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_dc2bd2d82e90bf5010c8",
-      "bank": "中國信託",
-      "title": "UGO機場接送享最高LINE POINTS 7%",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_0b0d46d845b5a6ba441f",
       "bank": "星展銀行",
       "title": "星饗世界 海外餐飲刷星展，最高享10%回饋",
       "issues": [
         "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_2e9f1a7cbcba990d22d2",
-      "bank": "樂天信用卡",
-      "title": "樂天Panda J卡專屬優惠，樂天旅遊享最高8%折扣",
-      "issues": [
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f6765da3c843489a4c75",
-      "bank": "樂天信用卡",
-      "title": "樂天信用卡友專屬優惠，樂天旅遊享5%折扣",
-      "issues": [
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_0347803860e48889c8b5",
-      "bank": "中國信託",
-      "title": "不限國別國外實體商店5%回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -12429,41 +10203,6 @@
       ]
     },
     {
-      "id": "rule_db0bcef34a086c9916d2",
-      "bank": "樂天信用卡",
-      "title": "樂天桃猿世界卡精選通路國內最高5%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_ff9af33dad048ee231a9",
-      "bank": "樂天信用卡",
-      "title": "樂天桃猿世界卡精選通路海外最高5%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_22748af3f83d3525090a",
-      "bank": "中國信託",
-      "title": "國內一般消費回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b44b06bcf6d9ba46256c",
-      "bank": "中國信託",
-      "title": "國外實體商店消費回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_df4e4598338632f24bb2",
       "bank": "星展銀行",
       "title": "摘星旅遊家 探索世界刷星展 滿額最高解鎖 RIMOWA",
@@ -12476,280 +10215,6 @@
       "bank": "星展銀行",
       "title": "摘星旅遊家 - Mastercard 萬事達卡加碼 刷卡解鎖尊榮星旅禮",
       "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_7e49c533ea504bc7c73a",
-      "bank": "樂天信用卡",
-      "title": "樂天樂翔卡國內一般消費與海外消費積分回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "UNKNOWN_CALCULATION",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_19a51e94ce41324c56f0",
-      "bank": "樂天信用卡",
-      "title": "樂虎卡國內外消費最高回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_8438959291af13b1e88b",
-      "bank": "中國信託",
-      "title": "國外實體商店消費回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_47fc9cc3f441af8f3019",
-      "bank": "中國信託",
-      "title": "Hotels.com 訂房優惠",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_98b8d9b4779471169aa8",
-      "bank": "中國信託",
-      "title": "Expedia 訂房優惠",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_deab8d4aa5116dd17b2a",
-      "bank": "中國信託",
-      "title": "Airbnb & Trip.com 登錄加碼回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_11045e89c209c94706eb",
-      "bank": "中國信託",
-      "title": "KKday & Klook 旅遊平台優惠",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_33218399a50db3de9e2b",
-      "bank": "中國信託",
-      "title": "旅遊周邊平台回饋 (eSIM/租車/體驗)",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f6d115071b2672452e2c",
-      "bank": "樂天信用卡",
-      "title": "線上投保明台產險旅遊險享最高2%刷卡金回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "UNKNOWN_CALCULATION",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_fda786d3a4c6a8fe3dd7",
-      "bank": "樂天信用卡",
-      "title": "KKday獨家折扣懶人包",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_265f565a2a9f1bd69525",
-      "bank": "樂天信用卡",
-      "title": "KKDAY x 樂天Panda J卡專屬優惠現折10% OFF",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d2ddae8b55b9ee22166f",
-      "bank": "樂天信用卡",
-      "title": "日本三越・伊勢丹百貨 刷樂天JCB卡最高享6萬日圓現金回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_23d4bb910a7e9b659343",
-      "bank": "樂天信用卡",
-      "title": "【樂虎卡壽星】全航線機票最高8折+優先行李服務",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_6147840c5a28cd211114",
-      "bank": "樂天信用卡",
-      "title": "日本樂天集團綜合大禮包",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_dfaa51b16b2bf7b8baea",
-      "bank": "樂天信用卡",
-      "title": "樂天Visa卡Trip.com享最高8%OFF優惠！",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_2f25cf1260ca87870d6f",
-      "bank": "樂天信用卡",
-      "title": "KKDAY x 樂虎卡專屬優惠現折10% OFF",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_eca989d7c1111948cb1c",
-      "bank": "樂天信用卡",
-      "title": "Visa卡旅日優惠大補帖",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_2d0dc23b1fa3c6aa4dcf",
-      "bank": "樂天信用卡",
-      "title": "樂天Panda J卡專屬優惠，樂天旅遊享最高8%折扣",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f571ca5e02fde5577a2f",
-      "bank": "樂天信用卡",
-      "title": "雙11-1起來樂天市場",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_006f2d32b0c6681d238c",
-      "bank": "樂天信用卡",
-      "title": "三大日本頂級珠寶．刷樂天信用卡享最優85折",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_04fe07458cfcf2802d6c",
-      "bank": "樂天信用卡",
-      "title": "Dine with 樂天 Visa，共享日本各式美饌",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_c28d16f8f1504c527280",
-      "bank": "樂天信用卡",
-      "title": "【樂虎卡限定】全航線機票最高85折",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_41d059717e9a84a8bc1e",
-      "bank": "樂天信用卡",
-      "title": "Hotels.com刷樂天 全球訂房享8%折扣",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_cf5e442743434af57999",
-      "bank": "樂天信用卡",
-      "title": "Expedia刷樂天 全球訂房享8%折扣",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_e4051d0e3ad23493bdd6",
-      "bank": "樂天信用卡",
-      "title": "樂天台灣虎航聯名卡 全新升級權益",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d84296664bda38bad49e",
-      "bank": "樂天信用卡",
-      "title": "日本旅遊專屬優惠行程",
-      "issues": [
-        "UNKNOWN_CALCULATION",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_591fa0fade643da7ef6e",
-      "bank": "樂天信用卡",
-      "title": "樂天Panda J卡專屬優惠，樂天旅遊享最高8%折扣",
-      "issues": [
-        "UNRESOLVED_CARD_ASSOCIATION",
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "UNKNOWN_CAP_SCOPE",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_dd529524f47e0ae1923f",
-      "bank": "樂天信用卡",
-      "title": "台灣樂天信用卡 X 日本樂天市場 X RGX轉運服務 滿額優惠與轉運回饋",
-      "issues": [
-        "UNRESOLVED_CARD_ASSOCIATION",
-        "MISSING_CAMPAIGN_END",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -12785,15 +10250,6 @@
       "title": "高爾夫VIP擊球優惠",
       "issues": [
         "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_49a700cfbb0ac0f609e2",
-      "bank": "樂天信用卡",
-      "title": "國內特店分期0利率",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -12916,134 +10372,10 @@
       ]
     },
     {
-      "id": "rule_e083773e1b526772c829",
-      "bank": "樂天信用卡",
-      "title": "日本高島屋及BicCamera門市10%現金回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_30d5a476dd7191b70e21",
-      "bank": "樂天信用卡",
-      "title": "日本藥妝電器滿2萬日元送2千日元",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_8b9367470c7a26220491",
-      "bank": "樂天信用卡",
-      "title": "東京寶格麗酒店 筆筆3%現金回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_4107c50a3bbbc7874cdb",
-      "bank": "樂天信用卡",
-      "title": "日本旅遊刷 Visa全球精品名牌享最高10%現金回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_9dac2df585c1ecd8f29a",
       "bank": "王道銀行",
       "title": "王道數位券，好康享起來",
       "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_6ccdee6dc6e8715cf8b3",
-      "bank": "樂天信用卡",
-      "title": "樂天卡友限定！KKday獨家折扣懶人包",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_6e7dfedf47b32197b371",
-      "bank": "將來銀行",
-      "title": "完成任務刷大將卡回饋無上限",
-      "issues": [
-        "UNKNOWN_CALCULATION",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_c8180314e731cb88a75c",
-      "bank": "樂天信用卡",
-      "title": "JCB 東京鐵塔 × JCB卡特別聯名企劃",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_846c40892108ec00ae23",
-      "bank": "樂天信用卡",
-      "title": "JCB松屋銀座95折優惠",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_ed69307f5b146f4466a6",
-      "bank": "樂天信用卡",
-      "title": "JCB × AGODA 訂房優惠",
-      "issues": [
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d487c092f153ddbc252e",
-      "bank": "將來銀行",
-      "title": "自在出遊 享國內1.5%、海外2.5%回饋無上限！",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_3d77be8a554e2b60dfb9",
-      "bank": "將來銀行",
-      "title": "把日常，過成理想生活，最高5%N點回饋!",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "UNKNOWN_CAP_SCOPE",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_49850d7a6f940b7b580c",
-      "bank": "樂天信用卡",
-      "title": "日本三越・伊勢丹百貨 刷樂天JCB卡最高享6萬日圓現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_61ecf4b97965f7406849",
-      "bank": "樂天信用卡",
-      "title": "線上投保明台產險旅遊險享最高2%刷卡金回饋",
-      "issues": [
-        "UNKNOWN_CALCULATION",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_0a4916ef098237197e80",
-      "bank": "樂天信用卡",
-      "title": "線上投汽機車險享滿額最高2%回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -13057,50 +10389,9 @@
       ]
     },
     {
-      "id": "rule_f56837c45be41f134f8e",
-      "bank": "樂天信用卡",
-      "title": "樂天桃猿世界卡精選通路國內通路5%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f1157d7b6ef03a8fb073",
-      "bank": "樂天信用卡",
-      "title": "樂天桃猿世界卡精選通路海外通路5%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_e8aec26e16cee4f01d3e",
       "bank": "將來銀行",
       "title": "【街口支付】每週四電商日綁定簽帳金融卡消費，再享5%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_bca39bb03a8d0a74364c",
-      "bank": "樂天信用卡",
-      "title": "KKDAY x 樂天Panda J卡專屬優惠現折10% OFF",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_c7cb5859fa356668ab55",
-      "bank": "樂天信用卡",
-      "title": "刷卡做伙應援！送你桃園亞洲職棒交流賽雙人球票",
-      "issues": [
-        "UNKNOWN_CALCULATION",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_1f51167a0bdcadedcb43",
-      "bank": "樂天信用卡",
-      "title": "推薦好友申辦樂天Panda J卡推薦人享400元刷卡金",
       "issues": [
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
@@ -13130,56 +10421,6 @@
       ]
     },
     {
-      "id": "rule_e0760d42169a3d69e3ef",
-      "bank": "悠遊付",
-      "title": "韓國旅遊｜悠遊付現金回饋最高12%",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_0bb714d2c7722d2e8376",
-      "bank": "悠遊付",
-      "title": "悠遊付繳納地價稅每筆送3%回饋金",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_6a79bad512cfddfb6711",
-      "bank": "悠遊付",
-      "title": "iPhone新機入手趁現在最划算！悠遊付 x friDay最高回饋$2,800",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_01b270a4a60de23731a2",
-      "bank": "悠遊付",
-      "title": "南門市場週年感謝祭熱鬧登場 最高30%回饋金等你拿",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_fff64658700525188d5b",
-      "bank": "悠遊付",
-      "title": "「日常採買」優惠登場 悠遊付最高10%回饋金",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_04da71b205b328287307",
       "bank": "icash Pay",
       "title": "星巴克指定日最高回饋16%",
@@ -13205,98 +10446,6 @@
         "MISSING_CAMPAIGN_END",
         "MAXIMUM_ONLY",
         "UNKNOWN_CAP_SCOPE",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d01e70c4f90e5894f124",
-      "bank": "悠遊付",
-      "title": "重陽敬老禮金嗶卡領取暨15大通路加碼優惠",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b043d67fdab8f8bf18c0",
-      "bank": "悠遊付",
-      "title": "基北北桃我的減碳存摺月月兌加碼活動",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_7a4da315d2439c575f37",
-      "bank": "悠遊付",
-      "title": "悠遊付會員開通金門縣民卡獨享百元現金回饋券",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d1be9bb249d3a68645b4",
-      "bank": "悠遊付",
-      "title": "悠遊付暢遊金門最高123%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_57c5c9042d082b5b4df1",
-      "bank": "安泰銀行",
-      "title": "【PCHOME】11月刷卡優惠",
-      "issues": [
-        "UNKNOWN_CALCULATION",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_7fee8cd4fbd6470a9233",
-      "bank": "安泰銀行",
-      "title": "【YAHOO】11月刷卡優惠",
-      "issues": [
-        "UNKNOWN_CALCULATION",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_fca9ae4a1ed2e5183787",
-      "bank": "安泰銀行",
-      "title": "【保費輕鬆繳】尊享優惠自由選(分期卡不適用)",
-      "issues": [
-        "UNKNOWN_CALCULATION",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_539fbc709265d8e8eff5",
-      "bank": "安泰銀行",
-      "title": "【刷安泰旅遊趣】指定旅遊消費滿額回饋",
-      "issues": [
-        "MAXIMUM_ONLY",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_8a31ee21060e07850caf",
-      "bank": "安泰銀行",
-      "title": "【刷安泰旅遊趣】海外消費抽刷卡金",
-      "issues": [
-        "UNKNOWN_CALCULATION",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_1432c64f6efe4044177e",
-      "bank": "安泰銀行",
-      "title": "【鈦金卡/鈦金悠遊卡】行動支付/海外消費最高2.7%回饋",
-      "issues": [
-        "MAXIMUM_ONLY",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -13687,69 +10836,6 @@
       ]
     },
     {
-      "id": "rule_bf8b0b97668a5c090685",
-      "bank": "王道銀行",
-      "title": "青年簽帳金融卡消費加碼2%現金回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b37cadcd77d47ce35ec7",
-      "bank": "王道銀行",
-      "title": "王道購物節！刷蝦皮購物享最高新台幣1,088元現金回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f642d781d0202436a278",
-      "bank": "王道銀行",
-      "title": "王道購物節！刷Coupang酷澎享最高新台幣1,088元現金回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_6bf637f2a14117fe103b",
-      "bank": "王道銀行",
-      "title": "王道購物節！刷momo購物享最高新台幣1,088元現金回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d33b2fef75bdebdc2229",
-      "bank": "王道銀行",
-      "title": "年終犒賞季 ! 指定百貨餐飲最高享8.8%現金回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_905cc6af2413c11a91b3",
-      "bank": "王道銀行",
-      "title": "刷支付 給利就是王道 最高享6%現金回饋 !",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_81ad2ed90bb4c73e90ea",
-      "bank": "王道銀行",
-      "title": "出國、海外網購刷王道！最高享新台幣1,500元現金回饋！",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_c01d1e044d52f36041ed",
       "bank": "樂天國際商業銀行",
       "title": "新戶開戶填推薦碼【WIN】綁定指定行動支付消費享 300 元現金與胖達頸枕",
@@ -14136,6 +11222,2581 @@
       "issues": [
         "UNRESOLVED_CARD_ASSOCIATION",
         "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_1e51c190a00ebb5f6514",
+      "bank": "玉山銀行",
+      "title": "每週三全聯/大全聯領優惠最高10%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f4617752f457cbfb272f",
+      "bank": "玉山銀行",
+      "title": "百大指定消費最高4.5%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_976b68af1e8594e05378",
+      "bank": "玉山銀行",
+      "title": "日本消費最高享8.5%現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_6cc5c1eae50f33444b65",
+      "bank": "玉山銀行",
+      "title": "指定數位訂閱平台消費最高享10%現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_1761595f382f404349b7",
+      "bank": "玉山銀行",
+      "title": "國內外一般消費最高3%P幣",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c9213030914fc0497b2f",
+      "bank": "玉山銀行",
+      "title": "保費1.2%P幣無上限",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f50569418e4655a8af52",
+      "bank": "玉山銀行",
+      "title": "機票/訂房/團旅/遊輪最高10%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_558795ced6e1aee1ed9d",
+      "bank": "玉山銀行",
+      "title": "每週末實體門市、寶雅線上買享13%現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_68a60091033d6d797d47",
+      "bank": "永豐銀行",
+      "title": "ApplePay綁定 萬元驚喜抽",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_ab3d09d1fb8c468757cf",
+      "bank": "中國信託",
+      "title": "國內一般消費 1% LINE POINTS 回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_74df151a90ceae1dfc80",
+      "bank": "中國信託",
+      "title": "國外實體商店消費最高 2.8% LINE POINTS 回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_83832f06316a46ec8e93",
+      "bank": "中國信託",
+      "title": "一卡通支付全台大眾交通工具 1% 回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b33d5869a3c1a728273e",
+      "bank": "中國信託",
+      "title": "每週三六大樹藥局滿額最高 6% 回饋",
+      "issues": [
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_2a08d444fe5530e537f2",
+      "bank": "中國信託",
+      "title": "撥撥貓砂享最高 LINE POINTS 10% 回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_fa7e2790631e3365d53c",
+      "bank": "中國信託",
+      "title": "樂天Kobo與濃萃咖啡機最高享 6% 回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_045ae7bf9e706304d71e",
+      "bank": "中國信託",
+      "title": "格上租車最高折 650 元 ＋ LINE POINTS 8%",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_03ec8e0b146e5cd98e5d",
+      "bank": "中國信託",
+      "title": "台灣代駕享最高 800 元優惠券 ＋ LINE POINTS 6%",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_773a7fd914e301751fd5",
+      "bank": "中國信託",
+      "title": "指定旅遊品牌最高享 LINE POINTS 25%",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_0daa1bed0c3f2dd6bfa9",
+      "bank": "中國信託",
+      "title": "foodpanda 輸入指定代碼滿額現折 20 元",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_ebb5d67255c58a3b0e9f",
+      "bank": "中國信託",
+      "title": "新戶首刷禮滿額送 300 點 LINE POINTS",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_ae4b944aa386ab815b85",
+      "bank": "玉山銀行",
+      "title": "玉山雙11購物盛典 最高享9,800元回饋",
+      "issues": [
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_a78d49782b9f2617c238",
+      "bank": "玉山銀行",
+      "title": "玉山信用卡繳地價稅 最高享0.2%玉山e point回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_06576652ad133937e74e",
+      "bank": "玉山銀行",
+      "title": "玉山環球賞 啟用優惠最高20%現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_4b502205bd26b6f4e9a1",
+      "bank": "玉山銀行",
+      "title": "玉山信用卡綁定全支付 繳稅費享3%全點回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c98b8514c820215cafaf",
+      "bank": "玉山銀行",
+      "title": "Trip.com 玉山JCB卡訂日本飯店最高享14%折扣",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_95cd29a0286a881ff06c",
+      "bank": "玉山銀行",
+      "title": "Trip.com 玉山Visa卡訂房享8%折扣無上限",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_8cc9cf307e7c6c098d47",
+      "bank": "永豐銀行",
+      "title": "ApplePay綁定 萬元驚喜抽",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_a1f160be19f7dffd607a",
+      "bank": "星展銀行",
+      "title": "星願集刷 刷滿5筆 回饋升級 2%刷卡金",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_4ccd721cae6b97a7f9cb",
+      "bank": "星展銀行",
+      "title": "星展eco永續卡 搭配星願集刷最高3%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_57df328f2449be7db961",
+      "bank": "星展銀行",
+      "title": "刷星展卡 抽 iPhone Duo",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_869a6389251df47ffc43",
+      "bank": "中國信託",
+      "title": "新戶首刷禮滿額送 LINE POINTS 300點",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_7d26147e52cf79bd41c4",
+      "bank": "中國信託",
+      "title": "新卡首刷禮滿額送 LINE POINTS 100點",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f6a4ab33ceb4f6e5b3c0",
+      "bank": "中國信託",
+      "title": "好友推薦申辦 被推薦人任刷一筆送 LINE POINTS 50點",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_a66009fe14cb5029a068",
+      "bank": "永豐銀行",
+      "title": "單筆消費分期 享筆筆2%刷卡金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c36c6ba0d23e37012490",
+      "bank": "永豐銀行",
+      "title": "付費分期新戶滿額最高贈500元",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_166c27c02720fcf69b69",
+      "bank": "永豐銀行",
+      "title": "國外交易單筆分期滿額最高贈400元",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_73fe69f9534092689ea1",
+      "bank": "永豐銀行",
+      "title": "分期滿2筆抽500元刷卡金折抵分期利息",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d20041977c2b85fd74d6",
+      "bank": "永豐銀行",
+      "title": "2026分期加碼活動-老朋友申辦數位通路單次分期",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_34d62ffdb9a67ed935cc",
+      "bank": "永豐銀行",
+      "title": "2026分期加碼活動-完成大咖DACARD APP自動分期",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c987c75ceadcca999308",
+      "bank": "星展銀行",
+      "title": "星願集刷 刷滿5筆 回饋升級",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_1c117917f27b3f20c7d5",
+      "bank": "中國信託",
+      "title": "Uber Eats享LINE POINTS 5%",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_3d57e3a8188f87ce3b30",
+      "bank": "中國信託",
+      "title": "星巴克享LINE POINTS 5%",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_afd53fe706142a50cbed",
+      "bank": "中國信託",
+      "title": "壽司郎享LINE POINTS 10%",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_cb074c7cb2c8e5f2efab",
+      "bank": "中國信託",
+      "title": "客美多咖啡享LINE POINTS 10%",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_71be588e81b5e518d824",
+      "bank": "中國信託",
+      "title": "摩斯漢堡享LINE POINTS 10%",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_e8a7e42a1f0f86a48c37",
+      "bank": "中國信託",
+      "title": "藏壽司享LINE POINTS 10%",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_7fa08e13bb5fd23ff2f0",
+      "bank": "永豐銀行",
+      "title": "分期享筆筆2%刷卡金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_6e7a541f97d83888d9b1",
+      "bank": "永豐銀行",
+      "title": "付費分期新戶滿額最高贈500元",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_594de31d4121a83446d9",
+      "bank": "永豐銀行",
+      "title": "國外交易單筆分期滿額最高贈400元",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_32ccdddac63c4d9a5351",
+      "bank": "永豐銀行",
+      "title": "分期滿2筆抽500元刷卡金折抵分期利息",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_15fe308ca8e277d8d842",
+      "bank": "永豐銀行",
+      "title": "2026分期加碼活動 完成分期最高享NT$500刷卡金",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_062f6010f7fa10c74fe8",
+      "bank": "樂天信用卡",
+      "title": "樂天Panda J卡國內外消費最高回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c833713969fecc40c328",
+      "bank": "中國信託",
+      "title": "魚中魚享LINE POINTS最高4%",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b532c00df409f51ea077",
+      "bank": "中國信託",
+      "title": "好狗命享LINE POINTS 5%",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_5c84df8c79661bf32346",
+      "bank": "中國信託",
+      "title": "好狗運享LINE POINTS 30點",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_a7a3e0dd914683e5b8fc",
+      "bank": "中國信託",
+      "title": "撥撥享LINE POINTS 10%",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c24b22e5ad5ba5cdf38c",
+      "bank": "中國信託",
+      "title": "寵物公園享最高LINE POINTS 8%",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_8b4315b4da7cc52aacf0",
+      "bank": "中國信託",
+      "title": "毛孩時代享最高LINE POINTS 8%",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_970ef42d925b3c838989",
+      "bank": "中國信託",
+      "title": "超凝小姐享最高LINE POINTS 5%",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_69cd3390fae9e908efe2",
+      "bank": "永豐銀行",
+      "title": "國內一般消費基本回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_a60dd7bad93f5815a8d8",
+      "bank": "永豐銀行",
+      "title": "國外一般消費基本回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f92ab378a686d72f6a98",
+      "bank": "永豐銀行",
+      "title": "完成指定任務等級加碼回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c412c6120dfe8c72bb6c",
+      "bank": "永豐銀行",
+      "title": "悠遊卡自動加值回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_47ccf6b775f10b96044c",
+      "bank": "永豐銀行",
+      "title": "新戶指定行動支付享最高20%刷卡金",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_af2e9a347035ebd2bbce",
+      "bank": "樂天信用卡",
+      "title": "樂天旅遊訂房享最高5%折扣",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_2e9f1a7cbcba990d22d2",
+      "bank": "樂天信用卡",
+      "title": "樂天Panda J卡專屬優惠，樂天旅遊享最高8%折扣",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_5effb859944c6f4cedb2",
+      "bank": "中國信託",
+      "title": "蝦皮購物享LINE POINTS 5%",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_541a7e4d15ed55136fee",
+      "bank": "玉山銀行",
+      "title": "玉山熊本熊卡日本消費最高享8.5%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b48a1968ec9b0491ff90",
+      "bank": "永豐銀行",
+      "title": "現金回饋Green卡一般消費國內外回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_13d90053adb666eaee64",
+      "bank": "永豐銀行",
+      "title": "現金回饋Green卡 精選國內綠色通路最高5%現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d1107427ee779f526322",
+      "bank": "樂天信用卡",
+      "title": "樂天桃猿世界卡享精選通路最高5%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_13201a04e5a7487bd9ec",
+      "bank": "中國信託",
+      "title": "大樹藥局享最高6%",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_25c42b6eaea89676b50d",
+      "bank": "中國信託",
+      "title": "GoAmazing 購精彩享滿額最高6%",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_501f0553a8928abac3e5",
+      "bank": "中國信託",
+      "title": "KKBOX 享優惠價與回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_5c7134292fee4da8b784",
+      "bank": "中國信託",
+      "title": "Netflix 享 LINE POINTS 5%",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f069549f1ff325a868ea",
+      "bank": "玉山銀行",
+      "title": "每週三全聯/大全聯消費領取優惠享最高10%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_93496d03fdf1f4a4c25a",
+      "bank": "玉山銀行",
+      "title": "momo購物網、臺灣中油(直營店)等百大指定消費享最高4.5%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_7bf3a96b03fe7ab4b1d2",
+      "bank": "玉山銀行",
+      "title": "日本消費最高享8.5%現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b36b8d05e88b1f43aed6",
+      "bank": "玉山銀行",
+      "title": "指定數位訂閱平台消費最高享10%現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_4409f67b155f04953dbb",
+      "bank": "玉山銀行",
+      "title": "國內外一般消費最高3%P幣",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_8a5621e86019666e4fef",
+      "bank": "玉山銀行",
+      "title": "保費1.2%P幣無上限",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c3c211d2efa27bb48f6a",
+      "bank": "玉山銀行",
+      "title": "一般消費0.5%回饋無上限",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_304c0e920f87ab0a2f98",
+      "bank": "玉山銀行",
+      "title": "易遊網消費2%回饋無上限",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_e1db58513c980aeaa86d",
+      "bank": "玉山銀行",
+      "title": "機票/訂房/團旅/遊輪最高10%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_4061ae5a82e941136baa",
+      "bank": "樂天信用卡",
+      "title": "樂天樂翔卡國內與海外回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_64584403202cd61353b5",
+      "bank": "樂天信用卡",
+      "title": "樂虎卡國內外最高回饋與優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_8e9cd15feb559d685d7e",
+      "bank": "中國信託",
+      "title": "屈臣氏週日最高LINE POINTS 7%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_3debf9d03dfd8bab56ba",
+      "bank": "中國信託",
+      "title": "VACANZA線上商城現折與LINE POINTS 6%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_e1922dc641ca529b4669",
+      "bank": "中國信託",
+      "title": "KAFEN官方網站最高LINE POINTS 8%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_07d44f8b55c0ab78a758",
+      "bank": "中國信託",
+      "title": "Sisley官方網站最高LINE POINTS 6%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c6bb3f9a4f108f208bc9",
+      "bank": "中國信託",
+      "title": "Hotels.com訂房最高LINE POINTS 16%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_bd615190530f5e4e6310",
+      "bank": "中國信託",
+      "title": "完美行滑雪滿額最高享現折800日圓與LINE POINTS 5%",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_61a46b6723ec6344a8e2",
+      "bank": "中國信託",
+      "title": "國外實體店消費享最高LINE POINTS 5%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_5d218b437ad21803eea8",
+      "bank": "中國信託",
+      "title": "USPACE停車、洗車最高LINE POINTS 7%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f6d115071b2672452e2c",
+      "bank": "樂天信用卡",
+      "title": "線上投保明台產險旅遊險享最高2%刷卡金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "UNKNOWN_CALCULATION",
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_265f565a2a9f1bd69525",
+      "bank": "樂天信用卡",
+      "title": "KKDAY x 樂天Panda J卡專屬優惠現折10% OFF",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_ebe8f5e047fbe065ee01",
+      "bank": "樂天信用卡",
+      "title": "KKDAY x 樂虎卡專屬優惠現折10% OFF",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_dfaa51b16b2bf7b8baea",
+      "bank": "樂天信用卡",
+      "title": "樂天Visa卡Trip.com享最高8%OFF優惠！",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_7eb87f28b9d19c794387",
+      "bank": "中國信託",
+      "title": "不限國別國外實體商店",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d84296664bda38bad49e",
+      "bank": "樂天信用卡",
+      "title": "日本旅遊專屬優惠行程",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "UNKNOWN_CALCULATION",
+        "UNKNOWN_CAP_SCOPE",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_7795281a0be6b9461721",
+      "bank": "中國信託",
+      "title": "國內外一般消費回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f5000cb2080813ba351d",
+      "bank": "中國信託",
+      "title": "國外實體商店消費加碼回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_42c37ae7b8e5bdc0a4fe",
+      "bank": "玉山銀行",
+      "title": "公務人員國民旅遊卡 一般消費回饋最高6.5%",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_2685ad13e796e38e007d",
+      "bank": "玉山銀行",
+      "title": "百貨購 旅遊GO！指定通路滿額加碼3%",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_96b9ff9cdf316083dbc2",
+      "bank": "樂天信用卡",
+      "title": "樂天Panda J卡專屬優惠，樂天旅遊享最高8%折扣",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_ce060aa090ecdc054cc5",
+      "bank": "樂天信用卡",
+      "title": "日本樂天市場與RGX轉運服務優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_22748af3f83d3525090a",
+      "bank": "中國信託",
+      "title": "國內一般消費回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b44b06bcf6d9ba46256c",
+      "bank": "中國信託",
+      "title": "國外實體商店消費回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_5aa5bec412b729afc157",
+      "bank": "玉山銀行",
+      "title": "每週三全聯/大全聯消費領取優惠享最高10%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_bcf4a0adaa37a5ebe7b7",
+      "bank": "玉山銀行",
+      "title": "日本一般消費最高享8.5%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_719a6cab648a292c3948",
+      "bank": "玉山銀行",
+      "title": "日本PayPay消費最高享5%優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_13316280bc5d8fefbb48",
+      "bank": "玉山銀行",
+      "title": "新戶最高10%P幣，滿額贈AirPods 4",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_07d81d80d30d2f6ff17f",
+      "bank": "玉山銀行",
+      "title": "一般消費不限通路最高3% P幣",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_ae82992106147caf0336",
+      "bank": "玉山銀行",
+      "title": "網路消費最高享3%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_e29eaddfe87fdaf8be6b",
+      "bank": "玉山銀行",
+      "title": "指定數位訂閱平台最高享10%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_255f3f73917ba67d8aee",
+      "bank": "玉山銀行",
+      "title": "指定卡別享美國/歐盟地區最高2%優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c651551fc1efb849f4da",
+      "bank": "中國信託",
+      "title": "國內外一般消費回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_9282af48084f83165908",
+      "bank": "中國信託",
+      "title": "蝦皮購物 Visa 加碼",
+      "issues": [
+        "UNRESOLVED_CARD_ASSOCIATION",
+        "MISSING_CAMPAIGN_END",
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c60c2a08aab052414b9d",
+      "bank": "中國信託",
+      "title": "Pinkoi 指定日結帳加碼",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_39be57cf9f2079d1f8dc",
+      "bank": "中國信託",
+      "title": "屈臣氏週日滿額加碼",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_37af9c9cb4d80b11b1f2",
+      "bank": "中國信託",
+      "title": "大樹藥局日常補貨回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_8299dfca439d58f3806b",
+      "bank": "中國信託",
+      "title": "VACANZA 官網購物優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_720225b5c215af4e3dd5",
+      "bank": "中國信託",
+      "title": "寵物公園 LINE Pay 支付加碼",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_49a700cfbb0ac0f609e2",
+      "bank": "樂天信用卡",
+      "title": "國內特店分期0利率",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_abca2e3731a899a21305",
+      "bank": "玉山銀行",
+      "title": "LINE Pay、國內餐飲與百大指定消費最高4.5%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_47fc9cc3f441af8f3019",
+      "bank": "中國信託",
+      "title": "Hotels.com 訂房優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_98b8d9b4779471169aa8",
+      "bank": "中國信託",
+      "title": "Expedia 訂房優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_bf9b797138205af74226",
+      "bank": "中國信託",
+      "title": "Airbnb 訂房優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_bed873f2dbce9d1afa61",
+      "bank": "中國信託",
+      "title": "Trip.com 訂房優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_5847ab969ad29f1c46d3",
+      "bank": "中國信託",
+      "title": "易遊網全球訂房與機加酒優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_7fffadfa19c268816be9",
+      "bank": "中國信託",
+      "title": "KKday 行程票券優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d21256bdfa52b9f860e0",
+      "bank": "中國信託",
+      "title": "Klook 行程票券優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_71e8660e93f2ad90d05e",
+      "bank": "中國信託",
+      "title": "ShopBack X Saily eSIM 優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_3e2e359fe3dd5a542a9b",
+      "bank": "中國信託",
+      "title": "ShopBack X gogoout 租車優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_2edd1b1b04a73745e80b",
+      "bank": "中國信託",
+      "title": "格上租車優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_3ccbbff5964a2a1444e4",
+      "bank": "中國信託",
+      "title": "FunNow 在地體驗優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_eee5d20501d8c1b41b73",
+      "bank": "中國信託",
+      "title": "找體驗在地體驗優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_71f50c0d3b06ca0b52cd",
+      "bank": "滙豐銀行",
+      "title": "滙豐卓越理財信用卡升級活動加碼回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_4ff2178cf516a522f962",
+      "bank": "玉山銀行",
+      "title": "百大特店消費最高5%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f9c4b3396e53979fcdf2",
+      "bank": "玉山銀行",
+      "title": "一般消費最高享1%",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_973de40f90594d566d08",
+      "bank": "玉山銀行",
+      "title": "百大指定消費加碼",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_a2ab225107940fb57985",
+      "bank": "玉山銀行",
+      "title": "日本一般消費",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c5915f2f9ef7483a62ea",
+      "bank": "玉山銀行",
+      "title": "指定日本商店消費",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_59a6f4ee32107af3504a",
+      "bank": "玉山銀行",
+      "title": "綁定玉山Wallet日本PayPay消費",
+      "issues": [
+        "UNRESOLVED_CARD_ASSOCIATION",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d093aac045e3e15e1636",
+      "bank": "玉山銀行",
+      "title": "國內一般消費",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_09db17d56891d8dd6cd3",
+      "bank": "玉山銀行",
+      "title": "國內外一般消費基本回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_a2f120e69b7427344674",
+      "bank": "玉山銀行",
+      "title": "網路消費最高3%現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_8c037e4d9d7697e57611",
+      "bank": "玉山銀行",
+      "title": "指定數位訂閱平台最高10%現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_71c436775491382709a3",
+      "bank": "玉山銀行",
+      "title": "一般消費基本回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_ab19a2841baa44542145",
+      "bank": "玉山銀行",
+      "title": "每月國內外一般消費滿額加碼回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_ef06c8669d1cc82539dd",
+      "bank": "玉山銀行",
+      "title": "新戶首次申辦加碼回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_948dbb5611a10eafb14a",
+      "bank": "玉山銀行",
+      "title": "保費一次付清回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f2f6a88287096bd1152b",
+      "bank": "玉山銀行",
+      "title": "Pi拍錢包綁定APP加碼回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_730142773d9d792542ea",
+      "bank": "玉山銀行",
+      "title": "Pi 拍錢包指定通路滿額贈 P幣 (活動一)",
+      "issues": [
+        "UNRESOLVED_CARD_ASSOCIATION",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b758533b1fdfb2351ee7",
+      "bank": "玉山銀行",
+      "title": "Pi 拍錢包指定通路滿額贈 P幣 (活動二)",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_a78f2772db798dc817dd",
+      "bank": "玉山銀行",
+      "title": "PChome 24h購物 1111回饋節 (單筆滿15,000)",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d52d6b2910399472b339",
+      "bank": "玉山銀行",
+      "title": "PChome 24h購物 1111回饋節 (單筆滿36,000)",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_13f3f007c74b620e4344",
+      "bank": "玉山銀行",
+      "title": "新卡首刷禮-世界之極卡",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_cf967fc562c07617f100",
+      "bank": "玉山銀行",
+      "title": "新卡首刷禮-世界卡",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_739d8df69e66457483fd",
+      "bank": "玉山銀行",
+      "title": "新卡首刷禮-商務鈦金卡",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_663f0bab07a7ab051697",
+      "bank": "玉山銀行",
+      "title": "新卡首刷禮-鈦金卡",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d252168f84ef95a0e9c3",
+      "bank": "玉山銀行",
+      "title": "生日禮-國外實體通路一般消費哩程2倍回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_709cdfe7e765ac7bda95",
+      "bank": "玉山銀行",
+      "title": "基本哩程-世界之極卡國內消費",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_e0d63f90d788507798b1",
+      "bank": "玉山銀行",
+      "title": "基本哩程-世界之極卡國外消費",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_2c4a250154eae320dc88",
+      "bank": "玉山銀行",
+      "title": "基本哩程-世界卡國內消費",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_7c1e68ee456e7f6a07d1",
+      "bank": "玉山銀行",
+      "title": "基本哩程-世界卡國外消費",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_7dc6f8a8f78b48691b55",
+      "bank": "玉山銀行",
+      "title": "基本哩程-商務鈦金卡國內消費",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_30ff04338dff256a4d99",
+      "bank": "玉山銀行",
+      "title": "基本哩程-商務鈦金卡國外消費",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_bb4d56d2fc5e081a97e6",
+      "bank": "玉山銀行",
+      "title": "基本哩程-鈦金卡國內消費",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f4298adef0f629a05894",
+      "bank": "玉山銀行",
+      "title": "基本哩程-鈦金卡國外消費",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d395bdaac835a3a5d650",
+      "bank": "玉山銀行",
+      "title": "星宇航空指定通路哩程加速",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_45ebd1fc3a320ab26a05",
+      "bank": "玉山銀行",
+      "title": "一般消費回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_0e5ca4d5a40f6a658236",
+      "bank": "玉山銀行",
+      "title": "易遊網線上消費",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_eabc52bc7e2bb8bdc213",
+      "bank": "玉山銀行",
+      "title": "易遊網機票/國外團旅/遊輪加碼",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_5316e3abfc598649f7aa",
+      "bank": "玉山銀行",
+      "title": "易遊網訂房加碼",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_7bcad1f0a2e7f6811a2b",
+      "bank": "玉山銀行",
+      "title": "秋楓冬雪漫遊趣滿額最高享4,000元回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_899b0183df2eb3dd7ac9",
+      "bank": "玉山銀行",
+      "title": "國內一般消費基本回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_1db3088f875850e7a501",
+      "bank": "玉山銀行",
+      "title": "國外一般消費基本回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_492fd496d2246faafa95",
+      "bank": "玉山銀行",
+      "title": "國內外一般消費基本回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_201887218358695553fe",
+      "bank": "玉山銀行",
+      "title": "國外實體消費最高2%現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_030af5295727226c2a44",
+      "bank": "玉山銀行",
+      "title": "指定航空、高鐵最高享3%回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_57bed7421e1b78f67c25",
+      "bank": "玉山銀行",
+      "title": "刷壽險保費享加碼0.1%回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_963a08e14b6aab1a9038",
+      "bank": "玉山銀行",
+      "title": "國內外一般消費基本回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_524217b9b4522eea9a99",
+      "bank": "玉山銀行",
+      "title": "環保、有機e起來 指定類別消費加碼",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_800a869234b6c982db96",
+      "bank": "玉山銀行",
+      "title": "輕時尚版專屬優惠 指定百貨/美妝通路消費加碼",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c37ae1f16d6939ad0036",
+      "bank": "玉山銀行",
+      "title": "寵生活版專屬優惠 指定咖啡/支付通路消費加碼",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_e866d2b795cdadc3506a",
+      "bank": "玉山銀行",
+      "title": "國內外一般消費基本回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b4ba4611077d79c44360",
+      "bank": "玉山銀行",
+      "title": "icash Pay消費回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_3a5be484a8b2a2b030e0",
+      "bank": "玉山銀行",
+      "title": "7-ELEVEN實體門市消費登錄享6%回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_758bdbe5474cffea3845",
+      "bank": "玉山銀行",
+      "title": "享鑽生活消費享11%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_852a218ed42990d1a16f",
+      "bank": "玉山銀行",
+      "title": "萬家福/萬家福線上購物/樂家康/Mia C'bon登錄享5%回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_91a673ed177e6d7e1e4e",
+      "bank": "玉山銀行",
+      "title": "國內一般消費現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_5415f39a975006bc62d5",
+      "bank": "玉山銀行",
+      "title": "國外消費現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_60b89af263755110aceb",
+      "bank": "玉山銀行",
+      "title": "美元雙幣卡美國地區加碼",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_9edbf2b0f7637a45a4e8",
+      "bank": "玉山銀行",
+      "title": "歐元雙幣卡歐盟地區加碼",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_46a6616f80a4a9317cde",
+      "bank": "玉山銀行",
+      "title": "秋楓冬雪漫遊趣旅遊加碼",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_e5c990ba35c3d3b21723",
+      "bank": "玉山銀行",
+      "title": "台灣中油直營站加油回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_e083773e1b526772c829",
+      "bank": "樂天信用卡",
+      "title": "日本高島屋及BicCamera門市10%現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_30d5a476dd7191b70e21",
+      "bank": "樂天信用卡",
+      "title": "日本藥妝電器滿2萬日元送2千日元",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_8b9367470c7a26220491",
+      "bank": "樂天信用卡",
+      "title": "東京寶格麗酒店 筆筆3%現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_4107c50a3bbbc7874cdb",
+      "bank": "樂天信用卡",
+      "title": "日本旅遊刷 Visa全球精品名牌享最高10%現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_5dbeaeea644b564fbbe2",
+      "bank": "玉山銀行",
+      "title": "一般消費回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f748869a460489d963d0",
+      "bank": "玉山銀行",
+      "title": "扣繳保費一次付清回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_6ccdee6dc6e8715cf8b3",
+      "bank": "樂天信用卡",
+      "title": "樂天卡友限定！KKday獨家折扣懶人包",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_10c1388ecf929b030ade",
+      "bank": "玉山銀行",
+      "title": "一般消費現金回饋最高0.4%",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c8180314e731cb88a75c",
+      "bank": "樂天信用卡",
+      "title": "JCB 東京鐵塔 × JCB卡特別聯名企劃",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b8e76051fad983339788",
+      "bank": "樂天信用卡",
+      "title": "JCB松屋銀座",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_143659d119b0c11aa581",
+      "bank": "樂天信用卡",
+      "title": "JCB × AGODA",
+      "issues": [
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_e9293099d80688a92b50",
+      "bank": "玉山銀行",
+      "title": "Fun大紅利會員等級回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_49850d7a6f940b7b580c",
+      "bank": "樂天信用卡",
+      "title": "日本三越・伊勢丹百貨 刷樂天JCB卡最高享6萬日圓現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d60c40a9df2edd120f90",
+      "bank": "玉山銀行",
+      "title": "國內外一般消費回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_61ecf4b97965f7406849",
+      "bank": "樂天信用卡",
+      "title": "線上投保明台產險旅遊險享最高2%刷卡金回饋",
+      "issues": [
+        "UNKNOWN_CALCULATION",
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_1a37922564c4696cb8cc",
+      "bank": "玉山銀行",
+      "title": "一般消費現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_8140ec04cca136900236",
+      "bank": "玉山銀行",
+      "title": "悠遊卡自動加值現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_85b650f2c2f16929c918",
+      "bank": "樂天信用卡",
+      "title": "明台產險網路投保滿額樂回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_822858edec5267cecd42",
+      "bank": "樂天信用卡",
+      "title": "明台投保月月抽萬元好禮",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d55787ea8bf99dbc86e2",
+      "bank": "樂天信用卡",
+      "title": "達指定條件送24小時道路救援",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_15c27843072773b5a592",
+      "bank": "玉山銀行",
+      "title": "一般消費回饋玉山 e point",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_0360db1c841611de84a5",
+      "bank": "華南銀行",
+      "title": "長春商圈X台灣Pay消費20%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_e2976bf087b17435e17d",
+      "bank": "樂天信用卡",
+      "title": "樂天桃猿世界卡精選通路國內5%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d65cd4c76144b0d9b9a8",
+      "bank": "樂天信用卡",
+      "title": "樂天桃猿世界卡精選通路海外5%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_143ff52d635dc9e8ce4f",
+      "bank": "玉山銀行",
+      "title": "累積玉山e point",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_bca39bb03a8d0a74364c",
+      "bank": "樂天信用卡",
+      "title": "KKDAY x 樂天Panda J卡專屬優惠現折10% OFF",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c48cd655d1681d165d1e",
+      "bank": "玉山銀行",
+      "title": "一般消費現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c7cb5859fa356668ab55",
+      "bank": "樂天信用卡",
+      "title": "刷卡做伙應援！送你桃園亞洲職棒交流賽雙人球票",
+      "issues": [
+        "UNKNOWN_CALCULATION",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_748afc8b87a4ee3ba5bb",
+      "bank": "玉山銀行",
+      "title": "現金+點數 雙回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_65e52d3bc8c44b5e4271",
+      "bank": "玉山銀行",
+      "title": "HAPPY GO點數累積",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_2133f6d69d81d11704f1",
+      "bank": "樂天信用卡",
+      "title": "推薦好友申辦樂天Panda J卡推薦人優惠",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_db4b38b4c3dcb0614933",
+      "bank": "玉山銀行",
+      "title": "店內消費點數回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_560b2c7a5dca9baa8ce0",
+      "bank": "玉山銀行",
+      "title": "店外一般消費回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_fcf85ed7f50e094e3508",
+      "bank": "玉山銀行",
+      "title": "新卡首刷禮 15%現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f7cfe712bda61c44a0d1",
+      "bank": "玉山銀行",
+      "title": "週末狂歡日13%回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_fa2dc1cc2f216c7b5d59",
+      "bank": "玉山銀行",
+      "title": "1111放縱購-第一波",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_14f67cb77942f84afe55",
+      "bank": "玉山銀行",
+      "title": "1111放縱購-第二波",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_14782dfb13a04c473587",
+      "bank": "王道銀行",
+      "title": "2026年基本現金回饋方案",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f0db1b9813ed9dac4753",
+      "bank": "王道銀行",
+      "title": "2026年基本現金回饋方案",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_a825702214abff27acf5",
+      "bank": "王道銀行",
+      "title": "青年簽帳金融卡消費加碼2%現金回饋",
+      "issues": [
+        "UNRESOLVED_CARD_ASSOCIATION",
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_e6c654c6ef90a810685f",
+      "bank": "王道銀行",
+      "title": "買酷澎刷王道，最高現折新台幣3,000元",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b37cadcd77d47ce35ec7",
+      "bank": "王道銀行",
+      "title": "王道購物節！刷蝦皮購物享最高新台幣1,088元現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f642d781d0202436a278",
+      "bank": "王道銀行",
+      "title": "王道購物節！刷Coupang酷澎享最高新台幣1,088元現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_6bf637f2a14117fe103b",
+      "bank": "王道銀行",
+      "title": "王道購物節！刷momo購物享最高新台幣1,088元現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d33b2fef75bdebdc2229",
+      "bank": "王道銀行",
+      "title": "年終犒賞季 ! 指定百貨餐飲最高享8.8%現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_905cc6af2413c11a91b3",
+      "bank": "王道銀行",
+      "title": "刷支付 給利就是王道 最高享6%現金回饋 !",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b18ca3bb474e2f97c4be",
+      "bank": "王道銀行",
+      "title": "公益認同卡一般消費現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_dbf6be5e0489b82be677",
+      "bank": "王道銀行",
+      "title": "校園認同卡一般消費現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_84f43c0ddf05692ca327",
+      "bank": "王道銀行",
+      "title": "曉明女中認同卡一般消費現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_81310d83572933cbc476",
+      "bank": "王道銀行",
+      "title": "新北國王聯名卡 國內、國外刷卡一般消費現金回饋1%無上限",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_8b1818f1f6e7c040ea2a",
+      "bank": "王道銀行",
+      "title": "CAMA CAFE聯名卡 店內刷卡最高享5%現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_632ba72f905f9ea338be",
+      "bank": "王道銀行",
+      "title": "CAMA CAFE聯名卡 海外刷卡最高享5%現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_535c0333b667df7d81c2",
+      "bank": "王道銀行",
+      "title": "CAMA CAFE聯名卡 國內、外一般消費1%現金回饋無上限",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d98b4fa4e3e8cfd7d6f8",
+      "bank": "王道銀行",
+      "title": "FunNow 聯名卡 國內/外一般消費 1%現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_fdef20abb23fdb9cff56",
+      "bank": "王道銀行",
+      "title": "一般簽帳金融卡 一般消費皆享1%基本現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_4d4ed1098fb041603e1b",
+      "bank": "王道銀行",
+      "title": "一般刷卡消費基本現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_850f98027532bc743689",
+      "bank": "遠東商銀",
+      "title": "《爵士天后 戴安娜・克瑞兒》音樂會遠東商銀信用卡專屬禮遇",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "UNKNOWN_CAP_SCOPE",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_34d7a944804402636595",
+      "bank": "王道銀行",
+      "title": "財富無限卡現金回饋無上限",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_3ecd5a2545496da078c3",
+      "bank": "安泰銀行",
+      "title": "【PCHOME】單筆分期3、6期金額滿5,000送150",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_26de7c36cbe4de899b2c",
+      "bank": "安泰銀行",
+      "title": "【YAHOO】單筆分期金額滿5,000元，送150元",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_fe2bd2d45abd0cfe30c6",
+      "bank": "安泰銀行",
+      "title": "「指定旅遊消費」滿額回饋最高7,200元",
+      "issues": [
+        "MAXIMUM_ONLY",
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_85f88fc768d3ebdf917f",
+      "bank": "安泰銀行",
+      "title": "海外消費筆筆抽NT$1,000刷卡金",
+      "issues": [
+        "UNKNOWN_CAP_SCOPE",
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_fb4dc3495f57d8c3a505",
+      "bank": "安泰銀行",
+      "title": "【蝦皮購物】單筆分期金額滿5,000元，送150元",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_2441871fcf562b438d0d",
+      "bank": "安泰銀行",
+      "title": "115年11月加碼回饋(電子帳單用戶限定)",
+      "issues": [
+        "MAXIMUM_ONLY",
+        "UNKNOWN_CAP_SCOPE",
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_6e7dfedf47b32197b371",
+      "bank": "將來銀行",
+      "title": "完成任務刷大將卡回饋無上限",
+      "issues": [
+        "UNKNOWN_CALCULATION",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_0000366299d76bad9d3e",
+      "bank": "將來銀行",
+      "title": "大將卡 自在出遊 享國內1.5%、海外2.5%回饋無上限",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_22d3cddf707ab7060830",
+      "bank": "將來銀行",
+      "title": "將將卡 把日常，過成理想生活，最高5%N點回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "UNKNOWN_CAP_SCOPE",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_4202f74861579bd3087e",
+      "bank": "王道銀行",
+      "title": "行動支付加碼現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_58ada3ade2754c3c54fe",
+      "bank": "王道銀行",
+      "title": "雙11、雙12購物節電商網購現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_94961eb107a4ab4834ab",
+      "bank": "王道銀行",
+      "title": "海外消費加碼現金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_2c80e216ca0e55fb412b",
+      "bank": "王道銀行",
+      "title": "Lucky Money開撲滿綁行動支付滿額享50元現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_e0760d42169a3d69e3ef",
+      "bank": "悠遊付",
+      "title": "韓國旅遊｜悠遊付現金回饋最高12%",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "UNKNOWN_CAP_SCOPE",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_ef14fac3abc17e402d81",
+      "bank": "悠遊付",
+      "title": "全家便利商店 悠遊付錢包帳戶滿額最高回饋16% 首次消費加贈20%回饋券",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "UNKNOWN_CAP_SCOPE",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_a21f01440451ee5a1131",
+      "bank": "悠遊付",
+      "title": "高雄捷運掃悠遊付乘車碼 筆筆回饋30%",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "UNKNOWN_CAP_SCOPE",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_0bb714d2c7722d2e8376",
+      "bank": "悠遊付",
+      "title": "悠遊付繳納地價稅每筆送3%回饋金",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "UNKNOWN_CAP_SCOPE",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_265679441de0e8c0c952",
+      "bank": "悠遊付",
+      "title": "東門中繼市場開幕慶！悠遊付消費最高享13%回饋金",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_2787b9cfaa5153e91b86",
+      "bank": "悠遊付",
+      "title": "悠遊付繳納地價稅每筆送3%回饋金",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d812c9e350c47566dbf7",
+      "bank": "悠遊付",
+      "title": "friDay購物悠遊付－狂購節",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_8b7bc6ce06960bfd5d86",
+      "bank": "悠遊付",
+      "title": "南門週年感謝祭-悠遊付滿額最高享30%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_18de2e9b56846d0202a5",
+      "bank": "悠遊付",
+      "title": "東門中繼市場開幕慶！悠遊付消費最高享13%回饋金",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_7819c6974236f97275ba",
+      "bank": "悠遊付",
+      "title": "悠遊付繳納地價稅每筆送3%回饋金",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_bd93cc1ad5063cd831e7",
+      "bank": "悠遊付",
+      "title": "friDay購物悠遊付－狂購節",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_06d37c079eeb1908c481",
+      "bank": "悠遊付",
+      "title": "南門週年感謝祭-悠遊付滿額最高享30%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_03b6446545ec35a262ab",
+      "bank": "悠遊付",
+      "title": "東門中繼市場開幕慶！悠遊付消費最高享13%回饋金",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d175b01bd22aec9de26f",
+      "bank": "悠遊付",
+      "title": "東門中繼市場開幕慶！新會員加碼送$50現金回饋券",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_3404e924c695062c1daf",
+      "bank": "悠遊付",
+      "title": "悠遊付繳納地價稅 筆筆3%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_a9e38bbce09ad0a51866",
+      "bank": "悠遊付",
+      "title": "friDay購物悠遊付－狂購節",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d353bc891f1529b94d7a",
+      "bank": "悠遊付",
+      "title": "南門週年感謝祭-悠遊付滿額最高享30%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f292a268620da6c1e7d3",
+      "bank": "悠遊付",
+      "title": "日常採買悠遊付滿額最高10%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_642e3f980cf681ccdf0b",
+      "bank": "悠遊付",
+      "title": "赴韓旅遊必備悠遊付 每筆最高送12%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_19d43126f7640726f6f0",
+      "bank": "悠遊付",
+      "title": "悠遊付繳納學雜費最高10%回饋",
+      "issues": [
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f893948a608b322d1527",
+      "bank": "悠遊付",
+      "title": "東門中繼市場開幕慶！悠遊付消費最高享13%回饋金",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f8f511981487a509ed3a",
+      "bank": "悠遊付",
+      "title": "悠遊付繳納地價稅每筆送3%回饋金",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_621b1d7fd34fb0e31f99",
+      "bank": "悠遊付",
+      "title": "friDay購物悠遊付－狂購節",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_5d4cd1bfa4fa1e00974b",
+      "bank": "悠遊付",
+      "title": "南門週年感謝祭-悠遊付滿額最高享30%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f0838c70baf874bfb8e4",
+      "bank": "悠遊付",
+      "title": "日常採買悠遊付滿額最高10%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_3f649958ec03e880eba6",
+      "bank": "悠遊付",
+      "title": "赴韓旅遊每筆最高送12%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_2d51c5a4d4a9b9005a78",
+      "bank": "悠遊付",
+      "title": "繳納學雜費最高賺10%",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_2fc3c513121978b6f7f9",
+      "bank": "悠遊付",
+      "title": "基北北桃我的減碳存摺 月月兌加碼活動",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_dd02c35f6fe62d499578",
+      "bank": "悠遊付",
+      "title": "金門縣民卡升級數位卡 獨享百元現金回饋券",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_03c9b2694c7d606c6de9",
+      "bank": "悠遊付",
+      "title": "悠遊付暢遊金門 最高123%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_73dc11ec4c1aca646083",
+      "bank": "悠遊付",
+      "title": "減塑EasyLife第二波「集集樂挑戰賽」",
+      "issues": [
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },

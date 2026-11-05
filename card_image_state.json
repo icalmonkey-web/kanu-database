@@ -5849,7 +5849,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_travel.html": {
-    "checkedAt": "2026-10-28T23:03:30.122348+00:00",
+    "checkedAt": "2026-11-05T00:20:48.596774+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -5908,6 +5908,10 @@
         "åç¤º_èèªéæ»é"
       ],
       [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_itf.png",
+        "ITFå°ç£åéæå±"
+      ],
+      [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_hotelscom.png",
         "Hotels.com"
       ],
@@ -5942,6 +5946,18 @@
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_koreastore.png",
         "éåæå®ååº"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_oliveyoung.png",
+        "éåOLIVE YOUNG"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_oliveyoungglobal.png",
+        "OLIVE YOUNG Globalç·ä¸è³¼ç©"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_weverse.png",
+        "éåWeverseå¨çç²çµ²å¹³å°"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_kkday.png",
@@ -6299,7 +6315,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/store.html": {
-    "checkedAt": "2026-10-28T23:03:30.122348+00:00",
+    "checkedAt": "2026-11-05T00:20:48.596774+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -6433,7 +6449,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html": {
-    "checkedAt": "2026-10-28T23:03:30.122348+00:00",
+    "checkedAt": "2026-11-05T00:20:48.596774+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -6517,7 +6533,7 @@
     "error": ""
   },
   "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-11-05T00:20:48.596774+00:00",
     "images": [
       [
         "https://www.dbs.com.tw/iwov-resources/flp/images/dbs_logo.svg",
@@ -7059,7 +7075,7 @@
     "error": ""
   },
   "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-11-05T00:20:48.596774+00:00",
     "images": [
       [
         "https://www.dbs.com.tw/iwov-resources/flp/images/dbs_logo.svg",
@@ -11953,7 +11969,7 @@
     "error": "HTTPError"
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share.html": {
-    "checkedAt": "2026-10-28T23:03:30.122348+00:00",
+    "checkedAt": "2026-11-05T00:20:48.596774+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -11970,12 +11986,16 @@
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/share/share_list_article-01_img.png",
         "ä¸­ä¿¡LINE Payå¡åé¥æ»ç¥"
+      ],
+      [
+        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/share/share_list_article-02_img.png",
+        "ä¸­ä¿¡LINE Payå¡è¨æ¿æéå¹³å°çé¢æ»ç¥"
       ]
     ],
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share-article-01.html": {
-    "checkedAt": "2026-10-28T23:03:30.122348+00:00",
+    "checkedAt": "2026-11-05T00:20:48.596774+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -12281,6 +12301,100 @@
       [
         "https://www.dbs.com.tw/personal-zh/cards/offers/ce/images/card/card_2.png",
         "æå±PChome Primeè¯åå¡"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.dbs.com.tw/personal-zh/cards/services/default.page?pid=tw-pweb-personal_zh-cards-header": {
+    "checkedAt": "2026-11-05T00:20:48.596774+00:00",
+    "images": [
+      [
+        "https://www.dbs.com.tw/iwov-resources/flp/images/dbs_logo.svg",
+        "DBS æå±éè¡"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/flp/images/DBS-TC.svg",
+        "DBS æå±éè¡"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/Apply_CreditCard_684x630.jpg",
+        "ç·ä¸ç³è¾¦ä¿¡ç¨å¡"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/Apply_SupplementaryCard_684x630.jpg",
+        "ç³è¾¦éå¡"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/ccoa-faq-684x630.jpg",
+        "ä¿¡ç¨å¡ç·ä¸è£ä»¶/ç³è«é²åº¦æ¥è©¢åå¸¸è¦åé¡"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/credit_card_payment-684x630.jpg",
+        "ä¿¡ç¨å¡ç¹³æ¬¾æ¹å¼"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/utilities_fee_payment-684x630.jpg",
+        "å¬ç¨äºæ¥­è²»ç¨ä»£ç¹³"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/payment_platform-684x630.jpg",
+        "çæ´»ç¹³è²»"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/credit_card_fee-684x630.jpg",
+        "åé è²»ç¨èªªæ"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/government_tax_payment-684x630.jpg",
+        "æ¿åºç¨æ¬¾ä»£ç¹³"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/dbs-eDDA-banner-202205_684x630.jpg",
+        "eDDAé»å­åææ¬ç³»çµ±"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/offers/tuition-2609-684x630.jpg",
+        "ç¹³å­¸è²»æ½ iPhone Duo"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/offers/ApplePay-684x630.jpg",
+        "è¡åæ¯ä»æ¯æ´ Apple Pay"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/offers/SamsungPay-684x630.jpg",
+        "è¡åæ¯ä»æ¯æ´ Samsung Pay"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/offers/PxPay-684x630.jpg",
+        "è¡åæ¯ä»æ¯æ´ PX Pay"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/offers/applepay-transit-202607-684x630.jpg",
+        "https://www.dbs.com.tw/iwov-resources/images/cards/offers/applepay-transit-202607-684x630.jpg"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/card_issue_handling_procedure-684x630.jpg",
+        "å¡çç°å¸¸ç®¡çç¨åº"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/anti-theft-684x630.jpg",
+        "ä¿¡ç¨å¡é²çå·å¯¦ä¾åäº«"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/disputed-account-apply-684x630-3.jpg",
+        "ä¿¡ç¨å¡é²çå·å¯¦ä¾åäº«"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/fraud-prevention-684x630.jpg",
+        "é²è©å°å­¸å "
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/customer_information_changes-684x630_2.jpg",
+        "å®¢æ¶è³æè®æ´"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/central-deposit-insurance.png",
+        "ä¸­å¤®å­æ¬¾ä¿éª"
       ]
     ],
     "error": ""
