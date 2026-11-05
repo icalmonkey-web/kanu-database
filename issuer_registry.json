@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "description": "台灣信用卡發卡機構主清單。enabled 僅代表已設定可執行入口，不代表涵蓋率驗證通過。",
-  "lastUpdatedAt": "2026-11-05T00:20:46.770144Z",
+  "lastUpdatedAt": "2026-11-05T23:43:47.850237Z",
   "issuers": [
     {
       "name": "永豐銀行",
@@ -82,7 +82,7 @@
       "eventLinkPattern": "/personal/credit-card/(discount|tools)/",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 80,
-      "discoveredOfferCount": 211,
+      "discoveredOfferCount": 216,
       "unvisitedPageCount": 145,
       "failedPageCount": 1,
       "lastScanAt": "2026-11-05T00:03:51.062104Z",
@@ -199,7 +199,7 @@
       "discoveredOfferCount": 79,
       "unvisitedPageCount": 227,
       "failedPageCount": 0,
-      "lastScanAt": "2026-11-04T23:48:36.074583Z",
+      "lastScanAt": "2026-11-05T23:34:56.026680Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -691,11 +691,11 @@
       "eventLinkPattern": "(debit|card|event|activity|offer)",
       "coverageNote": "僅收錄具實質消費回饋的簽帳金融卡",
       "lastSuccessfulScanAt": "2026-09-25T03:52:33.701377Z",
-      "discoveredCardCount": 44,
-      "discoveredOfferCount": 66,
-      "unvisitedPageCount": 160,
-      "failedPageCount": 4,
-      "lastScanAt": "2026-11-05T00:10:56.743490Z",
+      "discoveredCardCount": 45,
+      "discoveredOfferCount": 67,
+      "unvisitedPageCount": 162,
+      "failedPageCount": 0,
+      "lastScanAt": "2026-11-05T23:43:46.853973Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -829,7 +829,7 @@
       "eventLinkPattern": "(credit-cards|benefits|offers)",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 18,
-      "discoveredOfferCount": 72,
+      "discoveredOfferCount": 71,
       "unvisitedPageCount": 180,
       "failedPageCount": 11,
       "lastScanAt": "2026-11-03T23:14:44.217513Z",

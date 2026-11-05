@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-05T00:20:48.253Z",
+  "generatedAt": "2026-11-05T23:43:51.053Z",
   "disclaimer": "結構檢查不是事實核對；待確認點數不換算現金。",
-  "totalRules": 1517,
+  "totalRules": 1519,
   "reviewed": 0,
   "comparable": 0,
   "expired": 52,
@@ -3109,6 +3109,24 @@
       "activeRules": 2
     },
     {
+      "sourceUrl": "https://www.o-bank.com/retail/debit/lowcarboncard",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_30f8d3783381bc7b4ad7",
+        "rule_99e798bb727143e2120f"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.o-bank.com/retail/debit/vip-card",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_8f538f12dd8848fb3c1f",
+        "rule_553e79d3f6984fe36725"
+      ],
+      "activeRules": 2
+    },
+    {
       "sourceUrl": "https://www.entiebank.com.tw/",
       "bank": "未分類",
       "ruleIds": [
@@ -4700,26 +4718,10 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.o-bank.com/retail/debit/lowcarboncard",
-      "bank": "王道銀行",
-      "ruleIds": [
-        "rule_4d4ed1098fb041603e1b"
-      ],
-      "activeRules": 1
-    },
-    {
       "sourceUrl": "https://www.feib.com.tw/activity?id=4762",
       "bank": "遠東商銀",
       "ruleIds": [
         "rule_850f98027532bc743689"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.o-bank.com/retail/debit/vip-card",
-      "bank": "王道銀行",
-      "ruleIds": [
-        "rule_34d7a944804402636595"
       ],
       "activeRules": 1
     },
@@ -23714,18 +23716,6 @@
       ]
     },
     {
-      "id": "rule_4d4ed1098fb041603e1b",
-      "bank": "王道銀行",
-      "title": "一般刷卡消費基本現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail/debit/lowcarboncard",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
       "id": "rule_850f98027532bc743689",
       "bank": "遠東商銀",
       "title": "《爵士天后 戴安娜・克瑞兒》音樂會遠東商銀信用卡專屬禮遇",
@@ -23736,18 +23726,6 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "回饋上限適用範圍未確認"
-      ]
-    },
-    {
-      "id": "rule_34d7a944804402636595",
-      "bank": "王道銀行",
-      "title": "財富無限卡現金回饋無上限",
-      "sourceUrl": "https://www.o-bank.com/retail/debit/vip-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
       ]
     },
     {
@@ -24301,6 +24279,55 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "累積消費資格未確認"
+      ]
+    },
+    {
+      "id": "rule_30f8d3783381bc7b4ad7",
+      "bank": "王道銀行",
+      "title": "低碳卡基本現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/lowcarboncard",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_99e798bb727143e2120f",
+      "bank": "王道銀行",
+      "title": "低碳生活卡消費碳排放達標加碼回饋",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/lowcarboncard",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "UNRESOLVED_CARD_ASSOCIATION",
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_8f538f12dd8848fb3c1f",
+      "bank": "王道銀行",
+      "title": "財富無限卡 國內一般消費1.5%現金回饋無上限",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/vip-card",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_553e79d3f6984fe36725",
+      "bank": "王道銀行",
+      "title": "財富無限卡 海外一般消費2.5%現金回饋無上限",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/vip-card",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
       ]
     },
     {

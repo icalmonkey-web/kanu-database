@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.05-v002045-ubear-review-trusted-core-20261003",
+  "version": "2026.11.05-v234346-ubear-review-trusted-core-20261003",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -8743,6 +8743,19 @@
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "青年消費加碼"
+    },
+    {
+      "id": "card_王道銀行_733",
+      "bank": "王道銀行",
+      "cardName": "王道銀行財富無限卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文載明「王道頂級卡｜邀請制 財富無限卡」、「頂級簽帳金融卡預設消費日限額為20萬」、「本行簽帳金融卡僅接受連線交易」及「無限卡年費為新台幣5,000元」",
+      "imageUrl": "https://www.o-bank.com/-/media/d6011e09171941408d8a3e82761a84d1.png?iar=0&hash=C8524657B6C6314879422C9010648077",
+      "themeBg": "linear-gradient(135deg, #1b2838 0%, #2a3d54 100%)",
+      "textColor": "#ffffff",
+      "descTag": "海外2.5%無上限"
     }
   ],
   "rules": [
@@ -26213,6 +26226,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -62604,6 +62618,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-30T13:29:25.273568Z",
@@ -66634,6 +66649,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -139842,6 +139858,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-28T23:16:52.214472Z",
@@ -159357,6 +159374,7 @@
       ],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -190455,6 +190473,7 @@
       "quickSearchEligible": false,
       "validationIssues": [
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-11-04T23:54:27.146078Z",
@@ -199640,6 +199659,7 @@
       "quickSearchEligible": false,
       "validationIssues": [
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-11-05T00:01:46.967208Z",
@@ -202217,73 +202237,6 @@
       "bank": "王道銀行"
     },
     {
-      "id": "rule_4d4ed1098fb041603e1b",
-      "cardId": "card_王道銀行_406",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "低碳卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "一般刷卡消費基本現金回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "BASE_BENEFIT",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "國內消費,國外消費,海外消費,一般消費",
-      "intentTags": [
-        "海外消費"
-      ],
-      "intentEvidence": "國內外刷卡一般消費皆享1%基本現金回饋",
-      "baseRate": 1,
-      "promoRate": 0,
-      "rewardType": "percent",
-      "rewardAmount": 1,
-      "rewardUnit": "percent",
-      "capAmount": 0,
-      "capPeriod": "",
-      "capScope": "NONE",
-      "roundingMode": "ROUND",
-      "spendBasis": "PER_TRANSACTION",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [
-        {
-          "name": "一般資格",
-          "totalRate": 1,
-          "baseRate": 1,
-          "promoRate": 0,
-          "isDefault": true,
-          "requirements": [],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "2026-01-01",
-      "validUntil": "2026-12-31",
-      "sourceUrl": "https://www.o-bank.com/retail/debit/lowcarboncard",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "國內外一般消費皆享1%基本現金回饋，無上限。",
-      "excludedKeywords": [
-        "國外提款或交易之手續費",
-        "簽帳金融卡年費",
-        "稅款",
-        "交通罰鍰",
-        "繳費平台",
-        "自動加值"
-      ],
-      "fetchedAt": "2026-11-05T00:09:23.347871Z",
-      "bank": "王道銀行"
-    },
-    {
       "id": "rule_850f98027532bc743689",
       "cardId": "",
       "offerDomain": "CARD",
@@ -202337,102 +202290,6 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-11-05T00:09:27.977284Z",
       "bank": "遠東商銀"
-    },
-    {
-      "id": "rule_34d7a944804402636595",
-      "cardId": "card_王道銀行_638",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "財富無限卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "財富無限卡現金回饋無上限",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "BASE_BENEFIT",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "海外消費,國內消費,外幣,機票,飯店,免稅店,日幣,美金",
-      "intentTags": [
-        "海外消費",
-        "一般消費",
-        "旅遊"
-      ],
-      "intentEvidence": "現金回饋無上限 海外2.5% 國內1.5%",
-      "baseRate": 1.5,
-      "promoRate": 1,
-      "rewardType": "percent",
-      "rewardAmount": 2.5,
-      "rewardUnit": "percent",
-      "capAmount": 0,
-      "capPeriod": "",
-      "capScope": "NONE",
-      "roundingMode": "ROUND",
-      "spendBasis": "PER_TRANSACTION",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "限本行邀請之貴賓申辦",
-        "往來資產月平均餘額達等值新台幣300萬元以上"
-      ],
-      "rewardCalculationMode": "TIERED",
-      "rewardTiers": [
-        {
-          "name": "國內一般消費",
-          "totalRate": 1.5,
-          "baseRate": 1.5,
-          "promoRate": 0,
-          "isDefault": true,
-          "requirements": [],
-          "capAmount": null,
-          "capPeriod": ""
-        },
-        {
-          "name": "海外一般消費",
-          "totalRate": 2.5,
-          "baseRate": 1.5,
-          "promoRate": 1,
-          "isDefault": false,
-          "requirements": [
-            "海外消費"
-          ],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [
-        "海外消費"
-      ],
-      "needReg": false,
-      "regDeadline": "",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "2026-01-01",
-      "validUntil": "2026-12-31",
-      "sourceUrl": "https://www.o-bank.com/retail/debit/vip-card",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "國內1.5%、海外2.5%現金回饋無上限",
-      "excludedKeywords": [
-        "國外提款或交易之手續費",
-        "簽帳金融卡年費",
-        "取消交易款項",
-        "退貨款項",
-        "稅款",
-        "交通罰鍰",
-        "電子化繳費稅處理平台",
-        "全國繳費平台",
-        "代扣繳各項公共事業",
-        "基金申購",
-        "醫療院所費用",
-        "金融卡Smart Pay購物消費",
-        "一卡通自動加值",
-        "部分歐洲地區國家消費",
-        "境外投資及匯款轉帳交易平台",
-        "抖音各交易平台"
-      ],
-      "fetchedAt": "2026-11-05T00:09:37.740248Z",
-      "bank": "王道銀行"
     },
     {
       "id": "rule_3ecd5a2545496da078c3",
@@ -205639,6 +205496,336 @@
       "bank": "悠遊付"
     },
     {
+      "id": "rule_30f8d3783381bc7b4ad7",
+      "cardId": "card_王道銀行_406",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行低碳卡"
+      ],
+      "stackingStatus": "NOT_STACKABLE",
+      "title": "低碳卡基本現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "國內消費,國外消費,一般消費,海外消費",
+      "intentTags": [
+        "國內消費",
+        "海外消費"
+      ],
+      "intentEvidence": "國內外刷卡一般消費皆享1%基本現金回饋",
+      "baseRate": 1,
+      "promoRate": 0,
+      "rewardType": "percent",
+      "rewardAmount": 1,
+      "rewardUnit": "percent",
+      "capAmount": 0,
+      "capScope": "NONE",
+      "roundingMode": "ROUND",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [
+        {
+          "name": "基本回饋",
+          "totalRate": 1,
+          "baseRate": 1,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/lowcarboncard",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "國內外一般消費享1%基本現金回饋無上限",
+      "excludedKeywords": [
+        "國外提款或交易手續費",
+        "年費",
+        "稅款",
+        "交通罰鍰",
+        "繳費平台",
+        "公用事業",
+        "基金",
+        "醫療院所",
+        "Smart Pay",
+        "一卡通自動加值",
+        "部分歐洲地區國家消費",
+        "境外投資及匯款轉帳平台",
+        "抖音"
+      ],
+      "fetchedAt": "2026-11-05T23:36:07.833658Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_99e798bb727143e2120f",
+      "cardId": null,
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行低碳卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "低碳生活卡消費碳排放達標加碼回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "低碳消費,環保消費,國內消費,海外消費",
+      "intentTags": [
+        "國內消費",
+        "海外消費"
+      ],
+      "intentEvidence": "開啟消費碳排放明細並達成平均每元碳排放量低於8公克等任務再加碼0.5%",
+      "baseRate": 1,
+      "promoRate": 0.5,
+      "rewardType": "percent",
+      "rewardAmount": 1.5,
+      "rewardUnit": "percent",
+      "capAmount": 20000,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "ROUND",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "開啟消費碳排放明細功能",
+        "當月至少一筆一般消費",
+        "當月平均每元消費碳排放量低於8公克"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "基本回饋",
+          "totalRate": 1,
+          "baseRate": 1,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "碳排放達標加碼",
+          "totalRate": 1.5,
+          "baseRate": 1,
+          "promoRate": 0.5,
+          "isDefault": false,
+          "requirements": [
+            "開啟消費碳排放明細",
+            "平均每元碳排放量低於8公克"
+          ],
+          "capAmount": 20000,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "開啟消費碳排放明細功能",
+        "當月平均每元消費碳排放量低於8公克",
+        "國內一般消費於新台幣20000元內"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/lowcarboncard",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "國內一般消費於新台幣2萬元內享最高1.5%（含基本1%），超過部分維持1%無上限；國外一般消費享1.5%無上限",
+      "excludedKeywords": [
+        "國外提款或交易手續費",
+        "年費",
+        "稅款",
+        "交通罰鍰",
+        "繳費平台",
+        "公用事業",
+        "基金",
+        "醫療院所",
+        "Smart Pay",
+        "一卡通自動加值"
+      ],
+      "associationStatus": "needs_review",
+      "associationReason": "copy_names_other_card:低碳生活卡",
+      "fetchedAt": "2026-11-05T23:36:07.834176Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_8f538f12dd8848fb3c1f",
+      "cardId": "card_王道銀行_733",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行財富無限卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "財富無限卡 國內一般消費1.5%現金回饋無上限",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "國內消費,一般消費,全通路,實體刷卡,國內實體商店",
+      "intentTags": [
+        "國內消費"
+      ],
+      "intentEvidence": "現金回饋無上限 海外2.5% 國內1.5%",
+      "baseRate": 1.5,
+      "promoRate": 0,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "capScope": "NONE",
+      "roundingMode": "ROUND",
+      "spendBasis": "CUMULATIVE",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "邀請制貴賓申辦",
+        "往來資產月平均餘額達等值新台幣300萬元以上"
+      ],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [
+        {
+          "name": "國內一般消費",
+          "totalRate": 1.5,
+          "baseRate": 1.5,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "持王道銀行財富無限卡刷國內一般消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/vip-card",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "現金回饋無上限，消費無門檻",
+      "excludedKeywords": [
+        "國外提款手續費",
+        "簽帳金融卡年費",
+        "稅款",
+        "交通罰鍰",
+        "公務機關規費",
+        "電信費",
+        "水費",
+        "電費",
+        "瓦斯費",
+        "天然氣費",
+        "基金申購",
+        "醫療院所費用",
+        "Smart Pay",
+        "一卡通加值",
+        "部分歐洲地區國家實體或網路消費",
+        "幣安Binance",
+        "e-Toro",
+        "Wise",
+        "Revolut",
+        "TikTok",
+        "Douyin"
+      ],
+      "fetchedAt": "2026-11-05T23:38:03.943151Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_553e79d3f6984fe36725",
+      "cardId": "card_王道銀行_733",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行財富無限卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "財富無限卡 海外一般消費2.5%現金回饋無上限",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "BASE_BENEFIT",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "海外消費,國外消費,出國刷卡,外幣消費,國外實體商店,國外網站",
+      "intentTags": [
+        "海外消費"
+      ],
+      "intentEvidence": "現金回饋無上限 海外2.5% 國內1.5%",
+      "baseRate": 2.5,
+      "promoRate": 0,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "capScope": "NONE",
+      "roundingMode": "ROUND",
+      "spendBasis": "CUMULATIVE",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "邀請制貴賓申辦",
+        "往來資產月平均餘額達等值新台幣300萬元以上"
+      ],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [
+        {
+          "name": "海外一般消費",
+          "totalRate": 2.5,
+          "baseRate": 2.5,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "持王道銀行財富無限卡刷海外一般消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/vip-card",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "現金回饋無上限，消費無門檻；國外交易手續費依國際組織收取1.5%",
+      "excludedKeywords": [
+        "國外提款手續費",
+        "部分歐洲地區國家消費及營業登記於該國之消費",
+        "幣安Binance",
+        "e-Toro",
+        "Wise",
+        "Revolut",
+        "TikTok",
+        "Douyin"
+      ],
+      "fetchedAt": "2026-11-05T23:38:03.943660Z",
+      "bank": "王道銀行"
+    },
+    {
       "cardId": "card_esun_ubear",
       "bank": "玉山銀行",
       "offerDomain": "CARD",
@@ -208206,5 +208393,5 @@
       "message": "政府規費、公用事業水電瓦斯多數信用卡皆排除回饋。"
     }
   ],
-  "lastUpdated": "2026-11-05T00:20:45.799687Z"
+  "lastUpdated": "2026-11-05T23:43:46.961720Z"
 }

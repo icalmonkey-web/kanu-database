@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-11-05T00:20:48.140268+00:00",
+  "generatedAt": "2026-11-05T23:43:50.937046+00:00",
   "targetAccuracy": 0.98,
   "measuredAccuracy": null,
   "coveragePercent": null,
   "acceptanceStatus": "NOT_ESTABLISHED",
   "reason": "需要獨立官方基準清單及逐欄核對；結構通過率、測試通過率都不是優惠準確率。",
-  "totalRules": 1517,
+  "totalRules": 1519,
   "issueCounts": {
-    "UNRESOLVED_CARD_ASSOCIATION": 43,
+    "UNRESOLVED_CARD_ASSOCIATION": 44,
     "MISSING_CAMPAIGN_END": 605,
     "UNKNOWN_CALCULATION": 246,
     "STALE_TERM_REVIEW": 673,
     "UNKNOWN_CAP_SCOPE": 479,
-    "NO_INDEPENDENT_TERM_REVIEW": 844,
+    "NO_INDEPENDENT_TERM_REVIEW": 846,
     "UNSTRUCTURED_REGISTRATION_WINDOW": 175,
     "MAXIMUM_ONLY": 163
   },
@@ -13392,28 +13392,12 @@
       ]
     },
     {
-      "id": "rule_4d4ed1098fb041603e1b",
-      "bank": "王道銀行",
-      "title": "一般刷卡消費基本現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_850f98027532bc743689",
       "bank": "遠東商銀",
       "title": "《爵士天后 戴安娜・克瑞兒》音樂會遠東商銀信用卡專屬禮遇",
       "issues": [
         "MISSING_CAMPAIGN_END",
         "UNKNOWN_CAP_SCOPE",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_34d7a944804402636595",
-      "bank": "王道銀行",
-      "title": "財富無限卡現金回饋無上限",
-      "issues": [
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -13796,6 +13780,39 @@
       "id": "rule_73dc11ec4c1aca646083",
       "bank": "悠遊付",
       "title": "減塑EasyLife第二波「集集樂挑戰賽」",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_30f8d3783381bc7b4ad7",
+      "bank": "王道銀行",
+      "title": "低碳卡基本現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_99e798bb727143e2120f",
+      "bank": "王道銀行",
+      "title": "低碳生活卡消費碳排放達標加碼回饋",
+      "issues": [
+        "UNRESOLVED_CARD_ASSOCIATION",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_8f538f12dd8848fb3c1f",
+      "bank": "王道銀行",
+      "title": "財富無限卡 國內一般消費1.5%現金回饋無上限",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_553e79d3f6984fe36725",
+      "bank": "王道銀行",
+      "title": "財富無限卡 海外一般消費2.5%現金回饋無上限",
       "issues": [
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
