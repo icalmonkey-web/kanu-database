@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-05T23:43:51.656953+00:00",
+  "generatedAt": "2026-11-06T23:22:54.935512+00:00",
   "added": [],
-  "withImage": 327,
+  "withImage": 329,
   "missing": [
     {
       "id": "card_cathay_cube",
@@ -1799,11 +1799,6 @@
       "cardName": "一卡通簽帳金融卡"
     },
     {
-      "id": "card_王道銀行_677",
-      "bank": "王道銀行",
-      "cardName": "青年簽帳金融卡"
-    },
-    {
       "id": "card_王道銀行_683",
       "bank": "王道銀行",
       "cardName": "王道銀行青年簽帳金融卡"
@@ -2367,24 +2362,6 @@
     },
     {
       "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/kumamon_card",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/u-bear",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/pi-card",
       "cached": true,
       "error": ""
@@ -2398,12 +2375,6 @@
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/eztravel",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/WORLD",
       "cached": true,
       "error": ""
     },
@@ -2492,6 +2463,30 @@
       "error": ""
     },
     {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/kumamon_card",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/u-bear",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/WORLD",
+      "cached": true,
+      "error": ""
+    },
+    {
       "bank": "台北富邦",
       "url": "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm",
       "cached": true,
@@ -2559,12 +2554,6 @@
     },
     {
       "bank": "台北富邦",
-      "url": "https://www.fubon.com/banking/personal/credit_card/index.htm",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "台北富邦",
       "url": "https://www.fubon.com/banking/personal/credit_card/all_card/omiyage/omiyage.htm",
       "cached": true,
       "error": ""
@@ -2572,6 +2561,12 @@
     {
       "bank": "台北富邦",
       "url": "https://www.fubon.com/banking/personal/credit_card/all_card/Guardians_Braves/Guardians_Braves.htm",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "台北富邦",
+      "url": "https://www.fubon.com/banking/personal/credit_card/index.htm",
       "cached": true,
       "error": ""
     },
@@ -2750,12 +2745,6 @@
       "error": ""
     },
     {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
-      "cached": true,
-      "error": ""
-    },
-    {
       "bank": "樂天信用卡",
       "url": "https://www.card.rakuten.com.tw/",
       "cached": true,
@@ -2849,6 +2838,12 @@
       "bank": "臺灣土地銀行",
       "url": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1",
       "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "台新銀行",
+      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/",
+      "candidates": 19,
       "error": ""
     }
   ]
