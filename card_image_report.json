@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-06T23:22:54.935512+00:00",
+  "generatedAt": "2026-11-07T22:01:50.009428+00:00",
   "added": [],
-  "withImage": 329,
+  "withImage": 336,
   "missing": [
     {
       "id": "card_cathay_cube",
@@ -432,11 +432,6 @@
       "id": "card_彰化銀行_406",
       "bank": "彰化銀行",
       "cardName": "My樂現金回饋卡"
-    },
-    {
-      "id": "card_彰化銀行_408",
-      "bank": "彰化銀行",
-      "cardName": "彰化銀行 Combo信用卡"
     },
     {
       "id": "card_元大銀行_258",
@@ -2027,6 +2022,11 @@
       "id": "card_王道銀行_732",
       "bank": "王道銀行",
       "cardName": "O! for Youth 青年簽帳金融卡"
+    },
+    {
+      "id": "card_王道銀行_735",
+      "bank": "王道銀行",
+      "cardName": "王道銀行公益認同卡"
     }
   ],
   "pages": [
@@ -2045,12 +2045,6 @@
     {
       "bank": "永豐銀行",
       "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/437203357.html",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/755685802.html",
       "cached": true,
       "error": ""
     },
@@ -2607,6 +2601,12 @@
       "error": ""
     },
     {
+      "bank": "台新銀行",
+      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/",
+      "cached": true,
+      "error": ""
+    },
+    {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/twrbo/zh_tw/cc_index/cc_product/cc_introduction_index.html",
       "cached": true,
@@ -2704,12 +2704,6 @@
     },
     {
       "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/index.html?pid=tw-personal-card-carousel-pxpayplus",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/offers/vsoffer/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-vsoffer",
       "cached": true,
       "error": ""
@@ -2741,6 +2735,12 @@
     {
       "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/services/default.page?pid=tw-pweb-personal_zh-cards-header",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
       "cached": true,
       "error": ""
     },
@@ -2841,9 +2841,9 @@
       "error": ""
     },
     {
-      "bank": "台新銀行",
-      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/",
-      "candidates": 19,
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/index.html?pid=tw-personal-card-carousel-pxpayplus",
+      "candidates": 2,
       "error": ""
     }
   ]

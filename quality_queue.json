@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-06T23:22:50.734Z",
+  "generatedAt": "2026-11-07T22:01:49.361Z",
   "disclaimer": "結構檢查不是事實核對；待確認點數不換算現金。",
   "totalRules": 1551,
   "reviewed": 0,
   "comparable": 0,
-  "expired": 53,
+  "expired": 52,
   "sourceGroups": 499,
   "queue": [
     {
@@ -3578,22 +3578,6 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.bankchb.com/frontend/bonusDetail.jsp?id=3391",
-      "bank": "彰化銀行",
-      "ruleIds": [
-        "rule_943f8558b9cb5ff4456d"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.bankchb.com/frontend/bonusDetail.jsp?id=3593",
-      "bank": "彰化銀行",
-      "ruleIds": [
-        "rule_deb109fa5564ccd00d58"
-      ],
-      "activeRules": 1
-    },
-    {
       "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/in.do?id=679d1b846c00000245fe",
       "bank": "元大銀行",
       "ruleIds": [
@@ -4858,6 +4842,30 @@
       "activeRules": 1
     },
     {
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_ac3353cc7bdfa526cc7c"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.bankchb.com/frontend/bonusDetail.jsp?id=3391",
+      "bank": "彰化銀行",
+      "ruleIds": [
+        "rule_0a0ae8c42f0f831fd8fa"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.bankchb.com/frontend/bonusDetail.jsp?id=3593",
+      "bank": "彰化銀行",
+      "ruleIds": [
+        "rule_a526959eabc3a9ed0c03"
+      ],
+      "activeRules": 1
+    },
+    {
       "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/campaigns/retail/",
       "bank": "美國運通",
       "ruleIds": [
@@ -4923,14 +4931,6 @@
       "bank": "永豐銀行",
       "ruleIds": [
         "rule_apple_pay_draw"
-      ],
-      "activeRules": 0
-    },
-    {
-      "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/755685802.html",
-      "bank": "永豐銀行",
-      "ruleIds": [
-        "rule_babymonster_concert_draw"
       ],
       "activeRules": 0
     },
@@ -8890,32 +8890,6 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_943f8558b9cb5ff4456d",
-      "bank": "彰化銀行",
-      "title": "彰銀Visa御璽卡超利嗨！海外、日、韓消費最高5%回饋",
-      "sourceUrl": "https://www.bankchb.com/frontend/bonusDetail.jsp?id=3391",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_deb109fa5564ccd00d58",
-      "bank": "彰化銀行",
-      "title": "刷彰銀悠遊卡&一卡通聯名卡，台亞加油享優惠",
-      "sourceUrl": "https://www.bankchb.com/frontend/bonusDetail.jsp?id=3593",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "回饋計算方式待確認"
       ]
     },
     {
@@ -14049,19 +14023,6 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "非保證現金回饋"
-      ]
-    },
-    {
-      "id": "rule_babymonster_concert_draw",
-      "bank": "永豐銀行",
-      "title": "BABYMONSTER演唱會專屬購票序號抽獎",
-      "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/755685802.html",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "RECHECK_REQUIRED",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "活動已截止"
       ]
     },
     {
@@ -24793,6 +24754,45 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_ac3353cc7bdfa526cc7c",
+      "bank": "王道銀行",
+      "title": "買酷澎刷王道 最高現折新台幣3,000元",
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_0a0ae8c42f0f831fd8fa",
+      "bank": "彰化銀行",
+      "title": "彰銀Visa御璽卡海外、日、韓消費最高5%回饋",
+      "sourceUrl": "https://www.bankchb.com/frontend/bonusDetail.jsp?id=3391",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_a526959eabc3a9ed0c03",
+      "bank": "彰化銀行",
+      "title": "刷彰銀悠遊卡&一卡通聯名卡，台亞加油享優惠",
+      "sourceUrl": "https://www.bankchb.com/frontend/bonusDetail.jsp?id=3593",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "回饋計算方式待確認"
       ]
     },
     {

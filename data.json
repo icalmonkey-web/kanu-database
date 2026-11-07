@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.06-v232248-ubear-review-trusted-core-20261003",
+  "version": "2026.11.07-v220141-ubear-review-trusted-core-20261003",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -1697,7 +1697,7 @@
       "entityType": "CARD_PRODUCT",
       "classificationConfidence": 0.98,
       "classificationEvidence": "內文明確將此名稱列為官方信用卡產品",
-      "imageUrl": "",
+      "imageUrl": "https://www.bankchb.com/frontend/img/creditcard_slider.png",
       "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
       "textColor": "#ffffff",
       "descTag": "彰銀Combo卡"
@@ -8769,6 +8769,97 @@
       "themeBg": "linear-gradient(135deg, #d31145 0%, #eb5b77 100%)",
       "textColor": "#ffffff",
       "descTag": "momo最高3%"
+    },
+    {
+      "id": "card_王道銀行_735",
+      "bank": "王道銀行",
+      "cardName": "王道銀行公益認同卡",
+      "productType": "DEBIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.95,
+      "classificationEvidence": "內文明確將「公益認同卡」列為本行簽帳金融卡產品之一",
+      "imageUrl": "",
+      "themeBg": "linear-gradient(135deg, #2bc0e4 0%, #eaecc6 100%)",
+      "textColor": "#ffffff",
+      "descTag": "公益提撥認同卡"
+    },
+    {
+      "id": "card_彰化銀行_736",
+      "bank": "彰化銀行",
+      "cardName": "彰化銀行行動信用卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文明確將此名稱列為可申辦或已發行卡片",
+      "imageUrl": "https://www.bankchb.com/chb_2a_resource/leap_do/gallery/1530078762683/官網.png",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "行動信用卡"
+    },
+    {
+      "id": "card_彰化銀行_737",
+      "bank": "彰化銀行",
+      "cardName": "彰化銀行無限卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文圖片候選明確列出無限卡",
+      "imageUrl": "https://www.bankchb.com/chb_2a_resource/leap_do/gallery/1513944085117/1461892597280_058d8.png",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "無限卡"
+    },
+    {
+      "id": "card_彰化銀行_738",
+      "bank": "彰化銀行",
+      "cardName": "彰化銀行商旅御璽卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文圖片候選明確列出商旅御璽卡",
+      "imageUrl": "https://www.bankchb.com/chb_2a_resource/leap_do/gallery/1747730051191/V商旅御璽卡.png",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "商旅御璽卡"
+    },
+    {
+      "id": "card_彰化銀行_739",
+      "bank": "彰化銀行",
+      "cardName": "彰化銀行馬偕認同卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文圖片候選明確列出馬偕認同卡",
+      "imageUrl": "https://www.bankchb.com/chb_2a_resource/leap_do/gallery/1768375018529/馬偕認同卡01.png",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "馬偕認同卡"
+    },
+    {
+      "id": "card_彰化銀行_740",
+      "bank": "彰化銀行",
+      "cardName": "彰化銀行 My樂現金回饋卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文圖片候選明確列出My樂現金回饋卡",
+      "imageUrl": "https://www.bankchb.com/chb_2a_resource/leap_do/gallery/1768374931418/MYLOVE.png",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "My樂現金回饋"
+    },
+    {
+      "id": "card_彰化銀行_741",
+      "bank": "彰化銀行",
+      "cardName": "彰化銀行 My購卡",
+      "productType": "CREDIT",
+      "entityType": "CARD_PRODUCT",
+      "classificationConfidence": 0.98,
+      "classificationEvidence": "內文圖片候選明確列出彰銀My購卡",
+      "imageUrl": "https://www.bankchb.com/chb_2a_resource/leap_do/gallery/1768374931605/彰銀My購卡面_559980.png",
+      "themeBg": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "descTag": "My購卡"
     }
   ],
   "rules": [
@@ -26239,6 +26330,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -51360,118 +51452,6 @@
       "bank": "台新銀行"
     },
     {
-      "id": "rule_943f8558b9cb5ff4456d",
-      "cardId": "card_彰化銀行_396",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "彰銀Visa御璽卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "彰銀Visa御璽卡超利嗨！海外、日、韓消費最高5%回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "海外消費, 國外消費, 外幣, 日幣, 韓元, 機票, 飯店, 免稅店, 出國",
-      "intentTags": [
-        "海外消費",
-        "旅遊"
-      ],
-      "intentEvidence": "海外、日、韓消費最高5%回饋",
-      "baseRate": 0,
-      "promoRate": 5,
-      "rewardType": "percent",
-      "rewardAmount": 0,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "capScope": "NONE",
-      "roundingMode": "",
-      "spendBasis": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "MAX_ONLY",
-      "rewardTiers": [
-        {
-          "name": "最高回饋",
-          "totalRate": 5,
-          "baseRate": 0,
-          "promoRate": 5,
-          "isDefault": false,
-          "requirements": [],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.bankchb.com/frontend/bonusDetail.jsp?id=3391",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-10-19T17:58:13.171507Z",
-      "bank": "彰化銀行"
-    },
-    {
-      "id": "rule_deb109fa5564ccd00d58",
-      "cardId": "card_彰化銀行_669",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "悠遊卡&一卡通聯名卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "刷彰銀悠遊卡&一卡通聯名卡，台亞加油享優惠",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "台亞"
-      ],
-      "searchKeywords": "台亞, 台亞加油, 加油站",
-      "intentTags": [
-        "加油"
-      ],
-      "intentEvidence": "台亞加油享優惠",
-      "baseRate": 0,
-      "promoRate": 0,
-      "rewardType": "percent",
-      "rewardAmount": 0,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "capScope": "",
-      "roundingMode": "",
-      "spendBasis": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "UNKNOWN",
-      "rewardTiers": [],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.bankchb.com/frontend/bonusDetail.jsp?id=3593",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "台亞加油享優惠",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-10-19T17:58:54.300257Z",
-      "bank": "彰化銀行"
-    },
-    {
       "id": "rule_554e4860c6ba751a957c",
       "cardId": "card_元大銀行_266",
       "offerDomain": "CARD",
@@ -62486,6 +62466,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-30T13:29:25.273568Z",
@@ -66516,6 +66497,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -121895,145 +121877,6 @@
       }
     },
     {
-      "id": "rule_babymonster_concert_draw",
-      "cardId": "card_永豐銀行_11",
-      "title": "BABYMONSTER演唱會專屬購票序號抽獎",
-      "activityType": "REG_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "永豐金證券",
-        "Ticket Plus遠大售票系統"
-      ],
-      "searchKeywords": "永豐金證券, 遠大售票系統, 抽獎, 演唱會, BABYMONSTER",
-      "baseRate": 0,
-      "promoRate": 0,
-      "rewardType": "draw",
-      "rewardAmount": 1,
-      "rewardUnit": "chance",
-      "capAmount": 2,
-      "needReg": true,
-      "regDeadline": "2026/10/7",
-      "validUntil": "2026-10-07",
-      "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/755685802.html",
-      "quotaInfo": "需至永豐金證券活動網頁登錄，並完成新開戶成功或股票匯撥至永豐金證券指定任務，最高可累積2次抽獎機會，結帳需使用永豐信用卡或簽帳金融卡",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-22T21:15:35.621852Z",
-      "registrationUrl": "",
-      "intentTags": [],
-      "intentEvidence": "å®Œæˆ æŒ‡å®šä»»å‹™ ... å ³å ¯æŠ½å°ˆå±¬è³¼ç¥¨åº è™Ÿ",
-      "evidenceStatus": "VERIFIED",
-      "validationIssues": [],
-      "quickSearchEligible": false,
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [],
-      "registrationMethods": [],
-      "associationStatus": "confirmed",
-      "eligibleCardScope": "ALL_BANK_CARDS",
-      "bank": "永豐銀行",
-      "_reviewTermsBaseline": {
-        "cardId": "card_永豐銀行_11",
-        "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/755685802.html",
-        "title": "BABYMONSTER演唱會專屬購票序號抽獎",
-        "baseRate": 0,
-        "promoRate": 0,
-        "rewardType": "draw",
-        "rewardUnit": "chance",
-        "rewardAmount": 1,
-        "capAmount": 2,
-        "capScope": null,
-        "capPeriod": null,
-        "minimumSpend": null,
-        "spendBasis": null,
-        "roundingMode": null,
-        "validFrom": null,
-        "validUntil": "2026-10-07",
-        "needReg": true,
-        "regDeadline": "2026/10/7",
-        "registrationStart": null,
-        "registrationEnd": null,
-        "registrationCycle": null,
-        "registrationMethods": [],
-        "eligibilityRequirements": null,
-        "rewardCalculationMode": "FLAT",
-        "rewardTiers": [],
-        "selectionMode": null,
-        "benefitPlan": null,
-        "matchedMerchants": [
-          "永豐金證券",
-          "Ticket Plus遠大售票系統"
-        ],
-        "excludedKeywords": [],
-        "quotaInfo": "需至永豐金證券活動網頁登錄，並完成新開戶成功或股票匯撥至永豐金證券指定任務，最高可累積2次抽獎機會，結帳需使用永豐信用卡或簽帳金融卡",
-        "pointValueTwd": null,
-        "associationStatus": "confirmed",
-        "category": null,
-        "scope": "SPECIFIC",
-        "searchKeywords": "永豐金證券, 遠大售票系統, 抽獎, 演唱會, BABYMONSTER",
-        "intentTags": [],
-        "intentEvidence": "å®Œæˆ æŒ‡å®šä»»å‹™ ... å ³å ¯æŠ½å°ˆå±¬è³¼ç¥¨åº è™Ÿ",
-        "offerDomain": null,
-        "fundingMethods": null,
-        "bank": "永豐銀行"
-      },
-      "accuracyReview": {
-        "status": "SOURCE_CHECKED",
-        "checkedAt": "2026-10-19T17:10:56.555Z",
-        "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/755685802.html",
-        "fields": [
-          "baseRate",
-          "promoRate",
-          "capAmount"
-        ],
-        "termsSnapshot": {
-          "cardId": "card_永豐銀行_11",
-          "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/755685802.html",
-          "title": "BABYMONSTER演唱會專屬購票序號抽獎",
-          "baseRate": 0,
-          "promoRate": 0,
-          "rewardType": "draw",
-          "rewardUnit": "chance",
-          "rewardAmount": 1,
-          "capAmount": 2,
-          "capScope": null,
-          "capPeriod": null,
-          "minimumSpend": null,
-          "spendBasis": null,
-          "roundingMode": null,
-          "validFrom": null,
-          "validUntil": "2026-10-07",
-          "needReg": true,
-          "regDeadline": "2026/10/7",
-          "registrationStart": null,
-          "registrationEnd": null,
-          "registrationCycle": null,
-          "registrationMethods": [],
-          "eligibilityRequirements": null,
-          "rewardCalculationMode": "FLAT",
-          "rewardTiers": [],
-          "selectionMode": null,
-          "benefitPlan": null,
-          "matchedMerchants": [
-            "永豐金證券",
-            "Ticket Plus遠大售票系統"
-          ],
-          "excludedKeywords": [],
-          "quotaInfo": "需至永豐金證券活動網頁登錄，並完成新開戶成功或股票匯撥至永豐金證券指定任務，最高可累積2次抽獎機會，結帳需使用永豐信用卡或簽帳金融卡",
-          "pointValueTwd": null,
-          "associationStatus": "confirmed",
-          "category": null,
-          "scope": "SPECIFIC",
-          "searchKeywords": "永豐金證券, 遠大售票系統, 抽獎, 演唱會, BABYMONSTER",
-          "intentTags": [],
-          "intentEvidence": "å®Œæˆ æŒ‡å®šä»»å‹™ ... å ³å ¯æŠ½å°ˆå±¬è³¼ç¥¨åº è™Ÿ",
-          "offerDomain": null,
-          "fundingMethods": null,
-          "bank": "永豐銀行"
-        },
-        "issues": []
-      }
-    },
-    {
       "id": "rule_insurance_rebate_2026",
       "cardId": "card_永豐銀行_11",
       "title": "壽/產險代繳享回饋",
@@ -137517,6 +137360,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -157049,6 +156893,7 @@
       ],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -201920,6 +201765,7 @@
       "quickSearchEligible": false,
       "validationIssues": [
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-11-06T23:15:38.037513Z",
@@ -202579,6 +202425,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
@@ -204250,6 +204097,7 @@
       ],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
@@ -207289,6 +207137,179 @@
       "bank": "遠東商銀"
     },
     {
+      "id": "rule_ac3353cc7bdfa526cc7c",
+      "cardId": "card_王道銀行_367",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行簽帳金融卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "買酷澎刷王道 最高現折新台幣3,000元",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "酷澎"
+      ],
+      "searchKeywords": "酷澎, Coupang, 酷澎購物",
+      "intentTags": [
+        "網購"
+      ],
+      "intentEvidence": "買酷澎刷王道",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "cash",
+      "rewardAmount": 3000,
+      "rewardUnit": "TWD",
+      "capAmount": 3000,
+      "capPeriod": "CAMPAIGN",
+      "capScope": "PROMO",
+      "roundingMode": "",
+      "spendBasis": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "持王道銀行簽帳金融卡於酷澎消費"
+      ],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "於酷澎消費刷王道簽帳金融卡符合指定門檻"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "最高現折新台幣3,000元",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-11-07T21:47:13.221301Z",
+      "bank": "王道銀行"
+    },
+    {
+      "id": "rule_0a0ae8c42f0f831fd8fa",
+      "cardId": "card_彰化銀行_396",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "彰銀Visa御璽卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "彰銀Visa御璽卡海外、日、韓消費最高5%回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "海外消費, 國外消費, 外幣, 日幣, 韓元, 機票, 飯店, 旅遊, 住宿, 免稅店",
+      "intentTags": [
+        "海外消費",
+        "旅遊",
+        "住宿"
+      ],
+      "intentEvidence": "彰銀Visa御璽卡超利嗨！海外、日、韓消費最高5%回饋",
+      "baseRate": 0,
+      "promoRate": 5,
+      "rewardType": "percent",
+      "rewardAmount": 0,
+      "rewardUnit": "percent",
+      "capAmount": null,
+      "capPeriod": "",
+      "capScope": "NONE",
+      "roundingMode": "",
+      "spendBasis": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [
+        {
+          "name": "最高回饋",
+          "totalRate": 5,
+          "baseRate": 0,
+          "promoRate": 5,
+          "isDefault": false,
+          "requirements": [
+            "指定海外/日韓消費"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        }
+      ],
+      "maxRateRequires": [
+        "符合海外、日、韓指定消費條件"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.bankchb.com/frontend/bonusDetail.jsp?id=3391",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "海外、日、韓消費最高5%回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-11-07T22:01:00.893625Z",
+      "bank": "彰化銀行"
+    },
+    {
+      "id": "rule_a526959eabc3a9ed0c03",
+      "cardId": "card_彰化銀行_403",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "彰銀悠遊卡",
+        "一卡通聯名卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "刷彰銀悠遊卡&一卡通聯名卡，台亞加油享優惠",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "台亞"
+      ],
+      "searchKeywords": "台亞, 台亞加油, 台亞加油站",
+      "intentTags": [
+        "加油"
+      ],
+      "intentEvidence": "台亞加油享優惠",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "cash",
+      "rewardAmount": 0,
+      "rewardUnit": "TWD",
+      "capAmount": 0,
+      "capPeriod": "",
+      "capScope": "",
+      "roundingMode": "",
+      "spendBasis": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "UNKNOWN",
+      "rewardTiers": [],
+      "maxRateRequires": [],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.bankchb.com/frontend/bonusDetail.jsp?id=3593",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "台亞加油優惠",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-11-07T22:01:09.528788Z",
+      "bank": "彰化銀行"
+    },
+    {
       "cardId": "card_esun_ubear",
       "bank": "玉山銀行",
       "offerDomain": "CARD",
@@ -209856,5 +209877,5 @@
       "message": "政府規費、公用事業水電瓦斯多數信用卡皆排除回饋。"
     }
   ],
-  "lastUpdated": "2026-11-06T23:22:48.331224Z"
+  "lastUpdated": "2026-11-07T22:01:41.853096Z"
 }

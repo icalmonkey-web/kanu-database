@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T23:22:50.622530+00:00",
+  "generatedAt": "2026-11-07T22:01:49.270471+00:00",
   "targetAccuracy": 0.98,
   "measuredAccuracy": null,
   "coveragePercent": null,
@@ -8,13 +8,13 @@
   "totalRules": 1551,
   "issueCounts": {
     "UNRESOLVED_CARD_ASSOCIATION": 43,
-    "MISSING_CAMPAIGN_END": 621,
+    "MISSING_CAMPAIGN_END": 622,
     "UNKNOWN_CALCULATION": 240,
-    "STALE_TERM_REVIEW": 665,
+    "STALE_TERM_REVIEW": 664,
     "UNKNOWN_CAP_SCOPE": 472,
-    "NO_INDEPENDENT_TERM_REVIEW": 886,
-    "UNSTRUCTURED_REGISTRATION_WINDOW": 196,
-    "MAXIMUM_ONLY": 165
+    "NO_INDEPENDENT_TERM_REVIEW": 887,
+    "UNSTRUCTURED_REGISTRATION_WINDOW": 195,
+    "MAXIMUM_ONLY": 166
   },
   "rules": [
     {
@@ -2848,26 +2848,6 @@
       "bank": "台新銀行",
       "title": "台新信用卡刷保費最高拿2,088點台新Point(信用卡)",
       "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_943f8558b9cb5ff4456d",
-      "bank": "彰化銀行",
-      "title": "彰銀Visa御璽卡超利嗨！海外、日、韓消費最高5%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_deb109fa5564ccd00d58",
-      "bank": "彰化銀行",
-      "title": "刷彰銀悠遊卡&一卡通聯名卡，台亞加油享優惠",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "UNKNOWN_CALCULATION",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -6584,16 +6564,6 @@
       "title": "低碳生活消費碳足跡查詢與抽獎活動",
       "issues": [
         "MISSING_CAMPAIGN_END",
-        "UNKNOWN_CAP_SCOPE",
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "STALE_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_babymonster_concert_draw",
-      "bank": "永豐銀行",
-      "title": "BABYMONSTER演唱會專屬購票序號抽獎",
-      "issues": [
         "UNKNOWN_CAP_SCOPE",
         "UNSTRUCTURED_REGISTRATION_WINDOW",
         "STALE_TERM_REVIEW"
@@ -14095,6 +14065,37 @@
       "issues": [
         "MISSING_CAMPAIGN_END",
         "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_ac3353cc7bdfa526cc7c",
+      "bank": "王道銀行",
+      "title": "買酷澎刷王道 最高現折新台幣3,000元",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_0a0ae8c42f0f831fd8fa",
+      "bank": "彰化銀行",
+      "title": "彰銀Visa御璽卡海外、日、韓消費最高5%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_a526959eabc3a9ed0c03",
+      "bank": "彰化銀行",
+      "title": "刷彰銀悠遊卡&一卡通聯名卡，台亞加油享優惠",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "UNKNOWN_CALCULATION",
+        "UNKNOWN_CAP_SCOPE",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
