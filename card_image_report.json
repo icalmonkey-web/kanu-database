@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T22:01:50.009428+00:00",
+  "generatedAt": "2026-11-08T22:22:11.801671+00:00",
   "added": [],
   "withImage": 336,
   "missing": [
@@ -2027,6 +2027,11 @@
       "id": "card_王道銀行_735",
       "bank": "王道銀行",
       "cardName": "王道銀行公益認同卡"
+    },
+    {
+      "id": "card_樂天信用卡_742",
+      "bank": "樂天信用卡",
+      "cardName": "台灣虎航聯名卡"
     }
   ],
   "pages": [
@@ -2704,6 +2709,12 @@
     },
     {
       "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/index.html?pid=tw-personal-card-carousel-pxpayplus",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/offers/vsoffer/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-vsoffer",
       "cached": true,
       "error": ""
@@ -2838,12 +2849,6 @@
       "bank": "臺灣土地銀行",
       "url": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1",
       "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/index.html?pid=tw-personal-card-carousel-pxpayplus",
-      "candidates": 2,
       "error": ""
     }
   ]
