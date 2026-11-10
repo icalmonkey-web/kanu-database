@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.10-v020756-ubear-review-trusted-core-20261003",
+  "version": "2026.11.10-v230755-ubear-review-trusted-core-20261003",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -26382,6 +26382,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -62077,6 +62078,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-30T13:29:25.273568Z",
@@ -66107,6 +66109,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -135911,6 +135914,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-28T23:16:52.214472Z",
@@ -155308,6 +155312,7 @@
       ],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -194929,6 +194934,7 @@
       "quickSearchEligible": false,
       "validationIssues": [
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-11-10T01:32:50.962094Z",
@@ -199761,6 +199767,7 @@
       "quickSearchEligible": false,
       "validationIssues": [
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-11-10T01:46:37.979839Z",
@@ -199817,6 +199824,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
@@ -200536,6 +200544,7 @@
       ],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
@@ -204789,6 +204798,59 @@
       "bank": "悠遊付"
     },
     {
+      "id": "rule_ee72ee0b2ea83e8f24f8",
+      "cardId": "card_王道銀行_367",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "王道銀行簽帳金融卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "買酷澎刷王道最高現折3000元",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "酷澎"
+      ],
+      "searchKeywords": "酷澎, Coupang, coupang, 酷澎購物, 酷澎網購, 網購",
+      "intentTags": [
+        "網購"
+      ],
+      "intentEvidence": "買酷澎刷王道，最高現折新台幣3,000元！",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "cash",
+      "rewardAmount": 3000,
+      "rewardUnit": "TWD",
+      "capAmount": 3000,
+      "capPeriod": "CAMPAIGN",
+      "capScope": "PROMO",
+      "roundingMode": "",
+      "spendBasis": "",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [],
+      "rewardCalculationMode": "MAX_ONLY",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "於酷澎消費並使用王道銀行簽帳金融卡結帳達指定門檻"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "最高現折新台幣3,000元",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-11-10T23:07:18.706585Z",
+      "bank": "王道銀行"
+    },
+    {
       "cardId": "card_esun_ubear",
       "bank": "玉山銀行",
       "offerDomain": "CARD",
@@ -207356,5 +207418,5 @@
       "message": "政府規費、公用事業水電瓦斯多數信用卡皆排除回饋。"
     }
   ],
-  "lastUpdated": "2026-11-10T02:07:56.989177Z"
+  "lastUpdated": "2026-11-10T23:07:55.031530Z"
 }

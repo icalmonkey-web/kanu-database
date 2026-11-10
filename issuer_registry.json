@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "description": "台灣信用卡發卡機構主清單。enabled 僅代表已設定可執行入口，不代表涵蓋率驗證通過。",
-  "lastUpdatedAt": "2026-11-10T02:07:57.728560Z",
+  "lastUpdatedAt": "2026-11-10T23:07:55.765349Z",
   "issuers": [
     {
       "name": "永豐銀行",
@@ -51,7 +51,7 @@
       "eventLinkPattern": "/personal/event/",
       "lastSuccessfulScanAt": "2026-11-10T01:26:47.406312Z",
       "discoveredCardCount": 7,
-      "discoveredOfferCount": 54,
+      "discoveredOfferCount": 49,
       "unvisitedPageCount": 0,
       "failedPageCount": 0,
       "lastScanAt": "2026-11-10T01:26:47.406312Z",
@@ -199,7 +199,7 @@
       "discoveredOfferCount": 79,
       "unvisitedPageCount": 227,
       "failedPageCount": 0,
-      "lastScanAt": "2026-11-10T01:42:05.977631Z",
+      "lastScanAt": "2026-11-10T23:06:57.048881Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -692,10 +692,10 @@
       "coverageNote": "僅收錄具實質消費回饋的簽帳金融卡",
       "lastSuccessfulScanAt": "2026-09-25T03:52:33.701377Z",
       "discoveredCardCount": 47,
-      "discoveredOfferCount": 64,
+      "discoveredOfferCount": 65,
       "unvisitedPageCount": 159,
       "failedPageCount": 0,
-      "lastScanAt": "2026-11-10T01:51:11.571765Z",
+      "lastScanAt": "2026-11-10T23:07:38.704105Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -761,13 +761,13 @@
       ],
       "eventLinkPattern": "(card|debit|event|campaign|news)",
       "coverageNote": "快點卡等具消費回饋的簽帳金融卡",
-      "lastSuccessfulScanAt": "2026-11-08T22:15:42.002499Z",
+      "lastSuccessfulScanAt": "2026-11-10T23:07:54.989026Z",
       "discoveredCardCount": 4,
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
-      "failedPageCount": 2,
-      "lastScanAt": "2026-11-10T01:51:43.648154Z",
-      "lastScanStatus": "needs_review"
+      "failedPageCount": 0,
+      "lastScanAt": "2026-11-10T23:07:54.989026Z",
+      "lastScanStatus": "completed"
     },
     {
       "name": "樂天國際商業銀行",

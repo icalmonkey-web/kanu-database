@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-10T02:07:58.725Z",
+  "generatedAt": "2026-11-10T23:07:58.821Z",
   "disclaimer": "結構檢查不是事實核對；待確認點數不換算現金。",
-  "totalRules": 1529,
+  "totalRules": 1530,
   "reviewed": 0,
   "comparable": 0,
-  "expired": 51,
-  "sourceGroups": 501,
+  "expired": 52,
+  "sourceGroups": 502,
   "queue": [
     {
       "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/cards/",
@@ -1196,19 +1196,6 @@
       "activeRules": 5
     },
     {
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3278",
-      "bank": "玉山銀行",
-      "ruleIds": [
-        "esun_ns_01",
-        "esun_ez_01",
-        "esun_ez_02",
-        "esun_ez_03",
-        "esun_ez_05",
-        "esun_ez_06"
-      ],
-      "activeRules": 5
-    },
-    {
       "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=8009",
       "bank": "玉山銀行",
       "ruleIds": [
@@ -1610,6 +1597,19 @@
         "rule_cube_autumn",
         "rule_goyard",
         "rule_korean_air"
+      ],
+      "activeRules": 4
+    },
+    {
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3278",
+      "bank": "玉山銀行",
+      "ruleIds": [
+        "esun_ns_01",
+        "esun_ez_01",
+        "esun_ez_02",
+        "esun_ez_03",
+        "esun_ez_05",
+        "esun_ez_06"
       ],
       "activeRules": 4
     },
@@ -4853,6 +4853,14 @@
       "bank": "悠遊付",
       "ruleIds": [
         "rule_781003b7fcafb0a3e899"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_ee72ee0b2ea83e8f24f8"
       ],
       "activeRules": 1
     },
@@ -11415,12 +11423,12 @@
       "bank": "玉山銀行",
       "title": "易遊網5-10號會員日-機票滿額現折與抽獎",
       "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3278",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "lifecycle": "EXPIRED",
       "reviewStatus": "RECHECK_REQUIRED",
       "comparable": false,
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
-        "固定回饋門檻或計次方式未確認"
+        "活動已截止"
       ]
     },
     {
@@ -24496,6 +24504,19 @@
       "bank": "悠遊付",
       "title": "全台7-ELEVEN門市悠遊付消費回饋最高12%",
       "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=6",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_ee72ee0b2ea83e8f24f8",
+      "bank": "王道銀行",
+      "title": "買酷澎刷王道最高現折3000元",
+      "sourceUrl": "https://www.o-bank.com/retail",
       "lifecycle": "ACTIVE_OR_UNKNOWN",
       "reviewStatus": "PENDING",
       "comparable": false,

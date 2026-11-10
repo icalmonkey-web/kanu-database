@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-10T02:07:58.654385+00:00",
+  "generatedAt": "2026-11-10T23:07:58.737664+00:00",
   "targetAccuracy": 0.98,
   "measuredAccuracy": null,
   "coveragePercent": null,
   "acceptanceStatus": "NOT_ESTABLISHED",
   "reason": "需要獨立官方基準清單及逐欄核對；結構通過率、測試通過率都不是優惠準確率。",
-  "totalRules": 1529,
+  "totalRules": 1530,
   "issueCounts": {
     "UNRESOLVED_CARD_ASSOCIATION": 43,
-    "MISSING_CAMPAIGN_END": 623,
+    "MISSING_CAMPAIGN_END": 624,
     "UNKNOWN_CALCULATION": 237,
     "STALE_TERM_REVIEW": 658,
     "UNKNOWN_CAP_SCOPE": 465,
-    "NO_INDEPENDENT_TERM_REVIEW": 871,
+    "NO_INDEPENDENT_TERM_REVIEW": 872,
     "UNSTRUCTURED_REGISTRATION_WINDOW": 179,
-    "MAXIMUM_ONLY": 162
+    "MAXIMUM_ONLY": 163
   },
   "rules": [
     {
@@ -13888,6 +13888,16 @@
       "id": "rule_781003b7fcafb0a3e899",
       "bank": "悠遊付",
       "title": "全台7-ELEVEN門市悠遊付消費回饋最高12%",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_ee72ee0b2ea83e8f24f8",
+      "bank": "王道銀行",
+      "title": "買酷澎刷王道最高現折3000元",
       "issues": [
         "MISSING_CAMPAIGN_END",
         "MAXIMUM_ONLY",
