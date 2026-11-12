@@ -1,36 +1,36 @@
 {
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/list.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/business/list.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
-    "error": "ConnectTimeout"
+    "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/WBFU.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
-    "error": "ConnectTimeout"
+    "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/cashcard.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
-    "error": "ConnectTimeout"
+    "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/dual-currency-card.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/debit/debit.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/co-brand/list.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": "ConnectTimeout"
   },
@@ -40,12 +40,12 @@
     "error": "ConnectTimeout"
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/WBCH.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
-    "error": "ConnectTimeout"
+    "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/DAWHO.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": "ConnectTimeout"
   },
@@ -55,12 +55,12 @@
     "error": "ConnectTimeout"
   },
   "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": "redirect outside official hosts"
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -294,7 +294,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -528,7 +528,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/tools/do": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -590,7 +590,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro#3": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -824,7 +824,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/teacher-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -980,7 +980,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/travel-card/traveler-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1034,7 +1034,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/tools/mark_up": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1072,7 +1072,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/tools/adjustment": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1110,7 +1110,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1135,6 +1135,26 @@
       [
         "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/Unicard/1144x720_vb_A027CH.png",
         "藍 (無電子票證)"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/-/media/New ESUNBANK/Credit Card/Card Intro/bank-card/Unicard/cardnumberstep 1N",
+        "Step 1"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/-/media/New ESUNBANK/Credit Card/Card Intro/bank-card/Unicard/cardnumberstep 2N",
+        "Step 2"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/-/media/New ESUNBANK/Credit Card/Card Intro/bank-card/Unicard/cardnumberstep 3N",
+        "Step 3"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/-/media/New ESUNBANK/Credit Card/Card Intro/bank-card/Unicard/cardnumberstep 4N",
+        "Step 4"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/-/media/New ESUNBANK/Credit Card/Card Intro/bank-card/Unicard/cardnumberstep 5N",
+        "Step 5"
       ],
       [
         "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/mutual_content/Wallet/walletauto.jpg",
@@ -1176,7 +1196,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/kumamon_card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1193,6 +1213,10 @@
       [
         "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/Copy-of-e-card/Folding-Cart4.jpg",
         "熊本熊推車"
+      ],
+      [
+        "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/Copy-of-e-card/14-2.png",
+        "熊本熊毯子"
       ],
       [
         "https://www.esunbank.com/zh-tw/-/media/New-ESUNBANK/Credit-Card/Card-Intro/bank-card/u-bear/NS2.png",
@@ -1238,7 +1262,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/u-bear": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1304,7 +1328,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/pi-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1366,7 +1390,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1412,7 +1436,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/eztravel": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1466,7 +1490,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/WORLD": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1520,7 +1544,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/world-card/infinite-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1570,7 +1594,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/e-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1624,7 +1648,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/icash-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1678,7 +1702,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/dualcurrency-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1728,7 +1752,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/inscard": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1786,7 +1810,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/only-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1840,7 +1864,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/signature-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1894,7 +1918,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/jcb-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -1948,7 +1972,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/easy-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -2002,7 +2026,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/business-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -2056,7 +2080,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/titanium-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -2110,7 +2134,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/plus-titanium-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -2164,7 +2188,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/poya-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -2218,7 +2242,7 @@
     "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
@@ -2464,7 +2488,7 @@
     "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/index.htm": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
@@ -2527,6 +2551,10 @@
         "momoå¡é»ç½å¡é¢å¨æ°ç»å ´ï¼ç¾å¨ç³è¾¦æ°æ¶é¦å·é1000åmoå¹£ï¼"
       ],
       [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/1029_%E5%AF%8C%E9%82%A6momo%E5%BA%97%E5%85%A711%E6%9C%88_1920x300.jpg",
+        "momoå¡æ­¡æ¶éåä¸ï¼æ»¿é¡æé«åé¥12111åï¼"
+      ],
+      [
         "https://www.fubon.com/banking/images/personal/credit_card/TW/%E8%BE%A6%E5%8D%A1%E9%96%8B%E5%8D%A1_515x280.jpg",
         "è¾¦å¡Â·éå¡"
       ],
@@ -2558,7 +2586,7 @@
     "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/card_refer/card_refer.htm": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
@@ -2684,7 +2712,7 @@
     "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/lifestyle/lifestyle.htm": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
@@ -2742,7 +2770,7 @@
     "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/Guardians_Braves/Guardians_Braves.htm": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
@@ -2796,7 +2824,7 @@
     "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/momo/momo.htm": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
@@ -2850,7 +2878,7 @@
     "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/digitallife/digitallife.htm": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
@@ -2904,7 +2932,7 @@
     "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/fortune/fortune.htm": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
@@ -2958,7 +2986,7 @@
     "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/all_card.htm?cardkind=mobile": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
@@ -3204,7 +3232,7 @@
     "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/imperial/imperial.htm": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
@@ -3258,7 +3286,7 @@
     "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/omiyage/omiyage.htm": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
@@ -3316,7 +3344,7 @@
     "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/insurance/insurance.htm": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
@@ -3370,7 +3398,7 @@
     "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/openpossible/openpossible.htm": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
@@ -3440,7 +3468,7 @@
     "error": ""
   },
   "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg021/card001/": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon1.svg",
@@ -3506,7 +3534,7 @@
     "error": ""
   },
   "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg010/card001/": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon1.svg",
@@ -3588,7 +3616,7 @@
     "error": ""
   },
   "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/parking/right0306/": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon1.svg",
@@ -3651,7 +3679,7 @@
     "error": "SSLError"
   },
   "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/favorable/right0502/": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon1.svg",
@@ -3709,7 +3737,7 @@
     "error": ""
   },
   "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon1.svg",
@@ -3854,12 +3882,12 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/twrbo/zh_tw/cc_index/cc_product/cc_introduction_index.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/index.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -3909,7 +3937,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/gifts.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -4099,7 +4127,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_food.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -4381,7 +4409,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_pet.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -4671,7 +4699,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_shopping.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -5001,7 +5029,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -5463,7 +5491,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_fashion.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -5849,7 +5877,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_travel.html": {
-    "checkedAt": "2026-11-05T00:20:48.596774+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -5908,10 +5936,6 @@
         "åç¤º_èèªéæ»é"
       ],
       [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_itf.png",
-        "ITFå°ç£åéæå±"
-      ],
-      [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_hotelscom.png",
         "Hotels.com"
       ],
@@ -5946,10 +5970,6 @@
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_koreastore.png",
         "éåæå®ååº"
-      ],
-      [
-        "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_oliveyoung.png",
-        "éåOLIVE YOUNG"
       ],
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/travel/travel_promotions_store_oliveyoungglobal.png",
@@ -6315,7 +6335,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/store.html": {
-    "checkedAt": "2026-11-05T00:20:48.596774+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -6449,7 +6469,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html": {
-    "checkedAt": "2026-11-05T00:20:48.596774+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -6479,7 +6499,7 @@
     "error": ""
   },
   "https://www.dbs.com.tw/personal-zh/cards/default.page": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.dbs.com.tw/iwov-resources/flp/images/dbs_logo.svg",
@@ -6533,7 +6553,7 @@
     "error": ""
   },
   "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header": {
-    "checkedAt": "2026-11-05T00:20:48.596774+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.dbs.com.tw/iwov-resources/flp/images/dbs_logo.svg",
@@ -7075,7 +7095,7 @@
     "error": ""
   },
   "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page": {
-    "checkedAt": "2026-11-05T00:20:48.596774+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.dbs.com.tw/iwov-resources/flp/images/dbs_logo.svg",
@@ -7538,7 +7558,7 @@
     "error": ""
   },
   "https://www.card.rakuten.com.tw/": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://image.card.tw.r10s.com/images/corp/campaign/2216/banner/710x310.jpg",
@@ -8874,7 +8894,7 @@
     "error": ""
   },
   "https://www.tcbbank.com.tw/": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": "ConnectionError"
   },
@@ -8884,7 +8904,7 @@
     "error": "ConnectionError"
   },
   "https://www.hsbc.com.tw/credit-cards/": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.hsbc.com.tw/content/dam/hsbc/tw/images/logos/13608-hsbc-masterbrand-tc-logo.png",
@@ -9416,38 +9436,17 @@
     "error": ""
   },
   "https://www.yuantabank.com.tw/bank-web/personal/credit-card/": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://www.hncb.com.tw/wps/portal/HNCB/creditcard": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
-    "images": [
-      [
-        "https://www.hncb.com.tw/wps/wcm/connect/b11e6bc5-349d-4640-b2f9-ed25edca6b35/logo-hncb.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-b11e6bc5-349d-4640-b2f9-ed25edca6b35-oVFobkx",
-        "華南銀行識別標誌"
-      ],
-      [
-        "https://www.hncb.com.tw/wps/wcm/connect/ecf21c9d-dc33-48cc-92e9-062ad1e9f389/saving-insurance.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-ecf21c9d-dc33-48cc-92e9-062ad1e9f389-q5x.COu",
-        "存款保險標章"
-      ],
-      [
-        "https://www.hncb.com.tw/wps/wcm/connect/a133337f-ed75-4345-bc8a-e542bb97cdbf/iso27001-hncb-white_v2.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-a133337f-ed75-4345-bc8a-e542bb97cdbf-q5x.COu",
-        "bsi ISO/IEC 27001"
-      ],
-      [
-        "https://www.hncb.com.tw/wps/wcm/connect/da0e00bf-b063-47b9-9d10-4e9a860419e3/label-aa.jpeg?MOD=AJPERES&CACHEID=ROOTWORKSPACE-da0e00bf-b063-47b9-9d10-4e9a860419e3-oZdurjP",
-        "無障礙AA標章"
-      ],
-      [
-        "https://www.hncb.com.tw/wps/wcm/connect/e2ec07e0-f9b9-42a5-ace7-b321ee01e66c/logo-hncb-inverse.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-e2ec07e0-f9b9-42a5-ace7-b321ee01e66c-oVFobkx",
-        "華南銀行識別標誌"
-      ]
-    ],
-    "error": ""
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
+    "images": [],
+    "error": "ConnectTimeout"
   },
   "https://www.bankchb.com/frontend/mashup.jsp?funcId=33": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.bankchb.com/frontend/img/icon-menu-01.svg",
@@ -9537,7 +9536,7 @@
     "error": ""
   },
   "https://www.megabank.com.tw/personal/credit-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.megabank.com.tw/-/media/mega/images/default-image/footerv2/logo_bank_new.svg?iar=0",
@@ -9731,7 +9730,7 @@
     "error": ""
   },
   "https://www.tcb-bank.com.tw/personal-banking/credit-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.tcb-bank.com.tw/themes/bank/images/logo/logo-simple-wt.svg",
@@ -9829,22 +9828,17 @@
     "error": ""
   },
   "https://www.feib.com.tw/": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
-    "images": [
-      [
-        "https://www.feib.com.tw/upload/cdic/cdic120.png",
-        "cdid.gov"
-      ]
-    ],
-    "error": ""
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
+    "images": [],
+    "error": "ConnectionError"
   },
   "https://www.entiebank.com.tw/": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.o-bank.com/-/media/486bc56a4eb54699bf79f5bcd5f2f04f.png?iar=0&hash=9683C6365D6D317CBE8B63AA26B01783",
@@ -9894,7 +9888,7 @@
     "error": ""
   },
   "https://www.nextbank.com.tw/product/card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.nextbank.com.tw/images/img-logo.svg",
@@ -10080,17 +10074,17 @@
     "error": ""
   },
   "https://www.linebank.com.tw/": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://www.rakuten-bank.com.tw/": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://www.americanexpress.com/zh-tw/credit-cards/all-cards/": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://icm.aexp-static.com/Internet/internationalcardshop/zh_tw/images/cards/plat.png",
@@ -10156,7 +10150,7 @@
     "error": ""
   },
   "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.landbank.com.tw/Uploads/Temp/040cafaa-bef0-4a3f-b1fe-2a4f495ebabb.PNG",
@@ -10196,6 +10190,14 @@
       ],
       [
         "https://www.landbank.com.tw/Images/bulletin-default.png",
+        "【台灣Pay】「橡木桶刷台灣Pay 滿1,500 送300回饋」活動（1151110-1160210）"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/bulletin-default.png",
+        "本行「轉出好運發發發」活動網站將於115/11/5(四)18時至18時30分進行系統升級維護作業，屆時將暫停服務"
+      ],
+      [
+        "https://www.landbank.com.tw/Images/bulletin-default.png",
         "【土銀信用卡】百貨刷卡滿額贈"
       ],
       [
@@ -10225,14 +10227,6 @@
       [
         "https://www.landbank.com.tw/Images/bulletin-default.png",
         "【台灣Pay】美十樂連鎖藥局-台灣Pay 20%回饋（115/6/25-115/11/30）"
-      ],
-      [
-        "https://www.landbank.com.tw/Images/bulletin-default.png",
-        "【台灣Pay】土銀JCB╳台灣Pay 與您一起發發（115/8/1-115/12/31）"
-      ],
-      [
-        "https://www.landbank.com.tw/Images/bulletin-default.png",
-        "【土銀icash2.0聯名鈦金卡】115年度刷卡優惠"
       ],
       [
         "https://www.landbank.com.tw/Images/Read.png",
@@ -10468,7 +10462,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -10562,7 +10556,7 @@
     "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
@@ -10888,12 +10882,12 @@
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/310482674.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/437203357.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
@@ -10908,22 +10902,22 @@
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/931137313.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/326609214.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/650410355.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/536198523.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
@@ -10943,12 +10937,12 @@
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/928190552.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/845537577.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
@@ -10958,57 +10952,57 @@
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/750916543.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/020616393.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/953559172.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/946930985.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/110381825.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/502664361.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/250392714.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://www.cathaybk.com.tw/cathaybk/personal/cards/": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://www.cathaybk.com.tw/cathaybk/personal/event/overview?category=credit-card": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": "redirect outside official hosts"
   },
   "https://www.cathaybk.com.tw/content/cub-aem-cs/zh-tw/cathaybk/personal/event/overview/credit-card/online-shopping/202609/shopee202609_3.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3278": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -11046,7 +11040,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/tools/apply/electronicbill": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -11122,7 +11116,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=7034": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -11160,17 +11154,17 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3015": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": "redirect outside official hosts"
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=8009": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": "redirect outside official hosts"
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=travel": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -11314,7 +11308,7 @@
     "error": ""
   },
   "https://www.esunbank.com/en/personal/credit-card/discount/shops": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -11420,7 +11414,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3182": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -11454,7 +11448,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=others": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -11488,7 +11482,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=deptstore": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -11522,7 +11516,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=food": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -11556,7 +11550,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=literature": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -11590,7 +11584,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=8029": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -11662,7 +11656,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=onlineshop": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -11696,7 +11690,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3125": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -11734,7 +11728,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=lifestyle": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -11768,7 +11762,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=transport": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -11836,7 +11830,7 @@
     "error": ""
   },
   "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=daily": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
@@ -11870,7 +11864,7 @@
     "error": ""
   },
   "https://www.fubon.com/banking/personal/credit_card/": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.fubon.com/banking/common_content/images/logo.png?v=1",
@@ -11933,6 +11927,10 @@
         "momoå¡é»ç½å¡é¢å¨æ°ç»å ´ï¼ç¾å¨ç³è¾¦æ°æ¶é¦å·é1000åmoå¹£ï¼"
       ],
       [
+        "https://www.fubon.com/banking/images/personal/credit_card/TW/1029_%E5%AF%8C%E9%82%A6momo%E5%BA%97%E5%85%A711%E6%9C%88_1920x300.jpg",
+        "momoå¡æ­¡æ¶éåä¸ï¼æ»¿é¡æé«åé¥12111åï¼"
+      ],
+      [
         "https://www.fubon.com/banking/images/personal/credit_card/TW/%E8%BE%A6%E5%8D%A1%E9%96%8B%E5%8D%A1_515x280.jpg",
         "è¾¦å¡Â·éå¡"
       ],
@@ -11964,12 +11962,12 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/index.html": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [],
     "error": "HTTPError"
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share.html": {
-    "checkedAt": "2026-11-05T00:20:48.596774+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -11995,7 +11993,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share-article-01.html": {
-    "checkedAt": "2026-11-05T00:20:48.596774+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -12306,7 +12304,7 @@
     "error": ""
   },
   "https://www.dbs.com.tw/personal-zh/cards/services/default.page?pid=tw-pweb-personal_zh-cards-header": {
-    "checkedAt": "2026-11-05T00:20:48.596774+00:00",
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
     "images": [
       [
         "https://www.dbs.com.tw/iwov-resources/flp/images/dbs_logo.svg",
@@ -12391,6 +12389,52 @@
       [
         "https://www.dbs.com.tw/iwov-resources/images/cards/customer_information_changes-684x630_2.jpg",
         "å®¢æ¶è³æè®æ´"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/central-deposit-insurance.png",
+        "ä¸­å¤®å­æ¬¾ä¿éª"
+      ]
+    ],
+    "error": ""
+  },
+  "https://www.dbs.com.tw/personal-zh/cards/dbs-cards-benefits/default.page?pid=tw-pweb-personal_zh-cards-header": {
+    "checkedAt": "2026-11-12T01:07:17.037346+00:00",
+    "images": [
+      [
+        "https://www.dbs.com.tw/iwov-resources/flp/images/dbs_logo.svg",
+        "DBS æå±éè¡"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/flp/images/DBS-TC.svg",
+        "DBS æå±éè¡"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/benefits/airport-pickup-684x630.jpg",
+        "æ©å ´æ¥é"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/benefits/airport-lounges-684x630.jpg",
+        "æ©å ´è²´è³å®¤"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/benefits/airport-parking-684x630.jpg",
+        "æ©å ´å¤ååè»"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/benefits/city-parking-684x630.jpg",
+        "å¸ååè»"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/benefits/travel-insurance-684x630.jpg",
+        "æå¹³éªåä¸ä¾¿éª"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/offers/vsoffer-684x630.jpg",
+        "é»å½±è³¼ç¥¨"
+      ],
+      [
+        "https://www.dbs.com.tw/iwov-resources/images/cards/benefits/cardbook-684x630.jpg",
+        "æ¬çæå"
       ],
       [
         "https://www.dbs.com.tw/iwov-resources/images/central-deposit-insurance.png",
