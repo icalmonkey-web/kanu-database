@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "description": "台灣信用卡發卡機構主清單。enabled 僅代表已設定可執行入口，不代表涵蓋率驗證通過。",
-  "lastUpdatedAt": "2026-11-12T01:07:15.832570Z",
+  "lastUpdatedAt": "2026-11-12T23:44:37.794045Z",
   "issuers": [
     {
       "name": "永豐銀行",
@@ -109,7 +109,7 @@
       "eventLinkPattern": "/event/.+\\.htm",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 35,
-      "discoveredOfferCount": 82,
+      "discoveredOfferCount": 81,
       "unvisitedPageCount": 79,
       "failedPageCount": 0,
       "lastScanAt": "2026-11-12T00:38:11.731957Z",
@@ -195,11 +195,11 @@
       ],
       "eventLinkPattern": "/(cards|offers|promotions|campaigns)/",
       "lastSuccessfulScanAt": "2026-09-24T21:26:01.503063Z",
-      "discoveredCardCount": 26,
-      "discoveredOfferCount": 79,
+      "discoveredCardCount": 27,
+      "discoveredOfferCount": 78,
       "unvisitedPageCount": 227,
       "failedPageCount": 0,
-      "lastScanAt": "2026-11-12T00:38:17.279577Z",
+      "lastScanAt": "2026-11-12T23:39:26.772368Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -691,11 +691,11 @@
       "eventLinkPattern": "(debit|card|event|activity|offer)",
       "coverageNote": "僅收錄具實質消費回饋的簽帳金融卡",
       "lastSuccessfulScanAt": "2026-09-25T03:52:33.701377Z",
-      "discoveredCardCount": 47,
+      "discoveredCardCount": 48,
       "discoveredOfferCount": 64,
       "unvisitedPageCount": 161,
       "failedPageCount": 0,
-      "lastScanAt": "2026-11-12T00:49:57.689393Z",
+      "lastScanAt": "2026-11-12T23:44:37.029416Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -765,8 +765,8 @@
       "discoveredCardCount": 4,
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,
-      "failedPageCount": 2,
-      "lastScanAt": "2026-11-12T00:50:02.539307Z",
+      "failedPageCount": 1,
+      "lastScanAt": "2026-11-12T23:29:50.356525Z",
       "lastScanStatus": "needs_review"
     },
     {
@@ -794,13 +794,13 @@
       ],
       "eventLinkPattern": "(card|debit|event|campaign|news)",
       "coverageNote": "只收錄具實質消費回饋的簽帳金融卡",
-      "lastSuccessfulScanAt": "2026-11-03T23:22:32.454906Z",
+      "lastSuccessfulScanAt": "2026-11-12T23:39:39.499495Z",
       "discoveredCardCount": 1,
       "discoveredOfferCount": 3,
       "unvisitedPageCount": 0,
-      "failedPageCount": 1,
-      "lastScanAt": "2026-11-12T00:50:45.627414Z",
-      "lastScanStatus": "needs_review"
+      "failedPageCount": 0,
+      "lastScanAt": "2026-11-12T23:39:39.499495Z",
+      "lastScanStatus": "completed"
     },
     {
       "name": "美國運通",
@@ -829,7 +829,7 @@
       "eventLinkPattern": "(credit-cards|benefits|offers)",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 18,
-      "discoveredOfferCount": 64,
+      "discoveredOfferCount": 61,
       "unvisitedPageCount": 178,
       "failedPageCount": 12,
       "lastScanAt": "2026-11-12T00:55:34.722358Z",
@@ -925,7 +925,7 @@
       "eventLinkPattern": "(credit|card|event|activity)",
       "lastSuccessfulScanAt": "",
       "discoveredCardCount": 28,
-      "discoveredOfferCount": 44,
+      "discoveredOfferCount": 43,
       "unvisitedPageCount": 1,
       "failedPageCount": 0,
       "lastScanAt": "2026-11-12T00:56:46.237526Z",

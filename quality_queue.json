@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-12T01:07:16.844Z",
+  "generatedAt": "2026-11-12T23:44:38.772Z",
   "disclaimer": "結構檢查不是事實核對；待確認點數不換算現金。",
-  "totalRules": 1515,
+  "totalRules": 1513,
   "reviewed": 0,
   "comparable": 0,
   "expired": 49,
@@ -1114,19 +1114,6 @@
       "activeRules": 6
     },
     {
-      "sourceUrl": "https://www.o-bank.com/retail/debit/cobranded-card",
-      "bank": "王道銀行",
-      "ruleIds": [
-        "rule_81310d83572933cbc476",
-        "rule_8b1818f1f6e7c040ea2a",
-        "rule_632ba72f905f9ea338be",
-        "rule_535c0333b667df7d81c2",
-        "rule_d98b4fa4e3e8cfd7d6f8",
-        "rule_fdef20abb23fdb9cff56"
-      ],
-      "activeRules": 6
-    },
-    {
       "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/all_card/momo/momo.htm",
       "bank": "台北富邦",
       "ruleIds": [
@@ -1439,6 +1426,18 @@
         "rule_0bb714d2c7722d2e8376",
         "rule_8f96b6e4a51606a78e11",
         "rule_a21f01440451ee5a1131"
+      ],
+      "activeRules": 5
+    },
+    {
+      "sourceUrl": "https://www.o-bank.com/retail/debit/cobranded-card",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_5d90e4d62ec031506b84",
+        "rule_70c684539480026f57f9",
+        "rule_75e994de3e1d25610875",
+        "rule_f5113a789b7b673d27b8",
+        "rule_368993d2a8d7e40bc2a1"
       ],
       "activeRules": 5
     },
@@ -2887,24 +2886,6 @@
       "activeRules": 2
     },
     {
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel",
-      "bank": "星展銀行",
-      "ruleIds": [
-        "rule_76c5921d57d050c47fdb",
-        "rule_72ff1f726be38bea55e1"
-      ],
-      "activeRules": 2
-    },
-    {
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
-      "bank": "星展銀行",
-      "ruleIds": [
-        "rule_df4e4598338632f24bb2",
-        "rule_93ba806979365ea09996"
-      ],
-      "activeRules": 2
-    },
-    {
       "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/right/list.do?right_id=%E9%BB%9E%E6%95%B8%E5%B0%88%E5%8D%80",
       "bank": "元大銀行",
       "ruleIds": [
@@ -2964,15 +2945,6 @@
       "ruleIds": [
         "rule_30f8d3783381bc7b4ad7",
         "rule_99e798bb727143e2120f"
-      ],
-      "activeRules": 2
-    },
-    {
-      "sourceUrl": "https://www.o-bank.com/retail/debit/vip-card",
-      "bank": "王道銀行",
-      "ruleIds": [
-        "rule_8f538f12dd8848fb3c1f",
-        "rule_553e79d3f6984fe36725"
       ],
       "activeRules": 2
     },
@@ -3181,6 +3153,24 @@
       "ruleIds": [
         "rule_b60f15f32954a6bd8ac8",
         "rule_219a6ce8dad779d461a9"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
+      "bank": "星展銀行",
+      "ruleIds": [
+        "rule_57d76de0c0c635b31ad3",
+        "rule_42b56001b7690977a095"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.o-bank.com/retail/debit/vip-card",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_4a725723904e08eb8ef2",
+        "rule_ad73ce2df266f9a76648"
       ],
       "activeRules": 2
     },
@@ -4864,6 +4854,14 @@
       "bank": "臺灣土地銀行",
       "ruleIds": [
         "rule_121a9aa63353e5ce731e"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel",
+      "bank": "星展銀行",
+      "ruleIds": [
+        "rule_9f9003024f7f0975930f"
       ],
       "activeRules": 1
     },
@@ -17883,32 +17881,6 @@
       ]
     },
     {
-      "id": "rule_76c5921d57d050c47fdb",
-      "bank": "星展銀行",
-      "title": "星級豪禮｜累積指定旅遊消費，最高解鎖RIMOWA登機箱",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_72ff1f726be38bea55e1",
-      "bank": "星展銀行",
-      "title": "星級加碼｜萬事達卡加碼，刷卡解鎖尊榮星旅禮",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
       "id": "rule_0b0d46d845b5a6ba441f",
       "bank": "星展銀行",
       "title": "星饗世界 海外餐飲刷星展，最高享10%回饋",
@@ -17970,32 +17942,6 @@
       "comparable": false,
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_df4e4598338632f24bb2",
-      "bank": "星展銀行",
-      "title": "摘星旅遊家 探索世界刷星展 滿額最高解鎖 RIMOWA",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "非保證現金回饋"
-      ]
-    },
-    {
-      "id": "rule_93ba806979365ea09996",
-      "bank": "星展銀行",
-      "title": "摘星旅遊家 - Mastercard 萬事達卡加碼 刷卡解鎖尊榮星旅禮",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "非保證現金回饋"
       ]
     },
     {
@@ -20149,78 +20095,6 @@
       ]
     },
     {
-      "id": "rule_81310d83572933cbc476",
-      "bank": "王道銀行",
-      "title": "新北國王聯名卡 國內、國外刷卡一般消費現金回饋1%無上限",
-      "sourceUrl": "https://www.o-bank.com/retail/debit/cobranded-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_8b1818f1f6e7c040ea2a",
-      "bank": "王道銀行",
-      "title": "CAMA CAFE聯名卡 店內刷卡最高享5%現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail/debit/cobranded-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_632ba72f905f9ea338be",
-      "bank": "王道銀行",
-      "title": "CAMA CAFE聯名卡 海外刷卡最高享5%現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail/debit/cobranded-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_535c0333b667df7d81c2",
-      "bank": "王道銀行",
-      "title": "CAMA CAFE聯名卡 國內、外一般消費1%現金回饋無上限",
-      "sourceUrl": "https://www.o-bank.com/retail/debit/cobranded-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_d98b4fa4e3e8cfd7d6f8",
-      "bank": "王道銀行",
-      "title": "FunNow 聯名卡 國內/外一般消費 1%現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail/debit/cobranded-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_fdef20abb23fdb9cff56",
-      "bank": "王道銀行",
-      "title": "一般簽帳金融卡 一般消費皆享1%基本現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail/debit/cobranded-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
       "id": "rule_4202f74861579bd3087e",
       "bank": "王道銀行",
       "title": "行動支付加碼現金回饋",
@@ -20291,30 +20165,6 @@
       "comparable": false,
       "issues": [
         "UNRESOLVED_CARD_ASSOCIATION",
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_8f538f12dd8848fb3c1f",
-      "bank": "王道銀行",
-      "title": "財富無限卡 國內一般消費1.5%現金回饋無上限",
-      "sourceUrl": "https://www.o-bank.com/retail/debit/vip-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_553e79d3f6984fe36725",
-      "bank": "王道銀行",
-      "title": "財富無限卡 海外一般消費2.5%現金回饋無上限",
-      "sourceUrl": "https://www.o-bank.com/retail/debit/vip-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
         "INDEPENDENT_REVIEW_REQUIRED"
       ]
     },
@@ -24311,6 +24161,129 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_9f9003024f7f0975930f",
+      "bank": "星展銀行",
+      "title": "摘星旅遊家：星級豪禮",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "非保證現金回饋"
+      ]
+    },
+    {
+      "id": "rule_57d76de0c0c635b31ad3",
+      "bank": "星展銀行",
+      "title": "摘星旅遊家 累積指定旅遊消費送星級豪禮",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_42b56001b7690977a095",
+      "bank": "星展銀行",
+      "title": "摘星旅遊家 萬事達卡加碼解鎖尊榮星旅禮",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_5d90e4d62ec031506b84",
+      "bank": "王道銀行",
+      "title": "新北國王聯名卡 國內、外一般消費現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/cobranded-card",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_70c684539480026f57f9",
+      "bank": "王道銀行",
+      "title": "CAMA CAFE聯名卡 店內刷卡現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/cobranded-card",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_75e994de3e1d25610875",
+      "bank": "王道銀行",
+      "title": "CAMA CAFE聯名卡 海外刷卡現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/cobranded-card",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_f5113a789b7b673d27b8",
+      "bank": "王道銀行",
+      "title": "FunNow 聯名卡 國內/外一般消費現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/cobranded-card",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_368993d2a8d7e40bc2a1",
+      "bank": "王道銀行",
+      "title": "一般簽帳金融卡 基本現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/cobranded-card",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_4a725723904e08eb8ef2",
+      "bank": "王道銀行",
+      "title": "財富無限卡 國內1.5% 海外2.5%現金回饋無上限",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/vip-card",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_ad73ce2df266f9a76648",
+      "bank": "王道銀行",
+      "title": "一般簽帳金融卡 1%基本現金回饋無上限",
+      "sourceUrl": "https://www.o-bank.com/retail/debit/vip-card",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
       ]
     },
     {

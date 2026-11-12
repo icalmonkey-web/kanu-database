@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2026-11-12T01:07:15.834148Z",
+  "lastUpdatedAt": "2026-11-12T23:44:37.795350Z",
   "providers": [
     {
       "name": "LINE Pay",
@@ -161,7 +161,7 @@
       ],
       "eventLinkPattern": "(info|event|campaign|activity|UploadFolder|優惠|活動)",
       "lastSuccessfulScanAt": "2026-11-10T01:52:48.211459Z",
-      "lastScanAt": "2026-11-12T00:54:32.286024Z",
+      "lastScanAt": "2026-11-12T23:29:50.998757Z",
       "lastScanStatus": "needs_review",
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,

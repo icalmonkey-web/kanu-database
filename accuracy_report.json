@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-11-12T01:07:16.776340+00:00",
+  "generatedAt": "2026-11-12T23:44:38.705246+00:00",
   "targetAccuracy": 0.98,
   "measuredAccuracy": null,
   "coveragePercent": null,
   "acceptanceStatus": "NOT_ESTABLISHED",
   "reason": "需要獨立官方基準清單及逐欄核對；結構通過率、測試通過率都不是優惠準確率。",
-  "totalRules": 1515,
+  "totalRules": 1513,
   "issueCounts": {
     "UNRESOLVED_CARD_ASSOCIATION": 45,
-    "MISSING_CAMPAIGN_END": 605,
+    "MISSING_CAMPAIGN_END": 606,
     "UNKNOWN_CALCULATION": 237,
     "STALE_TERM_REVIEW": 639,
     "UNKNOWN_CAP_SCOPE": 465,
-    "NO_INDEPENDENT_TERM_REVIEW": 876,
+    "NO_INDEPENDENT_TERM_REVIEW": 874,
     "UNSTRUCTURED_REGISTRATION_WINDOW": 187,
     "MAXIMUM_ONLY": 158
   },
@@ -9349,22 +9349,6 @@
       ]
     },
     {
-      "id": "rule_76c5921d57d050c47fdb",
-      "bank": "星展銀行",
-      "title": "星級豪禮｜累積指定旅遊消費，最高解鎖RIMOWA登機箱",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_72ff1f726be38bea55e1",
-      "bank": "星展銀行",
-      "title": "星級加碼｜萬事達卡加碼，刷卡解鎖尊榮星旅禮",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_0b0d46d845b5a6ba441f",
       "bank": "星展銀行",
       "title": "星饗世界 海外餐飲刷星展，最高享10%回饋",
@@ -9408,22 +9392,6 @@
       "title": "屈臣氏 天天回饋無上限",
       "issues": [
         "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_df4e4598338632f24bb2",
-      "bank": "星展銀行",
-      "title": "摘星旅遊家 探索世界刷星展 滿額最高解鎖 RIMOWA",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_93ba806979365ea09996",
-      "bank": "星展銀行",
-      "title": "摘星旅遊家 - Mastercard 萬事達卡加碼 刷卡解鎖尊榮星旅禮",
-      "issues": [
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -10910,54 +10878,6 @@
       ]
     },
     {
-      "id": "rule_81310d83572933cbc476",
-      "bank": "王道銀行",
-      "title": "新北國王聯名卡 國內、國外刷卡一般消費現金回饋1%無上限",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_8b1818f1f6e7c040ea2a",
-      "bank": "王道銀行",
-      "title": "CAMA CAFE聯名卡 店內刷卡最高享5%現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_632ba72f905f9ea338be",
-      "bank": "王道銀行",
-      "title": "CAMA CAFE聯名卡 海外刷卡最高享5%現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_535c0333b667df7d81c2",
-      "bank": "王道銀行",
-      "title": "CAMA CAFE聯名卡 國內、外一般消費1%現金回饋無上限",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d98b4fa4e3e8cfd7d6f8",
-      "bank": "王道銀行",
-      "title": "FunNow 聯名卡 國內/外一般消費 1%現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_fdef20abb23fdb9cff56",
-      "bank": "王道銀行",
-      "title": "一般簽帳金融卡 一般消費皆享1%基本現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_4202f74861579bd3087e",
       "bank": "王道銀行",
       "title": "行動支付加碼現金回饋",
@@ -11006,22 +10926,6 @@
       "title": "低碳生活卡消費碳排放達標加碼回饋",
       "issues": [
         "UNRESOLVED_CARD_ASSOCIATION",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_8f538f12dd8848fb3c1f",
-      "bank": "王道銀行",
-      "title": "財富無限卡 國內一般消費1.5%現金回饋無上限",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_553e79d3f6984fe36725",
-      "bank": "王道銀行",
-      "title": "財富無限卡 海外一般消費2.5%現金回饋無上限",
-      "issues": [
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -13767,6 +13671,87 @@
       "issues": [
         "MISSING_CAMPAIGN_END",
         "UNKNOWN_CALCULATION",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_9f9003024f7f0975930f",
+      "bank": "星展銀行",
+      "title": "摘星旅遊家：星級豪禮",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_57d76de0c0c635b31ad3",
+      "bank": "星展銀行",
+      "title": "摘星旅遊家 累積指定旅遊消費送星級豪禮",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_42b56001b7690977a095",
+      "bank": "星展銀行",
+      "title": "摘星旅遊家 萬事達卡加碼解鎖尊榮星旅禮",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_5d90e4d62ec031506b84",
+      "bank": "王道銀行",
+      "title": "新北國王聯名卡 國內、外一般消費現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_70c684539480026f57f9",
+      "bank": "王道銀行",
+      "title": "CAMA CAFE聯名卡 店內刷卡現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_75e994de3e1d25610875",
+      "bank": "王道銀行",
+      "title": "CAMA CAFE聯名卡 海外刷卡現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_f5113a789b7b673d27b8",
+      "bank": "王道銀行",
+      "title": "FunNow 聯名卡 國內/外一般消費現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_368993d2a8d7e40bc2a1",
+      "bank": "王道銀行",
+      "title": "一般簽帳金融卡 基本現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_4a725723904e08eb8ef2",
+      "bank": "王道銀行",
+      "title": "財富無限卡 國內1.5% 海外2.5%現金回饋無上限",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_ad73ce2df266f9a76648",
+      "bank": "王道銀行",
+      "title": "一般簽帳金融卡 1%基本現金回饋無上限",
+      "issues": [
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
