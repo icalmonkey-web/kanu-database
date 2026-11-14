@@ -1,5 +1,5 @@
 {
-  "lastUpdatedAt": "2026-11-14T00:16:05.902039Z",
+  "lastUpdatedAt": "2026-11-14T22:33:38.717889Z",
   "providers": [
     {
       "name": "LINE Pay",
@@ -24,7 +24,7 @@
       "lastSuccessfulScanAt": "2026-11-13T23:53:29.656595Z",
       "lastScanAt": "2026-11-13T23:53:29.656595Z",
       "lastScanStatus": "completed",
-      "discoveredOfferCount": 21,
+      "discoveredOfferCount": 13,
       "unvisitedPageCount": 0,
       "failedPageCount": 0
     },
@@ -161,7 +161,7 @@
       ],
       "eventLinkPattern": "(info|event|campaign|activity|UploadFolder|優惠|活動)",
       "lastSuccessfulScanAt": "2026-11-10T01:52:48.211459Z",
-      "lastScanAt": "2026-11-13T23:53:57.265221Z",
+      "lastScanAt": "2026-11-14T22:15:49.589565Z",
       "lastScanStatus": "needs_review",
       "discoveredOfferCount": 0,
       "unvisitedPageCount": 0,

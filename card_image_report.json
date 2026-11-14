@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T00:16:12.957949+00:00",
+  "generatedAt": "2026-11-14T22:33:40.833598+00:00",
   "added": [],
   "withImage": 342,
   "missing": [
@@ -2490,6 +2490,12 @@
     },
     {
       "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/en/personal/credit-card/intro",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/u-bear",
       "cached": true,
       "error": ""
@@ -2604,6 +2610,12 @@
     },
     {
       "bank": "台新銀行",
+      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "台新銀行",
       "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/",
       "cached": true,
       "error": ""
@@ -2611,6 +2623,12 @@
     {
       "bank": "台新銀行",
       "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg010/card001/",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "台新銀行",
+      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/insurance/right0205/",
       "cached": true,
       "error": ""
     },
@@ -2713,12 +2731,6 @@
     {
       "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/default.page",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/index.html?pid=tw-personal-card-carousel-pxpayplus",
       "cached": true,
       "error": ""
     },
@@ -2849,21 +2861,9 @@
       "error": ""
     },
     {
-      "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/en/personal/credit-card/intro",
-      "candidates": 17,
-      "error": ""
-    },
-    {
-      "bank": "台新銀行",
-      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/",
-      "candidates": 19,
-      "error": ""
-    },
-    {
-      "bank": "台新銀行",
-      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/insurance/right0205/",
-      "candidates": 13,
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/index.html?pid=tw-personal-card-carousel-pxpayplus",
+      "candidates": 2,
       "error": ""
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-14T00:16:08.286Z",
+  "generatedAt": "2026-11-14T22:33:40.187Z",
   "disclaimer": "結構檢查不是事實核對；待確認點數不換算現金。",
-  "totalRules": 1506,
+  "totalRules": 1511,
   "reviewed": 0,
   "comparable": 0,
   "expired": 50,
-  "sourceGroups": 504,
+  "sourceGroups": 507,
   "queue": [
     {
       "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/cards/",
@@ -2350,6 +2350,16 @@
         "rule_c8180314e731cb88a75c",
         "rule_846c40892108ec00ae23",
         "rule_ed69307f5b146f4466a6"
+      ],
+      "activeRules": 3
+    },
+    {
+      "sourceUrl": "https://www.linebank.com.tw/notice/events?page=1",
+      "bank": "LINE Bank",
+      "ruleIds": [
+        "rule_5386272fe58c3fcc5a1b",
+        "rule_189ff3aec7f1a0a25580",
+        "rule_bb2a9c258399d6552874"
       ],
       "activeRules": 3
     },
@@ -4869,6 +4879,22 @@
       "bank": "將來銀行",
       "ruleIds": [
         "rule_051dee2cdc806a61940b"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.linebank.com.tw/notice/events?page=4",
+      "bank": "LINE Bank",
+      "ruleIds": [
+        "rule_6cbad08cbcd5027baf31"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.linebank.com.tw/notice/events?page=8",
+      "bank": "LINE Bank",
+      "ruleIds": [
+        "rule_3187253800978a5caa89"
       ],
       "activeRules": 1
     },
@@ -24197,6 +24223,71 @@
       "bank": "悠遊付",
       "title": "週五會員日 最高回饋5%",
       "sourceUrl": "https://www.easycard.com.tw/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_5386272fe58c3fcc5a1b",
+      "bank": "LINE Bank",
+      "title": "【快點出發日韓泰 立享最高15%現折】LINE Bank快點卡刷 Trip.com 日韓泰機票/飯店/機+酒立享最高15%現折",
+      "sourceUrl": "https://www.linebank.com.tw/notice/events?page=1",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_189ff3aec7f1a0a25580",
+      "bank": "LINE Bank",
+      "title": "【彈性付】LINE Pay滿額回饋飆 10%！",
+      "sourceUrl": "https://www.linebank.com.tw/notice/events?page=1",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_bb2a9c258399d6552874",
+      "bank": "LINE Bank",
+      "title": "【快點卡獨家優惠】蝦皮購物滿600/699/1000/3000回饋高達10.5%",
+      "sourceUrl": "https://www.linebank.com.tw/notice/events?page=1",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_6cbad08cbcd5027baf31",
+      "bank": "LINE Bank",
+      "title": "快點刷OPEN最高20%回饋",
+      "sourceUrl": "https://www.linebank.com.tw/notice/events?page=4",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_3187253800978a5caa89",
+      "bank": "LINE Bank",
+      "title": "【快點卡獨家優惠】蝦皮購物滿額飆4%，同享滿NT$699現折NT$50",
+      "sourceUrl": "https://www.linebank.com.tw/notice/events?page=8",
       "lifecycle": "ACTIVE_OR_UNKNOWN",
       "reviewStatus": "PENDING",
       "comparable": false,
