@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T23:44:38.989431+00:00",
+  "generatedAt": "2026-11-14T00:16:12.957949+00:00",
   "added": [],
   "withImage": 342,
   "missing": [
@@ -2042,6 +2042,11 @@
       "id": "card_王道銀行_750",
       "bank": "王道銀行",
       "cardName": "王道銀行一般簽帳金融卡"
+    },
+    {
+      "id": "card_玉山銀行_751",
+      "bank": "玉山銀行",
+      "cardName": "玉山御璽商旅卡"
     }
   ],
   "pages": [
@@ -2449,12 +2454,6 @@
     },
     {
       "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/u-bear",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/travel-card/traveler-card",
       "cached": true,
       "error": ""
@@ -2479,12 +2478,6 @@
     },
     {
       "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/pi-card",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
       "cached": true,
       "error": ""
@@ -2492,6 +2485,18 @@
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/eztravel",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/u-bear",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/pi-card",
       "cached": true,
       "error": ""
     },
@@ -2599,7 +2604,7 @@
     },
     {
       "bank": "台新銀行",
-      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/favorable/right0502/",
+      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/",
       "cached": true,
       "error": ""
     },
@@ -2611,7 +2616,7 @@
     },
     {
       "bank": "台新銀行",
-      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/",
+      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/favorable/right0502/",
       "cached": true,
       "error": ""
     },
@@ -2653,12 +2658,6 @@
     },
     {
       "bank": "中國信託",
-      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share.html",
       "cached": true,
       "error": ""
@@ -2677,7 +2676,19 @@
     },
     {
       "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_shopping.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
       "cached": true,
       "error": ""
     },
@@ -2696,12 +2707,6 @@
     {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/store.html",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "中國信託",
-      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html",
       "cached": true,
       "error": ""
     },
@@ -2744,24 +2749,6 @@
     {
       "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/services/default.page?pid=tw-pweb-personal_zh-cards-header",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/dbs-cards-benefits/default.page?pid=tw-pweb-personal_zh-cards-header",
       "cached": true,
       "error": ""
     },
@@ -2859,6 +2846,24 @@
       "bank": "臺灣土地銀行",
       "url": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1",
       "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/en/personal/credit-card/intro",
+      "candidates": 17,
+      "error": ""
+    },
+    {
+      "bank": "台新銀行",
+      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/",
+      "candidates": 19,
+      "error": ""
+    },
+    {
+      "bank": "台新銀行",
+      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/insurance/right0205/",
+      "candidates": 13,
       "error": ""
     }
   ]

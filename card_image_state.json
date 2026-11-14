@@ -3795,12 +3795,65 @@
     "error": ""
   },
   "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/insurance/right0205/": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
-    "images": [],
-    "error": "SSLError"
+    "checkedAt": "2026-11-14T00:16:08.615679+00:00",
+    "images": [
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon1.svg",
+        "匯利率"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon2.svg",
+        "繳費/申辦"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon3.svg",
+        "試算"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon4.svg",
+        "文件下載"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon5.svg",
+        "我的收藏"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon6-1.svg",
+        "客服"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-1.png",
+        "台新銀行"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-45.png",
+        "台新優惠市集"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/Instagram-Icon.png",
+        "圓環旁的說書人"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/YouTube-Icon_20251127.png",
+        "台新新光金控"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/2018/icon/ts-27.png",
+        "台新服務網"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/sites/TSB/images/cdic_icon.png",
+        "存款保險"
+      ],
+      [
+        "https://www.taishinbank.com.tw/TSB/export/system/modules/com.thesys.project.TSB/resources/img/ts-463.png",
+        "智能客服"
+      ]
+    ],
+    "error": ""
   },
   "https://www.taishinbank.com.tw/TSB/personal/credit/": {
-    "checkedAt": "2026-11-06T23:22:51.051166+00:00",
+    "checkedAt": "2026-11-14T00:16:08.615679+00:00",
     "images": [
       [
         "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon1.svg",
@@ -10388,7 +10441,7 @@
     "error": ""
   },
   "https://www.esunbank.com/en/personal/credit-card/intro": {
-    "checkedAt": "2026-11-03T23:25:21.409358+00:00",
+    "checkedAt": "2026-11-14T00:16:08.615679+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
