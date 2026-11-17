@@ -50,9 +50,9 @@
     "error": "ConnectTimeout"
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/list.html": {
-    "checkedAt": "2026-10-27T22:32:52.116452+00:00",
+    "checkedAt": "2026-11-17T02:32:45.556671+00:00",
     "images": [],
-    "error": "ConnectTimeout"
+    "error": ""
   },
   "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/": {
     "checkedAt": "2026-11-12T01:07:17.037346+00:00",
@@ -7606,7 +7606,7 @@
     "error": ""
   },
   "https://www.dbs.com.tw/personal-zh/cards/offers/vsoffer/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-vsoffer": {
-    "checkedAt": "2026-11-10T02:07:58.919291+00:00",
+    "checkedAt": "2026-11-17T02:32:45.556671+00:00",
     "images": [],
     "error": ""
   },
@@ -12197,7 +12197,7 @@
     "error": ""
   },
   "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share-article-02.html": {
-    "checkedAt": "2026-11-10T02:07:58.919291+00:00",
+    "checkedAt": "2026-11-17T02:32:45.556671+00:00",
     "images": [
       [
         "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/assets/images/common/header_logo.png",
@@ -12223,7 +12223,7 @@
     "error": ""
   },
   "https://www.dbs.com.tw/personal-zh/cards/MGM/index.html?pid=tw-personal-card-carousel-MGM": {
-    "checkedAt": "2026-11-10T02:07:58.919291+00:00",
+    "checkedAt": "2026-11-17T02:32:45.556671+00:00",
     "images": [
       [
         "https://www.dbs.com.tw/personal-zh/cards/MGM/images/event_title_1.png",
@@ -12249,7 +12249,7 @@
     "error": ""
   },
   "https://www.dbs.com.tw/personal-zh/cards/MGM/index.html?pid=tw-pweb-personal-card-featured-cardtile-MGM": {
-    "checkedAt": "2026-11-10T02:07:58.919291+00:00",
+    "checkedAt": "2026-11-17T02:32:45.556671+00:00",
     "images": [
       [
         "https://www.dbs.com.tw/personal-zh/cards/MGM/images/event_title_1.png",
@@ -12275,7 +12275,7 @@
     "error": ""
   },
   "https://www.dbs.com.tw/personal-zh/cards/offers/ce/default.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-online-shopping": {
-    "checkedAt": "2026-11-10T02:07:58.919291+00:00",
+    "checkedAt": "2026-11-17T02:32:45.556671+00:00",
     "images": [
       [
         "https://www.dbs.com.tw/personal-zh/cards/offers/ce/images/logos/logo01_n.svg",

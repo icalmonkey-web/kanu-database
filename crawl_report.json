@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T23:23:38.649093Z",
+  "generatedAt": "2026-11-17T02:32:43.564714Z",
   "banks": [
     {
       "bank": "永豐銀行",
@@ -11,7 +11,7 @@
           "parent": null,
           "depth": 0,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/discount/list.html",
@@ -88,7 +88,7 @@
           "parent": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/list.html",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/debit/debit.html",
@@ -102,7 +102,7 @@
           "parent": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/list.html",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/co-brand/list.html",
@@ -680,17 +680,17 @@
           "parent": "https://bank.sinopac.com/sinopacBT/personal/desposit-forex/promotionas/list.html"
         },
         {
+          "url": "https://bank.sinopac.com/sinopacBT/personal/desposit-forex/promotionas/128820769.html",
+          "reason": "page_limit",
+          "parent": "https://bank.sinopac.com/sinopacBT/personal/desposit-forex/promotionas/list.html"
+        },
+        {
           "url": "https://bank.sinopac.com/sinopacBT/personal/desposit-forex/promotionas/940290844.html",
           "reason": "page_limit",
           "parent": "https://bank.sinopac.com/sinopacBT/personal/desposit-forex/promotionas/list.html"
         },
         {
           "url": "https://bank.sinopac.com/sinopacBT/personal/desposit-forex/promotionas/031000289.html",
-          "reason": "page_limit",
-          "parent": "https://bank.sinopac.com/sinopacBT/personal/desposit-forex/promotionas/list.html"
-        },
-        {
-          "url": "https://bank.sinopac.com/sinopacBT/personal/desposit-forex/promotionas/202489788.html",
           "reason": "page_limit",
           "parent": "https://bank.sinopac.com/sinopacBT/personal/desposit-forex/promotionas/list.html"
         },
@@ -905,8 +905,8 @@
           "parent": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/cashcard.html"
         }
       ],
-      "startedAt": "2026-11-15T22:44:06.422450Z",
-      "completedAt": "2026-11-15T22:44:25.712743Z"
+      "startedAt": "2026-11-17T01:50:49.153410Z",
+      "completedAt": "2026-11-17T01:57:35.485776Z"
     },
     {
       "bank": "國泰世華",
@@ -931,8 +931,8 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-11-15T22:44:06.422731Z",
-      "completedAt": "2026-11-15T22:44:12.976964Z"
+      "startedAt": "2026-11-17T01:50:49.153792Z",
+      "completedAt": "2026-11-17T01:50:56.073251Z"
     },
     {
       "bank": "玉山銀行",
@@ -1022,7 +1022,7 @@
           "parent": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.esunbank.com/zh-tw/personal/credit-card/debtmanagement-area",
@@ -1099,7 +1099,7 @@
           "parent": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
@@ -1148,7 +1148,7 @@
           "parent": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/inscard",
@@ -1948,8 +1948,8 @@
           "parent": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/dualcurrency-card"
         }
       ],
-      "startedAt": "2026-11-15T22:44:06.422968Z",
-      "completedAt": "2026-11-15T22:44:23.740853Z"
+      "startedAt": "2026-11-17T01:50:49.154065Z",
+      "completedAt": "2026-11-17T01:59:28.134168Z"
     },
     {
       "bank": "台北富邦",
@@ -2634,8 +2634,8 @@
           "parent": "https://www.fubon.com/banking/personal/credit_card/all_card/openpossible/openpossible.htm"
         }
       ],
-      "startedAt": "2026-11-15T22:44:06.423135Z",
-      "completedAt": "2026-11-15T22:44:22.465725Z"
+      "startedAt": "2026-11-17T01:50:49.154258Z",
+      "completedAt": "2026-11-17T01:51:12.946838Z"
     },
     {
       "bank": "台新銀行",
@@ -2662,7 +2662,7 @@
           "parent": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg021/card001/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_static_hash"
         },
         {
           "url": "https://www.taishinbank.com.tw/eServiceA/CreditCardAP/activate/",
@@ -2784,14 +2784,14 @@
           "parent": "https://www.taishinbank.com.tw/TSB/personal/credit/",
           "depth": 2,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_static_hash"
         },
         {
           "url": "https://www.taishinbank.com.tw/TSB/personal/common/bonus/?nav1=credit",
           "parent": "https://www.taishinbank.com.tw/TSB/personal/credit/",
           "depth": 2,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_static_hash"
         },
         {
           "url": "https://www.taishinbank.com.tw/TSB/personal/common/news/TSBankNews-008520/",
@@ -2875,7 +2875,7 @@
           "parent": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/",
           "depth": 2,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_static_hash"
         },
         {
           "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/road-rescue/right0401/",
@@ -2911,8 +2911,8 @@
           "parent": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/",
           "depth": 2,
           "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://specials.priceless.com/zh-tw/homePage'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403; RuntimeError: HTTP 403"
+          "status": "redirect_outside_allowlist",
+          "redirectedTo": "https://specials.priceless.com/zh-tw/homePage"
         },
         {
           "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/international/jcb/",
@@ -3122,8 +3122,8 @@
           "parent": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/road-rescue/right0401/"
         }
       ],
-      "startedAt": "2026-11-15T22:44:12.990863Z",
-      "completedAt": "2026-11-15T22:59:11.410243Z"
+      "startedAt": "2026-11-17T01:50:56.091684Z",
+      "completedAt": "2026-11-17T01:54:03.645741Z"
     },
     {
       "bank": "中國信託",
@@ -3191,7 +3191,7 @@
           "parent": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/index.html",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_static_hash"
         },
         {
           "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_fashion.html",
@@ -3205,14 +3205,14 @@
           "parent": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/index.html",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/store.html",
           "parent": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/index.html",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_static_hash"
         },
         {
           "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html",
@@ -3793,8 +3793,8 @@
           "parent": "https://www.ctbcbank.com/twrbo/zh_tw/onlinecounter_index/various_services/various_services_csc.html"
         }
       ],
-      "startedAt": "2026-11-15T22:44:22.509184Z",
-      "completedAt": "2026-11-15T22:52:50.118459Z"
+      "startedAt": "2026-11-17T01:51:13.014973Z",
+      "completedAt": "2026-11-17T01:54:50.360698Z"
     },
     {
       "bank": "星展銀行",
@@ -4002,7 +4002,7 @@
           "parent": "https://www.dbs.com.tw/personal-zh/cards/default.page",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_304"
+          "status": "analyzed"
         },
         {
           "url": "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/index.html?pid=tw-pweb-personal-card-featured_cardtile-ACQ",
@@ -5219,8 +5219,8 @@
           "parent": "https://www.dbs.com.tw/personal/cards/default.page"
         }
       ],
-      "startedAt": "2026-11-15T22:44:23.798114Z",
-      "completedAt": "2026-11-15T22:44:30.199631Z"
+      "startedAt": "2026-11-17T01:54:03.682010Z",
+      "completedAt": "2026-11-17T01:56:30.341134Z"
     },
     {
       "bank": "樂天信用卡",
@@ -7010,8 +7010,8 @@
           "parent": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2387&l-id=corp_pc_top_cpn2387"
         }
       ],
-      "startedAt": "2026-11-15T22:44:25.748265Z",
-      "completedAt": "2026-11-15T23:06:11.222307Z"
+      "startedAt": "2026-11-17T01:54:50.386422Z",
+      "completedAt": "2026-11-17T02:12:41.082015Z"
     },
     {
       "bank": "台中銀行",
@@ -7023,7 +7023,7 @@
           "parent": null,
           "depth": 0,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/Site/Intro/CardBusNum/CardBusNum.aspx",
@@ -7058,7 +7058,7 @@
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_Credit_World/index.html",
@@ -7072,63 +7072,63 @@
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_Credit_Mazu.html",
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_Credit_Lego_01.html",
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_01.html",
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_10.html",
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_30.html",
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_11.html",
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_12.html",
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_50.html",
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_63.html",
@@ -7142,35 +7142,35 @@
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_13.html",
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_14.html",
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_16.html",
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_17.html",
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/pdf/credit002.pdf",
@@ -7184,28 +7184,28 @@
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_20.html",
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_19.html",
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_45.html",
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/pdf/Credit_MobileBill_QA.pdf",
@@ -7219,7 +7219,7 @@
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/twallet/index.html",
@@ -7233,14 +7233,14 @@
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_51.html",
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/intro/toUrl.asp?files=%2FCreditCard%2Fbonus%2F100cardbonus.asp",
@@ -7254,14 +7254,14 @@
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_21.html",
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/pdf/2021creditDoc.pdf",
@@ -7282,7 +7282,7 @@
           "parent": "https://www.tcbbank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcbbank.com.tw/CreditCard/J_54.html",
@@ -7442,11 +7442,6 @@
         },
         {
           "url": "https://www.tcbbank.com.tw/Promotion/Info.html?ID=820",
-          "reason": "page_limit",
-          "parent": "https://www.tcbbank.com.tw/"
-        },
-        {
-          "url": "https://www.tcbbank.com.tw/News/newscontent.html?ID=2822",
           "reason": "page_limit",
           "parent": "https://www.tcbbank.com.tw/"
         },
@@ -7646,8 +7641,8 @@
           "parent": "https://www.tcbbank.com.tw/CreditCard/J_38.html"
         }
       ],
-      "startedAt": "2026-11-15T22:44:30.222516Z",
-      "completedAt": "2026-11-15T22:51:03.791064Z"
+      "startedAt": "2026-11-17T01:56:30.375942Z",
+      "completedAt": "2026-11-17T02:11:01.319210Z"
     },
     {
       "bank": "滙豐銀行",
@@ -8252,8 +8247,8 @@
           "parent": "https://www.hsbc.com.tw/en-tw/credit-cards/products/premier/"
         }
       ],
-      "startedAt": "2026-11-15T22:51:03.825054Z",
-      "completedAt": "2026-11-15T22:51:51.093843Z"
+      "startedAt": "2026-11-17T01:57:35.543019Z",
+      "completedAt": "2026-11-17T01:58:32.406454Z"
     },
     {
       "bank": "渣打銀行",
@@ -8280,28 +8275,28 @@
           "parent": "https://www.sc.com/tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.sc.com/tw/promotions/save/fcy-saving-account-extra/",
           "parent": "https://www.sc.com/tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.sc.com/tw/promotions/save/fcy-time-deposit-flash/",
           "parent": "https://www.sc.com/tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.sc.com/tw/promotions/save/twd-time-deposit-extra/",
           "parent": "https://www.sc.com/tw/credit-cards/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.sc.com/tw/credit-cards/beyond-card/",
@@ -8511,7 +8506,7 @@
           "parent": "https://www.sc.com/tw/promotions/save/twd-saving-account-extra/",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.sc.com/content/dam/sc/tw/zh_tw/credit-cards/docs/beyond-card-tnc.pdf",
@@ -8689,8 +8684,8 @@
           "parent": "https://www.sc.com/tw/promotions/"
         }
       ],
-      "startedAt": "2026-11-15T22:51:51.139465Z",
-      "completedAt": "2026-11-15T22:52:07.348242Z"
+      "startedAt": "2026-11-17T01:58:32.480304Z",
+      "completedAt": "2026-11-17T02:03:01.521003Z"
     },
     {
       "bank": "聯邦銀行",
@@ -8720,8 +8715,8 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-11-15T22:52:07.370516Z",
-      "completedAt": "2026-11-15T22:55:23.276662Z"
+      "startedAt": "2026-11-17T01:59:28.203539Z",
+      "completedAt": "2026-11-17T02:00:26.953883Z"
     },
     {
       "bank": "元大銀行",
@@ -8733,14 +8728,14 @@
           "parent": null,
           "depth": 0,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.yuantabank.com.tw/bank-web/personal/credit-card/discount/",
           "parent": null,
           "depth": 0,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.yuantabank.com.tw/bank/creditCard/index.do",
@@ -8999,7 +8994,7 @@
           "parent": "https://www.yuantabank.com.tw/bank-web/personal/credit-card/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/in.do?id=5f1ed8597f000001966e",
@@ -9711,8 +9706,8 @@
           "parent": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/in.do?id=5ba381b74500000493cd"
         }
       ],
-      "startedAt": "2026-11-15T22:52:50.133641Z",
-      "completedAt": "2026-11-15T22:53:03.159639Z"
+      "startedAt": "2026-11-17T02:00:26.959849Z",
+      "completedAt": "2026-11-17T02:03:19.777535Z"
     },
     {
       "bank": "華南銀行",
@@ -9724,14 +9719,14 @@
           "parent": null,
           "depth": 0,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.hncb.com.tw/wps/portal/HNCB/card",
           "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Fproduct%2Fcharitable_trust",
@@ -9753,7 +9748,7 @@
           "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/app/inqHouseToLet.aspx",
@@ -9768,40 +9763,35 @@
           "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
           "depth": 1,
           "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fabout-hn%2Frecruitment%2Femployee_benefits\", waiting until \"domcontentloaded\"\n"
+          "status": "unchanged_static_hash"
         },
         {
           "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge",
           "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
           "depth": 1,
           "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge\", waiting until \"domcontentloaded\"\n"
+          "status": "unchanged_static_hash"
         },
         {
           "url": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/pfpa.hncb.com.tw/pfpaip/web/",
           "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
           "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/+https:/pfpa.hncb.com.tw/pfpaip/web/\", waiting until \"domcontentloaded\"\n"
+          "renderer": "playwright",
+          "status": "analyzed"
         },
         {
           "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finvest%2Ffund%2Fselected_funds",
           "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
           "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finvest%2Ffund%2Fselected_funds\", waiting until \"domcontentloaded\"\n"
+          "renderer": "playwright",
+          "status": "analyzed"
         },
         {
           "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finsurance%2Fselected_insurance%2Fselected_insurance",
           "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard",
           "depth": 1,
-          "renderer": "httpx",
-          "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finsurance%2Fselected_insurance%2Fselected_insurance\", waiting until \"domcontentloaded\"\n"
+          "renderer": "playwright",
+          "status": "analyzed"
         },
         {
           "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Fevent%2Ffund_promo%2Ffunds_discount",
@@ -9817,7 +9807,7 @@
           "depth": 1,
           "renderer": "httpx",
           "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finsurance%2Fonline_insurance%2Finsurancerecommend\", waiting until \"domcontentloaded\"\n"
+          "error": "ConnectTimeout: ; Error: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finsurance%2Fonline_insurance%2Finsurancerecommend\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finsurance%2Fonline_insurance%2Finsurancerecommend\", waiting until \"domconten"
         },
         {
           "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fquery_forex_rate",
@@ -9825,7 +9815,7 @@
           "depth": 1,
           "renderer": "httpx",
           "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fquery_forex_rate\", waiting until \"domcontentloaded\"\n"
+          "error": "ConnectTimeout: ; Error: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fquery_forex_rate\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fquery_forex_rate\", waiting until \"domcontentloaded\"\n"
         },
         {
           "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fquery_historical_forex_rate",
@@ -9833,7 +9823,7 @@
           "depth": 1,
           "renderer": "httpx",
           "status": "fetch_failed",
-          "error": "ConnectTimeout: ; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fquery_historical_forex_rate\", waiting until \"domcontentloaded\"\n"
+          "error": "ConnectTimeout: ; Error: Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fquery_historical_forex_rate\nCall log:\n  - navigating to \"https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fquery_forex_rate_all%2Fquery_historical_forex_rate\", waiting unti"
         },
         {
           "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Fservice%2Fpublic_item%2Fbest_offer",
@@ -10261,10 +10251,140 @@
           "url": "https://www.hncb.com.tw/wps/portal/HNCB/per_finance/!ut/p/z1/hY5NDoIwFISvIgewr6IR4o4g8ScShESt3ZAnVmgipYGK6OnVuNUwu8nMZD7gwIArbGWORlYKr29_5NOUjlaL5cKnId26lE7jiRPt3L0dzMdw6CvwT_xHHoX1t_B7b4-cD4Fdh36YA9doiqFUlwrYoDBGNzNgGZYaZa5IobITyaqSmDuwDrVNgSUCr6IxZRrXD2BRK-rzTSQBwUZ3b3Le98376HXJnhtvSaVnWS8_vmKn/?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Fevent%2Ffund_promo%2Ffunds_discount",
           "reason": "page_limit",
           "parent": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/campaign.hncb.com.tw/xap20/Realestm_Qry/OverdueRE.aspx"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fabout-hn%2Frecruitment%2Femployee_benefits"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fdata_stored%2Ftemp%2F061+temp%2Fhr_recruit_executive",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fabout-hn%2Frecruitment%2Femployee_benefits"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Fsanatorium%2Fwellbeing_heritage_trust",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Fsanatorium%2Fpension_growth_trust",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Fsanatorium%2Fdisabled_nursing_trust",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Fsanatorium%2Fretire_wellbeing_trust",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Fsanatorium%2Fpre_open_trust",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Fproduct%2Ftrust_benefit_loan",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Fproduct%2Fchildren_education_trust",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Fproduct%2Finsurance_fund_trust",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Fproduct%2Frealestate_trust",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Fproduct%2Femployee_saving_trust",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Fservice%2Femp_search_trust",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Fservice%2Fpublic_funds_inqury",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Fservice%2Ftrust_story",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Fservice%2Fsecurities-visa",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Fbond%2Fforeign_bonds_intro",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Ftrust_+announcement%2Flatest_news",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fper_finance%2Ftrust%2Ftrust_+announcement%2Fannouncement_all",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fcor_finance%2Finter_finance%2Fhedge"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/per_finance/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziDQw93T3cnQ18DQIsDAzMAk3M_UMtwoxcXYz1wwkpiAJJ4wCOBvpeEAXY9RsZmoNcYFTk6-ybrh9VkFiSoZuZl5avH6GQUVJSUGylH1GQVpCol5GXnKSXnJ-rV1IOEcks0I8oT00Cui6KkPlRhFxYkBtR5eOYFuzpqKgIAEk3enM!/",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/pfpa.hncb.com.tw/pfpaip/web/"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/per_finance/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziDQw93T3cnQ18DQIsDAzMAk3M_UMtwoxcXYz1wwkpiAJJ4wCOBvpeEAXY9RsZmoNcYFTk6-ybrh9VkFiSoZuZl5avH6GQUVJSUGylH1GQVpCol5GXnKSXnJ-rV1IOEcks0I8oT00Cui6KkPlRhFxYkBtR5eOYFuzpqKgIAEk3enM!/?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Fevent%2Ffund_promo%2Ffunds_discount",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/+https:/pfpa.hncb.com.tw/pfpaip/web/"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/wealth/invest/fund/selected_funds/!ut/p/z1/tVNdT4MwFP01PJLe8lHgcU6zaSTOzX3QF1JKGTWjMKhM_70lJsZoFmKW9aW57em559zeiyjaIapYL_dMy1qxg4kTSlLA97P5bAox3NxGQOLVahnFj3g699AGUUQbLnOUCNcHnInMxgHObc8RzM6Y69kEF1EWcY8Q7A9ornSjS5SUimdp71jQSS3SijUWDEcWnAQ76NICqXrRaQuKN5UblDgIrkWeDmGHtmPK6HB9Zk0APXwBvt8vQgDy7AVP63DjODgYrDttPI33xh_TpS1VUaMdb0UuNWdtbhTQMQ46piIxLoKzLiJA216KE1qruq3Md6z-We35aAZyYYYReveq9Au4Lv11i7PwL6T_3cJ_RsC0sHw9HunEDF2ttHjXaHfZ1DVVFbofNs3IMjy9FOW-SuM71_-xdZNPXaFG1A!!/",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finvest%2Ffund%2Fselected_funds"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/wealth/event/fund_promo/funds_discount",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finvest%2Ffund%2Fselected_funds"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/wealth/event/fund_promo/etf_discount",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finvest%2Ffund%2Fselected_funds"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/per_finance/service/public_item/best_offer",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finvest%2Ffund%2Fselected_funds"
+        },
+        {
+          "url": "https://www.hncb.com.tw/wps/portal/HNCB/wealth/insurance/selected_insurance/selected_insurance/!ut/p/z1/tVNdT4MwFP01PJJe2NbCI06zaWx0m_ugL6SUMmpGYaxu-u8tWWKMZhKz0Jem956ee-4XYmiDmOZHteVGVZrv7DtmOAHvfjKdjIHCzW0ImC4W85A-etEM0AoxxGqhMhQTn3uYk9zFJAd3yEPuhpB7rsxT4FikmQTZooU2tSlQXGiRJkffgYMyMil57UBrcuAk-c4UDih9eGu4FtJC5E4KI7PkTxtad8llrfvCiQA9nAFf_58DADwbkqdlsPJ9j7T18Bs6plubNDeFq3ReoY1oZKaM4E1mFbAuDtalIrZZkMtZELQ-KnlCS101pe3R4p8tmHZFwP6VETroR_3Sk17pab_Fod6V9D9H-NcK2BFWr_s9i-wmVtrId4M2PaxiXZbB4MNlKZ4Hp5e82JYJvRuMvl2H6BNVitJM/",
+          "reason": "page_limit",
+          "parent": "https://www.hncb.com.tw/wps/portal/HNCB/creditcard?1dmy=&urile=wcm%3Apath%3A%2Fwps%2Fwcm%2Fconnect%2Fhncb_v2%2Fsite_map%2Fhncb%2Fwealth%2Finsurance%2Fselected_insurance%2Fselected_insurance"
         }
       ],
-      "startedAt": "2026-11-15T22:53:03.222339Z",
-      "completedAt": "2026-11-15T23:23:37.939759Z"
+      "startedAt": "2026-11-17T02:03:01.551179Z",
+      "completedAt": "2026-11-17T02:32:42.440968Z"
     },
     {
       "bank": "第一銀行",
@@ -10281,8 +10401,8 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-11-15T22:55:23.281440Z",
-      "completedAt": "2026-11-15T22:55:23.489952Z"
+      "startedAt": "2026-11-17T02:03:19.884278Z",
+      "completedAt": "2026-11-17T02:03:20.086623Z"
     },
     {
       "bank": "彰化銀行",
@@ -10294,56 +10414,56 @@
           "parent": null,
           "depth": 0,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=4292862915",
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/mashup_full.jsp?funcId=1f27b7c015",
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/subarea.jsp?funcId=f1f12f6d15",
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=116a6c4815",
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=e0d2d9e615",
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=502176ee15",
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=41d865e915",
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/CampaignLog.jsp",
@@ -10357,14 +10477,14 @@
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=31c9490515",
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/creditCardQuery.jsp",
@@ -10387,35 +10507,35 @@
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33f1c55715",
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=bb30447815",
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=aec4c84e15",
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=43ea5e3f15",
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/chb_2a_resource/leap_do/gallery/1751850265102/彰銀信用卡「刷得有禮」紅利積點大回饋兌換單-更1120209-1加右下日期-1140707.pdf",
@@ -10436,42 +10556,42 @@
           "parent": "https://www.bankchb.com/frontend/subarea.jsp?funcId=f1f12f6d15",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=62aed72f16",
           "parent": "https://www.bankchb.com/frontend/subarea.jsp?funcId=f1f12f6d15",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/bonusDetail.jsp?id=3410",
           "parent": "https://www.bankchb.com/frontend/subarea.jsp?funcId=f1f12f6d15",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/bonusDetail.jsp?id=3391",
           "parent": "https://www.bankchb.com/frontend/subarea.jsp?funcId=f1f12f6d15",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/bonusDetail.jsp?id=3584",
           "parent": "https://www.bankchb.com/frontend/subarea.jsp?funcId=f1f12f6d15",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/bonusDetail.jsp?id=3593",
           "parent": "https://www.bankchb.com/frontend/subarea.jsp?funcId=f1f12f6d15",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/chb_2a_resource/leap_do/gallery/1655255398652/線上繳彰銀信用卡費採用一卡通MONEY電子支付帳戶操作流程.pdf",
@@ -10485,21 +10605,21 @@
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=41d865e915",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=cdf27f7215",
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=41d865e915",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=b0a54ad115",
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=41d865e915",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/CampaignLog.html",
@@ -10548,26 +10668,26 @@
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=43ea5e3f15",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=3d04a6a915",
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=62aed72f16",
           "depth": 3,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.bankchb.com/frontend/mashup.jsp?funcId=33edf58215",
           "parent": "https://www.bankchb.com/frontend/mashup.jsp?funcId=62aed72f16",
           "depth": 3,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-11-15T22:55:23.494943Z",
-      "completedAt": "2026-11-15T22:55:41.063202Z"
+      "startedAt": "2026-11-17T02:03:20.091522Z",
+      "completedAt": "2026-11-17T02:12:00.840966Z"
     },
     {
       "bank": "兆豐銀行",
@@ -11352,8 +11472,8 @@
           "parent": "https://www.megabank.com.tw/personal/credit-card/loan/layaway-plan"
         }
       ],
-      "startedAt": "2026-11-15T22:55:41.091091Z",
-      "completedAt": "2026-11-15T22:56:12.809224Z"
+      "startedAt": "2026-11-17T02:11:01.378593Z",
+      "completedAt": "2026-11-17T02:11:34.815022Z"
     },
     {
       "bank": "合作金庫",
@@ -11596,7 +11716,7 @@
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/infinite",
@@ -11908,8 +12028,8 @@
           "parent": "https://www.tcb-bank.com.tw/personal-banking/credit-card/intro/overview/kanahei"
         }
       ],
-      "startedAt": "2026-11-15T22:56:12.838955Z",
-      "completedAt": "2026-11-15T22:56:58.384002Z"
+      "startedAt": "2026-11-17T02:11:34.860915Z",
+      "completedAt": "2026-11-17T02:12:34.967429Z"
     },
     {
       "bank": "上海商銀",
@@ -11934,8 +12054,8 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-11-15T22:56:58.421779Z",
-      "completedAt": "2026-11-15T22:57:00.272182Z"
+      "startedAt": "2026-11-17T02:12:00.884709Z",
+      "completedAt": "2026-11-17T02:12:03.062124Z"
     },
     {
       "bank": "遠東商銀",
@@ -11954,13 +12074,14 @@
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "fetch_failed",
+          "error": "ConnectError: [Errno -5] No address associated with hostname; Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.feib.com.tw/activity/list?p=1\nCall log:\n  - navigating to \"https://www.feib.com.tw/activity/list?p=1\", waiting until \"domcontentloaded\"\n"
         },
         {
           "url": "https://www.feib.com.tw/activity/list?p=1&type=2",
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
-          "renderer": "httpx",
+          "renderer": "playwright",
           "status": "analyzed"
         },
         {
@@ -11974,7 +12095,7 @@
           "url": "https://www.feib.com.tw/activity?id=4454",
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
-          "renderer": "httpx",
+          "renderer": "playwright",
           "status": "analyzed"
         },
         {
@@ -11982,7 +12103,8 @@
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "fetch_failed",
+          "error": "ConnectError: [Errno -3] Temporary failure in name resolution; Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.feib.com.tw/activity?id=4405\nCall log:\n  - navigating to \"https://www.feib.com.tw/activity?id=4405\", waiting until \"domcontentloaded\"\n"
         },
         {
           "url": "https://www.feib.com.tw/activity?id=4756",
@@ -11995,15 +12117,15 @@
           "url": "https://www.feib.com.tw/upload/personalloan/event/PL2/FEIBEVENT.html",
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_304"
+          "renderer": "playwright",
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/upload/personalloan/event/REVOLVING/index.html",
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_304"
+          "renderer": "playwright",
+          "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/upload/personalloan/event/PL/FEIBSALARY.html",
@@ -12093,14 +12215,14 @@
           "url": "https://www.feib.com.tw/introduce/cardInfo?type=1",
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
-          "renderer": "httpx",
+          "renderer": "playwright",
           "status": "analyzed"
         },
         {
           "url": "https://www.feib.com.tw/introduce/cardInfo?type=2",
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
-          "renderer": "httpx",
+          "renderer": "playwright",
           "status": "analyzed"
         },
         {
@@ -12153,6 +12275,13 @@
           "status": "analyzed"
         },
         {
+          "url": "https://www.feib.com.tw/activity?id=4887",
+          "parent": "https://www.feib.com.tw/",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
           "url": "https://www.feib.com.tw/activity?id=4880",
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
@@ -12195,13 +12324,6 @@
           "status": "analyzed"
         },
         {
-          "url": "https://www.feib.com.tw/activity?id=4871",
-          "parent": "https://www.feib.com.tw/",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "analyzed"
-        },
-        {
           "url": "https://www.feib.com.tw/activity?id=4762",
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
@@ -12212,7 +12334,7 @@
           "url": "https://www.feib.com.tw/activity?id=4841",
           "parent": "https://www.feib.com.tw/",
           "depth": 1,
-          "renderer": "httpx",
+          "renderer": "playwright",
           "status": "analyzed"
         },
         {
@@ -12235,39 +12357,14 @@
           "parent": "https://www.feib.com.tw/"
         },
         {
-          "url": "https://www.feib.com.tw/activity?id=4655",
+          "url": "https://www.feib.com.tw/activity?id=4871",
           "reason": "page_limit",
-          "parent": "https://www.feib.com.tw/activity/list?p=1"
+          "parent": "https://www.feib.com.tw/activity/list?p=1&type=2"
         },
         {
           "url": "https://www.feib.com.tw/activity?id=4870",
           "reason": "page_limit",
-          "parent": "https://www.feib.com.tw/activity/list?p=1"
-        },
-        {
-          "url": "https://www.feib.com.tw/activity/list?p=1&type=",
-          "reason": "page_limit",
-          "parent": "https://www.feib.com.tw/activity/list?p=1"
-        },
-        {
-          "url": "https://www.feib.com.tw/activity/list?p=2&type=",
-          "reason": "page_limit",
-          "parent": "https://www.feib.com.tw/activity/list?p=1"
-        },
-        {
-          "url": "https://www.feib.com.tw/activity/list?p=3&type=",
-          "reason": "page_limit",
-          "parent": "https://www.feib.com.tw/activity/list?p=1"
-        },
-        {
-          "url": "https://www.feib.com.tw/activity/list?p=4&type=",
-          "reason": "page_limit",
-          "parent": "https://www.feib.com.tw/activity/list?p=1"
-        },
-        {
-          "url": "https://www.feib.com.tw/activity/list?p=5&type=",
-          "reason": "page_limit",
-          "parent": "https://www.feib.com.tw/activity/list?p=1"
+          "parent": "https://www.feib.com.tw/activity/list?p=1&type=2"
         },
         {
           "url": "https://www.feib.com.tw/activity?id=4869",
@@ -12318,6 +12415,11 @@
           "url": "https://www.feib.com.tw/activity/list?p=5&type=2",
           "reason": "page_limit",
           "parent": "https://www.feib.com.tw/activity/list?p=1&type=2"
+        },
+        {
+          "url": "https://www.feib.com.tw/creditLimit",
+          "reason": "page_limit",
+          "parent": "https://www.feib.com.tw/upload/personalloan/event/PL2/FEIBEVENT.html"
         },
         {
           "url": "https://www.feib.com.tw/upload/creditcard/HappyCardinfinite/index.html",
@@ -12400,8 +12502,8 @@
           "parent": "https://www.feib.com.tw/introduce?id=17"
         }
       ],
-      "startedAt": "2026-11-15T22:57:00.276264Z",
-      "completedAt": "2026-11-15T23:04:59.785921Z"
+      "startedAt": "2026-11-17T02:12:03.068211Z",
+      "completedAt": "2026-11-17T02:17:05.691414Z"
     },
     {
       "bank": "凱基銀行",
@@ -12418,8 +12520,8 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-11-15T22:59:11.432767Z",
-      "completedAt": "2026-11-15T22:59:13.353778Z"
+      "startedAt": "2026-11-17T02:12:35.031944Z",
+      "completedAt": "2026-11-17T02:12:37.453843Z"
     },
     {
       "bank": "安泰銀行",
@@ -12438,14 +12540,14 @@
           "parent": "https://www.entiebank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.entiebank.com.tw/entie/1_3_0",
           "parent": "https://www.entiebank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "analyzed"
+          "status": "unchanged_hash"
         },
         {
           "url": "https://www.entiebank.com.tw/entie/1_3_102",
@@ -12501,7 +12603,7 @@
           "parent": "https://www.entiebank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "insufficient_content"
         },
         {
           "url": "https://www.entiebank.com.tw/entie/3.1.4",
@@ -12515,7 +12617,8 @@
           "parent": "https://www.entiebank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "analyzed"
+          "status": "redirect_outside_allowlist",
+          "redirectedTo": "chrome-error://chromewebdata/"
         },
         {
           "url": "https://www.entiebank.com.tw/entie/3.4.3",
@@ -12564,21 +12667,23 @@
           "parent": "https://www.entiebank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "insufficient_content"
         },
         {
           "url": "https://www.entiebank.com.tw/entie/deposit-chipCard_04",
           "parent": "https://www.entiebank.com.tw/",
           "depth": 1,
-          "renderer": "playwright",
-          "status": "unchanged_hash"
+          "renderer": "httpx",
+          "status": "fetch_failed",
+          "error": "insufficient_static_content; Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://www.entiebank.com.tw/entie/deposit-chipCard_04\nCall log:\n  - navigating to \"https://www.entiebank.com.tw/entie/deposit-chipCard_04\", waiting until \"domcontentloaded\"\n"
         },
         {
           "url": "https://www.entiebank.com.tw/entie/campaign/1140354",
           "parent": "https://www.entiebank.com.tw/",
           "depth": 1,
-          "renderer": "playwright",
-          "status": "unchanged_hash"
+          "renderer": "httpx",
+          "status": "fetch_failed",
+          "error": "insufficient_static_content; Error: Page.goto: net::ERR_CONNECTION_REFUSED at https://www.entiebank.com.tw/entie/campaign/1140354\nCall log:\n  - navigating to \"https://www.entiebank.com.tw/entie/campaign/1140354\", waiting until \"domcontentloaded\"\n"
         },
         {
           "url": "https://www.entiebank.com.tw/entie/home",
@@ -12641,7 +12746,8 @@
           "parent": "https://www.entiebank.com.tw/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "fetch_failed",
+          "error": "ConnectError: All connection attempts failed; TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.entiebank.com.tw/EntieWebMigrateFiles/1140186/1140186c.htm\", waiting until \"domcontentloaded\"\n"
         },
         {
           "url": "https://www.entiebank.com.tw/EntieWebMigrateFiles/1150608/1150608a.htm",
@@ -12683,14 +12789,14 @@
           "parent": "https://www.entiebank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "insufficient_content"
         },
         {
           "url": "https://www.entiebank.com.tw/entie/1_3_4_2",
           "parent": "https://www.entiebank.com.tw/",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.entiebank.com.tw/EntieWebMigrateFiles/creditCard/googlepay/index.html",
@@ -12959,11 +13065,6 @@
           "parent": "https://www.entiebank.com.tw/entie/3.1"
         },
         {
-          "url": "https://www.entiebank.com.tw/entie/3.4.1",
-          "reason": "page_limit",
-          "parent": "https://www.entiebank.com.tw/entie/3.4"
-        },
-        {
           "url": "https://www.entiebank.com.tw/entie/1_3_101",
           "reason": "page_limit",
           "parent": "https://www.entiebank.com.tw/entie/3.5.3"
@@ -13059,8 +13160,8 @@
           "parent": "https://www.entiebank.com.tw/entie/1_3_2_4"
         }
       ],
-      "startedAt": "2026-11-15T22:59:13.357452Z",
-      "completedAt": "2026-11-15T23:03:29.104934Z"
+      "startedAt": "2026-11-17T02:12:37.460082Z",
+      "completedAt": "2026-11-17T02:20:11.972503Z"
     },
     {
       "bank": "陽信銀行",
@@ -13076,8 +13177,8 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-11-15T23:03:29.159051Z",
-      "completedAt": "2026-11-15T23:03:31.038787Z"
+      "startedAt": "2026-11-17T02:12:41.108757Z",
+      "completedAt": "2026-11-17T02:12:43.630240Z"
     },
     {
       "bank": "三信商銀",
@@ -13135,8 +13236,8 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-11-15T23:03:31.043869Z",
-      "completedAt": "2026-11-15T23:03:32.757500Z"
+      "startedAt": "2026-11-17T02:12:43.637588Z",
+      "completedAt": "2026-11-17T02:12:45.737213Z"
     },
     {
       "bank": "王道銀行",
@@ -13158,11 +13259,18 @@
           "status": "analyzed"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-compaign",
+          "url": "https://www.o-bank.com/retail/debit/cardmain_new",
           "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
           "depth": 1,
           "renderer": "httpx",
           "status": "unchanged_static_hash"
+        },
+        {
+          "url": "https://www.o-bank.com/retail/event/event-compaign",
+          "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
         },
         {
           "url": "https://www.o-bank.com/web/Event/debit_20250630/index.html",
@@ -13179,42 +13287,42 @@
           "status": "unchanged_static_hash"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new",
+          "url": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new",
           "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
           "depth": 1,
           "renderer": "httpx",
           "status": "unchanged_static_hash"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/debit/school-affinity-card/school-affinity-card-new",
+          "url": "https://www.o-bank.com/retail/debit/school-affinity-card/school-affinity-card-new",
           "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
           "depth": 1,
           "renderer": "httpx",
           "status": "unchanged_static_hash"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/debit/cobranded-card",
+          "url": "https://www.o-bank.com/retail/debit/cobranded-card",
           "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
           "depth": 1,
           "renderer": "httpx",
           "status": "unchanged_static_hash"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/debit/lowcarboncard",
+          "url": "https://www.o-bank.com/retail/debit/lowcarboncard",
           "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
           "depth": 1,
           "renderer": "httpx",
           "status": "unchanged_static_hash"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/debit/vip-card",
+          "url": "https://www.o-bank.com/retail/debit/vip-card",
           "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
           "depth": 1,
           "renderer": "httpx",
           "status": "unchanged_static_hash"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/loan/personal/mature_adults",
+          "url": "https://www.o-bank.com/retail/loan/personal/mature_adults",
           "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
           "depth": 1,
           "renderer": "httpx",
@@ -13225,45 +13333,45 @@
           "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce",
+          "url": "https://www.o-bank.com/retail/event/event-announce",
+          "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.o-bank.com/retail/event/media-area",
           "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
           "depth": 1,
           "renderer": "httpx",
           "status": "unchanged_static_hash"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/media-area",
+          "url": "https://www.o-bank.com/retail/event/info-report",
           "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
           "depth": 1,
           "renderer": "httpx",
           "status": "unchanged_static_hash"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/info-report",
+          "url": "https://www.o-bank.com/retail/event/attachment",
           "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
           "depth": 1,
           "renderer": "httpx",
           "status": "unchanged_static_hash"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/attachment",
+          "url": "https://www.o-bank.com/retail/hot-function/blog/obankblog_260802",
           "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
           "depth": 1,
           "renderer": "httpx",
           "status": "unchanged_static_hash"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/hot-function/blog/obankblog_260802",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_static_hash"
-        },
-        {
-          "url": "https://www.o-bank.com/zh-tw/retail/hot-function/blog/obankblog_260701",
+          "url": "https://www.o-bank.com/retail/hot-function/blog/obankblog_260701",
           "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
           "depth": 1,
           "renderer": "httpx",
@@ -13288,28 +13396,119 @@
           "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
           "depth": 1,
           "renderer": "playwright",
-          "status": "unchanged_hash"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/debit/cardmain_new",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.o-bank.com/zh-tw/about/investor/ir-events/investor-conferences",
           "parent": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
           "depth": 1,
           "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.o-bank.com/zh-tw/retail/event/event-compaign",
+          "parent": "https://www.o-bank.com/zh-tw/retail",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new",
+          "parent": "https://www.o-bank.com/zh-tw/retail",
+          "depth": 1,
+          "renderer": "httpx",
           "status": "unchanged_static_hash"
+        },
+        {
+          "url": "https://www.o-bank.com/zh-tw/retail/debit/school-affinity-card/school-affinity-card-new",
+          "parent": "https://www.o-bank.com/zh-tw/retail",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_static_hash"
+        },
+        {
+          "url": "https://www.o-bank.com/zh-tw/retail/debit/cobranded-card",
+          "parent": "https://www.o-bank.com/zh-tw/retail",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_static_hash"
+        },
+        {
+          "url": "https://www.o-bank.com/zh-tw/retail/debit/lowcarboncard",
+          "parent": "https://www.o-bank.com/zh-tw/retail",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_static_hash"
+        },
+        {
+          "url": "https://www.o-bank.com/zh-tw/retail/debit/vip-card",
+          "parent": "https://www.o-bank.com/zh-tw/retail",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_static_hash"
+        },
+        {
+          "url": "https://www.o-bank.com/zh-tw/retail/loan/personal/mature_adults",
+          "parent": "https://www.o-bank.com/zh-tw/retail",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_static_hash"
+        },
+        {
+          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce",
+          "parent": "https://www.o-bank.com/zh-tw/retail",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.o-bank.com/zh-tw/retail/event/media-area",
+          "parent": "https://www.o-bank.com/zh-tw/retail",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_static_hash"
+        },
+        {
+          "url": "https://www.o-bank.com/zh-tw/retail/event/info-report",
+          "parent": "https://www.o-bank.com/zh-tw/retail",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_static_hash"
+        },
+        {
+          "url": "https://www.o-bank.com/zh-tw/retail/event/attachment",
+          "parent": "https://www.o-bank.com/zh-tw/retail",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_static_hash"
+        },
+        {
+          "url": "https://www.o-bank.com/zh-tw/retail/hot-function/blog/obankblog_260802",
+          "parent": "https://www.o-bank.com/zh-tw/retail",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_static_hash"
+        },
+        {
+          "url": "https://www.o-bank.com/zh-tw/retail/hot-function/blog/obankblog_260701",
+          "parent": "https://www.o-bank.com/zh-tw/retail",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "unchanged_static_hash"
+        },
+        {
+          "url": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_14",
+          "parent": "https://www.o-bank.com/zh-tw/retail",
+          "depth": 1,
+          "renderer": "httpx",
+          "status": "analyzed"
         },
         {
           "url": "https://www.o-bank.com/web/event/luckymoney/index.html",
           "parent": "https://www.o-bank.com/zh-tw/retail",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.o-bank.com/web/event/o-range-card/index.html",
@@ -13324,107 +13523,74 @@
           "depth": 1,
           "renderer": "httpx",
           "status": "unchanged_static_hash"
-        },
-        {
-          "url": "https://www.o-bank.com/web/event/o-for-youth/index.html",
-          "parent": "https://www.o-bank.com/zh-tw/retail",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_static_hash"
-        },
-        {
-          "url": "https://www.o-bank.com/web/event/cm_108022801/index.html",
-          "parent": "https://www.o-bank.com/zh-tw/retail",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_static_hash"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/event/event-announce/2026092902",
-          "parent": "https://www.o-bank.com/zh-tw/retail",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_static_hash"
-        },
-        {
-          "url": "https://www.o-bank.com/web/Event/stock/index.html",
-          "parent": "https://www.o-bank.com/zh-tw/retail",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "analyzed"
-        },
-        {
-          "url": "https://www.o-bank.com/web/Event/lowcarboncard/index.html",
-          "parent": "https://www.o-bank.com/zh-tw/retail",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_static_hash"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/debit/cardmain_New",
-          "parent": "https://www.o-bank.com/zh-tw/retail",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_static_hash"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/event/event-compaign",
-          "parent": "https://www.o-bank.com/zh-tw/retail",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_static_hash"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/event/event-announce/2026110302",
-          "parent": "https://www.o-bank.com/zh-tw/retail",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_static_hash"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/event/event-announce/2026103005",
-          "parent": "https://www.o-bank.com/zh-tw/retail",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_static_hash"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/event/event-announce/wd-champion-2026",
-          "parent": "https://www.o-bank.com/zh-tw/retail",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_static_hash"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/event/event-announce/2026092408",
-          "parent": "https://www.o-bank.com/zh-tw/retail",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_static_hash"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/event/event-announce",
-          "parent": "https://www.o-bank.com/zh-tw/retail",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_static_hash"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/event/event-announce/2026102706",
-          "parent": "https://www.o-bank.com/zh-tw/retail",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_static_hash"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/event/event-announce/2026102213",
-          "parent": "https://www.o-bank.com/zh-tw/retail",
-          "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_static_hash"
         }
       ],
       "unvisited": [
+        {
+          "url": "https://www.o-bank.com/web/event/o-for-youth/index.html",
+          "reason": "page_limit",
+          "parent": "https://www.o-bank.com/zh-tw/retail"
+        },
+        {
+          "url": "https://www.o-bank.com/web/event/cm_108022801/index.html",
+          "reason": "page_limit",
+          "parent": "https://www.o-bank.com/zh-tw/retail"
+        },
+        {
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026092902",
+          "reason": "page_limit",
+          "parent": "https://www.o-bank.com/zh-tw/retail"
+        },
+        {
+          "url": "https://www.o-bank.com/web/Event/stock/index.html",
+          "reason": "page_limit",
+          "parent": "https://www.o-bank.com/zh-tw/retail"
+        },
+        {
+          "url": "https://www.o-bank.com/web/Event/lowcarboncard/index.html",
+          "reason": "page_limit",
+          "parent": "https://www.o-bank.com/zh-tw/retail"
+        },
+        {
+          "url": "https://www.o-bank.com/retail/debit/cardmain_New",
+          "reason": "page_limit",
+          "parent": "https://www.o-bank.com/zh-tw/retail"
+        },
+        {
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026111103",
+          "reason": "page_limit",
+          "parent": "https://www.o-bank.com/zh-tw/retail"
+        },
+        {
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026110302",
+          "reason": "page_limit",
+          "parent": "https://www.o-bank.com/zh-tw/retail"
+        },
+        {
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026092408",
+          "reason": "page_limit",
+          "parent": "https://www.o-bank.com/zh-tw/retail"
+        },
+        {
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026111307",
+          "reason": "page_limit",
+          "parent": "https://www.o-bank.com/zh-tw/retail"
+        },
+        {
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026111304",
+          "reason": "page_limit",
+          "parent": "https://www.o-bank.com/zh-tw/retail"
+        },
+        {
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026102706",
+          "reason": "page_limit",
+          "parent": "https://www.o-bank.com/zh-tw/retail"
+        },
+        {
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026102213",
+          "reason": "page_limit",
+          "parent": "https://www.o-bank.com/zh-tw/retail"
+        },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/2026102001",
           "reason": "page_limit",
@@ -13436,769 +13602,704 @@
           "parent": "https://www.o-bank.com/zh-tw/retail"
         },
         {
-          "url": "https://www.o-bank.com/retail/event/media-area",
-          "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/event/info-report",
-          "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/event/attachment",
-          "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
-        },
-        {
           "url": "https://www.o-bank.com/web/Event/cm_integration_page/index.html",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/2026080302",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/web/Event/CM_20250829/index.html",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/web/event/o_for_you/index.html",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/web/Event/CM_1101130/index.html",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/CM_withdraw",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
+        },
+        {
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026103005",
+          "reason": "page_limit",
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/egift/RegisterCampaign",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
+        },
+        {
+          "url": "https://www.o-bank.com/retail/event/event-announce/wd-champion-2026",
+          "reason": "page_limit",
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/wd-twseries-2026",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_9",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_8",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_10",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_12",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_6",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_7",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/debit_20260930",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/debit_20260814_1",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_4",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/2026071603",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_5",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_3",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/2026082421",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/debit_20270103",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/debit_20270103_1",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/debit_20250213",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/debit_20271231",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/2026062507",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/2026art",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/2026032611",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/2026031605",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/2026030201",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/2026011301 ",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/web/event/applepay/index.html",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/2026060803",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/debit_20261231",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/2026011406 ",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/2025072110",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/web/event/loan_20211130/index.html ",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-compaign"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new",
-          "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/debit/school-affinity-card/school-affinity-card-new",
-          "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/debit/cobranded-card",
-          "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/debit/lowcarboncard",
-          "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/debit/vip-card",
-          "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/loan/personal/mature_adults",
-          "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/hot-function/blog/obankblog_260802",
-          "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/hot-function/blog/obankblog_260701",
-          "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/event/event-compaign"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/indexs.html?cardgrade=C&cardtype=2&elektype=1&groupno=B023&imageno=BD0000096&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/Affinity-Card/happywork-card",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/indexs.html?cardgrade=C&cardtype=2&elektype=1&groupno=B025&imageno=BD0000106&official=IBTWebsite&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/Affinity-Card/miracle_org",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/indexs.html?cardgrade=C&cardtype=2&elektype=1&groupno=B005&imageno=BD0000090&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/Affinity-Card/rainbow-card",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/indexs.html?cardgrade=C&cardtype=2&elektype=1&groupno=B022&imageno=BD0000088&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/Affinity-Card/BD0000088 ",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/indexs.html?cardgrade=C&cardtype=2&elektype=1&groupno=B021&imageno=BD0000086&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/Affinity-Card/BD0000086 ",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/indexs.html?cardgrade=C&cardtype=2&elektype=1&groupno=+B020&imageno=BD0000084&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/Affinity-Card/BD0000084",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/indexs.html?cardgrade=C&cardtype=2&elektype=1&groupno=B018&imageno=BD0000078&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/Affinity-Card/miracle-card",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/indexs.html?cardgrade=C&cardtype=1&elektype=1&groupno=B011&imageno=BD0000044&official=1&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/Affinity-Card/ah-h-card",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/indexs.html?cardgrade=C&cardtype=1&elektype=1&groupno=B012&imageno=BD0000050&official=1&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/Affinity-Card/eden",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/indexs.html?cardgrade=C&cardtype=1&elektype=1&groupno=B016&imageno=BD0000072&official=1&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/affinity-card/tpwl-card",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/indexs.html?cardgrade=C&cardtype=1&elektype=1&groupno=B017&imageno=BD0000074&official=1&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/Affinity-Card/ffa-card",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/indexs.html?cardgrade=C&cardtype=1&elektype=0&groupno=B003&imageno=CD0000013&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/Affinity-Card/dog-card",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/index.html?cardgrade=C&cardtype=2&elektype=1&groupno=B007&imageno=MI0000029&%7BcampaignCode%7D%7BsourceCode%7Dtxn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/Affinity-Card/edu-card",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/index.html?cardgrade=C&cardtype=2&elektype=1&groupno=B007&imageno=MI0000029&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/indexs.html?cardgrade=C&cardtype=2&elektype=0&groupno=B006&imageno=BD0000028&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/Affinity-Card/cau-card",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com:443/ebank/apps/services/www/ibmb/desktopbrowser/default/index.html?cardgrade=C&cardtype=2&elektype=1&groupno=B008&imageno=BD0000026&%7BcampaignCode%7D%7BsourceCode%7Dtxn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/Affinity-Card/Yunus-card",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com:443/ebank/apps/services/www/ibmb/desktopbrowser/default/index.html?cardgrade=C&cardtype=2&elektype=1&groupno=B008&imageno=BD0000026&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/affinity-card/affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/affinity-card/affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com:443/ebank/apps/services/www/ibmb/desktopbrowser/default/index.html?cardgrade=C&cardtype=1&elektype=1&groupno=B015&imageno=BD0000070&%7BcampaignCode%7D%7BsourceCode%7Dtxn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/school-affinity-card/school-affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/school-affinity-card/school-affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/School-Affinity-Card/smgshcard",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/school-affinity-card/school-affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/school-affinity-card/school-affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com:443/ebank/apps/services/www/ibmb/desktopbrowser/default/index.html?cardgrade=C&cardtype=1&elektype=1&groupno=B015&imageno=BD0000070&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/school-affinity-card/school-affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/school-affinity-card/school-affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/indexs.html?cardgrade=C&cardtype=1&elektype=1&groupno=B009&imageno=BD0000030&official=1&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/school-affinity-card/school-affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/school-affinity-card/school-affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/School-Affinity-Card/NSYSU-Card",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/school-affinity-card/school-affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/school-affinity-card/school-affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/indexs.html?cardgrade=C&cardtype=2&elektype=1&groupno=B014&imageno=BD0000056&official=1&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/school-affinity-card/school-affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/school-affinity-card/school-affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/School-Affinity-Card/tku",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/school-affinity-card/school-affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/school-affinity-card/school-affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/indexs.html?cardgrade=C&cardtype=1&elektype=0&groupno=B013&imageno=BD0000052&official=1&txn=COA02002",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/school-affinity-card/school-affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/school-affinity-card/school-affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/retail/debit/School-Affinity-Card/ck",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/school-affinity-card/school-affinity-card-new"
+          "parent": "https://www.o-bank.com/retail/debit/school-affinity-card/school-affinity-card-new"
         },
         {
           "url": "https://www.o-bank.com/web/Event/wdragons/index.html",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/cobranded-card"
+          "parent": "https://www.o-bank.com/retail/debit/cobranded-card"
         },
         {
           "url": "https://www.o-bank.com/web/Event/new_taipei_king/index.html",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/cobranded-card"
+          "parent": "https://www.o-bank.com/retail/debit/cobranded-card"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/cama",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/cobranded-card"
+          "parent": "https://www.o-bank.com/retail/debit/cobranded-card"
         },
         {
           "url": "https://www.o-bank.com/web/Event/GreenTransportCard/index.html",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/lowcarboncard"
+          "parent": "https://www.o-bank.com/retail/debit/lowcarboncard"
         },
         {
           "url": "https://www.o-bank.com/web/Event/carboncalculator/index.html",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/lowcarboncard"
+          "parent": "https://www.o-bank.com/retail/debit/lowcarboncard"
         },
         {
           "url": "https://www.o-bank.com/web/Event/visa_infinite/index.html",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/debit/vip-card"
+          "parent": "https://www.o-bank.com/retail/debit/vip-card"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026102706",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026100502",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026102213",
+          "url": "https://www.o-bank.com/retail/event/event-announce/digitalvoucher",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026102001",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026092901",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026101210",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026092314",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026100502",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026091804",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/digitalvoucher",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026091603",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026092901",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026082404",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026092314",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026082801",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026091804",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026081301",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026091603",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026080301",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026082404",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026072903",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026082801",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026070701",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026081301",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026052001",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026080301",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026041602",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026072903",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026032504",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026070701",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026031009",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026052001",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026030605",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026041602",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026030403",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026032504",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026022302",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026031009",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026020202",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026030605",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2026012601",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026030403",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2025122406",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026022302",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2025121902",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026020202",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2025112702",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2026012601",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2025112703",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2025122406",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2025111806",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2025121902",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2025090203",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2025112702",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2025072102",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2025112703",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2025071603",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2025111806",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2025022705",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2025090203",
+          "url": "https://www.o-bank.com/retail/event/event-announce/loan-standard-charge",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2025072102",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2024092001",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2025071603",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2024060505",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2025022705",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2024042904",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/loan-standard-charge",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2024032901",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2024092001",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2024012503",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2024060505",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2023091807",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2024042904",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2023091506",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2024032901",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2023021303",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2024012503",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2022103102",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2023091807",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2022061707",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2023091506",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2022052405",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2023021303",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2022051005",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2022103102",
+          "url": "https://www.o-bank.com/retail/event/event-announce/loan_2019081901",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2022061707",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2021091104",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2022052405",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2021062208",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2022051005",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2021072102",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/loan_2019081901",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2021051401",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2021091104",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2020100707",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2021062208",
+          "url": "https://www.o-bank.com/retail/event/event-announce/2019123102",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2021072102",
+          "url": "https://www.o-bank.com/retail/event/event-announce/wm_2019052202",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2021051401",
+          "url": "https://www.o-bank.com/retail/event/event-announce/deposit-standard-charge",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2020100707",
+          "url": "https://www.o-bank.com/retail/event/event-announce/cbcgov-1998",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
-        },
-        {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/2019123102",
-          "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
-        },
-        {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/wm_2019052202",
-          "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
-        },
-        {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/deposit-standard-charge",
-          "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
-        },
-        {
-          "url": "https://www.o-bank.com/zh-tw/retail/event/event-announce/cbcgov-1998",
-          "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/event/event-announce"
+          "parent": "https://www.o-bank.com/retail/event/event-announce"
         },
         {
           "url": "https://www.o-bank.com/ebank/apps/services/www/ibmb/desktopbrowser/default/index.html?txn=CXM01001",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/zh-tw/retail/hot-function/blog/obankblog_260701"
+          "parent": "https://www.o-bank.com/retail/hot-function/blog/obankblog_260701"
         },
         {
           "url": "https://www.o-bank.com/retail/event/event-announce/2026011301",
@@ -14231,23 +14332,13 @@
           "parent": "https://www.o-bank.com/zh-tw/about/investor/ir-events/investor-conferences"
         },
         {
-          "url": "https://www.o-bank.com/retail/hot-function/blog/obankblog_260803",
+          "url": "https://www.o-bank.com/web/event/samsungwallet/index.html",
           "reason": "page_limit",
-          "parent": "https://www.o-bank.com/web/event/o-for-youth/index.html"
-        },
-        {
-          "url": "https://www.o-bank.com/web/Event/GreenConsumption/index.html",
-          "reason": "page_limit",
-          "parent": "https://www.o-bank.com/web/Event/lowcarboncard/index.html"
-        },
-        {
-          "url": "https://www.o-bank.com/retail/event/event-announce/digitalvoucher",
-          "reason": "page_limit",
-          "parent": "https://www.o-bank.com/retail/event/event-announce/2026103005"
+          "parent": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_14"
         }
       ],
-      "startedAt": "2026-11-15T23:03:32.762084Z",
-      "completedAt": "2026-11-15T23:04:20.833540Z"
+      "startedAt": "2026-11-17T02:12:45.742816Z",
+      "completedAt": "2026-11-17T02:15:17.754782Z"
     },
     {
       "bank": "將來銀行",
@@ -14286,8 +14377,8 @@
           "url": "https://www.nextbank.com.tw/announcement/548b980061000000fdbefa5f13f3bb66",
           "parent": "https://www.nextbank.com.tw/product/card",
           "depth": 1,
-          "renderer": "httpx",
-          "status": "unchanged_304"
+          "renderer": "playwright",
+          "status": "analyzed"
         },
         {
           "url": "https://www.nextbank.com.tw/announcement/6706855ff80000004fe0e5e27baaf4f5",
@@ -14379,7 +14470,7 @@
           "parent": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7",
@@ -14921,6 +15012,11 @@
           "url": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b/ImportantNotice001",
           "reason": "page_limit",
           "parent": "https://www.nextbank.com.tw/announcement/4b3a49e411000000f1ac218054191c8b"
+        },
+        {
+          "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/news124",
+          "reason": "page_limit",
+          "parent": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4"
         },
         {
           "url": "https://www.nextbank.com.tw/announcement/4b262cbb0600000005db69481a78b4a4/new123",
@@ -16223,20 +16319,20 @@
           "parent": "https://www.nextbank.com.tw/announcement/4d564449a2000000b0849bc50dd647e7"
         }
       ],
-      "startedAt": "2026-11-15T23:04:20.873667Z",
-      "completedAt": "2026-11-15T23:04:56.317646Z"
+      "startedAt": "2026-11-17T02:15:17.823361Z",
+      "completedAt": "2026-11-17T02:16:45.684770Z"
     },
     {
       "bank": "LINE Bank",
       "sourceType": "CARD",
-      "status": "completed",
+      "status": "needs_review",
       "pages": [
         {
           "url": "https://www.linebank.com.tw/",
           "parent": null,
           "depth": 0,
           "renderer": "playwright",
-          "status": "unchanged_hash"
+          "status": "insufficient_content"
         },
         {
           "url": "https://www.linebank.com.tw/notice/events",
@@ -16244,11 +16340,81 @@
           "depth": 1,
           "renderer": "playwright",
           "status": "analyzed"
+        },
+        {
+          "url": "https://www.linebank.com.tw/notice/events?page=1",
+          "parent": "https://www.linebank.com.tw/notice/events",
+          "depth": 2,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.linebank.com.tw/notice/events?page=2",
+          "parent": "https://www.linebank.com.tw/notice/events",
+          "depth": 2,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.linebank.com.tw/notice/events?page=3",
+          "parent": "https://www.linebank.com.tw/notice/events",
+          "depth": 2,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.linebank.com.tw/notice/events?page=4",
+          "parent": "https://www.linebank.com.tw/notice/events",
+          "depth": 2,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.linebank.com.tw/notice/events?page=5",
+          "parent": "https://www.linebank.com.tw/notice/events",
+          "depth": 2,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.linebank.com.tw/notice/events?page=6",
+          "parent": "https://www.linebank.com.tw/notice/events",
+          "depth": 2,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.linebank.com.tw/notice/events?page=7",
+          "parent": "https://www.linebank.com.tw/notice/events",
+          "depth": 2,
+          "renderer": "playwright",
+          "status": "analyzed"
+        },
+        {
+          "url": "https://www.linebank.com.tw/notice/events?page=8",
+          "parent": "https://www.linebank.com.tw/notice/events",
+          "depth": 2,
+          "renderer": "playwright",
+          "status": "unchanged_hash"
+        },
+        {
+          "url": "https://www.linebank.com.tw/notice/events?page=9",
+          "parent": "https://www.linebank.com.tw/notice/events",
+          "depth": 2,
+          "renderer": "playwright",
+          "status": "unchanged_hash"
+        },
+        {
+          "url": "https://www.linebank.com.tw/notice/events?page=10",
+          "parent": "https://www.linebank.com.tw/notice/events",
+          "depth": 2,
+          "renderer": "playwright",
+          "status": "unchanged_hash"
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-11-15T23:04:56.334586Z",
-      "completedAt": "2026-11-15T23:05:11.213733Z"
+      "startedAt": "2026-11-17T02:16:45.714647Z",
+      "completedAt": "2026-11-17T02:18:18.655387Z"
     },
     {
       "bank": "LINE Pay",
@@ -16260,7 +16426,7 @@
           "parent": null,
           "depth": 0,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_static_hash"
         },
         {
           "url": "https://pay.line.me/portal/tw/business/benefit",
@@ -16313,8 +16479,8 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-11-15T23:04:59.841220Z",
-      "completedAt": "2026-11-15T23:05:47.076817Z"
+      "startedAt": "2026-11-17T02:17:05.778044Z",
+      "completedAt": "2026-11-17T02:17:39.038765Z"
     },
     {
       "bank": "全支付",
@@ -16331,8 +16497,8 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-11-15T23:05:11.219412Z",
-      "completedAt": "2026-11-15T23:05:12.077382Z"
+      "startedAt": "2026-11-17T02:17:39.053827Z",
+      "completedAt": "2026-11-17T02:17:39.971045Z"
     },
     {
       "bank": "悠遊付",
@@ -16373,7 +16539,7 @@
           "parent": "https://www.easycard.com.tw/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.easycard.com.tw/news?cls=3&page=1",
@@ -16555,7 +16721,7 @@
           "parent": "https://www.easycard.com.tw/",
           "depth": 1,
           "renderer": "httpx",
-          "status": "analyzed"
+          "status": "unchanged_static_hash"
         },
         {
           "url": "https://www.easycard.com.tw/news?cls=1",
@@ -16569,7 +16735,7 @@
           "parent": "https://www.easycard.com.tw/news",
           "depth": 2,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.easycard.com.tw/news?cls=3",
@@ -16968,8 +17134,8 @@
           "parent": "https://www.easycard.com.tw/news?cls=1&page=6"
         }
       ],
-      "startedAt": "2026-11-15T23:05:12.081767Z",
-      "completedAt": "2026-11-15T23:06:10.237777Z"
+      "startedAt": "2026-11-17T02:17:39.976582Z",
+      "completedAt": "2026-11-17T02:18:47.342688Z"
     },
     {
       "bank": "街口支付",
@@ -16985,8 +17151,8 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-11-15T23:05:47.084838Z",
-      "completedAt": "2026-11-15T23:05:48.240323Z"
+      "startedAt": "2026-11-17T02:18:18.665386Z",
+      "completedAt": "2026-11-17T02:18:20.135837Z"
     },
     {
       "bank": "icash Pay",
@@ -17166,7 +17332,7 @@
           "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
           "depth": 1,
           "renderer": "httpx",
-          "status": "unchanged_static_hash"
+          "status": "analyzed"
         },
         {
           "url": "https://www.icashpay.com.tw/advertMessage/view/id/2375",
@@ -17174,6 +17340,13 @@
           "depth": 1,
           "renderer": "httpx",
           "status": "unchanged_static_hash"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2607",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index",
+          "depth": 2,
+          "renderer": "httpx",
+          "status": "analyzed"
         },
         {
           "url": "https://www.icashpay.com.tw/advertMessage/view/id/2497",
@@ -17232,13 +17405,6 @@
           "status": "unchanged_static_hash"
         },
         {
-          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2534",
-          "parent": "https://www.icashpay.com.tw/advertMessage/index",
-          "depth": 2,
-          "renderer": "httpx",
-          "status": "unchanged_static_hash"
-        },
-        {
           "url": "https://www.icashpay.com.tw/advertMessage/index/page/1",
           "parent": "https://www.icashpay.com.tw/advertMessage/index",
           "depth": 2,
@@ -17286,6 +17452,16 @@
           "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2223"
         },
         {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2442",
+          "reason": "page_limit",
+          "parent": "https://www.icashpay.com.tw/advertMessage/view/id/2607"
+        },
+        {
+          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2534",
+          "reason": "page_limit",
+          "parent": "https://www.icashpay.com.tw/advertMessage/index/page/2"
+        },
+        {
           "url": "https://www.icashpay.com.tw/advertMessage/view/id/2588",
           "reason": "page_limit",
           "parent": "https://www.icashpay.com.tw/advertMessage/index/page/2"
@@ -17313,7 +17489,7 @@
         {
           "url": "https://www.icashpay.com.tw/advertMessage/view/id/2515",
           "reason": "page_limit",
-          "parent": "https://www.icashpay.com.tw/advertMessage/index/page/2"
+          "parent": "https://www.icashpay.com.tw/advertMessage/index/page/3"
         },
         {
           "url": "https://www.icashpay.com.tw/advertMessage/view/id/2543",
@@ -17327,11 +17503,6 @@
         },
         {
           "url": "https://www.icashpay.com.tw/event/icashpay_introduction/index.html",
-          "reason": "page_limit",
-          "parent": "https://www.icashpay.com.tw/advertMessage/index/page/3"
-        },
-        {
-          "url": "https://www.icashpay.com.tw/advertMessage/view/id/2442",
           "reason": "page_limit",
           "parent": "https://www.icashpay.com.tw/advertMessage/index/page/3"
         },
@@ -17361,8 +17532,8 @@
           "parent": "https://www.icashpay.com.tw/advertMessage/index/page/5"
         }
       ],
-      "startedAt": "2026-11-15T23:05:48.244654Z",
-      "completedAt": "2026-11-15T23:05:57.365431Z"
+      "startedAt": "2026-11-17T02:18:20.141242Z",
+      "completedAt": "2026-11-17T02:18:57.903244Z"
     },
     {
       "bank": "台灣 Pay",
@@ -17379,14 +17550,14 @@
         }
       ],
       "unvisited": [],
-      "startedAt": "2026-11-15T23:05:57.383091Z",
-      "completedAt": "2026-11-15T23:05:58.008518Z"
+      "startedAt": "2026-11-17T02:18:47.377677Z",
+      "completedAt": "2026-11-17T02:18:48.059773Z"
     }
   ],
   "summary": {
     "banks": 33,
-    "needsReview": 24,
-    "aiRequests": 120,
+    "needsReview": 25,
+    "aiRequests": 215,
     "status": "completed",
     "aiFailedPages": 0,
     "datasetChanged": true
