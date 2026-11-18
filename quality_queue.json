@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-17T02:32:45.255Z",
+  "generatedAt": "2026-11-18T01:01:06.926Z",
   "disclaimer": "結構檢查不是事實核對；待確認點數不換算現金。",
-  "totalRules": 1569,
+  "totalRules": 1566,
   "reviewed": 0,
   "comparable": 0,
   "expired": 53,
-  "sourceGroups": 514,
+  "sourceGroups": 513,
   "queue": [
     {
       "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/cards/",
@@ -156,7 +156,7 @@
         "rule_341a7301b994819ef88c",
         "rule_50c1fabce5d9b4c44eb4"
       ],
-      "activeRules": 17
+      "activeRules": 16
     },
     {
       "sourceUrl": "https://www.americanexpress.com/tw/benefits/contactless-payments/?inav=tw_footer_contactless_payments",
@@ -1423,19 +1423,6 @@
       "activeRules": 5
     },
     {
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/poya-card",
-      "bank": "玉山銀行",
-      "ruleIds": [
-        "rule_db4b38b4c3dcb0614933",
-        "rule_560b2c7a5dca9baa8ce0",
-        "rule_fcf85ed7f50e094e3508",
-        "rule_f7cfe712bda61c44a0d1",
-        "rule_fa2dc1cc2f216c7b5d59",
-        "rule_14f67cb77942f84afe55"
-      ],
-      "activeRules": 5
-    },
-    {
       "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/index.htm",
       "bank": "台北富邦",
       "ruleIds": [
@@ -1795,6 +1782,19 @@
         "rule_524217b9b4522eea9a99",
         "rule_800a869234b6c982db96",
         "rule_c37ae1f16d6939ad0036"
+      ],
+      "activeRules": 4
+    },
+    {
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/poya-card",
+      "bank": "玉山銀行",
+      "ruleIds": [
+        "rule_db4b38b4c3dcb0614933",
+        "rule_560b2c7a5dca9baa8ce0",
+        "rule_fcf85ed7f50e094e3508",
+        "rule_f7cfe712bda61c44a0d1",
+        "rule_fa2dc1cc2f216c7b5d59",
+        "rule_14f67cb77942f84afe55"
       ],
       "activeRules": 4
     },
@@ -2281,16 +2281,6 @@
         "rule_04da71b205b328287307",
         "rule_b2aa0f51afc7635a3b56",
         "rule_bcd25bdd13fa49238ba0"
-      ],
-      "activeRules": 3
-    },
-    {
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-personal-card-carousel-ATL",
-      "bank": "星展銀行",
-      "ruleIds": [
-        "rule_a1f160be19f7dffd607a",
-        "rule_4ccd721cae6b97a7f9cb",
-        "rule_57df328f2449be7db961"
       ],
       "activeRules": 3
     },
@@ -2884,8 +2874,6 @@
       "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1249",
       "bank": "將來銀行",
       "ruleIds": [
-        "rule_1704bb66da21702598dd",
-        "rule_9e258a1bada075ba54df",
         "rule_2c7ad4e5a2178753e9ab",
         "rule_1c2437402d8c466d002a"
       ],
@@ -3193,15 +3181,6 @@
       "activeRules": 2
     },
     {
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
-      "bank": "星展銀行",
-      "ruleIds": [
-        "rule_57d76de0c0c635b31ad3",
-        "rule_42b56001b7690977a095"
-      ],
-      "activeRules": 2
-    },
-    {
       "sourceUrl": "https://www.o-bank.com/retail/debit/vip-card",
       "bank": "王道銀行",
       "ruleIds": [
@@ -3279,6 +3258,33 @@
       "ruleIds": [
         "rule_846c4fc1702e93e5ec65",
         "rule_8a973c44830f1b48eefd"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel",
+      "bank": "星展銀行",
+      "ruleIds": [
+        "rule_178e290d596c6ae84e07",
+        "rule_4cd1e204fb30762bf8dd"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
+      "bank": "星展銀行",
+      "ruleIds": [
+        "rule_df4e4598338632f24bb2",
+        "rule_82ec29c5fe9d11d33cab"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-2026q2atl",
+      "bank": "星展銀行",
+      "ruleIds": [
+        "rule_b9bdd6c15931fad7de32",
+        "rule_24adb2cf63b4d09e3281"
       ],
       "activeRules": 2
     },
@@ -3853,14 +3859,6 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2223",
-      "bank": "icash Pay",
-      "ruleIds": [
-        "rule_561de610b12259b4d931"
-      ],
-      "activeRules": 1
-    },
-    {
       "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2407",
       "bank": "icash Pay",
       "ruleIds": [
@@ -4373,14 +4371,6 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-2026q2atl",
-      "bank": "星展銀行",
-      "ruleIds": [
-        "rule_c987c75ceadcca999308"
-      ],
-      "activeRules": 1
-    },
-    {
       "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card",
       "bank": "玉山銀行",
       "ruleIds": [
@@ -4766,14 +4756,6 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel",
-      "bank": "星展銀行",
-      "ruleIds": [
-        "rule_9f9003024f7f0975930f"
-      ],
-      "activeRules": 1
-    },
-    {
       "sourceUrl": "https://www.esunbank.com/en/personal/credit-card/intro",
       "bank": "玉山銀行",
       "ruleIds": [
@@ -4990,12 +4972,12 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/campaigns/retail/",
-      "bank": "美國運通",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-personal-card-carousel-ATL",
+      "bank": "星展銀行",
       "ruleIds": [
-        "rule_eeba0e2253fe1145102e"
+        "rule_b58d2b383d912c7e12a7"
       ],
-      "activeRules": 0
+      "activeRules": 1
     },
     {
       "sourceUrl": "https://www.easycard.com.tw/offer?cls=1506473490%2C1506473503%2C&id=1785477114",
@@ -5021,6 +5003,14 @@
       "bank": "遠東商銀",
       "ruleIds": [
         "rule_d1f04adf593f22ad6efe"
+      ],
+      "activeRules": 0
+    },
+    {
+      "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2223",
+      "bank": "icash Pay",
+      "ruleIds": [
+        "rule_561de610b12259b4d931"
       ],
       "activeRules": 0
     },
@@ -5621,19 +5611,6 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_eeba0e2253fe1145102e",
-      "bank": "美國運通",
-      "title": "台中大遠百百貨週年慶滿額贈禮遇",
-      "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/campaigns/retail/",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "RECHECK_REQUIRED",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "活動已截止"
       ]
     },
     {
@@ -12608,12 +12585,12 @@
       "bank": "icash Pay",
       "title": "統一獅台南主場消費回饋",
       "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2481",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "lifecycle": "EXPIRED",
       "reviewStatus": "RECHECK_REQUIRED",
       "comparable": false,
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
+        "活動已截止"
       ]
     },
     {
@@ -12855,12 +12832,12 @@
       "bank": "icash Pay",
       "title": "icash Pay x 統一獅台南主場消費筆筆享7%回饋",
       "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2223",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "lifecycle": "EXPIRED",
       "reviewStatus": "RECHECK_REQUIRED",
       "comparable": false,
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
+        "活動已截止"
       ]
     },
     {
@@ -14880,32 +14857,6 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_1704bb66da21702598dd",
-      "bank": "將來銀行",
-      "title": "【大將卡】Part 1-行前準備指定通路加碼2.5%回饋",
-      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1249",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "RECHECK_REQUIRED",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "活動已截止"
-      ]
-    },
-    {
-      "id": "rule_9e258a1bada075ba54df",
-      "bank": "將來銀行",
-      "title": "【大將卡】Part 2-日本當地實體消費加碼5%回饋",
-      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1249",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "RECHECK_REQUIRED",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "活動已截止"
       ]
     },
     {
@@ -18534,43 +18485,6 @@
       ]
     },
     {
-      "id": "rule_a1f160be19f7dffd607a",
-      "bank": "星展銀行",
-      "title": "星願集刷 刷滿5筆 回饋升級 2%刷卡金",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-personal-card-carousel-ATL",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_4ccd721cae6b97a7f9cb",
-      "bank": "星展銀行",
-      "title": "星展eco永續卡 搭配星願集刷最高3%回饋",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-personal-card-carousel-ATL",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_57df328f2449be7db961",
-      "bank": "星展銀行",
-      "title": "刷星展卡 抽 iPhone Duo",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-personal-card-carousel-ATL",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "非保證現金回饋"
-      ]
-    },
-    {
       "id": "rule_869a6389251df47ffc43",
       "bank": "中國信託",
       "title": "新戶首刷禮滿額送 LINE POINTS 300點",
@@ -18677,18 +18591,6 @@
       "bank": "永豐銀行",
       "title": "2026分期加碼活動-完成大咖DACARD APP自動分期",
       "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/manage/credit-staging-single.html",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_c987c75ceadcca999308",
-      "bank": "星展銀行",
-      "title": "星願集刷 刷滿5筆 回饋升級",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-2026q2atl",
       "lifecycle": "ACTIVE_OR_UNKNOWN",
       "reviewStatus": "PENDING",
       "comparable": false,
@@ -19916,11 +19818,12 @@
       "bank": "玉山銀行",
       "title": "1111放縱購-第二波",
       "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/poya-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "lifecycle": "EXPIRED",
       "reviewStatus": "PENDING",
       "comparable": false,
       "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "活動已截止"
       ]
     },
     {
@@ -22343,45 +22246,6 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_9f9003024f7f0975930f",
-      "bank": "星展銀行",
-      "title": "摘星旅遊家：星級豪禮",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "非保證現金回饋"
-      ]
-    },
-    {
-      "id": "rule_57d76de0c0c635b31ad3",
-      "bank": "星展銀行",
-      "title": "摘星旅遊家 累積指定旅遊消費送星級豪禮",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
-      "id": "rule_42b56001b7690977a095",
-      "bank": "星展銀行",
-      "title": "摘星旅遊家 萬事達卡加碼解鎖尊榮星旅禮",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
       ]
     },
     {
@@ -25135,6 +24999,96 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_b58d2b383d912c7e12a7",
+      "bank": "星展銀行",
+      "title": "星願集刷 刷滿5筆 回饋升級",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-personal-card-carousel-ATL",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_178e290d596c6ae84e07",
+      "bank": "星展銀行",
+      "title": "星展摘星旅遊家 累積指定旅遊消費最高解鎖RIMOWA登機箱",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "非保證現金回饋"
+      ]
+    },
+    {
+      "id": "rule_4cd1e204fb30762bf8dd",
+      "bank": "星展銀行",
+      "title": "星展摘星旅遊家 萬事達卡加碼刷卡解鎖尊榮星旅禮",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "非保證現金回饋"
+      ]
+    },
+    {
+      "id": "rule_df4e4598338632f24bb2",
+      "bank": "星展銀行",
+      "title": "摘星旅遊家 探索世界刷星展 滿額最高解鎖 RIMOWA",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "非保證現金回饋"
+      ]
+    },
+    {
+      "id": "rule_82ec29c5fe9d11d33cab",
+      "bank": "星展銀行",
+      "title": "Mastercard萬事達卡加碼 刷卡解鎖尊榮星旅禮",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "非保證現金回饋"
+      ]
+    },
+    {
+      "id": "rule_b9bdd6c15931fad7de32",
+      "bank": "星展銀行",
+      "title": "星願集刷 刷滿5筆 回饋升級",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-2026q2atl",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "累積消費資格未確認"
+      ]
+    },
+    {
+      "id": "rule_24adb2cf63b4d09e3281",
+      "bank": "星展銀行",
+      "title": "刷星展卡抽 iPhone Duo",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-2026q2atl",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "非保證現金回饋"
       ]
     },
     {

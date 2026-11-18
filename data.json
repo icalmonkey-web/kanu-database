@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.17-v023242-ubear-review-trusted-core-20261003",
+  "version": "2026.11.18-v010104-ubear-review-trusted-core-20261003",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -14446,146 +14446,6 @@
       }
     },
     {
-      "id": "rule_eeba0e2253fe1145102e",
-      "cardId": "card_美國運通_371",
-      "title": "台中大遠百百貨週年慶滿額贈禮遇",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "台中大遠百"
-      ],
-      "searchKeywords": "台中大遠百, Top City, 百貨, 週年慶, 購物",
-      "baseRate": 0,
-      "promoRate": 0,
-      "rewardType": "draw",
-      "rewardAmount": 0,
-      "rewardUnit": "chance",
-      "capAmount": 0,
-      "capPeriod": "",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "須以美國運通卡消費"
-      ],
-      "needReg": false,
-      "regDeadline": "2026-10-18",
-      "validUntil": "2026-10-18",
-      "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/campaigns/retail/",
-      "registrationUrl": "",
-      "quotaInfo": "滿額贈禮遇需視店內規範門檻",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-09-25T03:39:22.442247Z",
-      "bank": "美國運通",
-      "registrationMethods": [],
-      "validationIssues": [],
-      "eligibleCardScope": "ALL_BANK_CARDS",
-      "associationStatus": "confirmed",
-      "_reviewTermsBaseline": {
-        "cardId": "card_美國運通_371",
-        "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/campaigns/retail/",
-        "title": "台中大遠百百貨週年慶滿額贈禮遇",
-        "baseRate": 0,
-        "promoRate": 0,
-        "rewardType": "draw",
-        "rewardUnit": "chance",
-        "rewardAmount": 0,
-        "capAmount": 0,
-        "capScope": null,
-        "capPeriod": "",
-        "minimumSpend": 0,
-        "spendBasis": null,
-        "roundingMode": null,
-        "validFrom": null,
-        "validUntil": "2026-10-18",
-        "needReg": false,
-        "regDeadline": "2026-10-18",
-        "registrationStart": null,
-        "registrationEnd": null,
-        "registrationCycle": null,
-        "registrationMethods": [],
-        "eligibilityRequirements": [
-          "須以美國運通卡消費"
-        ],
-        "rewardCalculationMode": null,
-        "rewardTiers": null,
-        "selectionMode": "",
-        "benefitPlan": "",
-        "matchedMerchants": [
-          "台中大遠百"
-        ],
-        "excludedKeywords": [],
-        "quotaInfo": "滿額贈禮遇需視店內規範門檻",
-        "pointValueTwd": null,
-        "associationStatus": "confirmed",
-        "category": null,
-        "scope": "SPECIFIC",
-        "searchKeywords": "台中大遠百, Top City, 百貨, 週年慶, 購物",
-        "intentTags": null,
-        "intentEvidence": null,
-        "offerDomain": null,
-        "fundingMethods": null,
-        "bank": "美國運通"
-      },
-      "accuracyReview": {
-        "status": "SOURCE_CHECKED",
-        "checkedAt": "2026-10-19T17:10:56.580Z",
-        "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/campaigns/retail/",
-        "fields": [
-          "baseRate",
-          "promoRate",
-          "capAmount"
-        ],
-        "termsSnapshot": {
-          "cardId": "card_美國運通_371",
-          "sourceUrl": "https://www.americanexpress.com/zh-tw/benefits/campaigns/retail/",
-          "title": "台中大遠百百貨週年慶滿額贈禮遇",
-          "baseRate": 0,
-          "promoRate": 0,
-          "rewardType": "draw",
-          "rewardUnit": "chance",
-          "rewardAmount": 0,
-          "capAmount": 0,
-          "capScope": null,
-          "capPeriod": "",
-          "minimumSpend": 0,
-          "spendBasis": null,
-          "roundingMode": null,
-          "validFrom": null,
-          "validUntil": "2026-10-18",
-          "needReg": false,
-          "regDeadline": "2026-10-18",
-          "registrationStart": null,
-          "registrationEnd": null,
-          "registrationCycle": null,
-          "registrationMethods": [],
-          "eligibilityRequirements": [
-            "須以美國運通卡消費"
-          ],
-          "rewardCalculationMode": null,
-          "rewardTiers": null,
-          "selectionMode": "",
-          "benefitPlan": "",
-          "matchedMerchants": [
-            "台中大遠百"
-          ],
-          "excludedKeywords": [],
-          "quotaInfo": "滿額贈禮遇需視店內規範門檻",
-          "pointValueTwd": null,
-          "associationStatus": "confirmed",
-          "category": null,
-          "scope": "SPECIFIC",
-          "searchKeywords": "台中大遠百, Top City, 百貨, 週年慶, 購物",
-          "intentTags": null,
-          "intentEvidence": null,
-          "offerDomain": null,
-          "fundingMethods": null,
-          "bank": "美國運通"
-        },
-        "issues": []
-      }
-    },
-    {
       "id": "rule_8fbc7a836f66b24afde6",
       "cardId": "card_美國運通_371",
       "title": "Hotels.com 預訂指定住宿立享8%折扣",
@@ -22429,6 +22289,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -55837,6 +55698,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-30T13:29:25.273568Z",
@@ -59867,6 +59729,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -129602,6 +129465,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-28T23:16:52.214472Z",
@@ -137970,594 +137834,6 @@
           "bank": "將來銀行"
         },
         "issues": []
-      }
-    },
-    {
-      "id": "rule_1704bb66da21702598dd",
-      "cardId": "card_將來銀行_470",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "大將卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "【大將卡】Part 1-行前準備指定通路加碼2.5%回饋",
-      "benefitPlan": "",
-      "selectionMode": "STACKABLE",
-      "activityType": "REG_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "Agoda",
-        "Airbnb",
-        "Booking.com",
-        "Expedia",
-        "Hotel.com",
-        "Trip.com",
-        "KKday",
-        "Klook"
-      ],
-      "searchKeywords": "agoda, 雅高達, airbnb, 愛彼迎, booking, booking.com, 繽客, expedia, 智遊網, hotels.com, hotel.com, 好訂網, trip.com, 攜程, kkday, klook, 客路, 航空公司, 機票, 飛行, 海外消費, 國外刷卡, 外幣交易",
-      "intentTags": [
-        "海外消費",
-        "旅遊",
-        "網購"
-      ],
-      "intentEvidence": "指定通路消費金額享2.5%加碼回饋：(1) 海外國家、(2) 航空、(3) 海外訂房平台：Agoda、Airbnb、Booking.com、Expedia、Hotel.com、Trip.com、(4) 行程預訂：KKday、Klook",
-      "baseRate": 0,
-      "promoRate": 2.5,
-      "rewardType": "points",
-      "rewardAmount": 2.5,
-      "rewardUnit": "percent",
-      "capAmount": 300,
-      "capPeriod": "CAMPAIGN",
-      "minimumSpend": 6000,
-      "eligibilityRequirements": [
-        "登入將來銀行APP完成活動登錄者",
-        "活動期間內全通路累積消費滿6,000(含)元"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [
-        "登入將來銀行APP完成活動登錄",
-        "全通路累積消費滿6,000元"
-      ],
-      "needReg": true,
-      "regDeadline": "2026-10-18",
-      "validUntil": "2026-10-18",
-      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1249",
-      "registrationUrl": "",
-      "registrationMethods": [
-        {
-          "type": "APP",
-          "label": "銀行 App 登錄",
-          "appName": "將來銀行 APP",
-          "deepLink": "",
-          "appStoreUrl": "",
-          "playStoreUrl": "",
-          "path": [
-            "活動登錄"
-          ],
-          "activityName": "行前準備加碼2.5%",
-          "campaignCode": ""
-        }
-      ],
-      "quotaInfo": "全通路累積消費滿6,000元，指定通路享2.5%加碼回饋，上限300 N點，需於APP登錄。",
-      "excludedKeywords": [
-        "賭博籌碼",
-        "投資平台",
-        "e-Bill全國繳費",
-        "i繳費",
-        "醫指付",
-        "公務機關信用卡繳費平台",
-        "電子化繳費稅處理平台",
-        "個人綜合所得稅",
-        "房屋稅",
-        "地價稅",
-        "牌照稅",
-        "燃料費",
-        "提款",
-        "轉帳",
-        "中華電信",
-        "台灣電力",
-        "台北自來水",
-        "台灣自來水",
-        "瓦斯費",
-        "NCCC小額支付平台"
-      ],
-      "fetchedAt": "2026-09-26T21:09:01.345342Z",
-      "bank": "將來銀行",
-      "validFrom": "2026-08-17",
-      "registrationStart": "2026-08-17",
-      "registrationEnd": "2026-10-18",
-      "spendBasis": "CAMPAIGN",
-      "capScope": "PROMO",
-      "roundingMode": "ROUND",
-      "accuracyReview": {
-        "status": "SOURCE_CHECKED",
-        "checkedAt": "2026-10-19T17:10:56.583Z",
-        "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1249",
-        "fields": [
-          "baseRate",
-          "promoRate",
-          "capAmount"
-        ],
-        "termsSnapshot": {
-          "cardId": "card_將來銀行_470",
-          "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1249",
-          "title": "【大將卡】Part 1-行前準備指定通路加碼2.5%回饋",
-          "baseRate": 0,
-          "promoRate": 2.5,
-          "rewardType": "points",
-          "rewardUnit": "percent",
-          "rewardAmount": 2.5,
-          "capAmount": 300,
-          "capScope": "PROMO",
-          "capPeriod": "CAMPAIGN",
-          "minimumSpend": 6000,
-          "spendBasis": "CAMPAIGN",
-          "roundingMode": "ROUND",
-          "validFrom": "2026-08-17",
-          "validUntil": "2026-10-18",
-          "needReg": true,
-          "regDeadline": "2026-10-18",
-          "registrationStart": "2026-08-17",
-          "registrationEnd": "2026-10-18",
-          "registrationCycle": null,
-          "registrationMethods": [
-            {
-              "type": "APP",
-              "label": "銀行 App 登錄",
-              "appName": "將來銀行 APP",
-              "deepLink": "",
-              "appStoreUrl": "",
-              "playStoreUrl": "",
-              "path": [
-                "活動登錄"
-              ],
-              "activityName": "行前準備加碼2.5%",
-              "campaignCode": ""
-            }
-          ],
-          "eligibilityRequirements": [
-            "登入將來銀行APP完成活動登錄者",
-            "活動期間內全通路累積消費滿6,000(含)元"
-          ],
-          "rewardCalculationMode": "FLAT",
-          "rewardTiers": [],
-          "selectionMode": "STACKABLE",
-          "benefitPlan": "",
-          "matchedMerchants": [
-            "Agoda",
-            "Airbnb",
-            "Booking.com",
-            "Expedia",
-            "Hotel.com",
-            "Trip.com",
-            "KKday",
-            "Klook"
-          ],
-          "excludedKeywords": [
-            "賭博籌碼",
-            "投資平台",
-            "e-Bill全國繳費",
-            "i繳費",
-            "醫指付",
-            "公務機關信用卡繳費平台",
-            "電子化繳費稅處理平台",
-            "個人綜合所得稅",
-            "房屋稅",
-            "地價稅",
-            "牌照稅",
-            "燃料費",
-            "提款",
-            "轉帳",
-            "中華電信",
-            "台灣電力",
-            "台北自來水",
-            "台灣自來水",
-            "瓦斯費",
-            "NCCC小額支付平台"
-          ],
-          "quotaInfo": "全通路累積消費滿6,000元，指定通路享2.5%加碼回饋，上限300 N點，需於APP登錄。",
-          "pointValueTwd": null,
-          "associationStatus": "confirmed",
-          "category": null,
-          "scope": "SPECIFIC",
-          "searchKeywords": "agoda, 雅高達, airbnb, 愛彼迎, booking, booking.com, 繽客, expedia, 智遊網, hotels.com, hotel.com, 好訂網, trip.com, 攜程, kkday, klook, 客路, 航空公司, 機票, 飛行, 海外消費, 國外刷卡, 外幣交易",
-          "intentTags": [
-            "海外消費",
-            "旅遊",
-            "網購"
-          ],
-          "intentEvidence": "指定通路消費金額享2.5%加碼回饋：(1) 海外國家、(2) 航空、(3) 海外訂房平台：Agoda、Airbnb、Booking.com、Expedia、Hotel.com、Trip.com、(4) 行程預訂：KKday、Klook",
-          "offerDomain": "CARD",
-          "fundingMethods": [
-            "大將卡"
-          ],
-          "bank": "將來銀行"
-        },
-        "issues": []
-      },
-      "validationIssues": [],
-      "associationStatus": "confirmed",
-      "_reviewTermsBaseline": {
-        "cardId": "card_將來銀行_470",
-        "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1249",
-        "title": "【大將卡】Part 1-行前準備指定通路加碼2.5%回饋",
-        "baseRate": 0,
-        "promoRate": 2.5,
-        "rewardType": "points",
-        "rewardUnit": "percent",
-        "rewardAmount": 2.5,
-        "capAmount": 300,
-        "capScope": "PROMO",
-        "capPeriod": "CAMPAIGN",
-        "minimumSpend": 6000,
-        "spendBasis": "CAMPAIGN",
-        "roundingMode": "ROUND",
-        "validFrom": "2026-08-17",
-        "validUntil": "2026-10-18",
-        "needReg": true,
-        "regDeadline": "2026-10-18",
-        "registrationStart": "2026-08-17",
-        "registrationEnd": "2026-10-18",
-        "registrationCycle": null,
-        "registrationMethods": [
-          {
-            "type": "APP",
-            "label": "銀行 App 登錄",
-            "appName": "將來銀行 APP",
-            "deepLink": "",
-            "appStoreUrl": "",
-            "playStoreUrl": "",
-            "path": [
-              "活動登錄"
-            ],
-            "activityName": "行前準備加碼2.5%",
-            "campaignCode": ""
-          }
-        ],
-        "eligibilityRequirements": [
-          "登入將來銀行APP完成活動登錄者",
-          "活動期間內全通路累積消費滿6,000(含)元"
-        ],
-        "rewardCalculationMode": "FLAT",
-        "rewardTiers": [],
-        "selectionMode": "STACKABLE",
-        "benefitPlan": "",
-        "matchedMerchants": [
-          "Agoda",
-          "Airbnb",
-          "Booking.com",
-          "Expedia",
-          "Hotel.com",
-          "Trip.com",
-          "KKday",
-          "Klook"
-        ],
-        "excludedKeywords": [
-          "賭博籌碼",
-          "投資平台",
-          "e-Bill全國繳費",
-          "i繳費",
-          "醫指付",
-          "公務機關信用卡繳費平台",
-          "電子化繳費稅處理平台",
-          "個人綜合所得稅",
-          "房屋稅",
-          "地價稅",
-          "牌照稅",
-          "燃料費",
-          "提款",
-          "轉帳",
-          "中華電信",
-          "台灣電力",
-          "台北自來水",
-          "台灣自來水",
-          "瓦斯費",
-          "NCCC小額支付平台"
-        ],
-        "quotaInfo": "全通路累積消費滿6,000元，指定通路享2.5%加碼回饋，上限300 N點，需於APP登錄。",
-        "pointValueTwd": null,
-        "associationStatus": "confirmed",
-        "category": null,
-        "scope": "SPECIFIC",
-        "searchKeywords": "agoda, 雅高達, airbnb, 愛彼迎, booking, booking.com, 繽客, expedia, 智遊網, hotels.com, hotel.com, 好訂網, trip.com, 攜程, kkday, klook, 客路, 航空公司, 機票, 飛行, 海外消費, 國外刷卡, 外幣交易",
-        "intentTags": [
-          "海外消費",
-          "旅遊",
-          "網購"
-        ],
-        "intentEvidence": "指定通路消費金額享2.5%加碼回饋：(1) 海外國家、(2) 航空、(3) 海外訂房平台：Agoda、Airbnb、Booking.com、Expedia、Hotel.com、Trip.com、(4) 行程預訂：KKday、Klook",
-        "offerDomain": "CARD",
-        "fundingMethods": [
-          "大將卡"
-        ],
-        "bank": "將來銀行"
-      }
-    },
-    {
-      "id": "rule_9e258a1bada075ba54df",
-      "cardId": "card_將來銀行_470",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "大將卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "【大將卡】Part 2-日本當地實體消費加碼5%回饋",
-      "benefitPlan": "",
-      "selectionMode": "STACKABLE",
-      "activityType": "REG_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [],
-      "searchKeywords": "日本消費, 日本實體店, 日本旅遊, 日幣消費, 日本面對面交易, 日本實體",
-      "intentTags": [
-        "海外消費",
-        "旅遊"
-      ],
-      "intentEvidence": "日本當地實體店家消費金額享5%加碼回饋",
-      "baseRate": 0,
-      "promoRate": 5,
-      "rewardType": "points",
-      "rewardAmount": 5,
-      "rewardUnit": "percent",
-      "capAmount": 450,
-      "capPeriod": "CAMPAIGN",
-      "minimumSpend": 6000,
-      "eligibilityRequirements": [
-        "登入將來銀行APP完成活動登錄者",
-        "活動期間內全通路累積消費滿6,000(含)元",
-        "限面對面、非網路交易"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [
-        "登入將來銀行APP完成活動登錄",
-        "全通路累積消費滿6,000元",
-        "於日本當地實體店家面對面交易"
-      ],
-      "needReg": true,
-      "regDeadline": "2026-10-18",
-      "validUntil": "2026-10-18",
-      "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1249",
-      "registrationUrl": "",
-      "registrationMethods": [
-        {
-          "type": "APP",
-          "label": "銀行 App 登錄",
-          "appName": "將來銀行 APP",
-          "deepLink": "",
-          "appStoreUrl": "",
-          "playStoreUrl": "",
-          "path": [
-            "活動登錄"
-          ],
-          "activityName": "日本當地加碼5%",
-          "campaignCode": ""
-        }
-      ],
-      "quotaInfo": "全通路累積消費滿6,000元，日本當地實體店家面對面交易享5%加碼回饋，上限450 N點，需於APP登錄。",
-      "excludedKeywords": [
-        "網路交易",
-        "非面對面交易",
-        "賭博籌碼",
-        "投資平台",
-        "e-Bill全國繳費",
-        "i繳費",
-        "醫指付",
-        "公務機關信用卡繳費平台",
-        "電子化繳費稅處理平台",
-        "個人綜合所得稅",
-        "房屋稅",
-        "地價稅",
-        "牌照稅",
-        "燃料費",
-        "提款",
-        "轉帳",
-        "中華電信",
-        "台灣電力",
-        "台北自來水",
-        "台灣自來水",
-        "瓦斯費",
-        "NCCC小額支付平台"
-      ],
-      "fetchedAt": "2026-09-26T21:09:01.345472Z",
-      "bank": "將來銀行",
-      "validFrom": "2026-08-17",
-      "registrationStart": "2026-08-17",
-      "registrationEnd": "2026-10-18",
-      "spendBasis": "CAMPAIGN",
-      "capScope": "PROMO",
-      "roundingMode": "ROUND",
-      "accuracyReview": {
-        "status": "SOURCE_CHECKED",
-        "checkedAt": "2026-10-19T17:10:56.583Z",
-        "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1249",
-        "fields": [
-          "baseRate",
-          "promoRate",
-          "capAmount"
-        ],
-        "termsSnapshot": {
-          "cardId": "card_將來銀行_470",
-          "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1249",
-          "title": "【大將卡】Part 2-日本當地實體消費加碼5%回饋",
-          "baseRate": 0,
-          "promoRate": 5,
-          "rewardType": "points",
-          "rewardUnit": "percent",
-          "rewardAmount": 5,
-          "capAmount": 450,
-          "capScope": "PROMO",
-          "capPeriod": "CAMPAIGN",
-          "minimumSpend": 6000,
-          "spendBasis": "CAMPAIGN",
-          "roundingMode": "ROUND",
-          "validFrom": "2026-08-17",
-          "validUntil": "2026-10-18",
-          "needReg": true,
-          "regDeadline": "2026-10-18",
-          "registrationStart": "2026-08-17",
-          "registrationEnd": "2026-10-18",
-          "registrationCycle": null,
-          "registrationMethods": [
-            {
-              "type": "APP",
-              "label": "銀行 App 登錄",
-              "appName": "將來銀行 APP",
-              "deepLink": "",
-              "appStoreUrl": "",
-              "playStoreUrl": "",
-              "path": [
-                "活動登錄"
-              ],
-              "activityName": "日本當地加碼5%",
-              "campaignCode": ""
-            }
-          ],
-          "eligibilityRequirements": [
-            "登入將來銀行APP完成活動登錄者",
-            "活動期間內全通路累積消費滿6,000(含)元",
-            "限面對面、非網路交易"
-          ],
-          "rewardCalculationMode": "FLAT",
-          "rewardTiers": [],
-          "selectionMode": "STACKABLE",
-          "benefitPlan": "",
-          "matchedMerchants": [],
-          "excludedKeywords": [
-            "網路交易",
-            "非面對面交易",
-            "賭博籌碼",
-            "投資平台",
-            "e-Bill全國繳費",
-            "i繳費",
-            "醫指付",
-            "公務機關信用卡繳費平台",
-            "電子化繳費稅處理平台",
-            "個人綜合所得稅",
-            "房屋稅",
-            "地價稅",
-            "牌照稅",
-            "燃料費",
-            "提款",
-            "轉帳",
-            "中華電信",
-            "台灣電力",
-            "台北自來水",
-            "台灣自來水",
-            "瓦斯費",
-            "NCCC小額支付平台"
-          ],
-          "quotaInfo": "全通路累積消費滿6,000元，日本當地實體店家面對面交易享5%加碼回饋，上限450 N點，需於APP登錄。",
-          "pointValueTwd": null,
-          "associationStatus": "confirmed",
-          "category": null,
-          "scope": "SPECIFIC",
-          "searchKeywords": "日本消費, 日本實體店, 日本旅遊, 日幣消費, 日本面對面交易, 日本實體",
-          "intentTags": [
-            "海外消費",
-            "旅遊"
-          ],
-          "intentEvidence": "日本當地實體店家消費金額享5%加碼回饋",
-          "offerDomain": "CARD",
-          "fundingMethods": [
-            "大將卡"
-          ],
-          "bank": "將來銀行"
-        },
-        "issues": []
-      },
-      "validationIssues": [],
-      "associationStatus": "confirmed",
-      "_reviewTermsBaseline": {
-        "cardId": "card_將來銀行_470",
-        "sourceUrl": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1249",
-        "title": "【大將卡】Part 2-日本當地實體消費加碼5%回饋",
-        "baseRate": 0,
-        "promoRate": 5,
-        "rewardType": "points",
-        "rewardUnit": "percent",
-        "rewardAmount": 5,
-        "capAmount": 450,
-        "capScope": "PROMO",
-        "capPeriod": "CAMPAIGN",
-        "minimumSpend": 6000,
-        "spendBasis": "CAMPAIGN",
-        "roundingMode": "ROUND",
-        "validFrom": "2026-08-17",
-        "validUntil": "2026-10-18",
-        "needReg": true,
-        "regDeadline": "2026-10-18",
-        "registrationStart": "2026-08-17",
-        "registrationEnd": "2026-10-18",
-        "registrationCycle": null,
-        "registrationMethods": [
-          {
-            "type": "APP",
-            "label": "銀行 App 登錄",
-            "appName": "將來銀行 APP",
-            "deepLink": "",
-            "appStoreUrl": "",
-            "playStoreUrl": "",
-            "path": [
-              "活動登錄"
-            ],
-            "activityName": "日本當地加碼5%",
-            "campaignCode": ""
-          }
-        ],
-        "eligibilityRequirements": [
-          "登入將來銀行APP完成活動登錄者",
-          "活動期間內全通路累積消費滿6,000(含)元",
-          "限面對面、非網路交易"
-        ],
-        "rewardCalculationMode": "FLAT",
-        "rewardTiers": [],
-        "selectionMode": "STACKABLE",
-        "benefitPlan": "",
-        "matchedMerchants": [],
-        "excludedKeywords": [
-          "網路交易",
-          "非面對面交易",
-          "賭博籌碼",
-          "投資平台",
-          "e-Bill全國繳費",
-          "i繳費",
-          "醫指付",
-          "公務機關信用卡繳費平台",
-          "電子化繳費稅處理平台",
-          "個人綜合所得稅",
-          "房屋稅",
-          "地價稅",
-          "牌照稅",
-          "燃料費",
-          "提款",
-          "轉帳",
-          "中華電信",
-          "台灣電力",
-          "台北自來水",
-          "台灣自來水",
-          "瓦斯費",
-          "NCCC小額支付平台"
-        ],
-        "quotaInfo": "全通路累積消費滿6,000元，日本當地實體店家面對面交易享5%加碼回饋，上限450 N點，需於APP登錄。",
-        "pointValueTwd": null,
-        "associationStatus": "confirmed",
-        "category": null,
-        "scope": "SPECIFIC",
-        "searchKeywords": "日本消費, 日本實體店, 日本旅遊, 日幣消費, 日本面對面交易, 日本實體",
-        "intentTags": [
-          "海外消費",
-          "旅遊"
-        ],
-        "intentEvidence": "日本當地實體店家消費金額享5%加碼回饋",
-        "offerDomain": "CARD",
-        "fundingMethods": [
-          "大將卡"
-        ],
-        "bank": "將來銀行"
       }
     },
     {
@@ -148999,6 +148275,7 @@
       ],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -166203,297 +165480,6 @@
       "bank": "玉山銀行"
     },
     {
-      "id": "rule_a1f160be19f7dffd607a",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [],
-      "stackingStatus": "STACKABLE",
-      "title": "星願集刷 刷滿5筆 回饋升級 2%刷卡金",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "REG_PROMOTION",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "星展信用卡,一般消費,滿額回饋,集點刷卡,刷卡金,星願集刷",
-      "intentTags": [
-        "一般消費"
-      ],
-      "intentEvidence": "當月每筆一般消費滿NT$888",
-      "baseRate": 0,
-      "promoRate": 2,
-      "rewardType": "cash",
-      "rewardAmount": 0,
-      "rewardUnit": "percent",
-      "capAmount": 500,
-      "capPeriod": "MONTHLY",
-      "capScope": "PROMO",
-      "roundingMode": "ROUND",
-      "spendBasis": "PER_TRANSACTION",
-      "minimumSpend": 888,
-      "eligibilityRequirements": [
-        "持有星展信用卡",
-        "須於星展Card+每月分別完成登錄",
-        "當月每累積滿5筆單筆NT$888以上一般消費"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [
-        "每月於星展Card+完成登錄",
-        "當月每集滿5筆單筆NT$888(含)以上一般消費成組"
-      ],
-      "needReg": true,
-      "regDeadline": "2026-12-31",
-      "registrationStart": "2026-09-01T00:00:00+08:00",
-      "registrationEnd": "2026-12-31T23:59:59+08:00",
-      "validFrom": "2026-09-01",
-      "validUntil": "2026-12-31",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-personal-card-carousel-ATL",
-      "registrationUrl": "",
-      "registrationMethods": [
-        {
-          "type": "APP",
-          "label": "星展Card+ App登錄",
-          "appName": "星展Card+ 信用卡數位服務",
-          "deepLink": "",
-          "appStoreUrl": "",
-          "playStoreUrl": "",
-          "path": [
-            "Card+ 信用卡數位服務",
-            "活動登錄"
-          ],
-          "activityName": "【星願集刷｜集滿5筆，回饋升級】",
-          "campaignCode": ""
-        }
-      ],
-      "quotaInfo": "每月需分別登錄；當月每集滿5筆單筆滿NT$888一般消費成組，該組5筆享2%刷卡金回饋。每人每月回饋上限NT$500，每月活動總回饋上限新台幣1,000萬元。",
-      "excludedKeywords": [
-        "繳費平台",
-        "公用事業費",
-        "學雜費",
-        "醫療院所費用",
-        "停車費",
-        "eToro",
-        "博弈",
-        "一卡通",
-        "悠遊卡",
-        "全支付",
-        "PX Pay",
-        "全聯",
-        "綜合所得稅",
-        "燃料費",
-        "eTag",
-        "預借現金",
-        "分期付款",
-        "年費"
-      ],
-      "fetchedAt": "2026-11-04T23:41:22.284867Z",
-      "bank": "星展銀行"
-    },
-    {
-      "id": "rule_4ccd721cae6b97a7f9cb",
-      "cardId": "card_星展銀行_423",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [],
-      "stackingStatus": "STACKABLE",
-      "title": "星展eco永續卡 搭配星願集刷最高3%回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "REG_PROMOTION",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "星展eco永續卡,eco卡,現金積點,一般消費,海外消費,國內消費,星願集刷",
-      "intentTags": [
-        "一般消費",
-        "海外消費"
-      ],
-      "intentEvidence": "如搭配星展eco永續卡 原卡片權益國內/國外1%現金積點回饋",
-      "baseRate": 1,
-      "promoRate": 2,
-      "rewardType": "percent",
-      "rewardAmount": 0,
-      "rewardUnit": "percent",
-      "capAmount": 500,
-      "capPeriod": "MONTHLY",
-      "capScope": "PROMO",
-      "roundingMode": "ROUND",
-      "spendBasis": "PER_TRANSACTION",
-      "minimumSpend": 888,
-      "eligibilityRequirements": [
-        "使用星展eco永續卡消費",
-        "須於星展Card+每月分別完成登錄",
-        "當月每累積滿5筆單筆NT$888以上一般消費"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [
-        "持有星展eco永續卡享原卡1%現金積點無上限",
-        "每月於星展Card+完成登錄",
-        "當月每集滿5筆單筆NT$888以上一般消費享加碼2%刷卡金"
-      ],
-      "needReg": true,
-      "regDeadline": "2026-12-31",
-      "registrationStart": "2026-09-01T00:00:00+08:00",
-      "registrationEnd": "2026-12-31T23:59:59+08:00",
-      "validFrom": "2026-09-01",
-      "validUntil": "2026-12-31",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-personal-card-carousel-ATL",
-      "registrationUrl": "",
-      "registrationMethods": [
-        {
-          "type": "APP",
-          "label": "星展Card+ App登錄",
-          "appName": "星展Card+ 信用卡數位服務",
-          "deepLink": "",
-          "appStoreUrl": "",
-          "playStoreUrl": "",
-          "path": [
-            "Card+ 信用卡數位服務",
-            "活動登錄"
-          ],
-          "activityName": "【星願集刷｜集滿5筆，回饋升級】",
-          "campaignCode": ""
-        }
-      ],
-      "quotaInfo": "eco永續卡原卡1%回饋無上限；星願集刷加碼2%每月需登錄，每集滿5筆單筆滿888元成組享加碼2%，加碼上限每月NT$500。",
-      "excludedKeywords": [
-        "繳費平台",
-        "公用事業費",
-        "學雜費",
-        "醫療院所費用",
-        "停車費",
-        "eToro",
-        "博弈",
-        "一卡通",
-        "悠遊卡",
-        "全支付",
-        "PX Pay",
-        "全聯",
-        "綜合所得稅",
-        "燃料費",
-        "eTag",
-        "預借現金",
-        "分期付款",
-        "年費"
-      ],
-      "fetchedAt": "2026-11-04T23:41:22.285246Z",
-      "bank": "星展銀行"
-    },
-    {
-      "id": "rule_57df328f2449be7db961",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [],
-      "stackingStatus": "STACKABLE",
-      "title": "刷星展卡 抽 iPhone Duo",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "REG_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "STUDIO A"
-      ],
-      "searchKeywords": "STUDIO A, STUDIOA, 抽獎, iPhone, iPhone Duo, 蘋果專賣店",
-      "intentTags": [
-        "一般消費"
-      ],
-      "intentEvidence": "活動期間內持星展信用卡 任刷一筆一般消費且登錄成功 筆筆消費享 1 次抽獎機會",
-      "baseRate": 0,
-      "promoRate": 0,
-      "rewardType": "draw",
-      "rewardAmount": 30,
-      "rewardUnit": "chance",
-      "capAmount": null,
-      "capPeriod": "",
-      "capScope": "NONE",
-      "roundingMode": "",
-      "spendBasis": "PER_TRANSACTION",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "持有星展信用卡",
-        "於活動期間內至星展Card+完成登錄(只需登錄1次)",
-        "任刷一筆一般消費(含繳納稅款、保險費、學雜費、水電瓦斯及電信費)"
-      ],
-      "rewardCalculationMode": "TIERED",
-      "rewardTiers": [
-        {
-          "name": "一般消費任一筆",
-          "totalRate": 0,
-          "baseRate": 0,
-          "promoRate": 0,
-          "isDefault": true,
-          "requirements": [
-            "任刷一筆一般消費"
-          ],
-          "capAmount": null,
-          "capPeriod": ""
-        },
-        {
-          "name": "單筆滿NT$888以上",
-          "totalRate": 0,
-          "baseRate": 0,
-          "promoRate": 0,
-          "isDefault": false,
-          "requirements": [
-            "新增每筆單筆NT$888(含)以上交易 (抽獎機會3倍)"
-          ],
-          "capAmount": null,
-          "capPeriod": ""
-        },
-        {
-          "name": "商店分期交易",
-          "totalRate": 0,
-          "baseRate": 0,
-          "promoRate": 0,
-          "isDefault": false,
-          "requirements": [
-            "新增每筆商店分期交易 (抽獎機會5倍)"
-          ],
-          "capAmount": null,
-          "capPeriod": ""
-        }
-      ],
-      "maxRateRequires": [
-        "完成活動登錄",
-        "進行商店分期交易享5倍抽獎機會"
-      ],
-      "needReg": true,
-      "regDeadline": "2026-12-31",
-      "registrationStart": "2026-09-01T00:00:00+08:00",
-      "registrationEnd": "2026-12-31T23:59:59+08:00",
-      "validFrom": "2026-09-01",
-      "validUntil": "2026-12-31",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-personal-card-carousel-ATL",
-      "registrationUrl": "",
-      "registrationMethods": [
-        {
-          "type": "APP",
-          "label": "星展Card+ App登錄",
-          "appName": "星展Card+ 信用卡數位服務",
-          "deepLink": "",
-          "appStoreUrl": "",
-          "playStoreUrl": "",
-          "path": [
-            "Card+ 信用卡數位服務",
-            "活動登錄"
-          ],
-          "activityName": "【刷星展卡抽 iPhone Duo！】",
-          "campaignCode": ""
-        }
-      ],
-      "quotaInfo": "活動期間僅需登錄1次。一般消費每刷1筆享1次抽獎機會，單筆滿888元享3次，商店分期享5次。獎項為價值NT$74,900 STUDIO A好禮即享券，共抽出30組。",
-      "excludedKeywords": [
-        "eToro",
-        "博弈",
-        "預借現金",
-        "年費"
-      ],
-      "fetchedAt": "2026-11-04T23:41:22.285323Z",
-      "bank": "星展銀行"
-    },
-    {
       "id": "rule_869a6389251df47ffc43",
       "cardId": "card_中國信託_51",
       "offerDomain": "CARD",
@@ -167161,132 +166147,6 @@
       ],
       "fetchedAt": "2026-11-04T23:47:51.935274Z",
       "bank": "永豐銀行"
-    },
-    {
-      "id": "rule_c987c75ceadcca999308",
-      "cardId": "card_星展銀行_423",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展信用卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "星願集刷 刷滿5筆 回饋升級",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "REG_PROMOTION",
-      "scope": "ALL",
-      "matchedMerchants": [],
-      "searchKeywords": "一般消費,刷卡金,星展信用卡",
-      "intentTags": [
-        "一般消費",
-        "海外消費"
-      ],
-      "intentEvidence": "當月每筆一般消費滿NT$888，即可開始累積星願！",
-      "baseRate": 1,
-      "promoRate": 2,
-      "rewardType": "percent",
-      "rewardAmount": 500,
-      "rewardUnit": "percent",
-      "capAmount": 500,
-      "capPeriod": "MONTHLY",
-      "capScope": "PROMO",
-      "roundingMode": "ROUND",
-      "spendBasis": "PER_TRANSACTION",
-      "minimumSpend": 888,
-      "eligibilityRequirements": [
-        "完成指定登錄",
-        "當月累積滿5筆單筆NT$888（含）以上一般消費"
-      ],
-      "rewardCalculationMode": "TIERED",
-      "rewardTiers": [
-        {
-          "name": "一般資格(未成組或原卡)",
-          "totalRate": 1,
-          "baseRate": 1,
-          "promoRate": 0,
-          "isDefault": true,
-          "requirements": [],
-          "capAmount": null,
-          "capPeriod": ""
-        },
-        {
-          "name": "集滿5筆任務加碼組",
-          "totalRate": 3,
-          "baseRate": 1,
-          "promoRate": 2,
-          "isDefault": false,
-          "requirements": [
-            "完成登錄",
-            "當月每集滿5筆單筆NT$888以上一般消費",
-            "搭配星展eco永續卡原卡1%"
-          ],
-          "capAmount": 500,
-          "capPeriod": "MONTHLY"
-        }
-      ],
-      "maxRateRequires": [
-        "完成星展Card+數位服務登錄",
-        "當月累積滿5筆單筆NT$888（含）以上一般消費",
-        "搭配星展eco永續卡原卡權益"
-      ],
-      "needReg": true,
-      "regDeadline": "2026/12/31",
-      "registrationStart": "2026-09-01T00:00:00+08:00",
-      "registrationEnd": "2026-12-31T23:59:59+08:00",
-      "validFrom": "2026-09-01",
-      "validUntil": "2026-12-31",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-2026q2atl",
-      "registrationUrl": "",
-      "registrationMethods": [
-        {
-          "type": "APP",
-          "label": "星展Card+ 信用卡數位服務登錄",
-          "appName": "星展Card+",
-          "deepLink": "",
-          "appStoreUrl": "",
-          "playStoreUrl": "",
-          "path": [
-            "優惠",
-            "活動登錄"
-          ],
-          "activityName": "星願集刷 刷滿5筆 回饋升級",
-          "campaignCode": ""
-        }
-      ],
-      "quotaInfo": "每人每月回饋上限NT$500刷卡金，活動期間最高享NT$2,000；每月活動總回饋上限為新台幣1,000萬元，額滿即止。",
-      "excludedKeywords": [
-        "e-bill 全國繳費網",
-        "i 繳費",
-        "醫指付",
-        "電子化繳費稅處理平台",
-        "公用事業費用",
-        "學雜費",
-        "醫療院所費用",
-        "停車費",
-        "境外投資交易平台",
-        "博弈類交易",
-        "一卡通",
-        "悠遊卡",
-        "全支付",
-        "PX Pay",
-        "全聯",
-        "個人綜合所得稅",
-        "房屋稅",
-        "地價稅",
-        "營業稅",
-        "牌照稅",
-        "汽機車燃料費",
-        "監理規費",
-        "eTag",
-        "預借現金",
-        "餘額代償",
-        "基金交易",
-        "信用卡年費",
-        "分期付款交易"
-      ],
-      "fetchedAt": "2026-11-04T23:48:35.290298Z",
-      "bank": "星展銀行"
     },
     {
       "id": "rule_1c117917f27b3f20c7d5",
@@ -186018,6 +184878,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-11-12T00:52:00.110591Z",
@@ -189565,413 +188426,6 @@
       "bank": "臺灣土地銀行"
     },
     {
-      "id": "rule_9f9003024f7f0975930f",
-      "cardId": "card_星展銀行_749",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展信用卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "摘星旅遊家：星級豪禮",
-      "benefitPlan": "",
-      "selectionMode": "STACKABLE",
-      "activityType": "REG_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "長榮航空",
-        "中華航空",
-        "星宇航空",
-        "易遊網",
-        "雄獅旅遊",
-        "可樂旅遊",
-        "東南旅遊",
-        "加利利旅行社",
-        "喜鴻旅行社",
-        "五福旅遊",
-        "百威旅遊",
-        "燦星旅遊",
-        "行健旅行社",
-        "Agoda",
-        "Booking.com",
-        "Trip.com",
-        "Airbnb",
-        "Expedia",
-        "Hotels.com"
-      ],
-      "searchKeywords": "長榮, 中華航空, 星宇, 易遊網, 雄獅, 可樂旅遊, 東南, 加利利, 喜鴻, 五福, 百威, 燦星, 行健, Agoda, Booking.com, Trip.com, Airbnb, Expedia, Hotels.com, 訂房, 機票, 旅行社",
-      "intentTags": [
-        "旅遊",
-        "機票",
-        "訂房"
-      ],
-      "intentEvidence": "活動針對指定航空公司、旅行社及訂房平台進行消費累積回饋",
-      "baseRate": 0,
-      "promoRate": 0,
-      "rewardType": "draw",
-      "rewardAmount": 0,
-      "rewardUnit": "chance",
-      "capAmount": 0,
-      "capPeriod": "MONTHLY",
-      "capScope": "NONE",
-      "roundingMode": "FLOOR",
-      "spendBasis": "CUMULATIVE",
-      "minimumSpend": 300000,
-      "eligibilityRequirements": [
-        "完成當月活動登錄",
-        "指定通路消費達門檻"
-      ],
-      "rewardCalculationMode": "TIERED",
-      "rewardTiers": [
-        {
-          "name": "Samsonite行李箱",
-          "totalRate": 0,
-          "baseRate": 0,
-          "promoRate": 0,
-          "isDefault": false,
-          "requirements": [
-            "累積消費滿NT$30萬"
-          ],
-          "capAmount": 100,
-          "capPeriod": "MONTHLY"
-        },
-        {
-          "name": "RIMOWA登機箱",
-          "totalRate": 0,
-          "baseRate": 0,
-          "promoRate": 0,
-          "isDefault": false,
-          "requirements": [
-            "累積消費滿NT$80萬"
-          ],
-          "capAmount": 15,
-          "capPeriod": "MONTHLY"
-        }
-      ],
-      "maxRateRequires": [
-        "完成每月登錄",
-        "消費達NT$80萬且排序在前15名"
-      ],
-      "needReg": true,
-      "regDeadline": "2026-12-31",
-      "registrationStart": "2026-09-01T00:00:00+08:00",
-      "registrationEnd": "2026-12-31T23:59:59+08:00",
-      "validFrom": "2026-09-01",
-      "validUntil": "2026-12-31",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel",
-      "registrationUrl": "",
-      "registrationMethods": [
-        {
-          "type": "APP",
-          "label": "星展Card+ 信用卡數位服務",
-          "appName": "星展Card+ 信用卡數位服務",
-          "path": [
-            "優惠",
-            "活動登錄"
-          ],
-          "activityName": "摘星旅遊家"
-        }
-      ],
-      "quotaInfo": "滿30萬贈Samsonite行李箱(限量100名)；滿80萬贈RIMOWA登機箱(限量15名)，採登錄後依達檻時間排序。",
-      "excludedKeywords": [
-        "第三方旅遊平台",
-        "加盟店",
-        "旗下子公司",
-        "機上免稅品",
-        "貴賓室消費",
-        "哩程兌換附加費"
-      ],
-      "fetchedAt": "2026-11-12T23:35:06.494605Z",
-      "bank": "星展銀行"
-    },
-    {
-      "id": "rule_57d76de0c0c635b31ad3",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展信用卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "摘星旅遊家 累積指定旅遊消費送星級豪禮",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "REG_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "長榮航空",
-        "中華航空",
-        "星宇航空",
-        "易遊網",
-        "雄獅旅遊",
-        "可樂旅遊",
-        "東南旅遊",
-        "加利利旅行社",
-        "喜鴻旅行社",
-        "五福旅遊",
-        "百威旅遊",
-        "燦星旅遊",
-        "行健旅行社",
-        "Agoda",
-        "Booking.com",
-        "Trip.com",
-        "Airbnb",
-        "Expedia",
-        "Hotels.com"
-      ],
-      "searchKeywords": "長榮航空,中華航空,星宇航空,易遊網,雄獅旅遊,可樂旅遊,東南旅遊,加利利旅行社,喜鴻旅行社,五福旅遊,百威旅遊,燦星旅遊,行健旅行社,Agoda,Booking.com,Trip.com,Airbnb,Expedia,Hotels.com,海外實體商店,海外消費,旅遊,機票,訂房,旅行社",
-      "intentTags": [
-        "海外消費",
-        "旅遊",
-        "機票",
-        "訂房"
-      ],
-      "intentEvidence": "活動期間於指定航空公司／旅行社／訂房平台／海外實體商店刷星展信用卡當月累積一般消費滿額並完成登錄享好禮",
-      "baseRate": 0,
-      "promoRate": 0,
-      "rewardType": "points",
-      "rewardAmount": 0,
-      "rewardUnit": "TWD",
-      "capAmount": null,
-      "capPeriod": "MONTHLY",
-      "capScope": "",
-      "roundingMode": "",
-      "spendBasis": "CUMULATIVE",
-      "minimumSpend": 300000,
-      "eligibilityRequirements": [
-        "每月須分別完成登錄",
-        "當月累積指定旅遊消費達指定門檻"
-      ],
-      "rewardCalculationMode": "TIERED",
-      "rewardTiers": [
-        {
-          "name": "滿NT$30萬門檻 (Samsonite 25吋行李箱)",
-          "totalRate": 0,
-          "baseRate": 0,
-          "promoRate": 0,
-          "isDefault": false,
-          "requirements": [
-            "當月指定旅遊消費累積滿NT$30萬"
-          ],
-          "capAmount": null,
-          "capPeriod": "MONTHLY"
-        },
-        {
-          "name": "滿NT$80萬門檻 (RIMOWA Original Cabin 登機箱)",
-          "totalRate": 0,
-          "baseRate": 0,
-          "promoRate": 0,
-          "isDefault": false,
-          "requirements": [
-            "當月指定旅遊消費累積滿NT$80萬"
-          ],
-          "capAmount": null,
-          "capPeriod": "MONTHLY"
-        }
-      ],
-      "maxRateRequires": [
-        "當月指定旅遊消費累積滿NT$80萬（含）以上",
-        "完成當月活動登錄",
-        "依達檻時間排序每月前15名"
-      ],
-      "needReg": true,
-      "regDeadline": "每月須分別登錄（9月至2026/09/30、10月至2026/10/31、11月至2026/11/30、12月至2026/12/31）",
-      "registrationStart": "2026-09-01T00:00:00+08:00",
-      "registrationEnd": "2026-12-31T23:59:59+08:00",
-      "validFrom": "2026-09-01",
-      "validUntil": "2026-12-31",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
-      "registrationUrl": "",
-      "registrationMethods": [
-        {
-          "type": "APP",
-          "label": "星展Card+ App登錄",
-          "appName": "星展Card+ 信用卡數位服務",
-          "deepLink": "",
-          "appStoreUrl": "",
-          "playStoreUrl": "",
-          "path": [
-            "星展Card+ 信用卡數位服務",
-            "活動登錄"
-          ],
-          "activityName": "摘星旅遊家 探索世界刷星展",
-          "campaignCode": ""
-        }
-      ],
-      "quotaInfo": "每月須分別登錄。滿NT$30萬贈Samsonite 25吋行李箱（每月限量100名）；滿NT$80萬贈RIMOWA登機箱（每月限量15名）。回饋依當月達檻時間先後順序排序。",
-      "excludedKeywords": [
-        "第三方旅遊平台購票",
-        "機上免稅商品",
-        "貴賓室",
-        "以哩程數全數或部份兌換機票之附加費用",
-        "加盟店",
-        "旗下子公司",
-        "預訂後始至現場刷卡付款之訂房",
-        "境外投資交易平台",
-        "eToro",
-        "博奕類交易",
-        "賭場兌換籌碼"
-      ],
-      "fetchedAt": "2026-11-12T23:39:25.011819Z",
-      "bank": "星展銀行"
-    },
-    {
-      "id": "rule_42b56001b7690977a095",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "",
-      "fundingMethods": [
-        "星展萬事達卡"
-      ],
-      "stackingStatus": "STACKABLE",
-      "title": "摘星旅遊家 萬事達卡加碼解鎖尊榮星旅禮",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "REG_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "長榮航空",
-        "中華航空",
-        "星宇航空",
-        "易遊網",
-        "雄獅旅遊",
-        "可樂旅遊",
-        "東南旅遊",
-        "加利利旅行社",
-        "喜鴻旅行社",
-        "五福旅遊",
-        "百威旅遊",
-        "燦星旅遊",
-        "行健旅行社",
-        "Agoda",
-        "Booking.com",
-        "Trip.com",
-        "Airbnb",
-        "Expedia",
-        "Hotels.com"
-      ],
-      "searchKeywords": "長榮航空,中華航空,星宇航空,易遊網,雄獅旅遊,可樂旅遊,東南旅遊,加利利旅行社,喜鴻旅行社,五福旅遊,百威旅遊,燦星旅遊,行健旅行社,Agoda,Booking.com,Trip.com,Airbnb,Expedia,Hotels.com,海外實體商店,海外消費,旅遊,機票,訂房,旅行社,萬事達卡,Mastercard",
-      "intentTags": [
-        "海外消費",
-        "旅遊",
-        "機票",
-        "訂房"
-      ],
-      "intentEvidence": "活動期間於指定航空公司／旅行社／訂房平台／海外實體商店刷星展萬事達卡當月累積一般消費滿額並完成登錄者",
-      "baseRate": 0,
-      "promoRate": 0,
-      "rewardType": "points",
-      "rewardAmount": 0,
-      "rewardUnit": "TWD",
-      "capAmount": null,
-      "capPeriod": "MONTHLY",
-      "capScope": "",
-      "roundingMode": "",
-      "spendBasis": "CUMULATIVE",
-      "minimumSpend": 30000,
-      "eligibilityRequirements": [
-        "持有星展萬事達卡",
-        "每月須分別完成登錄",
-        "當月累積指定旅遊消費達指定門檻"
-      ],
-      "rewardCalculationMode": "TIERED",
-      "rewardTiers": [
-        {
-          "name": "滿NT$3萬門檻 (漫遊吧抵用券300元)",
-          "totalRate": 0,
-          "baseRate": 0,
-          "promoRate": 0,
-          "isDefault": false,
-          "requirements": [
-            "當月指定旅遊消費累積滿NT$3萬"
-          ],
-          "capAmount": null,
-          "capPeriod": "MONTHLY"
-        },
-        {
-          "name": "滿NT$6萬門檻 (全球貴賓室乙次)",
-          "totalRate": 0,
-          "baseRate": 0,
-          "promoRate": 0,
-          "isDefault": false,
-          "requirements": [
-            "當月指定旅遊消費累積滿NT$6萬"
-          ],
-          "capAmount": null,
-          "capPeriod": "MONTHLY"
-        },
-        {
-          "name": "滿NT$8萬門檻 (機場接送乙次)",
-          "totalRate": 0,
-          "baseRate": 0,
-          "promoRate": 0,
-          "isDefault": false,
-          "requirements": [
-            "當月指定旅遊消費累積滿NT$8萬"
-          ],
-          "capAmount": null,
-          "capPeriod": "MONTHLY"
-        },
-        {
-          "name": "滿NT$15萬門檻 (同享全球貴賓室乙次及機場接送乙次)",
-          "totalRate": 0,
-          "baseRate": 0,
-          "promoRate": 0,
-          "isDefault": false,
-          "requirements": [
-            "當月指定旅遊消費累積滿NT$15萬"
-          ],
-          "capAmount": null,
-          "capPeriod": "MONTHLY"
-        }
-      ],
-      "maxRateRequires": [
-        "持星展萬事達卡當月指定旅遊消費累積滿NT$15萬（含）以上",
-        "完成當月活動登錄",
-        "依當月累積消費總金額由高至低排序在前200名"
-      ],
-      "needReg": true,
-      "regDeadline": "每月須分別登錄（9月至2026/09/30、10月至2026/10/31、11月至2026/11/30、12月至2026/12/31）",
-      "registrationStart": "2026-09-01T00:00:00+08:00",
-      "registrationEnd": "2026-12-31T23:59:59+08:00",
-      "validFrom": "2026-09-01",
-      "validUntil": "2026-12-31",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
-      "registrationUrl": "",
-      "registrationMethods": [
-        {
-          "type": "APP",
-          "label": "星展Card+ App登錄",
-          "appName": "星展Card+ 信用卡數位服務",
-          "deepLink": "",
-          "appStoreUrl": "",
-          "playStoreUrl": "",
-          "path": [
-            "星展Card+ 信用卡數位服務",
-            "活動登錄"
-          ],
-          "activityName": "摘星旅遊家 探索世界刷星展",
-          "campaignCode": ""
-        }
-      ],
-      "quotaInfo": "每月須分別登錄。滿3萬享漫遊吧抵用券300元(限量1,200名)；滿6萬享全球貴賓室乙次(限量800名)；滿8萬享機場接送乙次(限量500名)；滿15萬同享全球貴賓室乙次及機場接送乙次(限量200名)。回饋依當月指定通路一般消費總金額由高至低排序。",
-      "excludedKeywords": [
-        "第三方旅遊平台購票",
-        "機上免稅商品",
-        "貴賓室",
-        "以哩程數全數或部份兌換機票之附加費用",
-        "加盟店",
-        "旗下子公司",
-        "預訂後始至現場刷卡付款之訂房",
-        "境外投資交易平台",
-        "eToro",
-        "博奕類交易",
-        "賭場兌換籌碼"
-      ],
-      "fetchedAt": "2026-11-12T23:39:25.011870Z",
-      "bank": "星展銀行"
-    },
-    {
       "id": "rule_5d90e4d62ec031506b84",
       "cardId": "card_王道銀行_400",
       "offerDomain": "CARD",
@@ -193492,6 +191946,7 @@
       ],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -202353,6 +200808,7 @@
       "quickSearchEligible": false,
       "validationIssues": [
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-11-17T02:11:42.277457Z",
@@ -204876,6 +203332,917 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-11-17T02:18:52.046184Z",
       "bank": "icash Pay"
+    },
+    {
+      "id": "rule_b58d2b383d912c7e12a7",
+      "cardId": "card_星展銀行_423",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "星願集刷 刷滿5筆 回饋升級",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "EXTRA_BOOST",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "一般消費,刷卡金,星展信用卡,eco永續卡",
+      "intentTags": [
+        "一般消費"
+      ],
+      "intentEvidence": "當月每筆一般消費滿NT$888",
+      "baseRate": 1,
+      "promoRate": 2,
+      "rewardType": "percent",
+      "rewardAmount": 500,
+      "rewardUnit": "percent",
+      "capAmount": 500,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "",
+      "spendBasis": "CUMULATIVE",
+      "minimumSpend": 888,
+      "eligibilityRequirements": [
+        "完成指定任務",
+        "登錄活動"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "一般原卡權益",
+          "totalRate": 1,
+          "baseRate": 1,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "集滿5筆加碼回饋",
+          "totalRate": 3,
+          "baseRate": 1,
+          "promoRate": 2,
+          "isDefault": false,
+          "requirements": [
+            "當月每累積滿5筆單筆NT$888含以上一般消費",
+            "完成活動登錄"
+          ],
+          "capAmount": 500,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "使用星展eco永續卡",
+        "當月累積滿5筆單筆NT$888(含)以上一般消費",
+        "完成活動登錄"
+      ],
+      "needReg": true,
+      "regDeadline": "2026/12/31 23:59",
+      "registrationStart": "2026-09-01T00:00:00+08:00",
+      "registrationEnd": "2026-12-31T23:59:59+08:00",
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-personal-card-carousel-ATL",
+      "registrationUrl": "",
+      "registrationMethods": [
+        {
+          "type": "APP",
+          "label": "星展Card+ 信用卡數位服務登錄",
+          "appName": "星展Card+ 信用卡數位服務",
+          "deepLink": "",
+          "appStoreUrl": "",
+          "playStoreUrl": "",
+          "path": [
+            "優惠",
+            "活動登錄"
+          ],
+          "activityName": "星願集刷 刷滿5筆 回饋升級",
+          "campaignCode": ""
+        }
+      ],
+      "quotaInfo": "每人每月回饋上限NT$500刷卡金，活動期間最高享NT$2,000，每月刷卡金總回饋上限新台幣1,000萬元額滿為止。",
+      "excludedKeywords": [
+        "代繳費用",
+        "e-bill全國繳費網",
+        "i繳費",
+        "醫指付",
+        "電子化繳費稅處理平台",
+        "公用事業費用",
+        "學雜費",
+        "醫療院所費用",
+        "停車費",
+        "境外投資交易平台",
+        "eToro",
+        "博弈類交易",
+        "電子票證自動加值",
+        "一卡通",
+        "悠遊卡",
+        "全支付",
+        "PX Pay",
+        "全聯實業旗下品牌通路",
+        "個人綜合所得稅",
+        "房屋稅",
+        "地價稅",
+        "營業稅",
+        "牌照稅",
+        "汽機車燃料費",
+        "監理規費",
+        "eTag",
+        "違規罰款",
+        "預借現金",
+        "餘額代償",
+        "基金交易",
+        "信用卡年費",
+        "分期付款專案"
+      ],
+      "fetchedAt": "2026-11-18T00:54:57.193646Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_178e290d596c6ae84e07",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "星展摘星旅遊家 累積指定旅遊消費最高解鎖RIMOWA登機箱",
+      "benefitPlan": "星級豪禮",
+      "selectionMode": "SWITCHABLE",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "長榮航空",
+        "中華航空",
+        "星宇航空",
+        "易遊網",
+        "雄獅旅遊",
+        "可樂旅遊",
+        "東南旅遊",
+        "加利利旅行社",
+        "喜鴻旅行社",
+        "五福旅遊",
+        "百威旅遊",
+        "燦星旅遊",
+        "行健旅行社",
+        "Agoda",
+        "Booking.com",
+        "Trip.com",
+        "Airbnb",
+        "Expedia",
+        "Hotels.com"
+      ],
+      "searchKeywords": "長榮航空, 中華航空, 星宇航空, 易遊網, 雄獅旅遊, 可樂旅遊, 東南旅遊, 加利利旅行社, 喜鴻旅行社, 五福旅遊, 百威旅遊, 燦星旅遊, 行健旅行社, Agoda, Booking.com, Trip.com, Airbnb, Expedia, Hotels.com, 航空公司, 旅行社, 訂房平台, 海外實體商店",
+      "intentTags": [
+        "海外消費",
+        "旅遊",
+        "機票",
+        "訂房",
+        "飯店"
+      ],
+      "intentEvidence": "活動期間於指定航空公司／旅行社／訂房平台／海外實體商店刷星展信用卡當月累積一般消費滿額並完成登錄享好禮",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "draw",
+      "rewardAmount": 0,
+      "rewardUnit": "chance",
+      "capAmount": 0,
+      "capPeriod": "MONTHLY",
+      "capScope": "TOTAL",
+      "roundingMode": "",
+      "spendBasis": "CUMULATIVE",
+      "minimumSpend": 300000,
+      "eligibilityRequirements": [
+        "星展信用卡正卡持卡人",
+        "每月須分別登錄",
+        "累積指定通路合格一般消費達指定門檻"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "NT$30萬門檻",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [
+            "累積指定通路合格一般消費滿NT$30萬以上",
+            "每月限量100名"
+          ],
+          "capAmount": 100,
+          "capPeriod": "MONTHLY"
+        },
+        {
+          "name": "NT$80萬門檻",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": false,
+          "requirements": [
+            "累積指定通路合格一般消費滿NT$80萬以上",
+            "每月限量15名"
+          ],
+          "capAmount": 15,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "累積指定通路合格一般消費滿NT$80萬以上並完成登錄，且依達檻時間排序達每月前15名"
+      ],
+      "needReg": true,
+      "regDeadline": "每月須分別登錄 (9月至2026/9/30, 10月至2026/10/31, 11月至2026/11/30, 12月至2026/12/31)",
+      "registrationStart": "2026-09-01T00:00:00+08:00",
+      "registrationEnd": "2026-12-31T23:59:59+08:00",
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel",
+      "registrationUrl": "",
+      "registrationMethods": [
+        {
+          "type": "APP",
+          "label": "星展Card+ 信用卡數位服務登錄",
+          "appName": "星展Card+",
+          "deepLink": "",
+          "appStoreUrl": "",
+          "playStoreUrl": "",
+          "path": [
+            "優惠",
+            "活動登錄"
+          ],
+          "activityName": "星展摘星旅遊家",
+          "campaignCode": ""
+        }
+      ],
+      "quotaInfo": "每月分別登錄，依達檻時間或金額排序限量回饋（NT$80萬門檻每月15名，NT$30萬門檻每月100名）",
+      "excludedKeywords": [
+        "第三方旅遊平台購票",
+        "機上免稅商品",
+        "貴賓室",
+        "以哩程數全數或部份兌換機票之附加費用",
+        "旅行社加盟店",
+        "旅行社旗下子公司之消費",
+        "預訂後始至現場刷卡付款之消費",
+        "境外投資交易平台",
+        "博奕類交易"
+      ],
+      "fetchedAt": "2026-11-18T00:58:19.685029Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_4cd1e204fb30762bf8dd",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展萬事達卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "星展摘星旅遊家 萬事達卡加碼刷卡解鎖尊榮星旅禮",
+      "benefitPlan": "星級加碼",
+      "selectionMode": "SWITCHABLE",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "長榮航空",
+        "中華航空",
+        "星宇航空",
+        "易遊網",
+        "雄獅旅遊",
+        "可樂旅遊",
+        "東南旅遊",
+        "加利利旅行社",
+        "喜鴻旅行社",
+        "五福旅遊",
+        "百威旅遊",
+        "燦星旅遊",
+        "行健旅行社",
+        "Agoda",
+        "Booking.com",
+        "Trip.com",
+        "Airbnb",
+        "Expedia",
+        "Hotels.com"
+      ],
+      "searchKeywords": "長榮航空, 中華航空, 星宇航空, 易遊網, 雄獅旅遊, 可樂旅遊, 東南旅遊, 加利利旅行社, 喜鴻旅行社, 五福旅遊, 百威旅遊, 燦星旅遊, 行健旅行社, Agoda, Booking.com, Trip.com, Airbnb, Expedia, Hotels.com, 萬事達卡, Mastercard",
+      "intentTags": [
+        "海外消費",
+        "旅遊",
+        "機票",
+        "訂房",
+        "機場接送"
+      ],
+      "intentEvidence": "活動期間於指定航空公司／旅行社／訂房平台／海外實體商店刷星展萬事達卡當月累積一般消費滿額並完成登錄者",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "draw",
+      "rewardAmount": 0,
+      "rewardUnit": "chance",
+      "capAmount": 0,
+      "capPeriod": "MONTHLY",
+      "capScope": "TOTAL",
+      "roundingMode": "",
+      "spendBasis": "CUMULATIVE",
+      "minimumSpend": 30000,
+      "eligibilityRequirements": [
+        "星展萬事達卡正卡持卡人",
+        "每月須分別登錄",
+        "累積指定通路合格一般消費達指定門檻"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "NT$3萬門檻",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [
+            "星展萬事達卡累積指定通路合格一般消費滿NT$3萬以上",
+            "每月限量1,200名"
+          ],
+          "capAmount": 1200,
+          "capPeriod": "MONTHLY"
+        },
+        {
+          "name": "NT$6萬門檻",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": false,
+          "requirements": [
+            "星展萬事達卡累積指定通路合格一般消費滿NT$6萬以上",
+            "每月限量800名"
+          ],
+          "capAmount": 800,
+          "capPeriod": "MONTHLY"
+        },
+        {
+          "name": "NT$8萬門檻",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": false,
+          "requirements": [
+            "星展萬事達卡累積指定通路合格一般消費滿NT$8萬以上",
+            "每月限量500名"
+          ],
+          "capAmount": 500,
+          "capPeriod": "MONTHLY"
+        },
+        {
+          "name": "NT$15萬門檻",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": false,
+          "requirements": [
+            "星展萬事達卡累積指定通路合格一般消費滿NT$15萬以上",
+            "每月限量200名"
+          ],
+          "capAmount": 200,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "使用星展萬事達卡累積指定通路合格一般消費滿NT$15萬以上並完成登錄，且依當月消費總金額由高至低排序達前200名"
+      ],
+      "needReg": true,
+      "regDeadline": "每月須分別登錄 (9月至2026/9/30, 10月至2026/10/31, 11月至2026/11/30, 12月至2026/12/31)",
+      "registrationStart": "2026-09-01T00:00:00+08:00",
+      "registrationEnd": "2026-12-31T23:59:59+08:00",
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-personal-card-carousel-ovstravel",
+      "registrationUrl": "",
+      "registrationMethods": [
+        {
+          "type": "APP",
+          "label": "星展Card+ 信用卡數位服務登錄",
+          "appName": "星展Card+",
+          "deepLink": "",
+          "appStoreUrl": "",
+          "playStoreUrl": "",
+          "path": [
+            "優惠",
+            "活動登錄"
+          ],
+          "activityName": "星展摘星旅遊家",
+          "campaignCode": ""
+        }
+      ],
+      "quotaInfo": "限星展萬事達卡，每月分別登錄，依消費總金額由高至低排序限量回饋（NT$15萬門檻前200名、NT$8萬門檻前500名、NT$6萬門檻前800名、NT$3萬門檻前1,200名）",
+      "excludedKeywords": [
+        "第三方旅遊平台購票",
+        "機上免稅商品",
+        "貴賓室",
+        "以哩程數全數或部份兌換機票之附加費用",
+        "旅行社加盟店",
+        "旅行社旗下子公司之消費",
+        "預訂後始至現場刷卡付款之消費",
+        "境外投資交易平台",
+        "博奕類交易"
+      ],
+      "fetchedAt": "2026-11-18T00:58:19.685144Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_df4e4598338632f24bb2",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "摘星旅遊家 探索世界刷星展 滿額最高解鎖 RIMOWA",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "長榮航空",
+        "中華航空",
+        "星宇航空",
+        "易遊網",
+        "雄獅旅遊",
+        "可樂旅遊",
+        "東南旅遊",
+        "加利利旅行社",
+        "喜鴻旅行社",
+        "五福旅遊",
+        "百威旅遊",
+        "燦星旅遊",
+        "行健旅行社",
+        "Agoda",
+        "Booking.com",
+        "Trip.com",
+        "Airbnb",
+        "Expedia",
+        "Hotels.com"
+      ],
+      "searchKeywords": "長榮航空,中華航空,星宇航空,易遊網,雄獅旅遊,可樂旅遊,東南旅遊,加利利旅行社,喜鴻旅行社,五福旅遊,百威旅遊,燦星旅遊,行健旅行社,Agoda,Booking.com,Trip.com,Airbnb,Expedia,Hotels.com,海外實體商店,海外消費,機票,訂房,旅遊",
+      "intentTags": [
+        "海外消費",
+        "旅遊",
+        "機票",
+        "訂房"
+      ],
+      "intentEvidence": "活動期間於指定航空公司／旅行社／訂房平台／海外實體商店刷星展信用卡當月累積一般消費滿額並完成登錄享好禮",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "draw",
+      "rewardAmount": 0,
+      "rewardUnit": "chance",
+      "capAmount": 0,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "",
+      "spendBasis": "CUMULATIVE",
+      "minimumSpend": 300000,
+      "eligibilityRequirements": [
+        "星展信用卡正附卡持卡人",
+        "每月須分別登錄"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "滿NT$30萬門檻",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": false,
+          "requirements": [
+            "累積指定通路合格一般消費滿NT$30萬(含)以上",
+            "每月限量100名"
+          ],
+          "capAmount": 100,
+          "capPeriod": "MONTHLY"
+        },
+        {
+          "name": "滿NT$80萬門檻",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": false,
+          "requirements": [
+            "累積指定通路合格一般消費滿NT$80萬(含)以上",
+            "每月限量15名"
+          ],
+          "capAmount": 15,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "累積指定通路合格一般消費滿NT$80萬(含)以上且達檻時間排序在前15名"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-12-31T23:59:59+08:00",
+      "registrationStart": "2026-09-01T00:00:00+08:00",
+      "registrationEnd": "2026-12-31T23:59:59+08:00",
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
+      "registrationUrl": "",
+      "registrationMethods": [
+        {
+          "type": "APP",
+          "label": "星展Card+ 信用卡數位服務登錄",
+          "appName": "星展Card+",
+          "deepLink": "",
+          "appStoreUrl": "",
+          "playStoreUrl": "",
+          "path": [
+            "優惠",
+            "活動登錄"
+          ],
+          "activityName": "星展摘星旅遊家",
+          "campaignCode": ""
+        },
+        {
+          "type": "WEB",
+          "label": "星展Card+ 信用卡數位服務",
+          "url": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
+          "activityName": "星展摘星旅遊家"
+        }
+      ],
+      "quotaInfo": "月月需分別登錄，依達檻時間或消費金額排序限量回饋",
+      "excludedKeywords": [
+        "第三方旅遊平台購票",
+        "機上免稅商品",
+        "貴賓室",
+        "哩程數全數或部份兌換機票之附加費用",
+        "境外投資交易平台",
+        "博弈類交易"
+      ],
+      "fetchedAt": "2026-11-18T00:59:59.921968Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_82ec29c5fe9d11d33cab",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展萬事達卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "Mastercard萬事達卡加碼 刷卡解鎖尊榮星旅禮",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "長榮航空",
+        "中華航空",
+        "星宇航空",
+        "易遊網",
+        "雄獅旅遊",
+        "可樂旅遊",
+        "東南旅遊",
+        "加利利旅行社",
+        "喜鴻旅行社",
+        "五福旅遊",
+        "百威旅遊",
+        "燦星旅遊",
+        "行健旅行社",
+        "Agoda",
+        "Booking.com",
+        "Trip.com",
+        "Airbnb",
+        "Expedia",
+        "Hotels.com"
+      ],
+      "searchKeywords": "長榮航空,中華航空,星宇航空,易遊網,雄獅旅遊,可樂旅遊,東南旅遊,加利利旅行社,喜鴻旅行社,五福旅遊,百威旅遊,燦星旅遊,行健旅行社,Agoda,Booking.com,Trip.com,Airbnb,Expedia,Hotels.com,海外實體商店,海外消費,機票,訂房,旅遊,萬事達卡",
+      "intentTags": [
+        "海外消費",
+        "旅遊",
+        "機票",
+        "訂房"
+      ],
+      "intentEvidence": "活動期間於指定航空公司／旅行社／訂房平台／海外實體商店刷星展萬事達卡當月累積一般消費滿額並完成登錄者",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "draw",
+      "rewardAmount": 0,
+      "rewardUnit": "chance",
+      "capAmount": 0,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "",
+      "spendBasis": "CUMULATIVE",
+      "minimumSpend": 30000,
+      "eligibilityRequirements": [
+        "星展萬事達卡持卡人",
+        "每月須分別登錄"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "滿NT$3萬門檻",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": false,
+          "requirements": [
+            "星展萬事達卡累積指定通路合格一般消費滿NT$3萬",
+            "每月限量1200名"
+          ],
+          "capAmount": 1200,
+          "capPeriod": "MONTHLY"
+        },
+        {
+          "name": "滿NT$6萬門檻",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": false,
+          "requirements": [
+            "星展萬事達卡累積指定通路合格一般消費滿NT$6萬",
+            "每月限量800名"
+          ],
+          "capAmount": 800,
+          "capPeriod": "MONTHLY"
+        },
+        {
+          "name": "滿NT$8萬門檻",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": false,
+          "requirements": [
+            "星展萬事達卡累積指定通路合格一般消費滿NT$8萬",
+            "每月限量500名"
+          ],
+          "capAmount": 500,
+          "capPeriod": "MONTHLY"
+        },
+        {
+          "name": "滿NT$15萬門檻",
+          "totalRate": 0,
+          "baseRate": 0,
+          "promoRate": 0,
+          "isDefault": false,
+          "requirements": [
+            "星展萬事達卡累積指定通路合格一般消費滿NT$15萬",
+            "每月限量200名"
+          ],
+          "capAmount": 200,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "星展萬事達卡累積指定通路合格一般消費滿NT$15萬(含)以上且總金額排序在前200名"
+      ],
+      "needReg": true,
+      "regDeadline": "2026-12-31T23:59:59+08:00",
+      "registrationStart": "2026-09-01T00:00:00+08:00",
+      "registrationEnd": "2026-12-31T23:59:59+08:00",
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
+      "registrationUrl": "",
+      "registrationMethods": [
+        {
+          "type": "APP",
+          "label": "星展Card+ 信用卡數位服務登錄",
+          "appName": "星展Card+",
+          "deepLink": "",
+          "appStoreUrl": "",
+          "playStoreUrl": "",
+          "path": [
+            "優惠",
+            "活動登錄"
+          ],
+          "activityName": "星展摘星旅遊家-萬事達卡加碼",
+          "campaignCode": ""
+        },
+        {
+          "type": "WEB",
+          "label": "星展Card+ 信用卡數位服務",
+          "url": "https://www.dbs.com.tw/personal-zh/cards/offers/20260912ovstravel/index.html?pid=tw-pweb-personal-card-featured_cardtile-ovstravel",
+          "activityName": "星展摘星旅遊家-萬事達卡加碼"
+        }
+      ],
+      "quotaInfo": "限星展萬事達卡參與，每月須分別登錄，依消費總金額由高至低排序",
+      "excludedKeywords": [
+        "第三方旅遊平台購票",
+        "機上免稅商品",
+        "貴賓室",
+        "哩程數全數或部份兌換機票之附加費用",
+        "境外投資交易平台",
+        "博弈類交易"
+      ],
+      "fetchedAt": "2026-11-18T00:59:59.922055Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_b9bdd6c15931fad7de32",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "STACKABLE",
+      "title": "星願集刷 刷滿5筆 回饋升級",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "一般消費,刷卡金,星展信用卡",
+      "intentTags": [
+        "一般消費"
+      ],
+      "intentEvidence": "當月每筆一般消費滿NT$888，即可開始累積星願！",
+      "baseRate": 1,
+      "promoRate": 2,
+      "rewardType": "percent",
+      "rewardAmount": 500,
+      "rewardUnit": "percent",
+      "capAmount": 500,
+      "capPeriod": "MONTHLY",
+      "capScope": "PROMO",
+      "roundingMode": "ROUND",
+      "spendBasis": "CUMULATIVE",
+      "minimumSpend": 888,
+      "eligibilityRequirements": [
+        "完成指定活動登錄",
+        "當月累積滿5筆單筆NT$888（含）以上一般消費"
+      ],
+      "rewardCalculationMode": "TIERED",
+      "rewardTiers": [
+        {
+          "name": "一般資格",
+          "totalRate": 1,
+          "baseRate": 1,
+          "promoRate": 0,
+          "isDefault": true,
+          "requirements": [
+            "未達集刷5筆任務門檻"
+          ],
+          "capAmount": null,
+          "capPeriod": ""
+        },
+        {
+          "name": "星願集刷滿5筆加碼",
+          "totalRate": 3,
+          "baseRate": 1,
+          "promoRate": 2,
+          "isDefault": false,
+          "requirements": [
+            "完成活動登錄",
+            "當月每累積滿5筆單筆NT$888（含）以上一般消費",
+            "搭配星展eco永續卡原卡1%回饋"
+          ],
+          "capAmount": 500,
+          "capPeriod": "MONTHLY"
+        }
+      ],
+      "maxRateRequires": [
+        "完成活動登錄",
+        "當月累積滿5筆單筆NT$888（含）以上一般消費",
+        "搭配星展eco永續卡原卡1%回饋"
+      ],
+      "needReg": true,
+      "regDeadline": "2026/12/31",
+      "registrationStart": "2026-09-01T00:00:00+08:00",
+      "registrationEnd": "2026-12-31T23:59:59+08:00",
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-2026q2atl",
+      "registrationUrl": "",
+      "registrationMethods": [
+        {
+          "type": "APP",
+          "label": "星展Card+ 信用卡數位服務登錄",
+          "appName": "星展Card+",
+          "deepLink": "",
+          "appStoreUrl": "",
+          "playStoreUrl": "",
+          "path": [
+            "優惠",
+            "活動登錄"
+          ],
+          "activityName": "星願集刷 刷滿5筆 回饋升級",
+          "campaignCode": ""
+        }
+      ],
+      "quotaInfo": "每人每月回饋上限NT$500刷卡金，活動期間最高享NT$2,000。每月刷卡金總回饋上限為新台幣1,000萬元，額滿即止。",
+      "excludedKeywords": [
+        "e-bill 全國繳費網",
+        "i 繳費",
+        "醫指付",
+        "電子化繳費稅處理平台",
+        "公用事業費用",
+        "學雜費",
+        "醫療院所費用",
+        "停車費",
+        "境外投資交易平台",
+        "博弈類交易",
+        "一卡通",
+        "悠遊卡",
+        "全支付",
+        "PX Pay",
+        "全聯實業旗下品牌通路",
+        "個人綜合所得稅",
+        "房屋稅",
+        "地價稅",
+        "營業稅",
+        "牌照稅",
+        "汽機車燃料費",
+        "監理規費資費",
+        "eTag 儲值",
+        "預借現金",
+        "基金交易",
+        "信用卡年費",
+        "特約商店分期付款交易"
+      ],
+      "fetchedAt": "2026-11-18T01:01:04.145519Z",
+      "bank": "星展銀行"
+    },
+    {
+      "id": "rule_24adb2cf63b4d09e3281",
+      "cardId": "",
+      "offerDomain": "CARD",
+      "paymentProvider": "",
+      "fundingMethods": [
+        "星展信用卡"
+      ],
+      "stackingStatus": "NOT_STACKABLE",
+      "title": "刷星展卡抽 iPhone Duo",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "REG_PROMOTION",
+      "scope": "ALL",
+      "matchedMerchants": [],
+      "searchKeywords": "一般消費,抽獎,iPhone Duo,分期交易",
+      "intentTags": [
+        "一般消費"
+      ],
+      "intentEvidence": "活動期間內持星展信用卡任刷一筆一般消費且登錄成功，筆筆消費享1次抽獎機會",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "draw",
+      "rewardAmount": 74900,
+      "rewardUnit": "chance",
+      "capAmount": null,
+      "capPeriod": "",
+      "capScope": "NONE",
+      "roundingMode": "",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "完成指定活動登錄",
+        "活動期間內持星展信用卡任刷一筆一般消費"
+      ],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "完成活動登錄",
+        "刷卡消費"
+      ],
+      "needReg": true,
+      "regDeadline": "2026/12/31",
+      "registrationStart": "2026-09-01T00:00:00+08:00",
+      "registrationEnd": "2026-12-31T23:59:59+08:00",
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-12-31",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026q3atl/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-2026q2atl",
+      "registrationUrl": "",
+      "registrationMethods": [
+        {
+          "type": "APP",
+          "label": "星展Card+ 信用卡數位服務登錄",
+          "appName": "星展Card+",
+          "deepLink": "",
+          "appStoreUrl": "",
+          "playStoreUrl": "",
+          "path": [
+            "優惠",
+            "活動登錄"
+          ],
+          "activityName": "刷星展卡抽 iPhone Duo",
+          "campaignCode": ""
+        }
+      ],
+      "quotaInfo": "抽價值NT$74,900 STUDIO A好禮即享券（可兌換 iPhone Duo 256GB），共抽30組。",
+      "excludedKeywords": [
+        "境外投資交易平台",
+        "博弈類交易",
+        "汽機車燃料費",
+        "監理規費資費",
+        "預借現金",
+        "基金交易",
+        "信用卡年費",
+        "特約商店分期付款交易"
+      ],
+      "fetchedAt": "2026-11-18T01:01:04.145599Z",
+      "bank": "星展銀行"
     },
     {
       "cardId": "card_esun_ubear",
@@ -207445,5 +206812,5 @@
       "message": "政府規費、公用事業水電瓦斯多數信用卡皆排除回饋。"
     }
   ],
-  "lastUpdated": "2026-11-17T02:32:42.513299Z"
+  "lastUpdated": "2026-11-18T01:01:04.829163Z"
 }

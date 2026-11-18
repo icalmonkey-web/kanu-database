@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T02:32:47.801763+00:00",
+  "generatedAt": "2026-11-18T01:01:07.219693+00:00",
   "added": [],
   "withImage": 347,
   "missing": [
@@ -2210,6 +2210,12 @@
       "error": ""
     },
     {
+      "bank": "永豐銀行",
+      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/list.html",
+      "cached": true,
+      "error": ""
+    },
+    {
       "bank": "國泰世華",
       "url": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/",
       "cached": true,
@@ -2697,6 +2703,12 @@
     },
     {
       "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share-article-02.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html",
       "cached": true,
       "error": ""
@@ -2740,6 +2752,30 @@
     {
       "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/index.html?pid=tw-personal-card-carousel-pxpayplus",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/vsoffer/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-vsoffer",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/MGM/index.html?pid=tw-personal-card-carousel-MGM",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/MGM/index.html?pid=tw-pweb-personal-card-featured-cardtile-MGM",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/ce/default.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-online-shopping",
       "cached": true,
       "error": ""
     },
@@ -2843,42 +2879,6 @@
       "bank": "臺灣土地銀行",
       "url": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1",
       "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/list.html",
-      "candidates": 0,
-      "error": ""
-    },
-    {
-      "bank": "中國信託",
-      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/share-article-02.html",
-      "candidates": 5,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/vsoffer/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-vsoffer",
-      "candidates": 0,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/MGM/index.html?pid=tw-personal-card-carousel-MGM",
-      "candidates": 5,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/MGM/index.html?pid=tw-pweb-personal-card-featured-cardtile-MGM",
-      "candidates": 5,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/ce/default.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-online-shopping",
-      "candidates": 19,
       "error": ""
     }
   ]

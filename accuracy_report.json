@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-17T02:32:45.142456+00:00",
+  "generatedAt": "2026-11-18T01:01:06.835860+00:00",
   "targetAccuracy": 0.98,
   "measuredAccuracy": null,
   "coveragePercent": null,
   "acceptanceStatus": "NOT_ESTABLISHED",
   "reason": "需要獨立官方基準清單及逐欄核對；結構通過率、測試通過率都不是優惠準確率。",
-  "totalRules": 1569,
+  "totalRules": 1566,
   "issueCounts": {
     "UNRESOLVED_CARD_ASSOCIATION": 47,
     "MISSING_CAMPAIGN_END": 634,
-    "UNKNOWN_CALCULATION": 240,
-    "STALE_TERM_REVIEW": 636,
-    "UNKNOWN_CAP_SCOPE": 476,
+    "UNKNOWN_CALCULATION": 239,
+    "STALE_TERM_REVIEW": 633,
+    "UNKNOWN_CAP_SCOPE": 475,
     "NO_INDEPENDENT_TERM_REVIEW": 933,
     "UNSTRUCTURED_REGISTRATION_WINDOW": 192,
     "MAXIMUM_ONLY": 183
@@ -378,16 +378,6 @@
         "UNKNOWN_CALCULATION",
         "UNKNOWN_CAP_SCOPE",
         "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "STALE_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_eeba0e2253fe1145102e",
-      "bank": "美國運通",
-      "title": "台中大遠百百貨週年慶滿額贈禮遇",
-      "issues": [
-        "UNKNOWN_CALCULATION",
-        "UNKNOWN_CAP_SCOPE",
         "STALE_TERM_REVIEW"
       ]
     },
@@ -7141,22 +7131,6 @@
       ]
     },
     {
-      "id": "rule_1704bb66da21702598dd",
-      "bank": "將來銀行",
-      "title": "【大將卡】Part 1-行前準備指定通路加碼2.5%回饋",
-      "issues": [
-        "STALE_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_9e258a1bada075ba54df",
-      "bank": "將來銀行",
-      "title": "【大將卡】Part 2-日本當地實體消費加碼5%回饋",
-      "issues": [
-        "STALE_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_2c7ad4e5a2178753e9ab",
       "bank": "將來銀行",
       "title": "【大將卡】國內消費1.5%回饋無上限",
@@ -9706,30 +9680,6 @@
       ]
     },
     {
-      "id": "rule_a1f160be19f7dffd607a",
-      "bank": "星展銀行",
-      "title": "星願集刷 刷滿5筆 回饋升級 2%刷卡金",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_4ccd721cae6b97a7f9cb",
-      "bank": "星展銀行",
-      "title": "星展eco永續卡 搭配星願集刷最高3%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_57df328f2449be7db961",
-      "bank": "星展銀行",
-      "title": "刷星展卡 抽 iPhone Duo",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_869a6389251df47ffc43",
       "bank": "中國信託",
       "title": "新戶首刷禮滿額送 LINE POINTS 300點",
@@ -9797,14 +9747,6 @@
       "id": "rule_34d62ffdb9a67ed935cc",
       "bank": "永豐銀行",
       "title": "2026分期加碼活動-完成大咖DACARD APP自動分期",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_c987c75ceadcca999308",
-      "bank": "星展銀行",
-      "title": "星願集刷 刷滿5筆 回饋升級",
       "issues": [
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
@@ -12308,30 +12250,6 @@
       ]
     },
     {
-      "id": "rule_9f9003024f7f0975930f",
-      "bank": "星展銀行",
-      "title": "摘星旅遊家：星級豪禮",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_57d76de0c0c635b31ad3",
-      "bank": "星展銀行",
-      "title": "摘星旅遊家 累積指定旅遊消費送星級豪禮",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_42b56001b7690977a095",
-      "bank": "星展銀行",
-      "title": "摘星旅遊家 萬事達卡加碼解鎖尊榮星旅禮",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_5d90e4d62ec031506b84",
       "bank": "王道銀行",
       "title": "新北國王聯名卡 國內、外一般消費現金回饋",
@@ -14273,6 +14191,62 @@
       "id": "rule_0072562323aa071dd15e",
       "bank": "icash Pay",
       "title": "icash Pay博客來 新戶首購最好PAY",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b58d2b383d912c7e12a7",
+      "bank": "星展銀行",
+      "title": "星願集刷 刷滿5筆 回饋升級",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_178e290d596c6ae84e07",
+      "bank": "星展銀行",
+      "title": "星展摘星旅遊家 累積指定旅遊消費最高解鎖RIMOWA登機箱",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_4cd1e204fb30762bf8dd",
+      "bank": "星展銀行",
+      "title": "星展摘星旅遊家 萬事達卡加碼刷卡解鎖尊榮星旅禮",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_df4e4598338632f24bb2",
+      "bank": "星展銀行",
+      "title": "摘星旅遊家 探索世界刷星展 滿額最高解鎖 RIMOWA",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_82ec29c5fe9d11d33cab",
+      "bank": "星展銀行",
+      "title": "Mastercard萬事達卡加碼 刷卡解鎖尊榮星旅禮",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b9bdd6c15931fad7de32",
+      "bank": "星展銀行",
+      "title": "星願集刷 刷滿5筆 回饋升級",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_24adb2cf63b4d09e3281",
+      "bank": "星展銀行",
+      "title": "刷星展卡抽 iPhone Duo",
       "issues": [
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
