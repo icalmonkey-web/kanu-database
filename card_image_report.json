@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-18T01:01:07.219693+00:00",
+  "generatedAt": "2026-11-19T00:40:44.582767+00:00",
   "added": [],
-  "withImage": 347,
+  "withImage": 348,
   "missing": [
     {
       "id": "card_cathay_cube",
@@ -437,11 +437,6 @@
       "id": "card_元大銀行_259",
       "bank": "元大銀行",
       "cardName": "Hello Kitty鑽金聯名卡"
-    },
-    {
-      "id": "card_元大銀行_337",
-      "bank": "元大銀行",
-      "cardName": "黑啤分享卡"
     },
     {
       "id": "card_元大銀行_338",
@@ -2463,12 +2458,6 @@
     },
     {
       "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/poya-card",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard",
       "cached": true,
       "error": ""
@@ -2482,12 +2471,6 @@
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/kumamon_card",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
       "cached": true,
       "error": ""
     },
@@ -2524,6 +2507,18 @@
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/dualcurrency-card",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/poya-card",
       "cached": true,
       "error": ""
     },
