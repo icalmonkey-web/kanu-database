@@ -3795,7 +3795,7 @@
     "error": ""
   },
   "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/insurance/right0205/": {
-    "checkedAt": "2026-11-14T00:16:08.615679+00:00",
+    "checkedAt": "2026-11-21T00:28:04.452596+00:00",
     "images": [
       [
         "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon1.svg",
@@ -3853,7 +3853,7 @@
     "error": ""
   },
   "https://www.taishinbank.com.tw/TSB/personal/credit/": {
-    "checkedAt": "2026-11-14T00:16:08.615679+00:00",
+    "checkedAt": "2026-11-21T00:28:04.452596+00:00",
     "images": [
       [
         "https://www.taishinbank.com.tw/TSB/system/modules/com.thesys.project.TSB/resources/img/fastmenu-icon1.svg",
@@ -6992,7 +6992,7 @@
     "error": ""
   },
   "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/index.html?pid=tw-personal-card-carousel-ACQ": {
-    "checkedAt": "2026-09-30T12:44:48.953728+00:00",
+    "checkedAt": "2026-11-21T00:28:04.452596+00:00",
     "images": [
       [
         "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/event/gift_item_n.png",
@@ -7003,8 +7003,16 @@
         "æå± HAPPY GO è¯åå¡"
       ],
       [
+        "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/chat_50.png",
+        "ç«å³é NT$50é»æ"
+      ],
+      [
         "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/cards/dbs-PChome_w.png",
         "æå± PChome Prime è¯åå¡"
+      ],
+      [
+        "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/chat_50.png",
+        "ç«å³é NT$50é»æ"
       ],
       [
         "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/aov/card_aov.png",
@@ -7015,50 +7023,42 @@
         "1,400è²æ®¼å¹£"
       ],
       [
+        "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/chat_50.png",
+        "ç«å³é NT$50é»æ"
+      ],
+      [
         "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/cards/eco_w_a.png",
         "æå± eco æ°¸çºå¡"
       ],
       [
-        "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/tag_line_n2.png",
-        "æ°æ¶ç³è¾¦éå®å¥½ç¦®3é¸1"
-      ],
-      [
-        "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/gift_n.png",
-        "Butterbear ç¡ç·éµç¤æ»é¼ å¥çµ(å«æ»é¼ å)æ Butterbear 20åä¸æå¼è¡æç®±"
-      ],
-      [
-        "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/gift_n_m.png",
-        "Butterbear ç¡ç·éµç¤æ»é¼ å¥çµ(å«æ»é¼ å)æ Butterbear 20åä¸æå¼è¡æç®±"
-      ],
-      [
-        "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/chat.png",
-        "ç«å³é NT$100é»æ"
+        "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/chat_50.png",
+        "ç«å³é NT$50é»æ"
       ],
       [
         "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/cards/everyday_w.png",
         "æå± everyday å¨å£«å¾¡ç½å¡"
       ],
       [
-        "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/point.png",
-        "å®£ç¿å¤é¸å³äº«å¸NT$888"
-      ],
-      [
-        "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/point.png",
-        "å®£ç¿å¤é¸å³äº«å¸NT$888"
-      ],
-      [
-        "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/chat.png",
-        "ç«å³é NT$100é»æ"
+        "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/chat_50.png",
+        "ç«å³é NT$50é»æ"
       ],
       [
         "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/cards/funlife_w.png",
         "æå±é¥æ¨çæ´»å¡"
       ],
       [
+        "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/chat_50.png",
+        "ç«å³é NT$50é»æ"
+      ],
+      [
         "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/cards/cru_w.png",
         "æå±åæ¨åèªåå¡"
       ],
       [
+        "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/chat_50.png",
+        "ç«å³é NT$50é»æ"
+      ],
+      [
         "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/cards/eco_w_a.png",
         "æå± eco æ°¸çºå¡"
       ],
@@ -7083,7 +7083,7 @@
         "æå±å³èªªå°æ±ºè¯åå¡"
       ],
       [
-        "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/event/gift_item_in_1n.png",
+        "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/images/event/gift_item_11m_2.png",
         "æå±éè¡ x Butterbearæ¯çµ¨åé£¾æ¶ç´è¢ç²ç"
       ]
     ],
@@ -10433,7 +10433,7 @@
     "error": ""
   },
   "https://www.esunbank.com/en/personal/credit-card/intro": {
-    "checkedAt": "2026-11-14T00:16:08.615679+00:00",
+    "checkedAt": "2026-11-21T00:28:04.452596+00:00",
     "images": [
       [
         "https://www.esunbank.com/bank/rwd/images/loading-icon.gif",
