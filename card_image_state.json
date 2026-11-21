@@ -10318,7 +10318,7 @@
     "error": "ConnectTimeout"
   },
   "https://bank.sinopac.com/sinopacBT/personal/credit-card/manage/billpay-staging.html": {
-    "checkedAt": "2026-09-30T12:48:40.309986+00:00",
+    "checkedAt": "2026-11-21T23:45:37.441892+00:00",
     "images": [],
     "error": ""
   },
@@ -12091,7 +12091,7 @@
     "error": ""
   },
   "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/index.html?pid=tw-personal-card-carousel-pxpayplus": {
-    "checkedAt": "2026-11-14T22:33:40.506270+00:00",
+    "checkedAt": "2026-11-21T23:45:37.441892+00:00",
     "images": [
       [
         "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/images/item_1.png",

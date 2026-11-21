@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-21T00:28:03.840194+00:00",
+  "generatedAt": "2026-11-21T23:45:36.885362+00:00",
   "targetAccuracy": 0.98,
   "measuredAccuracy": null,
   "coveragePercent": null,
   "acceptanceStatus": "NOT_ESTABLISHED",
   "reason": "需要獨立官方基準清單及逐欄核對；結構通過率、測試通過率都不是優惠準確率。",
-  "totalRules": 1540,
+  "totalRules": 1546,
   "issueCounts": {
     "UNRESOLVED_CARD_ASSOCIATION": 47,
-    "MISSING_CAMPAIGN_END": 615,
+    "MISSING_CAMPAIGN_END": 613,
     "UNKNOWN_CALCULATION": 236,
     "STALE_TERM_REVIEW": 594,
-    "UNKNOWN_CAP_SCOPE": 472,
-    "NO_INDEPENDENT_TERM_REVIEW": 946,
-    "UNSTRUCTURED_REGISTRATION_WINDOW": 188,
-    "MAXIMUM_ONLY": 173
+    "UNKNOWN_CAP_SCOPE": 471,
+    "NO_INDEPENDENT_TERM_REVIEW": 952,
+    "UNSTRUCTURED_REGISTRATION_WINDOW": 194,
+    "MAXIMUM_ONLY": 169
   },
   "rules": [
     {
@@ -9052,54 +9052,6 @@
       ]
     },
     {
-      "id": "rule_a66009fe14cb5029a068",
-      "bank": "永豐銀行",
-      "title": "單筆消費分期 享筆筆2%刷卡金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_c36c6ba0d23e37012490",
-      "bank": "永豐銀行",
-      "title": "付費分期新戶滿額最高贈500元",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_166c27c02720fcf69b69",
-      "bank": "永豐銀行",
-      "title": "國外交易單筆分期滿額最高贈400元",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_73fe69f9534092689ea1",
-      "bank": "永豐銀行",
-      "title": "分期滿2筆抽500元刷卡金折抵分期利息",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d20041977c2b85fd74d6",
-      "bank": "永豐銀行",
-      "title": "2026分期加碼活動-老朋友申辦數位通路單次分期",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_34d62ffdb9a67ed935cc",
-      "bank": "永豐銀行",
-      "title": "2026分期加碼活動-完成大咖DACARD APP自動分期",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_1c117917f27b3f20c7d5",
       "bank": "中國信託",
       "title": "Uber Eats享LINE POINTS 5%",
@@ -9150,46 +9102,6 @@
       "title": "藏壽司享LINE POINTS 10%",
       "issues": [
         "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_7fa08e13bb5fd23ff2f0",
-      "bank": "永豐銀行",
-      "title": "分期享筆筆2%刷卡金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_6e7a541f97d83888d9b1",
-      "bank": "永豐銀行",
-      "title": "付費分期新戶滿額最高贈500元",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_594de31d4121a83446d9",
-      "bank": "永豐銀行",
-      "title": "國外交易單筆分期滿額最高贈400元",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_32ccdddac63c4d9a5351",
-      "bank": "永豐銀行",
-      "title": "分期滿2筆抽500元刷卡金折抵分期利息",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_15fe308ca8e277d8d842",
-      "bank": "永豐銀行",
-      "title": "2026分期加碼活動 完成分期最高享NT$500刷卡金",
-      "issues": [
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -10689,54 +10601,6 @@
       "id": "rule_301abc0b40b18351032f",
       "bank": "中國信託",
       "title": "Coupang 酷澎(台灣) 滿額最高折 NT$300",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b7c2dd0b34f2d825836a",
-      "bank": "玉山銀行",
-      "title": "國內外一般消費最高1%現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_899219b59b943c6f0f79",
-      "bank": "玉山銀行",
-      "title": "網路消費最高3%現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_bb8c165ae84b5081f0a0",
-      "bank": "玉山銀行",
-      "title": "指定數位訂閱平台消費最高10%現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_37fe02a7d6582b61b347",
-      "bank": "玉山銀行",
-      "title": "申辦自扣享加碼5%回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_fa3fe532f2e90487e181",
-      "bank": "玉山銀行",
-      "title": "新戶首刷禮不限通路加碼10%現金回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_aee04c5eda15a44d3196",
-      "bank": "玉山銀行",
-      "title": "新卡友指定三大通路加碼10%現金回饋",
       "issues": [
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
@@ -12368,35 +12232,6 @@
       ]
     },
     {
-      "id": "rule_6c01f7f8d0a98432deac",
-      "bank": "台新銀行",
-      "title": "台新Richart卡 7大刷最高3.8%",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_0ecf637fee3801f3db4c",
-      "bank": "台新銀行",
-      "title": "新光三越週年慶刷台新卡贈最高21%",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_7f4bb8703de4541f900a",
-      "bank": "台新銀行",
-      "title": "新光人壽認同卡 刷指定保費享1%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_f112e5ccadbc130be7da",
       "bank": "台北富邦",
       "title": "美食外送與精選通路享5%刷卡金回饋",
@@ -12462,146 +12297,6 @@
       ]
     },
     {
-      "id": "rule_7e9a967542274b4310ec",
-      "bank": "台北富邦",
-      "title": "momo通路消費最高3% mo幣回饋",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_474d504bfe636692d85d",
-      "bank": "台北富邦",
-      "title": "店外一般消費1%現金回饋無上限",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_3b935785f4b1c6080cd7",
-      "bank": "台北富邦",
-      "title": "海外消費1%現金回饋無上限",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_e679fcd45100ab4302fa",
-      "bank": "台北富邦",
-      "title": "新戶首刷禮700 mo幣及免運券",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_129a84577e1b3b61f8ea",
-      "bank": "台北富邦",
-      "title": "新戶加碼禮店內外消費加碼2% mo幣",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_2f3431af20b213bc826b",
-      "bank": "華南銀行",
-      "title": "Rich+富家卡 國內外消費回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_523bc84e6c2fee71aa73",
-      "bank": "華南銀行",
-      "title": "ｉ網購生活卡 網購消費回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_48f3797653c32d1c9bff",
-      "bank": "華南銀行",
-      "title": "超鑽現金回饋卡 國內外現金回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_ef530e3108857413fd39",
-      "bank": "華南銀行",
-      "title": "熊Q卡 指定通路現金點數回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d0077c964d21984d32c5",
-      "bank": "華南銀行",
-      "title": "Love系列卡 日韓消費5倍紅利",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_81b9592bb0d7adaae4c3",
-      "bank": "華南銀行",
-      "title": "「台灣行動支付APP」X 華南信用卡感應購物2%回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_9ba6be4e8cf6dd681c31",
-      "bank": "合作金庫",
-      "title": "台灣Pay掃碼筆筆1.5%現金回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_f4597838c2824da87333",
-      "bank": "合作金庫",
-      "title": "愛買週五合庫銀行日‧滿額享優惠",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_08df064261108c1702c5",
-      "bank": "合作金庫",
-      "title": "合庫卡專享指定加油站‧天天降",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_3dbf7b1476d64d1a14eb",
-      "bank": "合作金庫",
-      "title": "刷合庫卡享高鐵升等折抵雙優惠",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_315668174a52b0002529",
       "bank": "元大銀行",
       "title": "鑽金會員 指定通路加碼回饋鑽金紅利",
@@ -12639,44 +12334,6 @@
       "bank": "元大銀行",
       "title": "一般消費與指定通路加碼回饋",
       "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_6e7dfedf47b32197b371",
-      "bank": "將來銀行",
-      "title": "完成任務刷大將卡回饋無上限",
-      "issues": [
-        "UNKNOWN_CALCULATION",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_d48f28de83878a185351",
-      "bank": "將來銀行",
-      "title": "大將卡國內消費回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_0285ef3f414bc23b22d7",
-      "bank": "將來銀行",
-      "title": "大將卡海外消費回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_65b2ae3a875bc383a8e0",
-      "bank": "將來銀行",
-      "title": "將將卡日常消費最高回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "MAXIMUM_ONLY",
-        "UNKNOWN_CAP_SCOPE",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },
@@ -14001,6 +13658,396 @@
       "bank": "王道銀行",
       "title": "開撲滿＋刷行動支付，再拿新台幣50元",
       "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_6538a9a3b368204d53d5",
+      "bank": "永豐銀行",
+      "title": "單筆消費分期享筆筆2%刷卡金回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_4c09a4dde39a903f6381",
+      "bank": "永豐銀行",
+      "title": "付費分期新戶滿額最高贈500元刷卡金",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_4a81b62ce2fe32e31e7f",
+      "bank": "永豐銀行",
+      "title": "國外交易單筆分期滿額最高贈400元刷卡金",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_73fe69f9534092689ea1",
+      "bank": "永豐銀行",
+      "title": "分期滿2筆抽500元刷卡金折抵分期利息",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_130b143388768af44312",
+      "bank": "永豐銀行",
+      "title": "數位通路專屬優惠 分期滿額抽萬元SOGO禮券",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_cfc4c7af69136516cfc0",
+      "bank": "玉山銀行",
+      "title": "國內外一般消費最高1%現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_ea0c080b485ad132da6d",
+      "bank": "玉山銀行",
+      "title": "網路消費最高享3%現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_177227b7f3839be72b9d",
+      "bank": "玉山銀行",
+      "title": "指定數位訂閱平台消費最高享10%現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_9c93b4716acdb423f08a",
+      "bank": "玉山銀行",
+      "title": "申辦自扣享加碼5%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_5a5dfbb0db35eddbb508",
+      "bank": "玉山銀行",
+      "title": "新戶首刷禮 不限通路加碼10%現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_5f5051c9ae9c1b2761e2",
+      "bank": "玉山銀行",
+      "title": "新卡友首刷禮 指定三大通路加碼10%現金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_7e9a967542274b4310ec",
+      "bank": "台北富邦",
+      "title": "momo通路消費最高3% mo幣回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_474d504bfe636692d85d",
+      "bank": "台北富邦",
+      "title": "店外一般消費1%現金回饋無上限",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_3b935785f4b1c6080cd7",
+      "bank": "台北富邦",
+      "title": "海外消費1%現金回饋無上限",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_0195f1d1648175daeecb",
+      "bank": "台北富邦",
+      "title": "保費享0.5%現金回饋無上限",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_0856433b7df654ff71da",
+      "bank": "台北富邦",
+      "title": "新戶首刷禮送700 mo幣及mo店+免運券",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d8a4d6294d15220289fd",
+      "bank": "台北富邦",
+      "title": "新戶加碼禮核卡後90天內店內外加碼2%回饋",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_7fa08e13bb5fd23ff2f0",
+      "bank": "永豐銀行",
+      "title": "分期享筆筆2%刷卡金回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_3f17f878e976c0bd4324",
+      "bank": "永豐銀行",
+      "title": "付費分期新戶滿額最高贈400元刷卡金",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_38347e1d6a609290c90a",
+      "bank": "永豐銀行",
+      "title": "指定卡DAWAY/DAWHO分期新戶加碼100元",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_594de31d4121a83446d9",
+      "bank": "永豐銀行",
+      "title": "國外交易單筆分期滿額最高贈400元",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_32ccdddac63c4d9a5351",
+      "bank": "永豐銀行",
+      "title": "分期滿2筆抽500元刷卡金折抵分期利息",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_e0f7400a8281d8b252ca",
+      "bank": "永豐銀行",
+      "title": "數位通路專屬優惠分期滿額抽萬元SOGO禮券",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_9ba6be4e8cf6dd681c31",
+      "bank": "合作金庫",
+      "title": "台灣Pay掃碼筆筆1.5%現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_2f3431af20b213bc826b",
+      "bank": "華南銀行",
+      "title": "Rich+富家卡 國內外消費回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_523bc84e6c2fee71aa73",
+      "bank": "華南銀行",
+      "title": "ｉ網購生活卡 網購消費回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_48f3797653c32d1c9bff",
+      "bank": "華南銀行",
+      "title": "超鑽現金回饋卡 國內外現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_ef530e3108857413fd39",
+      "bank": "華南銀行",
+      "title": "熊Q卡 指定通路現金點數回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_0376b68cbfeae6c38fd2",
+      "bank": "華南銀行",
+      "title": "Love系列卡 日韓消費紅利加碼",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_9519f411f1c312967a2f",
+      "bank": "華南銀行",
+      "title": "台灣行動支付APP X 華南信用卡感應購物2%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_1af68168c2c32762996a",
+      "bank": "華南銀行",
+      "title": "寶雅POYA購物ｘ台灣Pay享萬點回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_195dd63d4b7ca203d4ad",
+      "bank": "王道銀行",
+      "title": "王道卡綁定Samsung Wallet消費享100元現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_aec7d35b817608d9a90b",
+      "bank": "元大銀行",
+      "title": "新申辦Mastercard信用卡綁定LINE Pay支付享10%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_711f9922d366de555913",
+      "bank": "元大銀行",
+      "title": "綁定 Apple Pay 筆筆20%回饋",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_d1e2ea781adb2d052d70",
+      "bank": "元大銀行",
+      "title": "新戶申辦鑽金智富卡或分享黑啤卡消費達檻登錄享刷卡金777元",
+      "issues": [
+        "UNSTRUCTURED_REGISTRATION_WINDOW",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_b8c58d317ba8f1735382",
+      "bank": "元大銀行",
+      "title": "元大悠遊聯名卡自動加值享20%",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_5ac00a76e22f50c78557",
+      "bank": "元大銀行",
+      "title": "元大卡 x icash Pay 7-11實體門巿消費10%活動",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_468a31e0516eba9b6f60",
+      "bank": "元大銀行",
+      "title": "元大信用卡x全支付週週享5%",
+      "issues": [
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_86bc256ede83936fc9ec",
+      "bank": "元大銀行",
+      "title": "日本BicCamera 最高享17%優惠",
+      "issues": [
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_cd61c4359227a7c814fe",
+      "bank": "將來銀行",
+      "title": "完成任務刷大將卡回饋無上限",
+      "issues": [
+        "UNKNOWN_CALCULATION",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_25c2cc7673c452133b52",
+      "bank": "將來銀行",
+      "title": "【大將卡】自在出遊 享國內1.5%、海外2.5%回饋無上限！",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_1e13471d2f32fd103658",
+      "bank": "將來銀行",
+      "title": "【將將卡】把日常，過成理想生活，最高5%N點回饋!",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_bde30c7d0e740039734f",
+      "bank": "將來銀行",
+      "title": "【街口支付】每週四電商日綁定簽帳金融卡消費，再享5%回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_479bd285d0ae0c12a904",
+      "bank": "將來銀行",
+      "title": "【將來支付】全聯及四大超商付款享10 N點回饋！",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_c826d9f0a768df5e9730",
+      "bank": "將來銀行",
+      "title": "【開戶】新戶消費滿額享現金回饋「新臺幣500元」",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },

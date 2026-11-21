@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T00:28:07.441893+00:00",
+  "generatedAt": "2026-11-21T23:45:39.805545+00:00",
   "added": [],
   "withImage": 360,
   "missing": [
@@ -2037,6 +2037,11 @@
       "id": "card_安泰銀行_767",
       "bank": "安泰銀行",
       "cardName": "安泰銀行JCB晶緻卡"
+    },
+    {
+      "id": "card_元大銀行_768",
+      "bank": "元大銀行",
+      "cardName": "元大銀行分享黑啤卡"
     }
   ],
   "pages": [
@@ -2462,7 +2467,7 @@
     },
     {
       "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/u-bear",
+      "url": "https://www.esunbank.com/en/personal/credit-card/intro",
       "cached": true,
       "error": ""
     },
@@ -2493,6 +2498,12 @@
     {
       "bank": "玉山銀行",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/poya-card",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "玉山銀行",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/u-bear",
       "cached": true,
       "error": ""
     },
@@ -2606,6 +2617,12 @@
     },
     {
       "bank": "台新銀行",
+      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/insurance/right0205/",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "台新銀行",
       "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/favorable/right0502/",
       "cached": true,
       "error": ""
@@ -2708,12 +2725,6 @@
     },
     {
       "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/index.html?pid=tw-personal-card-carousel-pxpayplus",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/offers/vsoffer/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-vsoffer",
       "cached": true,
       "error": ""
@@ -2733,6 +2744,12 @@
     {
       "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/offers/ce/default.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-online-shopping",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/index.html?pid=tw-personal-card-carousel-ACQ",
       "cached": true,
       "error": ""
     },
@@ -2833,27 +2850,15 @@
       "error": ""
     },
     {
-      "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/en/personal/credit-card/intro",
-      "candidates": 17,
-      "error": ""
-    },
-    {
-      "bank": "台新銀行",
-      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/insurance/right0205/",
-      "candidates": 13,
-      "error": ""
-    },
-    {
-      "bank": "台新銀行",
-      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/",
-      "candidates": 19,
+      "bank": "永豐銀行",
+      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/manage/billpay-staging.html",
+      "candidates": 0,
       "error": ""
     },
     {
       "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/index.html?pid=tw-personal-card-carousel-ACQ",
-      "candidates": 23,
+      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/index.html?pid=tw-personal-card-carousel-pxpayplus",
+      "candidates": 2,
       "error": ""
     }
   ]
