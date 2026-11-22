@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T23:45:39.805545+00:00",
+  "generatedAt": "2026-11-22T23:52:25.194894+00:00",
   "added": [],
-  "withImage": 360,
+  "withImage": 362,
   "missing": [
     {
       "id": "card_cathay_cube",
@@ -2029,11 +2029,6 @@
       "cardName": "御璽愛家卡"
     },
     {
-      "id": "card_王道銀行_761",
-      "bank": "王道銀行",
-      "cardName": "安得烈認同卡"
-    },
-    {
       "id": "card_安泰銀行_767",
       "bank": "安泰銀行",
       "cardName": "安泰銀行JCB晶緻卡"
@@ -2192,6 +2187,12 @@
     {
       "bank": "永豐銀行",
       "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/list.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "永豐銀行",
+      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/manage/billpay-staging.html",
       "cached": true,
       "error": ""
     },
@@ -2725,6 +2726,12 @@
     },
     {
       "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/index.html?pid=tw-personal-card-carousel-pxpayplus",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
       "url": "https://www.dbs.com.tw/personal-zh/cards/offers/vsoffer/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-vsoffer",
       "cached": true,
       "error": ""
@@ -2847,18 +2854,6 @@
       "bank": "臺灣土地銀行",
       "url": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1",
       "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "永豐銀行",
-      "url": "https://bank.sinopac.com/sinopacBT/personal/credit-card/manage/billpay-staging.html",
-      "candidates": 0,
-      "error": ""
-    },
-    {
-      "bank": "星展銀行",
-      "url": "https://www.dbs.com.tw/personal-zh/cards/offers/pxpayplus/index.html?pid=tw-personal-card-carousel-pxpayplus",
-      "candidates": 2,
       "error": ""
     }
   ]
