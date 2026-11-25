@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-24T04:40:00.080027+00:00",
+  "generatedAt": "2026-11-25T02:13:46.470078+00:00",
   "targetAccuracy": 0.98,
   "measuredAccuracy": null,
   "coveragePercent": null,
   "acceptanceStatus": "NOT_ESTABLISHED",
   "reason": "需要獨立官方基準清單及逐欄核對；結構通過率、測試通過率都不是優惠準確率。",
-  "totalRules": 1522,
+  "totalRules": 1520,
   "issueCounts": {
     "UNRESOLVED_CARD_ASSOCIATION": 46,
     "MISSING_CAMPAIGN_END": 600,
     "UNKNOWN_CALCULATION": 231,
     "STALE_TERM_REVIEW": 589,
     "UNKNOWN_CAP_SCOPE": 467,
-    "NO_INDEPENDENT_TERM_REVIEW": 933,
-    "UNSTRUCTURED_REGISTRATION_WINDOW": 192,
+    "NO_INDEPENDENT_TERM_REVIEW": 931,
+    "UNSTRUCTURED_REGISTRATION_WINDOW": 191,
     "MAXIMUM_ONLY": 169
   },
   "rules": [
@@ -6464,23 +6464,6 @@
       "id": "rule_f122284224f465858a41",
       "bank": "王道銀行",
       "title": "味全龍奪冠應援 第一重：贏球隔日指定行動支付享最高3%現金回饋",
-      "issues": [
-        "UNSTRUCTURED_REGISTRATION_WINDOW",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_29721c7c382fb7994355",
-      "bank": "王道銀行",
-      "title": "味全龍應援 第二重：味全龍大巨蛋實體商店現場享9折優惠",
-      "issues": [
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
-      "id": "rule_b1fdb155a8e98894051f",
-      "bank": "王道銀行",
-      "title": "味全龍應援 第二重：大巨蛋實體商店滿額抽味全龍簽名商品",
       "issues": [
         "UNSTRUCTURED_REGISTRATION_WINDOW",
         "NO_INDEPENDENT_TERM_REVIEW"
@@ -13715,15 +13698,6 @@
       ]
     },
     {
-      "id": "rule_c25b0c0094c19ec125e4",
-      "bank": "王道銀行",
-      "title": "王道卡綁Samsung Wallet任刷爽拿新台幣100元現金回饋",
-      "issues": [
-        "MISSING_CAMPAIGN_END",
-        "NO_INDEPENDENT_TERM_REVIEW"
-      ]
-    },
-    {
       "id": "rule_6e7dfedf47b32197b371",
       "bank": "將來銀行",
       "title": "完成任務刷大將卡回饋無上限",
@@ -13831,6 +13805,15 @@
       "issues": [
         "MISSING_CAMPAIGN_END",
         "MAXIMUM_ONLY",
+        "NO_INDEPENDENT_TERM_REVIEW"
+      ]
+    },
+    {
+      "id": "rule_2c31d0b34fc70a84b094",
+      "bank": "王道銀行",
+      "title": "王道卡綁Samsung Wallet任刷爽拿新台幣100元現金回饋",
+      "issues": [
+        "MISSING_CAMPAIGN_END",
         "NO_INDEPENDENT_TERM_REVIEW"
       ]
     },

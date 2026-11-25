@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.24-v043955-ubear-review-trusted-core-20261003",
+  "version": "2026.11.25-v021344-ubear-review-trusted-core-20261003",
   "cards": [
     {
       "id": "card_cathay_cube",
@@ -22419,6 +22419,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -53530,6 +53531,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-09-30T13:29:25.273568Z",
@@ -57046,6 +57048,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -124968,129 +124971,6 @@
       "bank": "王道銀行"
     },
     {
-      "id": "rule_29721c7c382fb7994355",
-      "cardId": "card_王道銀行_634",
-      "offerDomain": "CARD",
-      "paymentProvider": "LINE Pay, Apple Pay",
-      "fundingMethods": [
-        "王道銀行味全龍聯名卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "味全龍應援 第二重：味全龍大巨蛋實體商店現場享9折優惠",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "味全龍大巨蛋實體商店"
-      ],
-      "searchKeywords": "味全龍大巨蛋實體商店, 味全龍大巨蛋, 台北大巨蛋, 味全龍商品店, LINE Pay, Apple Pay, 連線支付, 蘋果支付",
-      "intentTags": [
-        "實體購物",
-        "行動支付"
-      ],
-      "intentEvidence": "持本行味全龍聯名卡綁定Apple Pay或LINE Pay於味全龍大巨蛋實體商店消費，可享有商店現場9折優惠",
-      "baseRate": 0,
-      "promoRate": 10,
-      "rewardType": "percent",
-      "rewardAmount": 10,
-      "rewardUnit": "percent",
-      "capAmount": null,
-      "capPeriod": "",
-      "capScope": "NONE",
-      "roundingMode": "",
-      "spendBasis": "PER_TRANSACTION",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [
-        "持王道銀行味全龍聯名卡",
-        "綁定Apple Pay或LINE Pay",
-        "於味全龍大巨蛋實體商店現場消費"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [
-        "使用味全龍聯名卡綁定Apple Pay或LINE Pay於味全龍大巨蛋實體商店結帳"
-      ],
-      "needReg": false,
-      "regDeadline": "",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "2026-10-16",
-      "validUntil": "2026-10-25",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/wd-twseries-2026",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "現場消費即享9折，不限名額",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-10-22T21:31:14.417601Z",
-      "bank": "王道銀行"
-    },
-    {
-      "id": "rule_b1fdb155a8e98894051f",
-      "cardId": "card_王道銀行_634",
-      "offerDomain": "CARD",
-      "paymentProvider": "LINE Pay, Apple Pay",
-      "fundingMethods": [
-        "王道銀行味全龍聯名卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "味全龍應援 第二重：大巨蛋實體商店滿額抽味全龍簽名商品",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "REG_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "味全龍大巨蛋實體商店"
-      ],
-      "searchKeywords": "味全龍大巨蛋實體商店, 味全龍大巨蛋, 台北大巨蛋, 味全龍商品店, 簽名球, 簽名球衣, 抽獎, LINE Pay, Apple Pay",
-      "intentTags": [
-        "實體購物"
-      ],
-      "intentEvidence": "累積消費達新台幣200元(含)以上，即享有一次味全龍簽名商品抽獎機會",
-      "baseRate": 0,
-      "promoRate": 0,
-      "rewardType": "draw",
-      "rewardAmount": 1,
-      "rewardUnit": "chance",
-      "capAmount": 1,
-      "capPeriod": "PER_ACCOUNT",
-      "capScope": "PROMO",
-      "roundingMode": "FLOOR",
-      "spendBasis": "CUMULATIVE",
-      "minimumSpend": 200,
-      "eligibilityRequirements": [
-        "持王道銀行味全龍聯名卡",
-        "綁定Apple Pay或LINE Pay至味全龍大巨蛋實體商店消費",
-        "累積消費滿NT$200",
-        "完成活動登錄"
-      ],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [
-        "完成活動登錄且於味全龍大巨蛋實體商店累積消費滿額（每滿NT$200享一次抽獎機會）"
-      ],
-      "needReg": true,
-      "regDeadline": "2026-10-25",
-      "registrationStart": "2026-10-16T12:00:00+08:00",
-      "registrationEnd": "",
-      "validFrom": "2026-10-16",
-      "validUntil": "2026-10-25",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/wd-twseries-2026",
-      "registrationUrl": "https://www.o-bank.com/egift/RegisterCampaign",
-      "registrationMethods": [
-        {
-          "type": "WEB",
-          "label": "網頁登錄",
-          "url": "https://www.o-bank.com/egift/RegisterCampaign",
-          "activityName": "第二重：應援就是王道"
-        }
-      ],
-      "quotaInfo": "登錄不限名額，每滿NT$200得1次抽獎機會，每人最高中獎1次",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-10-22T21:31:14.417830Z",
-      "bank": "王道銀行"
-    },
-    {
       "id": "rule_b365ed7453383f9eaa97",
       "cardId": "card_王道銀行_688",
       "offerDomain": "CARD",
@@ -125594,6 +125474,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -139469,6 +139350,7 @@
       ],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -164631,6 +164513,7 @@
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-11-12T00:52:00.110591Z",
@@ -167210,6 +167093,7 @@
       ],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
@@ -186610,6 +186494,7 @@
       "validationIssues": [
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-11-22T23:47:00.280848Z",
@@ -188262,6 +188147,7 @@
       "validationIssues": [
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
       "fetchedAt": "2026-11-22T23:50:05.707716Z",
@@ -188318,6 +188204,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
@@ -188915,6 +188802,7 @@
       ],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
@@ -191852,6 +191740,7 @@
       "excludedKeywords": [],
       "quickSearchEligible": false,
       "validationIssues": [
+        "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD",
         "NOT_SPENDING_REWARD"
       ],
@@ -195265,57 +195154,6 @@
       "bank": "永豐銀行"
     },
     {
-      "id": "rule_c25b0c0094c19ec125e4",
-      "cardId": "",
-      "offerDomain": "CARD",
-      "paymentProvider": "Samsung Wallet",
-      "fundingMethods": [
-        "王道卡"
-      ],
-      "stackingStatus": "UNKNOWN",
-      "title": "王道卡綁Samsung Wallet任刷爽拿新台幣100元現金回饋",
-      "benefitPlan": "",
-      "selectionMode": "",
-      "activityType": "DIRECT_PROMOTION",
-      "scope": "SPECIFIC",
-      "matchedMerchants": [
-        "Samsung Wallet"
-      ],
-      "searchKeywords": "Samsung Wallet, 三星錢包, 行動支付",
-      "intentTags": [
-        "行動支付"
-      ],
-      "intentEvidence": "王道卡綁Samsung Wallet任刷爽拿新台幣100元現金回饋",
-      "baseRate": 0,
-      "promoRate": 100,
-      "rewardType": "percent",
-      "rewardAmount": 100,
-      "rewardUnit": "percent",
-      "capAmount": 100,
-      "capPeriod": "CAMPAIGN",
-      "capScope": "PROMO",
-      "roundingMode": "",
-      "spendBasis": "PER_TRANSACTION",
-      "minimumSpend": 0,
-      "eligibilityRequirements": [],
-      "rewardCalculationMode": "FLAT",
-      "rewardTiers": [],
-      "maxRateRequires": [],
-      "needReg": false,
-      "regDeadline": "",
-      "registrationStart": "",
-      "registrationEnd": "",
-      "validFrom": "",
-      "validUntil": "",
-      "sourceUrl": "https://www.o-bank.com/retail",
-      "registrationUrl": "",
-      "registrationMethods": [],
-      "quotaInfo": "綁定Samsung Wallet任刷一筆享100元現金回饋",
-      "excludedKeywords": [],
-      "fetchedAt": "2026-11-24T04:16:02.447279Z",
-      "bank": "王道銀行"
-    },
-    {
       "id": "rule_6e7dfedf47b32197b371",
       "cardId": "card_將來銀行_364",
       "offerDomain": "CARD",
@@ -196192,6 +196030,61 @@
       "excludedKeywords": [],
       "fetchedAt": "2026-11-24T04:19:50.257334Z",
       "bank": "遠東商銀"
+    },
+    {
+      "id": "rule_2c31d0b34fc70a84b094",
+      "cardId": "card_王道銀行_367",
+      "offerDomain": "CARD",
+      "paymentProvider": "Samsung Wallet",
+      "fundingMethods": [
+        "王道銀行簽帳金融卡"
+      ],
+      "stackingStatus": "UNKNOWN",
+      "title": "王道卡綁Samsung Wallet任刷爽拿新台幣100元現金回饋",
+      "benefitPlan": "",
+      "selectionMode": "",
+      "activityType": "DIRECT_PROMOTION",
+      "scope": "SPECIFIC",
+      "matchedMerchants": [
+        "Samsung Wallet"
+      ],
+      "searchKeywords": "Samsung Wallet, 三星支付, Samsung Pay, 行動支付",
+      "intentTags": [
+        "行動支付"
+      ],
+      "intentEvidence": "王道卡綁Samsung Wallet任刷爽拿新台幣100元現金回饋",
+      "baseRate": 0,
+      "promoRate": 0,
+      "rewardType": "cash",
+      "rewardAmount": 100,
+      "rewardUnit": "TWD",
+      "capAmount": 100,
+      "capPeriod": "CAMPAIGN",
+      "capScope": "TOTAL",
+      "roundingMode": "",
+      "spendBasis": "PER_TRANSACTION",
+      "minimumSpend": 0,
+      "eligibilityRequirements": [
+        "使用王道卡綁定 Samsung Wallet 並完成消費"
+      ],
+      "rewardCalculationMode": "FLAT",
+      "rewardTiers": [],
+      "maxRateRequires": [
+        "將王道卡綁定於 Samsung Wallet 並進行任一筆消費"
+      ],
+      "needReg": false,
+      "regDeadline": "",
+      "registrationStart": "",
+      "registrationEnd": "",
+      "validFrom": "",
+      "validUntil": "",
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "registrationUrl": "",
+      "registrationMethods": [],
+      "quotaInfo": "綁定 Samsung Wallet 任刷即享 NT$100 現金回饋",
+      "excludedKeywords": [],
+      "fetchedAt": "2026-11-25T02:13:21.677695Z",
+      "bank": "王道銀行"
     },
     {
       "cardId": "card_esun_ubear",
@@ -198761,5 +198654,5 @@
       "message": "政府規費、公用事業水電瓦斯多數信用卡皆排除回饋。"
     }
   ],
-  "lastUpdated": "2026-11-24T04:39:55.202986Z"
+  "lastUpdated": "2026-11-25T02:13:44.201688Z"
 }

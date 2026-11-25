@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-24T04:40:00.186Z",
+  "generatedAt": "2026-11-25T02:13:46.576Z",
   "disclaimer": "結構檢查不是事實核對；待確認點數不換算現金。",
-  "totalRules": 1522,
+  "totalRules": 1520,
   "reviewed": 0,
   "comparable": 0,
-  "expired": 58,
+  "expired": 57,
   "sourceGroups": 509,
   "queue": [
     {
@@ -4023,14 +4023,6 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.hncb.com.tw/wps/portal/HNCB/msg/071/pb-moretaiwanpay/FamilyMart2026",
-      "bank": "華南銀行",
-      "ruleIds": [
-        "rule_c09542708fe1e21786fc"
-      ],
-      "activeRules": 1
-    },
-    {
       "sourceUrl": "https://www.feib.com.tw/activity?id=1486",
       "bank": "遠東商銀",
       "ruleIds": [
@@ -4841,14 +4833,6 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.o-bank.com/retail",
-      "bank": "王道銀行",
-      "ruleIds": [
-        "rule_c25b0c0094c19ec125e4"
-      ],
-      "activeRules": 1
-    },
-    {
       "sourceUrl": "https://www.nextbank.com.tw/events",
       "bank": "將來銀行",
       "ruleIds": [
@@ -4885,6 +4869,14 @@
       "bank": "遠東商銀",
       "ruleIds": [
         "rule_969c6a5e07cdd4f5f27e"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "bank": "王道銀行",
+      "ruleIds": [
+        "rule_2c31d0b34fc70a84b094"
       ],
       "activeRules": 1
     },
@@ -4959,9 +4951,7 @@
       "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/wd-twseries-2026",
       "bank": "王道銀行",
       "ruleIds": [
-        "rule_f122284224f465858a41",
-        "rule_29721c7c382fb7994355",
-        "rule_b1fdb155a8e98894051f"
+        "rule_f122284224f465858a41"
       ],
       "activeRules": 0
     },
@@ -5005,6 +4995,14 @@
       "bank": "遠東商銀",
       "ruleIds": [
         "rule_2022f8792f0990d2cafd"
+      ],
+      "activeRules": 0
+    },
+    {
+      "sourceUrl": "https://www.hncb.com.tw/wps/portal/HNCB/msg/071/pb-moretaiwanpay/FamilyMart2026",
+      "bank": "華南銀行",
+      "ruleIds": [
+        "rule_c09542708fe1e21786fc"
       ],
       "activeRules": 0
     },
@@ -13868,32 +13866,6 @@
       ]
     },
     {
-      "id": "rule_29721c7c382fb7994355",
-      "bank": "王道銀行",
-      "title": "味全龍應援 第二重：味全龍大巨蛋實體商店現場享9折優惠",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/wd-twseries-2026",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "活動已截止"
-      ]
-    },
-    {
-      "id": "rule_b1fdb155a8e98894051f",
-      "bank": "王道銀行",
-      "title": "味全龍應援 第二重：大巨蛋實體商店滿額抽味全龍簽名商品",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/wd-twseries-2026",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "活動已截止"
-      ]
-    },
-    {
       "id": "rule_b365ed7453383f9eaa97",
       "bank": "王道銀行",
       "title": "一卡通卡友限定！刷卡消費限時最高享3%現金回饋",
@@ -16370,11 +16342,12 @@
       "bank": "華南銀行",
       "title": "全家消費台灣Pay，10%回饋超級配",
       "sourceUrl": "https://www.hncb.com.tw/wps/portal/HNCB/msg/071/pb-moretaiwanpay/FamilyMart2026",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "lifecycle": "EXPIRED",
       "reviewStatus": "PENDING",
       "comparable": false,
       "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "活動已截止"
       ]
     },
     {
@@ -24302,18 +24275,6 @@
       ]
     },
     {
-      "id": "rule_c25b0c0094c19ec125e4",
-      "bank": "王道銀行",
-      "title": "王道卡綁Samsung Wallet任刷爽拿新台幣100元現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
       "id": "rule_6e7dfedf47b32197b371",
       "bank": "將來銀行",
       "title": "完成任務刷大將卡回饋無上限",
@@ -24464,6 +24425,18 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_2c31d0b34fc70a84b094",
+      "bank": "王道銀行",
+      "title": "王道卡綁Samsung Wallet任刷爽拿新台幣100元現金回饋",
+      "sourceUrl": "https://www.o-bank.com/retail",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
       ]
     },
     {
