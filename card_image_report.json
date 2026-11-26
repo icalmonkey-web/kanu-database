@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-25T02:13:46.928606+00:00",
+  "generatedAt": "2026-11-26T02:34:35.233344+00:00",
   "added": [],
-  "withImage": 362,
+  "withImage": 363,
   "missing": [
     {
       "id": "card_cathay_cube",
@@ -1192,11 +1192,6 @@
       "id": "card_樂天信用卡_432",
       "bank": "樂天信用卡",
       "cardName": "樂天JCB玫瑰金卡"
-    },
-    {
-      "id": "card_華南銀行_447",
-      "bank": "華南銀行",
-      "cardName": "熊Q卡"
     },
     {
       "id": "card_彰化銀行_449",
@@ -2492,13 +2487,13 @@
     },
     {
       "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/dualcurrency-card",
       "cached": true,
       "error": ""
     },
     {
       "bank": "玉山銀行",
-      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/dualcurrency-card",
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
       "cached": true,
       "error": ""
     },
@@ -2552,12 +2547,6 @@
     },
     {
       "bank": "台北富邦",
-      "url": "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "台北富邦",
       "url": "https://www.fubon.com/banking/personal/credit_card/index.htm",
       "cached": true,
       "error": ""
@@ -2593,6 +2582,12 @@
       "error": ""
     },
     {
+      "bank": "台北富邦",
+      "url": "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm",
+      "cached": true,
+      "error": ""
+    },
+    {
       "bank": "台新銀行",
       "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/cg021/card001/",
       "cached": true,
@@ -2619,12 +2614,6 @@
     {
       "bank": "台新銀行",
       "url": "https://www.taishinbank.com.tw/TSB/personal/credit/intro/rights/favorable/right0502/",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "台新銀行",
-      "url": "https://www.taishinbank.com.tw/TSB/personal/credit/",
       "cached": true,
       "error": ""
     },
@@ -2702,12 +2691,6 @@
     },
     {
       "bank": "中國信託",
-      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
-      "cached": true,
-      "error": ""
-    },
-    {
-      "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/store.html",
       "cached": true,
       "error": ""
@@ -2715,6 +2698,12 @@
     {
       "bank": "中國信託",
       "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_travel.html",
+      "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "中國信託",
+      "url": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
       "cached": true,
       "error": ""
     },
@@ -2854,6 +2843,12 @@
       "bank": "臺灣土地銀行",
       "url": "https://www.landbank.com.tw/Category/Items/%E4%BF%A1%E7%94%A8%E5%8D%A1",
       "cached": true,
+      "error": ""
+    },
+    {
+      "bank": "星展銀行",
+      "url": "https://www.dbs.com.tw/personal-zh/cards/2026ACQ/index.html?pid=tw-pweb-personal-card-featured_cardtile-ACQ",
+      "candidates": 23,
       "error": ""
     }
   ]

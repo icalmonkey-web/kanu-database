@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-25T02:13:46.576Z",
+  "generatedAt": "2026-11-26T02:34:34.736Z",
   "disclaimer": "結構檢查不是事實核對；待確認點數不換算現金。",
-  "totalRules": 1520,
+  "totalRules": 1490,
   "reviewed": 0,
   "comparable": 0,
   "expired": 57,
-  "sourceGroups": 509,
+  "sourceGroups": 506,
   "queue": [
     {
       "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/cards/",
@@ -151,28 +151,6 @@
       "activeRules": 15
     },
     {
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "bank": "玉山銀行",
-      "ruleIds": [
-        "rule_04050ec411b5890d1c74",
-        "rule_2756cbbab0aa4e44042c",
-        "rule_d0b57dbe7af397d59a2b",
-        "rule_5d6c94e13957b5f2407e",
-        "rule_172af9e0f33c101a7a3d",
-        "rule_6e50d273c4187cc890d7",
-        "rule_f3645af0623fc1cc70ab",
-        "rule_3f7b6d2c4b3c1ef90e86",
-        "rule_207e187e79744840c43d",
-        "rule_aa1d1331ae301f202379",
-        "rule_9f1ac529a90a25d2f031",
-        "rule_e0573e2f7f7a1265af71",
-        "rule_4e869c25b75ec2ce780c",
-        "rule_d395bdaac835a3a5d650",
-        "rule_6a8181db1dd1174f7d36"
-      ],
-      "activeRules": 15
-    },
-    {
       "sourceUrl": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/",
       "bank": "國泰世華",
       "ruleIds": [
@@ -212,6 +190,27 @@
         "rule_860546574d42727c4719",
         "rule_78c31778a1aa42e7555a",
         "rule_d721a81b70a4aaf24122"
+      ],
+      "activeRules": 14
+    },
+    {
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
+      "bank": "元大銀行",
+      "ruleIds": [
+        "rule_aec7d35b817608d9a90b",
+        "rule_bd26a4589c8c10686d3e",
+        "rule_b912a08730d54fe477c5",
+        "rule_0b94338b77060a01b5be",
+        "rule_69ce4cb2cf4a5422e081",
+        "rule_461cc08d0a50f49a6206",
+        "rule_239d39f4b95cfbdb73e8",
+        "rule_cac3de5842ca276328f2",
+        "rule_86bc256ede83936fc9ec",
+        "rule_7088e8e41ec3c19950ca",
+        "rule_6e3957a33326af31c162",
+        "rule_5ac00a76e22f50c78557",
+        "rule_630673dc430d8a99fa13",
+        "rule_891950726b5f677b2c27"
       ],
       "activeRules": 14
     },
@@ -313,25 +312,6 @@
       "activeRules": 12
     },
     {
-      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
-      "bank": "中國信託",
-      "ruleIds": [
-        "rule_4b620931ac810af6ac52",
-        "rule_50c565477e23c67188c0",
-        "rule_f97cc309d19810a6ed42",
-        "rule_901f9a05bde3d2c80695",
-        "rule_137786dea97ff158b812",
-        "rule_5697d5d1792825fffdae",
-        "rule_272490d422d162231a70",
-        "rule_4be2d79dcec24d8afbbe",
-        "rule_8ae6cd886d3dd62f2f3a",
-        "rule_adf7542021932792842b",
-        "rule_e4c29db1d06cc28954a1",
-        "rule_f1d23b9715b8b8b7e193"
-      ],
-      "activeRules": 12
-    },
-    {
       "sourceUrl": "https://www.feib.com.tw/upload/creditcard/NCTOP/index.html",
       "bank": "遠東商銀",
       "ruleIds": [
@@ -404,42 +384,6 @@
       "activeRules": 11
     },
     {
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
-      "bank": "元大銀行",
-      "ruleIds": [
-        "rule_e4f6bec18897814a1a8e",
-        "rule_19a62bee548831487e69",
-        "rule_200e66fc1dec26d352e4",
-        "rule_fee46e230667a4a89585",
-        "rule_6984519885387a7fd11c",
-        "rule_c549eb201edf8db2ee2d",
-        "rule_678f08863147ef23aad4",
-        "rule_d6ee0d722de7a3179b59",
-        "rule_06a35bf0e02091bf4478",
-        "rule_350d3548b1e274734b6e",
-        "rule_07f7927e18d18ea37ae1"
-      ],
-      "activeRules": 11
-    },
-    {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_1cb7027307c14cd040fc",
-        "rule_adf77941116f34bb56fd",
-        "rule_366ad6a9c026de2163d1",
-        "rule_11ba9fe5eea0c217e9dc",
-        "rule_ec1e64138b3577c8896d",
-        "rule_acb0d1cb7b3f3d1232ad",
-        "rule_e0fe9f8811c26d11087e",
-        "rule_bd5c77a2f27dc1329955",
-        "rule_3b4a3c19fdadc7679fe8",
-        "rule_9341008f17d840cc5b0c",
-        "rule_1aa6bcd0a8277242ed3a"
-      ],
-      "activeRules": 11
-    },
-    {
       "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops/all?category=others",
       "bank": "玉山銀行",
       "ruleIds": [
@@ -457,36 +401,19 @@
       "activeRules": 10
     },
     {
-      "sourceUrl": "https://www.card.rakuten.com.tw/",
-      "bank": "樂天信用卡",
+      "sourceUrl": "https://www.easycard.com.tw/news",
+      "bank": "悠遊付",
       "ruleIds": [
-        "rule_41e5f1399920d50aa95c",
-        "rule_c4a348ec2ec7d9e7cfd5",
-        "rule_7dbbe16171ce3a1938e1",
-        "rule_06c2ec446a787b8c883a",
-        "rule_ac2cdde4e34f33768c22",
-        "rule_03e45fd9c1623503a922",
-        "rule_bf6a3ac9ceb3da1823f7",
-        "rule_f97e08794ffc948ae452",
-        "rule_8d32c099631a8b7a3f74",
-        "rule_6dcbc3c75b85c955f07b"
-      ],
-      "activeRules": 10
-    },
-    {
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
-      "bank": "元大銀行",
-      "ruleIds": [
-        "rule_aec7d35b817608d9a90b",
-        "rule_bd26a4589c8c10686d3e",
-        "rule_0b94338b77060a01b5be",
-        "rule_69ce4cb2cf4a5422e081",
-        "rule_239d39f4b95cfbdb73e8",
-        "rule_cac3de5842ca276328f2",
-        "rule_86bc256ede83936fc9ec",
-        "rule_5ac00a76e22f50c78557",
-        "rule_630673dc430d8a99fa13",
-        "rule_891950726b5f677b2c27"
+        "rule_61a0e94e624a6f11fff3",
+        "rule_09dcb388d6d84e21dbd0",
+        "rule_84228c78851a94647924",
+        "rule_7045cc2f01c96c44a99f",
+        "rule_d8788316131f8ffd07b7",
+        "rule_2edb7a43bd23abb320a1",
+        "rule_8f1409e848597f9d0455",
+        "rule_4a86b397e7729518e0ad",
+        "rule_7ea1da8738e57ce31dab",
+        "rule_d7f267b3e41fce17c3d8"
       ],
       "activeRules": 10
     },
@@ -635,6 +562,23 @@
       "activeRules": 9
     },
     {
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
+      "bank": "悠遊付",
+      "ruleIds": [
+        "rule_fd2895779d22f25c1dbd",
+        "rule_c82a9fc1dffc7dee7b95",
+        "rule_9d013a697ef55fd5b273",
+        "rule_ad717f276714babf1534",
+        "rule_0e97eda548456baf00d8",
+        "rule_1dd9ee4628a01bd419bb",
+        "rule_c5ec7b84a9c64a4ed5bd",
+        "rule_75e12b3dfaeb6abd79eb",
+        "rule_2f3fab0268cec585cc0e",
+        "rule_c5d6cd1dd2275a678f04"
+      ],
+      "activeRules": 9
+    },
+    {
       "sourceUrl": "https://www.hsbc.com.tw/credit-cards/offers/acquisition-gift/terms-and-conditions/",
       "bank": "滙豐銀行",
       "ruleIds": [
@@ -751,6 +695,21 @@
         "rule_6a108cceeaa8b9d22b7b",
         "rule_31aa741c189ee9845c1c",
         "rule_eff6d4de632c4b1163c0"
+      ],
+      "activeRules": 8
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_f6d115071b2672452e2c",
+        "rule_0d14f922bf9d00371c74",
+        "rule_265f565a2a9f1bd69525",
+        "rule_6e06294ff2fad9e898f2",
+        "rule_5e3ed2be004fbe7f2cee",
+        "rule_41d059717e9a84a8bc1e",
+        "rule_cf5e442743434af57999",
+        "rule_b886a3a733e6fcbb3570"
       ],
       "activeRules": 8
     },
@@ -938,21 +897,6 @@
       "activeRules": 7
     },
     {
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
-      "bank": "悠遊付",
-      "ruleIds": [
-        "rule_fd2895779d22f25c1dbd",
-        "rule_c82a9fc1dffc7dee7b95",
-        "rule_9d013a697ef55fd5b273",
-        "rule_ad717f276714babf1534",
-        "rule_3ba149a0ca6ab7dcc070",
-        "rule_9da608b8e3492e4c6077",
-        "rule_2f3fab0268cec585cc0e",
-        "rule_c5d6cd1dd2275a678f04"
-      ],
-      "activeRules": 7
-    },
-    {
       "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/default.page",
       "bank": "星展銀行",
       "ruleIds": [
@@ -963,6 +907,20 @@
         "rule_0f2c48b2302bc5c65ef3",
         "rule_18b43d5892889aa0d5fa",
         "rule_fa6f86ebd761740e7cef"
+      ],
+      "activeRules": 7
+    },
+    {
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
+      "bank": "玉山銀行",
+      "ruleIds": [
+        "rule_824381f48a88d5ea4209",
+        "rule_c55e428df1ce8ac657bd",
+        "rule_8bc018f999d6a387811b",
+        "rule_67d5c96e516c3101a628",
+        "rule_a4f7fdb1cd481ddd84ee",
+        "rule_7ae9b6c1cb111a299d6a",
+        "rule_2ec1245b63ea67c01722"
       ],
       "activeRules": 7
     },
@@ -1084,19 +1042,6 @@
       "activeRules": 6
     },
     {
-      "sourceUrl": "https://www.entiebank.com.tw/entie/1_3_2_1",
-      "bank": "安泰銀行",
-      "ruleIds": [
-        "rule_f24892f736f4ed3f1c0a",
-        "rule_df2b439be01e33fcbd8c",
-        "rule_0bbb99ebdc6d8fa6c022",
-        "rule_d7bef8ca16b351a7bce9",
-        "rule_050e0e1b675d0ae672ff",
-        "rule_c37617fad36bc3ac37d8"
-      ],
-      "activeRules": 6
-    },
-    {
       "sourceUrl": "https://www.o-bank.com/retail/debit/cobranded-card",
       "bank": "王道銀行",
       "ruleIds": [
@@ -1136,19 +1081,6 @@
       "activeRules": 6
     },
     {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/product/",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_0b7eb0c8323f0d2aa1bb",
-        "rule_7b0956a568f4f24fce1b",
-        "rule_1f14fde75bbb01b8bb15",
-        "rule_e38244f1fde2d680cb8b",
-        "rule_905828d5571bca370d77",
-        "rule_b7776e5750d8c5bc5c04"
-      ],
-      "activeRules": 6
-    },
-    {
       "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/dualcurrency-card",
       "bank": "玉山銀行",
       "ruleIds": [
@@ -1158,6 +1090,32 @@
         "rule_d3e66f2b3755ac949e30",
         "rule_40accacc35e5191537e9",
         "rule_faacc3781c8c3bf845ff"
+      ],
+      "activeRules": 6
+    },
+    {
+      "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm",
+      "bank": "台北富邦",
+      "ruleIds": [
+        "rule_1e7886a6c7abf45fbb06",
+        "rule_3a37d276878e74d857fa",
+        "rule_6c27b4aeaeb5bae1ed8c",
+        "rule_c19cd0d93b7ebd3e9628",
+        "rule_c367d1f02c63ac44a904",
+        "rule_5528ee8604ce82e14eb9"
+      ],
+      "activeRules": 6
+    },
+    {
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+      "bank": "中國信託",
+      "ruleIds": [
+        "rule_13201a04e5a7487bd9ec",
+        "rule_e0dff6edb148eac8f40a",
+        "rule_eee35ef6bc1dffa9e1e8",
+        "rule_00032bdb9ad21c7db12c",
+        "rule_76ec54b3268e76e7cc8e",
+        "rule_e35f9806a2d59df42dd2"
       ],
       "activeRules": 6
     },
@@ -1378,18 +1336,6 @@
       "activeRules": 5
     },
     {
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=1",
-      "bank": "悠遊付",
-      "ruleIds": [
-        "rule_ef0e8554e33bb7c24900",
-        "rule_b56b054a3bc350b0e94e",
-        "rule_9caee479a24b10dc977a",
-        "rule_23aee6deec89ac0cf78d",
-        "rule_bd93cc1ad5063cd831e7"
-      ],
-      "activeRules": 5
-    },
-    {
       "sourceUrl": "https://www.landbank.com.tw/Category/Bulletins/%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF",
       "bank": "臺灣土地銀行",
       "ruleIds": [
@@ -1453,18 +1399,6 @@
       "activeRules": 5
     },
     {
-      "sourceUrl": "https://www.hncb.com.tw/wps/portal/HNCB/card",
-      "bank": "華南銀行",
-      "ruleIds": [
-        "rule_6fbcd6869293d0fd5aa6",
-        "rule_de41e1eaaf5b4b0dec72",
-        "rule_d56f06dc9cd41c8f6f4e",
-        "rule_e8e8cc7ca73df0f4b659",
-        "rule_7d80330553bc68040f72"
-      ],
-      "activeRules": 5
-    },
-    {
       "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/manage/credit-staging-single.html",
       "bank": "永豐銀行",
       "ruleIds": [
@@ -1497,6 +1431,30 @@
         "rule_83e652ca8a24477edc66",
         "rule_c412c6120dfe8c72bb6c",
         "rule_b9897732b93058e343d3"
+      ],
+      "activeRules": 5
+    },
+    {
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
+      "bank": "元大銀行",
+      "ruleIds": [
+        "rule_e4f6bec18897814a1a8e",
+        "rule_19a62bee548831487e69",
+        "rule_200e66fc1dec26d352e4",
+        "rule_441384e5fd1a52ac89b7",
+        "rule_678f08863147ef23aad4"
+      ],
+      "activeRules": 5
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2479&l-id=corp_pc_top_cpn2479",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_3d2a8b41d8c3a340fdf0",
+        "rule_bf2b164e384aaa071496",
+        "rule_51b5add870fae0dbbe23",
+        "rule_9de7a662598e972ec272",
+        "rule_3269ab145707215f2375"
       ],
       "activeRules": 5
     },
@@ -1542,17 +1500,6 @@
         "rule_39e76e545aafcc30d54b",
         "rule_bfa2f7d990d9ae2514c7",
         "rule_b5fb57ff8c5a9af57689"
-      ],
-      "activeRules": 4
-    },
-    {
-      "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm",
-      "bank": "台北富邦",
-      "ruleIds": [
-        "rule_672964a76204cb286d23",
-        "rule_fafa9ec9ab43c01051aa",
-        "rule_6fe9bdb1b00afef16a74",
-        "rule_c19cd0d93b7ebd3e9628"
       ],
       "activeRules": 4
     },
@@ -1643,17 +1590,6 @@
         "rule_35cc7827adb12b7fef38",
         "rule_312e20b25b7b7697f39e",
         "rule_33109ad516364d5b8e16"
-      ],
-      "activeRules": 4
-    },
-    {
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026500BOWL/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards_offers_2026500BOWL",
-      "bank": "星展銀行",
-      "ruleIds": [
-        "rule_a46ceadf5a1c0d8b6262",
-        "rule_03e46cf0134f6f19d6c7",
-        "rule_0b2d54261272614b91a0",
-        "rule_75e955272165ef62ce15"
       ],
       "activeRules": 4
     },
@@ -1768,17 +1704,6 @@
       "activeRules": 4
     },
     {
-      "sourceUrl": "https://www.easycard.com.tw/news",
-      "bank": "悠遊付",
-      "ruleIds": [
-        "rule_c1a36400a08dedeeac57",
-        "rule_68e8848fbd156ddd0c20",
-        "rule_ffa9612045f8e8733dc6",
-        "rule_d812c9e350c47566dbf7"
-      ],
-      "activeRules": 4
-    },
-    {
       "sourceUrl": "https://www.hsbc.com.tw/premier/promotions/",
       "bank": "滙豐銀行",
       "ruleIds": [
@@ -1841,6 +1766,28 @@
         "rule_bd297f612a58a7dbcf7f",
         "rule_6def78cceefdc8439925",
         "rule_dab5e4087480dd8798e6"
+      ],
+      "activeRules": 4
+    },
+    {
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=1",
+      "bank": "悠遊付",
+      "ruleIds": [
+        "rule_f255de93859b1c5b0b77",
+        "rule_7819c6974236f97275ba",
+        "rule_9a6b7fbfc3715a8e2472",
+        "rule_9dbda369ee1fdadc187b"
+      ],
+      "activeRules": 4
+    },
+    {
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1",
+      "bank": "悠遊付",
+      "ruleIds": [
+        "rule_d059d4b15f19eb954481",
+        "rule_f62283e9e9b029b88525",
+        "rule_23a388cdc33d9a4e8dcd",
+        "rule_a7a13412975160605858"
       ],
       "activeRules": 4
     },
@@ -2252,16 +2199,6 @@
       "activeRules": 3
     },
     {
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1",
-      "bank": "悠遊付",
-      "ruleIds": [
-        "rule_2c4e5bfeb39be8ace08e",
-        "rule_3094b204a258af965123",
-        "rule_ae25447794a7f1d4192d"
-      ],
-      "activeRules": 3
-    },
-    {
       "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/dbs-credit-cards/default.page?pid=tw-pweb-personal_zh-cards-header",
       "bank": "星展銀行",
       "ruleIds": [
@@ -2282,26 +2219,6 @@
       "activeRules": 3
     },
     {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2435",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_ed196a0119cf8dbe49dd",
-        "rule_899663173d48e0854795",
-        "rule_3c04b3d76e85c0b99a33"
-      ],
-      "activeRules": 3
-    },
-    {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2462&l-id=corp_pc_top_cpn2462",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_99b5264a9420817890fc",
-        "rule_75065800d0784d9eb99a",
-        "rule_a85bde3fd037a09179af"
-      ],
-      "activeRules": 3
-    },
-    {
       "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/debit/debit.html",
       "bank": "永豐銀行",
       "ruleIds": [
@@ -2318,6 +2235,16 @@
         "rule_e3ece65cfb2ba6e0ce83",
         "rule_ac87e3fd8cf89ac0b4f8",
         "rule_d259cbe803bfa61173f1"
+      ],
+      "activeRules": 3
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2462&l-id=corp_pc_top_cpn2462",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_c8180314e731cb88a75c",
+        "rule_b8e76051fad983339788",
+        "rule_143659d119b0c11aa581"
       ],
       "activeRules": 3
     },
@@ -2953,15 +2880,6 @@
       "activeRules": 2
     },
     {
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793773540",
-      "bank": "悠遊付",
-      "ruleIds": [
-        "rule_03b6446545ec35a262ab",
-        "rule_06a7284f99ad067097c4"
-      ],
-      "activeRules": 2
-    },
-    {
       "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/all_card/Guardians_Braves/Guardians_Braves.htm",
       "bank": "台北富邦",
       "ruleIds": [
@@ -3038,51 +2956,6 @@
       "activeRules": 2
     },
     {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2304",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_a0f9efaa871ca8a9bf98",
-        "rule_0ea5b1e1712017310a38"
-      ],
-      "activeRules": 2
-    },
-    {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/rakuten.xhtml",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_96b9ff9cdf316083dbc2",
-        "rule_635c5b7354d39a042780"
-      ],
-      "activeRules": 2
-    },
-    {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/product/insurance.xhtml",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_2d92e125c4e65b93190f",
-        "rule_0056048c867b03090630"
-      ],
-      "activeRules": 2
-    },
-    {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2387&l-id=corp_pc_top_cpn2387",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_846c4fc1702e93e5ec65",
-        "rule_f6f4909239051db9e9a6"
-      ],
-      "activeRules": 2
-    },
-    {
-      "sourceUrl": "https://www.taishinbank.com.tw/TSB/personal/credit/",
-      "bank": "台新銀行",
-      "ruleIds": [
-        "rule_313b4b64502cfa90b1aa",
-        "rule_0ecf637fee3801f3db4c"
-      ],
-      "activeRules": 2
-    },
-    {
       "sourceUrl": "https://bank.sinopac.com/sinopacBT/personal/credit-card/introduction/bankcard/cashcard.html",
       "bank": "永豐銀行",
       "ruleIds": [
@@ -3097,6 +2970,108 @@
       "ruleIds": [
         "rule_8e5a420e592b258f4e11",
         "rule_bafff15d9838a9ff0ad0"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2304",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_16c5c3684521c6877f11",
+        "rule_2b43dd8a2de285fda70a"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2435",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_1ccde936d496357e417a",
+        "rule_53e3525716dddf44b0d7"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/product/",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_e8a7ed3ad53edd9d781b",
+        "rule_3296a61c118c05fdc690"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/rakuten.xhtml",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_96b9ff9cdf316083dbc2",
+        "rule_37cdd66f9b3c08588d0f"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2387&l-id=corp_pc_top_cpn2387",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_0e732277ceb866b04b9a",
+        "rule_f21ddabeec09806cdd23"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.entiebank.com.tw/EntieWebMigrateFiles/1140186/1140186c.htm",
+      "bank": "安泰銀行",
+      "ruleIds": [
+        "rule_95a9273a2de300ec5f5a",
+        "rule_7dac2b872ddb1242eba4"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1794197239",
+      "bank": "悠遊付",
+      "ruleIds": [
+        "rule_53f41a246dceb62d9028",
+        "rule_286dff8dba41a3ca0735"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793773540",
+      "bank": "悠遊付",
+      "ruleIds": [
+        "rule_ee26e1a54b742dc2ef23",
+        "rule_9283f222f06e0848d481"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=2",
+      "bank": "悠遊付",
+      "ruleIds": [
+        "rule_f55b5bbb10b79a699e62",
+        "rule_9a356f085a4eb9bdfdf0",
+        "rule_f0838c70baf874bfb8e4",
+        "rule_c2a5d06639baee0d7da7"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=4",
+      "bank": "悠遊付",
+      "ruleIds": [
+        "rule_92ff8c4585f3d63b8ae7",
+        "rule_2d9b13c5ebc9abf39c7d",
+        "rule_d1be9bb249d3a68645b4"
+      ],
+      "activeRules": 2
+    },
+    {
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=5",
+      "bank": "悠遊付",
+      "ruleIds": [
+        "rule_40d016616f9f79d134ab",
+        "rule_cb8b6d938dd0ac9886b0"
       ],
       "activeRules": 2
     },
@@ -4383,14 +4358,6 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.tcbbank.com.tw/CreditCard/J_51.html",
-      "bank": "台中銀行",
-      "ruleIds": [
-        "rule_2e9da295ef1a3cd2e2be"
-      ],
-      "activeRules": 1
-    },
-    {
       "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/debit_20261231_14",
       "bank": "王道銀行",
       "ruleIds": [
@@ -4415,14 +4382,6 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/index.do",
-      "bank": "元大銀行",
-      "ruleIds": [
-        "rule_9ca14e60298f1ba22f91"
-      ],
-      "activeRules": 1
-    },
-    {
       "sourceUrl": "https://www.yuantabank.com.tw/bank/activity/list.do",
       "bank": "元大銀行",
       "ruleIds": [
@@ -4443,56 +4402,6 @@
       "bank": "悠遊付",
       "ruleIds": [
         "rule_b46b541d790a2a5c006f"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1794197239",
-      "bank": "悠遊付",
-      "ruleIds": [
-        "rule_28b62005a5b45b17baff"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1792119354",
-      "bank": "悠遊付",
-      "ruleIds": [
-        "rule_a9e38bbce09ad0a51866"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1788231265",
-      "bank": "悠遊付",
-      "ruleIds": [
-        "rule_642e3f980cf681ccdf0b"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=3",
-      "bank": "悠遊付",
-      "ruleIds": [
-        "rule_60d675a85afddd218d52",
-        "rule_e8bfae76f67f4a413977"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=4",
-      "bank": "悠遊付",
-      "ruleIds": [
-        "rule_0b02cfbb20383deffaf4",
-        "rule_d1be9bb249d3a68645b4"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=5",
-      "bank": "悠遊付",
-      "ruleIds": [
-        "rule_2eeedee485121072900d"
       ],
       "activeRules": 1
     },
@@ -4689,14 +4598,6 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/japan-benefit/",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_8db25d32488fda87176e"
-      ],
-      "activeRules": 1
-    },
-    {
       "sourceUrl": "https://www.o-bank.com/retail/debit/cardmain_New",
       "bank": "王道銀行",
       "ruleIds": [
@@ -4713,90 +4614,10 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/coupon/",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_ede621e6cbe50e9f3367"
-      ],
-      "activeRules": 1
-    },
-    {
       "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/2026111103",
       "bank": "王道銀行",
       "ruleIds": [
         "rule_ed0ba660683af3accfa8"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/merchant-installment/",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_49a700cfbb0ac0f609e2"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2479&l-id=corp_pc_top_cpn2479",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_3d2a8b41d8c3a340fdf0"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2476&l-id=corp_pc_top_cpn2476",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_b37cf21a80d4ac2b704e"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2461&l-id=corp_pc_top_cpn2461",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_49850d7a6f940b7b580c"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2487&l-id=corp_pc_top_cpn2487",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_61ecf4b97965f7406849"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2486&l-id=corp_pc_top_cpn2486",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_0a4916ef098237197e80"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2435&l-id=corp_pc_top_cpn2435",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_b5e96053cafb61432f8e"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2474&l-id=corp_pc_top_cpn2474",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_77660030d03018b213f8"
-      ],
-      "activeRules": 1
-    },
-    {
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2216&l-id=corp_pc_top_cpn2216",
-      "bank": "樂天信用卡",
-      "ruleIds": [
-        "rule_2133f6d69d81d11704f1"
       ],
       "activeRules": 1
     },
@@ -4833,14 +4654,6 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.nextbank.com.tw/events",
-      "bank": "將來銀行",
-      "ruleIds": [
-        "rule_6e7dfedf47b32197b371"
-      ],
-      "activeRules": 1
-    },
-    {
       "sourceUrl": "https://www.easycard.com.tw/offer?cls=1506473490%2C&id=1789720786",
       "bank": "悠遊付",
       "ruleIds": [
@@ -4849,10 +4662,138 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2373",
-      "bank": "icash Pay",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/payment/e_pay",
+      "bank": "玉山銀行",
       "ruleIds": [
-        "rule_03c6624bfab0b5fd3b70"
+        "rule_ad76d3989efda364142b"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026500BOWL/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards_offers_2026500BOWL",
+      "bank": "星展銀行",
+      "ruleIds": [
+        "rule_24f137ba6c6cd9523a1c"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_4ecbcd862ea4f41bda00"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/index.do",
+      "bank": "元大銀行",
+      "ruleIds": [
+        "rule_9ca14e60298f1ba22f91"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/coupon/",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_b174d515bd30a658e01e"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/merchant-installment/",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_a2268331101515ede8de"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/product/insurance.xhtml",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_f295c617b755eb8274ea"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2476&l-id=corp_pc_top_cpn2476",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_6ccdee6dc6e8715cf8b3"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2461&l-id=corp_pc_top_cpn2461",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_49850d7a6f940b7b580c"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2487&l-id=corp_pc_top_cpn2487",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_61ecf4b97965f7406849"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2486&l-id=corp_pc_top_cpn2486",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_d4864f9db8a6ecec0e81"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2435&l-id=corp_pc_top_cpn2435",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_b5e96053cafb61432f8e"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2474&l-id=corp_pc_top_cpn2474",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_bca39bb03a8d0a74364c"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2216&l-id=corp_pc_top_cpn2216",
+      "bank": "樂天信用卡",
+      "ruleIds": [
+        "rule_6d8f5bc25b2eaae117ad"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.feib.com.tw/upload/creditcard/MGM/index.html",
+      "bank": "遠東商銀",
+      "ruleIds": [
+        "rule_790e4271b7e04eeb83df"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.nextbank.com.tw/events",
+      "bank": "將來銀行",
+      "ruleIds": [
+        "rule_6e7dfedf47b32197b371"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.feib.com.tw/activity?id=4893",
+      "bank": "遠東商銀",
+      "ruleIds": [
+        "rule_09fb6772c66cf4808616"
       ],
       "activeRules": 1
     },
@@ -4865,18 +4806,35 @@
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.feib.com.tw/activity?id=4841",
-      "bank": "遠東商銀",
+      "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2373",
+      "bank": "icash Pay",
       "ruleIds": [
-        "rule_969c6a5e07cdd4f5f27e"
+        "rule_03c6624bfab0b5fd3b70"
       ],
       "activeRules": 1
     },
     {
-      "sourceUrl": "https://www.o-bank.com/retail",
-      "bank": "王道銀行",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1792119354",
+      "bank": "悠遊付",
       "ruleIds": [
-        "rule_2c31d0b34fc70a84b094"
+        "rule_a9e38bbce09ad0a51866"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1788231265",
+      "bank": "悠遊付",
+      "ruleIds": [
+        "rule_d2de8f17fe15a803ac15"
+      ],
+      "activeRules": 1
+    },
+    {
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=3",
+      "bank": "悠遊付",
+      "ruleIds": [
+        "rule_3f649958ec03e880eba6",
+        "rule_ab89e333eb67a777121d"
       ],
       "activeRules": 1
     },
@@ -4944,14 +4902,6 @@
       "bank": "王道銀行",
       "ruleIds": [
         "rule_ea10536a444e1de17d68"
-      ],
-      "activeRules": 0
-    },
-    {
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/wd-twseries-2026",
-      "bank": "王道銀行",
-      "ruleIds": [
-        "rule_f122284224f465858a41"
       ],
       "activeRules": 0
     },
@@ -5041,36 +4991,11 @@
       "activeRules": 0
     },
     {
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1791859616",
-      "bank": "悠遊付",
-      "ruleIds": [
-        "rule_d353bc891f1529b94d7a"
-      ],
-      "activeRules": 0
-    },
-    {
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1790129374",
-      "bank": "悠遊付",
-      "ruleIds": [
-        "rule_f292a268620da6c1e7d3"
-      ],
-      "activeRules": 0
-    },
-    {
       "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1788145840",
       "bank": "悠遊付",
       "ruleIds": [
         "rule_19d43126f7640726f6f0",
         "rule_eab01e1670c7dd53b6f8"
-      ],
-      "activeRules": 0
-    },
-    {
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=2",
-      "bank": "悠遊付",
-      "ruleIds": [
-        "rule_9a356f085a4eb9bdfdf0",
-        "rule_f0838c70baf874bfb8e4"
       ],
       "activeRules": 0
     },
@@ -5087,6 +5012,30 @@
       "bank": "永豐銀行",
       "ruleIds": [
         "rule_8cc9cf307e7c6c098d47"
+      ],
+      "activeRules": 0
+    },
+    {
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=2&id=1794298583",
+      "bank": "悠遊付",
+      "ruleIds": [
+        "rule_1d344912d76292cabd3f"
+      ],
+      "activeRules": 0
+    },
+    {
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1791859616",
+      "bank": "悠遊付",
+      "ruleIds": [
+        "rule_d353bc891f1529b94d7a"
+      ],
+      "activeRules": 0
+    },
+    {
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1790129374",
+      "bank": "悠遊付",
+      "ruleIds": [
+        "rule_f292a268620da6c1e7d3"
       ],
       "activeRules": 0
     }
@@ -8060,58 +8009,6 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_672964a76204cb286d23",
-      "bank": "台北富邦",
-      "title": "Costco消費最高3%無上限",
-      "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_fafa9ec9ab43c01051aa",
-      "bank": "台北富邦",
-      "title": "UberEats好市多專區消費2%回饋無上限",
-      "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_6fe9bdb1b00afef16a74",
-      "bank": "台北富邦",
-      "title": "精選海外旅遊最高回饋5%",
-      "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_c19cd0d93b7ebd3e9628",
-      "bank": "台北富邦",
-      "title": "高鐵/臺鐵購票最高8%回饋",
-      "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
       ]
     },
     {
@@ -13853,19 +13750,6 @@
       ]
     },
     {
-      "id": "rule_f122284224f465858a41",
-      "bank": "王道銀行",
-      "title": "味全龍奪冠應援 第一重：贏球隔日指定行動支付享最高3%現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail/event/event-announce/wd-twseries-2026",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "活動已截止"
-      ]
-    },
-    {
       "id": "rule_b365ed7453383f9eaa97",
       "bank": "王道銀行",
       "title": "一卡通卡友限定！刷卡消費限時最高享3%現金回饋",
@@ -14012,58 +13896,6 @@
       "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/ce/default.html?pid=tw-pweb-personal-card-featured_cardtile-cards-offers-online-shopping",
       "lifecycle": "ACTIVE_OR_UNKNOWN",
       "reviewStatus": "RECHECK_REQUIRED",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "非保證現金回饋"
-      ]
-    },
-    {
-      "id": "rule_a46ceadf5a1c0d8b6262",
-      "bank": "星展銀行",
-      "title": "500碗 2026 美食踩點優惠",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026500BOWL/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards_offers_2026500BOWL",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
-      "id": "rule_03e46cf0134f6f19d6c7",
-      "bank": "星展銀行",
-      "title": "500甜 2026 美食踩點優惠",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026500BOWL/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards_offers_2026500BOWL",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
-      "id": "rule_0b2d54261272614b91a0",
-      "bank": "星展銀行",
-      "title": "500盤 2026 美食踩點優惠",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026500BOWL/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards_offers_2026500BOWL",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
-      "id": "rule_75e955272165ef62ce15",
-      "bank": "星展銀行",
-      "title": "美食踩點特務行動 - 抽 500 盤 2026 年 紅棉萬元星級套餐",
-      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026500BOWL/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards_offers_2026500BOWL",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
       "comparable": false,
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
@@ -19378,151 +19210,6 @@
       ]
     },
     {
-      "id": "rule_4b620931ac810af6ac52",
-      "bank": "中國信託",
-      "title": "大樹藥局每週三六最高6%回饋與好禮",
-      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "累積消費資格未確認"
-      ]
-    },
-    {
-      "id": "rule_50c565477e23c67188c0",
-      "bank": "中國信託",
-      "title": "CASETiFY 享 LINE POINTS 4%",
-      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_f97cc309d19810a6ed42",
-      "bank": "中國信託",
-      "title": "Verve 享最高85折與 LINE POINTS 5%",
-      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_901f9a05bde3d2c80695",
-      "bank": "中國信託",
-      "title": "FUNTE 享 LINE POINTS 5%",
-      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_137786dea97ff158b812",
-      "bank": "中國信託",
-      "title": "綠綠好日 享現折500元與 LINE POINTS 5%",
-      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_5697d5d1792825fffdae",
-      "bank": "中國信託",
-      "title": "GoAmazing 購精彩 享9折與最高 LINE POINTS 6%",
-      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_272490d422d162231a70",
-      "bank": "中國信託",
-      "title": "KKBOX 訂閱專屬方案享8折與 LINE POINTS 5%",
-      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_4be2d79dcec24d8afbbe",
-      "bank": "中國信託",
-      "title": "Netflix 登錄享 LINE POINTS 5%",
-      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_8ae6cd886d3dd62f2f3a",
-      "bank": "中國信託",
-      "title": "Under Armour 享 LINE POINTS 7%",
-      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_adf7542021932792842b",
-      "bank": "中國信託",
-      "title": "唐吉訶德 登錄享 LINE POINTS 10%",
-      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_e4c29db1d06cc28954a1",
-      "bank": "中國信託",
-      "title": "宜得利家居 登錄享 LINE POINTS 10%",
-      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_f1d23b9715b8b8b7e193",
-      "bank": "中國信託",
-      "title": "IKEA 登錄享 LINE POINTS 5%",
-      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
       "id": "rule_76ee1188c75e5832a891",
       "bank": "中國信託",
       "title": "國外實體商店消費最高5%回饋",
@@ -19994,19 +19681,6 @@
       ]
     },
     {
-      "id": "rule_2e9da295ef1a3cd2e2be",
-      "bank": "台中銀行",
-      "title": "特店分期0利率",
-      "sourceUrl": "https://www.tcbbank.com.tw/CreditCard/J_51.html",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "非保證現金回饋"
-      ]
-    },
-    {
       "id": "rule_ab52ef6eda8ce9a9be21",
       "bank": "王道銀行",
       "title": "新戶綁定指定行動支付刷卡最高享5%現金回饋",
@@ -20258,156 +19932,6 @@
       ]
     },
     {
-      "id": "rule_9ca14e60298f1ba22f91",
-      "bank": "元大銀行",
-      "title": "新戶申辦鑽金智富卡或黑啤分享卡消費達檻登錄享刷卡金新臺幣777元",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/index.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "固定回饋門檻或計次方式未確認"
-      ]
-    },
-    {
-      "id": "rule_e4f6bec18897814a1a8e",
-      "bank": "元大銀行",
-      "title": "綁定 Apple Pay 筆筆20%回饋，最高享200元刷卡金",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_19a62bee548831487e69",
-      "bank": "元大銀行",
-      "title": "元大悠遊聯名卡自動加值享20%",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_200e66fc1dec26d352e4",
-      "bank": "元大銀行",
-      "title": "新戶申辦鑽金智富卡或分享黑啤卡消費達檻登錄享刷卡金新臺幣777元",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "固定回饋門檻或計次方式未確認"
-      ]
-    },
-    {
-      "id": "rule_fee46e230667a4a89585",
-      "bank": "元大銀行",
-      "title": "新申辦Mastercard信用卡綁定LINE Pay支付享10%回饋",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_6984519885387a7fd11c",
-      "bank": "元大銀行",
-      "title": "元大悠遊卡於全聯福利中心購物享優惠 單筆消費滿300元贈200點福利點",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_c549eb201edf8db2ee2d",
-      "bank": "元大銀行",
-      "title": "元大信用卡x全支付百大特店週週享5%，首綁滿299元再享50全點",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_678f08863147ef23aad4",
-      "bank": "元大銀行",
-      "title": "元大卡 x icash Pay 7-11實體門巿消費10%活動",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_d6ee0d722de7a3179b59",
-      "bank": "元大銀行",
-      "title": "王品瘋美食!美味享不停~最高享10%",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_06a35bf0e02091bf4478",
-      "bank": "元大銀行",
-      "title": "元大信用卡 × 全盈＋PAY滿168元享5%刷卡金回饋",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_350d3548b1e274734b6e",
-      "bank": "元大銀行",
-      "title": "元大信用卡 × 悠遊付消費滿168元享5%刷卡金",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_07f7927e18d18ea37ae1",
-      "bank": "元大銀行",
-      "title": "【寶雅】POYA Pay單筆消費滿699元贈寶雅會員點數20,000點",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
       "id": "rule_d4310d787cecef9c82e9",
       "bank": "元大銀行",
       "title": "新戶申辦鑽金智富卡或黑啤分享卡消費達檻登錄享刷卡金新臺幣777元",
@@ -20480,116 +20004,6 @@
       ]
     },
     {
-      "id": "rule_c1a36400a08dedeeac57",
-      "bank": "悠遊付",
-      "title": "雙11狂歡購！悠遊付消費回饋再加碼",
-      "sourceUrl": "https://www.easycard.com.tw/news",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_68e8848fbd156ddd0c20",
-      "bank": "悠遊付",
-      "title": "東門中繼市場開幕慶",
-      "sourceUrl": "https://www.easycard.com.tw/news",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_ffa9612045f8e8733dc6",
-      "bank": "悠遊付",
-      "title": "悠遊付繳納地價稅筆筆3%回饋",
-      "sourceUrl": "https://www.easycard.com.tw/news",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_d812c9e350c47566dbf7",
-      "bank": "悠遊付",
-      "title": "friDay購物悠遊付－狂購節",
-      "sourceUrl": "https://www.easycard.com.tw/news",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
-      "id": "rule_ef0e8554e33bb7c24900",
-      "bank": "悠遊付",
-      "title": "雙11搶券月曆",
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=1",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_b56b054a3bc350b0e94e",
-      "bank": "悠遊付",
-      "title": "momo購物網雙11狂歡購",
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=1",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_9caee479a24b10dc977a",
-      "bank": "悠遊付",
-      "title": "東門中繼市場開幕慶",
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=1",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_23aee6deec89ac0cf78d",
-      "bank": "悠遊付",
-      "title": "悠遊付繳納地價稅筆筆3%回饋",
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=1",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_bd93cc1ad5063cd831e7",
-      "bank": "悠遊付",
-      "title": "friDay購物悠遊付－狂購節",
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=1",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
       "id": "rule_6bdff9fec4e90f377288",
       "bank": "悠遊付",
       "title": "全家便利商店 悠遊付錢包帳戶滿百筆筆回饋3%",
@@ -20606,193 +20020,6 @@
       "bank": "悠遊付",
       "title": "高雄捷運掃悠遊付乘車碼 筆筆回饋30%",
       "sourceUrl": "https://www.easycard.com.tw/offer?cls=1508721884%2C1506473503%2C1506473490%2C&id=1792474967",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_28b62005a5b45b17baff",
-      "bank": "悠遊付",
-      "title": "momo購物網 雙11狂歡購最高8%回饋",
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1794197239",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_03b6446545ec35a262ab",
-      "bank": "悠遊付",
-      "title": "東門中繼市場開幕慶！悠遊付消費最高享13%回饋金",
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793773540",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_06a7284f99ad067097c4",
-      "bank": "悠遊付",
-      "title": "東門中繼市場開幕慶！新會員加碼送$50",
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793773540",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "固定回饋門檻或計次方式未確認"
-      ]
-    },
-    {
-      "id": "rule_fd2895779d22f25c1dbd",
-      "bank": "悠遊付",
-      "title": "悠遊付繳納地價稅筆筆3%回饋金",
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_c82a9fc1dffc7dee7b95",
-      "bank": "悠遊付",
-      "title": "悠遊付繳納地價稅早鳥滿額送$100",
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "活動已截止"
-      ]
-    },
-    {
-      "id": "rule_9d013a697ef55fd5b273",
-      "bank": "悠遊付",
-      "title": "悠遊付繳納地價稅滿額回饋券$600",
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
-      "id": "rule_ad717f276714babf1534",
-      "bank": "悠遊付",
-      "title": "悠遊付繳納地價稅高額滿額禮$200",
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
-      "id": "rule_3ba149a0ca6ab7dcc070",
-      "bank": "悠遊付",
-      "title": "台中銀行數位存款帳戶禮",
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_9da608b8e3492e4c6077",
-      "bank": "悠遊付",
-      "title": "台中銀行一般存款帳戶禮",
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_2f3fab0268cec585cc0e",
-      "bank": "悠遊付",
-      "title": "第一銀行iLEO數位帳戶新戶禮",
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_c5d6cd1dd2275a678f04",
-      "bank": "悠遊付",
-      "title": "第一銀行週五5%回饋",
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_a9e38bbce09ad0a51866",
-      "bank": "悠遊付",
-      "title": "friDay購物悠遊付－狂購節",
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1792119354",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
-      "id": "rule_d353bc891f1529b94d7a",
-      "bank": "悠遊付",
-      "title": "南門週年感謝祭-悠遊付滿額最高享30%回饋",
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1791859616",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "活動已截止"
-      ]
-    },
-    {
-      "id": "rule_f292a268620da6c1e7d3",
-      "bank": "悠遊付",
-      "title": "日常採買悠遊付滿額最高10%回饋",
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1790129374",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "活動已截止"
-      ]
-    },
-    {
-      "id": "rule_642e3f980cf681ccdf0b",
-      "bank": "悠遊付",
-      "title": "赴韓旅遊必備悠遊付 每筆最高送12%回饋",
-      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1788231265",
       "lifecycle": "ACTIVE_OR_UNKNOWN",
       "reviewStatus": "PENDING",
       "comparable": false,
@@ -20824,134 +20051,6 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "活動已截止"
-      ]
-    },
-    {
-      "id": "rule_2c4e5bfeb39be8ace08e",
-      "bank": "悠遊付",
-      "title": "雙11狂歡購-momo購物網消費回饋",
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_3094b204a258af965123",
-      "bank": "悠遊付",
-      "title": "東門中繼市場開幕慶",
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_ae25447794a7f1d4192d",
-      "bank": "悠遊付",
-      "title": "悠遊付繳納地價稅優惠",
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_9a356f085a4eb9bdfdf0",
-      "bank": "悠遊付",
-      "title": "南門週年感謝祭-悠遊付滿額最高享30%回饋",
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=2",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "活動已截止"
-      ]
-    },
-    {
-      "id": "rule_f0838c70baf874bfb8e4",
-      "bank": "悠遊付",
-      "title": "日常採買悠遊付滿額最高10%回饋",
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=2",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "活動已截止"
-      ]
-    },
-    {
-      "id": "rule_60d675a85afddd218d52",
-      "bank": "悠遊付",
-      "title": "赴韓旅遊使用悠遊付最高享12%回饋",
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=3",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_e8bfae76f67f4a413977",
-      "bank": "悠遊付",
-      "title": "悠遊付繳納學雜費最高10%回饋",
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=3",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "活動已截止"
-      ]
-    },
-    {
-      "id": "rule_0b02cfbb20383deffaf4",
-      "bank": "悠遊付",
-      "title": "金門縣民卡數位化會員開通獨享現金回饋券",
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=4",
-      "lifecycle": "EXPIRED",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "活動已截止"
-      ]
-    },
-    {
-      "id": "rule_d1be9bb249d3a68645b4",
-      "bank": "悠遊付",
-      "title": "悠遊付暢遊金門最高123%回饋",
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=4",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_2eeedee485121072900d",
-      "bank": "悠遊付",
-      "title": "「減塑Easy Life」第二波「集集樂挑戰賽」",
-      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=5",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "累積消費資格未確認"
       ]
     },
     {
@@ -21739,85 +20838,6 @@
       ]
     },
     {
-      "id": "rule_f24892f736f4ed3f1c0a",
-      "bank": "安泰銀行",
-      "title": "【MasterCard鈦金卡】行動支付/海外消費 最高2.7%回饋",
-      "sourceUrl": "https://www.entiebank.com.tw/entie/1_3_2_1",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_df2b439be01e33fcbd8c",
-      "bank": "安泰銀行",
-      "title": "【MasterCard分期卡】行動支付0.5%回饋",
-      "sourceUrl": "https://www.entiebank.com.tw/entie/1_3_2_1",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "回饋上限適用範圍未確認"
-      ]
-    },
-    {
-      "id": "rule_0bbb99ebdc6d8fa6c022",
-      "bank": "安泰銀行",
-      "title": "【保費輕鬆繳】最高2.2%刷卡金回饋",
-      "sourceUrl": "https://www.entiebank.com.tw/entie/1_3_2_1",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_d7bef8ca16b351a7bce9",
-      "bank": "安泰銀行",
-      "title": "刷安泰JCB卡預訂日本飯店 最高享18%回饋",
-      "sourceUrl": "https://www.entiebank.com.tw/entie/1_3_2_1",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "UNRESOLVED_CARD_ASSOCIATION",
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_050e0e1b675d0ae672ff",
-      "bank": "安泰銀行",
-      "title": "【安泰萬事達卡】Agoda全球訂房最高88折起",
-      "sourceUrl": "https://www.entiebank.com.tw/entie/1_3_2_1",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_c37617fad36bc3ac37d8",
-      "bank": "安泰銀行",
-      "title": "【安泰VISA信用卡】Agoda訂房最高享7%折扣",
-      "sourceUrl": "https://www.entiebank.com.tw/entie/1_3_2_1",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
       "id": "rule_14782dfb13a04c473587",
       "bank": "王道銀行",
       "title": "2026年基本現金回饋方案",
@@ -22410,135 +21430,6 @@
       ]
     },
     {
-      "id": "rule_41e5f1399920d50aa95c",
-      "bank": "樂天信用卡",
-      "title": "樂天Panda J卡 國內指定通路最高3%回饋",
-      "sourceUrl": "https://www.card.rakuten.com.tw/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_c4a348ec2ec7d9e7cfd5",
-      "bank": "樂天信用卡",
-      "title": "樂天Panda J卡 日韓泰實體交易最高4%回饋",
-      "sourceUrl": "https://www.card.rakuten.com.tw/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_7dbbe16171ce3a1938e1",
-      "bank": "樂天信用卡",
-      "title": "樂天樂翔卡 海外消費樂翔積分NT6元1點",
-      "sourceUrl": "https://www.card.rakuten.com.tw/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_06c2ec446a787b8c883a",
-      "bank": "樂天信用卡",
-      "title": "樂天樂翔卡 國內消費樂翔積分NT18元1點",
-      "sourceUrl": "https://www.card.rakuten.com.tw/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_ac2cdde4e34f33768c22",
-      "bank": "樂天信用卡",
-      "title": "日本大國藥妝刷樂天信用卡最高約18%OFF",
-      "sourceUrl": "https://www.card.rakuten.com.tw/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_03e45fd9c1623503a922",
-      "bank": "樂天信用卡",
-      "title": "日本唐吉訶德刷樂天信用卡最高享免稅10%+7%優惠",
-      "sourceUrl": "https://www.card.rakuten.com.tw/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_bf6a3ac9ceb3da1823f7",
-      "bank": "樂天信用卡",
-      "title": "松本清 / COCOKARA FINE刷樂天信用卡最高享免稅10%+7%OFF",
-      "sourceUrl": "https://www.card.rakuten.com.tw/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_f97e08794ffc948ae452",
-      "bank": "樂天信用卡",
-      "title": "Renta！亂搭刷樂天信用卡首購享70%回饋",
-      "sourceUrl": "https://www.card.rakuten.com.tw/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_8d32c099631a8b7a3f74",
-      "bank": "樂天信用卡",
-      "title": "樂天Visa卡 Trip.com 享最高8% OFF優惠",
-      "sourceUrl": "https://www.card.rakuten.com.tw/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_6dcbc3c75b85c955f07b",
-      "bank": "樂天信用卡",
-      "title": "線上投保明台產險享最高2%刷卡金回饋",
-      "sourceUrl": "https://www.card.rakuten.com.tw/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
       "id": "rule_20cd441cdad529569270",
       "bank": "台新銀行",
       "title": "Just Gold 鎮金店刷台新卡最高享88折",
@@ -22591,282 +21482,6 @@
       ]
     },
     {
-      "id": "rule_a0f9efaa871ca8a9bf98",
-      "bank": "樂天信用卡",
-      "title": "樂天Panda J卡專屬 樂天旅遊訂房享8%折扣",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2304",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_0ea5b1e1712017310a38",
-      "bank": "樂天信用卡",
-      "title": "指定樂天信用卡 樂天旅遊訂房享5%折扣",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2304",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_ed196a0119cf8dbe49dd",
-      "bank": "樂天信用卡",
-      "title": "精選通路最高5%回饋",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2435",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "UNRESOLVED_CARD_ASSOCIATION",
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_899663173d48e0854795",
-      "bank": "樂天信用卡",
-      "title": "樂天桃猿指定實體店面8折優惠",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2435",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_3c04b3d76e85c0b99a33",
-      "bank": "樂天信用卡",
-      "title": "申辦樂天桃猿世界卡滿額送4張內野球票兌換券",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2435",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_0b7eb0c8323f0d2aa1bb",
-      "bank": "樂天信用卡",
-      "title": "樂天Panda J卡 日韓泰實體交易最高4%回饋",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/product/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_7b0956a568f4f24fce1b",
-      "bank": "樂天信用卡",
-      "title": "樂天Panda J卡 國內消費最高3%回饋",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/product/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_1f14fde75bbb01b8bb15",
-      "bank": "樂天信用卡",
-      "title": "樂天Panda J卡 樂天旅遊最高享8%折扣",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/product/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_e38244f1fde2d680cb8b",
-      "bank": "樂天信用卡",
-      "title": "樂天樂翔卡 樂翔積分回饋",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/product/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_905828d5571bca370d77",
-      "bank": "樂天信用卡",
-      "title": "KKday 指定樂天卡專屬優惠現折10%",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/product/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_b7776e5750d8c5bc5c04",
-      "bank": "樂天信用卡",
-      "title": "Renta！亂搭 刷樂天卡首購享70%回饋",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/product/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_1cb7027307c14cd040fc",
-      "bank": "樂天信用卡",
-      "title": "線上投保明台產險旅遊險享最高2%刷卡金回饋",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "非保證現金回饋"
-      ]
-    },
-    {
-      "id": "rule_adf77941116f34bb56fd",
-      "bank": "樂天信用卡",
-      "title": "KKDAY x 樂天Panda J卡滿額折800元",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
-      "id": "rule_366ad6a9c026de2163d1",
-      "bank": "樂天信用卡",
-      "title": "KKDAY x 樂虎卡滿額折1050元",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
-      "id": "rule_11ba9fe5eea0c217e9dc",
-      "bank": "樂天信用卡",
-      "title": "樂虎卡壽星台灣虎航機票最高8折",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_ec1e64138b3577c8896d",
-      "bank": "樂天信用卡",
-      "title": "日本樂天市場滿額送優惠券與RGX轉運2%回饋無上限",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_acb0d1cb7b3f3d1232ad",
-      "bank": "樂天信用卡",
-      "title": "Renta！亂搭刷樂天卡首購享70%回饋",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_e0fe9f8811c26d11087e",
-      "bank": "樂天信用卡",
-      "title": "樂天Panda J卡於樂天旅遊消費最高享8%折扣",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_bd5c77a2f27dc1329955",
-      "bank": "樂天信用卡",
-      "title": "樂天台灣虎航聯名卡國內指定消費最高3%與日韓實體2%無上限",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_3b4a3c19fdadc7679fe8",
-      "bank": "樂天信用卡",
-      "title": "日本大國藥妝免稅門市最高約18%OFF",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_9341008f17d840cc5b0c",
-      "bank": "樂天信用卡",
-      "title": "唐吉訶德享免稅10%+7%優惠",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_1aa6bcd0a8277242ed3a",
-      "bank": "樂天信用卡",
-      "title": "松本清/COCOKARA FINE免稅門市最高享免稅10%+7%OFF",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
       "id": "rule_40f3ff686ddc78def284",
       "bank": "王道銀行",
       "title": "新戶綁定指定行動支付刷卡最高享5%現金回饋",
@@ -22915,48 +21530,10 @@
       ]
     },
     {
-      "id": "rule_8db25d32488fda87176e",
-      "bank": "樂天信用卡",
-      "title": "日本旅遊專屬優惠行程",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/japan-benefit/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "回饋計算方式待確認"
-      ]
-    },
-    {
       "id": "rule_d95b98fefd0763515a71",
       "bank": "王道銀行",
       "title": "2026年基本現金回饋方案",
       "sourceUrl": "https://www.o-bank.com/retail/debit/cardmain_New",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_96b9ff9cdf316083dbc2",
-      "bank": "樂天信用卡",
-      "title": "樂天Panda J卡專屬優惠，樂天旅遊享最高8%折扣",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/rakuten.xhtml",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_635c5b7354d39a042780",
-      "bank": "樂天信用卡",
-      "title": "日本樂天市場 X RGX轉運服務優惠",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/rakuten.xhtml",
       "lifecycle": "ACTIVE_OR_UNKNOWN",
       "reviewStatus": "PENDING",
       "comparable": false,
@@ -22978,18 +21555,6 @@
       ]
     },
     {
-      "id": "rule_ede621e6cbe50e9f3367",
-      "bank": "樂天信用卡",
-      "title": "新宿小田急百貨店 購物最高6%OFF",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/coupon/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
       "id": "rule_ed0ba660683af3accfa8",
       "bank": "王道銀行",
       "title": "王道高雄商圈夜市加碼券",
@@ -22999,208 +21564,6 @@
       "comparable": false,
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_49a700cfbb0ac0f609e2",
-      "bank": "樂天信用卡",
-      "title": "國內特店分期0利率",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/merchant-installment/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "非保證現金回饋"
-      ]
-    },
-    {
-      "id": "rule_2d92e125c4e65b93190f",
-      "bank": "樂天信用卡",
-      "title": "高額旅行平安險與旅遊不便險保障（樂翔無限卡 / 桃猿世界卡）",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/product/insurance.xhtml",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "非保證現金回饋"
-      ]
-    },
-    {
-      "id": "rule_0056048c867b03090630",
-      "bank": "樂天信用卡",
-      "title": "高額旅行平安險與旅遊不便險保障（其他樂天信用卡）",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/product/insurance.xhtml",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "非保證現金回饋"
-      ]
-    },
-    {
-      "id": "rule_3d2a8b41d8c3a340fdf0",
-      "bank": "樂天信用卡",
-      "title": "日本高島屋及BicCamera門市10%現金回饋",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2479&l-id=corp_pc_top_cpn2479",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_b37cf21a80d4ac2b704e",
-      "bank": "樂天信用卡",
-      "title": "樂天卡友限定！KKday獨家折扣懶人包",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2476&l-id=corp_pc_top_cpn2476",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_99b5264a9420817890fc",
-      "bank": "樂天信用卡",
-      "title": "JCB 東京鐵塔 × JCB卡特別聯名企劃",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2462&l-id=corp_pc_top_cpn2462",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_75065800d0784d9eb99a",
-      "bank": "樂天信用卡",
-      "title": "JCB松屋銀座95折優惠",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2462&l-id=corp_pc_top_cpn2462",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_a85bde3fd037a09179af",
-      "bank": "樂天信用卡",
-      "title": "JCB × AGODA 訂房優惠",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2462&l-id=corp_pc_top_cpn2462",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_49850d7a6f940b7b580c",
-      "bank": "樂天信用卡",
-      "title": "日本三越・伊勢丹百貨 刷樂天JCB卡最高享6萬日圓現金回饋",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2461&l-id=corp_pc_top_cpn2461",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
-      "id": "rule_61ecf4b97965f7406849",
-      "bank": "樂天信用卡",
-      "title": "線上投保明台產險旅遊險享最高2%刷卡金回饋",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2487&l-id=corp_pc_top_cpn2487",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "非保證現金回饋"
-      ]
-    },
-    {
-      "id": "rule_0a4916ef098237197e80",
-      "bank": "樂天信用卡",
-      "title": "線上投汽機車險享滿額最高2%回饋",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2486&l-id=corp_pc_top_cpn2486",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_b5e96053cafb61432f8e",
-      "bank": "樂天信用卡",
-      "title": "樂天桃猿世界卡精選通路最高5%回饋",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2435&l-id=corp_pc_top_cpn2435",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_77660030d03018b213f8",
-      "bank": "樂天信用卡",
-      "title": "KKday x 樂天Panda J卡專屬優惠現折10% OFF",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2474&l-id=corp_pc_top_cpn2474",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "本筆未達最低消費門檻"
-      ]
-    },
-    {
-      "id": "rule_2133f6d69d81d11704f1",
-      "bank": "樂天信用卡",
-      "title": "推薦好友申辦樂天Panda J卡推薦人優惠",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2216&l-id=corp_pc_top_cpn2216",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_846c4fc1702e93e5ec65",
-      "bank": "樂天信用卡",
-      "title": "出國World eSIM超方便 最高75折優惠",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2387&l-id=corp_pc_top_cpn2387",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "UNRESOLVED_CARD_ASSOCIATION",
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_f6f4909239051db9e9a6",
-      "bank": "樂天信用卡",
-      "title": "樂虎卡新卡友日韓eSIM折價券",
-      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2387&l-id=corp_pc_top_cpn2387",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "回饋率異常"
       ]
     },
     {
@@ -23329,32 +21692,6 @@
       ]
     },
     {
-      "id": "rule_313b4b64502cfa90b1aa",
-      "bank": "台新銀行",
-      "title": "台新Richart卡 7大刷最高3.8%回饋",
-      "sourceUrl": "https://www.taishinbank.com.tw/TSB/personal/credit/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_0ecf637fee3801f3db4c",
-      "bank": "台新銀行",
-      "title": "新光三越週年慶刷台新卡贈最高21%",
-      "sourceUrl": "https://www.taishinbank.com.tw/TSB/personal/credit/",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
       "id": "rule_2041867b4d775013e038",
       "bank": "永豐銀行",
       "title": "Apple Pay 首次新綁定抽萬元刷卡金",
@@ -23365,199 +21702,6 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "活動已截止"
-      ]
-    },
-    {
-      "id": "rule_04050ec411b5890d1c74",
-      "bank": "玉山銀行",
-      "title": "新卡首刷禮 - 世界之極卡",
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_2756cbbab0aa4e44042c",
-      "bank": "玉山銀行",
-      "title": "新卡首刷禮 - 世界卡",
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_d0b57dbe7af397d59a2b",
-      "bank": "玉山銀行",
-      "title": "新卡首刷禮 - 商務鈦金卡",
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_5d6c94e13957b5f2407e",
-      "bank": "玉山銀行",
-      "title": "新卡首刷禮 - 鈦金卡",
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_172af9e0f33c101a7a3d",
-      "bank": "玉山銀行",
-      "title": "基本哩程 - 世界之極卡國內消費",
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_6e50d273c4187cc890d7",
-      "bank": "玉山銀行",
-      "title": "基本哩程 - 世界之極卡國外消費",
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_f3645af0623fc1cc70ab",
-      "bank": "玉山銀行",
-      "title": "基本哩程 - 世界卡國內消費",
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_3f7b6d2c4b3c1ef90e86",
-      "bank": "玉山銀行",
-      "title": "基本哩程 - 世界卡國外消費",
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_207e187e79744840c43d",
-      "bank": "玉山銀行",
-      "title": "基本哩程 - 商務鈦金卡國內消費",
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_aa1d1331ae301f202379",
-      "bank": "玉山銀行",
-      "title": "基本哩程 - 商務鈦金卡國外消費",
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_9f1ac529a90a25d2f031",
-      "bank": "玉山銀行",
-      "title": "基本哩程 - 鈦金卡國內消費",
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_e0573e2f7f7a1265af71",
-      "bank": "玉山銀行",
-      "title": "基本哩程 - 鈦金卡國外消費",
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
-      ]
-    },
-    {
-      "id": "rule_4e869c25b75ec2ce780c",
-      "bank": "玉山銀行",
-      "title": "生日禮 - 生日當月國外實體通路一般消費哩程2倍回饋",
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_d395bdaac835a3a5d650",
-      "bank": "玉山銀行",
-      "title": "星宇航空指定通路哩程加速",
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_6a8181db1dd1174f7d36",
-      "bank": "玉山銀行",
-      "title": "玉山數位帳戶新戶享刷卡加碼10%玉山 e point 回饋",
-      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "點數未確認兌換價值"
       ]
     },
     {
@@ -23699,71 +21843,6 @@
       ]
     },
     {
-      "id": "rule_6fbcd6869293d0fd5aa6",
-      "bank": "華南銀行",
-      "title": "Rich+富家卡現金+儲蓄點數回饋",
-      "sourceUrl": "https://www.hncb.com.tw/wps/portal/HNCB/card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_de41e1eaaf5b4b0dec72",
-      "bank": "華南銀行",
-      "title": "ｉ網購生活卡網購回饋",
-      "sourceUrl": "https://www.hncb.com.tw/wps/portal/HNCB/card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_d56f06dc9cd41c8f6f4e",
-      "bank": "華南銀行",
-      "title": "超鑽現金回饋卡現金回饋",
-      "sourceUrl": "https://www.hncb.com.tw/wps/portal/HNCB/card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_e8e8cc7ca73df0f4b659",
-      "bank": "華南銀行",
-      "title": "熊Q卡指定通路回饋",
-      "sourceUrl": "https://www.hncb.com.tw/wps/portal/HNCB/card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_7d80330553bc68040f72",
-      "bank": "華南銀行",
-      "title": "Love系列卡日韓消費與分期優惠",
-      "sourceUrl": "https://www.hncb.com.tw/wps/portal/HNCB/card",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
       "id": "rule_7e9828600fe0af0622e2",
       "bank": "永豐銀行",
       "title": "分期享筆筆2%刷卡金回饋",
@@ -23825,130 +21904,6 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "非保證現金回饋"
-      ]
-    },
-    {
-      "id": "rule_aec7d35b817608d9a90b",
-      "bank": "元大銀行",
-      "title": "新申辦Mastercard信用卡綁定LINE Pay支付享10%回饋",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_bd26a4589c8c10686d3e",
-      "bank": "元大銀行",
-      "title": "綁定 Apple Pay 筆筆20%回饋，最高享200元刷卡金",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_0b94338b77060a01b5be",
-      "bank": "元大銀行",
-      "title": "王品瘋美食！美味享不停 最高享10%",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_69ce4cb2cf4a5422e081",
-      "bank": "元大銀行",
-      "title": "新戶申辦鑽金智富卡或分享黑啤卡消費達檻登錄享刷卡金新臺幣777元",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "固定回饋門檻或計次方式未確認"
-      ]
-    },
-    {
-      "id": "rule_239d39f4b95cfbdb73e8",
-      "bank": "元大銀行",
-      "title": "元大悠遊卡於全聯福利中心購物享優惠",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "回饋計算方式待確認"
-      ]
-    },
-    {
-      "id": "rule_cac3de5842ca276328f2",
-      "bank": "元大銀行",
-      "title": "元大信用卡x全支付週週享5%，首綁滿299元再享50全點",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_86bc256ede83936fc9ec",
-      "bank": "元大銀行",
-      "title": "日本BicCamera 最高享17%優惠",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
-      ]
-    },
-    {
-      "id": "rule_5ac00a76e22f50c78557",
-      "bank": "元大銀行",
-      "title": "元大卡 x icash Pay 7-11實體門巿消費10%活動",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_630673dc430d8a99fa13",
-      "bank": "元大銀行",
-      "title": "元大信用卡 × 全盈＋PAY滿168元享5%刷卡金回饋",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
-      ]
-    },
-    {
-      "id": "rule_891950726b5f677b2c27",
-      "bank": "元大銀行",
-      "title": "元大信用卡 × 悠遊付消費滿168元享5%刷卡金",
-      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
-      "lifecycle": "ACTIVE_OR_UNKNOWN",
-      "reviewStatus": "PENDING",
-      "comparable": false,
-      "issues": [
-        "INDEPENDENT_REVIEW_REQUIRED"
       ]
     },
     {
@@ -24275,6 +22230,1044 @@
       ]
     },
     {
+      "id": "rule_df6275da6cff67e2898a",
+      "bank": "悠遊付",
+      "title": "悠遊付逢1生活繳費享筆筆加碼2%回饋",
+      "sourceUrl": "https://www.easycard.com.tw/offer?cls=1506473490%2C&id=1789720786",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_8e5a420e592b258f4e11",
+      "bank": "遠東商銀",
+      "title": "KKday旅遊體驗平台刷遠銀卡，最高享85折優惠",
+      "sourceUrl": "https://www.feib.com.tw/activity?id=4894",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_bafff15d9838a9ff0ad0",
+      "bank": "遠東商銀",
+      "title": "KKday旅遊體驗平台 累積滿額回饋刷卡金",
+      "sourceUrl": "https://www.feib.com.tw/activity?id=4894",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_ad76d3989efda364142b",
+      "bank": "玉山銀行",
+      "title": "玉山Wallet樂掃全家｜週週掃2筆，50元週週送",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/payment/e_pay",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "累積消費資格未確認"
+      ]
+    },
+    {
+      "id": "rule_1e7886a6c7abf45fbb06",
+      "bank": "台北富邦",
+      "title": "Costco消費最高3%好多金無上限",
+      "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_3a37d276878e74d857fa",
+      "bank": "台北富邦",
+      "title": "UberEats好市多專區消費2%好多金無上限",
+      "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_6c27b4aeaeb5bae1ed8c",
+      "bank": "台北富邦",
+      "title": "精選海外旅遊最高回饋5%好多金",
+      "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_c19cd0d93b7ebd3e9628",
+      "bank": "台北富邦",
+      "title": "高鐵/臺鐵購票最高8%回饋",
+      "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_c367d1f02c63ac44a904",
+      "bank": "台北富邦",
+      "title": "Mastercard萬事達卡精選美饌最高85折",
+      "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_5528ee8604ce82e14eb9",
+      "bank": "台北富邦",
+      "title": "Costco聯名卡寵物險保障",
+      "sourceUrl": "https://www.fubon.com/banking/personal/credit_card/all_card/costco/costco.htm",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "非保證現金回饋"
+      ]
+    },
+    {
+      "id": "rule_824381f48a88d5ea4209",
+      "bank": "玉山銀行",
+      "title": "國內一般消費基本哩程回饋",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_c55e428df1ce8ac657bd",
+      "bank": "玉山銀行",
+      "title": "國外一般消費基本哩程回饋",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_8bc018f999d6a387811b",
+      "bank": "玉山銀行",
+      "title": "星宇航空指定通路哩程加速2倍",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_67d5c96e516c3101a628",
+      "bank": "玉山銀行",
+      "title": "生日禮 生日當月國外實體通路哩程2倍",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_a4f7fdb1cd481ddd84ee",
+      "bank": "玉山銀行",
+      "title": "玉山數位帳戶新戶 刷卡加碼10% 玉山 e point",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_7ae9b6c1cb111a299d6a",
+      "bank": "玉山銀行",
+      "title": "新卡首刷禮 最高享55,000哩",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_2ec1245b63ea67c01722",
+      "bank": "玉山銀行",
+      "title": "專屬自扣加碼禮 贈1,000哩",
+      "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/co-branded-card/starlux-card",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_13201a04e5a7487bd9ec",
+      "bank": "中國信託",
+      "title": "大樹藥局享最高6%",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_e0dff6edb148eac8f40a",
+      "bank": "中國信託",
+      "title": "CASETiFY享 LINE POINTS 4%",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_eee35ef6bc1dffa9e1e8",
+      "bank": "中國信託",
+      "title": "GoAmazing 購精彩享滿額享9折+6%回饋",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_00032bdb9ad21c7db12c",
+      "bank": "中國信託",
+      "title": "KKBOX享最高省432元",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_76ec54b3268e76e7cc8e",
+      "bank": "中國信託",
+      "title": "Netflix享 LINE POINTS 5%",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_e35f9806a2d59df42dd2",
+      "bank": "中國信託",
+      "title": "Under Armour享 LINE POINTS 7%",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_24f137ba6c6cd9523a1c",
+      "bank": "星展銀行",
+      "title": "500碗 2026 精選店家消費回饋",
+      "sourceUrl": "https://www.dbs.com.tw/personal-zh/cards/offers/2026500BOWL/index.html?pid=tw-pweb-personal-card-featured_cardtile-cards_offers_2026500BOWL",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_4ecbcd862ea4f41bda00",
+      "bank": "樂天信用卡",
+      "title": "樂天Panda J卡國內最高3%與日韓泰實體交易最高4%回饋",
+      "sourceUrl": "https://www.card.rakuten.com.tw/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_16c5c3684521c6877f11",
+      "bank": "樂天信用卡",
+      "title": "樂天Panda J卡專屬優惠 樂天旅遊訂房享8%折扣",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2304",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_2b43dd8a2de285fda70a",
+      "bank": "樂天信用卡",
+      "title": "指定樂天卡 樂天旅遊訂房享5%折扣",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2304",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_1ccde936d496357e417a",
+      "bank": "樂天信用卡",
+      "title": "樂天桃猿世界卡精選通路國內通路5%回饋",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2435",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_53e3525716dddf44b0d7",
+      "bank": "樂天信用卡",
+      "title": "樂天桃猿世界卡精選通路海外通路5%回饋",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2435",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_9ca14e60298f1ba22f91",
+      "bank": "元大銀行",
+      "title": "新戶申辦鑽金智富卡或黑啤分享卡消費達檻登錄享刷卡金新臺幣777元",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/index.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "固定回饋門檻或計次方式未確認"
+      ]
+    },
+    {
+      "id": "rule_e8a7ed3ad53edd9d781b",
+      "bank": "樂天信用卡",
+      "title": "樂天樂翔卡國內與海外消費回饋",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/product/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_3296a61c118c05fdc690",
+      "bank": "樂天信用卡",
+      "title": "樂虎卡一般與海外交易回饋",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/product/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_aec7d35b817608d9a90b",
+      "bank": "元大銀行",
+      "title": "新申辦Mastercard信用卡綁定LINE Pay支付享10%回饋",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_bd26a4589c8c10686d3e",
+      "bank": "元大銀行",
+      "title": "綁定 Apple Pay 筆筆20%回饋，最高享200元刷卡金",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_b912a08730d54fe477c5",
+      "bank": "元大銀行",
+      "title": "元大卡友專享Klook優惠",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "回饋計算方式待確認"
+      ]
+    },
+    {
+      "id": "rule_0b94338b77060a01b5be",
+      "bank": "元大銀行",
+      "title": "王品瘋美食！美味享不停 最高享10%",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_69ce4cb2cf4a5422e081",
+      "bank": "元大銀行",
+      "title": "新戶申辦鑽金智富卡或分享黑啤卡消費達檻登錄享刷卡金新臺幣777元",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "固定回饋門檻或計次方式未確認"
+      ]
+    },
+    {
+      "id": "rule_461cc08d0a50f49a6206",
+      "bank": "元大銀行",
+      "title": "肯德基、必勝客 元大卡專屬優惠",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "回饋計算方式待確認"
+      ]
+    },
+    {
+      "id": "rule_239d39f4b95cfbdb73e8",
+      "bank": "元大銀行",
+      "title": "元大悠遊卡於全聯福利中心購物享優惠",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "回饋計算方式待確認"
+      ]
+    },
+    {
+      "id": "rule_cac3de5842ca276328f2",
+      "bank": "元大銀行",
+      "title": "元大信用卡x全支付週週享5%，首綁滿299元再享50全點",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_86bc256ede83936fc9ec",
+      "bank": "元大銀行",
+      "title": "日本BicCamera 最高享17%優惠",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_7088e8e41ec3c19950ca",
+      "bank": "元大銀行",
+      "title": "加油刷元大天天享汽油降價優惠",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "回饋計算方式待確認"
+      ]
+    },
+    {
+      "id": "rule_6e3957a33326af31c162",
+      "bank": "元大銀行",
+      "title": "元大悠遊聯名卡自動加值享20%",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_5ac00a76e22f50c78557",
+      "bank": "元大銀行",
+      "title": "元大卡 x icash Pay 7-11實體門巿消費10%活動",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_630673dc430d8a99fa13",
+      "bank": "元大銀行",
+      "title": "元大信用卡 × 全盈＋PAY滿168元享5%刷卡金回饋",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_891950726b5f677b2c27",
+      "bank": "元大銀行",
+      "title": "元大信用卡 × 悠遊付消費滿168元享5%刷卡金",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/event/creditCardAcivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_e4f6bec18897814a1a8e",
+      "bank": "元大銀行",
+      "title": "綁定 Apple Pay 筆筆20%回饋，最高享200元刷卡金",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_19a62bee548831487e69",
+      "bank": "元大銀行",
+      "title": "元大悠遊聯名卡自動加值享20%",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_200e66fc1dec26d352e4",
+      "bank": "元大銀行",
+      "title": "新戶申辦鑽金智富卡或分享黑啤卡消費達檻登錄享刷卡金新臺幣777元",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "固定回饋門檻或計次方式未確認"
+      ]
+    },
+    {
+      "id": "rule_441384e5fd1a52ac89b7",
+      "bank": "元大銀行",
+      "title": "元大信用卡x全支付週週享5%，首綁滿299元再享50全點",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_678f08863147ef23aad4",
+      "bank": "元大銀行",
+      "title": "元大卡 x icash Pay 7-11實體門巿消費10%活動",
+      "sourceUrl": "https://www.yuantabank.com.tw/bank/creditCard/promotionActivity/list.do",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_f6d115071b2672452e2c",
+      "bank": "樂天信用卡",
+      "title": "線上投保明台產險旅遊險享最高2%刷卡金回饋",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "非保證現金回饋"
+      ]
+    },
+    {
+      "id": "rule_0d14f922bf9d00371c74",
+      "bank": "樂天信用卡",
+      "title": "KKday獨家折扣最高15％OFF",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "回饋上限適用範圍未確認"
+      ]
+    },
+    {
+      "id": "rule_265f565a2a9f1bd69525",
+      "bank": "樂天信用卡",
+      "title": "KKDAY x 樂天Panda J卡專屬優惠現折10% OFF",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_6e06294ff2fad9e898f2",
+      "bank": "樂天信用卡",
+      "title": "KKDAY x 樂虎卡專屬優惠現折10% OFF",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_5e3ed2be004fbe7f2cee",
+      "bank": "樂天信用卡",
+      "title": "出國World eSIM超方便 最高75折優惠",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "回饋上限適用範圍未確認"
+      ]
+    },
+    {
+      "id": "rule_41d059717e9a84a8bc1e",
+      "bank": "樂天信用卡",
+      "title": "Hotels.com刷樂天 全球訂房享8%折扣",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "回饋上限適用範圍未確認"
+      ]
+    },
+    {
+      "id": "rule_cf5e442743434af57999",
+      "bank": "樂天信用卡",
+      "title": "Expedia刷樂天 全球訂房享8%折扣",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "回饋上限適用範圍未確認"
+      ]
+    },
+    {
+      "id": "rule_b886a3a733e6fcbb3570",
+      "bank": "樂天信用卡",
+      "title": "樂天台灣虎航聯名卡全新升級加碼優惠",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "UNRESOLVED_CARD_ASSOCIATION",
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_96b9ff9cdf316083dbc2",
+      "bank": "樂天信用卡",
+      "title": "樂天Panda J卡專屬優惠，樂天旅遊享最高8%折扣",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/rakuten.xhtml",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_37cdd66f9b3c08588d0f",
+      "bank": "樂天信用卡",
+      "title": "日本樂天市場 X RGX轉運服務優惠",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/rakuten.xhtml",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_b174d515bd30a658e01e",
+      "bank": "樂天信用卡",
+      "title": "樂天信用卡日本優惠券/刷卡優惠",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/coupon/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "回饋計算方式待確認"
+      ]
+    },
+    {
+      "id": "rule_a2268331101515ede8de",
+      "bank": "樂天信用卡",
+      "title": "國內特店分期0利率",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/merchant-installment/",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "非保證現金回饋"
+      ]
+    },
+    {
+      "id": "rule_f295c617b755eb8274ea",
+      "bank": "樂天信用卡",
+      "title": "高額旅行平安險",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/product/insurance.xhtml",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "非保證現金回饋"
+      ]
+    },
+    {
+      "id": "rule_3d2a8b41d8c3a340fdf0",
+      "bank": "樂天信用卡",
+      "title": "日本高島屋及BicCamera門市10%現金回饋",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2479&l-id=corp_pc_top_cpn2479",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_bf2b164e384aaa071496",
+      "bank": "樂天信用卡",
+      "title": "日本藥妝電器滿2萬日元送2千日元",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2479&l-id=corp_pc_top_cpn2479",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_51b5add870fae0dbbe23",
+      "bank": "樂天信用卡",
+      "title": "東京寶格麗酒店 筆筆3%現金回饋",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2479&l-id=corp_pc_top_cpn2479",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_9de7a662598e972ec272",
+      "bank": "樂天信用卡",
+      "title": "日本大丸/松阪屋百貨指定品牌回饋",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2479&l-id=corp_pc_top_cpn2479",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_3269ab145707215f2375",
+      "bank": "樂天信用卡",
+      "title": "近鐵百貨、成田機場免稅店等指定百貨美妝服飾回饋",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2479&l-id=corp_pc_top_cpn2479",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_6ccdee6dc6e8715cf8b3",
+      "bank": "樂天信用卡",
+      "title": "樂天卡友限定！KKday獨家折扣懶人包",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2476&l-id=corp_pc_top_cpn2476",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_c8180314e731cb88a75c",
+      "bank": "樂天信用卡",
+      "title": "JCB 東京鐵塔 × JCB卡特別聯名企劃",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2462&l-id=corp_pc_top_cpn2462",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_b8e76051fad983339788",
+      "bank": "樂天信用卡",
+      "title": "JCB松屋銀座",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2462&l-id=corp_pc_top_cpn2462",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_143659d119b0c11aa581",
+      "bank": "樂天信用卡",
+      "title": "JCB × AGODA",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2462&l-id=corp_pc_top_cpn2462",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "最高回饋缺少可試算的一般資格"
+      ]
+    },
+    {
+      "id": "rule_49850d7a6f940b7b580c",
+      "bank": "樂天信用卡",
+      "title": "日本三越・伊勢丹百貨 刷樂天JCB卡最高享6萬日圓現金回饋",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2461&l-id=corp_pc_top_cpn2461",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_61ecf4b97965f7406849",
+      "bank": "樂天信用卡",
+      "title": "線上投保明台產險旅遊險享最高2%刷卡金回饋",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2487&l-id=corp_pc_top_cpn2487",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "非保證現金回饋"
+      ]
+    },
+    {
+      "id": "rule_d4864f9db8a6ecec0e81",
+      "bank": "樂天信用卡",
+      "title": "線上投保汽機車險及住火險滿額最高2%回饋",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2486&l-id=corp_pc_top_cpn2486",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_b5e96053cafb61432f8e",
+      "bank": "樂天信用卡",
+      "title": "樂天桃猿世界卡精選通路最高5%回饋",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2435&l-id=corp_pc_top_cpn2435",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_bca39bb03a8d0a74364c",
+      "bank": "樂天信用卡",
+      "title": "KKDAY x 樂天Panda J卡專屬優惠現折10% OFF",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2474&l-id=corp_pc_top_cpn2474",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_6d8f5bc25b2eaae117ad",
+      "bank": "樂天信用卡",
+      "title": "推薦好友申辦樂天Panda J卡推薦人禮",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2216&l-id=corp_pc_top_cpn2216",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_0e732277ceb866b04b9a",
+      "bank": "樂天信用卡",
+      "title": "World eSIM 最高75折優惠",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2387&l-id=corp_pc_top_cpn2387",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "UNRESOLVED_CARD_ASSOCIATION",
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_f21ddabeec09806cdd23",
+      "bank": "樂天信用卡",
+      "title": "申辦樂虎卡新戶首刷禮 日韓eSIM吃到飽NT150元折價券",
+      "sourceUrl": "https://www.card.rakuten.com.tw/corp/campaign/cpn.xhtml?code=2387&l-id=corp_pc_top_cpn2387",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "固定回饋門檻或計次方式未確認"
+      ]
+    },
+    {
+      "id": "rule_790e4271b7e04eeb83df",
+      "bank": "遠東商銀",
+      "title": "推薦好友申辦遠銀卡，達檻享刷卡金回饋",
+      "sourceUrl": "https://www.feib.com.tw/upload/creditcard/MGM/index.html",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
       "id": "rule_6e7dfedf47b32197b371",
       "bank": "將來銀行",
       "title": "完成任務刷大將卡回饋無上限",
@@ -24285,6 +23278,56 @@
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
         "回饋計算方式待確認"
+      ]
+    },
+    {
+      "id": "rule_09fb6772c66cf4808616",
+      "bank": "遠東商銀",
+      "title": "愛買量販刷遠銀卡滿額最高享15%回饋 - 銀行刷卡禮",
+      "sourceUrl": "https://www.feib.com.tw/activity?id=4893",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_95a9273a2de300ec5f5a",
+      "bank": "安泰銀行",
+      "title": "國內、外一般消費現金回饋",
+      "sourceUrl": "https://www.entiebank.com.tw/EntieWebMigrateFiles/1140186/1140186c.htm",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_7dac2b872ddb1242eba4",
+      "bank": "安泰銀行",
+      "title": "115年度國外消費加碼回饋",
+      "sourceUrl": "https://www.entiebank.com.tw/EntieWebMigrateFiles/1140186/1140186c.htm",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_850f98027532bc743689",
+      "bank": "遠東商銀",
+      "title": "《爵士天后 戴安娜・克瑞兒》音樂會遠東商銀信用卡專屬禮遇",
+      "sourceUrl": "https://www.feib.com.tw/activity?id=4762",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "回饋上限適用範圍未確認"
       ]
     },
     {
@@ -24353,10 +23396,120 @@
       ]
     },
     {
-      "id": "rule_df6275da6cff67e2898a",
+      "id": "rule_61a0e94e624a6f11fff3",
       "bank": "悠遊付",
-      "title": "悠遊付逢1生活繳費享筆筆加碼2%回饋",
-      "sourceUrl": "https://www.easycard.com.tw/offer?cls=1506473490%2C&id=1789720786",
+      "title": "生活繳費悠遊付最高賺7%回饋金",
+      "sourceUrl": "https://www.easycard.com.tw/news",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_09dcb388d6d84e21dbd0",
+      "bank": "悠遊付",
+      "title": "悠遊付新會員再領$50元",
+      "sourceUrl": "https://www.easycard.com.tw/news",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "固定回饋門檻或計次方式未確認"
+      ]
+    },
+    {
+      "id": "rule_84228c78851a94647924",
+      "bank": "悠遊付",
+      "title": "悠遊付繳地價稅雲端發票加碼活動",
+      "sourceUrl": "https://www.easycard.com.tw/news",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_7045cc2f01c96c44a99f",
+      "bank": "悠遊付",
+      "title": "雙11搶券月曆 $500先用先賺",
+      "sourceUrl": "https://www.easycard.com.tw/news",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_d8788316131f8ffd07b7",
+      "bank": "悠遊付",
+      "title": "momo購物網 雙11狂歡購最高享8%回饋",
+      "sourceUrl": "https://www.easycard.com.tw/news",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_2edb7a43bd23abb320a1",
+      "bank": "悠遊付",
+      "title": "東門中繼市場開幕慶 最高享13%回饋",
+      "sourceUrl": "https://www.easycard.com.tw/news",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_8f1409e848597f9d0455",
+      "bank": "悠遊付",
+      "title": "悠遊付繳納地價稅 筆筆3%回饋與滿額加碼",
+      "sourceUrl": "https://www.easycard.com.tw/news",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_4a86b397e7729518e0ad",
+      "bank": "悠遊付",
+      "title": "玉山銀行悠遊付綁定繳地價稅優惠",
+      "sourceUrl": "https://www.easycard.com.tw/news",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_7ea1da8738e57ce31dab",
+      "bank": "悠遊付",
+      "title": "台中銀行悠遊付綁定消費回饋",
+      "sourceUrl": "https://www.easycard.com.tw/news",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_d7f267b3e41fce17c3d8",
+      "bank": "悠遊付",
+      "title": "第一銀行悠遊付綁定新戶禮與週五5%回饋",
+      "sourceUrl": "https://www.easycard.com.tw/news",
       "lifecycle": "ACTIVE_OR_UNKNOWN",
       "reviewStatus": "PENDING",
       "comparable": false,
@@ -24378,10 +23531,10 @@
       ]
     },
     {
-      "id": "rule_8e5a420e592b258f4e11",
-      "bank": "遠東商銀",
-      "title": "KKday旅遊體驗平台刷遠銀卡，最高享85折優惠",
-      "sourceUrl": "https://www.feib.com.tw/activity?id=4894",
+      "id": "rule_f255de93859b1c5b0b77",
+      "bank": "悠遊付",
+      "title": "生活繳費服務最高賺7%回饋金",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=1",
       "lifecycle": "ACTIVE_OR_UNKNOWN",
       "reviewStatus": "PENDING",
       "comparable": false,
@@ -24390,10 +23543,132 @@
       ]
     },
     {
-      "id": "rule_bafff15d9838a9ff0ad0",
-      "bank": "遠東商銀",
-      "title": "KKday旅遊體驗平台 累積滿額回饋刷卡金",
-      "sourceUrl": "https://www.feib.com.tw/activity?id=4894",
+      "id": "rule_7819c6974236f97275ba",
+      "bank": "悠遊付",
+      "title": "悠遊付繳納地價稅每筆送3%回饋金",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=1",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_9a6b7fbfc3715a8e2472",
+      "bank": "悠遊付",
+      "title": "momo購物網雙11狂歡購最高8%回饋",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=1",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_9dbda369ee1fdadc187b",
+      "bank": "悠遊付",
+      "title": "東門中繼市場開幕慶消費最高享13%回饋",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=1",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_1d344912d76292cabd3f",
+      "bank": "悠遊付",
+      "title": "【基北北桃我的減碳存摺2.0】活動5加碼月月抽-10月得獎公告",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=2&id=1794298583",
+      "lifecycle": "EXPIRED",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "活動已截止"
+      ]
+    },
+    {
+      "id": "rule_53f41a246dceb62d9028",
+      "bank": "悠遊付",
+      "title": "雙11搶券月曆活動",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1794197239",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_286dff8dba41a3ca0735",
+      "bank": "悠遊付",
+      "title": "momo購物網雙11狂歡購優惠",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1794197239",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_ee26e1a54b742dc2ef23",
+      "bank": "悠遊付",
+      "title": "東門中繼市場開幕慶 悠遊付消費10%回饋",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793773540",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_9283f222f06e0848d481",
+      "bank": "悠遊付",
+      "title": "東門中繼市場開幕慶 新會員加碼送$50",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793773540",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_fd2895779d22f25c1dbd",
+      "bank": "悠遊付",
+      "title": "悠遊付繳納地價稅筆筆3%回饋金",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_c82a9fc1dffc7dee7b95",
+      "bank": "悠遊付",
+      "title": "悠遊付繳納地價稅早鳥滿額送$100",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
+      "lifecycle": "EXPIRED",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "活動已截止"
+      ]
+    },
+    {
+      "id": "rule_9d013a697ef55fd5b273",
+      "bank": "悠遊付",
+      "title": "悠遊付繳納地價稅滿額回饋券$600",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
       "lifecycle": "ACTIVE_OR_UNKNOWN",
       "reviewStatus": "PENDING",
       "comparable": false,
@@ -24403,10 +23678,49 @@
       ]
     },
     {
-      "id": "rule_850f98027532bc743689",
-      "bank": "遠東商銀",
-      "title": "《爵士天后 戴安娜・克瑞兒》音樂會遠東商銀信用卡專屬禮遇",
-      "sourceUrl": "https://www.feib.com.tw/activity?id=4762",
+      "id": "rule_ad717f276714babf1534",
+      "bank": "悠遊付",
+      "title": "悠遊付繳納地價稅高額滿額禮$200",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_0e97eda548456baf00d8",
+      "bank": "悠遊付",
+      "title": "玉山銀行悠遊付綁定玉山信用卡繳地價稅回饋",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_1dd9ee4628a01bd419bb",
+      "bank": "悠遊付",
+      "title": "玉山銀行首綁新戶禮加贈e point",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "點數未確認兌換價值"
+      ]
+    },
+    {
+      "id": "rule_c5ec7b84a9c64a4ed5bd",
+      "bank": "悠遊付",
+      "title": "台中銀行數位存款帳戶悠遊付消費滿額回饋",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
       "lifecycle": "ACTIVE_OR_UNKNOWN",
       "reviewStatus": "PENDING",
       "comparable": false,
@@ -24415,23 +23729,272 @@
       ]
     },
     {
-      "id": "rule_969c6a5e07cdd4f5f27e",
-      "bank": "遠東商銀",
-      "title": "SOGO週年慶刷遠東快樂卡滿額最高回饋$37,100",
-      "sourceUrl": "https://www.feib.com.tw/activity?id=4841",
+      "id": "rule_75e12b3dfaeb6abd79eb",
+      "bank": "悠遊付",
+      "title": "台中銀行一般存款帳戶悠遊付消費滿額回饋",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_2f3fab0268cec585cc0e",
+      "bank": "悠遊付",
+      "title": "第一銀行iLEO數位帳戶新戶禮",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_c5d6cd1dd2275a678f04",
+      "bank": "悠遊付",
+      "title": "第一銀行週五5%回饋",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1793086710",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_a9e38bbce09ad0a51866",
+      "bank": "悠遊付",
+      "title": "friDay購物悠遊付－狂購節",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1792119354",
       "lifecycle": "ACTIVE_OR_UNKNOWN",
       "reviewStatus": "PENDING",
       "comparable": false,
       "issues": [
         "INDEPENDENT_REVIEW_REQUIRED",
-        "最高回饋缺少可試算的一般資格"
+        "本筆未達最低消費門檻"
       ]
     },
     {
-      "id": "rule_2c31d0b34fc70a84b094",
-      "bank": "王道銀行",
-      "title": "王道卡綁Samsung Wallet任刷爽拿新台幣100元現金回饋",
-      "sourceUrl": "https://www.o-bank.com/retail",
+      "id": "rule_d353bc891f1529b94d7a",
+      "bank": "悠遊付",
+      "title": "南門週年感謝祭-悠遊付滿額最高享30%回饋",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1791859616",
+      "lifecycle": "EXPIRED",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "活動已截止"
+      ]
+    },
+    {
+      "id": "rule_f292a268620da6c1e7d3",
+      "bank": "悠遊付",
+      "title": "日常採買悠遊付滿額最高10%回饋",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1790129374",
+      "lifecycle": "EXPIRED",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "活動已截止"
+      ]
+    },
+    {
+      "id": "rule_d2de8f17fe15a803ac15",
+      "bank": "悠遊付",
+      "title": "赴韓旅遊必備悠遊付每筆最高12%回饋",
+      "sourceUrl": "https://www.easycard.com.tw/new?cls=1&id=1788231265",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_d059d4b15f19eb954481",
+      "bank": "悠遊付",
+      "title": "悠遊付生活繳費最高賺7%回饋金",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_f62283e9e9b029b88525",
+      "bank": "悠遊付",
+      "title": "悠遊付新會員再領$50元",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "固定回饋門檻或計次方式未確認"
+      ]
+    },
+    {
+      "id": "rule_23a388cdc33d9a4e8dcd",
+      "bank": "悠遊付",
+      "title": "悠遊付繳地價稅雲端發票加碼活動最高賺$150",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_a7a13412975160605858",
+      "bank": "悠遊付",
+      "title": "雙11搶券月曆 $500現金回饋券",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_f55b5bbb10b79a699e62",
+      "bank": "悠遊付",
+      "title": "friDay購物悠遊付－狂購節",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=2",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "本筆未達最低消費門檻"
+      ]
+    },
+    {
+      "id": "rule_9a356f085a4eb9bdfdf0",
+      "bank": "悠遊付",
+      "title": "南門週年感謝祭-悠遊付滿額最高享30%回饋",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=2",
+      "lifecycle": "EXPIRED",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "活動已截止"
+      ]
+    },
+    {
+      "id": "rule_f0838c70baf874bfb8e4",
+      "bank": "悠遊付",
+      "title": "日常採買悠遊付滿額最高10%回饋",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=2",
+      "lifecycle": "EXPIRED",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "活動已截止"
+      ]
+    },
+    {
+      "id": "rule_c2a5d06639baee0d7da7",
+      "bank": "悠遊付",
+      "title": "悠遊付新會員專屬禮包",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=2",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_3f649958ec03e880eba6",
+      "bank": "悠遊付",
+      "title": "赴韓旅遊每筆最高送12%回饋",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=3",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_ab89e333eb67a777121d",
+      "bank": "悠遊付",
+      "title": "繳納學雜費最高享10%回饋",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=3",
+      "lifecycle": "EXPIRED",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "活動已截止"
+      ]
+    },
+    {
+      "id": "rule_92ff8c4585f3d63b8ae7",
+      "bank": "悠遊付",
+      "title": "基北北桃「我的減碳存摺」月月兌加碼活動",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=4",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "累積消費資格未確認"
+      ]
+    },
+    {
+      "id": "rule_2d9b13c5ebc9abf39c7d",
+      "bank": "悠遊付",
+      "title": "金門縣民卡會員開通獨享百元現金回饋券",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=4",
+      "lifecycle": "EXPIRED",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED",
+        "活動已截止"
+      ]
+    },
+    {
+      "id": "rule_d1be9bb249d3a68645b4",
+      "bank": "悠遊付",
+      "title": "悠遊付暢遊金門最高123%回饋",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=4",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_40d016616f9f79d134ab",
+      "bank": "悠遊付",
+      "title": "悠遊付暢遊金門筆筆20%回饋",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=5",
+      "lifecycle": "ACTIVE_OR_UNKNOWN",
+      "reviewStatus": "PENDING",
+      "comparable": false,
+      "issues": [
+        "INDEPENDENT_REVIEW_REQUIRED"
+      ]
+    },
+    {
+      "id": "rule_cb8b6d938dd0ac9886b0",
+      "bank": "悠遊付",
+      "title": "減塑EasyLife集集樂挑戰賽",
+      "sourceUrl": "https://www.easycard.com.tw/news?cls=1&page=5",
       "lifecycle": "ACTIVE_OR_UNKNOWN",
       "reviewStatus": "PENDING",
       "comparable": false,
