@@ -1,0 +1,226 @@
+{
+  "catalogId": "ctbc_linepay_shopping_2026h2",
+  "scope": "中國信託 LINE Pay 卡脆好購頁 2026-11-03 可見的全部 24 個活動入口；含銀行、LINE Pay 與 ShopBack 合作優惠",
+  "observedAt": "2026-11-03",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_shopping.html",
+  "offers": [
+    {
+      "id": "coupang",
+      "name": "Coupang 酷澎滿額最高9%",
+      "matchToken": "Coupang",
+      "sourceLineHint": 32,
+      "validFrom": "2026-09-16",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "popchill",
+      "name": "Popchill ShopBack 3.5%",
+      "matchToken": "Popchill",
+      "sourceLineHint": 40,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK"
+    },
+    {
+      "id": "mercari",
+      "name": "Mercari ShopBack 3.5%",
+      "matchToken": "Mercari",
+      "sourceLineHint": 48,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK"
+    },
+    {
+      "id": "samsung",
+      "name": "三星商城 LINE POINTS 1000點",
+      "matchToken": "三星商城",
+      "sourceLineHint": 55,
+      "validFrom": "2026-07-30",
+      "validUntil": "2026-12-31",
+      "channel": "LINE_PAY"
+    },
+    {
+      "id": "lg",
+      "name": "LG官方線上商城 LINE POINTS 500點",
+      "matchToken": "LG官方線上商城",
+      "sourceLineHint": 63,
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-12-31",
+      "channel": "LINE_PAY"
+    },
+    {
+      "id": "shopee",
+      "name": "蝦皮購物 LINE POINTS 5%",
+      "matchToken": "蝦皮購物",
+      "sourceLineHint": 71,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "skm",
+      "name": "新光三越online ShopBack 3.5%",
+      "matchToken": "新光三越online",
+      "sourceLineHint": 78,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK"
+    },
+    {
+      "id": "pchome",
+      "name": "PChome24h ShopBack 3%",
+      "matchToken": "PChome24h",
+      "sourceLineHint": 86,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK"
+    },
+    {
+      "id": "yahoo",
+      "name": "yahoo購物中心 ShopBack 2.9%",
+      "matchToken": "yahoo購物中心",
+      "sourceLineHint": 94,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK"
+    },
+    {
+      "id": "friday",
+      "name": "遠傳friday購物 ShopBack 3.5%",
+      "matchToken": "friday",
+      "sourceLineHint": 101,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK"
+    },
+    {
+      "id": "rakuten",
+      "name": "樂天市場 ShopBack 4%",
+      "matchToken": "樂天市場",
+      "sourceLineHint": 109,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK"
+    },
+    {
+      "id": "dietician",
+      "name": "營養師輕食 LINE POINTS 5%",
+      "matchToken": "營養師輕食",
+      "sourceLineHint": 116,
+      "validFrom": "2026-07-13",
+      "validUntil": "2026-12-31",
+      "channel": "LINE_PAY"
+    },
+    {
+      "id": "pinkoi",
+      "name": "Pinkoi 最高 LINE POINTS 5%",
+      "matchToken": "Pinkoi",
+      "sourceLineHint": 122,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "LINE_PAY"
+    },
+    {
+      "id": "eslite",
+      "name": "誠品線上 ShopBack 3.8%",
+      "matchToken": "誠品線上",
+      "sourceLineHint": 130,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK"
+    },
+    {
+      "id": "uniqlo",
+      "name": "UNIQLO LINE POINTS 10%",
+      "matchToken": "UNIQLO",
+      "sourceLineHint": 137,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "gu",
+      "name": "GU LINE POINTS 10%",
+      "matchToken": "GU",
+      "sourceLineHint": 145,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "iherb",
+      "name": "iHerb ShopBack 4%",
+      "matchToken": "iHerb",
+      "sourceLineHint": 153,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK"
+    },
+    {
+      "id": "myprotein",
+      "name": "myprotein ShopBack 6.5%",
+      "matchToken": "myprotein",
+      "sourceLineHint": 160,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK"
+    },
+    {
+      "id": "life_market",
+      "name": "生活市集 ShopBack 3.5%",
+      "matchToken": "生活市集",
+      "sourceLineHint": 168,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK"
+    },
+    {
+      "id": "books",
+      "name": "博客來 ShopBack 3%",
+      "matchToken": "博客來",
+      "sourceLineHint": 176,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK"
+    },
+    {
+      "id": "etmall",
+      "name": "ETMall東森購物 ShopBack 3%",
+      "matchToken": "ETMall",
+      "sourceLineHint": 183,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK"
+    },
+    {
+      "id": "global_mall",
+      "name": "環球Online ShopBack 4%",
+      "matchToken": "環球Online",
+      "sourceLineHint": 191,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK"
+    },
+    {
+      "id": "style_shopping",
+      "name": "風格選品每週80元優惠券",
+      "matchToken": "風格選品",
+      "sourceLineHint": 199,
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "LINE_PAY",
+      "detailUrl": "https://web-tw-pay.line.me/cms/event/template1.3/6a7b8614-65f9-4eb5-b2b7-fbd316095a4d"
+    },
+    {
+      "id": "good_coupon",
+      "name": "購好券精選商店50元優惠券",
+      "matchToken": "購好券",
+      "sourceLineHint": 206,
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "LINE_PAY",
+      "detailUrl": "https://web-tw-pay.line.me/cms/event/template1.3/6a266356-4082-41d7-9112-429e08150c86"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "baselineId": "ctbc_shopback_maohao_2026_partial",
+  "scope": "中信脆萌寵頁毛好多 ShopBack 方案的公開混合回饋與登錄條件；登錄窗口、商家審核及即時變動未核",
+  "observedAt": "2026-11-08",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_pet.html",
+  "offers": [
+    {"id":"maohao_shopback","fields":{
+      "validFrom":{"value":"2026-07-01","sourceLineHint":"L381,L465"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L381,L465"},
+      "cardId":{"value":"card_中國信託_241","sourceLineHint":"L381-L383: LINE Pay Visa信用卡"},
+      "paymentProvider":{"value":"ShopBack","sourceLineHint":"L373-L383"},
+      "rewardType":{"value":"mixed_benefit","sourceLineHint":"L384,L400: 商家現金與卡點數分列"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L400: 6%為不同來源利益相加，非固定點數"},
+      "needReg":{"value":true,"sourceLineHint":"L373-L375"},
+      "benefitComponents":{"value":[
+        {"provider":"ShopBack","type":"merchant_cashback_percent","rate":4,"locator":"毛好多表列商家回饋率／L400"},
+        {"provider":"中國信託","type":"line_points_percent","rate":2,"locator":"毛好多表列卡產品回饋率／L400"}
+      ],"sourceLineHint":"L391-L400"}
+    }}
+  ]
+}

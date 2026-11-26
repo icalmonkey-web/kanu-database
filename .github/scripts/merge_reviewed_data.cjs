@@ -12,7 +12,7 @@ for (const card of local.cards) {
     Object.assign(cards.get(card.id), {imageUrl:card.imageUrl, imageEvidence:card.imageEvidence, imageSourceUrl:card.imageSourceUrl});
   }
 }
-for (const rule of local.rules.filter(r => r.accuracyReview?.status === 'SOURCE_CHECKED')) {
+for (const rule of local.rules.filter(r => require('../../accuracy-core.js').isReviewed(r))) {
   if (!cards.has(rule.cardId)) {
     const card = local.cards.find(c => c.id === rule.cardId);
     if (!card) throw new Error('Reviewed card missing');

@@ -3,11 +3,11 @@
   'use strict';
   const number = v => typeof v === 'number' && Number.isFinite(v) && v >= 0 ? v : null;
   const taipei = now => new Date(now.getTime() + 8 * 3600000);
-  const termFields = ['cardId','sourceUrl','title','baseRate','promoRate','rewardType','rewardUnit','rewardAmount',
+  const termFields = ['cardId','eligibleCardIds','sourceUrl','title','baseRate','promoRate','rewardType','rewardUnit','rewardAmount',
     'capAmount','capScope','capPeriod','minimumSpend','spendBasis','roundingMode','validFrom','validUntil',
-    'needReg','regDeadline','registrationStart','registrationEnd','registrationCycle','registrationMethods',
+    'needReg','regDeadline','registrationStart','registrationEnd','registrationCycle','registrationWindows','registrationMethods',
     'eligibilityRequirements','rewardCalculationMode','rewardTiers','selectionMode','benefitPlan',
-    'matchedMerchants','excludedKeywords','quotaInfo','pointValueTwd','associationStatus',
+    'matchedMerchants','excludedKeywords','excludedCountries','eligibleDateRanges','excludedDateRanges','eligibleWeekdays','eligibleMonthDayFrom','quotaInfo','pointValueTwd','associationStatus',
     'category','scope','searchKeywords','intentTags','intentEvidence','offerDomain','fundingMethods','bank'];
   function termsSnapshot(rule) {
     return JSON.parse(JSON.stringify(Object.fromEntries(termFields.map(key => [key, rule[key] ?? null]))));
@@ -34,6 +34,46 @@
     const result = new Date(`${y}-${pad(mo)}-${pad(d)}T${pad(h)}:${pad(mi)}:${pad(s)}${m[7] || (end && m[4] === undefined ? '.999' : '')}${m[8] || '+08:00'}`);
     return Number.isNaN(+result) ? null : result;
   }
+  function eligibleDateStatus(rule, now = new Date()) {
+    const ranges = rule.eligibleDateRanges;
+    const excluded = rule.excludedDateRanges;
+    const weekdays = rule.eligibleWeekdays;
+    const monthDayFrom = rule.eligibleMonthDayFrom;
+    if (ranges == null && excluded == null && weekdays == null && monthDayFrom == null) return 'UNRESTRICTED';
+    if (monthDayFrom != null && (!Number.isInteger(monthDayFrom) || monthDayFrom < 1 || monthDayFrom > 31)) return 'UNKNOWN';
+    if (excluded != null) {
+      if (!Array.isArray(excluded) || !excluded.length) return 'UNKNOWN';
+      let blocked = false;
+      for (const item of excluded) {
+        const from = Array.isArray(item) ? item[0] : item?.from;
+        const until = Array.isArray(item) ? item[1] : item?.until;
+        const start = date(from), end = date(until, true);
+        if (!start || !end || start > end) return 'UNKNOWN';
+        if (start <= now && now <= end) blocked = true;
+      }
+      if (blocked) return 'OUTSIDE';
+    }
+    if (ranges != null) {
+      if (!Array.isArray(ranges) || !ranges.length) return 'UNKNOWN';
+      let inside = false;
+      for (const item of ranges) {
+        const from = Array.isArray(item) ? item[0] : item?.from;
+        const until = Array.isArray(item) ? item[1] : item?.until;
+        const start = date(from), end = date(until, true);
+        if (!start || !end || start > end) return 'UNKNOWN';
+        if (start <= now && now <= end) inside = true;
+      }
+      if (!inside) return 'OUTSIDE';
+    }
+    if (weekdays != null) {
+      if (!Array.isArray(weekdays) || !weekdays.length ||
+          weekdays.some(day => !Number.isInteger(day) || day < 0 || day > 6) ||
+          new Set(weekdays).size !== weekdays.length) return 'UNKNOWN';
+      if (!weekdays.includes(taipei(now).getUTCDay())) return 'OUTSIDE';
+    }
+    if (monthDayFrom != null && taipei(now).getUTCDate() < monthDayFrom) return 'OUTSIDE';
+    return 'ELIGIBLE';
+  }
   function registrationWindow(rule) {
     if (rule.registrationStart || rule.registrationEnd) return {
       start: date(rule.registrationStart), end: date(rule.registrationEnd, true)
@@ -51,8 +91,10 @@
   }
   function periodKey(rule, now = new Date()) {
     const t = taipei(now);
-    const cycle = /每月|當月/.test(rule.regDeadline || '') || rule.registrationCycle === 'MONTHLY'
-      ? `${t.getUTCFullYear()}-${t.getUTCMonth() + 1}` : '';
+    const cycle = rule.registrationCycle === 'QUARTERLY'
+      ? `${t.getUTCFullYear()}-Q${Math.floor(t.getUTCMonth() / 3) + 1}`
+      : (/每月|當月/.test(rule.regDeadline || '') || rule.registrationCycle === 'MONTHLY'
+        ? `${t.getUTCFullYear()}-${t.getUTCMonth() + 1}` : '');
     return JSON.stringify([rule.id, rule.sourceUrl, rule.validFrom, rule.validUntil,
       rule.registrationStart, rule.registrationEnd, rule.regDeadline, cycle]);
   }
@@ -64,19 +106,21 @@
     if (rule.registered && rule.registeredPeriod === periodKey(rule, now)) return 'marked';
     return w.start && w.end ? 'available' : 'unknown';
   }
-  function calculate(rule, amount) {
+  function calculate(rule, amount, now = new Date()) {
     const spendAmount = number(amount) || 0;
     const result = { effectiveRate: 0, potentialRate: 0, totalCash: 0, potentialCash: 0,
       spendAmount, isBoostActive: false, capped: false, capAmount: number(rule.capAmount),
       calculable: false, reason: '', assumptions: [] };
     const fail = reason => ({ ...result, reason });
-    const now = new Date();
     const until = date(rule.validUntil, true);
     if (until && until < now) return fail('活動已截止');
     if (rule.validFrom && date(rule.validFrom) > now) return fail('活動尚未開始');
+    const dateStatus = eligibleDateStatus(rule, now);
+    if (dateStatus === 'UNKNOWN') return fail('指定活動日期資料待確認');
+    if (dateStatus === 'OUTSIDE') return fail('今天不是指定活動日');
     const type = String(rule.rewardType || '').toLowerCase();
     const unit = String(rule.rewardUnit || '').toLowerCase();
-    if (['draw', 'installment', 'insurance_benefit'].includes(type)) return fail('非保證現金回饋');
+    if (['draw', 'installment', 'insurance_benefit', 'discount', 'coupon', 'mixed_benefit'].includes(type)) return fail('非現金刷卡回饋');
     if (type === 'points' && unit !== 'twd' && !(unit === 'percent' && rule.pointValueTwd === 1)) return fail('點數未確認兌換價值');
     const min = number(rule.minimumSpend);
     if (min !== null && spendAmount < min) return fail('本筆未達最低消費門檻');
@@ -140,34 +184,73 @@
     return result;
   }
   function isReviewed(rule, now = new Date()) {
+    if (rule.cardId === 'card_中國信託_51'
+      && /Visa|JCB/i.test([rule.title,...(rule.fundingMethods || []),...(rule.eligibilityRequirements || [])].join(' ')))
+      return false;
     const review = rule.accuracyReview;
     const checked = date(review?.checkedAt);
+    const proof = rule.termEvidence;
+    const proofChecked = date(proof?.checkedAt);
+    const proofFields = ['title','cardEligibility','reward','rewardType','validFrom','validUntil',
+      'cap','minimumSpend','registration','exclusions','rounding'];
+    const completeProof = proof?.method === 'manual_official_terms_read'
+      && proof.sourceUrl === rule.sourceUrl && proofChecked && proofChecked <= now
+      && now - proofChecked <= 14 * 86400000
+      && proofFields.every(field => {
+        const item = proof.fields?.[field];
+        return item && ['supported','not_applicable'].includes(item.status)
+          && item.sourceUrl === rule.sourceUrl && typeof item.locator === 'string'
+          && item.locator.trim() && (item.status !== 'not_applicable' || item.reason?.trim());
+      })
+      && (rule.eligibleWeekdays == null && rule.eligibleMonthDayFrom == null && rule.excludedDateRanges == null || (proof.fields?.schedule?.status === 'supported'
+        && proof.fields.schedule.sourceUrl === rule.sourceUrl
+        && typeof proof.fields.schedule.locator === 'string' && proof.fields.schedule.locator.trim()));
     return !!(review?.status === 'SOURCE_CHECKED' && !review.issues?.length
-      && review.fields?.length && review.sourceUrl === rule.sourceUrl && checked
+      && review.method === 'official_terms_read' && typeof review.evidence === 'string' && review.evidence.trim()
+      && Array.isArray(review.evidenceSources) && review.evidenceSources.includes(rule.sourceUrl)
+      && review.fields?.length && review.sourceUrl === rule.sourceUrl && checked && completeProof
       && (rule._reviewTermsMatch === undefined ? reviewMatches(rule) : rule._reviewTermsMatch === true
         && JSON.stringify(stable(termsSnapshot(rule))) === JSON.stringify(stable(rule._reviewTermsBaseline)))
       && !rule.validationIssues?.length && rule.associationStatus !== 'needs_review'
-      && checked <= now && now - checked <= 14 * 86400000);
+      && checked <= now && now - checked <= 14 * 86400000
+      && (!rule.validFrom || (date(rule.validFrom) && date(rule.validFrom) <= now))
+      && (!rule.validUntil || (date(rule.validUntil, true) && date(rule.validUntil, true) >= now))
+      && ['UNRESTRICTED','ELIGIBLE'].includes(eligibleDateStatus(rule, now)));
   }
-  function assessment(rule) {
-    if (isReviewed(rule)) return {level:'CHECKED',priority:3,label:'已核對條款',cashAllowed:true};
+  function assessment(rule, now = new Date()) {
+    const dateStatus = eligibleDateStatus(rule, now);
+    if (dateStatus === 'UNKNOWN') return {level:'BLOCKED',priority:0,label:'指定活動日期資料待確認，暫停推薦',cashAllowed:false};
+    if (dateStatus === 'OUTSIDE') return {level:'BLOCKED',priority:0,label:'今天不是指定活動日',cashAllowed:false};
+    if (isReviewed(rule, now)) return {level:'CHECKED',priority:3,label:'已核對條款',cashAllowed:true};
     const review=rule.accuracyReview || {};
     const conflict=review.status==='CONFLICT' || review.status==='RECHECK_REQUIRED'
       || rule.associationStatus==='needs_review' || rule.unresolvedCardId
-      || (rule.validationIssues || []).some(s=>/MIXED_|ORPHAN|CARD_ASSOCIATION|WRONG_CARD/.test(s));
+      || (rule.cardId === 'card_中國信託_51'
+        && /Visa|JCB/i.test([rule.title,...(rule.fundingMethods || []),...(rule.eligibilityRequirements || [])].join(' ')))
+      || (rule.validationIssues || []).length > 0;
     if (conflict) return {level:'BLOCKED',priority:0,label:'資料有衝突，暫停推薦',cashAllowed:false};
+    if (!date(rule.validFrom) || !date(rule.validUntil, true))
+      return {level:'BLOCKED',priority:0,label:'活動有效期間待確認，暫停推薦',cashAllowed:false};
+    if (rule.needReg && (!date(rule.registrationStart) || !date(rule.registrationEnd, true)))
+      return {level:'BLOCKED',priority:0,label:'登錄期間待確認，暫停推薦',cashAllowed:false};
     let source=false;
     try { const url=new URL(rule.sourceUrl);source=url.protocol==='https:' && !!url.hostname && !url.username && !url.password; } catch {}
     if (!source) return {level:'BLOCKED',priority:0,label:'缺少可核對來源',cashAllowed:false};
     if (review.status==='PARTIAL' && review.evidence && review.fields?.length)
       return {level:'PARTIAL',priority:2,label:'部分條件已核對',cashAllowed:false};
+    const checked = date(review.checkedAt);
+    if (review.status === 'SOURCE_CHECKED' && checked && now - checked > 14 * 86400000)
+      return {level:'REFERENCE',priority:1,label:'條款核對已逾14天待複核',cashAllowed:false,reviewExpired:true};
     return {level:'REFERENCE',priority:1,label:'有來源，尚未完整覆核',cashAllowed:false};
   }
   function referenceReward(rule) {
     const type=String(rule.rewardType || '').toLowerCase(),unit=String(rule.rewardUnit || '').toLowerCase();
     if (type==='insurance_benefit' || /旅平險|旅遊.*保險|旅遊不便險/.test(rule.title || '')) return '保險保障，非刷卡回饋';
+    if (['discount','coupon','mixed_benefit'].includes(type)) return rule.benefitSummary ? `${rule.benefitSummary}（資料列示）` : '折扣／優惠券（條件待補）';
     if (type==='draw') return '抽獎活動';
     if (type==='installment') return '分期優惠';
+    if ((rule.validationIssues || []).includes('AMBIGUOUS_PERCENT_AND_FIXED_POINT_REWARD')) return '點數上限／固定獎勵待核';
+    if (type==='points' && rule.benefitSummary) return `${rule.benefitSummary}（資料列示）`;
     if (type==='points' && unit!=='percent' && number(rule.rewardAmount)>0) return `${rule.rewardAmount} 點（資料列示）`;
     if (type==='cash' && number(rule.rewardAmount)>0 && rule.rewardAmount!==rule.capAmount) return `NT$${rule.rewardAmount}（資料列示）`;
     // A cap is never an award. Do not add base + promo without verified semantics.
@@ -179,7 +262,7 @@
     }
     return '活動優惠（條件待補）';
   }
-  const api = { date, registrationWindow, periodKey, lifecycle, calculate, isReviewed, termsSnapshot, reviewMatches, assessment, referenceReward };
+  const api = { date, eligibleDateStatus, registrationWindow, periodKey, lifecycle, calculate, isReviewed, termsSnapshot, reviewMatches, assessment, referenceReward };
   if (typeof module !== 'undefined') module.exports = api;
   else root.KanuAccuracy = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

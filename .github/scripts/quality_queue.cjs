@@ -11,6 +11,7 @@ const rows = data.rules.map(r=>{
  if (!r.sourceUrl) issues.push('MISSING_SOURCE');
  if (r.cardId && !cards.has(r.cardId)) issues.push('ORPHAN_CARD');
  if (r.associationStatus==='needs_review') issues.push('UNRESOLVED_CARD_ASSOCIATION');
+ for (const issue of new Set(r.validationIssues || [])) issues.push('VALIDATION_'+issue);
  if (r.accuracyReview?.status==='SOURCE_CHECKED' && !A.reviewMatches(r)) issues.push('TERMS_CHANGED_OR_SNAPSHOT_MISSING');
  const until=A.date(r.validUntil,true), from=A.date(r.validFrom);
  const state=until && until<now?'EXPIRED':from && from>now?'UPCOMING':'ACTIVE_OR_UNKNOWN';

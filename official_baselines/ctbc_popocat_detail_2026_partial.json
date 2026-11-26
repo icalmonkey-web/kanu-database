@@ -1,0 +1,18 @@
+{
+  "baselineId": "ctbc_popocat_detail_2026_partial",
+  "scope": "中信脆萌寵撥撥詳情頁可核的 2026 方案欄位；首頁起日與加碼上限、卡別用語衝突未解",
+  "observedAt": "2026-11-08",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_pet.html",
+  "offers": [
+    {"id":"popocat_official_web", "fields": {
+      "validFrom":{"value":"2026-04-01","sourceLineHint":"L160"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L160"},
+      "baseRate":{"value":1,"sourceLineHint":"L161"},
+      "promoRate":{"value":9,"sourceLineHint":"L161"},
+      "rewardType":{"value":"points","sourceLineHint":"L161,L166"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L161: 10%點數，非固定點數"},
+      "minimumSpend":{"value":0,"sourceLineHint":"L161: 不限金額"},
+      "roundingMode":{"value":"ROUND_COMPONENT","sourceLineHint":"L166: 加碼9%四捨五入"}
+    }}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "baselineId": "ctbc_good_dog_2026",
+  "scope": "中信脆萌寵好狗運固定30點活動的官方日期、門檻、星期、上限、排除與卡片付款欄位",
+  "observedAt": "2026-11-08",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_pet.html",
+  "offers": [
+    {"id": "good_dog_weekday_30_points", "fields": {
+      "validFrom": {"value": "2026-01-01", "sourceLineHint": "L40-L44"},
+      "validUntil": {"value": "2026-12-31", "sourceLineHint": "L40-L44"},
+      "eligibleWeekdays": {"value": [1,2,3,4,5], "sourceLineHint": "L148"},
+      "minimumSpend": {"value": 1300, "sourceLineHint": "L148"},
+      "rewardType": {"value": "points", "sourceLineHint": "L146-L148"},
+      "rewardUnit": {"value": "points", "sourceLineHint": "L146-L148"},
+      "rewardAmount": {"value": 30, "sourceLineHint": "L148"},
+      "capAmount": {"value": 30, "sourceLineHint": "L148: 每人每月一次固定30點"},
+      "capPeriod": {"value": "MONTHLY", "sourceLineHint": "L148"},
+      "needReg": {"value": false, "sourceLineHint": "L147-L154: 無銀行活動登錄步驟"}
+    }}
+  ]
+}

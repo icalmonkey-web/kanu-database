@@ -1,0 +1,23 @@
+{
+  "baselineId":"icashpay_mobile_tea_nov_2026_listing",
+  "scope":"行動隨時取兩款指定週二飲品的 icash Pay 官方列表摘要；Openpoint 詳情連結 404，支付資格、兌換與即時庫存未核",
+  "observedAt":"2026-11-05",
+  "sourceUrl":"https://www.icashpay.com.tw/advertMessage/view/id/2588",
+  "offers":[
+    {"id":"ice","fields":{
+      "validFrom":{"value":"2026-11-03","sourceLineHint":"L220"},
+      "validUntil":{"value":"2026-11-24","sourceLineHint":"L220"},
+      "eligibleDateRanges":{"value":[["2026-11-03","2026-11-03"],["2026-11-10","2026-11-10"],["2026-11-17","2026-11-17"],["2026-11-24","2026-11-24"]],"sourceLineHint":"L220"},
+      "rewardType":{"value":"discount","sourceLineHint":"L222: 指定商品買 2 送 2"},
+      "buyQuantity":{"value":2,"sourceLineHint":"L222"},
+      "freeQuantity":{"value":2,"sourceLineHint":"L222"}
+    }},
+    {"id":"pearl","fields":{
+      "validFrom":{"value":"2026-11-03","sourceLineHint":"L229"},
+      "validUntil":{"value":"2026-11-24","sourceLineHint":"L229"},
+      "eligibleDateRanges":{"value":[["2026-11-03","2026-11-03"],["2026-11-10","2026-11-10"],["2026-11-17","2026-11-17"],["2026-11-24","2026-11-24"]],"sourceLineHint":"L229"},
+      "rewardType":{"value":"discount","sourceLineHint":"L231: 兩杯組合價"},
+      "bundlePriceAmount":{"value":88,"sourceLineHint":"L231"}
+    }}
+  ]
+}

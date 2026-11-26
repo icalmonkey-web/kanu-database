@@ -1,0 +1,7 @@
+{
+  "baselineId":"icashpay_mobile_tea_nov_2026_listing",
+  "mappings":[
+    {"offerId":"ice","ruleId":"review_mobile_tea_ice_2026_listing"},
+    {"offerId":"pearl","ruleId":"review_mobile_tea_pearl_2026_listing"}
+  ]
+}

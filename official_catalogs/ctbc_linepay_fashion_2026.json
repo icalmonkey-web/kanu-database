@@ -1,0 +1,33 @@
+{
+  "catalogId": "ctbc_linepay_fashion_2026",
+  "scope": "中國信託 LINE Pay 卡脆時尚頁 2026-11-07 可見的 25 個列表入口，含 LINE Pay 及 ShopBack 合作項目；僅盤點入口與列表日期，複合優惠仍待拆分",
+  "observedAt": "2026-11-07",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_fashion.html",
+  "offers": [
+    {"id":"watsons","name":"watsons 屈臣氏最高 7%","matchToken":"屈臣氏","sourceLineHint":30,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"CARD"},
+    {"id":"vacanza","name":"VACANZA 81 折加 6%","matchToken":"VACANZA","sourceLineHint":36,"validFrom":"2026-10-01","validUntil":"2026-12-31","channel":"CARD"},
+    {"id":"sisley","name":"Sisley 6%","matchToken":"Sisley","sourceLineHint":43,"validFrom":"2026-01-12","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"dokodemo","name":"DOKODEMO ShopBack 3.5%","matchToken":"DOKODEMO","sourceLineHint":51,"validFrom":"2026-07-01","validUntil":"2026-12-31","channel":"SHOPBACK"},
+    {"id":"estee_lauder","name":"雅詩蘭黛 5%","matchToken":"雅詩蘭黛","sourceLineHint":59,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"jo_malone","name":"Jo Malone 5%","matchToken":"Jo Malone","sourceLineHint":66,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"la_mer","name":"LA MER 5%","matchToken":"LA MER","sourceLineHint":74,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"mac","name":"MAC 5%","matchToken":"MAC","sourceLineHint":82,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"bobbi_brown","name":"BOBBI BROWN 5%","matchToken":"BOBBI BROWN","sourceLineHint":89,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"origins","name":"品木宣言 5%","matchToken":"品木宣言","sourceLineHint":97,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"clinique","name":"倩碧 5%","matchToken":"倩碧","sourceLineHint":105,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"shiseido","name":"資生堂國際櫃 6%","matchToken":"資生堂國際櫃","sourceLineHint":112,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"cle_de_peau","name":"肌膚之鑰 6%","matchToken":"肌膚之鑰","sourceLineHint":120,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"ipsa","name":"IPSA 6%","matchToken":"IPSA","sourceLineHint":128,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"nars","name":"NARS 6%","matchToken":"NARS","sourceLineHint":135,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"watashi","name":"Watashi+ 6%","matchToken":"Watashi+","sourceLineHint":143,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"kafen","name":"KAFEN 8%","matchToken":"KAFEN","sourceLineHint":151,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"sabon","name":"SABON 6%","matchToken":"SABON","sourceLineHint":158,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"hearth","name":"hearth 6%","matchToken":"hearth","sourceLineHint":166,"validFrom":"2026-01-15","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"sulwhasoo","name":"雪花秀 6%","matchToken":"雪花秀","sourceLineHint":174,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"laneige","name":"蘭芝 6%","matchToken":"蘭芝","sourceLineHint":181,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"mirae","name":"mirae 未來美 ShopBack 5%","matchToken":"mirae","sourceLineHint":189,"validFrom":"2026-07-01","validUntil":"2026-12-31","channel":"SHOPBACK"},
+    {"id":"m2","name":"M2 美度 ShopBack 5%","matchToken":"M2 美度","sourceLineHint":197,"validFrom":"2026-07-01","validUntil":"2026-12-31","channel":"SHOPBACK"},
+    {"id":"dv","name":"DV 麗彤生醫 ShopBack 8%","matchToken":"DV麗彤生醫","sourceLineHint":204,"validFrom":"2026-07-01","validUntil":"2026-12-31","channel":"SHOPBACK"},
+    {"id":"poya","name":"POYA 寶雅最高 3%","matchToken":"寶雅","sourceLineHint":211,"validFrom":"2026-10-01","validUntil":"2026-12-31","channel":"LINE_PAY","listingActionOnly":true}
+  ]
+}

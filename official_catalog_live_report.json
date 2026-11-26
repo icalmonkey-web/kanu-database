@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-11-04T00:49:03.270318+00:00",
+  "catalogs": [
+    {
+      "catalogId": "ctbc_linepay_food_2026h2",
+      "status": "FETCH_FAILED",
+      "checkedAt": "2026-11-04T00:49:03.261833+00:00",
+      "error": "HTTPSConnectionPool(host='www.ctbcbank.com', port=443): Max retries exceeded with url: /content/dam/minisite/long/creditcard/LINEPay/page_food.html (Caused by NameResolutionError(\"HTTPSConnection(host='www.ctbcbank.com', port=443): Failed to resolve 'www.ctbcbank.com' ([Errno 11001] getaddrinfo fail",
+      "knownOfferCount": 14,
+      "note": "本輪未能核對官網清單，不可將靜態清單視為當日有效。"
+    },
+    {
+      "catalogId": "ctbc_linepay_life_2026",
+      "status": "FETCH_FAILED",
+      "checkedAt": "2026-11-04T00:49:03.264889+00:00",
+      "error": "HTTPSConnectionPool(host='www.ctbcbank.com', port=443): Max retries exceeded with url: /content/dam/minisite/long/creditcard/LINEPay/page_life.html (Caused by NameResolutionError(\"HTTPSConnection(host='www.ctbcbank.com', port=443): Failed to resolve 'www.ctbcbank.com' ([Errno 11001] getaddrinfo fail",
+      "knownOfferCount": 31,
+      "note": "本輪未能核對官網清單，不可將靜態清單視為當日有效。"
+    },
+    {
+      "catalogId": "ctbc_linepay_shopping_2026h2",
+      "status": "FETCH_FAILED",
+      "checkedAt": "2026-11-04T00:49:03.267586+00:00",
+      "error": "HTTPSConnectionPool(host='www.ctbcbank.com', port=443): Max retries exceeded with url: /content/dam/minisite/long/creditcard/LINEPay/page_shopping.html (Caused by NameResolutionError(\"HTTPSConnection(host='www.ctbcbank.com', port=443): Failed to resolve 'www.ctbcbank.com' ([Errno 11001] getaddrinfo ",
+      "knownOfferCount": 24,
+      "note": "本輪未能核對官網清單，不可將靜態清單視為當日有效。"
+    },
+    {
+      "catalogId": "ctbc_linepay_travel_2026",
+      "status": "FETCH_FAILED",
+      "checkedAt": "2026-11-04T00:49:03.270289+00:00",
+      "error": "HTTPSConnectionPool(host='www.ctbcbank.com', port=443): Max retries exceeded with url: /content/dam/minisite/long/creditcard/LINEPay/page_travel.html (Caused by NameResolutionError(\"HTTPSConnection(host='www.ctbcbank.com', port=443): Failed to resolve 'www.ctbcbank.com' ([Errno 11001] getaddrinfo fa",
+      "knownOfferCount": 28,
+      "note": "本輪未能核對官網清單，不可將靜態清單視為當日有效。"
+    }
+  ],
+  "allKnownListingsRechecked": false,
+  "marketCoveragePercent": null,
+  "acceptanceStatus": "NOT_ESTABLISHED"
+}

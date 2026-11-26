@@ -1,0 +1,41 @@
+{
+  "baselineId": "ctbc_samsung_fixed_2026_partial",
+  "scope": "CTBC Samsung official store fixed 1,000 LINE POINTS on Thursday and Friday; excludes live pool and personal eligibility",
+  "observedAt": "2026-11-07",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_shopping.html",
+  "offers": [
+    {
+      "id": "samsung",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_shopping.html",
+      "fields": {
+        "minimumSpend": {
+          "value": 50000,
+          "sourceLineHint": "L243"
+        },
+        "rewardAmount": {
+          "value": 1000,
+          "sourceLineHint": "L243: genuine fixed award"
+        },
+        "capAmount": {
+          "value": 1000,
+          "sourceLineHint": "L244: one award per account"
+        },
+        "capPeriod": {
+          "value": "CAMPAIGN",
+          "sourceLineHint": "L244"
+        },
+        "eligibleWeekdays": {
+          "value": [
+            4,
+            5
+          ],
+          "sourceLineHint": "L243: Thursday and Friday"
+        },
+        "needReg": {
+          "value": false,
+          "sourceLineHint": "L242-L245: LINE Pay payment, no bank registration step stated"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "baselineId": "icashpay_sunday_2026_partial",
+  "scope": "icash Pay 週日最好 Pay 2026/7/1–12/31 公開結構欄位；每月總點數池即時剩餘、個別交易與會員資格未驗證",
+  "observedAt": "2026-11-04",
+  "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2284",
+  "offers": [
+    {
+      "id": "sunday_7_percent",
+      "fields": {
+        "validFrom": {
+          "value": "2026-07-01",
+          "sourceLineHint": "L8"
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": "L8"
+        },
+        "paymentProvider": {
+          "value": "icash Pay",
+          "sourceLineHint": "L16"
+        },
+        "fundingMethods": {
+          "value": [
+            "icash Pay 帳戶餘額",
+            "連結銀行帳戶付款"
+          ],
+          "sourceLineHint": "L16"
+        },
+        "promoRate": {
+          "value": 7,
+          "sourceLineHint": "L16"
+        },
+        "rewardType": {
+          "value": "points",
+          "sourceLineHint": "L16: OPENPOINT"
+        },
+        "rewardAmount": {
+          "value": null,
+          "sourceLineHint": "L16: 200 點為月上限，不是每筆固定獎勵"
+        },
+        "rewardUnit": {
+          "value": "percent",
+          "sourceLineHint": "L16: 交易金額 7%"
+        },
+        "minimumSpend": {
+          "value": 200,
+          "sourceLineHint": "L16"
+        },
+        "capAmount": {
+          "value": 200,
+          "sourceLineHint": "L16: 每月每戶"
+        },
+        "capPeriod": {
+          "value": "MONTHLY",
+          "sourceLineHint": "L16"
+        },
+        "campaignCapAmount": {
+          "value": 1000000,
+          "sourceLineHint": "L16: 每月總贈點"
+        },
+        "needReg": {
+          "value": false,
+          "sourceLineHint": "L18-L20 僅須預先註冊支付帳號，未要求另外登錄活動"
+        },
+        "eligibleWeekdays": {
+          "value": [
+            0
+          ],
+          "sourceLineHint": "L8 and L16: 每週日；0 denotes Sunday in Taipei"
+        }
+      }
+    }
+  ]
+}

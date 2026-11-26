@@ -1,0 +1,21 @@
+{
+  "baselineId":"ctbc_casetify_2026q4",
+  "scope":"中國信託LINE Pay卡脆慢活頁 CASETiFY 2026 Q4 活動的選定結構欄位；不含交易當月已用額度",
+  "observedAt":"2026-11-03",
+  "sourceUrl":"https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+  "offers":[{"id":"casetify_4_percent","conditions":"官網或APP單筆滿NT$2,500；中信LINE Pay卡直接刷卡或綁定LINE Pay；其他第三方支付及取消退款排除",
+    "fields":{
+      "cardId":{"value":"card_中國信託_51","sourceLineHint":510},
+      "baseRate":{"value":1,"sourceLineHint":510},
+      "promoRate":{"value":3,"sourceLineHint":510},
+      "rewardType":{"value":"points","sourceLineHint":510},
+      "rewardUnit":{"value":"percent","sourceLineHint":510},
+      "rewardAmount":{"value":null,"sourceLineHint":510},
+      "capAmount":{"value":200,"sourceLineHint":46},
+      "capPeriod":{"value":"MONTHLY","sourceLineHint":46},
+      "minimumSpend":{"value":2500,"sourceLineHint":510},
+      "needReg":{"value":false,"sourceLineHint":508},
+      "validFrom":{"value":"2026-10-01","sourceLineHint":509},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":509}
+    }}]
+}

@@ -43,6 +43,26 @@ MAX_PAGES = int(os.environ.get("MAX_PAGES_PER_BANK", "60"))
 MAX_DEPTH = int(os.environ.get("MAX_CRAWL_DEPTH", "3"))
 MIN_STATIC_TEXT = int(os.environ.get("MIN_STATIC_TEXT", "350"))
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
+INCOMPLETE_PAGE_STATUSES = {"fetch_failed", "ai_failed_preserved_old_data", "insufficient_content",
+                            "needs_pdf_parser", "redirect_outside_allowlist", "workflow_time_budget"}
+
+
+def summarize_reports(reports, ai_requests=0, dataset_changed=False):
+    """A successful process exit is not proof that every configured page was scanned."""
+    page_gaps = {}
+    for report in reports:
+        for page in report.get('pages', []):
+            status = page.get('status')
+            if status in INCOMPLETE_PAGE_STATUSES:
+                page_gaps[status] = page_gaps.get(status, 0) + 1
+        for item in report.get('unvisited', []):
+            reason = item.get('reason') or 'unvisited'
+            page_gaps[reason] = page_gaps.get(reason, 0) + 1
+    incomplete = sum(report.get('status') != 'completed' for report in reports)
+    return {'banks': len(reports), 'needsReview': incomplete, 'aiRequests': ai_requests,
+            'status': 'partial' if incomplete or page_gaps else 'completed',
+            'aiFailedPages': page_gaps.get('ai_failed_preserved_old_data', 0),
+            'pageGaps': page_gaps, 'datasetChanged': dataset_changed}
 
 DYNAMIC_NOISE = [
     r"\b20\d{2}[-/.]\d{1,2}[-/.]\d{1,2}[ T]\d{1,2}:\d{2}(?::\d{2})?\b",
@@ -223,18 +243,21 @@ def load_issuer_configs():
     configs = []
     for issuer in issuers:
         product_types = issuer.get("productTypes") or (["CREDIT"] if issuer.get("issuesCreditCards") else [])
+        full_scan_due = issuer_scan_due(issuer)
+        event_urls = issuer.get("offerPortalUrls", []) + issuer.get("registrationPortalUrls", [])
         if (not issuer.get("enabled", False)
                 or not set(product_types) & {"CREDIT", "DEBIT", "CHARGE"}
-                or not issuer_scan_due(issuer)):
+                or (not full_scan_due and not event_urls)):
             continue
         configs.append({
             "bank": issuer["name"],
-            "card_urls": issuer.get("cardCatalogUrls", []),
-            "event_portals": issuer.get("offerPortalUrls", []) + issuer.get("registrationPortalUrls", []),
+            "card_urls": issuer.get("cardCatalogUrls", []) if full_scan_due else [],
+            "event_portals": event_urls,
             "allowed_hosts": issuer.get("allowedHosts", []),
             "event_link_pattern": issuer.get("eventLinkPattern", ""),
             "product_types": product_types,
             "source_type": "CARD",
+            "catalogScan": full_scan_due,
         })
     payment_registry = load_json_or_fail(PAYMENT_FILE, "providers")
     for provider in payment_registry.get("providers", []):
@@ -290,14 +313,18 @@ def update_issuer_scan_status(registry, reports, cards, rules):
             if rule.get("bank") == bank or rule.get("cardId") in bank_card_ids
         )
         if report:
-            issuer["lastScanAt"] = report.get("completedAt", utc_now())
-            issuer["lastScanStatus"] = report.get("status", "unknown")
+            if report.get("catalogScan", True):
+                issuer["lastScanAt"] = report.get("completedAt", utc_now())
+                issuer["lastScanStatus"] = report.get("status", "unknown")
+            else:
+                issuer["lastEventScanAt"] = report.get("completedAt", utc_now())
+                issuer["lastEventScanStatus"] = report.get("status", "unknown")
             issuer["unvisitedPageCount"] = len(report.get("unvisited", []))
             issuer["failedPageCount"] = sum(
                 page.get("status") in {"fetch_failed", "ai_failed_preserved_old_data", "insufficient_content"}
                 for page in report.get("pages", [])
             )
-            if report.get("status") == "completed":
+            if report.get("status") == "completed" and report.get("catalogScan", True):
                 issuer["lastSuccessfulScanAt"] = report.get("completedAt", utc_now())
     registry["lastUpdatedAt"] = utc_now()
     return registry
@@ -371,6 +398,19 @@ async def fetch_page(client, context, url: str, prior: dict) -> FetchResult:
         await page.close()
 
 
+def add_rule_without_collision(rules: dict, rule: dict):
+    base = f"{rule.get('cardId')}_{rule.get('title', '')}_{rule.get('sourceUrl', '')}"
+    key = base
+    if key in rules:
+        suffix = str(rule.get('id') or 'missing_id')
+        key = f'{base}__id:{suffix}'
+        serial = 1
+        while key in rules:
+            serial += 1
+            key = f'{base}__id:{suffix}_{serial}'
+    rules[key] = rule
+
+
 def old_maps(old: dict, audited_ids=None):
     rejected_ids = {
         card.get("id") for card in old.get("cards", [])
@@ -381,7 +421,9 @@ def old_maps(old: dict, audited_ids=None):
         for c in old.get("cards", [])
         if audited_ids is None or c.get("id") in audited_ids
     }
-    rules = {f"{r.get('cardId')}_{r.get('title', '')}_{r.get('sourceUrl', '')}": r for r in old.get("rules", [])}
+    rules = {}
+    for rule in old.get('rules', []):
+        add_rule_without_collision(rules, rule)
     for rule in rules.values():
         if rule.get("cardId") in rejected_ids:
             rule["cardId"] = None
@@ -395,19 +437,53 @@ def restore_newer_checkpoints(old: dict, state: dict, cards: dict, rules: dict) 
     baseline = str(old.get("lastUpdated", ""))
     if not CHECKPOINT_DIR.exists():
         return restored
+    newest = {}
     for path in CHECKPOINT_DIR.glob("*.json"):
         checkpoint = load_json(path, {})
         if not checkpoint.get("bank") or str(checkpoint.get("savedAt", "")) <= baseline:
             continue
-        bank = checkpoint["bank"]
+        bank = checkpoint['bank']
+        if bank not in newest or str(checkpoint['savedAt']) > str(newest[bank]['savedAt']):
+            newest[bank] = checkpoint
+    for bank, checkpoint in newest.items():
         card_ids = {card.get("id") for card in checkpoint.get("cards", [])}
         cards.update({f"{c.get('bank')}_{legacy.normalize_card_name(c.get('cardName'))}": c
                       for c in checkpoint.get("cards", [])})
-        for key in [key for key, rule in rules.items()
-                    if rule.get("bank") == bank or rule.get("cardId") in card_ids]:
+        bank_keys = [key for key, rule in rules.items()
+                     if rule.get("bank") == bank or rule.get("cardId") in card_ids]
+        protected = {key: rules[key] for key in bank_keys
+                     if rules[key].get('sourceFacts') or
+                     (rules[key].get('accuracyReview') or {}).get('status') in {'SOURCE_CHECKED', 'RECHECK_REQUIRED'}}
+        for key in bank_keys:
             del rules[key]
-        rules.update({f"{r.get('cardId')}_{r.get('title', '')}_{r.get('sourceUrl', '')}": r
-                      for r in checkpoint.get("rules", [])})
+        for rule in checkpoint.get('rules', []):
+            add_rule_without_collision(rules, rule)
+        checkpoint_by_id = {r.get('id'): r for r in checkpoint.get('rules', []) if r.get('id')}
+        compare_fields = ('title', 'cardId', 'sourceUrl', 'validFrom', 'validUntil',
+                          'eligibleDateRanges', 'excludedDateRanges', 'eligibleWeekdays',
+                          'eligibleMonthDayFrom', 'baseRate', 'promoRate', 'rewardType',
+                          'rewardUnit', 'rewardAmount', 'capAmount', 'capPeriod',
+                          'minimumSpend', 'needReg', 'registrationUrl')
+        for key, rule in protected.items():
+            counterpart = checkpoint_by_id.get(rule.get('id'))
+            changed = [field for field in compare_fields
+                       if counterpart is not None and rule.get(field) != counterpart.get(field)]
+            if changed:
+                rule['checkpointRecheckCandidate'] = {
+                    'savedAt': checkpoint['savedAt'],
+                    'changedFields': changed,
+                    'fields': {field: counterpart.get(field) for field in changed}}
+                review = rule.get('accuracyReview') or {}
+                if review.get('status') == 'SOURCE_CHECKED':
+                    rule['accuracyReview'] = {**review, 'status': 'RECHECK_REQUIRED',
+                        'issues': list(dict.fromkeys([*review.get('issues', []), 'CHECKPOINT_CONFLICT_REQUIRES_REVIEW']))}
+                rule['validationIssues'] = list(dict.fromkeys([
+                    *(rule.get('validationIssues') or []), 'CHECKPOINT_CONFLICT_REQUIRES_REVIEW']))
+                rule['quickSearchEligible'] = False
+            for stale_key, checkpoint_rule in list(rules.items()):
+                if checkpoint_rule.get('id') == rule.get('id') or stale_key == key:
+                    del rules[stale_key]
+            rules[key] = rule
         state.setdefault("pages", {}).update(checkpoint.get("pages", {}))
         restored += 1
     return restored
@@ -443,7 +519,19 @@ def invalidate_source_reviews(rules, urls):
             rule['accuracyReview'] = {**review, 'status': 'RECHECK_REQUIRED',
                 'issues': list(dict.fromkeys([*review.get('issues', []), 'OFFICIAL_SOURCE_CHANGED']))}
             count += 1
+        elif rule.get('sourceUrl') in urls and rule.get('sourceFacts'):
+            rule['validationIssues'] = list(dict.fromkeys([
+                *(rule.get('validationIssues') or []), 'SOURCE_CHANGED_AFTER_CURATED_SNAPSHOT']))
+            rule['quickSearchEligible'] = False
+            count += 1
     return count
+
+
+def stale_unreviewed_keys(rules, bank, url):
+    return [key for key, rule in rules.items()
+            if rule.get('bank') == bank and rule.get('sourceUrl') == url
+            and not rule.get('sourceFacts')
+            and (rule.get('accuracyReview') or {}).get('status') not in {'SOURCE_CHECKED', 'RECHECK_REQUIRED'}]
 
 
 async def analyze_changed_page(ai_gate, bank, product_types, text, url, deadline):
@@ -458,7 +546,8 @@ async def crawl_bank(config, client, browser, state, state_lock, ai_gate, merge_
     hosts = {urlsplit(url).hostname for url in seeds} | set(config.get("allowed_hosts", []))
     queue, seen = deque((url, 0, None) for url in seeds), set(seeds)
     source_type = config.get("source_type", "CARD")
-    report = {"bank": bank, "sourceType": source_type, "status": "running", "pages": [], "unvisited": [], "startedAt": utc_now()}
+    report = {"bank": bank, "sourceType": source_type, "catalogScan": config.get("catalogScan", True),
+              "status": "running", "pages": [], "unvisited": [], "startedAt": utc_now()}
     context = await browser.new_context(user_agent=USER_AGENT, locale="zh-TW", viewport={"width": 1440, "height": 900})
     try:
         while queue and len(report["pages"]) < MAX_PAGES:
@@ -542,10 +631,10 @@ async def crawl_bank(config, client, browser, state, state_lock, ai_gate, merge_
                         offer["offerDomain"] = "PAYMENT"
                         offer["paymentProvider"] = bank
                 async with merge_lock:
-                    stale = [key for key, rule in rules.items() if rule.get("bank") == bank and rule.get("sourceUrl") == result.url and (rule.get("accuracyReview") or {}).get("status") != "SOURCE_CHECKED"]
+                    stale = stale_unreviewed_keys(rules, bank, result.url)
                     for key in stale:
                         del rules[key]
-                    legacy.merge_data(bank, extracted, cards, rules, result.url)
+                    legacy.merge_data(bank, extracted, cards, rules, result.url, cleaned, result.links)
                 row["status"] = "analyzed"
             async with state_lock:
                 state["pages"][url] = {"hash": digest, "staticHash": result.static_hash,
@@ -554,7 +643,7 @@ async def crawl_bank(config, client, browser, state, state_lock, ai_gate, merge_
 
         report["unvisited"].extend({"url": url, "reason": "page_limit", "parent": parent} for url, _, parent in queue)
         report["status"] = "needs_review" if report["unvisited"] or any(
-            page.get("status") in {"fetch_failed", "ai_failed_preserved_old_data", "insufficient_content"}
+            page.get("status") in INCOMPLETE_PAGE_STATUSES
             for page in report["pages"]) else "completed"
         report["completedAt"] = utc_now()
         async with merge_lock:
@@ -647,11 +736,7 @@ async def run():
     atomic_json(DATA_FILE, output)
     atomic_json(STATE_FILE, state)
     atomic_json(REPORT_FILE, {"generatedAt": utc_now(), "banks": reports,
-        "summary": {"banks": len(reports), "needsReview": sum(r["status"] != "completed" for r in reports),
-                    "aiRequests": legacy.MODEL_POOL.requests,
-                    "status": "partial_ai_unavailable" if ai_failed_pages else "completed",
-                    "aiFailedPages": ai_failed_pages,
-                    "datasetChanged": dataset_changed}})
+        "summary": summarize_reports(reports, legacy.MODEL_POOL.requests, dataset_changed)})
     atomic_json(ISSUER_FILE, update_issuer_scan_status(issuer_registry, reports, cards, rules))
     atomic_json(PAYMENT_FILE, update_payment_scan_status(payment_registry, reports, rules))
     print(f"DONE banks={len(reports)} cards={len(output['cards'])} rules={len(output['rules'])} AI={legacy.MODEL_POOL.requests}")

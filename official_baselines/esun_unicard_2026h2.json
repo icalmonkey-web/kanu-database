@@ -1,0 +1,208 @@
+{
+  "baselineId": "esun_unicard_core_2026h2",
+  "scope": "玉山 Unicard 2026/7/1–12/31 一般消費及百大指定消費核心回饋方案；不含同頁其他短期活動或全市場優惠",
+  "observedAt": "2026-11-02",
+  "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard",
+  "sourceSections": [
+    "權益方案／百大指定消費加碼",
+    "一般消費最高享1%",
+    "方案機制說明"
+  ],
+  "offers": [
+    {
+      "id": "general_ebill",
+      "fields": {
+        "totalRate": {
+          "value": 0.3,
+          "sourceLineHint": 341,
+          "sourceSection": "一般消費最高享1%"
+        },
+        "validFrom": {
+          "value": "2026-07-01",
+          "sourceLineHint": 339,
+          "sourceSection": "一般消費最高享1%"
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": 339,
+          "sourceSection": "一般消費最高享1%"
+        },
+        "rewardType": {
+          "value": "points",
+          "sourceLineHint": 345,
+          "sourceSection": "一般消費最高享1%"
+        },
+        "pointValueTwd": {
+          "value": 1,
+          "sourceLineHint": 345,
+          "sourceSection": "一般消費最高享1%"
+        },
+        "roundingMode": {
+          "value": "ROUND_COMPONENT",
+          "sourceLineHint": 345,
+          "sourceSection": "一般消費最高享1%"
+        }
+      },
+      "conditions": "一般消費、帳單e化；每筆四捨五入至整數點"
+    },
+    {
+      "id": "general_ebill_autodebit",
+      "fields": {
+        "totalRate": {
+          "value": 1,
+          "sourceLineHint": 342,
+          "sourceSection": "一般消費最高享1%"
+        },
+        "validFrom": {
+          "value": "2026-07-01",
+          "sourceLineHint": 339,
+          "sourceSection": "一般消費最高享1%"
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": 339,
+          "sourceSection": "一般消費最高享1%"
+        },
+        "rewardType": {
+          "value": "points",
+          "sourceLineHint": 345,
+          "sourceSection": "一般消費最高享1%"
+        },
+        "pointValueTwd": {
+          "value": 1,
+          "sourceLineHint": 345,
+          "sourceSection": "一般消費最高享1%"
+        },
+        "roundingMode": {
+          "value": "ROUND_COMPONENT",
+          "sourceLineHint": 345,
+          "sourceSection": "一般消費最高享1%"
+        }
+      },
+      "conditions": "一般消費、帳單e化與玉山臺幣帳戶成功扣繳卡費"
+    },
+    {
+      "id": "simple_bonus",
+      "fields": {
+        "promoRate": {
+          "value": 2,
+          "sourceLineHint": 256,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "capAmount": {
+          "value": 1000,
+          "sourceLineHint": 257,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "capPeriod": {
+          "value": "MONTHLY",
+          "sourceLineHint": 257,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "validFrom": {
+          "value": "2026-07-01",
+          "sourceLineHint": 244,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": 244,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "rewardType": {
+          "value": "points",
+          "sourceLineHint": 263,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "pointValueTwd": {
+          "value": 1,
+          "sourceLineHint": 263,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        }
+      },
+      "conditions": "百大指定消費；核卡後預設簡單選，加碼點數歸戶月上限"
+    },
+    {
+      "id": "choose_bonus",
+      "fields": {
+        "promoRate": {
+          "value": 2.5,
+          "sourceLineHint": 258,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "capAmount": {
+          "value": 1000,
+          "sourceLineHint": 259,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "capPeriod": {
+          "value": "MONTHLY",
+          "sourceLineHint": 259,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "validFrom": {
+          "value": "2026-07-01",
+          "sourceLineHint": 244,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": 244,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "rewardType": {
+          "value": "points",
+          "sourceLineHint": 263,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "pointValueTwd": {
+          "value": 1,
+          "sourceLineHint": 263,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        }
+      },
+      "conditions": "玉山 Wallet 設定任意選，最多選八家指定消費，加碼點數歸戶月上限"
+    },
+    {
+      "id": "up_bonus",
+      "fields": {
+        "promoRate": {
+          "value": 3.5,
+          "sourceLineHint": 260,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "capAmount": {
+          "value": 5000,
+          "sourceLineHint": 261,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "capPeriod": {
+          "value": "MONTHLY",
+          "sourceLineHint": 261,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "validFrom": {
+          "value": "2026-07-01",
+          "sourceLineHint": 244,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": 244,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "rewardType": {
+          "value": "points",
+          "sourceLineHint": 263,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        },
+        "pointValueTwd": {
+          "value": 1,
+          "sourceLineHint": 263,
+          "sourceSection": "權益方案／百大指定消費加碼"
+        }
+      },
+      "conditions": "Wallet 訂閱 UP選；同時符合上月刷卡三萬元及平均資產三十萬元，或支付149點訂閱"
+    }
+  ]
+}

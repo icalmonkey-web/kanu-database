@@ -1,0 +1,29 @@
+{
+  "baselineId": "ctbc_linepay_base_2026_partial",
+  "scope": "中信 LINE Pay 卡一般消費與國外實體店回饋的公開日期、比率、卡別與計算欄位；個人綁定、商店國別碼及完整不回饋項目未核",
+  "observedAt": "2026-11-08",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/notice.html",
+  "offers": [
+    {"id": "general_1pct", "fields": {
+      "validFrom": {"value": "2026-01-01", "sourceLineHint": "L63"},
+      "validUntil": {"value": "2026-12-31", "sourceLineHint": "L63"},
+      "baseRate": {"value": 1, "sourceLineHint": "L45"},
+      "promoRate": {"value": 0, "sourceLineHint": "L45"},
+      "rewardType": {"value": "points", "sourceLineHint": "L51-L57"},
+      "rewardAmount": {"value": null, "sourceLineHint": "L45: 百分比，非固定點數"},
+      "roundingMode": {"value": "ROUND", "sourceLineHint": "L53"},
+      "needReg": {"value": false, "sourceLineHint": "L49-L56: 回饋計劃無活動登錄步驟"}
+    }},
+    {"id": "overseas_physical_credit_2_8pct", "fields": {
+      "validFrom": {"value": "2026-07-01", "sourceLineHint": "L38-L44"},
+      "validUntil": {"value": "2026-12-31", "sourceLineHint": "L38-L44"},
+      "baseRate": {"value": 1, "sourceLineHint": "L24,L46-L48"},
+      "promoRate": {"value": 1.8, "sourceLineHint": "L24,L46-L48"},
+      "rewardType": {"value": "points", "sourceLineHint": "L24-L26"},
+      "rewardAmount": {"value": null, "sourceLineHint": "L24: 百分比，非固定點數"},
+      "roundingMode": {"value": "ROUND", "sourceLineHint": "L26-L28"},
+      "cardId": {"value": "card_中國信託_241", "sourceLineHint": "L24,L42-L48: 信用卡方案；本地 Visa 卡代表紀錄"},
+      "needReg": {"value": false, "sourceLineHint": "L21-L38: 無銀行活動登錄步驟"}
+    }}
+  ]
+}

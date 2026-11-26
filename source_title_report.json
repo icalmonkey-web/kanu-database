@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-11-02T13:46:03.543780+00:00",
+  "totalCandidateUrls": 361,
+  "scannedThisRun": 16,
+  "recentlyCheckedUrls": 345,
+  "failedUrls": 16,
+  "ruleStatusCounts": {},
+  "cumulativeRuleStatusCounts": {
+    "TITLE_NOT_FOUND_IN_STATIC_HTML": 676,
+    "TITLE_FOUND": 350,
+    "TITLE_TOO_SHORT": 43
+  },
+  "results": [
+    {
+      "url": "https://www.cathaybk.com.tw/cathaybk/personal/event/overview?category=credit-card",
+      "status": "FETCH_FAILED",
+      "reason": "ValueError"
+    },
+    {
+      "url": "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/",
+      "status": "FETCH_FAILED",
+      "reason": "ValueError"
+    },
+    {
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=3015",
+      "status": "FETCH_FAILED",
+      "reason": "ValueError"
+    },
+    {
+      "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=8009",
+      "status": "FETCH_FAILED",
+      "reason": "ValueError"
+    },
+    {
+      "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/Event937",
+      "status": "FETCH_FAILED",
+      "reason": "HTTPError"
+    },
+    {
+      "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/Event938",
+      "status": "FETCH_FAILED",
+      "reason": "HTTPError"
+    },
+    {
+      "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1187",
+      "status": "FETCH_FAILED",
+      "reason": "HTTPError"
+    },
+    {
+      "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1199",
+      "status": "FETCH_FAILED",
+      "reason": "HTTPError"
+    },
+    {
+      "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1200",
+      "status": "FETCH_FAILED",
+      "reason": "HTTPError"
+    },
+    {
+      "url": "https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1249",
+      "status": "FETCH_FAILED",
+      "reason": "HTTPError"
+    },
+    {
+      "url": "https://www.o-bank.com/retail/debit/cardmain_New",
+      "status": "FETCH_FAILED",
+      "reason": "ValueError"
+    },
+    {
+      "url": "https://www.o-bank.com/retail/debit/cardmain_new",
+      "status": "FETCH_FAILED",
+      "reason": "ValueError"
+    },
+    {
+      "url": "https://www.o-bank.com/retail/event/event-announce/debit_20260930_1",
+      "status": "FETCH_FAILED",
+      "reason": "HTTPError"
+    },
+    {
+      "url": "https://www.o-bank.com/retail/event/event-announce/debit_20260930_3",
+      "status": "FETCH_FAILED",
+      "reason": "HTTPError"
+    },
+    {
+      "url": "https://www.o-bank.com/zh-tw/retail/debit/cardmain_new",
+      "status": "FETCH_FAILED",
+      "reason": "ValueError"
+    },
+    {
+      "url": "https://www.tcbbank.com.tw/CreditCard/J_Credit_World/index.html",
+      "status": "FETCH_FAILED",
+      "reason": "ConnectionResetError"
+    }
+  ],
+  "caution": "Static HTML title presence is discovery evidence only. Missing text may be dynamically rendered. Neither result validates rate, eligibility, cap, expiry, or registration."
+}

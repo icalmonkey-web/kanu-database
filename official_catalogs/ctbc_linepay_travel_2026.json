@@ -1,0 +1,278 @@
+{
+  "catalogId": "ctbc_linepay_travel_2026",
+  "scope": "中國信託LINE Pay卡脆自遊頁 2026-11-03 可見的28個活動入口及KKday入口下另列的每週四方案，共29個方案；含銀行、LINE Pay、ShopBack合作及即將開始活動；只評估紀錄收錄",
+  "observedAt": "2026-11-03",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_travel.html",
+  "offers": [
+    {
+      "id": "itf",
+      "name": "ITF台灣國際旅展最高6%",
+      "matchToken": "ITF台灣國際旅展",
+      "sourceLineHint": 32,
+      "validFrom": "2026-11-06",
+      "validUntil": "2026-11-09",
+      "channel": "LINE_PAY",
+      "detailUrl": "https://web-tw-pay.line.me/svc/event/display2/5df8b961-43f7-4806-994f-51f7932714ef"
+    },
+    {
+      "id": "hotels",
+      "name": "Hotels.com最高16%",
+      "matchToken": "Hotels.com",
+      "sourceLineHint": 38,
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "wamazing",
+      "name": "完美行滑雪現折加5%",
+      "matchToken": "完美行滑雪",
+      "sourceLineHint": 45,
+      "validFrom": "2026-10-15",
+      "validUntil": "2026-12-31",
+      "endTime": "22:59",
+      "channel": "CARD"
+    },
+    {
+      "id": "overseas",
+      "name": "不限國別國外實體店5%需登錄",
+      "matchToken": "不限國別國外實體",
+      "sourceLineHint": 52,
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "uspace_parking",
+      "name": "USPACE停車金加7%",
+      "matchToken": "USPACE停車",
+      "sourceLineHint": 59,
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "uspace_wash",
+      "name": "USPACE洗車7%",
+      "matchToken": "USPACE洗車",
+      "sourceLineHint": 65,
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "ugo",
+      "name": "UGO機場接送7%",
+      "matchToken": "UGO",
+      "sourceLineHint": 70,
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "carplus",
+      "name": "格上租車現折加8%",
+      "matchToken": "格上租車",
+      "sourceLineHint": 78,
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "driver",
+      "name": "台灣代駕現折加6%",
+      "matchToken": "台灣代駕",
+      "sourceLineHint": 85,
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "korea_shops",
+      "name": "韓國指定商店最高25%",
+      "matchToken": "韓國指定商店",
+      "sourceLineHint": 93,
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "LINE_PAY"
+    },
+    {
+      "id": "olive_korea",
+      "name": "韓國OLIVE YOUNG最高10%",
+      "matchToken": "韓國OLIVE YOUNG",
+      "sourceLineHint": 100,
+      "validFrom": "2026-11-01",
+      "validUntil": "2026-11-07",
+      "channel": "LINE_PAY"
+    },
+    {
+      "id": "olive_global",
+      "name": "OLIVE YOUNG Global最高10%",
+      "matchToken": "OLIVE YOUNG Global",
+      "sourceLineHint": 109,
+      "validFrom": "2026-11-01",
+      "validUntil": "2026-11-12",
+      "channel": "LINE_PAY"
+    },
+    {
+      "id": "weverse",
+      "name": "韓國Weverse最高20%",
+      "matchToken": "韓國Weverse",
+      "sourceLineHint": 117,
+      "validFrom": "2026-11-01",
+      "validUntil": "2026-11-30",
+      "channel": "LINE_PAY"
+    },
+    {
+      "id": "kkday_member_day",
+      "name": "KKday會員日最高20%",
+      "matchToken": "kkday",
+      "sourceLineHint": 123,
+      "validFrom": "2026-10-10",
+      "validUntil": "2026-12-31",
+      "eligibleDates": [
+        "2026-10-10~2026-10-11",
+        "2026-11-10~2026-11-11",
+        "2026-12-10~2026-12-11"
+      ],
+      "channel": "CARD"
+    },
+    {
+      "id": "kkday_weekly",
+      "name": "KKday指定商品每週四最高10%",
+      "matchToken": "kkday",
+      "sourceLineHint": 445,
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD",
+      "detailOnly": true,
+      "listingNote": "此方案在同一KKday入口的下方詳細條款，不是第29個可見入口"
+    },
+    {
+      "id": "agoda",
+      "name": "Agoda最高12%",
+      "matchToken": "Agoda",
+      "sourceLineHint": 131,
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "LINE_PAY"
+    },
+    {
+      "id": "trip",
+      "name": "Trip.com 5%需登錄",
+      "matchToken": "Trip.com",
+      "sourceLineHint": 138,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "airbnb",
+      "name": "Airbnb 5%需登錄",
+      "matchToken": "Airbnb",
+      "sourceLineHint": 146,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "tigerair",
+      "name": "台灣虎航10%需登錄",
+      "matchToken": "台灣虎航",
+      "sourceLineHint": 153,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "eztravel",
+      "name": "易遊網最高3%",
+      "matchToken": "易遊網",
+      "sourceLineHint": 159,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "saily",
+      "name": "Saily eSim ShopBack 7%",
+      "matchToken": "Saily eSim",
+      "sourceLineHint": 167,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK"
+    },
+    {
+      "id": "southeast",
+      "name": "東南旅遊 ShopBack 4.5%",
+      "matchToken": "東南旅遊",
+      "sourceLineHint": 174,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK"
+    },
+    {
+      "id": "npc",
+      "name": "NPC全國加油站5%",
+      "matchToken": "NPC全國加油站",
+      "sourceLineHint": 180,
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "powerexpress",
+      "name": "全國特急電10%",
+      "matchToken": "全國特急電",
+      "sourceLineHint": 186,
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "klook",
+      "name": "Klook指定日最高20%",
+      "matchToken": "Klook",
+      "sourceLineHint": 192,
+      "validFrom": "2026-03-30",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "funnow",
+      "name": "FunNow指定類別10%",
+      "matchToken": "FunNow",
+      "sourceLineHint": 197,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "expedia",
+      "name": "Expedia指定網頁8%",
+      "matchToken": "Expedia",
+      "sourceLineHint": 203,
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD"
+    },
+    {
+      "id": "gogoout",
+      "name": "gogoout ShopBack 5%",
+      "matchToken": "gogoout",
+      "sourceLineHint": 210,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK"
+    },
+    {
+      "id": "experience",
+      "name": "找體驗最高18%",
+      "matchToken": "找體驗",
+      "sourceLineHint": 217,
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "LINE_PAY"
+    }
+  ]
+}

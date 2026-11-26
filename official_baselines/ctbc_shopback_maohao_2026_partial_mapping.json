@@ -1,0 +1,6 @@
+{
+  "baselineId": "ctbc_shopback_maohao_2026_partial",
+  "mappings": [
+    {"offerId":"maohao_shopback","ruleId":"pending_ctbc_linepay_pet_2026_maohao"}
+  ]
+}

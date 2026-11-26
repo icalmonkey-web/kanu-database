@@ -1,0 +1,31 @@
+{
+  "baselineId":"icashpay_taia_etmall_2026",
+  "scope":"2026-11-05 icash Pay 最新優惠台亞人工島及東森購物兩個原缺檔方案的選定公開欄位；不涵蓋即時總池、個人資格與完整排除",
+  "observedAt":"2026-11-05",
+  "sourceUrl":"https://www.icashpay.com.tw/advertMessage/view/id/2588",
+  "offers":[
+    {"id":"taia_fuel","sourceUrl":"https://www.icashpay.com.tw/advertMessage/view/id/2527","fields":{
+      "validFrom":{"value":"2026-10-01","sourceLineHint":"L8"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L8"},
+      "promoRate":{"value":2.5,"sourceLineHint":"L10: 台亞人工島 icash Pay，非台塑會員條碼方案"},
+      "rewardType":{"value":"points","sourceLineHint":"L10: OPENPOINT"},
+      "rewardUnit":{"value":"percent","sourceLineHint":"L10"},
+      "capAmount":{"value":100,"sourceLineHint":"L10: 每戶每月"},
+      "capPeriod":{"value":"MONTHLY","sourceLineHint":"L10"},
+      "campaignCapAmount":{"value":500000,"sourceLineHint":"L10"},
+      "minimumSpend":{"value":0,"sourceLineHint":"L10: 筆筆回饋"},
+      "needReg":{"value":false,"sourceLineHint":"L24: 支付帳戶註冊，非本活動登錄"}
+    }},
+    {"id":"etmall","sourceUrl":"https://www.icashpay.com.tw/advertMessage/view/id/2579","fields":{
+      "validFrom":{"value":"2026-11-01","sourceLineHint":"L8"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L8"},
+      "promoRate":{"value":5,"sourceLineHint":"L12"},
+      "rewardType":{"value":"points","sourceLineHint":"L12: OPENPOINT"},
+      "rewardUnit":{"value":"percent","sourceLineHint":"L12"},
+      "capAmount":{"value":250,"sourceLineHint":"L12: 每戶每月"},
+      "capPeriod":{"value":"MONTHLY","sourceLineHint":"L12"},
+      "minimumSpend":{"value":1000,"sourceLineHint":"L12: 單筆"},
+      "needReg":{"value":false,"sourceLineHint":"L16-L22: 無活動登錄要求"}
+    }}
+  ]
+}

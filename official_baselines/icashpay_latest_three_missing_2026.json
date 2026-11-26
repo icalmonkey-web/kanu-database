@@ -1,0 +1,42 @@
+{
+  "baselineId": "icashpay_latest_three_missing_2026",
+  "scope": "2026-11-05 icash Pay 最新優惠清單原本缺少的怡客、500 碗／500 甜、郵局帳戶抽獎三個方案之公開結構欄位；不涵蓋個人資格、指定門市或即時名額",
+  "observedAt": "2026-11-05",
+  "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2588",
+  "offers": [
+    {"id":"ikari","sourceUrl":"https://www.icashpay.com.tw/advertMessage/view/id/2515","fields":{
+      "validFrom":{"value":"2026-10-12","sourceLineHint":"L7"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L7"},
+      "promoRate":{"value":10,"sourceLineHint":"L9"},
+      "rewardType":{"value":"points","sourceLineHint":"L9: OPENPOINT"},
+      "rewardUnit":{"value":"percent","sourceLineHint":"L9"},
+      "capAmount":{"value":50,"sourceLineHint":"L9: 單筆上限"},
+      "capPeriod":{"value":"PER_TRANSACTION","sourceLineHint":"L9"},
+      "minimumSpend":{"value":200,"sourceLineHint":"L9"},
+      "needReg":{"value":false,"sourceLineHint":"L19: 支付帳號註冊，非活動登錄"}
+    }},
+    {"id":"five_hundred_bowls","sourceUrl":"https://www.icashpay.com.tw/advertMessage/view/id/2543","fields":{
+      "validFrom":{"value":"2026-10-01","sourceLineHint":"L8"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L8"},
+      "eligibleWeekdays":{"value":[5,6,0],"sourceLineHint":"L8"},
+      "promoRate":{"value":5,"sourceLineHint":"L12"},
+      "rewardType":{"value":"points","sourceLineHint":"L12: OPENPOINT"},
+      "capAmount":{"value":50,"sourceLineHint":"L12: 每戶每月"},
+      "capPeriod":{"value":"MONTHLY","sourceLineHint":"L12"},
+      "campaignCapAmount":{"value":100000,"sourceLineHint":"L12"},
+      "minimumSpend":{"value":0,"sourceLineHint":"L12: 無最低金額"},
+      "needReg":{"value":false,"sourceLineHint":"L25-L31: 無活動登錄要求"}
+    }},
+    {"id":"post_office_draw","sourceUrl":"https://www.icashpay.com.tw/advertMessage/view/id/2560","fields":{
+      "validFrom":{"value":"2026-11-01","sourceLineHint":"L8"},
+      "validUntil":{"value":"2026-11-30","sourceLineHint":"L8"},
+      "rewardType":{"value":"draw","sourceLineHint":"L13: 可抽 800 點"},
+      "rewardAmount":{"value":800,"sourceLineHint":"L13: 中獎獎項，非保證回饋"},
+      "minimumSpend":{"value":350,"sourceLineHint":"L13: 累積消費"},
+      "spendBasis":{"value":"CUMULATIVE","sourceLineHint":"L13"},
+      "needReg":{"value":true,"sourceLineHint":"L13-L15"},
+      "registrationStart":{"value":"2026-11-01","sourceLineHint":"L23"},
+      "registrationEnd":{"value":"2026-11-30","sourceLineHint":"L23"}
+    }}
+  ]
+}

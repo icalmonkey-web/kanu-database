@@ -1,0 +1,10 @@
+{
+  "baselineId": "ctbc_linepay_shopping_2026h2",
+  "mappings": [
+    {"offerId": "coupang_discount", "ruleId": "review_ctbc_shopping_coupang_discount_2026h2"},
+    {"offerId": "coupang_points", "ruleId": "review_ctbc_shopping_coupang_points_2026h2"},
+    {"offerId": "dietician", "ruleId": "review_ctbc_shopping_dietician_2026h2"},
+    {"offerId": "pinkoi", "ruleId": "review_ctbc_shopping_pinkoi_2026h2"},
+    {"offerId": "shopee", "ruleId": "review_ctbc_linepay_shopee_2026h2"}
+  ]
+}

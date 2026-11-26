@@ -1,0 +1,80 @@
+{
+  "baselineId": "ctbc_linepay_shopping_2026h2",
+  "scope": "中國信託 LINE Pay 卡脆好購頁五項購物方案的部分結構欄位；不涵蓋整頁條款或市場準確率",
+  "observedAt": "2026-11-03",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_shopping.html",
+  "offers": [
+    {
+      "id": "coupang_discount",
+      "conditions": "酷澎火箭速配指定商品、Visa 信用卡直接結帳、不可用第三方支付；列表稱最高 9%，內文稱最高 8%，故不對照百分比",
+      "fields": {
+        "cardId": {"value": "card_中國信託_241", "sourceLineHint": 319},
+        "eligibleCardIds": {"value": ["card_中國信託_241"], "sourceLineHint": 327},
+        "minimumSpend": {"value": 5000, "sourceLineHint": 320},
+        "capAmount": {"value": 300, "sourceLineHint": 320},
+        "capPeriod": {"value": "MONTHLY", "sourceLineHint": 320},
+        "rewardType": {"value": "discount", "sourceLineHint": 320},
+        "validFrom": {"value": "2026-09-16", "sourceLineHint": 32},
+        "validUntil": {"value": "2026-12-31", "sourceLineHint": 32}
+      }
+    },
+    {
+      "id": "coupang_points",
+      "conditions": "Visa 卡含簽帳金融卡；每季重新登錄；火箭速配與火箭跨境",
+      "fields": {
+        "cardId": {"value": "card_中國信託_241", "sourceLineHint": 332},
+        "eligibleCardIds": {"value": ["card_中國信託_241", "card_中國信託_328"], "sourceLineHint": 332},
+        "baseRate": {"value": 1, "sourceLineHint": 333},
+        "promoRate": {"value": 4, "sourceLineHint": 333},
+        "capAmount": {"value": 100, "sourceLineHint": 334},
+        "capPeriod": {"value": "QUARTERLY", "sourceLineHint": 334},
+        "registrationCycle": {"value": "QUARTERLY", "sourceLineHint": 334},
+        "needReg": {"value": true, "sourceLineHint": 334},
+        "validFrom": {"value": "2026-09-16", "sourceLineHint": 32},
+        "validUntil": {"value": "2026-12-31", "sourceLineHint": 32}
+      }
+    },
+    {
+      "id": "dietician",
+      "conditions": "營養師輕食官網；銀行列表限制週六、週日；LINE Pay 綁中信卡實付滿額；活動總量限制",
+      "fields": {
+        "baseRate": {"value": 1, "sourceLineHint": 390},
+        "promoRate": {"value": 4, "sourceLineHint": 390},
+        "minimumSpend": {"value": 5000, "sourceLineHint": 389},
+        "capAmount": {"value": 200, "sourceLineHint": 391},
+        "paymentProvider": {"value": "LINE Pay", "sourceLineHint": 389},
+        "validFrom": {"value": "2026-07-13", "sourceLineHint": 116},
+        "validUntil": {"value": "2026-12-31", "sourceLineHint": 116}
+      }
+    },
+    {
+      "id": "pinkoi",
+      "conditions": "每週二及每月 20 日；Pinkoi 官方網頁或 App；商品與運費滿額，不含折抵與禮物卡",
+      "fields": {
+        "baseRate": {"value": 1, "sourceLineHint": 347},
+        "promoRate": {"value": 4, "sourceLineHint": 348},
+        "minimumSpend": {"value": 2000, "sourceLineHint": 346},
+        "capAmount": {"value": 150, "sourceLineHint": 348},
+        "capPeriod": {"value": "MONTHLY", "sourceLineHint": 348},
+        "validFrom": {"value": "2026-07-01", "sourceLineHint": 122},
+        "validUntil": {"value": "2026-12-31", "sourceLineHint": 122}
+      }
+    },
+    {
+      "id": "shopee",
+      "conditions": "中信 LINE Pay Visa 卡含簽帳金融卡；每季重新登錄",
+      "fields": {
+        "cardId": {"value": "card_中國信託_241", "sourceLineHint": 305},
+        "eligibleCardIds": {"value": ["card_中國信託_241", "card_中國信託_328"], "sourceLineHint": 305},
+        "baseRate": {"value": 1, "sourceLineHint": 306},
+        "promoRate": {"value": 4, "sourceLineHint": 306},
+        "capAmount": {"value": 100, "sourceLineHint": 307},
+        "capPeriod": {"value": "QUARTERLY", "sourceLineHint": 307},
+        "registrationCycle": {"value": "QUARTERLY", "sourceLineHint": 307},
+        "needReg": {"value": true, "sourceLineHint": 307},
+        "validFrom": {"value": "2026-07-01", "sourceLineHint": 71},
+        "validUntil": {"value": "2026-12-31", "sourceLineHint": 71}
+      }
+    }
+  ]
+}

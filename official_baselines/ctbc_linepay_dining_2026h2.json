@@ -1,0 +1,278 @@
+{
+  "baselineId": "ctbc_linepay_dining_2026h2",
+  "scope": "中國信託 LINE Pay 卡脆饗食頁六項 2026/7/1–12/31 Visa/JCB 餐飲點數活動；不含同頁其他餐飲或第三方優惠",
+  "observedAt": "2026-11-02",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_food.html",
+  "sourceSections": [
+    "Uber Eats活動・注意事項",
+    "星巴克活動・注意事項",
+    "壽司郎・注意事項",
+    "客美多咖啡活動・注意事項",
+    "摩斯漢堡活動・注意事項",
+    "藏壽司活動・注意事項"
+  ],
+  "offers": [
+    {
+      "id": "uber_eats",
+      "conditions": "LINE Pay Visa 卡含簽帳金融卡；每季登錄；每季每戶加碼上限 100 點",
+      "fields": {
+        "cardId": {
+          "value": "card_中國信託_241",
+          "sourceLineHint": 183
+        },
+        "eligibleCardIds": {
+          "value": [
+            "card_中國信託_241",
+            "card_中國信託_328"
+          ],
+          "sourceLineHint": 183
+        },
+        "baseRate": {
+          "value": 1,
+          "sourceLineHint": 182
+        },
+        "promoRate": {
+          "value": 4,
+          "sourceLineHint": 182
+        },
+        "capAmount": {
+          "value": 100,
+          "sourceLineHint": 183
+        },
+        "capPeriod": {
+          "value": "QUARTERLY",
+          "sourceLineHint": 183
+        },
+        "registrationCycle": {
+          "value": "QUARTERLY",
+          "sourceLineHint": 183
+        },
+        "validFrom": {
+          "value": "2026-07-01",
+          "sourceLineHint": 52
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": 52
+        },
+        "rewardAmount": {
+          "value": null,
+          "sourceLineHint": 183,
+          "sourceSection": "uber_eats",
+          "sourceNote": "Quarterly maximum is a cap, not a fixed point award"
+        }
+      }
+    },
+    {
+      "id": "starbucks",
+      "conditions": "LINE Pay Visa 卡含簽帳金融卡；每季登錄；每季每戶加碼上限 100 點",
+      "fields": {
+        "cardId": {
+          "value": "card_中國信託_241",
+          "sourceLineHint": 197
+        },
+        "eligibleCardIds": {
+          "value": [
+            "card_中國信託_241",
+            "card_中國信託_328"
+          ],
+          "sourceLineHint": 197
+        },
+        "baseRate": {
+          "value": 1,
+          "sourceLineHint": 196
+        },
+        "promoRate": {
+          "value": 4,
+          "sourceLineHint": 196
+        },
+        "capAmount": {
+          "value": 100,
+          "sourceLineHint": 197
+        },
+        "capPeriod": {
+          "value": "QUARTERLY",
+          "sourceLineHint": 197
+        },
+        "registrationCycle": {
+          "value": "QUARTERLY",
+          "sourceLineHint": 197
+        },
+        "validFrom": {
+          "value": "2026-07-01",
+          "sourceLineHint": 60
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": 60
+        },
+        "rewardAmount": {
+          "value": null,
+          "sourceLineHint": 197,
+          "sourceSection": "starbucks",
+          "sourceNote": "Quarterly maximum is a cap, not a fixed point award"
+        }
+      }
+    },
+    {
+      "id": "sushiro",
+      "conditions": "LINE Pay JCB 卡；國內實體門市；每季登錄；每季每戶加碼上限 200 點",
+      "fields": {
+        "baseRate": {
+          "value": 1,
+          "sourceLineHint": 210
+        },
+        "promoRate": {
+          "value": 9,
+          "sourceLineHint": 210
+        },
+        "capAmount": {
+          "value": 200,
+          "sourceLineHint": 211
+        },
+        "capPeriod": {
+          "value": "QUARTERLY",
+          "sourceLineHint": 211
+        },
+        "registrationCycle": {
+          "value": "QUARTERLY",
+          "sourceLineHint": 211
+        },
+        "validFrom": {
+          "value": "2026-07-01",
+          "sourceLineHint": 68
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": 68
+        },
+        "rewardAmount": {
+          "value": null,
+          "sourceLineHint": 211,
+          "sourceSection": "sushiro",
+          "sourceNote": "Quarterly maximum is a cap, not a fixed point award"
+        }
+      }
+    },
+    {
+      "id": "komeda",
+      "conditions": "LINE Pay JCB 卡；國內實體門市；每季登錄；每季每戶加碼上限 200 點",
+      "fields": {
+        "baseRate": {
+          "value": 1,
+          "sourceLineHint": 224
+        },
+        "promoRate": {
+          "value": 9,
+          "sourceLineHint": 224
+        },
+        "capAmount": {
+          "value": 200,
+          "sourceLineHint": 225
+        },
+        "capPeriod": {
+          "value": "QUARTERLY",
+          "sourceLineHint": 225
+        },
+        "registrationCycle": {
+          "value": "QUARTERLY",
+          "sourceLineHint": 225
+        },
+        "validFrom": {
+          "value": "2026-07-01",
+          "sourceLineHint": 75
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": 75
+        },
+        "rewardAmount": {
+          "value": null,
+          "sourceLineHint": 225,
+          "sourceSection": "komeda",
+          "sourceNote": "Quarterly maximum is a cap, not a fixed point award"
+        }
+      }
+    },
+    {
+      "id": "mos_burger",
+      "conditions": "LINE Pay JCB 卡；國內實體門市或 MOS Order APP；每季登錄；每季每戶加碼上限 200 點",
+      "fields": {
+        "baseRate": {
+          "value": 1,
+          "sourceLineHint": 238
+        },
+        "promoRate": {
+          "value": 9,
+          "sourceLineHint": 238
+        },
+        "capAmount": {
+          "value": 200,
+          "sourceLineHint": 239
+        },
+        "capPeriod": {
+          "value": "QUARTERLY",
+          "sourceLineHint": 239
+        },
+        "registrationCycle": {
+          "value": "QUARTERLY",
+          "sourceLineHint": 239
+        },
+        "validFrom": {
+          "value": "2026-07-01",
+          "sourceLineHint": 83
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": 83
+        },
+        "rewardAmount": {
+          "value": null,
+          "sourceLineHint": 239,
+          "sourceSection": "mos_burger",
+          "sourceNote": "Quarterly maximum is a cap, not a fixed point award"
+        }
+      }
+    },
+    {
+      "id": "kura_sushi",
+      "conditions": "LINE Pay JCB 卡；國內實體門市；每季登錄；每季每戶加碼上限 200 點",
+      "fields": {
+        "baseRate": {
+          "value": 1,
+          "sourceLineHint": 252
+        },
+        "promoRate": {
+          "value": 9,
+          "sourceLineHint": 252
+        },
+        "capAmount": {
+          "value": 200,
+          "sourceLineHint": 253
+        },
+        "capPeriod": {
+          "value": "QUARTERLY",
+          "sourceLineHint": 253
+        },
+        "registrationCycle": {
+          "value": "QUARTERLY",
+          "sourceLineHint": 253
+        },
+        "validFrom": {
+          "value": "2026-07-01",
+          "sourceLineHint": 91
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": 91
+        },
+        "rewardAmount": {
+          "value": null,
+          "sourceLineHint": 253,
+          "sourceSection": "kura_sushi",
+          "sourceNote": "Quarterly maximum is a cap, not a fixed point award"
+        }
+      }
+    }
+  ]
+}

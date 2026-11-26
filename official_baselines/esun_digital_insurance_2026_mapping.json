@@ -1,0 +1,4 @@
+{
+  "baselineId": "esun_digital_insurance_2026",
+  "mappings": [{"offerId": "single_pay_premium", "ruleId": "rule_digital_insurance"}]
+}

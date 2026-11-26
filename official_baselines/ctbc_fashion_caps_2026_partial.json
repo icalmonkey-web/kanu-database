@@ -1,0 +1,39 @@
+{
+  "baselineId": "ctbc_fashion_caps_2026_partial",
+  "scope": "中信脆時尚頁屈臣氏週日、VACANZA、KAFEN 與 Sisley 四個活動的公開點數、付款及日期欄位；Sisley 官方段落連結衝突保留待查",
+  "observedAt": "2026-11-07",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_fashion.html",
+  "offers": [
+    {"id":"watsons_sunday","fields":{
+      "baseRate":{"value":1,"sourceLineHint":"L247"},
+      "promoRate":{"value":6,"sourceLineHint":"L247"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L247: 150 is a bonus cap"},
+      "capAmount":{"value":150,"sourceLineHint":"L247"},
+      "minimumSpend":{"value":888,"sourceLineHint":"L247"},
+      "eligibleWeekdays":{"value":[0],"sourceLineHint":"L245-L247"}
+    }},
+    {"id":"vacanza","fields":{
+      "baseRate":{"value":1,"sourceLineHint":"L262"},
+      "promoRate":{"value":5,"sourceLineHint":"L262"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L262: 300 is a monthly cap"},
+      "capAmount":{"value":300,"sourceLineHint":"L262"},
+      "capPeriod":{"value":"MONTHLY","sourceLineHint":"L262"},
+      "minimumSpend":{"value":2200,"sourceLineHint":"L262: first discount tier"},
+      "fundingMethods":{"value":["中國信託 LINE Pay 實體卡直接刷卡"],"sourceLineHint":"L262-L263: mobile-wallet binding excluded"}
+    }},
+    {"id":"kafen","fields":{
+      "baseRate":{"value":1,"sourceLineHint":"L275"},
+      "promoRate":{"value":7,"sourceLineHint":"L275"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L276: 200 is per-transaction cap"},
+      "capAmount":{"value":200,"sourceLineHint":"L276"},
+      "capPeriod":{"value":"PER_TRANSACTION","sourceLineHint":"L276"}
+    }},
+    {"id":"sisley","fields":{
+      "baseRate":{"value":1,"sourceLineHint":"L307"},
+      "promoRate":{"value":5,"sourceLineHint":"L307"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L308: 1,000 is per-transaction cap"},
+      "capAmount":{"value":1000,"sourceLineHint":"L308"},
+      "capPeriod":{"value":"PER_TRANSACTION","sourceLineHint":"L308"}
+    }}
+  ]
+}

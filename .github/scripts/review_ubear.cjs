@@ -5,7 +5,7 @@ const root = path.resolve(__dirname,'../..');
 const file = path.join(root,'data.json');
 const data = JSON.parse(fs.readFileSync(file,'utf8'));
 const source = 'https://event.esunbank.com.tw/credit/ubear/card.html';
-const checkedAt = '2026-10-03T00:00:00+08:00';
+const checkedAt = '2026-11-02T00:00:00+08:00';
 const fields = ['baseRate','promoRate','capAmount','capScope','capPeriod','validFrom','validUntil','eligibilityRequirements','excludedKeywords','roundingMode'];
 const common = {cardId:'card_esun_ubear',bank:'玉山銀行',offerDomain:'CARD',sourceUrl:source,
  validFrom:'2026-09-01',validUntil:'2027-02-28',fetchedAt:checkedAt,needReg:false,

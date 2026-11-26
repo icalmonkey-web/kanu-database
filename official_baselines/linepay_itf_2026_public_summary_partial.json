@@ -1,0 +1,20 @@
+{
+  "baselineId":"linepay_itf_2026_public_summary_partial",
+  "scope":"2026 ITF LINE Pay 公開活動頁展開優惠一覽的摘要與活動日期；不含登入後任務細則、資格、名額、上限與可併用性",
+  "observedAt":"2026-11-04",
+  "sourceUrl":"https://web-tw-pay.line.me/svc/event/display2/5df8b961-43f7-4806-994f-51f7932714ef",
+  "offers":[
+    {"id":"itf_public_summary","conditions":"四項優惠只在官方公開摘要層級記錄，均不得單筆試算或視為可用資格",
+     "fields":{
+       "validFrom":{"value":"2026-11-06","sourceSection":"頁首活動日期"},
+       "validUntil":{"value":"2026-11-09","sourceSection":"頁首活動日期"},
+       "paymentProvider":{"value":"LINE Pay","sourceSection":"展開看優惠一覽"},
+       "advertisedOffers":{"value":[
+         {"kind":"ticket_points","threshold":200,"advertisedPoints":15},
+         {"kind":"coupon","advertisedTwd":500,"source":"大會DM"},
+         {"kind":"card_points","threshold":6000,"advertisedMaxRate":6,"cardText":"中信LINE Pay卡／永豐DAWAY卡"},
+         {"kind":"draw","threshold":100,"transactionCount":2,"advertisedMaxPoints":520}
+       ],"sourceSection":"展開看優惠一覽：門票優惠、全場合作商店、指定品牌再加碼"}
+     }}
+  ]
+}

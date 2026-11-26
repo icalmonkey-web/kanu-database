@@ -1,0 +1,21 @@
+{
+  "baselineId": "ctbc_kkbox_2026_partial",
+  "scope": "中國信託 LINE Pay 卡 KKBOX 指定 365 天方案公開價格與 LINE POINTS；兩種利益分開，不等同完整資格核對",
+  "observedAt": "2026-11-05",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+  "offers": [
+    {
+      "id": "annual_plan",
+      "fields": {
+        "validFrom": {"value": "2026-01-02", "sourceLineHint": "L290-L294"},
+        "validUntil": {"value": "2026-12-31", "sourceLineHint": "L290-L294"},
+        "baseRate": {"value": 1, "sourceLineHint": "L293: included in 5% LINE POINTS"},
+        "promoRate": {"value": 4, "sourceLineHint": "L293: 5% total including 1% base"},
+        "rewardType": {"value": "points", "sourceLineHint": "L293: LINE POINTS"},
+        "rewardAmount": {"value": null, "sourceLineHint": "L292-L293: 360 TWD is a plan price reduction, not a fixed point award"},
+        "roundingMode": {"value": "ROUND", "sourceLineHint": "L302: points rounded to integer"},
+        "needReg": {"value": false, "sourceLineHint": "L290-L304: subscribe through KKBOX payment center; no bank registration step stated"}
+      }
+    }
+  ]
+}

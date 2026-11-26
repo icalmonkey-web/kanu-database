@@ -1,0 +1,136 @@
+{
+  "catalogId": "ctbc_linepay_shopping_2026h2",
+  "mappings": [
+    {
+      "offerId": "samsung",
+      "ruleId": "rule_59a9da0c6ecc1c0d909f",
+      "status": "matched"
+    },
+    {
+      "offerId": "lg",
+      "ruleId": "rule_0056b90e9684f6396cb5",
+      "status": "matched"
+    },
+    {
+      "offerId": "popchill",
+      "ruleId": "review_ctbc_shopback_popchill_2026h2",
+      "status": "matched"
+    },
+    {
+      "offerId": "mercari",
+      "ruleId": "review_ctbc_shopback_mercari_2026h2",
+      "status": "matched"
+    },
+    {
+      "offerId": "skm",
+      "ruleId": "review_ctbc_shopback_skm_2026h2",
+      "status": "matched"
+    },
+    {
+      "offerId": "pchome",
+      "ruleId": "review_ctbc_shopback_pchome_2026h2",
+      "status": "matched"
+    },
+    {
+      "offerId": "yahoo",
+      "ruleId": "review_ctbc_shopback_yahoo_2026h2",
+      "status": "matched"
+    },
+    {
+      "offerId": "friday",
+      "ruleId": "review_ctbc_shopback_friday_2026h2",
+      "status": "matched"
+    },
+    {
+      "offerId": "rakuten",
+      "ruleId": "review_ctbc_shopback_rakuten_2026h2",
+      "status": "matched"
+    },
+    {
+      "offerId": "eslite",
+      "ruleId": "review_ctbc_shopback_eslite_2026h2",
+      "status": "matched"
+    },
+    {
+      "offerId": "iherb",
+      "ruleId": "review_ctbc_shopback_iherb_2026h2",
+      "status": "matched"
+    },
+    {
+      "offerId": "myprotein",
+      "ruleId": "review_ctbc_shopback_myprotein_2026h2",
+      "status": "matched"
+    },
+    {
+      "offerId": "life_market",
+      "ruleId": "review_ctbc_shopback_life_market_2026h2",
+      "status": "matched"
+    },
+    {
+      "offerId": "books",
+      "ruleId": "review_ctbc_shopback_books_2026h2",
+      "status": "matched"
+    },
+    {
+      "offerId": "etmall",
+      "ruleId": "review_ctbc_shopback_etmall_2026h2",
+      "status": "matched"
+    },
+    {
+      "offerId": "global_mall",
+      "ruleId": "review_ctbc_shopback_global_mall_2026h2",
+      "status": "matched"
+    },
+    {
+      "offerId": "shopee",
+      "ruleId": "review_ctbc_linepay_shopee_2026h2",
+      "status": "matched"
+    },
+    {
+      "offerId": "uniqlo",
+      "ruleId": "review_ctbc_linepay_uniqlo_2026h2",
+      "status": "matched"
+    },
+    {
+      "offerId": "gu",
+      "ruleId": "review_ctbc_linepay_gu_2026h2",
+      "status": "matched"
+    },
+    {
+      "offerId": "coupang",
+      "ruleIds": [
+        "review_ctbc_shopping_coupang_discount_2026h2",
+        "review_ctbc_shopping_coupang_points_2026h2"
+      ],
+      "status": "matched"
+    },
+    {
+      "offerId": "dietician",
+      "ruleIds": [
+        "review_ctbc_shopping_dietician_2026h2"
+      ],
+      "status": "matched"
+    },
+    {
+      "offerId": "pinkoi",
+      "ruleIds": [
+        "review_ctbc_shopping_pinkoi_2026h2"
+      ],
+      "status": "matched"
+    },
+    {
+      "offerId": "style_shopping",
+      "ruleIds": [
+        "review_ctbc_shopping_style_coupon_2026h2"
+      ],
+      "status": "matched"
+    },
+    {
+      "offerId": "good_coupon",
+      "ruleIds": [
+        "review_ctbc_shopping_good_coupon_2026h2"
+      ],
+      "status": "matched"
+    }
+  ]
+}

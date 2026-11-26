@@ -1,0 +1,27 @@
+{
+  "baselineId":"feib_happygo_points_2026",
+  "scope":"遠東商銀 New Century 世界／無限卡與頂級快樂卡 2026 年一般消費 HAPPY GO 累點；不驗證特約商店另贈點數或個別交易排除",
+  "observedAt":"2026-11-04",
+  "sourceUrl":"https://www.feib.com.tw/upload/creditcard/NCTOP/index.html",
+  "additionalSourceUrl":"https://www.feib.com.tw/upload/creditcard/HappyCardinfinite/happy.html",
+  "offers":[
+    {"id":"new_century","fields":{
+      "rewardType":{"value":"points","sourceLineHint":"NCTOP L24"},
+      "rewardUnit":{"value":"points_per_spend","sourceLineHint":"NCTOP L24"},
+      "rewardAmount":{"value":null,"sourceLineHint":"NCTOP L24: 不是單筆固定點數"},
+      "pointEarnRate":{"value":{"spendTwd":100,"points":1},"sourceLineHint":"NCTOP L24"},
+      "promoRate":{"value":0,"sourceLineHint":"NCTOP L24: 非百分比"},
+      "validFrom":{"value":"2026-01-01","sourceLineHint":"NCTOP L52"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"NCTOP L52"}
+    }},
+    {"id":"happy_infinite","fields":{
+      "rewardType":{"value":"points","sourceLineHint":"HappyCard L71-L75"},
+      "rewardUnit":{"value":"points_per_spend","sourceLineHint":"HappyCard L75"},
+      "rewardAmount":{"value":null,"sourceLineHint":"HappyCard L75: 不是單筆固定點數"},
+      "pointEarnRate":{"value":{"spendTwd":100,"points":1},"sourceLineHint":"HappyCard L75,L87"},
+      "promoRate":{"value":0,"sourceLineHint":"HappyCard L75: 特店額外1點由商店提供，非2%"},
+      "validFrom":{"value":"2026-07-01","sourceLineHint":"HappyCard L73"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"HappyCard L73"}
+    }}
+  ]
+}

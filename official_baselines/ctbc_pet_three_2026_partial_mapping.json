@@ -1,0 +1,8 @@
+{
+  "baselineId": "ctbc_pet_three_2026_partial",
+  "mappings": [
+    {"offerId":"dogcatstar","ruleId":"pending_ctbc_linepay_pet_2026_dogcatstar"},
+    {"offerId":"litomon","ruleId":"pending_ctbc_linepay_pet_2026_litomon"},
+    {"offerId":"heromama","ruleId":"pending_ctbc_linepay_pet_2026_heromama"}
+  ]
+}

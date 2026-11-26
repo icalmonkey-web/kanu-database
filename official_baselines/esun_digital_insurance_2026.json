@@ -1,0 +1,25 @@
+{
+  "baselineId": "esun_digital_insurance_2026",
+  "scope": "玉山數位保險卡 2026 年一次付清國內保費的選定結構欄位；不含分期方案",
+  "observedAt": "2026-11-03",
+  "sourceUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/inscard",
+  "offers": [
+    {
+      "id": "single_pay_premium",
+      "conditions": "數位保險卡；國內新臺幣計價首、續期保費一次付清；躉繳與指定投資型保單等排除",
+      "fields": {
+        "cardId": {"value": "card_玉山銀行_103", "sourceLineHint": 254},
+        "baseRate": {"value": 1.2, "sourceLineHint": 254},
+        "promoRate": {"value": 0, "sourceLineHint": 254},
+        "rewardType": {"value": "points", "sourceLineHint": 250},
+        "rewardUnit": {"value": "percent", "sourceLineHint": 248},
+        "capScope": {"value": "NONE", "sourceLineHint": 259},
+        "spendBasis": {"value": "PER_TRANSACTION", "sourceLineHint": 263},
+        "roundingMode": {"value": "FLOOR", "sourceLineHint": 263},
+        "needReg": {"value": false, "sourceLineHint": 264},
+        "validFrom": {"value": "2026-01-01", "sourceLineHint": 252},
+        "validUntil": {"value": "2026-12-31", "sourceLineHint": 252}
+      }
+    }
+  ]
+}

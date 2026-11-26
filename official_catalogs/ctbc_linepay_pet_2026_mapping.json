@@ -1,0 +1,65 @@
+{
+  "catalogId": "ctbc_linepay_pet_2026",
+  "mappings": [
+    {
+      "offerId": "fish",
+      "ruleId": "rule_959a861cabb8b515f17f",
+      "status": "matched"
+    },
+    {
+      "offerId": "good_life",
+      "ruleId": "rule_b0e3b7c1e8eb9111f052",
+      "status": "matched"
+    },
+    {
+      "offerId": "good_dog",
+      "ruleId": "rule_8993c54bfe963a2c628a",
+      "status": "matched"
+    },
+    {
+      "offerId": "popocat",
+      "ruleId": "rule_d4ed298d1db9c2c09f54",
+      "status": "matched"
+    },
+    {
+      "offerId": "wonderpet",
+      "ruleId": "rule_5597df0306591339c831",
+      "status": "matched"
+    },
+    {
+      "offerId": "petstimes",
+      "ruleId": "rule_135b9e6c4621fc0c2dc8",
+      "status": "matched"
+    },
+    {
+      "offerId": "ladynpet",
+      "ruleId": "rule_80b907fa6a35daa916fd",
+      "status": "matched"
+    },
+    {
+      "offerId": "dogcatstar",
+      "ruleId": "pending_ctbc_linepay_pet_2026_dogcatstar",
+      "status": "matched"
+    },
+    {
+      "offerId": "litomon",
+      "ruleId": "pending_ctbc_linepay_pet_2026_litomon",
+      "status": "matched"
+    },
+    {
+      "offerId": "heromama",
+      "ruleId": "pending_ctbc_linepay_pet_2026_heromama",
+      "status": "matched"
+    },
+    {
+      "offerId": "maohao",
+      "ruleId": "pending_ctbc_linepay_pet_2026_maohao",
+      "status": "matched"
+    },
+    {
+      "offerId": "petlife",
+      "ruleId": "pending_ctbc_linepay_pet_2026_petlife",
+      "status": "matched"
+    }
+  ]
+}

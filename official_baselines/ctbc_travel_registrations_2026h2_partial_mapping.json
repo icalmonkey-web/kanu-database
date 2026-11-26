@@ -1,0 +1,1 @@
+{"baselineId":"ctbc_travel_registrations_2026h2_partial","mappings":[{"offerId":"trip_visa","ruleId":"review_ctbc_trip_registration_2026h2"},{"offerId":"airbnb_visa","ruleId":"review_ctbc_airbnb_registration_2026h2"},{"offerId":"tigerair_jcb","ruleId":"review_ctbc_tigerair_registration_2026h2"}]}

@@ -1,0 +1,7 @@
+{
+  "baselineId":"icashpay_taia_etmall_2026",
+  "mappings":[
+    {"offerId":"taia_fuel","ruleId":"review_icashpay_taia_fuel_2026"},
+    {"offerId":"etmall","ruleId":"review_icashpay_etmall_2026"}
+  ]
+}

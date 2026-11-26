@@ -1,0 +1,18 @@
+{
+  "baselineId": "linepay_petlife_coupon_2026_partial",
+  "scope": "LINE Pay 好康地圖寵物生活優惠券公開條款；券內折抵門檻、即時券量與店家仍待核",
+  "observedAt": "2026-11-08",
+  "sourceUrl": "https://web-tw-pay.line.me/cms/event/template1.3/fc046dcd-d679-4b2f-930c-0a8e227d8f20",
+  "offers": [{"id":"petlife_coupon","fields":{
+    "bank":{"value":"LINE Pay","sourceLineHint":"L0-L6,L31-L34"},
+    "cardId":{"value":"","sourceLineHint":"L4: 任一付款方法，非中信卡專屬"},
+    "paymentProvider":{"value":"LINE Pay","sourceLineHint":"L0,L28-L44"},
+    "rewardType":{"value":"coupon","sourceLineHint":"L2,L31-L34"},
+    "rewardAmount":{"value":80,"sourceLineHint":"L6,L31-L34: 優惠券面額"},
+    "needReg":{"value":false,"sourceLineHint":"L28,L31-L34: LINE Pay會員領券，無銀行活動登錄"},
+    "validFrom":{"value":"2026-10-01","sourceLineHint":"L12-L14: GMT+00換算GMT+08"},
+    "validUntil":{"value":"2026-12-31","sourceLineHint":"L12-L14: GMT+00換算GMT+08"},
+    "minimumSpend":{"value":null,"sourceLineHint":"L31-L44未公布券內折抵門檻，不得假設零門檻"},
+    "quickSearchEligible":{"value":false,"sourceLineHint":"L20,L33,L42: 即時店家、先用先贏與券內門檻未核"}
+  }}]
+}

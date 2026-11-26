@@ -1,0 +1,14 @@
+{
+  "baselineId": "hsbc_cashback_core_2026h2",
+  "scope": "滙豐中文官方產品頁：御璽卡國內與海外基本現金積點、匯鑽卡一般通路基本現金積點；只比對選定結構欄位",
+  "observedAt": "2026-11-03",
+  "sourceUrl": "https://www.hsbc.com.tw/zh-tw/credit-cards/products/cashback-signature/",
+  "offers": [
+    {"id":"signature_domestic","conditions":"國內合格消費；同類消費每期合計扣退貨後四捨五入；現金積點一點折抵一元","fields":{
+      "baseRate":{"value":1.22,"sourceLineHint":389},"validFrom":{"value":"2026-10-01","sourceLineHint":386},"validUntil":{"value":"2026-12-31","sourceLineHint":386},"rewardType":{"value":"points","sourceLineHint":388},"rewardUnit":{"value":"percent","sourceLineHint":389},"spendBasis":{"value":"STATEMENT","sourceLineHint":393},"roundingMode":{"value":"ROUND","sourceLineHint":393},"capScope":{"value":"NONE","sourceLineHint":401},"pointValueTwd":{"value":1,"sourceLineHint":428}}},
+    {"id":"signature_overseas","conditions":"海外合格消費，排除歐盟及英國實體交易；同類消費每期合計扣退貨後四捨五入","fields":{
+      "baseRate":{"value":2.22,"sourceLineHint":389},"validFrom":{"value":"2026-10-01","sourceLineHint":386},"validUntil":{"value":"2026-12-31","sourceLineHint":386},"rewardType":{"value":"points","sourceLineHint":388},"rewardUnit":{"value":"percent","sourceLineHint":389},"spendBasis":{"value":"STATEMENT","sourceLineHint":393},"roundingMode":{"value":"ROUND","sourceLineHint":393},"capScope":{"value":"NONE","sourceLineHint":401},"pointValueTwd":{"value":1,"sourceLineHint":428}}},
+    {"id":"titanium_general","conditions":"一般通路基本回饋；每期帳單同類消費合計扣退貨後四捨五入；2% 另有兌換任務","detailUrl":"https://www.hsbc.com.tw/content/hsbc/tw/zh_tw/credit-cards/products/cashback-titanium/","fields":{
+      "baseRate":{"value":1,"sourceLineHint":395},"validFrom":{"value":"2026-07-01","sourceLineHint":376},"validUntil":{"value":"2027-06-30","sourceLineHint":376},"rewardType":{"value":"points","sourceLineHint":394},"rewardUnit":{"value":"percent","sourceLineHint":394},"spendBasis":{"value":"STATEMENT","sourceLineHint":521},"roundingMode":{"value":"ROUND","sourceLineHint":521},"capScope":{"value":"NONE","sourceLineHint":385},"pointValueTwd":{"value":1,"sourceLineHint":591}}}
+  ]
+}

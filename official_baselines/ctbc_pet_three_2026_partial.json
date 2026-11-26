@@ -1,0 +1,41 @@
+{
+  "baselineId": "ctbc_pet_three_2026_partial",
+  "scope": "中信脆萌寵頁汪喵星球、怪獸部落與 HeroMama 的公開單筆點數方案；即時總池與個人付款狀態未驗",
+  "observedAt": "2026-11-08",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_pet.html",
+  "offers": [
+    {"id":"dogcatstar","fields":{
+      "validFrom":{"value":"2026-01-01","sourceLineHint":"L75-L79"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L75-L79"},
+      "baseRate":{"value":1,"sourceLineHint":"L268"},
+      "promoRate":{"value":4,"sourceLineHint":"L268"},
+      "minimumSpend":{"value":1000,"sourceLineHint":"L267"},
+      "capAmount":{"value":40,"sourceLineHint":"L269"},
+      "capPeriod":{"value":"PER_TRANSACTION","sourceLineHint":"L269"},
+      "capScope":{"value":"PROMO","sourceLineHint":"L269: 加碼4%上限"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L268-L269: 40點為上限，非固定贈點"}
+    }},
+    {"id":"litomon","fields":{
+      "validFrom":{"value":"2026-01-01","sourceLineHint":"L83-L87"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L83-L87"},
+      "baseRate":{"value":1,"sourceLineHint":"L300"},
+      "promoRate":{"value":4,"sourceLineHint":"L300"},
+      "minimumSpend":{"value":500,"sourceLineHint":"L299"},
+      "capAmount":{"value":30,"sourceLineHint":"L301"},
+      "capPeriod":{"value":"PER_TRANSACTION","sourceLineHint":"L301"},
+      "capScope":{"value":"PROMO","sourceLineHint":"L301: 加碼4%上限"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L300-L301: 30點為上限，非固定贈點"}
+    }},
+    {"id":"heromama","fields":{
+      "validFrom":{"value":"2026-01-01","sourceLineHint":"L91-L95"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L91-L95"},
+      "baseRate":{"value":1,"sourceLineHint":"L332"},
+      "promoRate":{"value":4,"sourceLineHint":"L332"},
+      "minimumSpend":{"value":300,"sourceLineHint":"L331"},
+      "capAmount":{"value":30,"sourceLineHint":"L333"},
+      "capPeriod":{"value":"PER_TRANSACTION","sourceLineHint":"L333"},
+      "capScope":{"value":"PROMO","sourceLineHint":"L333: 加碼4%上限"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L332-L333: 30點為上限，非固定贈點"}
+    }}
+  ]
+}

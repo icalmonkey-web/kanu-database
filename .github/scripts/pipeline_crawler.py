@@ -12,6 +12,7 @@ from __future__ import annotations
 import asyncio
 import json
 import re
+import hashlib
 from dataclasses import asdict, dataclass, field
 from datetime import datetime
 from typing import Any, List, Optional
@@ -42,8 +43,8 @@ class ExtractedRule:
     rewardType: str = "percent"  # percent, cash, points, insurance_benefit
     rewardUnit: str = "percent"
     capAmount: Optional[float] = None
-    capScope: Optional[str] = "PROMO"  # PROMO, TOTAL
-    capPeriod: Optional[str] = "MONTHLY"  # MONTHLY, CAMPAIGN, YEARLY
+    capScope: Optional[str] = None  # Must come from explicit terms.
+    capPeriod: Optional[str] = None
     minimumSpend: Optional[float] = None
     validFrom: Optional[str] = None
     validUntil: Optional[str] = None
@@ -54,7 +55,9 @@ class ExtractedRule:
     excludedKeywords: List[str] = field(default_factory=list)
     quotaInfo: str = ""
     sourceUrl: str = ""
-    evidenceStatus: str = "CONFIRMED"
+    evidenceStatus: str = "UNVERIFIED"
+    rewardCalculationMode: str = "UNKNOWN"
+    quickSearchEligible: bool = False
     validationIssues: List[str] = field(default_factory=list)
 
 
@@ -103,13 +106,8 @@ class PipelineExtractor:
             rule.rewardType = "percent"
             rule.rewardUnit = "percent"
 
-        # 3. Automatic exclusion keyword discovery from text
-        for pat in cls.EXCLUDED_PATTERNS:
-            found = re.findall(pat, title_quota)
-            for item in found:
-                clean_item = re.sub(r"[^\w\u4e00-\u9fa5]", "", item)
-                if clean_item and clean_item not in rule.excludedKeywords:
-                    rule.excludedKeywords.append(clean_item)
+        # A merchant name in positive copy is not an exclusion. Keep only
+        # explicitly supplied exclusions; regex presence cannot establish scope.
 
         return rule
 
@@ -121,7 +119,7 @@ async def fetch_page_resilient(url: str, timeout_sec: int = 20) -> str:
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
         "Accept-Language": "zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7",
     }
-    async with httpx.AsyncClient(follow_redirects=True, timeout=timeout_sec, verify=False) as client:
+    async with httpx.AsyncClient(follow_redirects=True, timeout=timeout_sec) as client:
         resp = await client.get(url, headers=headers)
         resp.raise_for_status()
         return resp.text
@@ -142,14 +140,14 @@ def build_sample_rule_from_markdown(bank: str, url: str, md_text: str) -> Option
     title = lines[0][:40] if lines else f"{bank} 官方信用卡優惠"
 
     rule = ExtractedRule(
-        id=f"rule_pipeline_{abs(hash(url)) % 1000000}",
+        id=f"rule_pipeline_{hashlib.sha256(url.encode()).hexdigest()[:20]}",
         cardId=None,
         bank=bank,
         title=title,
-        baseRate=1.0 if promo_rate > 1.0 else promo_rate,
-        promoRate=max(0.0, promo_rate - 1.0) if promo_rate > 1.0 else 0.0,
+        baseRate=0.0,
+        promoRate=0.0,
         capAmount=cap_amount,
-        capScope="PROMO" if cap_amount else None,
+        capScope=None,
         sourceUrl=url,
         quotaInfo=f"最高 {promo_rate}%" if promo_rate else "活動詳情見條款",
     )

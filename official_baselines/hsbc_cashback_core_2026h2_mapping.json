@@ -1,0 +1,8 @@
+{
+  "baselineId":"hsbc_cashback_core_2026h2",
+  "mappings":[
+    {"offerId":"signature_domestic","ruleId":"rule_b976c4a9577d484419b6"},
+    {"offerId":"signature_overseas","ruleId":"rule_700a5c10e2380bc2df84"},
+    {"offerId":"titanium_general","ruleId":"rule_578a5d7f1307b489e5c1"}
+  ]
+}

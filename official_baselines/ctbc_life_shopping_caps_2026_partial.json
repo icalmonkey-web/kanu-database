@@ -1,0 +1,102 @@
+{
+  "baselineId": "ctbc_life_shopping_caps_2026_partial",
+  "scope": "CTBC Netflix, STUDIO A and Dyson percentage-point caps; excludes live capacity and personal eligibility",
+  "observedAt": "2026-11-07",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+  "offers": [
+    {
+      "id": "netflix",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+      "fields": {
+        "baseRate": {
+          "value": 1,
+          "sourceLineHint": "L377"
+        },
+        "promoRate": {
+          "value": 4,
+          "sourceLineHint": "L377"
+        },
+        "rewardAmount": {
+          "value": null,
+          "sourceLineHint": "L378: 100 points is quarterly cap"
+        },
+        "capAmount": {
+          "value": 100,
+          "sourceLineHint": "L378"
+        },
+        "capPeriod": {
+          "value": "QUARTERLY",
+          "sourceLineHint": "L378"
+        },
+        "registrationCycle": {
+          "value": "QUARTERLY",
+          "sourceLineHint": "L378"
+        },
+        "needReg": {
+          "value": true,
+          "sourceLineHint": "L374-L378"
+        }
+      }
+    },
+    {
+      "id": "studio_a",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+      "fields": {
+        "baseRate": {
+          "value": 1,
+          "sourceLineHint": "L420"
+        },
+        "promoRate": {
+          "value": 1,
+          "sourceLineHint": "L420"
+        },
+        "minimumSpend": {
+          "value": 12000,
+          "sourceLineHint": "L420"
+        },
+        "rewardAmount": {
+          "value": null,
+          "sourceLineHint": "L420: 1,000 points is monthly bonus cap"
+        },
+        "capAmount": {
+          "value": 1000,
+          "sourceLineHint": "L420"
+        },
+        "capPeriod": {
+          "value": "MONTHLY",
+          "sourceLineHint": "L420"
+        }
+      }
+    },
+    {
+      "id": "dyson",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+      "fields": {
+        "baseRate": {
+          "value": 1,
+          "sourceLineHint": "L431"
+        },
+        "promoRate": {
+          "value": 5,
+          "sourceLineHint": "L431: 6% including 1% base"
+        },
+        "minimumSpend": {
+          "value": 10000,
+          "sourceLineHint": "L431"
+        },
+        "rewardAmount": {
+          "value": null,
+          "sourceLineHint": "L431: 700 points is monthly cap"
+        },
+        "capAmount": {
+          "value": 700,
+          "sourceLineHint": "L431"
+        },
+        "capPeriod": {
+          "value": "MONTHLY",
+          "sourceLineHint": "L431"
+        }
+      }
+    }
+  ]
+}

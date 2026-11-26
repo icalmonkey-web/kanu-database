@@ -1,0 +1,20 @@
+{
+  "catalogId": "ctbc_linepay_pet_2026",
+  "scope": "中國信託 LINE Pay 卡脆萌寵頁 2026-11-08 可見的 12 個列表入口；僅列入口與日期，付款、名額及排除需逐案核對",
+  "observedAt": "2026-11-08",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_pet.html",
+  "offers": [
+    {"id":"fish","name":"魚中魚最高4%","matchToken":"魚中魚","sourceLineHint":28,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"CARD"},
+    {"id":"good_life","name":"好狗命5%","matchToken":"好狗命","sourceLineHint":34,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"CARD"},
+    {"id":"good_dog","name":"好狗運30點","matchToken":"好狗運","sourceLineHint":40,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"CARD"},
+    {"id":"popocat","name":"撥撥10%","matchToken":"撥撥","sourceLineHint":46,"validFrom":"2026-04-01","validUntil":"2026-12-31","channel":"CARD"},
+    {"id":"wonderpet","name":"寵物公園8%","matchToken":"寵物公園","sourceLineHint":52,"validFrom":"2026-06-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"petstimes","name":"毛孩時代8%","matchToken":"毛孩時代","sourceLineHint":60,"validFrom":"2026-06-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"ladynpet","name":"超凝小姐5%","matchToken":"超凝小姐","sourceLineHint":68,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"dogcatstar","name":"汪喵星球5%","matchToken":"汪喵星球","sourceLineHint":75,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"litomon","name":"怪獸部落5%","matchToken":"怪獸部落","sourceLineHint":83,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"heromama","name":"HeroMama 5%","matchToken":"HeroMama","sourceLineHint":91,"validFrom":"2026-01-01","validUntil":"2026-12-31","channel":"LINE_PAY"},
+    {"id":"maohao","name":"毛好多 ShopBack 6%","matchToken":"毛好多","sourceLineHint":97,"validFrom":"2026-07-01","validUntil":"2026-12-31","channel":"SHOPBACK"},
+    {"id":"petlife","name":"寵物生活每週80元優惠券","matchToken":"寵物生活","sourceLineHint":104,"detailUrl":"https://web-tw-pay.line.me/cms/event/template1.3/fc046dcd-d679-4b2f-930c-0a8e227d8f20","validFrom":"2026-10-01","validUntil":"2026-12-31","channel":"LINE_PAY"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "baselineId": "ctbc_under_armour_2026",
+  "scope": "中國信託LINE Pay卡脆慢活頁 Under Armour 官網點數活動的選定結構欄位",
+  "observedAt": "2026-11-03",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+  "offers": [{
+    "id": "under_armour_7_percent",
+    "conditions": "官網以LINE Pay綁定中信LINE Pay卡付款；1%一般點數加6%活動點數；加碼單筆最多200點，活動總限量900,000點",
+    "fields": {
+      "cardId": {"value": "card_中國信託_51", "sourceLineHint": 390},
+      "baseRate": {"value": 1, "sourceLineHint": 391},
+      "promoRate": {"value": 6, "sourceLineHint": 391},
+      "rewardType": {"value": "points", "sourceLineHint": 391},
+      "rewardUnit": {"value": "percent", "sourceLineHint": 391},
+      "rewardAmount": {"value": null, "sourceLineHint": 392},
+      "capAmount": {"value": 200, "sourceLineHint": 392},
+      "capScope": {"value": "PROMO", "sourceLineHint": 392},
+      "capPeriod": {"value": "PER_TRANSACTION", "sourceLineHint": 392},
+      "needReg": {"value": false, "sourceLineHint": 389},
+      "validFrom": {"value": "2026-01-01", "sourceLineHint": 114},
+      "validUntil": {"value": "2026-12-31", "sourceLineHint": 114}
+    }
+  }]
+}

@@ -1,0 +1,16 @@
+{
+  "baselineId":"icashpay_dream_plaza_2026_listing",
+  "scope":"統一時代百貨／DREAM PLAZA 週二活動的官方列表選定欄位；商場詳情逾時，指定櫃位、完整排除與即時名額尚未核實",
+  "observedAt":"2026-11-05",
+  "sourceUrl":"https://www.icashpay.com.tw/advertMessage/view/id/2588",
+  "offers":[{"id":"tuesday_100_points","fields":{
+    "validFrom":{"value":"2026-01-01","sourceLineHint":"L125"},
+    "validUntil":{"value":"2026-12-31","sourceLineHint":"L125"},
+    "eligibleWeekdays":{"value":[2],"sourceLineHint":"L127: 週二"},
+    "rewardType":{"value":"points","sourceLineHint":"L127: OPENPOINT"},
+    "rewardAmount":{"value":100,"sourceLineHint":"L127: 單筆滿額贈 100 點"},
+    "capAmount":{"value":100,"sourceLineHint":"L127: 每週每戶"},
+    "capPeriod":{"value":"WEEKLY","sourceLineHint":"L127"},
+    "minimumSpend":{"value":899,"sourceLineHint":"L127: 單筆"}
+  }}]
+}

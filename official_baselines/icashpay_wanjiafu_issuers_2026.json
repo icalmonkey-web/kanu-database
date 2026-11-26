@@ -1,0 +1,244 @@
+{
+  "baselineId": "icashpay_wanjiafu_issuers_2026",
+  "scope": "icash Pay 萬家福等通路 2026/9/10–12/31 四家銀行的公開條款結構欄位；不驗證即時銀行點數池、玉山實際登錄結果與每筆排除品項",
+  "observedAt": "2026-11-04",
+  "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2476",
+  "offers": [
+    {
+      "id": "cathay",
+      "fields": {
+        "paymentProvider": {
+          "value": "icash Pay",
+          "sourceLineHint": "L6"
+        },
+        "fundingMethods": {
+          "value": [
+            "國泰世華icash聯名卡"
+          ],
+          "sourceLineHint": "L15"
+        },
+        "promoRate": {
+          "value": 5,
+          "sourceLineHint": "L12"
+        },
+        "rewardType": {
+          "value": "points",
+          "sourceLineHint": "L12"
+        },
+        "capAmount": {
+          "value": 150,
+          "sourceLineHint": "L12"
+        },
+        "capPeriod": {
+          "value": "MONTHLY",
+          "sourceLineHint": "L12"
+        },
+        "minimumSpend": {
+          "value": 0,
+          "sourceLineHint": "L12"
+        },
+        "needReg": {
+          "value": false,
+          "sourceLineHint": "L14-L18; only 玉山 requires registration"
+        },
+        "validFrom": {
+          "value": "2026-09-10",
+          "sourceLineHint": "L8"
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": "L8"
+        },
+        "eligibleWeekdays": {
+          "value": [
+            5,
+            6,
+            0
+          ],
+          "sourceLineHint": "L8: 每月 10 日後的週五至週日"
+        },
+        "eligibleMonthDayFrom": {
+          "value": 10,
+          "sourceLineHint": "L8: 每月 10 日起"
+        }
+      }
+    },
+    {
+      "id": "hncb",
+      "fields": {
+        "paymentProvider": {
+          "value": "icash Pay",
+          "sourceLineHint": "L6"
+        },
+        "fundingMethods": {
+          "value": [
+            "華南銀行全信用卡"
+          ],
+          "sourceLineHint": "L16"
+        },
+        "promoRate": {
+          "value": 5,
+          "sourceLineHint": "L12"
+        },
+        "rewardType": {
+          "value": "points",
+          "sourceLineHint": "L12"
+        },
+        "capAmount": {
+          "value": 150,
+          "sourceLineHint": "L12"
+        },
+        "capPeriod": {
+          "value": "MONTHLY",
+          "sourceLineHint": "L12"
+        },
+        "minimumSpend": {
+          "value": 0,
+          "sourceLineHint": "L12"
+        },
+        "needReg": {
+          "value": false,
+          "sourceLineHint": "L14-L18; only 玉山 requires registration"
+        },
+        "validFrom": {
+          "value": "2026-09-10",
+          "sourceLineHint": "L8"
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": "L8"
+        },
+        "eligibleWeekdays": {
+          "value": [
+            5,
+            6,
+            0
+          ],
+          "sourceLineHint": "L8: 每月 10 日後的週五至週日"
+        },
+        "eligibleMonthDayFrom": {
+          "value": 10,
+          "sourceLineHint": "L8: 每月 10 日起"
+        }
+      }
+    },
+    {
+      "id": "hsbc",
+      "fields": {
+        "paymentProvider": {
+          "value": "icash Pay",
+          "sourceLineHint": "L6"
+        },
+        "fundingMethods": {
+          "value": [
+            "滙豐銀行信用卡（公司卡、商務卡除外）"
+          ],
+          "sourceLineHint": "L17"
+        },
+        "promoRate": {
+          "value": 5,
+          "sourceLineHint": "L12"
+        },
+        "rewardType": {
+          "value": "points",
+          "sourceLineHint": "L12"
+        },
+        "capAmount": {
+          "value": 150,
+          "sourceLineHint": "L12"
+        },
+        "capPeriod": {
+          "value": "MONTHLY",
+          "sourceLineHint": "L12"
+        },
+        "minimumSpend": {
+          "value": 0,
+          "sourceLineHint": "L12"
+        },
+        "needReg": {
+          "value": false,
+          "sourceLineHint": "L14-L18; only 玉山 requires registration"
+        },
+        "validFrom": {
+          "value": "2026-09-10",
+          "sourceLineHint": "L8"
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": "L8"
+        },
+        "eligibleWeekdays": {
+          "value": [
+            5,
+            6,
+            0
+          ],
+          "sourceLineHint": "L8: 每月 10 日後的週五至週日"
+        },
+        "eligibleMonthDayFrom": {
+          "value": 10,
+          "sourceLineHint": "L8: 每月 10 日起"
+        }
+      }
+    },
+    {
+      "id": "esun",
+      "fields": {
+        "paymentProvider": {
+          "value": "icash Pay",
+          "sourceLineHint": "L6"
+        },
+        "fundingMethods": {
+          "value": [
+            "玉山銀行全信用卡"
+          ],
+          "sourceLineHint": "L18"
+        },
+        "promoRate": {
+          "value": 5,
+          "sourceLineHint": "L12"
+        },
+        "rewardType": {
+          "value": "points",
+          "sourceLineHint": "L12"
+        },
+        "capAmount": {
+          "value": 150,
+          "sourceLineHint": "L12"
+        },
+        "capPeriod": {
+          "value": "MONTHLY",
+          "sourceLineHint": "L12"
+        },
+        "minimumSpend": {
+          "value": 0,
+          "sourceLineHint": "L12"
+        },
+        "needReg": {
+          "value": true,
+          "sourceLineHint": "L18"
+        },
+        "validFrom": {
+          "value": "2026-09-10",
+          "sourceLineHint": "L8"
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": "L8"
+        },
+        "eligibleWeekdays": {
+          "value": [
+            5,
+            6,
+            0
+          ],
+          "sourceLineHint": "L8: 每月 10 日後的週五至週日"
+        },
+        "eligibleMonthDayFrom": {
+          "value": 10,
+          "sourceLineHint": "L8: 每月 10 日起"
+        }
+      }
+    }
+  ]
+}

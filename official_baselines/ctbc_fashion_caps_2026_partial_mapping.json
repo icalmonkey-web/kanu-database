@@ -1,0 +1,9 @@
+{
+  "baselineId": "ctbc_fashion_caps_2026_partial",
+  "mappings": [
+    {"offerId":"watsons_sunday","ruleId":"rule_9b4fdf62817e99e7418a"},
+    {"offerId":"vacanza","ruleId":"rule_ea7cdd2e0b8e36a8b01a"},
+    {"offerId":"kafen","ruleId":"rule_fe3b235a35f6c2330652"},
+    {"offerId":"sisley","ruleId":"rule_8be1d7ac2cc79e568969"}
+  ]
+}

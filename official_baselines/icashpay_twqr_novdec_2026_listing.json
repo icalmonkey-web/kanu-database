@@ -1,0 +1,15 @@
+{
+  "baselineId":"icashpay_twqr_novdec_2026_listing",
+  "scope":"2026/11–12 月 TWQR 跨店累積優惠的當前官方列表欄位；詳情內文不可讀，支付資格、登錄、排除與即時名額未核",
+  "observedAt":"2026-11-05",
+  "sourceUrl":"https://www.icashpay.com.tw/advertMessage/view/id/2588",
+  "offers":[{"id":"cross_merchant","fields":{
+    "validFrom":{"value":"2026-11-01","sourceLineHint":"L204"},
+    "validUntil":{"value":"2026-12-31","sourceLineHint":"L204"},
+    "rewardType":{"value":"points","sourceLineHint":"L206: OPENPOINT"},
+    "rewardAmount":{"value":null,"sourceLineHint":"L206: 20／40 點需跨店達標，非單筆固定贈點"},
+    "capAmount":{"value":40,"sourceLineHint":"L206: 每戶每月"},
+    "capPeriod":{"value":"MONTHLY","sourceLineHint":"L206"},
+    "minimumSpend":{"value":50,"sourceLineHint":"L206: 每筆入列門檻"}
+  }}]
+}

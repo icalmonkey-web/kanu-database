@@ -1,0 +1,213 @@
+{
+  "catalogId": "icashpay_latest_2026_11",
+  "mappings": [
+    {
+      "offerId": "uniopen_all",
+      "ruleId": "rule_35d56eb5f6a21336e1e4",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "sunday_all",
+      "ruleId": "rule_89b5c2182f6e449769ba",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "mister_donut",
+      "ruleId": "rule_2a9cf82dbce313caab58",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "cold_stone",
+      "ruleId": "rule_9d81ce94c4df73c7a36b",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "starbucks",
+      "ruleId": "rule_ada0fae75352287b9fe8",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "cosmed_monday",
+      "ruleId": "rule_7647a98b1201fe830bb0",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "cosmed_11_22",
+      "ruleId": "rule_bade284eeb5637b1d04e",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "foodomo",
+      "ruleId": "rule_c7b20af99070fd82995e",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "saint_cosmed",
+      "ruleId": "rule_6895d9b86b00609d127b",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "plus21_points",
+      "ruleId": "rule_972b475ac1da2c36dc06",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "simple_mart",
+      "ruleId": "rule_8ba866d3dd2cf2b9cd56",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "global_mall",
+      "ruleId": "rule_270417bec8b3e896d89f",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "miramar",
+      "ruleId": "rule_53391ec191a7e6bc9126",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "transit_points",
+      "ruleId": "rule_f453c2d76fbbf0c5ee42",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "metro_icash",
+      "ruleId": "rule_e089cf455d4d59d9337b",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "ipreorder",
+      "ruleId": "rule_f7fe1c73b8f47d8e1ce2",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "seven_eleven_banks",
+      "ruleId": "rule_03c6624bfab0b5fd3b70",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "lifestyle_11",
+      "ruleId": "rule_690f1da15e08b3ae6731",
+      "status": "candidate",
+      "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+    },
+    {
+      "offerId": "kfc_sunday",
+      "ruleId": "review_icashpay_sunday_food_2026_kfc",
+      "status": "candidate",
+      "reason": "已按官方詳情拆為獨立方案；即時 8 萬點池及完整資格待核"
+    },
+    {
+      "offerId": "pizza_hut_sunday",
+      "ruleId": "review_icashpay_sunday_food_2026_pizza_hut",
+      "status": "candidate",
+      "reason": "已按官方詳情拆為獨立方案；即時 8 萬點池及完整資格待核"
+    },
+    {
+      "offerId": "wanjiafu_base",
+      "ruleId": "review_icashpay_wanjiafu_2026_base",
+      "status": "candidate",
+      "reason": "官方複合區塊已拆分；每月 10 日起、即時名額與排除待完整驗證"
+    },
+    {
+      "offerId": "wanjiafu_uniopen",
+      "ruleId": "review_icashpay_wanjiafu_2026_uniopen",
+      "status": "candidate",
+      "reason": "官方複合區塊已拆分；每月 10 日起、即時名額與排除待完整驗證"
+    },
+    {
+      "offerId": "wanjiafu_banks",
+      "ruleIds": [
+        "icashpay_wanjiafu_2026_cathay",
+        "icashpay_wanjiafu_2026_hncb",
+        "icashpay_wanjiafu_2026_hsbc"
+      ],
+      "status": "candidate",
+      "reason": "官方銀行加碼頁為另一來源，三家銀行資料已有對應；玉山另依銀行官方登錄頁保存，仍待整體核對"
+    },
+    {
+      "offerId": "ikari",
+      "ruleId": "review_icashpay_ikari_2026",
+      "status": "candidate",
+      "reason": "官方詳情建檔；每戶活動期上限、即時點數池與指定門市未能自動驗證"
+    },
+    {
+      "offerId": "five_hundred_bowls",
+      "ruleId": "review_icashpay_500bowls_2026",
+      "status": "candidate",
+      "reason": "官方詳情建檔；得獎店家名單及即時點數池待核"
+    },
+    {
+      "offerId": "post_office_draw",
+      "ruleId": "review_icashpay_postoffice_draw_2026",
+      "status": "candidate",
+      "reason": "官方詳情建檔為抽獎資格；不保證得 800 點，個人累積消費與登錄待核"
+    },
+    {
+      "offerId": "taia_fuel",
+      "ruleId": "review_icashpay_taia_fuel_2026",
+      "status": "candidate",
+      "reason": "官網詳情建檔；人工島及即時活動點數池無法機器核對"
+    },
+    {
+      "offerId": "etmall",
+      "ruleId": "review_icashpay_etmall_2026",
+      "status": "candidate",
+      "reason": "官網詳情建檔；每月即時點數池及完整排除尚待核對"
+    },
+    {
+      "offerId": "auto_reload",
+      "ruleId": "rule_c2608a63f2e39c6340bb",
+      "status": "candidate",
+      "reason": "舊紀錄修正為 icash2.0 自動加值而非消費回饋；十一月官網已公告額滿，十二月待重查"
+    },
+    {
+      "offerId": "plus21_meal",
+      "ruleId": "review_icash_21plus_meal_2026",
+      "status": "candidate",
+      "reason": "官網詳情建檔為指定組合 99 元折價；三個排除日期與商品／門市可用性待機器核對"
+    },
+    {
+      "offerId": "dream_plaza",
+      "ruleId": "rule_013375e0585b4bb72251",
+      "status": "candidate",
+      "reason": "既有紀錄依當前 icash Pay 官方列表修正週二、每週上限與起日；商場指定櫃位與名額詳情讀取逾時"
+    },
+    {
+      "offerId": "twqr",
+      "ruleId": "review_icashpay_twqr_novdec_2026_listing",
+      "status": "candidate",
+      "reason": "11–12 月獨立方案依當前官方列表建檔；詳情內文不可讀，跨店筆數、登錄及排除未核"
+    },
+    {
+      "offerId": "mobile_tea_ice",
+      "ruleId": "review_mobile_tea_ice_2026_listing",
+      "status": "candidate",
+      "reason": "當前官方列表有四個日期及買 2 送 2 摘要；連結詳情 404，付款、兌換及庫存待核"
+    },
+    {
+      "offerId": "mobile_tea_pearl",
+      "ruleId": "review_mobile_tea_pearl_2026_listing",
+      "status": "candidate",
+      "reason": "當前官方列表有四個日期及 2 杯 88 元摘要；連結詳情 404，付款、兌換及庫存待核"
+    }
+  ]
+}

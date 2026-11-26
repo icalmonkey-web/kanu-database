@@ -1,0 +1,17 @@
+{
+  "baselineId": "esun_ubear_core_2026h2",
+  "scope": "玉山 U Bear 2026/9/1–2027/2/28 一般、網路及指定數位訂閱回饋；不含其他銀行或短期活動",
+  "observedAt": "2026-11-02",
+  "sourceUrl": "https://event.esunbank.com.tw/credit/ubear/card.html",
+  "sourceSections": ["國內外一般消費", "行動支付、網路消費", "指定數位訂閱平台"],
+  "offers": [
+    {"id": "general_one_task", "conditions": "帳單e化或成功自扣其中一項；逐筆無條件捨去",
+     "fields": {"totalRate": {"value": 0.5, "sourceLineHint": 44}, "validFrom": {"value": "2026-09-01", "sourceLineHint": 26}, "validUntil": {"value": "2027-02-28", "sourceLineHint": 26}, "rewardType": {"value": "percent", "sourceLineHint": 42}, "roundingMode": {"value": "FLOOR_COMPONENT", "sourceLineHint": 46}}},
+    {"id": "general_both_tasks", "conditions": "帳單e化及成功自扣兩項；逐筆無條件捨去",
+     "fields": {"totalRate": {"value": 1, "sourceLineHint": 45}, "validFrom": {"value": "2026-09-01", "sourceLineHint": 26}, "validUntil": {"value": "2027-02-28", "sourceLineHint": 26}, "rewardType": {"value": "percent", "sourceLineHint": 42}, "roundingMode": {"value": "FLOOR_COMPONENT", "sourceLineHint": 46}}},
+    {"id": "online_both_tasks", "conditions": "一般 1% 與網路加碼 2% 分別逐筆捨去；加碼每期上限 150 元",
+     "fields": {"totalRate": {"value": 3, "sourceLineHint": 77}, "promoRate": {"value": 2, "sourceLineHint": 72}, "capAmount": {"value": 150, "sourceLineHint": 80}, "capPeriod": {"value": "STATEMENT", "sourceLineHint": 80}, "capScope": {"value": "PROMO", "sourceLineHint": 80}, "validFrom": {"value": "2026-09-01", "sourceLineHint": 26}, "validUntil": {"value": "2027-02-28", "sourceLineHint": 26}, "roundingMode": {"value": "FLOOR_COMPONENT", "sourceLineHint": 86}}},
+    {"id": "digital_subscription", "conditions": "指定平台原站扣款；不疊加一般或網路回饋；每期上限 100 元",
+     "fields": {"promoRate": {"value": 10, "sourceLineHint": 120}, "capAmount": {"value": 100, "sourceLineHint": 120}, "capPeriod": {"value": "STATEMENT", "sourceLineHint": 120}, "capScope": {"value": "TOTAL", "sourceLineHint": 120}, "validFrom": {"value": "2026-09-01", "sourceLineHint": 26}, "validUntil": {"value": "2027-02-28", "sourceLineHint": 26}, "roundingMode": {"value": "FLOOR_COMPONENT", "sourceLineHint": 123}}}
+  ]
+}

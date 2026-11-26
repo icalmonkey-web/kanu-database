@@ -1,0 +1,22 @@
+{
+  "baselineId":"icash2_autoreload_2026",
+  "scope":"uniopen 聯名卡 icash2.0 自動加值 2026/7–12 月活動公開結構欄位；11 月點數池已額滿，12 月登錄及即時狀態仍待查",
+  "observedAt":"2026-11-05",
+  "sourceUrl":"https://www.icash.com.tw/Home/NewsDetail/?ID=12880",
+  "offers":[
+    {"id":"monthly_autoreload","fields":{
+      "validFrom":{"value":"2026-07-01","sourceLineHint":"L59"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L59"},
+      "promoRate":{"value":10,"sourceLineHint":"L62"},
+      "rewardType":{"value":"points","sourceLineHint":"L62: OPENPOINT"},
+      "rewardUnit":{"value":"percent","sourceLineHint":"L62"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L62: 50 點為月上限，非固定獎勵"},
+      "capAmount":{"value":50,"sourceLineHint":"L62: 每戶每月"},
+      "capPeriod":{"value":"MONTHLY","sourceLineHint":"L62"},
+      "campaignCapAmount":{"value":1500000,"sourceLineHint":"L62"},
+      "minimumSpend":{"value":500,"sourceLineHint":"L81: 自動加值 500 元或其倍數"},
+      "needReg":{"value":true,"sourceLineHint":"L62: 每月重新登錄"},
+      "registrationCycle":{"value":"MONTHLY","sourceLineHint":"L62"}
+    }}
+  ]
+}

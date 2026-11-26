@@ -1,0 +1,179 @@
+{
+  "catalogId": "ctbc_linepay_travel_2026",
+  "mappings": [
+    {
+      "offerId": "overseas",
+      "ruleId": "rule_a84722535184bc3700e1",
+      "status": "matched"
+    },
+    {
+      "offerId": "uspace_parking",
+      "ruleId": "rule_f779db66e56a34ac7cfc",
+      "status": "matched"
+    },
+    {
+      "offerId": "kkday_weekly",
+      "ruleId": "rule_d1385d908fb4b07473ef",
+      "status": "matched"
+    },
+    {
+      "offerId": "kkday_member_day",
+      "ruleId": "review_ctbc_kkday_member_day_2026_pending",
+      "status": "candidate",
+      "reason": "三段不連續日期尚未由推薦執行期判斷，暫停推薦；列表整體結束12/31但最後可用日12/11"
+    },
+    {
+      "offerId": "trip",
+      "ruleId": "review_ctbc_trip_registration_2026h2",
+      "status": "candidate",
+      "reason": "登錄關閉時間及即時名額尚未確認，暫停推薦"
+    },
+    {
+      "offerId": "airbnb",
+      "ruleId": "review_ctbc_airbnb_registration_2026h2",
+      "status": "candidate",
+      "reason": "登錄關閉時間及即時名額尚未確認，暫停推薦"
+    },
+    {
+      "offerId": "tigerair",
+      "ruleId": "review_ctbc_tigerair_registration_2026h2",
+      "status": "candidate",
+      "reason": "登錄關閉時間及即時名額尚未確認，暫停推薦"
+    },
+    {
+      "offerId": "itf",
+      "ruleId": "pending_ctbc_linepay_travel_2026_itf",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "hotels",
+      "status": "candidate",
+      "reason": "16%優惠碼與6%印花方案已拆分；持卡卡別範圍、每月優惠碼剩餘名額與實際入住仍待交易時確認",
+      "ruleIds": [
+        "pending_ctbc_linepay_travel_2026_hotels",
+        "review_ctbc_hotels_stamp_2026"
+      ]
+    },
+    {
+      "offerId": "wamazing",
+      "ruleId": "pending_ctbc_linepay_travel_2026_wamazing",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "uspace_wash",
+      "ruleId": "pending_ctbc_linepay_travel_2026_uspace_wash",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "ugo",
+      "ruleId": "pending_ctbc_linepay_travel_2026_ugo",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "carplus",
+      "ruleId": "pending_ctbc_linepay_travel_2026_carplus",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "driver",
+      "ruleId": "pending_ctbc_linepay_travel_2026_driver",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "korea_shops",
+      "ruleId": "pending_ctbc_linepay_travel_2026_korea_shops",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "olive_korea",
+      "ruleId": "pending_ctbc_linepay_travel_2026_olive_korea",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "olive_global",
+      "ruleId": "pending_ctbc_linepay_travel_2026_olive_global",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "weverse",
+      "ruleId": "pending_ctbc_linepay_travel_2026_weverse",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "agoda",
+      "ruleId": "pending_ctbc_linepay_travel_2026_agoda",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "eztravel",
+      "ruleId": "pending_ctbc_linepay_travel_2026_eztravel",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "saily",
+      "ruleId": "pending_ctbc_linepay_travel_2026_saily",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "southeast",
+      "ruleId": "pending_ctbc_linepay_travel_2026_southeast",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "npc",
+      "ruleId": "pending_ctbc_linepay_travel_2026_npc",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "powerexpress",
+      "ruleId": "pending_ctbc_linepay_travel_2026_powerexpress",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "klook",
+      "ruleId": "pending_ctbc_linepay_travel_2026_klook",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "funnow",
+      "ruleId": "pending_ctbc_linepay_travel_2026_funnow",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "expedia",
+      "ruleId": "pending_ctbc_linepay_travel_2026_expedia",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "gogoout",
+      "ruleId": "pending_ctbc_linepay_travel_2026_gogoout",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "experience",
+      "ruleId": "pending_ctbc_linepay_travel_2026_experience",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    }
+  ]
+}

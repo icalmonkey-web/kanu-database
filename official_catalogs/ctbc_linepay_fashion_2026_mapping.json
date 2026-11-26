@@ -1,0 +1,151 @@
+{
+  "catalogId": "ctbc_linepay_fashion_2026",
+  "mappings": [
+    {
+      "offerId": "watsons",
+      "ruleId": "rule_9b4fdf62817e99e7418a",
+      "status": "matched"
+    },
+    {
+      "offerId": "vacanza",
+      "ruleId": "rule_ea7cdd2e0b8e36a8b01a",
+      "status": "matched"
+    },
+    {
+      "offerId": "sisley",
+      "ruleId": "rule_8be1d7ac2cc79e568969",
+      "status": "matched"
+    },
+    {
+      "offerId": "dokodemo",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_dokodemo",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "estee_lauder",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_estee_lauder",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "jo_malone",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_jo_malone",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "la_mer",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_la_mer",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "mac",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_mac",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "bobbi_brown",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_bobbi_brown",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "origins",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_origins",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "clinique",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_clinique",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "shiseido",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_shiseido",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "cle_de_peau",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_cle_de_peau",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "ipsa",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_ipsa",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "nars",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_nars",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "watashi",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_watashi",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "kafen",
+      "ruleId": "rule_fe3b235a35f6c2330652",
+      "status": "matched"
+    },
+    {
+      "offerId": "sabon",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_sabon",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "hearth",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_hearth",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "sulwhasoo",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_sulwhasoo",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "laneige",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_laneige",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "mirae",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_mirae",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "m2",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_m2",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "dv",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_dv",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "poya",
+      "ruleId": "pending_ctbc_linepay_fashion_2026_poya",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+    }
+  ]
+}

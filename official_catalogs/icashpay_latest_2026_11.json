@@ -1,0 +1,345 @@
+{
+  "catalogId": "icashpay_latest_2026_11",
+  "scope": "icash Pay 官方『最新優惠』2026-11-05 可見的 32 個列表區塊，已將萬家福複合區塊拆成三方案，共 34 個方案候選，含支付、icash2.0 與合作商家；萬家福等區塊含多個方案，此清單僅驗入口收錄與列表期間，不代表完整方案數、資格或全市場收錄率",
+  "observedAt": "2026-11-05",
+  "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2588",
+  "offers": [
+    {
+      "id": "uniopen_all",
+      "name": "全通路 uniopen 聯名卡滿 199 元 4%",
+      "matchToken": "uniopen",
+      "sourceLineHint": 9,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2461",
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "sunday_all",
+      "name": "週日最好 Pay 滿 200 元 7%",
+      "matchToken": "週日最好",
+      "sourceLineHint": 17,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2284",
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "mister_donut",
+      "name": "Mister Donut 10%",
+      "matchToken": "Mister Donut",
+      "sourceLineHint": 25,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2534",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "cold_stone",
+      "name": "Cold Stone 10%",
+      "matchToken": "Cold Stone",
+      "sourceLineHint": 32,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2536",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "wanjiafu_base",
+      "name": "萬家福／樂家康／Mia C‘bon icash Pay 基本 5%",
+      "matchToken": "萬家福",
+      "sourceLineHint": 40,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2497",
+      "validFrom": "2026-10-10",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "wanjiafu_uniopen",
+      "name": "萬家福／樂家康／Mia C‘bon uniopen 卡加碼 5%",
+      "matchToken": "萬家福",
+      "sourceLineHint": 49,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2497",
+      "validFrom": "2026-10-10",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "wanjiafu_banks",
+      "name": "萬家福／樂家康／Mia C‘bon 指定銀行加碼 5%",
+      "matchToken": "萬家福",
+      "sourceLineHint": 53,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2476",
+      "validFrom": "2026-09-10",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "kfc_sunday",
+      "name": "肯德基線上訂餐週日 5%",
+      "matchToken": "肯德基",
+      "sourceLineHint": 59,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2584",
+      "validFrom": "2026-11-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "pizza_hut_sunday",
+      "name": "必勝客線上點餐週日 5%",
+      "matchToken": "必勝客",
+      "sourceLineHint": 66,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2584",
+      "validFrom": "2026-11-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "ikari",
+      "name": "ikari 怡客滿 200 元 10%",
+      "matchToken": "ikari",
+      "sourceLineHint": 74,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2515",
+      "validFrom": "2026-10-12",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "taia_fuel",
+      "name": "台亞加油站人工島 2.5%",
+      "matchToken": "台亞",
+      "sourceLineHint": 82,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2527",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "starbucks",
+      "name": "星巴克週一四 5%",
+      "matchToken": "星巴克",
+      "sourceLineHint": 91,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2340",
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "cosmed_monday",
+      "name": "康是美實體門市週一 5%",
+      "matchToken": "康是美",
+      "sourceLineHint": 99,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2356",
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "cosmed_11_22",
+      "name": "康是美每月 11／22 日滿額贈 100 點",
+      "matchToken": "康是美",
+      "sourceLineHint": 106,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2354",
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "foodomo",
+      "name": "foodomo 週二滿 500 元 5%",
+      "matchToken": "foodomo",
+      "sourceLineHint": 114,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2323",
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "dream_plaza",
+      "name": "統一時代百貨／DREAM PLAZA 週二滿額贈點",
+      "matchToken": "DREAM PLAZA",
+      "sourceLineHint": 122,
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "channel": "PARTNER"
+    },
+    {
+      "id": "saint_cosmed",
+      "name": "聖德科斯週三六滿 500 元 5%",
+      "matchToken": "聖德科斯",
+      "sourceLineHint": 131,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2303",
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "plus21_points",
+      "name": "21Plus 週五至週日滿 150 元 5%",
+      "matchToken": "21Plus",
+      "sourceLineHint": 138,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2321",
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "simple_mart",
+      "name": "美廉社週日滿 250 元 5%",
+      "matchToken": "美廉社",
+      "sourceLineHint": 146,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2299",
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "global_mall",
+      "name": "環球購物中心週日滿 666 元 5%",
+      "matchToken": "環球購物中心",
+      "sourceLineHint": 154,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2298",
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "miramar",
+      "name": "美麗華百樂園週日滿 1,000 元 5%",
+      "matchToken": "美麗華",
+      "sourceLineHint": 162,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2324",
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "auto_reload",
+      "name": "uniopen 聯名卡 icash2.0 自動加值 10%",
+      "matchToken": "自動加值",
+      "sourceLineHint": 170,
+      "detailUrl": "https://www.icash.com.tw/Home/NewsDetail/?ID=12880",
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "ICASH_CARD"
+    },
+    {
+      "id": "etmall",
+      "name": "東森購物滿 1,000 元 5%",
+      "matchToken": "東森",
+      "sourceLineHint": 179,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2579",
+      "validFrom": "2026-11-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "transit_points",
+      "name": "乘車碼點數折抵享 30%",
+      "matchToken": "乘車碼",
+      "sourceLineHint": 187,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2544",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "metro_icash",
+      "name": "uniopen 聯名卡 icash2.0 北捷 7%",
+      "matchToken": "北捷",
+      "sourceLineHint": 194,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2407",
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "ICASH_CARD"
+    },
+    {
+      "id": "twqr",
+      "name": "全台 TWQR 跨店累積贈點",
+      "matchToken": "TWQR",
+      "sourceLineHint": 202,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2582",
+      "validFrom": "2026-11-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "five_hundred_bowls",
+      "name": "500 碗／500 甜週五至週日 5%",
+      "matchToken": "500碗",
+      "sourceLineHint": 210,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2543",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "mobile_tea_ice",
+      "name": "行動隨時取冰淇淋紅茶買 2 送 2",
+      "matchToken": "冰淇淋紅茶",
+      "sourceLineHint": 217,
+      "validFrom": "2026-11-03",
+      "validUntil": "2026-11-24",
+      "channel": "PARTNER"
+    },
+    {
+      "id": "mobile_tea_pearl",
+      "name": "行動隨時取珍珠奶茶 2 杯 88 元",
+      "matchToken": "珍珠奶茶",
+      "sourceLineHint": 226,
+      "validFrom": "2026-11-03",
+      "validUntil": "2026-11-24",
+      "channel": "PARTNER"
+    },
+    {
+      "id": "ipreorder",
+      "name": "i 預購／i 划算滿 1,500 元贈 60 點",
+      "matchToken": "i預購",
+      "sourceLineHint": 235,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2529",
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "plus21_meal",
+      "name": "21Plus 雞腿綠茶 99 元",
+      "matchToken": "21Plus",
+      "sourceLineHint": 244,
+      "detailUrl": "https://www.icash.com.tw/Home/NewsDetail/?ID=12697",
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "channel": "ICASH_CARD"
+    },
+    {
+      "id": "seven_eleven_banks",
+      "name": "7-ELEVEN 指定銀行滿 150 元 10%",
+      "matchToken": "7-ELEVEN",
+      "sourceLineHint": 251,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2373",
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "lifestyle_11",
+      "name": "指定享鑽生活通路累積滿 5,000 元 11%",
+      "matchToken": "享鑽生活",
+      "sourceLineHint": 260,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2375",
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "PAYMENT"
+    },
+    {
+      "id": "post_office_draw",
+      "name": "郵局帳戶滿 350 元登錄抽 800 點",
+      "matchToken": "愛Pay郵好運",
+      "sourceLineHint": 267,
+      "detailUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2560",
+      "validFrom": "2026-11-01",
+      "validUntil": "2026-11-30",
+      "channel": "PAYMENT"
+    }
+  ]
+}

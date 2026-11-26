@@ -1,0 +1,2436 @@
+{
+  "attributed": 486,
+  "note": "Bank identified by official source host only; card eligibility and offer terms remain unverified.",
+  "changes": [
+    {
+      "id": "rule_apple_pay_draw",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_monthly_super_pay",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_mrt_apple_pay",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "entie_rule_1",
+      "bank": "安泰銀行",
+      "sourceHost": "www.entiebank.com.tw"
+    },
+    {
+      "id": "rule-carbon-taifong",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_babymonster_concert_draw",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "sinopac_apple_pay_mrt_2026",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_insurance_rebate_2026",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_mop_point",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "tuition_2026",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "tax_02percent_2026",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "fuel_app_10pct_2026",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "utility_first_2026",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "utility_summer_2026",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_hsr_spend_free",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_hsr_self_pay",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_parking_wealth_infinite",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_parking_world",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_parking_usa_infinite",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_parking_usa_cobrand",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_travel_2026Q3",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_overseas_physical_2026Q3",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_birthday_overseas_dining_2026Q3",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_2026_09_online_shopping",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_pay_2026q3",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_wangpin_2026q3",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_coupang",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "rule_mastercard_tokyo",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "rule_taipei101",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "rule_cosmed",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "esun_ns_01",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_ebill_convenience_store",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_TESLA",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_default_rule",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_TAISU_01",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_TAISU_02",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_WORLD_CARD_RELAX",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_world_infinite_insurance",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_nanshan_insurance",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_digital_insurance",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_ezfly_01",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_overseas_01",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_naticard_01",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_japan_visa_01",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_fukuoka_airport_01",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_GOMAJI_01",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_GOMAJI_02",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_GOMAJI_03",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_diamond_01",
+      "bank": "滙豐銀行",
+      "sourceHost": "www.hsbc.com.tw"
+    },
+    {
+      "id": "rule_traveler_sig_01",
+      "bank": "滙豐銀行",
+      "sourceHost": "www.hsbc.com.tw"
+    },
+    {
+      "id": "rule_live_plus_01",
+      "bank": "滙豐銀行",
+      "sourceHost": "www.hsbc.com.tw"
+    },
+    {
+      "id": "rule_traveler_lite_01",
+      "bank": "滙豐銀行",
+      "sourceHost": "www.hsbc.com.tw"
+    },
+    {
+      "id": "rule_premier_01",
+      "bank": "滙豐銀行",
+      "sourceHost": "www.hsbc.com.tw"
+    },
+    {
+      "id": "rule_cash_back_01",
+      "bank": "滙豐銀行",
+      "sourceHost": "www.hsbc.com.tw"
+    },
+    {
+      "id": "hsbc_titanium_base",
+      "bank": "滙豐銀行",
+      "sourceHost": "www.hsbc.com.tw"
+    },
+    {
+      "id": "hsbc_rule_001",
+      "bank": "滙豐銀行",
+      "sourceHost": "www.hsbc.com.tw"
+    },
+    {
+      "id": "rule_line_bank_base",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "rule_line_bank_autopay",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "rule_cash_rebate_base",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "sc_rule_1",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "sc_instant_notify",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "rule_time_deposit_01",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "rule_wealth_saving_3pct",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "ubot_rule_001",
+      "bank": "聯邦銀行",
+      "sourceHost": "www.ubot.com.tw"
+    },
+    {
+      "id": "hncb_default_rule",
+      "bank": "華南銀行",
+      "sourceHost": "www.hncb.com.tw"
+    },
+    {
+      "id": "fbbank_default_rule",
+      "bank": "第一銀行",
+      "sourceHost": "card.firstbank.com.tw"
+    },
+    {
+      "id": "rule_megabtn21_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megaone_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megainfinite_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megaworld_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megaesecard_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megalido_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megafuture_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megaeseehappy_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megalion_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megadual_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_01",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_02",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_03",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_04",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_05",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_06",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_07",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_08",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_09",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "parking_travel_plus",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "parking_mefu",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "parking_others",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_infinite_airport",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_world_airport",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "mega_one_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "esec_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "esec_master_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_travel_insurance_infinite",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_travel_insurance_commercial",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_travel_insurance_mid",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_travel_insurance_basic",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_inconvenience_insurance",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "megavisa_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "megavisa_birthday",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "megavisa_bt21",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "RULE_CITYLINK_TPAY",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "RULE_ANNIVERSARY",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "RULE_LIDUO_10PAY",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "RULE_EVERRICH",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "RULE_FOCUS_TPAY",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "RULE_BIRTHDAY",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "RULE_MEIFU",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "RULE_JCB_CHATRAMUE",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_twpay_studioa",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_twpay_citylink",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megaone_bt21_choice",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_twpay_focus",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_twpay_bind",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_apple_pay",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_google_pay",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_samsung_pay",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_garmin_pay",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_taiwan_pay",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "RULE_AIRPORT_TRANSFER",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "RULE_INSURANCE",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "RULE_LOUNGE",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "RULE_ROAD_RESCUE",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "RULE_PARKING_OUTER",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "RULE_PARKING_CITY",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "RULE_THSR_UPGRADE",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_apple_pay_mrt",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_icash_pay_11",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_travel_agency_5000",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_travel_channel_2000",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_kkday_discount",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_trip_discount",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_eztravel_discount",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_visa_corp_infinite_overseas",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_master_corp_titanium_domestic",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_master_corp_titanium_overseas",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_dual_currency_bonus",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megabank_001",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megabank_002",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megabank_003",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megabank_004",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megabank_005",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megabank_006",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megabank_007",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megabank_008",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megabank_009",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_meifu_rebate",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_loan_001",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_taiwanpay_1",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_parking_diamond_infinite",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_parking_infinite",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_parking_hanlai_world",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_parking_business",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_parking_general_tier",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_high_domestic",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_high_japan",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_kanahei_promo",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_ishare_visa_channels",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_loha_9",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_enjoy_5",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_kanahei_11",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_thsr_02",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_thsr_03",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_mobile_pay_rule",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_airport_parking",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_airport_pickup_3",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_airport_pickup_full_3",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_tcb_jayco",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_tcb_studio_a",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_tcb_citylink",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_tcb_hanshin",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_tcb_墊腳石",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_tcb_digital_festival",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_tcb_twqr",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_tcb_nice",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_tcb_east_pet",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_rule_01",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "TCB_2026_07",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_insurance_world",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "scsb_default_rule",
+      "bank": "上海商銀",
+      "sourceHost": "www.scsb.com.tw"
+    },
+    {
+      "id": "feib_rule_01",
+      "bank": "遠東商銀",
+      "sourceHost": "www.feib.com.tw"
+    },
+    {
+      "id": "feib_loan_draw_2026",
+      "bank": "遠東商銀",
+      "sourceHost": "www.feib.com.tw"
+    },
+    {
+      "id": "feib_loan_rule_01",
+      "bank": "遠東商銀",
+      "sourceHost": "www.feib.com.tw"
+    },
+    {
+      "id": "FEIB_GENERAL_RULE",
+      "bank": "遠東商銀",
+      "sourceHost": "www.feib.com.tw"
+    },
+    {
+      "id": "rule_repaired_7a053f2d8c721ea3ba64",
+      "bank": "遠東商銀",
+      "sourceHost": "www.feib.com.tw"
+    },
+    {
+      "id": "rule_repaired_85b9a33c4f47932b5233",
+      "bank": "遠東商銀",
+      "sourceHost": "www.feib.com.tw"
+    },
+    {
+      "id": "rule_repaired_228af69a45e22e22eac8",
+      "bank": "遠東商銀",
+      "sourceHost": "www.feib.com.tw"
+    },
+    {
+      "id": "rule_repaired_5d0d92ab42999323b8fa",
+      "bank": "遠東商銀",
+      "sourceHost": "www.feib.com.tw"
+    },
+    {
+      "id": "rule_repaired_e1506c7b6dd20f58c2bb",
+      "bank": "遠東商銀",
+      "sourceHost": "www.feib.com.tw"
+    },
+    {
+      "id": "rule_repaired_718f01d3c53ab4ed5889",
+      "bank": "遠東商銀",
+      "sourceHost": "www.feib.com.tw"
+    },
+    {
+      "id": "rule_repaired_b2d67264f8e6455827fa",
+      "bank": "遠東商銀",
+      "sourceHost": "www.feib.com.tw"
+    },
+    {
+      "id": "rule_repaired_7b865532b21a696650bf",
+      "bank": "遠東商銀",
+      "sourceHost": "www.feib.com.tw"
+    },
+    {
+      "id": "rule_10",
+      "bank": "遠東商銀",
+      "sourceHost": "www.feib.com.tw"
+    },
+    {
+      "id": "rule_11",
+      "bank": "遠東商銀",
+      "sourceHost": "www.feib.com.tw"
+    },
+    {
+      "id": "rule_12",
+      "bank": "遠東商銀",
+      "sourceHost": "www.feib.com.tw"
+    },
+    {
+      "id": "rule_13",
+      "bank": "遠東商銀",
+      "sourceHost": "www.feib.com.tw"
+    },
+    {
+      "id": "rule_14",
+      "bank": "遠東商銀",
+      "sourceHost": "www.feib.com.tw"
+    },
+    {
+      "id": "sc_lost_card_service",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "sc_bill_installment",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "sc_icashpay_711",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "sc_rule_icashpay_711",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "rule_online_pay",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "sc_rule_01",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "sc_rule_mileage",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "sc_rule_cashback",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "sc_rule_store_discount",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "sc_pi_overseas",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "sc_pi_dining_discount",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "sc_pi_airport_transfer",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "sc_lb_base_domestic",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "sc_lb_base_foreign",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "sc_lb_auto_deduct_boost",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "sc_beyond_base_all",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "sc_beyond_welcome_gift",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "SC_CASH_001",
+      "bank": "渣打銀行",
+      "sourceHost": "www.sc.com"
+    },
+    {
+      "id": "rule_infinite_diamond_overseas",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_thsr_01",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_lohas_01",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_enjoy_01",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_kanahei_01",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_general_benefit",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_tcb_charity_2026",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "TCB_2026_01",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "TCB_2026_03",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "TCB_2026_04",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "TCB_2026_05",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "TCB_2026_06",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_pp_lounge_infinite_diamond",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_pp_lounge_infinite_world",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_pp_lounge_titanium_up",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_enjoy_1",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "rule_kanahei_1",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_rule_lohas_base",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_rule_enjoy_base",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_rule_kanahei_base",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_rule_download",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_rule_faq",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_tax_world",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "tcb_tax_general",
+      "bank": "合作金庫",
+      "sourceHost": "www.tcb-bank.com.tw"
+    },
+    {
+      "id": "costco_card_base",
+      "bank": "台北富邦",
+      "sourceHost": "www.fubon.com"
+    },
+    {
+      "id": "rule_j_card_base",
+      "bank": "台北富邦",
+      "sourceHost": "www.fubon.com"
+    },
+    {
+      "id": "rule_repaired_06571fd061282b218bd1",
+      "bank": "台北富邦",
+      "sourceHost": "www.fubon.com"
+    },
+    {
+      "id": "rule_repaired_6cbb800245a464abfbf2",
+      "bank": "台北富邦",
+      "sourceHost": "www.fubon.com"
+    },
+    {
+      "id": "rule_repaired_86fcaa97511ada4d90ca",
+      "bank": "台北富邦",
+      "sourceHost": "www.fubon.com"
+    },
+    {
+      "id": "rule_open_possible",
+      "bank": "台北富邦",
+      "sourceHost": "www.fubon.com"
+    },
+    {
+      "id": "rule_traveler_inf_01",
+      "bank": "滙豐銀行",
+      "sourceHost": "www.hsbc.com.tw"
+    },
+    {
+      "id": "rule_line_bind_01",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "rule_autumn_trip",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "rule_gardencity",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "rule_goyard",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "RULE_AMGM_01",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "RULE_SHOPEE_01",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "RULE_EVA_01",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "RULE_CUBE_01",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "RULE_CASH_01",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "RULE_BIZ_01",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "RULE_DUAL_01",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "CATHAY_CUBE_NOT_FOUND",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "rule_pchome_iphone",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "rule_korean_air",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "rule_repaired_ad37075c11b4df44a2a8",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "cathay_cube_error",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "rule_not_found",
+      "bank": "國泰世華",
+      "sourceHost": "www.cathaybk.com.tw"
+    },
+    {
+      "id": "RULE_JCB_HOTEL",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_002",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_003",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_004",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_TRIP_ALL_FLIGHT",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_TRIP_ALL_HOTEL",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_c2bdbd34c537d1c20ff8",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_e681b28786e87a62d9bf",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_TRIP_CAR_RENTAL",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_TRIP_VISA_ENDMONTH",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_ez_01",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_ez_02",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_ez_03",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_ez_04",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_ez_05",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_ez_06",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_allpay",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_dac2f7701dc6121ccdd6",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_insurance",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_easycard_pay",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_carbon",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_wallet_reg",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_gomaji",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_dept_nice",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_dept_fuhua",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_dept_guangsan",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_dept_fubon",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_dept_sogo",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_dept_hanshin",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_dept_everrich",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_dept_taipei101",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_CPC_GAS",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_GAS_DISCOUNT",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_THSR",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_GOGORO",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_VOLVO",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_HONDA",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "ESUN_FOOD_001",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "ESUN_FOOD_002",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "ESUN_FOOD_003",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "ESUN_FOOD_004",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "ESUN_FOOD_005",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "ESUN_FOOD_006",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "ESUN_FOOD_007",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_concert_philharmonic",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_theater_father_mother",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_ntch",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_vienna_boys_choir",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_tpac",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_EASYCARD_EDU_01",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_AUTO_DEBIT_5PCT",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_CARBON_LOTTERY",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_coupang_01",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_gomaji_02",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_momo_03",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_pchome_04",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "ESUN_GENERAL_SERVICE",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_trip_jcb_visa",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_908cd91c04e058f4e464",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_allpay_tax",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_a1dbe5dc9972f5a66a00",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_4264a1c4b0370de17e1f",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "esun_ebill_convenience_store_pay",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_UNICARD_GAS",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "dual_currency_eur_us",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "unicard_wallet",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_c650fbb114820452f213",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_5d6de5c0f5df3567633f",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule-starlux-ticket",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "unicard_top100_rewards",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_bd12b6b73fc1e18022f8",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_1854a7765233d82699f3",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "ubear_sub",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_f137b42c3b2e794db4fe",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_001",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_TRIP_UNI_FLIGHT",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_unicard_linepay",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_unicard_top100",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_fukuoka_unicard",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_unicard_jp_kr",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_kumamon_jp",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_starlux_jp",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_ubear_jp_booking",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_kumamon",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_aeff813a603cd3ac5a44",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_unicard_xiaobei",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_UPROWER",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_FP_PAY",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_UNICARD_NEW_01",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_unicard_apple_iphone",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_card_tsankum",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_card_taiwan_mobile",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_card_syntrend",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_card_全国電子",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_card_studio_a",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_card_esim4travel",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_card_senao",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_TAISU_03",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_TAISU_04",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_2026_SUMMER_TRAVEL_01",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_2026_SUMMER_TRAVEL_02",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_INFINITE_CARD_AIR",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_NS_CARD_TRAVEL",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_UNICARD_UNIQLO",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_WATSONS_WED",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_COSMED_FRI",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_SCENTS_HERB",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_LAC_HEALTH",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_ORBIS",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_UNICARD_MARCH",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_CITY_SPACE",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "RULE_POYA",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_unicard_insurance",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_pi_insurance",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_hakata_hankyu_01",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_daimaru_fukuoka_01",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_klook_unicard_01",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "unicard_new_user",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_85b0a14284179453ff35",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "pi_card_benefit",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "dual_currency_benefit",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_tuition_world",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_unicard_petrol",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_unicard_wallet",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_64d66d28baacb4521ca2",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_cd46407b29ed36596ebd",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_e7c0a4f27447127a81ae",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_7b65d203529896615c58",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_repaired_0b77fa7e80df6439aa0e",
+      "bank": "玉山銀行",
+      "sourceHost": "www.esunbank.com"
+    },
+    {
+      "id": "rule_el_3c_2026",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "sinopac_random_installment_01",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_dept_installment_2026",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_dept_installment_2026_2",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_el_2026",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_furniture_2026",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_pxmart_2026",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_green_2026",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_auto_pay_2026",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_general_01",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "sinopac_marketing_draw_2026",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_repaired_89ae9efe22471b96a4f4",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_dept_installment_bonus_2026",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_ohotel",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_caesar_metro",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_npac",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_jingying",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_baseball_01",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_install_01",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_install_02",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_install_03",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_install_04",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_install_05",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_install_06",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_install_07",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_install_08",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "DAWHO_RULE",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "GREEN_RULE",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "DAWAY_RULE",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule-bao-01",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule-daway-01",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule-carbon-currency",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule-carbon-baobei",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_sport_point",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_hsr_vip_free",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_parking_world_vl",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "rule_parking_rich_world",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "golf_privilege_evergreen",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "golf_privilege_rich",
+      "bank": "永豐銀行",
+      "sourceHost": "bank.sinopac.com"
+    },
+    {
+      "id": "parking_infinite_world",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "bt21_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "mega_one_ipass_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "infinite_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_repaired_bf2faf8053d59d38414c",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "liduo_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "esec_ipass_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_lido_10_pay",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_anniversary",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_phone",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_repaired_eaa44616db1841425819",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_lido_world",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_lido_foreign",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_samsung",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_repaired_01e2a11981845d0456d5",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_everrich",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "loungeinfinite",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "loungeworld",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_theater_01",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_theater_02",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_theater_03",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_theater_04",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_theater_05",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_theater_06",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_theater_07",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_theater_08",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_theater_09",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "RULE_MEGA_GENERAL_01",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_megaone_overseas",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "bibi_pay_2026",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_airport_parking_2",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_airport_parking_3",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_world_foreign",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_711_icash",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_weitian_discount",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_opay_rebate",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_zhongxing_discount",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_visa_debit_points",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_repaired_3670daf9993d7d4cfd69",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_taiwan_pay_studio_a",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_repaired_40ab27c17235475577e1",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_repaired_3f12414da9dbf022271c",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_repaired_bca39d615efff96cdfb0",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_repaired_e77fb71da84f61f93031",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "esec_card_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "esec_mastercard_base",
+      "bank": "兆豐銀行",
+      "sourceHost": "www.megabank.com.tw"
+    },
+    {
+      "id": "rule_ipass_transit",
+      "bank": "中國信託",
+      "sourceHost": "www.ctbcbank.com"
+    },
+    {
+      "id": "rule_repaired_7ebc83efb4827b644354",
+      "bank": "中國信託",
+      "sourceHost": "www.ctbcbank.com"
+    },
+    {
+      "id": "rule_travel",
+      "bank": "中國信託",
+      "sourceHost": "www.ctbcbank.com"
+    },
+    {
+      "id": "ctbc_lp_carplus",
+      "bank": "中國信託",
+      "sourceHost": "www.ctbcbank.com"
+    },
+    {
+      "id": "rule_general_dom",
+      "bank": "中國信託",
+      "sourceHost": "www.ctbcbank.com"
+    },
+    {
+      "id": "rule_repaired_f66c0b62fda271b17663",
+      "bank": "中國信託",
+      "sourceHost": "www.ctbcbank.com"
+    },
+    {
+      "id": "rule_repaired_3485d52d661a15b0cada",
+      "bank": "中國信託",
+      "sourceHost": "www.ctbcbank.com"
+    },
+    {
+      "id": "rule_repaired_4615ed980ea0ef2c4df5",
+      "bank": "中國信託",
+      "sourceHost": "www.ctbcbank.com"
+    },
+    {
+      "id": "rule_travel_abroad",
+      "bank": "中國信託",
+      "sourceHost": "www.ctbcbank.com"
+    }
+  ]
+}

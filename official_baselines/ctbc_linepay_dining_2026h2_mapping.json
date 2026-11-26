@@ -1,0 +1,11 @@
+{
+  "baselineId": "ctbc_linepay_dining_2026h2",
+  "mappings": [
+    {"offerId":"uber_eats","ruleId":"rule_141a6550938b29d8ba13"},
+    {"offerId":"starbucks","ruleId":"rule_77b16b4262cd2c2704ad"},
+    {"offerId":"sushiro","ruleId":"rule_26ab533bf77c05b5133c"},
+    {"offerId":"komeda","ruleId":"rule_1e1328f849591e9e8f10"},
+    {"offerId":"mos_burger","ruleId":"rule_e74497743e60187f7f2a"},
+    {"offerId":"kura_sushi","ruleId":"rule_a7fcac04b54ea87a2f43"}
+  ]
+}

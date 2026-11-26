@@ -1,0 +1,20 @@
+{
+  "baselineId":"ctbc_overseas_2026q4_partial",
+  "scope":"中信LINE Pay信用卡國外實體店2026 Q4登錄活動已明確的結構欄位；登錄截止窗口、歐洲排除國家及即時剩餘名額未核實",
+  "observedAt":"2026-11-03",
+  "sourceUrl":"https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_travel.html",
+  "offers":[{"id":"overseas_store_bonus","conditions":"須登錄、限信用卡國外實體面對面交易，每週二00:00開放3000名，加碼總限量20000名；部分國家排除待查",
+    "fields":{
+      "cardId":{"value":"card_中國信託_51","sourceLineHint":290},
+      "baseRate":{"value":2.8,"sourceLineHint":292},
+      "promoRate":{"value":2.2,"sourceLineHint":294},
+      "rewardType":{"value":"points","sourceLineHint":292},
+      "rewardUnit":{"value":"percent","sourceLineHint":292},
+      "rewardAmount":{"value":null,"sourceLineHint":294},
+      "capAmount":{"value":450,"sourceLineHint":294},
+      "capPeriod":{"value":"CAMPAIGN","sourceLineHint":294},
+      "needReg":{"value":true,"sourceLineHint":291},
+      "validFrom":{"value":"2026-10-01","sourceLineHint":291},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":291}
+    }}]
+}

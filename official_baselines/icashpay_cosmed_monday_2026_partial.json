@@ -1,0 +1,21 @@
+{
+  "baselineId":"icashpay_cosmed_monday_2026_partial",
+  "scope":"icash Pay 康是美 2026 年週一 5% OPENPOINT 的公開結構欄位；每月總點數池、個人資格及部分門市排除無法即時驗證",
+  "observedAt":"2026-11-05",
+  "sourceUrl":"https://www.icashpay.com.tw/advertMessage/view/id/2356",
+  "offers":[{"id":"cosmed_monday","fields":{
+    "validFrom":{"value":"2026-07-01","sourceLineHint":"L8"},
+    "validUntil":{"value":"2026-12-31","sourceLineHint":"L8"},
+    "eligibleWeekdays":{"value":[1],"sourceLineHint":"L8 and L12: 每週一"},
+    "promoRate":{"value":5,"sourceLineHint":"L12"},
+    "rewardType":{"value":"points","sourceLineHint":"L12: OPENPOINT"},
+    "rewardUnit":{"value":"percent","sourceLineHint":"L12: 交易金額 5%"},
+    "rewardAmount":{"value":null,"sourceLineHint":"L12: 200 點為每月上限，不是每筆固定獎勵"},
+    "capAmount":{"value":200,"sourceLineHint":"L12: 每戶每月"},
+    "capPeriod":{"value":"MONTHLY","sourceLineHint":"L12"},
+    "campaignCapAmount":{"value":500000,"sourceLineHint":"L12: 每月總回饋"},
+    "minimumSpend":{"value":0,"sourceLineHint":"L12: 不限金額"},
+    "fundingMethods":{"value":["icash Pay 帳戶付款","直接連結銀行帳戶付款","綁定信用卡付款"],"sourceLineHint":"L26"},
+    "needReg":{"value":false,"sourceLineHint":"L21 only describes icash Pay account registration; no separate campaign registration"}
+  }}]
+}

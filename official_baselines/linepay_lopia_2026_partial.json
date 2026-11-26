@@ -1,0 +1,16 @@
+{
+  "baselineId":"linepay_lopia_2026_partial",
+  "scope":"LINE Pay LOPIA 2026/10/1–12/31 週三、四實體門市方案公開欄位；完整商品排除、即時條件與個人付款資格未核",
+  "observedAt":"2026-11-05",
+  "sourceUrl":"https://web-tw-pay.line.me/cms/event/template1.3/4d2df854-31ea-4240-8d7c-11d607d7f719",
+  "offers":[{"id":"lopia_wed_thu","fields":{
+    "validFrom":{"value":"2026-10-01","sourceLineHint":"L12-L16: GMT+00 9/30 16:00 is Taipei 10/1 00:00"},
+    "validUntil":{"value":"2026-12-31","sourceLineHint":"L12-L16: GMT+00 12/31 15:59 is Taipei 12/31 23:59"},
+    "eligibleWeekdays":{"value":[3,4],"sourceLineHint":"L16 and L31-L32: 每週三四"},
+    "minimumSpend":{"value":700,"sourceLineHint":"L31-L32"},
+    "promoRate":{"value":6,"sourceLineHint":"L31-L32"},
+    "rewardType":{"value":"points","sourceLineHint":"L31-L32: LINE POINTS"},
+    "rewardUnit":{"value":"percent","sourceLineHint":"L31-L32: 6%"},
+    "needReg":{"value":false,"sourceLineHint":"L31-L32: 須註冊 LINE Pay 帳戶；未見活動登錄要求"}
+  }}]
+}

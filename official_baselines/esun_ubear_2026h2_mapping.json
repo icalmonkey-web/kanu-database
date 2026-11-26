@@ -1,0 +1,9 @@
+{
+  "baselineId": "esun_ubear_core_2026h2",
+  "mappings": [
+    {"offerId": "general_one_task", "ruleId": "review_ubear_general_202609", "tierIndex": 0},
+    {"offerId": "general_both_tasks", "ruleId": "review_ubear_general_202609", "tierIndex": 1},
+    {"offerId": "online_both_tasks", "ruleId": "review_ubear_online_202609", "tierIndex": 1},
+    {"offerId": "digital_subscription", "ruleId": "review_ubear_subscription_202609"}
+  ]
+}

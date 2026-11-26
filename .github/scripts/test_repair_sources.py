@@ -15,13 +15,26 @@ class SourceRepairTests(unittest.TestCase):
             "rules": [
                 {"id": "known", "cardId": "c1", "title": "指定消費最高5%回饋",
                  "sourceUrl": "https://bank.test/promo"},
-                {"id": "missing", "cardId": "c1", "title": "指定消費最高3%回饋",
+                {"id": "missing", "cardId": "c1", "title": "指定消費最高5%回饋",
                  "sourceUrl": ""},
             ],
         }
         issuers = {"測試銀行": {"allowedHosts": ["bank.test"]}}
         self.assertEqual(copy_equivalent_sources(data, issuers), 1)
         self.assertEqual(data["rules"][1]["sourceUrl"], "https://bank.test/promo")
+
+    def test_similar_headline_does_not_copy_different_terms(self):
+        data = {"cards": [{"id": "c1", "bank": "測試銀行"}], "rules": [
+            {"cardId": "c1", "title": "指定消費最高5%回饋", "sourceUrl": "https://bank.test/a"},
+            {"cardId": "c1", "title": "指定消費最高3%回饋", "sourceUrl": ""}]}
+        self.assertEqual(copy_equivalent_sources(data, {"測試銀行": {"allowedHosts": ["bank.test"]}}), 0)
+
+    def test_same_title_different_card_or_period_does_not_copy(self):
+        data = {"cards": [{"id": "c1", "bank": "測試銀行"}, {"id": "c2", "bank": "測試銀行"}],
+                "rules": [{"cardId": "c1", "title": "週年慶最高5%", "validUntil": "2026-09-30", "sourceUrl": "https://bank.test/old"},
+                          {"cardId": "c2", "title": "週年慶最高5%", "validUntil": "2026-09-30", "sourceUrl": ""},
+                          {"cardId": "c1", "title": "週年慶最高5%", "validUntil": "2026-11-30", "sourceUrl": ""}]}
+        self.assertEqual(copy_equivalent_sources(data, {"測試銀行": {"allowedHosts": ["bank.test"]}}), 0)
 
     def test_repair_clears_stale_missing_source_markers(self):
         rule = {

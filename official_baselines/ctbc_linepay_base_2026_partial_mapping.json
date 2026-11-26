@@ -1,0 +1,7 @@
+{
+  "baselineId": "ctbc_linepay_base_2026_partial",
+  "mappings": [
+    {"offerId": "general_1pct", "ruleId": "rule_0f8c8cd7c63feebcc3e1"},
+    {"offerId": "overseas_physical_credit_2_8pct", "ruleId": "rule_02d342bf71118f6a54cd"}
+  ]
+}

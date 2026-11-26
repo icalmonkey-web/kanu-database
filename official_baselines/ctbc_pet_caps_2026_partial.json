@@ -1,0 +1,58 @@
+{
+  "baselineId": "ctbc_pet_caps_2026_partial",
+  "scope": "中國信託 LINE Pay 卡脆萌寵頁五項點數比例活動；核對公開門檻與上限，未核即時點數池及個人資格",
+  "observedAt": "2026-11-07",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_pet.html",
+  "offers": [
+    {"id":"fish","fields":{
+      "validFrom":{"value":"2026-01-01","sourceLineHint":"L30"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L30"},
+      "baseRate":{"value":1,"sourceLineHint":"L128"},
+      "promoRate":{"value":3,"sourceLineHint":"L128: 4% including 1% base"},
+      "minimumSpend":{"value":1500,"sourceLineHint":"L128"},
+      "capAmount":{"value":150,"sourceLineHint":"L128"},
+      "capPeriod":{"value":"MONTHLY","sourceLineHint":"L128"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L128: 150 points is a monthly cap"}
+    }},
+    {"id":"gooddog","fields":{
+      "validFrom":{"value":"2026-01-01","sourceLineHint":"L36"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L36"},
+      "baseRate":{"value":1,"sourceLineHint":"L138"},
+      "promoRate":{"value":4,"sourceLineHint":"L138: 5% including 1% base"},
+      "minimumSpend":{"value":1800,"sourceLineHint":"L138"},
+      "capAmount":{"value":180,"sourceLineHint":"L138"},
+      "capPeriod":{"value":"MONTHLY","sourceLineHint":"L138"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L138: 180 points is a monthly cap"}
+    }},
+    {"id":"wonderpet","fields":{
+      "validFrom":{"value":"2026-06-01","sourceLineHint":"L54"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L54"},
+      "baseRate":{"value":1,"sourceLineHint":"L172"},
+      "promoRate":{"value":7,"sourceLineHint":"L172"},
+      "minimumSpend":{"value":2000,"sourceLineHint":"L171"},
+      "capAmount":{"value":140,"sourceLineHint":"L173"},
+      "capPeriod":{"value":"CAMPAIGN","sourceLineHint":"L173: per account during the campaign"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L173: 140 points is a cap"}
+    }},
+    {"id":"petstimes","fields":{
+      "validFrom":{"value":"2026-06-01","sourceLineHint":"L62"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L62"},
+      "baseRate":{"value":1,"sourceLineHint":"L204"},
+      "promoRate":{"value":7,"sourceLineHint":"L204"},
+      "minimumSpend":{"value":2700,"sourceLineHint":"L203"},
+      "capAmount":{"value":360,"sourceLineHint":"L205"},
+      "capPeriod":{"value":"PER_TRANSACTION","sourceLineHint":"L205"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L205: 360 points is a per-transaction cap"}
+    }},
+    {"id":"ladynpet","fields":{
+      "validFrom":{"value":"2026-01-01","sourceLineHint":"L70"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L70"},
+      "baseRate":{"value":1,"sourceLineHint":"L236"},
+      "promoRate":{"value":4,"sourceLineHint":"L236"},
+      "minimumSpend":{"value":300,"sourceLineHint":"L235"},
+      "capAmount":{"value":30,"sourceLineHint":"L237"},
+      "capPeriod":{"value":"PER_TRANSACTION","sourceLineHint":"L237"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L237: 30 points is a per-transaction cap"}
+    }}
+  ]
+}

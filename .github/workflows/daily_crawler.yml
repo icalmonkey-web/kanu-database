@@ -94,13 +94,29 @@ jobs:
             python .github/scripts/fast_update.py
           fi
 
+      - name: 以明確證據修復來源與卡片關聯
+        env:
+          SOURCE_REPAIR_TIMEOUT_SECONDS: '8'
+          SOURCE_REPAIR_MAX_PAGES_PER_BANK: '15'
+        run: |
+          python .github/scripts/repair_sources.py
+          python .github/scripts/reconcile_evidenced_links.py
+          python .github/scripts/repair_bank_attribution.py
+
+      - name: 分批核對官方頁面是否含有活動標題
+        env:
+          SOURCE_TITLE_SCAN_LIMIT: '80'
+        run: python .github/scripts/verify_source_titles.py
+
       - name: 檢查回饋計算及全量資料品質
         run: |
-          node .github/scripts/review_ubear.cjs
-          node .github/scripts/review_unicard.cjs
-          node --test .github/scripts/test_accuracy.cjs
+          node --test .github/scripts/test_accuracy.cjs .github/scripts/test_integrity.cjs
           python .github/scripts/repair_accuracy.py
           python .github/scripts/audit_accuracy.py
+          python .github/scripts/build_field_evidence_queue.py
+          python .github/scripts/evaluate_official_baseline.py
+          python .github/scripts/probe_official_catalog.py
+          python .github/scripts/evaluate_official_catalog.py
           node .github/scripts/quality_queue.cjs
 
       - name: 補齊官方卡面（已取得略過、缺圖頁每週重試）
@@ -115,7 +131,14 @@ jobs:
             crawl_report.json
             checkpoints/
             source_repair_report.json
+            card_link_repair_report.json
+            bank_attribution_report.json
+            source_title_report.json
             accuracy_report.json
+            field_evidence_queue.json
+            official_baseline_report.json
+            official_catalog_live_report.json
+            official_catalog_report.json
             quality_queue.json
             card_image_report.json
           if-no-files-found: ignore
@@ -134,6 +157,8 @@ jobs:
           print(f"- 掃描來源：{summary.get('banks', 0)}")
           print(f"- AI 呼叫：{summary.get('aiRequests', 0)}")
           print(f"- AI 待重試頁面：{summary.get('aiFailedPages', 0)}")
+          print(f"- 未完成的銀行／支付業者：{summary.get('needsReview', 0)}")
+          print(f"- 未完成頁面原因：{summary.get('pageGaps', {})}")
           print(f"- 資料是否變更：{summary.get('datasetChanged', False)}")
           PY
           fi
@@ -144,7 +169,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
           git pull --rebase --autostash origin main
-          for file in data.json crawler_state.json crawl_report.json source_repair_report.json issuer_registry.json payment_provider_registry.json accuracy_report.json quality_queue.json card_image_report.json card_image_state.json; do
+          for file in data.json crawler_state.json crawl_report.json source_repair_report.json card_link_repair_report.json bank_attribution_report.json source_title_report.json source_title_state.json issuer_registry.json payment_provider_registry.json accuracy_report.json field_evidence_queue.json official_baseline_report.json official_catalog_live_report.json official_catalog_report.json quality_queue.json card_image_report.json card_image_state.json; do
             if [ -e "$file" ]; then git add "$file"; fi
           done
           if git diff --staged --quiet; then

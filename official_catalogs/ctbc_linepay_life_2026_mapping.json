@@ -1,0 +1,185 @@
+{
+  "catalogId": "ctbc_linepay_life_2026",
+  "mappings": [
+    {
+      "offerId": "greattree",
+      "ruleId": "rule_4a815ab4479aa69a6253",
+      "status": "candidate",
+      "reason": "同一官方頁列表寫最高6%，下方活動詳情標題寫最高8%，需核對實際回饋組成"
+    },
+    {
+      "offerId": "kkbox",
+      "ruleId": "rule_12b96d96f580a52b4648",
+      "status": "matched"
+    },
+    {
+      "offerId": "netflix",
+      "ruleId": "rule_d06f4a5bdc36a2ea8e23",
+      "status": "matched"
+    },
+    {
+      "offerId": "under_armour",
+      "ruleId": "rule_04710b8837a6e3f2b94f",
+      "status": "matched"
+    },
+    {
+      "offerId": "casetify",
+      "ruleId": "review_ctbc_casetify_2026q4",
+      "status": "matched"
+    },
+    {
+      "offerId": "adidas_nov",
+      "ruleId": "review_ctbc_adidas_2026_11_pending",
+      "status": "candidate",
+      "reason": "已記錄官方日期與兩段門檻，但名額與回饋上限尚未核實，禁止試算推薦"
+    },
+    {
+      "offerId": "studio_a",
+      "ruleId": "rule_c442e0aac014708858e2",
+      "status": "matched"
+    },
+    {
+      "offerId": "dyson",
+      "ruleId": "rule_7d6f97e638c3e5042864",
+      "status": "matched"
+    },
+    {
+      "offerId": "goamazing",
+      "ruleId": "review_ctbc_goamazing_code_2026_pending",
+      "status": "candidate",
+      "reason": "官方 10/7–11/30 折扣碼與 5/1–12/31 點數方案已拆分；結帳時折扣碼可用性及卡別仍待驗證"
+    },
+    {
+      "offerId": "verve",
+      "ruleId": "pending_ctbc_linepay_life_2026_verve",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "funte",
+      "ruleId": "pending_ctbc_linepay_life_2026_funte",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "greendays",
+      "ruleId": "pending_ctbc_linepay_life_2026_greendays",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "xiaomi_shopback",
+      "ruleId": "pending_ctbc_linepay_life_2026_xiaomi_shopback",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "emma_shopback",
+      "ruleId": "pending_ctbc_linepay_life_2026_emma_shopback",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "xiaobei",
+      "ruleId": "pending_ctbc_linepay_life_2026_xiaobei",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "wanjiafu_card",
+      "ruleId": "pending_ctbc_linepay_life_2026_wanjiafu_card",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "donki",
+      "ruleId": "pending_ctbc_linepay_life_2026_donki",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "ikea_card",
+      "ruleId": "pending_ctbc_linepay_life_2026_ikea_card",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "nitori",
+      "ruleId": "pending_ctbc_linepay_life_2026_nitori",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "nike_shopback",
+      "ruleId": "pending_ctbc_linepay_life_2026_nike_shopback",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "adidas_shopback",
+      "ruleId": "pending_ctbc_linepay_life_2026_adidas_shopback",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "momentum_shopback",
+      "ruleId": "pending_ctbc_linepay_life_2026_momentum_shopback",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "ispo_shopback",
+      "ruleId": "pending_ctbc_linepay_life_2026_ispo_shopback",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "wanjiafu_linepay",
+      "ruleId": "pending_ctbc_linepay_life_2026_wanjiafu_linepay",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "ikea_linepay",
+      "ruleId": "pending_ctbc_linepay_life_2026_ikea_linepay",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "skm_coupon",
+      "ruleId": "pending_ctbc_linepay_life_2026_skm_coupon",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "outlet_coupon",
+      "ruleId": "pending_ctbc_linepay_life_2026_outlet_coupon",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "department_coupon",
+      "ruleId": "pending_ctbc_linepay_life_2026_department_coupon",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "decathlon",
+      "ruleId": "pending_ctbc_linepay_life_2026_decathlon",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "leisure_coupon",
+      "ruleId": "pending_ctbc_linepay_life_2026_leisure_coupon",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    },
+    {
+      "offerId": "daily_coupon",
+      "ruleId": "pending_ctbc_linepay_life_2026_daily_coupon",
+      "status": "candidate",
+      "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+    }
+  ]
+}

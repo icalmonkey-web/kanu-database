@@ -10,6 +10,29 @@ from fast_update import atomic_json, normalized_content, parse_html, stable_hash
 
 
 class FastPipelineTests(unittest.TestCase):
+    def test_same_title_source_and_card_do_not_collapse_distinct_rules(self):
+        shared = {'cardId':'c1','title':'同名活動','sourceUrl':'https://bank.test/list'}
+        old = {'cards':[], 'rules':[{**shared,'id':'one','rewardAmount':20},
+                                    {**shared,'id':'two','rewardAmount':40}]}
+        _, rules = fast_update.old_maps(old)
+        self.assertEqual(len(rules),2)
+        self.assertEqual({r['id'] for r in rules.values()},{'one','two'})
+        self.assertEqual({r['rewardAmount'] for r in rules.values()},{20,40})
+
+    def test_changed_source_keeps_curated_records_quarantined(self):
+        url = 'https://bank.test/list'
+        rules = {
+            'manual': {'bank':'bank','sourceUrl':url,'sourceFacts':{'sourceUrl':url},
+                       'quickSearchEligible':True},
+            'ai': {'bank':'bank','sourceUrl':url},
+            'other': {'bank':'other','sourceUrl':url},
+        }
+        self.assertEqual(fast_update.stale_unreviewed_keys(rules,'bank',url), ['ai'])
+        self.assertEqual(fast_update.invalidate_source_reviews(rules,{url}),1)
+        self.assertIn('SOURCE_CHANGED_AFTER_CURATED_SNAPSHOT',rules['manual']['validationIssues'])
+        self.assertFalse(rules['manual']['quickSearchEligible'])
+        self.assertEqual(fast_update.stale_unreviewed_keys(rules,'bank',url), ['ai'])
+
     def test_changed_official_source_revokes_review_even_if_ai_later_fails(self):
         rules = {'one': {'sourceUrl': 'https://bank.test/offer',
             'accuracyReview': {'status': 'SOURCE_CHECKED', 'checkedAt': 'original'}},
@@ -119,6 +142,32 @@ class FastPipelineTests(unittest.TestCase):
         issuer["lastSuccessfulScanAt"] = "2026-09-10T00:00:00Z"
         self.assertTrue(fast_update.issuer_scan_due(issuer, now))
 
+    def test_weekly_issuer_still_scans_offers_daily_without_resetting_catalog_clock(self):
+        from unittest.mock import patch
+        from pathlib import Path
+        import tempfile
+        registry = {'issuers': [{'name': '測試銀行', 'enabled': True, 'issuesCreditCards': True,
+            'scanFrequency': 'weekly', 'lastSuccessfulScanAt': datetime.now(timezone.utc).isoformat(),
+            'cardCatalogUrls': ['https://bank.test/cards'],
+            'offerPortalUrls': ['https://bank.test/offers'], 'registrationPortalUrls': [],
+            'allowedHosts': ['bank.test']}]}
+        payment = {'providers': [{'name': '測試支付', 'enabled': False}]}
+        with tempfile.TemporaryDirectory() as tmp:
+            issuer_path = Path(tmp) / 'issuers.json'
+            payment_path = Path(tmp) / 'payments.json'
+            issuer_path.write_text(json.dumps(registry), encoding='utf-8')
+            payment_path.write_text(json.dumps(payment), encoding='utf-8')
+            with patch.object(fast_update, 'ISSUER_FILE', issuer_path), patch.object(fast_update, 'PAYMENT_FILE', payment_path):
+                configs = fast_update.load_issuer_configs()
+        self.assertEqual(len(configs), 1)
+        self.assertEqual(configs[0]['card_urls'], [])
+        self.assertEqual(configs[0]['event_portals'], ['https://bank.test/offers'])
+        updated = fast_update.update_issuer_scan_status(registry, [{'bank': '測試銀行', 'sourceType': 'CARD',
+            'catalogScan': False, 'status': 'completed', 'completedAt': 'now', 'pages': [], 'unvisited': []}], {}, {})
+        row = updated['issuers'][0]
+        self.assertNotEqual(row['lastSuccessfulScanAt'], 'now')
+        self.assertEqual(row['lastEventScanAt'], 'now')
+
     def test_issuer_registry_has_unique_names_and_required_fields(self):
         registry = json.loads(fast_update.ISSUER_FILE.read_text(encoding="utf-8"))
         issuers = registry["issuers"]
@@ -197,6 +246,56 @@ class FastPipelineTests(unittest.TestCase):
                 self.assertEqual(next(iter(cards.values()))["cardName"], "測試卡")
                 self.assertEqual(next(iter(rules.values()))["title"], "新活動")
                 self.assertIn("https://bank.test/new", state["pages"])
+            finally:
+                fast_update.CHECKPOINT_DIR = previous
+
+    def test_checkpoint_restores_latest_without_overwriting_curated_rule(self):
+        with tempfile.TemporaryDirectory() as folder:
+            previous = fast_update.CHECKPOINT_DIR
+            fast_update.CHECKPOINT_DIR = Path(folder)
+            try:
+                common = {'bank': '測試銀行', 'cards': [], 'pages': {}}
+                for name, saved_at, rate in [
+                    ('new.json', '2026-11-05T12:00:00Z', 8),
+                    ('old.json', '2026-11-05T11:00:00Z', 7),
+                ]:
+                    atomic_json(Path(folder) / name, {**common, 'savedAt': saved_at,
+                        'rules': [{'id':'manual','bank':'測試銀行','title':'活動',
+                                   'sourceUrl':'https://bank.test/offer','promoRate':rate},
+                                  {'id':'fresh','bank':'測試銀行','title':'新活動',
+                                   'sourceUrl':'https://bank.test/fresh','promoRate':rate}]})
+                curated = {'id':'manual','bank':'測試銀行','title':'活動',
+                           'sourceUrl':'https://bank.test/offer','promoRate':5,
+                           'sourceFacts':{'sourceUrl':'https://bank.test/offer'},
+                           'quickSearchEligible':True}
+                rules = {'None_活動_https://bank.test/offer': curated}
+                count = fast_update.restore_newer_checkpoints(
+                    {'lastUpdated':'2026-11-05T10:00:00Z'}, {'pages':{}}, {}, rules)
+                self.assertEqual(count,1)
+                self.assertIs(next(r for r in rules.values() if r['id']=='manual'),curated)
+                self.assertEqual(curated['promoRate'],5)
+                self.assertFalse(curated['quickSearchEligible'])
+                self.assertIn('CHECKPOINT_CONFLICT_REQUIRES_REVIEW',curated['validationIssues'])
+                self.assertEqual(curated['checkpointRecheckCandidate']['fields']['promoRate'],8)
+                self.assertEqual(next(r for r in rules.values() if r['id']=='fresh')['promoRate'],8)
+                self.assertEqual(len([r for r in rules.values() if r['id']=='manual']),1)
+            finally:
+                fast_update.CHECKPOINT_DIR = previous
+
+    def test_checkpoint_keeps_distinct_same_title_rules(self):
+        with tempfile.TemporaryDirectory() as folder:
+            previous = fast_update.CHECKPOINT_DIR
+            fast_update.CHECKPOINT_DIR = Path(folder)
+            try:
+                common = {'bank':'測試銀行','cardId':'c1','title':'同名活動',
+                          'sourceUrl':'https://bank.test/list'}
+                atomic_json(Path(folder)/'same.json',{'bank':'測試銀行',
+                    'savedAt':'2026-11-05T12:00:00Z','cards':[],'pages':{},
+                    'rules':[{**common,'id':'one'},{**common,'id':'two'}]})
+                rules = {}
+                fast_update.restore_newer_checkpoints(
+                    {'lastUpdated':'2026-11-05T10:00:00Z'}, {'pages':{}}, {}, rules)
+                self.assertEqual({r['id'] for r in rules.values()},{'one','two'})
             finally:
                 fast_update.CHECKPOINT_DIR = previous
 

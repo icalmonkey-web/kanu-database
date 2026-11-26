@@ -1,0 +1,7 @@
+{
+  "baselineId":"icashpay_wanjiafu_base_uniopen_2026_partial",
+  "mappings":[
+    {"offerId":"base","ruleId":"review_icashpay_wanjiafu_2026_base"},
+    {"offerId":"uniopen","ruleId":"review_icashpay_wanjiafu_2026_uniopen"}
+  ]
+}

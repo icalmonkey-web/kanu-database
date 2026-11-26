@@ -940,6 +940,103 @@
       box-shadow: inset 0 1px 0 white, 0 15px 32px rgba(45,127,121,.14) !important;
     }
   </style>
+  <style id="kanu-ux-enhancements">
+    .recommend-reward-badge {
+      padding: 6px 10px;
+      border-radius: 14px;
+      min-width: 78px;
+      max-width: 132px;
+      transition: transform .15s ease;
+    }
+    .recommend-reward-badge.badge-tone-green {
+      background: #e6f7f2;
+      border: 1.5px solid #a8e5d7;
+    }
+    .recommend-reward-badge.badge-tone-green .recommend-big-rate { color: #0f766e !important; }
+    .recommend-reward-badge.badge-tone-green .recommend-sub-cash { color: #127c67 !important; }
+    .recommend-reward-badge.badge-tone-blue {
+      background: #eaf4fd;
+      border: 1.5px solid #b2d7f7;
+    }
+    .recommend-reward-badge.badge-tone-blue .recommend-big-rate { color: #196eb0 !important; }
+    .recommend-reward-badge.badge-tone-blue .recommend-sub-cash { color: #1d5f96 !important; }
+    .recommend-reward-badge.badge-tone-amber {
+      background: #fff7eb;
+      border: 1.5px solid #fcd89d;
+    }
+    .recommend-reward-badge.badge-tone-amber .recommend-big-rate { color: #b86200 !important; }
+    .recommend-reward-badge.badge-tone-amber .recommend-sub-cash { color: #9a5000 !important; }
+    .recommend-big-rate {
+      font-size: 19px !important;
+      font-weight: 900 !important;
+      line-height: 1.05 !important;
+      letter-spacing: -0.03em;
+    }
+    .recommend-big-rate.is-compact {
+      font-size: 11.5px !important;
+      line-height: 1.25 !important;
+      letter-spacing: 0;
+      white-space: normal;
+      word-break: break-word;
+    }
+    .recommend-sub-cash {
+      font-size: 9.5px !important;
+      font-weight: 800 !important;
+      line-height: 1.2 !important;
+      margin-top: 3px;
+      white-space: normal;
+    }
+    .scenario-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 6px 11px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 900;
+      background: #f4fbf9;
+      color: #1f4f4b;
+      border: 1.5px solid #ccece7;
+      box-shadow: 0 1px 2px rgba(37, 135, 127, .06);
+      transition: transform .12s ease, background .15s ease, border-color .15s ease;
+    }
+    .scenario-pill:hover {
+      background: #e6f7f3;
+      border-color: #8fd6cb;
+    }
+    .scenario-pill:active { transform: scale(0.95); }
+    .amount-chip {
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 10px;
+      font-weight: 900;
+      border: 1px solid #dce9e6;
+      background: #f7fbfa;
+      color: #5b7075;
+      transition: all .14s ease;
+    }
+    .amount-chip.active {
+      background: #55bdb4;
+      border-color: #55bdb4;
+      color: #ffffff;
+    }
+    .cap-meter-track {
+      width: 100%;
+      height: 6px;
+      border-radius: 999px;
+      background: #e6efed;
+      overflow: hidden;
+    }
+    .cap-meter-fill {
+      height: 100%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #55bdb4, #1f8a82);
+      transition: width .25s ease;
+    }
+    .cap-meter-fill.is-warn {
+      background: linear-gradient(90deg, #f59e0b, #e11d48);
+    }
+  </style>
 </head>
 <body class="min-h-screen flex justify-center items-center sm:py-6 sm:px-4">
 
@@ -1048,19 +1145,29 @@
             <button id="offer-view-acquisition" type="button" onclick="setOfferView('acquisition')" class="offer-view-button" aria-pressed="false">辦卡優惠</button>
           </div>
 
-          <div class="flex items-center justify-between pt-1 border-t border-[#f4e9db] text-xs">
-            <span class="text-[11px] font-bold text-ghibliInk-600">預計消費試算金額：</span>
-            <div class="flex items-center space-x-1">
-              <span class="text-xs font-black text-ghibliGold-600">NT$</span>
-              <input
-                id="spend-amount-input"
-                type="number"
-                value="2000"
-                step="500"
-                min="0"
-                oninput="renderSpendingList()"
-                class="w-20 ghibli-input rounded-lg px-2 py-0.5 text-right text-xs font-black"
-              />
+          <div class="pt-1 border-t border-[#f4e9db] space-y-1.5 text-xs">
+            <div class="flex items-center justify-between">
+              <span class="text-[11px] font-bold text-ghibliInk-600">預計消費試算金額：</span>
+              <div class="flex items-center space-x-1">
+                <span class="text-xs font-black text-ghibliGold-600">NT$</span>
+                <input
+                  id="spend-amount-input"
+                  type="number"
+                  value="2000"
+                  step="500"
+                  min="0"
+                  oninput="syncSpendAmountChips(); renderSpendingList()"
+                  class="w-20 ghibli-input rounded-lg px-2 py-0.5 text-right text-xs font-black"
+                />
+              </div>
+            </div>
+            <div id="spend-amount-Presets" class="flex items-center justify-end gap-1 flex-wrap">
+              <button type="button" onclick="setQuickSpendAmount(200)" data-amount="200" class="amount-chip">$200</button>
+              <button type="button" onclick="setQuickSpendAmount(500)" data-amount="500" class="amount-chip">$500</button>
+              <button type="button" onclick="setQuickSpendAmount(1000)" data-amount="1000" class="amount-chip">$1千</button>
+              <button type="button" onclick="setQuickSpendAmount(2000)" data-amount="2000" class="amount-chip active">$2千</button>
+              <button type="button" onclick="setQuickSpendAmount(5000)" data-amount="5000" class="amount-chip">$5千</button>
+              <button type="button" onclick="setQuickSpendAmount(10000)" data-amount="10000" class="amount-chip">$1萬</button>
             </div>
           </div>
         </div>
@@ -1094,15 +1201,35 @@
 
       <!-- ==================== TAB 2: 卡夾管理 (MY CARDS) ==================== -->
       <section id="view-mydeck" class="space-y-3 pt-1 hidden">
-        <div class="ghibli-card rounded-[22px] p-3.5 flex items-center justify-between bg-white">
-          <div>
-            <h2 class="text-xs font-black text-ghibliInk-800 flex items-center space-x-1.5">
-              <span>💳 我的現有持卡皮夾</span>
-            </h2>
-            <p class="text-[11px] text-ghibliInk-500 font-medium mt-0.5">點選你已擁有的卡片，消費快查即刻為你推薦最優刷法！</p>
+        <div class="ghibli-card rounded-[22px] p-3.5 space-y-2.5 bg-white">
+          <div class="flex items-center justify-between gap-2">
+            <div>
+              <h2 class="text-xs font-black text-ghibliInk-800 flex items-center space-x-1.5">
+                <span>💳 我的現有持卡皮夾</span>
+              </h2>
+              <p class="text-[11px] text-ghibliInk-500 font-medium mt-0.5">點選已擁有的卡片，快查即刻推薦最優刷法與追蹤本月額度！</p>
+            </div>
+            <button onclick="openAddCardModal()" class="px-3 py-2 rounded-xl bg-[#55bdb4] text-white text-[11px] font-black shadow-sm active:scale-95 flex-shrink-0">＋ 新增信用卡</button>
           </div>
-          <button onclick="openAddCardModal()" class="px-3 py-2 rounded-xl bg-[#55bdb4] text-white text-[11px] font-black shadow-sm active:scale-95">＋ 新增信用卡</button>
+          <div id="deck-monthly-summary" class="rounded-xl bg-[#f4fbf9] border border-[#d6ede8] px-3 py-2 flex items-center justify-between text-[10.5px] font-bold text-ghibliInk-700"></div>
         </div>
+        <div class="relative">
+          <span class="absolute left-3.5 top-2.5 text-ghibliInk-500 text-xs">🔍</span>
+          <input
+            id="deck-search-input"
+            type="text"
+            placeholder="搜尋我卡包裡的卡片或銀行..."
+            oninput="handleDeckSearchInput()"
+            class="w-full ghibli-input rounded-xl pl-9 pr-8 py-2 text-xs font-black placeholder:text-ghibliInk-500/65 focus:outline-none"
+          />
+          <button
+            id="deck-clear-search-btn"
+            onclick="clearDeckSearchInput()"
+            class="hidden absolute right-2.5 top-2.5 text-ghibliInk-500 hover:text-ghibliInk-800 text-xs font-black px-1.5 py-0.5 rounded-full bg-[#eee4d4]">
+            ✕
+          </button>
+        </div>
+        <div id="bank-filter-bar" class="flex items-center space-x-1.5 overflow-x-auto no-scrollbar py-0.5 text-xs"></div>
         <div class="flex items-center justify-between px-1 text-[10.5px] font-bold text-ghibliInk-500">
           <span>我的卡片</span><span>共 <span id="deck-selected-count">0</span> 張</span>
         </div>
@@ -1169,8 +1296,8 @@
               <div class="text-[9.5px] text-ghibliInk-500">輕鬆刷會優先顯示不用登錄、不用切換方案的卡片。</div>
             </div>
             <div class="flex items-center justify-between p-2.5 rounded-xl bg-[#faf6ee]">
-              <span class="font-bold text-ghibliInk-700">登錄活動開放前 5 分鐘推播</span>
-              <span class="text-[11px] font-black text-ghibliGreen-600">已開啟 ✔</span>
+              <span class="font-bold text-ghibliInk-700">登錄活動行事曆提醒</span>
+              <span class="text-[11px] font-black text-ghibliInk-600">請在活動頁自行加入</span>
             </div>
 
             <div class="p-2.5 rounded-xl bg-[#faf6ee] space-y-2">
@@ -1187,8 +1314,21 @@
               <div id="data-quality-summary" class="pt-2 border-t border-[#eee1ce]"></div>
             </div>
 
+            <div class="p-2.5 rounded-xl bg-[#faf6ee] space-y-2">
+              <div class="flex items-center justify-between">
+                <span class="font-bold text-ghibliInk-700">個人資料備份與還原（純本機 JSON）</span>
+                <span class="text-[9.5px] font-bold text-[#25877f]">零雲端上傳</span>
+              </div>
+              <div class="text-[10px] text-ghibliInk-500 leading-relaxed">一鍵備份您的「我的卡包」、「已標記登錄」與「每月刷卡額度紀錄」，換手機或換瀏覽器可秒速還原。</div>
+              <div class="grid grid-cols-2 gap-2 pt-0.5">
+                <button type="button" onclick="exportUserBackup()" class="rounded-lg bg-[#55bdb4] text-white px-2.5 py-2 text-[10.5px] font-black shadow-xs active:scale-95 transition">📤 匯出個人備份</button>
+                <button type="button" onclick="triggerImportBackup()" class="rounded-lg bg-white border border-[#cfded9] text-ghibliInk-700 px-2.5 py-2 text-[10.5px] font-black active:scale-95 transition">📥 匯入還原備份</button>
+              </div>
+              <input id="import-backup-input" type="file" accept=".json,application/json" class="hidden" onchange="handleImportBackupFile(event)" />
+            </div>
+
             <div class="flex items-center justify-between p-2.5 rounded-xl bg-[#faf6ee]">
-              <span class="font-bold text-ghibliInk-700">快取管理</span>
+              <span class="font-bold text-ghibliInk-700">快取與狀態重置</span>
               <button onclick="clearCacheAndReset()" class="text-rose-600 font-bold hover:underline">
                 清除本地快取並還原
               </button>
@@ -1259,6 +1399,33 @@
       </div>
     </div>
 
+    <!-- 找不到卡片：立即建立自訂卡或回報缺卡 -->
+    <div id="missing-card-modal" class="fixed inset-0 bg-black/45 backdrop-blur-xs z-[60] flex items-center justify-center p-4 hidden">
+      <div class="ghibli-card rounded-[26px] bg-white w-full max-w-[350px] p-4 space-y-3 shadow-2xl">
+        <div class="flex items-center justify-between border-b border-[#e4ecea] pb-2.5">
+          <div>
+            <h3 class="text-sm font-black text-ghibliInk-800">找不到我的信用卡？</h3>
+            <p class="text-[10px] font-bold text-ghibliInk-500">可先建立自訂卡加入卡包，或回報補入資料庫</p>
+          </div>
+          <button type="button" onclick="closeMissingCardModal()" class="w-7 h-7 rounded-full bg-[#eef3f1] text-xs font-black">✕</button>
+        </div>
+        <div class="space-y-2 text-xs">
+          <div>
+            <label class="block text-[10.5px] font-black text-ghibliInk-700 mb-1" for="missing-card-bank">發卡銀行</label>
+            <input id="missing-card-bank" type="text" maxlength="24" placeholder="例如：玉山銀行、中國信託..." class="w-full ghibli-input rounded-xl px-3 py-2 text-xs font-black focus:outline-none" />
+          </div>
+          <div>
+            <label class="block text-[10.5px] font-black text-ghibliInk-700 mb-1" for="missing-card-name">卡片名稱</label>
+            <input id="missing-card-name" type="text" maxlength="40" placeholder="例如：星宇航空聯名卡..." class="w-full ghibli-input rounded-xl px-3 py-2 text-xs font-black focus:outline-none" />
+          </div>
+        </div>
+        <div class="space-y-2 pt-1">
+          <button type="button" onclick="createCustomCardFromModal()" class="w-full py-2.5 rounded-xl bg-[#55bdb4] text-white text-xs font-black shadow-sm active:scale-95 transition">＋ 先建立自訂卡加入我的卡包</button>
+          <button type="button" onclick="submitMissingCardIssue()" class="w-full py-2 rounded-xl bg-[#f7faf9] border border-[#cfded9] text-ghibliInk-700 text-[11px] font-black active:scale-95 transition">📋 前往 GitHub 提交補卡回報 ↗</button>
+        </div>
+      </div>
+    </div>
+
     <!-- 卡片詳細資訊互動彈窗 Modal（精確過濾相關回饋與銀行官方連結） -->
     <div id="card-detail-modal" class="fixed inset-0 bg-black/50 backdrop-blur-xs z-50 flex items-center justify-center p-4 hidden">
       <div class="ghibli-card rounded-[28px] bg-white w-full max-w-[360px] max-h-[85dvh] flex flex-col overflow-hidden shadow-2xl animate-in fade-in zoom-in-95 duration-200">
@@ -1315,6 +1482,7 @@
     let currentSearchContext = '';
     let currentQuickSearchMode = 'card';
     let currentRegSearchText = '';
+    let currentDeckSearchText = '';
     let currentScope = 'all';
     let currentBankFilter = 'ALL';
     let currentAddBankFilter = 'ALL';
@@ -1330,12 +1498,78 @@
     // 舊的錯誤關聯永遠留在瀏覽器，即使程式已修正。
     const LOCAL_CACHE_KEY = "kanu_remote_database_v3";
     const LOCAL_VERSION_KEY = "kanu_data_version_v3";
+    const CUSTOM_CARDS_KEY = "kanu_custom_cards_v1";
+    const IDB_DB_NAME = "kanu_app_cache_db_v1";
+    const IDB_STORE_NAME = "datasets";
     // 目前記憶體中實際載入的資料版本。資料庫超過 localStorage 容量（約 5MB）時
-    // 無法寫入快取，因此版本比對與顯示一律以「實際已載入」的資料為準。
+    // 無法寫入 localStorage，優先透過 IndexedDB 持久快取，並以記憶體版本為準。
     let activeDataVersion = '';
+    function dataVersionNumber(version) {
+      const match = String(version || '').match(/^(\d{4})\.(\d{2})\.(\d{2})-v(\d{6})/);
+      return match ? Number(match[1] + match[2] + match[3] + match[4]) : null;
+    }
 
-    // localStorage 有容量上限；寫入失敗時清掉半套快取，避免版本號與資料不一致。
+    function openKanuIdb() {
+      return new Promise((resolve, reject) => {
+        if (typeof indexedDB === 'undefined' || !indexedDB) return reject(new Error('IndexedDB unavailable'));
+        try {
+          const req = indexedDB.open(IDB_DB_NAME, 1);
+          req.onupgradeneeded = () => {
+            const db = req.result;
+            if (!db.objectStoreNames.contains(IDB_STORE_NAME)) db.createObjectStore(IDB_STORE_NAME);
+          };
+          req.onsuccess = () => resolve(req.result);
+          req.onerror = () => reject(req.error || new Error('IndexedDB open failed'));
+        } catch (err) {
+          reject(err);
+        }
+      });
+    }
+
+    async function kanuIdbSet(key, value) {
+      try {
+        const db = await openKanuIdb();
+        await new Promise((resolve, reject) => {
+          const tx = db.transaction(IDB_STORE_NAME, 'readwrite');
+          tx.objectStore(IDB_STORE_NAME).put(value, key);
+          tx.oncomplete = () => { db.close(); resolve(true); };
+          tx.onerror = () => { db.close(); reject(tx.error); };
+        });
+        return true;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    async function kanuIdbGet(key) {
+      try {
+        const db = await openKanuIdb();
+        return await new Promise((resolve, reject) => {
+          const tx = db.transaction(IDB_STORE_NAME, 'readonly');
+          const req = tx.objectStore(IDB_STORE_NAME).get(key);
+          req.onsuccess = () => { db.close(); resolve(req.result ?? null); };
+          req.onerror = () => { db.close(); reject(req.error); };
+        });
+      } catch (e) {
+        return null;
+      }
+    }
+
+    async function kanuIdbClear() {
+      try {
+        const db = await openKanuIdb();
+        await new Promise((resolve) => {
+          const tx = db.transaction(IDB_STORE_NAME, 'readwrite');
+          tx.objectStore(IDB_STORE_NAME).clear();
+          tx.oncomplete = () => { db.close(); resolve(true); };
+          tx.onerror = () => { db.close(); resolve(false); };
+        });
+      } catch (e) {}
+    }
+
+    // 雙層快取：優先非同步寫入 IndexedDB（支援數十 MB），並嘗試同步寫入 localStorage。
     function saveDatabaseCache(raw, version) {
+      kanuIdbSet(LOCAL_CACHE_KEY, { raw, version: version || '', savedAt: Date.now() });
       try {
         localStorage.setItem(LOCAL_CACHE_KEY, raw);
         localStorage.setItem(LOCAL_VERSION_KEY, version || '');
@@ -1345,7 +1579,6 @@
           localStorage.removeItem(LOCAL_CACHE_KEY);
           localStorage.removeItem(LOCAL_VERSION_KEY);
         } catch (e) {}
-        console.warn('資料庫超過瀏覽器快取容量，改為每次開啟時重新載入:', err);
         return false;
       }
     }
@@ -1357,11 +1590,11 @@
   'use strict';
   const number = v => typeof v === 'number' && Number.isFinite(v) && v >= 0 ? v : null;
   const taipei = now => new Date(now.getTime() + 8 * 3600000);
-  const termFields = ['cardId','sourceUrl','title','baseRate','promoRate','rewardType','rewardUnit','rewardAmount',
+  const termFields = ['cardId','eligibleCardIds','sourceUrl','title','baseRate','promoRate','rewardType','rewardUnit','rewardAmount',
     'capAmount','capScope','capPeriod','minimumSpend','spendBasis','roundingMode','validFrom','validUntil',
-    'needReg','regDeadline','registrationStart','registrationEnd','registrationCycle','registrationMethods',
+    'needReg','regDeadline','registrationStart','registrationEnd','registrationCycle','registrationWindows','registrationMethods',
     'eligibilityRequirements','rewardCalculationMode','rewardTiers','selectionMode','benefitPlan',
-    'matchedMerchants','excludedKeywords','quotaInfo','pointValueTwd','associationStatus',
+    'matchedMerchants','excludedKeywords','excludedCountries','eligibleDateRanges','excludedDateRanges','eligibleWeekdays','eligibleMonthDayFrom','quotaInfo','pointValueTwd','associationStatus',
     'category','scope','searchKeywords','intentTags','intentEvidence','offerDomain','fundingMethods','bank'];
   function termsSnapshot(rule) {
     return JSON.parse(JSON.stringify(Object.fromEntries(termFields.map(key => [key, rule[key] ?? null]))));
@@ -1388,6 +1621,46 @@
     const result = new Date(`${y}-${pad(mo)}-${pad(d)}T${pad(h)}:${pad(mi)}:${pad(s)}${m[7] || (end && m[4] === undefined ? '.999' : '')}${m[8] || '+08:00'}`);
     return Number.isNaN(+result) ? null : result;
   }
+  function eligibleDateStatus(rule, now = new Date()) {
+    const ranges = rule.eligibleDateRanges;
+    const excluded = rule.excludedDateRanges;
+    const weekdays = rule.eligibleWeekdays;
+    const monthDayFrom = rule.eligibleMonthDayFrom;
+    if (ranges == null && excluded == null && weekdays == null && monthDayFrom == null) return 'UNRESTRICTED';
+    if (monthDayFrom != null && (!Number.isInteger(monthDayFrom) || monthDayFrom < 1 || monthDayFrom > 31)) return 'UNKNOWN';
+    if (excluded != null) {
+      if (!Array.isArray(excluded) || !excluded.length) return 'UNKNOWN';
+      let blocked = false;
+      for (const item of excluded) {
+        const from = Array.isArray(item) ? item[0] : item?.from;
+        const until = Array.isArray(item) ? item[1] : item?.until;
+        const start = date(from), end = date(until, true);
+        if (!start || !end || start > end) return 'UNKNOWN';
+        if (start <= now && now <= end) blocked = true;
+      }
+      if (blocked) return 'OUTSIDE';
+    }
+    if (ranges != null) {
+      if (!Array.isArray(ranges) || !ranges.length) return 'UNKNOWN';
+      let inside = false;
+      for (const item of ranges) {
+        const from = Array.isArray(item) ? item[0] : item?.from;
+        const until = Array.isArray(item) ? item[1] : item?.until;
+        const start = date(from), end = date(until, true);
+        if (!start || !end || start > end) return 'UNKNOWN';
+        if (start <= now && now <= end) inside = true;
+      }
+      if (!inside) return 'OUTSIDE';
+    }
+    if (weekdays != null) {
+      if (!Array.isArray(weekdays) || !weekdays.length ||
+          weekdays.some(day => !Number.isInteger(day) || day < 0 || day > 6) ||
+          new Set(weekdays).size !== weekdays.length) return 'UNKNOWN';
+      if (!weekdays.includes(taipei(now).getUTCDay())) return 'OUTSIDE';
+    }
+    if (monthDayFrom != null && taipei(now).getUTCDate() < monthDayFrom) return 'OUTSIDE';
+    return 'ELIGIBLE';
+  }
   function registrationWindow(rule) {
     if (rule.registrationStart || rule.registrationEnd) return {
       start: date(rule.registrationStart), end: date(rule.registrationEnd, true)
@@ -1405,8 +1678,10 @@
   }
   function periodKey(rule, now = new Date()) {
     const t = taipei(now);
-    const cycle = /每月|當月/.test(rule.regDeadline || '') || rule.registrationCycle === 'MONTHLY'
-      ? `${t.getUTCFullYear()}-${t.getUTCMonth() + 1}` : '';
+    const cycle = rule.registrationCycle === 'QUARTERLY'
+      ? `${t.getUTCFullYear()}-Q${Math.floor(t.getUTCMonth() / 3) + 1}`
+      : (/每月|當月/.test(rule.regDeadline || '') || rule.registrationCycle === 'MONTHLY'
+        ? `${t.getUTCFullYear()}-${t.getUTCMonth() + 1}` : '');
     return JSON.stringify([rule.id, rule.sourceUrl, rule.validFrom, rule.validUntil,
       rule.registrationStart, rule.registrationEnd, rule.regDeadline, cycle]);
   }
@@ -1418,19 +1693,21 @@
     if (rule.registered && rule.registeredPeriod === periodKey(rule, now)) return 'marked';
     return w.start && w.end ? 'available' : 'unknown';
   }
-  function calculate(rule, amount) {
+  function calculate(rule, amount, now = new Date()) {
     const spendAmount = number(amount) || 0;
     const result = { effectiveRate: 0, potentialRate: 0, totalCash: 0, potentialCash: 0,
       spendAmount, isBoostActive: false, capped: false, capAmount: number(rule.capAmount),
       calculable: false, reason: '', assumptions: [] };
     const fail = reason => ({ ...result, reason });
-    const now = new Date();
     const until = date(rule.validUntil, true);
     if (until && until < now) return fail('活動已截止');
     if (rule.validFrom && date(rule.validFrom) > now) return fail('活動尚未開始');
+    const dateStatus = eligibleDateStatus(rule, now);
+    if (dateStatus === 'UNKNOWN') return fail('指定活動日期資料待確認');
+    if (dateStatus === 'OUTSIDE') return fail('今天不是指定活動日');
     const type = String(rule.rewardType || '').toLowerCase();
     const unit = String(rule.rewardUnit || '').toLowerCase();
-    if (['draw', 'installment', 'insurance_benefit'].includes(type)) return fail('非保證現金回饋');
+    if (['draw', 'installment', 'insurance_benefit', 'discount', 'coupon', 'mixed_benefit'].includes(type)) return fail('非現金刷卡回饋');
     if (type === 'points' && unit !== 'twd' && !(unit === 'percent' && rule.pointValueTwd === 1)) return fail('點數未確認兌換價值');
     const min = number(rule.minimumSpend);
     if (min !== null && spendAmount < min) return fail('本筆未達最低消費門檻');
@@ -1494,34 +1771,73 @@
     return result;
   }
   function isReviewed(rule, now = new Date()) {
+    if (rule.cardId === 'card_中國信託_51'
+      && /Visa|JCB/i.test([rule.title,...(rule.fundingMethods || []),...(rule.eligibilityRequirements || [])].join(' ')))
+      return false;
     const review = rule.accuracyReview;
     const checked = date(review?.checkedAt);
+    const proof = rule.termEvidence;
+    const proofChecked = date(proof?.checkedAt);
+    const proofFields = ['title','cardEligibility','reward','rewardType','validFrom','validUntil',
+      'cap','minimumSpend','registration','exclusions','rounding'];
+    const completeProof = proof?.method === 'manual_official_terms_read'
+      && proof.sourceUrl === rule.sourceUrl && proofChecked && proofChecked <= now
+      && now - proofChecked <= 14 * 86400000
+      && proofFields.every(field => {
+        const item = proof.fields?.[field];
+        return item && ['supported','not_applicable'].includes(item.status)
+          && item.sourceUrl === rule.sourceUrl && typeof item.locator === 'string'
+          && item.locator.trim() && (item.status !== 'not_applicable' || item.reason?.trim());
+      })
+      && (rule.eligibleWeekdays == null && rule.eligibleMonthDayFrom == null && rule.excludedDateRanges == null || (proof.fields?.schedule?.status === 'supported'
+        && proof.fields.schedule.sourceUrl === rule.sourceUrl
+        && typeof proof.fields.schedule.locator === 'string' && proof.fields.schedule.locator.trim()));
     return !!(review?.status === 'SOURCE_CHECKED' && !review.issues?.length
-      && review.fields?.length && review.sourceUrl === rule.sourceUrl && checked
+      && review.method === 'official_terms_read' && typeof review.evidence === 'string' && review.evidence.trim()
+      && Array.isArray(review.evidenceSources) && review.evidenceSources.includes(rule.sourceUrl)
+      && review.fields?.length && review.sourceUrl === rule.sourceUrl && checked && completeProof
       && (rule._reviewTermsMatch === undefined ? reviewMatches(rule) : rule._reviewTermsMatch === true
         && JSON.stringify(stable(termsSnapshot(rule))) === JSON.stringify(stable(rule._reviewTermsBaseline)))
       && !rule.validationIssues?.length && rule.associationStatus !== 'needs_review'
-      && checked <= now && now - checked <= 14 * 86400000);
+      && checked <= now && now - checked <= 14 * 86400000
+      && (!rule.validFrom || (date(rule.validFrom) && date(rule.validFrom) <= now))
+      && (!rule.validUntil || (date(rule.validUntil, true) && date(rule.validUntil, true) >= now))
+      && ['UNRESTRICTED','ELIGIBLE'].includes(eligibleDateStatus(rule, now)));
   }
-  function assessment(rule) {
-    if (isReviewed(rule)) return {level:'CHECKED',priority:3,label:'已核對條款',cashAllowed:true};
+  function assessment(rule, now = new Date()) {
+    const dateStatus = eligibleDateStatus(rule, now);
+    if (dateStatus === 'UNKNOWN') return {level:'BLOCKED',priority:0,label:'指定活動日期資料待確認，暫停推薦',cashAllowed:false};
+    if (dateStatus === 'OUTSIDE') return {level:'BLOCKED',priority:0,label:'今天不是指定活動日',cashAllowed:false};
+    if (isReviewed(rule, now)) return {level:'CHECKED',priority:3,label:'已核對條款',cashAllowed:true};
     const review=rule.accuracyReview || {};
     const conflict=review.status==='CONFLICT' || review.status==='RECHECK_REQUIRED'
       || rule.associationStatus==='needs_review' || rule.unresolvedCardId
-      || (rule.validationIssues || []).some(s=>/MIXED_|ORPHAN|CARD_ASSOCIATION|WRONG_CARD/.test(s));
+      || (rule.cardId === 'card_中國信託_51'
+        && /Visa|JCB/i.test([rule.title,...(rule.fundingMethods || []),...(rule.eligibilityRequirements || [])].join(' ')))
+      || (rule.validationIssues || []).length > 0;
     if (conflict) return {level:'BLOCKED',priority:0,label:'資料有衝突，暫停推薦',cashAllowed:false};
+    if (!date(rule.validFrom) || !date(rule.validUntil, true))
+      return {level:'BLOCKED',priority:0,label:'活動有效期間待確認，暫停推薦',cashAllowed:false};
+    if (rule.needReg && (!date(rule.registrationStart) || !date(rule.registrationEnd, true)))
+      return {level:'BLOCKED',priority:0,label:'登錄期間待確認，暫停推薦',cashAllowed:false};
     let source=false;
     try { const url=new URL(rule.sourceUrl);source=url.protocol==='https:' && !!url.hostname && !url.username && !url.password; } catch {}
     if (!source) return {level:'BLOCKED',priority:0,label:'缺少可核對來源',cashAllowed:false};
     if (review.status==='PARTIAL' && review.evidence && review.fields?.length)
       return {level:'PARTIAL',priority:2,label:'部分條件已核對',cashAllowed:false};
+    const checked = date(review.checkedAt);
+    if (review.status === 'SOURCE_CHECKED' && checked && now - checked > 14 * 86400000)
+      return {level:'REFERENCE',priority:1,label:'條款核對已逾14天待複核',cashAllowed:false,reviewExpired:true};
     return {level:'REFERENCE',priority:1,label:'有來源，尚未完整覆核',cashAllowed:false};
   }
   function referenceReward(rule) {
     const type=String(rule.rewardType || '').toLowerCase(),unit=String(rule.rewardUnit || '').toLowerCase();
     if (type==='insurance_benefit' || /旅平險|旅遊.*保險|旅遊不便險/.test(rule.title || '')) return '保險保障，非刷卡回饋';
+    if (['discount','coupon','mixed_benefit'].includes(type)) return rule.benefitSummary ? `${rule.benefitSummary}（資料列示）` : '折扣／優惠券（條件待補）';
     if (type==='draw') return '抽獎活動';
     if (type==='installment') return '分期優惠';
+    if ((rule.validationIssues || []).includes('AMBIGUOUS_PERCENT_AND_FIXED_POINT_REWARD')) return '點數上限／固定獎勵待核';
+    if (type==='points' && rule.benefitSummary) return `${rule.benefitSummary}（資料列示）`;
     if (type==='points' && unit!=='percent' && number(rule.rewardAmount)>0) return `${rule.rewardAmount} 點（資料列示）`;
     if (type==='cash' && number(rule.rewardAmount)>0 && rule.rewardAmount!==rule.capAmount) return `NT$${rule.rewardAmount}（資料列示）`;
     // A cap is never an award. Do not add base + promo without verified semantics.
@@ -1533,7 +1849,7 @@
     }
     return '活動優惠（條件待補）';
   }
-  const api = { date, registrationWindow, periodKey, lifecycle, calculate, isReviewed, termsSnapshot, reviewMatches, assessment, referenceReward };
+  const api = { date, eligibleDateStatus, registrationWindow, periodKey, lifecycle, calculate, isReviewed, termsSnapshot, reviewMatches, assessment, referenceReward };
   if (typeof module !== 'undefined') module.exports = api;
   else root.KanuAccuracy = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);
@@ -1659,24 +1975,8 @@
     }
 
     function reconcileRuleCardAssociations() {
-      const cardById = new Map(appCards.map(card => [card.id, card]));
-      appRules.forEach(rule => {
-        const current = cardById.get(rule.cardId);
-        const bank = rule.bank || current?.bank || '';
-        const corpus = normalizeText(`${rule.title || ''} ${rule.quotaInfo || ''} ${rule.benefitPlan || ''} ${rule.searchKeywords || ''}`);
-        const namedCards = appCards.filter(card => isRealCardProduct(card)
-          && (!bank || card.bank === bank)
-          && getCardProductAliases(card).some(alias => corpus.includes(alias)));
-        const currentNamed = current && getCardProductAliases(current).some(alias => corpus.includes(alias));
-
-        // 修復爬蟲留下的舊/不存在 cardId；或文案明確寫另一張產品卡時，
-        // 只有唯一候選才自動改綁，避免用猜測製造新的錯誤。
-        const distinctIds = [...new Set(namedCards.map(card => card.id))];
-        if ((!current || !currentNamed) && distinctIds.length === 1) {
-          rule.cardId = distinctIds[0];
-          rule.associationStatus = current ? 'reconciled' : 'recovered_orphan';
-        }
-      });
+      // 卡片關聯只由離線證據修復程序更新。執行時從關鍵字推測卡片會繞過
+      // unresolvedCardId/needs_review 的隔離，甚至把優惠套到錯卡。
     }
 
     function deduplicateCardProducts() {
@@ -1703,13 +2003,16 @@
       appCards = unique;
       appRules.forEach(rule => {
         if (cardIdAliases.has(rule.cardId)) rule.cardId = cardIdAliases.get(rule.cardId);
+        if (Array.isArray(rule.eligibleCardIds)) rule.eligibleCardIds = rule.eligibleCardIds.map(id => cardIdAliases.get(id) || id);
       });
     }
 
     function formatRuleObject(rawRule, index) {
       const formatted = {
         id: safeDataId(rawRule.id, `rule_gen_${index}`),
+        duplicateOf: safeDataId(rawRule.duplicateOf, ''),
         cardId: safeDataId(rawRule.cardId, ''),
+        eligibleCardIds: Array.isArray(rawRule.eligibleCardIds) ? rawRule.eligibleCardIds.map(id => safeDataId(id, '')).filter(Boolean) : [],
         bank: safePlainText(rawRule.bank),
         offerDomain: safePlainText(rawRule.offerDomain || 'CARD').toUpperCase(),
         paymentProvider: safePlainText(rawRule.paymentProvider),
@@ -1734,12 +2037,12 @@
         registered: false,
         registeredPeriod: '',
         accuracyReview: rawRule.accuracyReview || null,
+        termEvidence: rawRule.termEvidence || null,
         _reviewTermsMatch: KanuAccuracy.reviewMatches(rawRule),
         pointValueTwd: rawRule.pointValueTwd,
         validFrom: safePlainText(rawRule.validFrom),
         registrationStart: safePlainText(rawRule.registrationStart),
         registrationEnd: safePlainText(rawRule.registrationEnd),
-        registrationCycle: safePlainText(rawRule.registrationCycle),
         registrationWindows: Array.isArray(rawRule.registrationWindows) ? rawRule.registrationWindows : [],
         capScope: safePlainText(rawRule.capScope),
         roundingMode: safePlainText(rawRule.roundingMode),
@@ -1749,6 +2052,21 @@
         benefitPlan: safePlainText(rawRule.benefitPlan),
         selectionMode: safePlainText(rawRule.selectionMode),
         registrationUrl: rawRule.registrationUrl || '',
+        eligibleDateRanges: Array.isArray(rawRule.eligibleDateRanges) ? rawRule.eligibleDateRanges.map(item =>
+          Array.isArray(item) ? item.slice(0, 2).map(value => safePlainText(value))
+            : {from:safePlainText(item?.from),until:safePlainText(item?.until)}) : rawRule.eligibleDateRanges ?? null,
+        excludedDateRanges: Array.isArray(rawRule.excludedDateRanges) ? rawRule.excludedDateRanges.map(item =>
+          Array.isArray(item) ? item.slice(0, 2).map(value => safePlainText(value))
+            : {from:safePlainText(item?.from),until:safePlainText(item?.until)}) : rawRule.excludedDateRanges ?? null,
+        eligibleWeekdays: rawRule.eligibleWeekdays ?? null,
+        eligibleMonthDayFrom: rawRule.eligibleMonthDayFrom ?? null,
+        bookingUrl: rawRule.bookingUrl || '',
+        bookingDestinationVerified: Boolean(rawRule.bookingSourceEvidence) && !(rawRule.validationIssues || []).includes('BOOKING_DESTINATIONS_NEED_RECHECK'),
+        registrationLinkEvidence: rawRule.registrationLinkEvidence && typeof rawRule.registrationLinkEvidence === 'object'
+          ? {sourceUrl: rawRule.registrationLinkEvidence.sourceUrl || '',
+             method: safePlainText(rawRule.registrationLinkEvidence.method),
+             urls: Array.isArray(rawRule.registrationLinkEvidence.urls) ? rawRule.registrationLinkEvidence.urls.slice(0, 20) : []}
+          : null,
         registrationMethods: Array.isArray(rawRule.registrationMethods) ? rawRule.registrationMethods.map(method => ({
           type: safePlainText(method.type).toUpperCase(),
           label: safePlainText(method.label),
@@ -1768,6 +2086,7 @@
         associationStatus: safePlainText(rawRule.associationStatus),
         eligibleCardScope: safePlainText(rawRule.eligibleCardScope || rawRule.cardScope),
         capPeriod: safePlainText(rawRule.capPeriod),
+        registrationCycle: safePlainText(rawRule.registrationCycle),
         minimumSpend: typeof rawRule.minimumSpend === 'number' ? rawRule.minimumSpend : null,
         eligibilityRequirements: Array.isArray(rawRule.eligibilityRequirements) ? rawRule.eligibilityRequirements.map(value => safePlainText(value)) : [],
         rewardCalculationMode: safePlainText(rawRule.rewardCalculationMode || 'UNKNOWN').toUpperCase(),
@@ -1784,6 +2103,7 @@
         maxRateRequires: Array.isArray(rawRule.maxRateRequires) ? rawRule.maxRateRequires.map(value => safePlainText(value)) : [],
         fetchedAt: rawRule.fetchedAt || '',
         quotaInfo: safePlainText(rawRule.quotaInfo),
+        benefitSummary: safePlainText(rawRule.benefitSummary),
         excludedKeywords: Array.isArray(rawRule.excludedKeywords) ? rawRule.excludedKeywords.map(value => safePlainText(value)) : []
       };
       // Do not infer reward type from a headline rate or cap. Conflicts require review.
@@ -1825,6 +2145,7 @@
           const declaredSize = Number(response.headers.get('content-length') || 0);
           if (declaredSize > 40 * 1024 * 1024) throw new Error('資料檔超過安全大小限制');
           remoteData = await response.json();
+          if (remoteData.integrityRevision !== 1) throw new Error('遠端資料尚未通過新版關聯與來源修復，保留本機版本');
         } catch (fetchErr) {
           // 離線或無法連線時，改用 HTML 內建的資料庫（桌面單檔版）。
           const bundledEl = document.getElementById('bundled-data');
@@ -1837,6 +2158,14 @@
           throw new Error('資料格式或筆數超過安全限制');
         }
         const savedVersion = activeDataVersion;
+        const remoteNumber = dataVersionNumber(remoteData.version);
+        const localNumber = dataVersionNumber(savedVersion);
+        if (savedVersion && (localNumber === null || remoteNumber === null || remoteNumber < localNumber)) {
+          if (versionLabel) versionLabel.innerText = 'v' + savedVersion;
+          if (statusLabel) statusLabel.innerText = '本機資料版本較新；保留 v' + savedVersion;
+          if (manualTrigger) showTip('本機資料版本較新，已保留目前資料');
+          return;
+        }
 
         if (remoteData.version && (remoteData.version !== savedVersion || appCards.length === 0)) {
           saveDatabaseCache(JSON.stringify(remoteData), remoteData.version);
@@ -1849,6 +2178,7 @@
             appRules = remoteData.rules.map((r, i) => formatRuleObject(r, i));
           }
           deduplicateCardProducts();
+          mergeCustomCardsIntoDeck();
           reconcileRuleCardAssociations();
           if (remoteData.commonExclusions) {
             COMMON_EXCLUSIONS = remoteData.commonExclusions;
@@ -1858,16 +2188,16 @@
           loadRegisteredState();
 
           if (versionLabel) versionLabel.innerText = 'v' + remoteData.version;
-          if (statusLabel) statusLabel.innerText = "已更新至 v" + remoteData.version;
+          if (statusLabel) statusLabel.innerText = "已載入資料版本 v" + remoteData.version + "；活動條款仍須核對";
 
-          showTip('🎉 已同步最新銀行資料 (v' + remoteData.version + ')');
+          showTip('已載入資料版本 v' + remoteData.version + '；請依各活動的核對狀態判斷');
           renderAllViews();
         } else {
           const currentVer = remoteData.version || savedVersion || '最新';
           if (versionLabel) versionLabel.innerText = 'v' + currentVer;
-          if (statusLabel) statusLabel.innerText = "已是最新版本 (v" + currentVer + ")";
+          if (statusLabel) statusLabel.innerText = "目前資料版本 v" + currentVer + "；活動條款仍須核對";
           if (manualTrigger) {
-            showTip('✅ 雲端已確認：目前已是最新版本，無須重複下載！');
+            showTip('目前載入資料版本 v' + currentVer + '；版本相同不代表所有優惠已核對');
           }
         }
       } catch (err) {
@@ -1885,22 +2215,55 @@
       }
     }
 
+    function loadCustomCards() {
+      try {
+        const raw = JSON.parse(localStorage.getItem(CUSTOM_CARDS_KEY) || '[]');
+        if (!Array.isArray(raw)) return [];
+        return raw.slice(0, 100).map((item, idx) => formatCardObject({
+          id: safeDataId(item?.id, `card_custom_${idx}`),
+          bank: safePlainText(item?.bank, '自訂發卡行').slice(0, 24),
+          cardName: safePlainText(item?.cardName, '自訂信用卡').slice(0, 40),
+          entityType: 'CARD_PRODUCT',
+          productType: 'CREDIT',
+          classificationConfidence: 1,
+          classificationEvidence: '使用者本機自訂卡片',
+          descTag: safePlainText(item?.descTag, '本機自訂卡 · 可追蹤消費額度')
+        }, idx));
+      } catch (e) {
+        return [];
+      }
+    }
+
+    function mergeCustomCardsIntoDeck() {
+      const customs = loadCustomCards();
+      if (!customs.length) return;
+      const existingIds = new Set(appCards.map(c => c.id));
+      customs.forEach(custom => {
+        if (!existingIds.has(custom.id)) {
+          appCards.push(custom);
+          existingIds.add(custom.id);
+        }
+      });
+    }
+
+    function applyParsedDatabase(cached) {
+      if (!cached || cached.integrityRevision !== 1 || !Array.isArray(cached.cards) || !Array.isArray(cached.rules) || !cached.rules.length) return false;
+      appCards = cached.cards.map((c, i) => formatCardObject(c, i));
+      appRules = cached.rules.map((r, i) => formatRuleObject(r, i));
+      deduplicateCardProducts();
+      mergeCustomCardsIntoDeck();
+      reconcileRuleCardAssociations();
+      if (cached.commonExclusions) COMMON_EXCLUSIONS = cached.commonExclusions;
+      activeDataVersion = cached.version || '';
+      return true;
+    }
+
     function loadCachedDatabase() {
       const versionLabel = document.getElementById('current-version-label');
-      const applyDatabase = (cached) => {
-        if (!cached || !Array.isArray(cached.cards) || !Array.isArray(cached.rules) || !cached.rules.length) return false;
-        appCards = cached.cards.map((c, i) => formatCardObject(c, i));
-        appRules = cached.rules.map((r, i) => formatRuleObject(r, i));
-        deduplicateCardProducts();
-        reconcileRuleCardAssociations();
-        if (cached.commonExclusions) COMMON_EXCLUSIONS = cached.commonExclusions;
-        activeDataVersion = cached.version || '';
-        return true;
-      };
       let loaded = false;
       try {
         const cachedRaw = localStorage.getItem(LOCAL_CACHE_KEY);
-        if (cachedRaw) loaded = applyDatabase(JSON.parse(cachedRaw));
+        if (cachedRaw) loaded = applyParsedDatabase(JSON.parse(cachedRaw));
       } catch (e) {
         console.error("快取讀取異常", e);
       }
@@ -1909,8 +2272,11 @@
         const bundledEl = document.getElementById("bundled-data");
         if (bundledEl && bundledEl.textContent.trim()) {
           const bundled = JSON.parse(bundledEl.textContent);
-          if (!loaded || (bundled.version && bundled.version > activeDataVersion)) {
-            loaded = applyDatabase(bundled) || loaded;
+          const bundledNumber = dataVersionNumber(bundled.version);
+          const cachedNumber = dataVersionNumber(activeDataVersion);
+          if (bundled.integrityRevision === 1 && (!loaded || bundledNumber !== null
+              && (cachedNumber === null || bundledNumber >= cachedNumber))) {
+            loaded = applyParsedDatabase(bundled) || loaded;
           }
         }
       } catch (e) {
@@ -1919,19 +2285,163 @@
       if (versionLabel) versionLabel.innerText = activeDataVersion ? 'v' + activeDataVersion : '下載中...';
     }
 
-        function recordSpendForCard(cardId, amount) {
-      const spendVal = Number(amount) > 0 ? Number(amount) : 1000;
-      const card = appCards.find(c => c.id === cardId);
+    async function hydrateFromIndexedDBIfNewer() {
+      try {
+        const entry = await kanuIdbGet(LOCAL_CACHE_KEY);
+        if (!entry || typeof entry.raw !== 'string' || !entry.raw) return false;
+        const parsed = JSON.parse(entry.raw);
+        const idbNum = dataVersionNumber(parsed?.version);
+        const curNum = dataVersionNumber(activeDataVersion);
+        if (parsed?.integrityRevision === 1 && (!activeDataVersion || (idbNum !== null && (curNum === null || idbNum > curNum)))) {
+          if (applyParsedDatabase(parsed)) {
+            loadOwnership();
+            loadRegisteredState();
+            const versionLabel = document.getElementById('current-version-label');
+            const statusLabel = document.getElementById('sync-status-msg');
+            if (versionLabel) versionLabel.innerText = 'v' + activeDataVersion;
+            if (statusLabel) statusLabel.innerText = '已由本機大容量快取載入 v' + activeDataVersion;
+            renderAllViews();
+            return true;
+          }
+        }
+      } catch (e) {}
+      return false;
+    }
+
+    function getTaipeiYearMonth(now = new Date()) {
+      const t = new Date(now.getTime() + 8 * 3600000);
+      return `${t.getUTCFullYear()}-${String(t.getUTCMonth() + 1).padStart(2, '0')}`;
+    }
+
+    function getMonthlyUsageStorageKey(now = new Date()) {
+      return 'kanu_cap_usage_' + getTaipeiYearMonth(now);
+    }
+
+    function sanitizeUsageMap(rawMap) {
+      const clean = Object.create(null);
+      if (!rawMap || typeof rawMap !== 'object' || Array.isArray(rawMap)) return clean;
+      for (const [rawCardId, val] of Object.entries(rawMap)) {
+        if (rawCardId === '__proto__' || rawCardId === 'constructor' || rawCardId === 'prototype') continue;
+        const cardId = safeDataId(rawCardId, '');
+        if (!cardId) continue;
+        if (typeof val === 'number' && Number.isFinite(val) && val >= 0) {
+          clean[cardId] = { totalSpent: Math.min(val, 1e8), txCount: val > 0 ? 1 : 0, rules: Object.create(null) };
+        } else if (val && typeof val === 'object' && !Array.isArray(val)) {
+          const totalSpent = Number.isFinite(Number(val.totalSpent)) && Number(val.totalSpent) >= 0 ? Math.min(Number(val.totalSpent), 1e8) : 0;
+          const txCount = Number.isFinite(Number(val.txCount)) && Number(val.txCount) >= 0 ? Math.min(Math.floor(Number(val.txCount)), 10000) : (totalSpent > 0 ? 1 : 0);
+          const rulesObj = Object.create(null);
+          if (val.rules && typeof val.rules === 'object' && !Array.isArray(val.rules)) {
+            for (const [rawRuleId, rVal] of Object.entries(val.rules)) {
+              if (rawRuleId === '__proto__' || rawRuleId === 'constructor' || rawRuleId === 'prototype') continue;
+              const rId = safeDataId(rawRuleId, '');
+              if (!rId || !rVal || typeof rVal !== 'object') continue;
+              const spent = Number.isFinite(Number(rVal.spent)) && Number(rVal.spent) >= 0 ? Math.min(Number(rVal.spent), 1e8) : 0;
+              const usedCap = Number.isFinite(Number(rVal.usedCap)) && Number(rVal.usedCap) >= 0 ? Math.min(Number(rVal.usedCap), 1e7) : 0;
+              rulesObj[rId] = { spent, usedCap };
+            }
+          }
+          clean[cardId] = { totalSpent, txCount, rules: rulesObj };
+        }
+      }
+      return clean;
+    }
+
+    function getMonthlyUsageMap(now = new Date()) {
+      try {
+        const raw = JSON.parse(localStorage.getItem(getMonthlyUsageStorageKey(now)) || '{}');
+        return sanitizeUsageMap(raw);
+      } catch (e) {
+        return Object.create(null);
+      }
+    }
+
+    function getCardMonthlyUsage(cardId, now = new Date()) {
+      const resolvedId = cardIdAliases.get(cardId) || cardId;
+      const map = getMonthlyUsageMap(now);
+      return map[resolvedId] || { totalSpent: 0, txCount: 0, rules: Object.create(null) };
+    }
+
+    function getRuleMonthlyUsedCap(rule, now = new Date()) {
+      if (!rule || !rule.cardId || !rule.id) return 0;
+      const period = String(rule.capPeriod || '').toUpperCase();
+      if (period === 'PER_TRANSACTION') return 0;
+      const cardUsage = getCardMonthlyUsage(rule.cardId, now);
+      return Number(cardUsage.rules?.[rule.id]?.usedCap) || 0;
+    }
+
+    function setQuickSpendAmount(val) {
+      const input = document.getElementById('spend-amount-input');
+      if (!input) return;
+      input.value = String(Math.max(0, Number(val) || 0));
+      syncSpendAmountChips();
+      renderSpendingList();
+    }
+
+    function syncSpendAmountChips() {
+      const current = Number(document.getElementById('spend-amount-input')?.value) || 0;
+      document.querySelectorAll('#spend-amount-Presets .amount-chip').forEach(btn => {
+        btn.classList.toggle('active', Number(btn.dataset.amount) === current);
+      });
+    }
+
+    function recordSpendForCard(cardId, amount, ruleId = '') {
+      const spendVal = Math.round(Number(amount) > 0 ? Number(amount) : 1000);
+      const resolvedCardId = cardIdAliases.get(cardId) || cardId;
+      const card = appCards.find(c => c.id === resolvedCardId);
       const cardTitle = card ? card.cardName : "該卡片";
       try {
-        const monthKey = "kanu_cap_usage_" + new Date().toISOString().slice(0, 7);
-        const records = JSON.parse(localStorage.getItem(monthKey) || "{}");
-        records[cardId] = (records[cardId] || 0) + spendVal;
-        localStorage.setItem(monthKey, JSON.stringify(records));
-        showTip("已記錄 " + cardTitle + " 本月消費 NT$" + spendVal);
+        const key = getMonthlyUsageStorageKey();
+        const map = getMonthlyUsageMap();
+        if (!map[resolvedCardId]) map[resolvedCardId] = { totalSpent: 0, txCount: 0, rules: Object.create(null) };
+        const entry = map[resolvedCardId];
+        entry.totalSpent = Math.min(1e8, (entry.totalSpent || 0) + spendVal);
+        entry.txCount = (entry.txCount || 0) + 1;
+
+        let capNote = '';
+        const rule = ruleId ? appRules.find(r => r.id === ruleId) : null;
+        if (rule) {
+          if (!entry.rules[rule.id]) entry.rules[rule.id] = { spent: 0, usedCap: 0 };
+          const calc = calcRuleCashBack(rule, spendVal);
+          entry.rules[rule.id].spent = Math.min(1e8, (entry.rules[rule.id].spent || 0) + spendVal);
+          if (KanuAccuracy.isReviewed(rule) && calc.calculable && typeof rule.capAmount === 'number' && rule.capAmount > 0 && rule.capPeriod !== 'PER_TRANSACTION') {
+            const roundFn = n => rule.roundingMode?.startsWith('ROUND') ? Math.round(n + 1e-9) : rule.roundingMode?.startsWith('FLOOR') ? Math.floor(n + 1e-9) : Math.floor((n + 1e-9) * 100) / 100;
+            const bestTier = rule.rewardCalculationMode === 'TIERED' && Array.isArray(rule.rewardTiers) && rule.rewardTiers.length
+              ? [...rule.rewardTiers].sort((a, b) => (Number(b.totalRate) || 0) - (Number(a.totalRate) || 0))[0]
+              : null;
+            const baseRateForCap = Number(bestTier?.baseRate ?? rule.baseRate) || 0;
+            const baseCash = roundFn(spendVal * baseRateForCap / 100);
+            const usedThisTx = rule.capScope === 'TOTAL' ? calc.potentialCash : Math.max(0, calc.potentialCash - baseCash);
+            entry.rules[rule.id].usedCap = Math.min(rule.capAmount, (entry.rules[rule.id].usedCap || 0) + usedThisTx);
+            const left = Math.max(0, Math.round((rule.capAmount - entry.rules[rule.id].usedCap) * 100) / 100);
+            capNote = `（預估剩餘加碼額度 NT$${left}）`;
+          }
+        }
+        localStorage.setItem(key, JSON.stringify(map));
+        showTip(`⚡ 已記帳 ${cardTitle} NT$${spendVal.toLocaleString()}${capNote}`);
         renderSpendingList();
+        renderDeckList();
       } catch (e) {
         showTip("消費記錄儲存失敗");
+      }
+    }
+
+    function resetCardMonthlyUsage(cardId) {
+      const resolvedCardId = cardIdAliases.get(cardId) || cardId;
+      const card = appCards.find(c => c.id === resolvedCardId);
+      if (!window.confirm(`確定要將「${card ? card.cardName : '此卡'}」本月的刷卡消費與額度紀錄歸零嗎？`)) return;
+      try {
+        const key = getMonthlyUsageStorageKey();
+        const map = getMonthlyUsageMap();
+        delete map[resolvedCardId];
+        localStorage.setItem(key, JSON.stringify(map));
+        renderDeckList();
+        renderSpendingList();
+        if (!document.getElementById('card-detail-modal')?.classList.contains('hidden')) {
+          openCardDetailModal(resolvedCardId);
+        }
+        showTip('↺ 已將該卡本月刷卡紀錄歸零');
+      } catch (e) {
+        showTip('歸零失敗');
       }
     }
 
@@ -2014,29 +2524,38 @@
        const pending = appRules.length - confirmed;
        const reference = appRules.filter(rule => ['REFERENCE','PARTIAL'].includes(KanuAccuracy.assessment(rule).level)).length;
        const blocked = appRules.length - confirmed - reference;
+       const blockedRules = appRules.filter(rule => KanuAccuracy.assessment(rule).level === 'BLOCKED');
+       const associationCount = blockedRules.filter(rule => rule.unresolvedCardId || rule.associationStatus === 'needs_review').length;
+       const missingSourceCount = blockedRules.filter(rule => !(rule.unresolvedCardId || rule.associationStatus === 'needs_review') && !rule.sourceUrl).length;
+       const dateCount = blockedRules.filter(rule => !(rule.unresolvedCardId || rule.associationStatus === 'needs_review')
+         && rule.sourceUrl && (!KanuAccuracy.date(rule.validFrom) || !KanuAccuracy.date(rule.validUntil, true))).length;
+       const registrationCount = blockedRules.filter(rule => !(rule.unresolvedCardId || rule.associationStatus === 'needs_review')
+         && rule.sourceUrl && KanuAccuracy.date(rule.validFrom) && KanuAccuracy.date(rule.validUntil, true)
+         && rule.needReg && (!KanuAccuracy.date(rule.registrationStart) || !KanuAccuracy.date(rule.registrationEnd, true))).length;
+       const otherConflictCount = blocked - associationCount - missingSourceCount - dateCount - registrationCount;
        const bankWideWithSource = appRules.filter(rule => !rule.cardId && rule.sourceUrl).length;
       const bankMap = new Map();
       const cardMap = new Map(appCards.map(card => [card.id, card]));
       appRules.forEach(rule => {
         const bank = rule.bank || cardMap.get(rule.cardId)?.bank || '待辨識銀行';
-        if (!bankMap.has(bank)) bankMap.set(bank, { total: 0, confirmed: 0, pending: 0, latest: '' });
+        if (!bankMap.has(bank)) bankMap.set(bank, { total: 0, withSource: 0, missingSource: 0, latest: '' });
         const info = bankMap.get(bank);
         info.total += 1;
-         if (rule.sourceUrl) info.confirmed += 1;
-         else info.pending += 1;
+         if (rule.sourceUrl) info.withSource += 1;
+         else info.missingSource += 1;
         if (rule.fetchedAt && rule.fetchedAt > info.latest) info.latest = rule.fetchedAt;
       });
       const rows = Array.from(bankMap.entries()).sort((a, b) => b[1].total - a[1].total);
       container.innerHTML = `
         <div class="grid grid-cols-2 gap-2">
           <div class="rounded-lg bg-[#eef8f5] p-2"><div class="text-[9px] font-bold text-ghibliInk-500">資料載入</div><div class="text-[11px] font-black text-[#25877f]">已成功載入 ${appRules.length} 筆</div></div>
-           <div class="rounded-lg bg-[#fff7ed] p-2"><div class="text-[9px] font-bold text-ghibliInk-500">資料狀態</div><div class="text-[11px] font-black text-amber-700">${confirmed} 筆已核對／${reference} 筆有來源供參考／${blocked} 筆缺漏或衝突</div></div>
+           <div class="rounded-lg bg-[#fff7ed] p-2"><div class="text-[9px] font-bold text-ghibliInk-500">資料狀態</div><div class="text-[11px] font-black text-amber-700">${confirmed} 筆已核對／${reference} 筆有來源供參考／${blocked} 筆缺漏或待查</div></div>
          </div>
          <div class="mt-1.5 text-[9px] font-bold text-ghibliInk-500 bg-[#f7faf9] p-2 rounded-lg border border-[#e2eae8] leading-relaxed">
-            <span class="text-[#20aaa2] font-black">💡 狀態說明：</span>「可核對」代表有官方網址；「待補」代表活動來自歷史資料或新聞整理，官方活動連結尚待補齊（日常基本消費計算不受影響）。
+            <span class="text-[#20aaa2] font-black">💡 狀態說明：</span>「缺漏或待查」包含卡片關聯 ${associationCount} 筆、缺來源 ${missingSourceCount} 筆、有效期間 ${dateCount} 筆、登錄期間 ${registrationCount} 筆${otherConflictCount ? `、其他問題 ${otherConflictCount} 筆` : ''}；這些活動暫停推薦。只有「已核對」才表示近期逐條比對官方條款；「有來源供參考」仍須核實資格。已載入筆數不代表已確認可用。
           </div>
         <details class="mt-2"><summary class="cursor-pointer text-[10px] font-black text-ghibliInk-600">查看各銀行資料狀態</summary>
-          <div class="mt-1.5 max-h-40 overflow-y-auto space-y-1">${rows.map(([bank, info]) => `<div class="flex justify-between rounded-lg bg-white px-2 py-1.5 text-[9.5px]"><span class="font-black">${bank}</span><span class="text-ghibliInk-500">可核對 ${info.confirmed}・待補 ${info.pending}${info.latest ? `・${new Date(info.latest).toLocaleDateString('zh-TW')}` : ''}</span></div>`).join('')}</div>
+          <div class="mt-1.5 max-h-40 overflow-y-auto space-y-1">${rows.map(([bank, info]) => `<div class="flex justify-between rounded-lg bg-white px-2 py-1.5 text-[9.5px]"><span class="font-black">${bank}</span><span class="text-ghibliInk-500">有網址 ${info.withSource}・缺網址 ${info.missingSource}${info.latest ? `・${new Date(info.latest).toLocaleDateString('zh-TW')}` : ''}</span></div>`).join('')}</div>
         </details>`;
     }
 
@@ -2084,18 +2603,24 @@
     }
 
     function renderBankFilterTabs() {
-      const banks = ['ALL', ...new Set(appCards.filter(isRealCardProduct).map(c => c.bank))];
+      const allRealCards = appCards.filter(isRealCardProduct);
+      const ownedBanks = [...new Set(allRealCards.filter(c => c.owned).map(c => c.bank))];
+      if (currentBankFilter !== 'ALL' && !ownedBanks.includes(currentBankFilter)) {
+        currentBankFilter = 'ALL';
+      }
+      const deckBanks = ['ALL', ...ownedBanks];
 
       const deckFilter = document.getElementById('bank-filter-bar');
       if (deckFilter) {
-        deckFilter.innerHTML = banks.map(b => `
+        deckFilter.innerHTML = deckBanks.length > 2 ? deckBanks.map(b => `
           <button onclick="filterBank('${b}')" class="bank-pill ${currentBankFilter === b ? 'active-pill bg-ghibliGold-400 text-white font-black' : 'bg-white text-ghibliInk-600 border border-[#e4d7c3] font-bold'} px-3 py-1 rounded-full flex-shrink-0">
             ${b === 'ALL' ? '全部銀行' : b}
           </button>
-        `).join("");
+        `).join("") : '';
         enableHorizontalDrag(deckFilter);
       }
 
+      const banks = ['ALL', ...new Set(allRealCards.map(c => c.bank))];
       const regFilter = document.getElementById('reg-bank-filter-bar');
       if (regFilter) {
         regFilter.innerHTML = banks.map(b => `
@@ -2107,11 +2632,29 @@
       }
     }
 
+    function handleDeckSearchInput() {
+      const input = document.getElementById('deck-search-input');
+      const clearBtn = document.getElementById('deck-clear-search-btn');
+      currentDeckSearchText = (input?.value || '').trim();
+      if (clearBtn) clearBtn.classList.toggle('hidden', currentDeckSearchText.length === 0);
+      renderDeckList();
+    }
+
+    function clearDeckSearchInput() {
+      const input = document.getElementById('deck-search-input');
+      const clearBtn = document.getElementById('deck-clear-search-btn');
+      if (input) input.value = '';
+      currentDeckSearchText = '';
+      if (clearBtn) clearBtn.classList.add('hidden');
+      renderDeckList();
+    }
+
     function toggleCardOwnership(cardId) {
       const card = appCards.find(c => c.id === cardId);
       if (card) {
         card.owned = !card.owned;
         saveOwnership();
+        renderBankFilterTabs();
         updateBadges();
         renderDeckList();
         renderSpendingList();
@@ -2119,37 +2662,105 @@
       }
     }
 
+    function getCardBestCapMeter(card) {
+      const usage = getCardMonthlyUsage(card.id);
+      const cardRules = appRules.filter(r => isCanonicalDisplayRule(r) && !isRuleExpired(r) && r.cardId === card.id && typeof r.capAmount === 'number' && r.capAmount > 0 && r.capPeriod !== 'PER_TRANSACTION');
+      let trackedRule = null;
+      let usedCap = 0;
+      for (const r of cardRules) {
+        const u = Number(usage.rules?.[r.id]?.usedCap) || 0;
+        if (u > usedCap) {
+          usedCap = u;
+          trackedRule = r;
+        }
+      }
+      if (!trackedRule && cardRules.length && usage.totalSpent > 0) {
+        trackedRule = cardRules.find(r => KanuAccuracy.isReviewed(r)) || cardRules[0];
+      }
+      return { usage, trackedRule, usedCap };
+    }
+
     function renderDeckList() {
       const container = document.getElementById('deck-list-container');
+      const summaryEl = document.getElementById('deck-monthly-summary');
       if (!container) return;
-      const cards = appCards.filter(c => c.owned && isRealCardProduct(c));
+      const allOwned = appCards.filter(c => c.owned && isRealCardProduct(c));
+      const usageMap = getMonthlyUsageMap();
+      const ym = getTaipeiYearMonth();
+      let monthTotal = 0;
+      let monthTx = 0;
+      allOwned.forEach(c => {
+        const u = usageMap[c.id];
+        if (u) {
+          monthTotal += Number(u.totalSpent) || 0;
+          monthTx += Number(u.txCount) || 0;
+        }
+      });
+      if (summaryEl) {
+        summaryEl.innerHTML = `<span>📊 ${ym} 本月卡包累計記帳</span><span class="font-black text-[#147a76]">NT$${monthTotal.toLocaleString()}${monthTx ? `（${monthTx} 筆）` : ''}</span>`;
+      }
+
+      if (allOwned.length === 0) {
+        container.innerHTML = '<div class="ghibli-card p-7 text-center bg-white rounded-[22px]"><div class="text-2xl mb-2">💳</div><div class="text-sm font-black text-ghibliInk-800">卡包目前是空的</div><button onclick="openAddCardModal()" class="mt-3 px-4 py-2 rounded-xl bg-[#55bdb4] text-white text-xs font-black">＋ 新增信用卡</button></div>';
+        return;
+      }
+
+      let cards = allOwned;
+      if (currentBankFilter !== 'ALL') {
+        cards = cards.filter(c => c.bank === currentBankFilter);
+      }
+      if (currentDeckSearchText) {
+        const q = normalizeText(currentDeckSearchText);
+        cards = cards.filter(c => cardSearchCorpus(c).includes(q));
+      }
 
       if (cards.length === 0) {
-        container.innerHTML = '<div class="ghibli-card p-7 text-center bg-white rounded-[22px]"><div class="text-2xl mb-2">💳</div><div class="text-sm font-black text-ghibliInk-800">卡包目前是空的</div><button onclick="openAddCardModal()" class="mt-3 px-4 py-2 rounded-xl bg-[#55bdb4] text-white text-xs font-black">＋ 新增信用卡</button></div>';
+        container.innerHTML = '<div class="ghibli-card p-6 text-center bg-white rounded-[22px] text-xs font-bold text-ghibliInk-500">找不到符合篩選條件的已持有卡片</div>';
         return;
       }
 
       let html = '';
       cards.forEach(card => {
-        html += `
-          <div class="ghibli-card rounded-[22px] p-3 bg-white flex items-center justify-between space-x-3">
-            ${renderCardThumbnail(card)}
-            <div class="flex-1 min-w-0 cursor-pointer" onclick="openCardDetailModal('${card.id}')">
-              <div class="text-[10px] font-bold text-ghibliInk-500">${card.bank}</div>
-              <div class="text-xs font-black text-ghibliInk-800 truncate">${card.cardName}</div>
-              <div class="text-[10.5px] text-ghibliInk-600 font-medium">${card.descTag}</div>
+        const { usage, trackedRule, usedCap } = getCardBestCapMeter(card);
+        const capVal = trackedRule ? Number(trackedRule.capAmount) || 0 : 0;
+        const pct = capVal > 0 ? Math.min(100, Math.round((usedCap / capVal) * 100)) : 0;
+        const meterHtml = usage.totalSpent > 0 ? `
+          <div class="pt-2 mt-2 border-t border-[#edf3f1] space-y-1.5">
+            <div class="flex items-center justify-between text-[10px] font-bold">
+              <span class="text-[#147a76]">⚡ 本月已記帳 NT$${usage.totalSpent.toLocaleString()}（${usage.txCount} 筆）</span>
+              <button type="button" onclick="resetCardMonthlyUsage('${card.id}')" class="text-rose-500 hover:underline font-black">↺ 本月歸零</button>
             </div>
-            <div class="card-action-menu relative flex-shrink-0">
-              <button type="button" aria-label="移出卡包選單" title="移出卡包" aria-expanded="false" onclick="toggleCardActionMenu(event, this)" class="w-9 h-9 rounded-full border border-[#f0d9d5] bg-[#fff8f6] flex items-center justify-center text-rose-500 cursor-pointer hover:bg-rose-50">
-                <svg aria-hidden="true" viewBox="0 0 24 24" class="w-[18px] h-[18px]" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"></path><path d="M8 6V4h8v2"></path><path d="M19 6l-1 14H6L5 6"></path><path d="M10 11v5M14 11v5"></path></svg>
-              </button>
-              <div onclick="event.stopPropagation()" class="card-action-panel hidden absolute right-0 top-10 z-20 w-32 rounded-xl border border-[#eaded4] bg-white p-1.5 shadow-lg">
-                <button type="button" onclick="removeCardFromDeck('${card.id}')" class="w-full rounded-lg px-2.5 py-2 text-[11px] font-black text-rose-600 hover:bg-rose-50 flex items-center justify-center gap-1.5">
-                  <svg aria-hidden="true" viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"></path><path d="M8 6V4h8v2"></path><path d="M19 6l-1 14H6L5 6"></path><path d="M10 11v5M14 11v5"></path></svg>
-                  <span>移出卡包</span>
+            ${capVal > 0 && usedCap > 0 ? `
+              <div class="cap-meter-track"><div class="cap-meter-fill ${pct >= 85 ? 'is-warn' : ''}" style="width:${pct}%"></div></div>
+              <div class="flex items-center justify-between text-[9.5px] font-bold text-ghibliInk-500">
+                <span class="truncate pr-2">${trackedRule.title}</span>
+                <span class="flex-shrink-0 ${pct >= 85 ? 'text-rose-600 font-black' : ''}">已用預估額度 NT$${usedCap} / ${capVal}</span>
+              </div>
+            ` : ''}
+          </div>
+        ` : '';
+        html += `
+          <div class="ghibli-card rounded-[22px] p-3 bg-white">
+            <div class="flex items-center justify-between space-x-3">
+              ${renderCardThumbnail(card)}
+              <div class="flex-1 min-w-0 cursor-pointer" onclick="openCardDetailModal('${card.id}')">
+                <div class="text-[10px] font-bold text-ghibliInk-500">${card.bank} · ${getProductTypeLabel(card)}</div>
+                <div class="text-xs font-black text-ghibliInk-800 truncate">${card.cardName}</div>
+                <div class="text-[10.5px] text-ghibliInk-600 font-medium truncate">${card.descTag}</div>
+              </div>
+              <div class="card-action-menu relative flex-shrink-0">
+                <button type="button" aria-label="移出卡包選單" title="移出卡包" aria-expanded="false" onclick="toggleCardActionMenu(event, this)" class="w-9 h-9 rounded-full border border-[#f0d9d5] bg-[#fff8f6] flex items-center justify-center text-rose-500 cursor-pointer hover:bg-rose-50">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" class="w-[18px] h-[18px]" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"></path><path d="M8 6V4h8v2"></path><path d="M19 6l-1 14H6L5 6"></path><path d="M10 11v5M14 11v5"></path></svg>
                 </button>
+                <div onclick="event.stopPropagation()" class="card-action-panel hidden absolute right-0 top-10 z-20 w-32 rounded-xl border border-[#eaded4] bg-white p-1.5 shadow-lg">
+                  <button type="button" onclick="removeCardFromDeck('${card.id}')" class="w-full rounded-lg px-2.5 py-2 text-[11px] font-black text-rose-600 hover:bg-rose-50 flex items-center justify-center gap-1.5">
+                    <svg aria-hidden="true" viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"></path><path d="M8 6V4h8v2"></path><path d="M19 6l-1 14H6L5 6"></path><path d="M10 11v5M14 11v5"></path></svg>
+                    <span>移出卡包</span>
+                  </button>
+                </div>
               </div>
             </div>
+            ${meterHtml}
           </div>
         `;
       });
@@ -2209,7 +2820,7 @@
         </div>`;
       };
       let html = awaitingSearch ? '<div class="p-7 text-center text-xs font-bold text-ghibliInk-500"><div class="text-2xl mb-2">⌕</div>輸入銀行或卡片名稱開始尋找<br><span class="text-[10px]">也可以使用上方銀行篩選</span></div>' : available.map(card => cardRow(card)).join('');
-      if (!awaitingSearch && !html && !owned.length) html = '<div class="p-6 text-center text-xs font-bold text-ghibliInk-500">找不到符合的信用卡<br><button class="mt-2 text-[#2f9f96] underline">回報找不到我的卡</button></div>';
+      if (!awaitingSearch && !html && !owned.length) html = '<div class="p-6 text-center text-xs font-bold text-ghibliInk-500">找不到符合的信用卡<br><button type="button" onclick="openMissingCardModal()" class="mt-2 px-3 py-1.5 rounded-lg bg-[#eef8f5] text-[#25877f] font-black border border-[#ccece7]">＋ 建立自訂卡或回報找不到我的卡</button></div>';
       if (owned.length) html += `<details class="mt-3 rounded-2xl border border-[#e3ebe8] bg-[#f8faf9]"><summary class="cursor-pointer px-3 py-2.5 text-[11px] font-black text-ghibliInk-600">已在卡包（${owned.length} 張）</summary><div class="space-y-2 p-2 pt-0">${owned.map(card => cardRow(card, true)).join('')}</div></details>`;
       container.innerHTML = html;
       const selectedCount = document.getElementById('add-card-selected-count');
@@ -2219,6 +2830,7 @@
     function commitAddCards() {
       appCards.forEach(card => { if (pendingAddCardIds.has(card.id)) card.owned = true; });
       saveOwnership();
+      renderBankFilterTabs();
       updateBadges();
       renderDeckList();
       renderSpendingList();
@@ -2232,6 +2844,7 @@
       if (!card || !confirm(`確定要將「${card.cardName}」移出卡包嗎？`)) return;
       card.owned = false;
       saveOwnership();
+      renderBankFilterTabs();
       updateBadges();
       renderDeckList();
       renderSpendingList();
@@ -2265,35 +2878,119 @@
 
     function calcRuleCashBack(rule, spendAmount) {
       if (isInsuranceBenefitRule(rule)) return KanuAccuracy.calculate({...rule, rewardType: 'insurance_benefit'}, spendAmount);
+      const usedCap = getRuleMonthlyUsedCap(rule);
+      if (usedCap > 0) return KanuAccuracy.calculate({...rule, userUsedCap: usedCap}, spendAmount);
       return KanuAccuracy.calculate(rule, spendAmount);
     }
 
+    function extractReferencePercentForSort(rule) {
+      const type = String(rule?.rewardType || '').toLowerCase();
+      const unit = String(rule?.rewardUnit || '').toLowerCase();
+      if (['draw', 'installment', 'insurance_benefit', 'discount', 'coupon', 'mixed_benefit'].includes(type)) return 0;
+      if (isInsuranceBenefitRule(rule)) return 0;
+      const title = String(rule?.title || '');
+      if (/0利率|分期|抽獎|抽出|首刷|新戶/.test(title)) return 0;
+      if (type === 'percent' || unit === 'percent') {
+        const m = title.match(/(?:最高|享)\s*(\d+(?:\.\d+)?)\s*%/);
+        if (m && +m[1] > 0 && +m[1] <= 100) return +m[1];
+        const promo = Number(rule.promoRate) || 0;
+        if (promo > 0 && promo <= 100) return promo;
+        const base = Number(rule.baseRate) || 0;
+        if (base > 0 && base <= 100) return base;
+      }
+      return 0;
+    }
+
     // 百分比、固定金額、抽獎與分期是不同回饋型態，不能把非百分比活動顯示成「+0%」。
-    function getRuleDisplayBadge(rule, calc) {
-      if (calc && Number(calc.potentialRate) > 0) {
-        return { rate: calc.potentialRate + '%', isPercent: true, rateNum: Number(calc.potentialRate) };
+    // 支援三色防呆燈號：翡翠綠（直接刷）、海洋藍（需切換方案）、琥珀橘（需登錄／門檻／參考資料）。
+    function getRuleDisplayBadge(rule, calc, condition = null, card = null) {
+      const quality = KanuAccuracy.assessment(rule);
+      if (quality.level === 'BLOCKED') {
+        return { rate: '待確認', sub: '條款待查', tone: 'amber', isCompact: true, isPercent: false, rateNum: 0 };
       }
-      if (calc && Number(calc.potentialCash) > 0) {
-        return { rate: '$' + calc.potentialCash, isPercent: false, rateNum: 0 };
+      const plan = card ? inferBenefitPlan(rule, card) : String(rule?.benefitPlan || '').trim();
+      const isSwitchable = String(rule?.selectionMode || '').toUpperCase() === 'SWITCHABLE'
+        || (!!plan && /CUBE/i.test(card?.cardName || ''));
+      const isConditional = condition ? !!condition.conditional : (isSwitchable || (rule?.needReg && !rule?.registered) || !!(rule?.eligibilityRequirements?.length));
+
+      if (quality.cashAllowed && calc?.calculable) {
+        const usedCap = getRuleMonthlyUsedCap(rule);
+        const capFull = typeof rule.capAmount === 'number' && rule.capAmount > 0 && usedCap >= rule.capAmount;
+        const tone = capFull ? 'amber' : isSwitchable ? 'blue' : (isConditional ? 'amber' : 'green');
+        if (capFull) {
+          const baseFallback = calc.potentialCash > 0 ? `NT$${calc.potentialCash}` : `${Number(rule.baseRate) || 0}%`;
+          return {
+            rate: baseFallback,
+            sub: '⚠️ 本期加碼已滿',
+            tone: 'amber',
+            isCompact: baseFallback.length > 8,
+            isPercent: false,
+            rateNum: Number(rule.baseRate) || 0
+          };
+        }
+        if (calc.capped && calc.potentialCash > 0 && calc.spendAmount > 0) {
+          const shownCash = !isConditional && calc.totalCash > 0 ? calc.totalCash : calc.potentialCash;
+          const realRate = Math.round((shownCash / calc.spendAmount) * 1000) / 10;
+          const rateText = `NT$${shownCash}`;
+          return {
+            rate: rateText,
+            sub: `⚠️ 已達上限 · 實質 ${realRate}%`,
+            tone: 'amber',
+            isCompact: rateText.length > 8,
+            isPercent: false,
+            rateNum: realRate
+          };
+        }
+        if (calc.potentialRate > 0) {
+          const rateText = (isConditional ? '最高 ' : '') + calc.potentialRate + '%';
+          const subText = calc.totalCash > 0
+            ? `✓ 直刷 NT$${calc.totalCash}`
+            : isSwitchable
+              ? `⚙️ 需切「${plan || '指定'}」`
+              : (rule.needReg && !rule.registered)
+                ? `⚠️ 需登錄 · 達標$${calc.potentialCash}`
+                : `達標預估 NT$${calc.potentialCash}`;
+          return {
+            rate: rateText,
+            sub: subText,
+            tone,
+            isCompact: rateText.length > 8,
+            isPercent: true,
+            rateNum: calc.potentialRate
+          };
+        }
+        if (calc.potentialCash > 0) {
+          const rateText = `最高 NT$${calc.potentialCash}`;
+          return {
+            rate: rateText,
+            sub: calc.totalCash > 0 ? `✓ 直刷 NT$${calc.totalCash}` : '達成條件',
+            tone,
+            isCompact: rateText.length > 8,
+            isPercent: false,
+            rateNum: 0
+          };
+        }
       }
-      const titleText = (rule.title || '') + ' ' + (rule.quotaInfo || '');
-      const rateMatch = titleText.match(/(?:最高|享|加碼|回饋)\s*(\d+(?:\.\d+)?)\s*%/i) || titleText.match(/(\d+(?:\.\d+)?)\s*%/);
-      if (rateMatch && +rateMatch[1] > 0 && +rateMatch[1] <= 100) {
-        return { rate: rateMatch[1] + '%', isPercent: true, rateNum: +rateMatch[1] };
-      }
-      const promo = Number(rule.promoRate) || 0;
-      const base = Number(rule.baseRate) || 0;
-      const amount = Number(rule.rewardAmount) || 0;
-      const unit = String(rule.rewardUnit || '').toLowerCase();
-      const type = String(rule.rewardType || '').toLowerCase();
-      if (unit === 'percent' || type === 'percent') {
-        const total = promo > 0 ? (base + promo) : (amount > 0 ? amount : base);
-        if (total > 0 && total <= 100) return { rate: total + '%', isPercent: true, rateNum: total };
-      }
-      if (promo > 0 && promo <= 100) return { rate: (base + promo) + '%', isPercent: true, rateNum: base + promo };
-      if (amount > 0 && (type === 'points' || unit === 'points')) return { rate: amount + '點', isPercent: false, rateNum: 0 };
-      if (amount > 0 && (type === 'cash' || unit === 'twd')) return { rate: '$' + amount, isPercent: false, rateNum: 0 };
-      return { rate: '優惠', isPercent: false, rateNum: 0 };
+
+      const label = quality.cashAllowed ? getRuleRewardLabel(rule) : KanuAccuracy.referenceReward(rule);
+      const refTone = isSwitchable ? 'blue' : 'amber';
+      const refSub = quality.cashAllowed
+        ? (calc?.reason || '試算條件待確認')
+        : quality.reviewExpired
+          ? '條款逾14天待複核'
+          : isSwitchable
+            ? `⚙️ 參考·切「${plan || '指定'}」`
+            : (rule.needReg && !rule.registered)
+              ? '⚠️ 參考·需先登錄'
+              : '參考資料·未核實';
+      return {
+        rate: label,
+        sub: refSub,
+        tone: refTone,
+        isCompact: String(label).length > 8,
+        isPercent: false,
+        rateNum: extractReferencePercentForSort(rule)
+      };
     }
 
     function getRuleRewardLabel(rule) {
@@ -2463,10 +3160,15 @@
       return KanuAccuracy.registrationWindow(rule).end;
     }
 
+    function isCanonicalDisplayRule(rule) {
+      return !rule.duplicateOf || !appRules.some(candidate => candidate.id === rule.duplicateOf);
+    }
+
     function getTrackerRules() {
       const now = new Date();
       return appRules
         .filter(rule => {
+          if (!isCanonicalDisplayRule(rule)) return false;
           if (!rule.needReg || isRuleExpired(rule) || getRegistrationLifecycle(rule) === 'expired') return false;
           const deadline = getExplicitRegistrationDeadline(rule);
           return !deadline || deadline >= now;
@@ -2543,6 +3245,7 @@
 
     function ruleExplicitlyNamesAnotherCard(rule, targetCard, cardMap) {
       if (!rule || !targetCard) return false;
+      if (Array.isArray(rule.eligibleCardIds) && rule.eligibleCardIds.includes(targetCard.id)) return false;
       const corpus = normalizeText(`${rule.title || ''} ${rule.quotaInfo || ''} ${rule.benefitPlan || ''}`);
       const targetAliases = getCardProductAliases(targetCard);
       return Array.from(cardMap.values()).some(other => {
@@ -2584,28 +3287,109 @@
       return !!end && end < now;
     }
 
+    const INTENT_ALIASES = {
+      '加油': ['加油站', '台灣中油', '中油', '台塑石油', '台亞', '福懋', '全國加油站', '車麻吉'],
+      '中油': ['加油', '加油站', '台灣中油'],
+      '高鐵': ['台灣高鐵', '高鐵購票', '車票', '鐵路'],
+      '台鐵': ['火車', '鐵路局', '台鐵購票'],
+      '悠遊卡': ['自動加值', '悠遊聯名卡', 'EASYCARD'],
+      '超商': ['7-ELEVEN', '711', '統一超商', '全家', '萊爾富', 'OK超商', '便利商店', '小七', '四大超商'],
+      '7-11': ['7-ELEVEN', '711', '小七', '統一超商', 'OPENPOINT', '超商', '便利商店'],
+      '711': ['7-ELEVEN', '7-11', '小七', '統一超商', '超商'],
+      '小七': ['7-ELEVEN', '7-11', '711', '統一超商', '超商'],
+      '全家': ['全家便利商店', 'FAMILYMART', '全家超商', '超商'],
+      '全聯': ['全聯福利中心', 'PXMART', 'PXPAY', '全支付', '超市'],
+      '家樂福': ['CARREFOUR', '量販店', '量販'],
+      '大潤發': ['RT-MART', '大全聯', '量販店'],
+      '好市多': ['COSTCO', '好市多聯名卡', '量販店'],
+      '街口': ['街口支付', 'JKOPAY'],
+      '全支付': ['PXPAYPLUS', 'PX PAY'],
+      '悠遊付': ['EASYWALLET'],
+      '台灣PAY': ['TAIWANPAY', 'TWQR'],
+      'APPLEPAY': ['APPLE PAY', '蘋果支付'],
+      '外送': ['UBEREATS', 'UBER EATS', 'FOODPANDA', '富胖達', '優食', '外送平台'],
+      'UBEREATS': ['UBER EATS', '外送', '優食'],
+      'FOODPANDA': ['富胖達', '熊貓外送', '外送'],
+      '餐飲': ['餐廳', '美食', '吃飯', '王品', '麥當勞', '星巴克', '肯德基', '摩斯', '壽司郎', '藏壽司'],
+      '餐廳': ['餐飲', '美食', '吃飯', '王品'],
+      '吃飯': ['餐飲', '餐廳', '美食'],
+      '麥當勞': ['速食', 'MCDONALDS', '歡樂送'],
+      '星巴克': ['STARBUCKS', '咖啡'],
+      '網購': ['網路購物', '線上購物', '網路消費', '電商', '蝦皮', 'MOMO', 'PCHOME', '淘寶', '酷澎'],
+      '蝦皮': ['SHOPEE', '蝦皮購物', '網購'],
+      'MOMO': ['MOMO購物網', '富邦MOMO', '網購'],
+      '酷澎': ['COUPANG', '酷澎購物', '網購'],
+      '國外': ['海外', '出國', '外幣', '跨境', '免稅店'],
+      '海外': ['國外', '出國', '外幣', '跨境'],
+      '出國': ['國外', '海外', '外幣', '機票'],
+      '日本': ['日幣', 'JAPAN', '海外', '國外', 'SUICA', '唐吉訶德'],
+      '韓國': ['韓元', 'KOREA', '海外', '國外', '首爾'],
+      '機票': ['航空公司', '長榮航空', '中華航空', '星宇航空', '台灣虎航', '廉航'],
+      '訂房': ['AGODA', 'BOOKING', 'TRIP.COM', 'HOTELS.COM', 'AIRBNB', 'KLOOK', 'KKDAY', '飯店', '住宿'],
+      '保費': ['壽險', '產險', '醫療險', '保險費', '數位保險'],
+      '水電': ['水費', '電費', '瓦斯費', '公用事業', '台電', '自來水'],
+      '繳費': ['水電', '瓦斯費', '學費', '公用事業', '地方稅', '綜所稅', '規費']
+    };
+
+    function matchesQueryTermWithAliases(corpus, normalizedTerm) {
+      if (corpus.includes(normalizedTerm)) return true;
+      const aliases = INTENT_ALIASES[normalizedTerm] || [];
+      return aliases.some(alias => corpus.includes(normalizeText(alias)));
+    }
+
+    function renderQuickScenarioPills(mode = 'card') {
+      const items = mode === 'payment'
+        ? [
+            ['🟢', 'LINE Pay', 'LINE Pay'],
+            ['🔴', '街口支付', '街口支付'],
+            ['🔵', '全支付', '全支付'],
+            ['🟠', 'icash Pay', 'icash Pay'],
+            ['🏪', '超商', '超商'],
+            ['🛒', '全聯', '全聯'],
+            ['💳', '台灣 Pay', '台灣 Pay']
+          ]
+        : [
+            ['🟢', 'LINE Pay', 'LINE Pay'],
+            ['🏪', '超商', '超商'],
+            ['🛒', '全聯', '全聯'],
+            ['🛍️', '網購', '網購'],
+            ['🍽️', '餐飲/外送', '餐飲'],
+            ['⛽', '中油/加油', '加油'],
+            ['✈️', '日本/海外', '日本'],
+            ['📑', '保費', '保費']
+          ];
+      return `<div class="mt-3.5 pt-3 border-t border-[#edf3f1]">
+        <div class="text-[10px] font-black text-ghibliInk-500 mb-2">⚡ 收銀台熱門情境一鍵快選</div>
+        <div class="flex flex-wrap justify-center gap-1.5">
+          ${items.map(([icon, label, val]) => `<button type="button" onclick="replaceSearchQuery('${val}')" class="scenario-pill"><span>${icon}</span><span>${label}</span></button>`).join('')}
+        </div>
+      </div>`;
+    }
+
     function renderMobilePaymentList() {
       const container = document.getElementById('spending-list-container');
       const spendAmount = Math.max(0, parseFloat(document.getElementById('spend-amount-input')?.value) || 0);
       const query = currentSearchText.trim();
       if (!query) {
         container.innerHTML = `
-          <div class="ghibli-card rounded-[22px] px-5 py-7 text-center bg-white">
-            <div class="text-2xl mb-2">📱</div>
+          <div class="ghibli-card rounded-[22px] px-4 py-6 text-center bg-white">
+            <div class="text-2xl mb-1.5">📱</div>
             <div class="text-sm font-black text-ghibliInk-800">輸入店家、通路或支付工具</div>
             <div class="mt-1 text-[11px] font-bold text-ghibliInk-500">例如：全聯、超商、LINE Pay、悠遊付</div>
+            ${renderQuickScenarioPills('payment')}
           </div>`;
         return;
       }
 
-      const normalizedQuery = normalizeText(query);
+      const rawTerms = query.split(/\s+/).filter(Boolean).map(t => normalizeText(t));
       const cardMap = new Map(appCards.map(card => [card.id, card]));
-      const matches = appRules.map(rule => {
+      const matches = appRules.filter(isCanonicalDisplayRule).map(rule => {
         const provider = getRulePaymentProvider(rule);
-        if (!provider || rule.quickSearchEligible === false || isRuleExpired(rule) || (KanuAccuracy.date(rule.validFrom) && KanuAccuracy.date(rule.validFrom) > new Date())) return null;
+        if (!provider || rule.quickSearchEligible === false || KanuAccuracy.assessment(rule).level === 'BLOCKED'
+            || isRuleExpired(rule) || (KanuAccuracy.date(rule.validFrom) && KanuAccuracy.date(rule.validFrom) > new Date())) return null;
         const merchantText = Array.isArray(rule.matchedMerchants) ? rule.matchedMerchants.join(' ') : '';
         const corpus = normalizeText(`${provider} ${rule.title || ''} ${rule.category || ''} ${merchantText} ${(rule.intentTags || []).join(' ')} ${rule.intentEvidence || ''}`);
-        if (!corpus.includes(normalizedQuery)) return null;
+        if (!rawTerms.every(term => matchesQueryTermWithAliases(corpus, term))) return null;
         const calc = calcRuleCashBack(rule, spendAmount);
         return {
           rule,
@@ -2659,11 +3443,12 @@
           <div class="ghibli-card recommend-glass-card rounded-[22px] p-3.5 space-y-2 cursor-pointer active:scale-[0.99] transition-transform" role="button" tabindex="0" data-payment-rule-id="${rule.id}" aria-label="查看 ${provider} ${rule.title} 活動大綱" onclick="openPaymentDetailModal(this.dataset.paymentRuleId)" onkeydown="if(event.key === 'Enter' || event.key === ' '){ event.preventDefault(); openPaymentDetailModal(this.dataset.paymentRuleId); }">
             <div class="flex items-start justify-between gap-2">
               <div><div class="text-[10px] font-black text-ghibliInk-500">${sourceLabel}</div><div class="text-sm font-black text-ghibliInk-800">${provider}</div></div>
-              <div class="text-base font-black text-ghibliGold-600">${getRuleRewardLabel(rule)}</div>
+              <div class="text-base font-black text-ghibliGold-600">${KanuAccuracy.isReviewed(rule) ? getRuleRewardLabel(rule) : KanuAccuracy.referenceReward(rule)}</div>
             </div>
             <div class="text-xs font-black text-ghibliInk-800">${rule.title}</div>
              <div class="flex flex-wrap gap-1 text-[9.5px] font-bold">
               <span class="rounded-lg bg-[#eef8f5] px-2 py-1 text-[#25877f]">${funding}</span>
+              ${!KanuAccuracy.isReviewed(rule) ? '<span class="rounded-lg bg-[#fff7ed] px-2 py-1 text-amber-700">條款待核對</span>' : ''}
               ${rule.needReg ? '<span class="rounded-lg bg-[#fff1ef] px-2 py-1 text-[#d95f59]">需先登錄／領券</span>' : ''}
             </div>
             <div class="border-t border-[#deebe8] pt-2 text-[10px] font-black text-[#25877f]">點擊查看活動大綱、適用條件與官方來源 →</div>
@@ -2725,13 +3510,14 @@
       const ownedSet = new Set(appCards.filter(c => c.owned).map(c => c.id));
 
       // 回饋快查必須由使用者的查詢決定推薦內容。搜尋框為空時不沿用
-      // 上一次活動，也不拿最高回饋活動（例如中油）冒充預設推薦。
+      // 上一次活動，也不拿最高回饋活動（例如中油）冒充預設推薦，僅提供情境快選膠囊。
       if (!query) {
         container.innerHTML = `
-          <div class="ghibli-card rounded-[22px] px-5 py-7 text-center bg-white">
-            <div class="text-2xl mb-2">⌕</div>
+          <div class="ghibli-card rounded-[22px] px-4 py-6 text-center bg-white">
+            <div class="text-2xl mb-1.5">⌕</div>
             <div class="text-sm font-black text-ghibliInk-800">輸入消費項目後再幫你比對</div>
             <div class="mt-1 text-[11px] font-bold text-ghibliInk-500">例如：中油、LINE Pay、餐廳、機票</div>
+            ${renderQuickScenarioPills('card')}
           </div>
         `;
         const warnBanner = document.getElementById('exclusion-warning-banner');
@@ -2756,7 +3542,9 @@
 
       let candidates = [];
       appRules.forEach(rule => {
+        if (!isCanonicalDisplayRule(rule)) return;
         if (isRuleExpired(rule) || (KanuAccuracy.date(rule.validFrom) && KanuAccuracy.date(rule.validFrom) > new Date())) return;
+        if (KanuAccuracy.eligibleDateStatus(rule) === 'OUTSIDE') return;
         const sourceCard = cardMap.get(rule.cardId);
         if (!sourceCard) return;
         if (rule.quickSearchEligible === false) return;
@@ -2780,7 +3568,12 @@
           }
           return;
         }
-        if (currentScope === 'my' && !ownedSet.has(rule.cardId)) return;
+        if (currentScope === 'my' && !ownedSet.has(rule.cardId)) {
+          const alternateId = (rule.eligibleCardIds || []).find(id => ownedSet.has(id));
+          if (!alternateId) return;
+          candidates.push({...rule,cardId:alternateId});
+          return;
+        }
         candidates.push(rule);
       });
 
@@ -2819,15 +3612,8 @@
         const rawTerms = query.split(/\s+/).filter(t => t.length > 0);
         const cleanQueryTerms = rawTerms.map(t => normalizeText(t));
         const isLinePayQuery = cleanQueryTerms.length === 1 && cleanQueryTerms[0] === 'LINEPAY';
-        const intentAliases = {
-          '加油': ['加油站', '台灣中油', '中油', '台塑石油', '台亞', '福懋']
-        };
 
-        const termMatches = (corpus, term) => {
-          if (corpus.includes(term)) return true;
-          const aliases = intentAliases[term] || [];
-          return aliases.some(alias => corpus.includes(normalizeText(alias)));
-        };
+        const termMatches = (corpus, term) => matchesQueryTermWithAliases(corpus, term);
 
         const getSearchMatchScore = (rule, includeCardIdentity = false) => {
           const card = cardMap.get(rule.cardId);
@@ -2979,7 +3765,7 @@
         const trusted = KanuAccuracy.isReviewed(rule);
         const quality = KanuAccuracy.assessment(rule);
         if (quality.level==='BLOCKED' && !pendingOpen) {
-          html += `<details class="mt-3"><summary class="cursor-pointer px-3 py-3 rounded-xl bg-ghibliCream-100 text-xs font-bold">資料缺漏或衝突（${pendingCount} 筆，暫停推薦）</summary><div class="mt-3 space-y-3">`;
+          html += `<details class="mt-3"><summary class="cursor-pointer px-3 py-3 rounded-xl bg-ghibliCream-100 text-xs font-bold">資料缺漏或待查（${pendingCount} 筆，暫停推薦）</summary><div class="mt-3 space-y-3">`;
           pendingOpen = true;
         }
         const groupKey = !trusted ? quality.level : currentOfferView === 'acquisition' ? 'acquisition' : (condition.conditional ? 'conditional' : 'direct');
@@ -2991,26 +3777,37 @@
           lastConditionGroup = groupKey;
         }
 
+        const badge = getRuleDisplayBadge(rule, calc, condition, card);
+        const cardUsage = getCardMonthlyUsage(card.id);
+        const usedCap = getRuleMonthlyUsedCap(rule);
+        const usageHintHtml = cardUsage.totalSpent > 0
+          ? `<div class="text-[9.5px] font-bold text-[#147a76] bg-[#eef9f7] border border-[#cdebe5] rounded-lg px-2 py-1 flex items-center justify-between">
+               <span>⚡ 本月此卡已記帳 NT$${cardUsage.totalSpent.toLocaleString()}</span>
+               ${typeof rule.capAmount === 'number' && rule.capAmount > 0 && usedCap > 0 ? `<span class="font-black">預估已用額度 NT$${usedCap}/${rule.capAmount}</span>` : ''}
+             </div>`
+          : '';
+
         html += `
-          <div class="ghibli-card recommend-glass-card rounded-[20px] p-3 flex flex-col gap-2.5">
-            <div class="flex items-center justify-between gap-3">
+          <div class="ghibli-card recommend-glass-card rounded-[20px] p-3 flex flex-col gap-2">
+            <div class="flex items-center justify-between gap-2.5">
               ${renderCardThumbnail(card, rule.id)}
               <div class="flex-1 min-w-0 cursor-pointer" onclick="openCardDetailModal('${card.id}', '${rule.id}')">
                 <div class="text-[10.5px] font-bold text-ghibliInk-500 leading-tight">${card.bank}</div>
                 <div class="text-[14px] font-black text-ghibliInk-900 leading-snug truncate">${card.cardName}</div>
                 <div class="text-[11px] font-bold text-ghibliInk-600 truncate mt-0.5">${rule.title}</div>
               </div>
-              <div class="recommend-reward-badge flex-shrink-0 cursor-pointer" onclick="openCardDetailModal('${card.id}', '${rule.id}')">
-                <div class="recommend-big-rate">${getRuleDisplayBadge(rule, calc).rate}</div>
-                <div class="recommend-sub-cash">${calc.totalCash > 0 ? ("預估 NT$" + calc.totalCash) : (condition.conditional ? "達成條件" : "直接刷")}</div>
+              <div class="recommend-reward-badge badge-tone-${badge.tone} flex-shrink-0 cursor-pointer" onclick="openCardDetailModal('${card.id}', '${rule.id}')">
+                <div class="recommend-big-rate ${badge.isCompact ? 'is-compact' : ''}">${badge.rate}</div>
+                <div class="recommend-sub-cash">${badge.sub}</div>
               </div>
             </div>
+            ${usageHintHtml}
             <div class="flex items-center justify-between pt-1 border-t border-[#edf3f1]">
               <div class="flex items-center flex-wrap gap-1">
                 ${renderQuickRecommendationTags(rule, card, condition)}
               </div>
               <div class="flex items-center gap-1.5 flex-shrink-0">
-                <button type="button" onclick="recordSpendForCard('${card.id}', ${spendAmount})" class="px-2.5 py-1 rounded-lg bg-[#e6f7f4] text-[#147a76] text-[10.5px] font-black border border-[#bfe8e2] active:scale-95 transition" title="計入本月已刷額度">
+                <button type="button" onclick="recordSpendForCard('${card.id}', ${spendAmount}, '${rule.id}')" class="px-2.5 py-1 rounded-lg bg-[#e6f7f4] text-[#147a76] text-[10.5px] font-black border border-[#bfe8e2] active:scale-95 transition" title="計入本月已刷額度並預估扣抵上限">
                   ⚡ 剛刷這筆
                 </button>
                 <button type="button" onclick="openCardDetailModal('${card.id}', '${rule.id}')" class="px-2 py-1 rounded-lg bg-white text-ghibliInk-600 text-[10.5px] font-black border border-[#dce6e3] active:scale-95">
@@ -3032,7 +3829,17 @@
       const note = '<div class="text-[10px] font-bold text-amber-800 mb-1">' +
         (checked ? '已核對官方條款' : KanuAccuracy.assessment(rule).label + '；資料列示回饋不是保證實得') +
         (rule.fetchedAt ? ' · 擷取 ' + safePlainText(rule.fetchedAt.slice(0, 10)) : ' · 擷取日期不明') + '</div>';
-      return note + renderRuleSourceLinkBody(rule);
+      let booking = '';
+      if (!rule.needReg && rule.bookingDestinationVerified && rule.bookingUrl) {
+        try {
+          const url = new URL(rule.bookingUrl);
+          if (url.protocol === 'https:' && !url.username && !url.password) {
+            const href = url.href.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/'/g, '&#39;');
+            booking = `<a href="${href}" target="_blank" rel="noopener noreferrer" class="inline-flex ml-2 text-[11px] font-bold text-ghibliGreen-600 underline py-1">前往服務預約 ↗</a>`;
+          }
+        } catch {}
+      }
+      return note + renderRuleSourceLinkBody(rule) + booking;
     }
 
     function renderRuleSourceLinkBody(rule) {
@@ -3043,7 +3850,7 @@
         const href = url.href.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/'/g, '&#39;');
         if (rule.needReg) {
           const ruleIndex = appRules.indexOf(rule);
-          return `<button onclick="openRegistrationPage(${ruleIndex})" class="inline-flex items-center text-[11px] font-black text-ghibliGreen-600 bg-ghibliGreen-100 border border-ghibliGreen-200 rounded-lg px-2.5 py-1.5">前往官方活動／登錄頁 ↗</button>`;
+          return `<button onclick="openRegistrationPage(${ruleIndex})" class="inline-flex items-center text-[11px] font-black text-ghibliGreen-600 bg-ghibliGreen-100 border border-ghibliGreen-200 rounded-lg px-2.5 py-1.5">${getRegistrationActionLabel(rule)} ↗</button>`;
         }
         return `<a href="${href}" target="_blank" rel="noopener noreferrer" class="inline-flex text-[11px] font-bold text-ghibliGold-600 underline py-1">查看此活動來源 ↗</a>`;
       } catch {
@@ -3076,9 +3883,10 @@
       const query = currentSearchText.trim();
       const detailCardMap = new Map(appCards.map(item => [item.id, item]));
       let cardRules = appRules.filter(r => {
+        if (!isCanonicalDisplayRule(r)) return false;
         if (isRuleExpired(r)) return false;
         if (ruleExplicitlyNamesAnotherCard(r, card, detailCardMap)) return false;
-        if (r.cardId === cardId) return true;
+        if (r.cardId === cardId || (r.eligibleCardIds || []).includes(cardId)) return true;
         const sourceCard = detailCardMap.get(r.cardId);
         return isBankWideRule(r, detailCardMap) && sourceCard && sourceCard.bank === card.bank;
       });
@@ -3149,6 +3957,16 @@
         }
       }
 
+      const modalCardUsage = getCardMonthlyUsage(card.id);
+      const modalUsageHtml = modalCardUsage.totalSpent > 0 ? `
+        <div class="rounded-2xl border border-[#ccece7] bg-[#f2fbf9] p-3 space-y-1.5 text-[10.5px]">
+          <div class="flex items-center justify-between font-black text-[#147a76]">
+            <span>⚡ 本月此卡已記帳消費：NT$${modalCardUsage.totalSpent.toLocaleString()}（${modalCardUsage.txCount} 筆）</span>
+            <button type="button" onclick="resetCardMonthlyUsage('${card.id}')" class="text-rose-500 hover:underline">↺ 歸零</button>
+          </div>
+        </div>
+      ` : '';
+
       bodyEl.innerHTML = `
         <div class="space-y-3">
           <div class="p-3 rounded-2xl text-white flex flex-col justify-between shadow-xs" style="background: ${card.themeBg}; height: 85px;">
@@ -3156,8 +3974,12 @@
               <span>${card.bank}</span>
               <span>${card.cardName}</span>
             </div>
-            <div class="text-[11px] font-bold">${card.descTag}</div>
+            <div class="flex items-center justify-between">
+              <div class="text-[11px] font-bold truncate pr-2">${card.descTag}</div>
+              <button type="button" onclick="toggleCardOwnership('${card.id}'); openCardDetailModal('${card.id}', '${preferredRuleId}')" class="px-2.5 py-1 rounded-lg bg-white/95 text-[#1f343a] text-[10px] font-black flex-shrink-0 shadow-xs">${card.owned ? '✓ 已在卡包' : '＋ 加入卡包'}</button>
+            </div>
           </div>
+          ${modalUsageHtml}
           <div class="font-black text-ghibliInk-700 text-xs pt-1 flex items-center justify-between">
             <span>📋 ${query ? `與「${query}」相關的回饋權益：` : '所有適用權益與加碼條款：'}</span>
           </div>
@@ -3225,7 +4047,7 @@
     function renderRewardsStore() {
       const container = document.getElementById('rewards-store-container');
       const cardMap = new Map(appCards.map(c => [c.id, c]));
-      let regRules = appRules.filter(r => r.needReg);
+      let regRules = appRules.filter(r => isCanonicalDisplayRule(r) && r.needReg);
 
       if (currentRegBankFilter !== 'ALL') {
         regRules = regRules.filter(r => {
@@ -3327,10 +4149,20 @@
         : method?.type === 'PHONE' ? rule.sourceUrl
         : rule && (rule.registrationUrl || rule.sourceUrl);
       try {
+        const source = new URL(rule?.sourceUrl || '');
+        if (source.protocol !== 'https:' || source.username || source.password) return '';
         const url = new URL(candidate);
-        return url.protocol === 'https:' && !url.username && !url.password ? url.href : '';
+        if (url.protocol !== 'https:' || url.username || url.password) return source.href;
+        const evidence = rule.registrationLinkEvidence;
+        const observed = evidence?.method === 'observed_page_anchor'
+          && evidence.sourceUrl === rule.sourceUrl
+          && Array.isArray(evidence.urls) && evidence.urls.includes(url.href);
+        return observed ? url.href : source.href;
       } catch (e) {
-        return '';
+        try {
+          const source = new URL(rule?.sourceUrl || '');
+          return source.protocol === 'https:' && !source.username && !source.password ? source.href : '';
+        } catch { return ''; }
       }
     }
 
@@ -3351,9 +4183,11 @@
 
     function getRegistrationActionLabel(rule) {
       const method = getPrimaryRegistrationMethod(rule);
+      const destination = getRegistrationDestination(rule);
+      if (!destination || destination === new URL(rule.sourceUrl).href) return '前往活動來源頁確認登錄方式';
       if (method?.type === 'APP') return method.deepLink ? `開啟 ${method.appName || '銀行 App'}` : '查看 App 登錄方式';
       if (method?.type === 'PHONE') return '查看電話登錄方式';
-      return rule.registrationUrl ? '前往官方登錄頁' : '前往官方活動頁';
+      return '前往活動來源頁列出的登錄連結';
     }
 
     function renderRegistrationMethodInfo(rule) {
@@ -3718,7 +4552,171 @@
       } catch (e) { appRules.forEach(r => r.registered = false); }
     }
 
-    function clearCacheAndReset() {
+    function openMissingCardModal() {
+      const searchVal = safePlainText(document.getElementById('add-card-search')?.value || '');
+      const bankInput = document.getElementById('missing-card-bank');
+      const nameInput = document.getElementById('missing-card-name');
+      if (bankInput) bankInput.value = currentAddBankFilter !== 'ALL' ? currentAddBankFilter : '';
+      if (nameInput) nameInput.value = searchVal;
+      document.getElementById('missing-card-modal')?.classList.remove('hidden');
+    }
+
+    function closeMissingCardModal() {
+      document.getElementById('missing-card-modal')?.classList.add('hidden');
+    }
+
+    function createCustomCardFromModal() {
+      const bank = safePlainText(document.getElementById('missing-card-bank')?.value || '').slice(0, 24);
+      const cardName = safePlainText(document.getElementById('missing-card-name')?.value || '').slice(0, 40);
+      if (!bank || !cardName) {
+        showTip('請輸入發卡銀行與卡片名稱');
+        return;
+      }
+      const id = safeDataId(`card_custom_${Date.now().toString(36)}`, 'card_custom_user');
+      const existingCustoms = loadCustomCards();
+      const newRaw = {
+        id,
+        bank,
+        cardName: cardName.includes('卡') ? cardName : (cardName + '卡'),
+        descTag: '本機自訂卡 · 可追蹤消費額度'
+      };
+      try {
+        localStorage.setItem(CUSTOM_CARDS_KEY, JSON.stringify([...existingCustoms, newRaw].slice(0, 100)));
+      } catch (e) {}
+      mergeCustomCardsIntoDeck();
+      const created = appCards.find(c => c.id === id);
+      if (created) created.owned = true;
+      saveOwnership();
+      renderBankFilterTabs();
+      updateBadges();
+      renderDeckList();
+      renderSpendingList();
+      closeMissingCardModal();
+      closeAddCardModal();
+      showTip(`✨ 已建立並將「${newRaw.cardName}」加入我的卡包`);
+    }
+
+    function submitMissingCardIssue() {
+      const bank = safePlainText(document.getElementById('missing-card-bank')?.value || '未填銀行');
+      const cardName = safePlainText(document.getElementById('missing-card-name')?.value || '未填卡名');
+      const title = encodeURIComponent(`[補卡申請] ${bank} - ${cardName}`);
+      const body = encodeURIComponent(`發卡銀行：${bank}\n卡片名稱：${cardName}\n目前資料庫版次：${activeDataVersion || '未知'}\n`);
+      window.open(`https://github.com/icalmonkey-web/kanu-database/issues/new?title=${title}&body=${body}`, '_blank', 'noopener,noreferrer');
+      closeMissingCardModal();
+    }
+
+    function exportUserBackup() {
+      try {
+        const monthlyCapUsage = Object.create(null);
+        for (let i = 0; i < localStorage.length; i++) {
+          const k = localStorage.key(i);
+          if (k && /^kanu_cap_usage_\d{4}-\d{2}$/.test(k)) {
+            monthlyCapUsage[k] = sanitizeUsageMap(JSON.parse(localStorage.getItem(k) || '{}'));
+          }
+        }
+        const payload = {
+          schemaVersion: 2,
+          exportedAt: new Date().toISOString(),
+          ownedCardIds: appCards.filter(c => c.owned && isRealCardProduct(c)).map(c => c.id),
+          customCards: loadCustomCards().map(c => ({ id: c.id, bank: c.bank, cardName: c.cardName, descTag: c.descTag })),
+          registeredPeriods: JSON.parse(localStorage.getItem('kanu_registration_periods_v3') || '{}'),
+          monthlyCapUsage,
+          recommendationMode: currentRecommendationMode
+        };
+        const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        const dateTag = getTaipeiYearMonth().replace('-', '') + String(new Date(Date.now() + 8 * 3600000).getUTCDate()).padStart(2, '0');
+        a.href = url;
+        a.download = `kanu_backup_${dateTag}.json`;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
+        showTip('📤 已匯出個人備份 JSON 檔案');
+      } catch (e) {
+        showTip('備份匯出失敗');
+      }
+    }
+
+    function triggerImportBackup() {
+      const input = document.getElementById('import-backup-input');
+      if (input) {
+        input.value = '';
+        input.click();
+      }
+    }
+
+    function validateAndApplyBackupObject(data) {
+      if (!data || typeof data !== 'object' || Array.isArray(data)) throw new Error('備份格式無效');
+      if (![1, 2].includes(Number(data.schemaVersion))) throw new Error('不支援的備份版本');
+
+      if (Array.isArray(data.customCards)) {
+        const cleanCustoms = data.customCards.slice(0, 100).map((item, idx) => ({
+          id: safeDataId(item?.id, `card_custom_${idx}`),
+          bank: safePlainText(item?.bank, '自訂發卡行').slice(0, 24),
+          cardName: safePlainText(item?.cardName, '自訂信用卡').slice(0, 40),
+          descTag: safePlainText(item?.descTag, '本機自訂卡 · 可追蹤消費額度').slice(0, 60)
+        }));
+        localStorage.setItem(CUSTOM_CARDS_KEY, JSON.stringify(cleanCustoms));
+        mergeCustomCardsIntoDeck();
+      }
+
+      if (Array.isArray(data.ownedCardIds)) {
+        const cleanIds = data.ownedCardIds.slice(0, 500).map(id => safeDataId(id, '')).filter(Boolean);
+        localStorage.setItem('kanu_owned_ids', JSON.stringify(cleanIds));
+      }
+
+      if (data.registeredPeriods && typeof data.registeredPeriods === 'object' && !Array.isArray(data.registeredPeriods)) {
+        const cleanReg = Object.create(null);
+        for (const [k, v] of Object.entries(data.registeredPeriods).slice(0, 2000)) {
+          if (k === '__proto__' || k === 'constructor' || k === 'prototype') continue;
+          if (v === true && typeof k === 'string' && k.length <= 600) cleanReg[k] = true;
+        }
+        localStorage.setItem('kanu_registration_periods_v3', JSON.stringify(cleanReg));
+      }
+
+      if (data.monthlyCapUsage && typeof data.monthlyCapUsage === 'object' && !Array.isArray(data.monthlyCapUsage)) {
+        for (const [monthKey, mapVal] of Object.entries(data.monthlyCapUsage).slice(0, 36)) {
+          if (!/^kanu_cap_usage_\d{4}-\d{2}$/.test(monthKey)) continue;
+          localStorage.setItem(monthKey, JSON.stringify(sanitizeUsageMap(mapVal)));
+        }
+      }
+
+      if (data.recommendationMode === 'easy' || data.recommendationMode === 'max') {
+        currentRecommendationMode = data.recommendationMode;
+        localStorage.setItem('kanu_recommendation_mode', currentRecommendationMode);
+      }
+
+      loadOwnership();
+      loadRegisteredState();
+      renderAllViews();
+    }
+
+    function handleImportBackupFile(event) {
+      const file = event?.target?.files?.[0];
+      if (!file) return;
+      if (file.size > 2 * 1024 * 1024) {
+        showTip('⚠️ 備份檔超過 2MB 安全上限');
+        return;
+      }
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const parsed = JSON.parse(String(reader.result || ''));
+          validateAndApplyBackupObject(parsed);
+          showTip('✨ 已成功還原個人卡包、登錄與刷卡紀錄！');
+        } catch (err) {
+          showTip('⚠️ 備份檔格式錯誤：' + (err?.message || '無法解析'));
+        }
+      };
+      reader.readAsText(file, 'utf-8');
+    }
+
+    async function clearCacheAndReset() {
+      const ok = window.confirm('⚠️ 確定要清除所有本機資料並還原初始狀態嗎？\n\n這將會清除您設定的「我的卡包」、「已標記登錄活動」與「本月刷卡紀錄」。\n建議清除前先點選上方「📤 匯出個人備份」。');
+      if (!ok) return;
+      await kanuIdbClear();
       localStorage.clear();
       location.reload();
     }
@@ -3759,6 +4757,7 @@
       loadOwnership();
       loadRegisteredState();
       renderAllViews();
+      hydrateFromIndexedDBIfNewer();
       // 使用者若從銀行頁切回、或預覽頁被重新載入，資料完成載入後仍要顯示
       // 尚未確認的登錄結果，避免狀態確認因頁面重整而消失。
       if (sessionStorage.getItem('kanu_pending_registration_key')) {

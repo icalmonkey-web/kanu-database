@@ -1,0 +1,130 @@
+{
+  "baselineId": "icashpay_wanjiafu_base_uniopen_2026_partial",
+  "scope": "icash Pay 萬家福等通路 2026/10/10–12/31 基本 5% 與 uniopen 聯名卡加碼 5% 的兩個公開方案；每月 10 日起及即時點數池尚不能由 App 判斷",
+  "observedAt": "2026-11-05",
+  "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2497",
+  "offers": [
+    {
+      "id": "base",
+      "fields": {
+        "validFrom": {
+          "value": "2026-10-10",
+          "sourceLineHint": "L8"
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": "L8"
+        },
+        "eligibleWeekdays": {
+          "value": [
+            5,
+            6,
+            0
+          ],
+          "sourceLineHint": "L8 and L19: 週五六日"
+        },
+        "promoRate": {
+          "value": 5,
+          "sourceLineHint": "L16-L19"
+        },
+        "rewardType": {
+          "value": "points",
+          "sourceLineHint": "L19: OPENPOINT"
+        },
+        "rewardUnit": {
+          "value": "percent",
+          "sourceLineHint": "L19: 5%"
+        },
+        "rewardAmount": {
+          "value": null,
+          "sourceLineHint": "L19: 150 點是月上限"
+        },
+        "capAmount": {
+          "value": 150,
+          "sourceLineHint": "L19"
+        },
+        "capPeriod": {
+          "value": "MONTHLY",
+          "sourceLineHint": "L19"
+        },
+        "campaignCapAmount": {
+          "value": 350000,
+          "sourceLineHint": "L19: 每月贈點上限"
+        },
+        "minimumSpend": {
+          "value": 0,
+          "sourceLineHint": "L19: 不限金額"
+        },
+        "needReg": {
+          "value": false,
+          "sourceLineHint": "L40-L42 僅須註冊支付帳號，未見本活動登錄"
+        },
+        "eligibleMonthDayFrom": {
+          "value": 10,
+          "sourceLineHint": "L8: 每月 10 日起"
+        }
+      }
+    },
+    {
+      "id": "uniopen",
+      "fields": {
+        "validFrom": {
+          "value": "2026-10-10",
+          "sourceLineHint": "L8"
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": "L8"
+        },
+        "eligibleWeekdays": {
+          "value": [
+            5,
+            6,
+            0
+          ],
+          "sourceLineHint": "L8 and L25: 週五六日"
+        },
+        "promoRate": {
+          "value": 5,
+          "sourceLineHint": "L21-L25"
+        },
+        "rewardType": {
+          "value": "points",
+          "sourceLineHint": "L25: OPENPOINT"
+        },
+        "rewardUnit": {
+          "value": "percent",
+          "sourceLineHint": "L25: 5%"
+        },
+        "rewardAmount": {
+          "value": null,
+          "sourceLineHint": "L25: 150 點是月上限"
+        },
+        "capAmount": {
+          "value": 150,
+          "sourceLineHint": "L25"
+        },
+        "capPeriod": {
+          "value": "MONTHLY",
+          "sourceLineHint": "L25"
+        },
+        "campaignCapAmount": {
+          "value": 350000,
+          "sourceLineHint": "L25: 每月贈點上限"
+        },
+        "minimumSpend": {
+          "value": 0,
+          "sourceLineHint": "L25: 不限金額"
+        },
+        "needReg": {
+          "value": false,
+          "sourceLineHint": "L40-L42 僅須註冊支付帳號，未見本活動登錄"
+        },
+        "eligibleMonthDayFrom": {
+          "value": 10,
+          "sourceLineHint": "L8: 每月 10 日起"
+        }
+      }
+    }
+  ]
+}

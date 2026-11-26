@@ -1,0 +1,10 @@
+{
+  "baselineId": "esun_unicard_core_2026h2",
+  "mappings": [
+    {"offerId": "general_ebill", "ruleId": "review_unicard_general_202610", "tierIndex": 0},
+    {"offerId": "general_ebill_autodebit", "ruleId": "review_unicard_general_202610", "tierIndex": 1},
+    {"offerId": "simple_bonus", "ruleId": "review_unicard_linepay_202610", "tierIndex": 1},
+    {"offerId": "choose_bonus", "ruleId": "review_unicard_linepay_202610", "tierIndex": 3},
+    {"offerId": "up_bonus", "ruleId": "review_unicard_linepay_202610", "tierIndex": 5}
+  ]
+}

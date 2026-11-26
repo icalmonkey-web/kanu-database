@@ -1,0 +1,16 @@
+{
+  "baselineId":"icashpay_member_seveneleven_2026_partial",
+  "scope":"icash Pay 2026 會員優惠列表中統一超商 0.5% OPENPOINT 的公開摘要；詳情彈窗的支付資格、排除與上限未覆核",
+  "observedAt":"2026-11-04",
+  "sourceUrl":"https://www.icashpay.com.tw/event/memberbenefits/",
+  "offers":[{"id":"seveneleven_summary","fields":{
+    "validFrom":{"value":"2026-07-01","sourceLineHint":"L1-L5"},
+    "validUntil":{"value":"2026-12-31","sourceLineHint":"L1-L5"},
+    "matchedMerchants":{"value":["7-ELEVEN"],"sourceLineHint":"L7: 統一超商卡片"},
+    "scope":{"value":"SPECIFIC","sourceLineHint":"L7-L13: 統一超商卡片下的優惠"},
+    "paymentProvider":{"value":"icash Pay","sourceLineHint":"L11"},
+    "baseRate":{"value":0.5,"sourceLineHint":"L11"},
+    "rewardType":{"value":"points","sourceLineHint":"L9-L11: OPENPOINT"},
+    "rewardAmount":{"value":null,"sourceLineHint":"L11: 0.5%不是固定0.5點"}
+  }}]
+}

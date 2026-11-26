@@ -1,0 +1,22 @@
+{
+  "baselineId":"nextbank_10_npoints_2026",
+  "scope":"將來銀行 2026/6/24–12/31 全聯與四大超商將來支付 10 N 點活動的公開結構欄位；不驗證實際登錄與點數池剩餘量",
+  "observedAt":"2026-11-04",
+  "sourceUrl":"https://www.nextbank.com.tw/announcement/45c1e31fa40000000285cadc56793797/event1177",
+  "offers":[{"id":"ten_npoints","fields":{
+    "paymentProvider":{"value":"將來支付","sourceLineHint":"L72-L75"},
+    "validFrom":{"value":"2026-06-24","sourceLineHint":"L66-L67"},
+    "validUntil":{"value":"2026-12-31","sourceLineHint":"L66-L67"},
+    "minimumSpend":{"value":100,"sourceLineHint":"L75"},
+    "promoRate":{"value":0,"sourceLineHint":"L75; fixed 10 N points, not 10%"},
+    "rewardType":{"value":"points","sourceLineHint":"L75"},
+    "rewardUnit":{"value":"points","sourceLineHint":"L75"},
+    "rewardAmount":{"value":10,"sourceLineHint":"L75"},
+    "capAmount":{"value":30,"sourceLineHint":"L75"},
+    "capPeriod":{"value":"MONTHLY","sourceLineHint":"L75"},
+    "campaignCapAmount":{"value":210,"sourceLineHint":"L75"},
+    "needReg":{"value":true,"sourceLineHint":"L76"},
+    "registrationStart":{"value":"2026-06-24","sourceLineHint":"L76"},
+    "registrationEnd":{"value":"","sourceLineHint":"L76 specifies start only; no explicit closing time"}
+  }}]
+}

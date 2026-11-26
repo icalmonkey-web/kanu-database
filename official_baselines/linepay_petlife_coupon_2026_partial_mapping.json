@@ -1,0 +1,4 @@
+{
+  "baselineId": "linepay_petlife_coupon_2026_partial",
+  "mappings": [{"offerId":"petlife_coupon","ruleId":"pending_ctbc_linepay_pet_2026_petlife"}]
+}

@@ -1,0 +1,2881 @@
+{
+  "generatedAt": "2026-11-07T16:44:01.657619+00:00",
+  "catalogs": [
+    {
+      "catalogId": "ctbc_linepay_fashion_2026",
+      "scope": "中國信託 LINE Pay 卡脆時尚頁 2026-11-07 可見的 25 個列表入口，含 LINE Pay 及 ShopBack 合作項目；僅盤點入口與列表日期，複合優惠仍待拆分",
+      "observedAt": "2026-11-07",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_fashion.html",
+      "catalogFresh": true,
+      "officialOffers": 25,
+      "matchedRecords": 4,
+      "candidateRecords": 21,
+      "missingRecords": 0,
+      "scopedListingMatchPercent": 16.0,
+      "fullTermsVerifiedPercent": null,
+      "marketAccuracyPercent": null,
+      "marketCoveragePercent": null,
+      "acceptanceStatus": "NOT_ESTABLISHED",
+      "rows": [
+        {
+          "offerId": "watsons",
+          "name": "watsons 屈臣氏最高 7%",
+          "channel": "CARD",
+          "sourceLineHint": 30,
+          "ruleIds": [
+            "rule_9b4fdf62817e99e7418a"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "vacanza",
+          "name": "VACANZA 81 折加 6%",
+          "channel": "CARD",
+          "sourceLineHint": 36,
+          "ruleIds": [
+            "rule_ea7cdd2e0b8e36a8b01a"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "sisley",
+          "name": "Sisley 6%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 43,
+          "ruleIds": [
+            "rule_8be1d7ac2cc79e568969"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "dokodemo",
+          "name": "DOKODEMO ShopBack 3.5%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 51,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_dokodemo"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "estee_lauder",
+          "name": "雅詩蘭黛 5%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 59,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_estee_lauder"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "jo_malone",
+          "name": "Jo Malone 5%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 66,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_jo_malone"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "la_mer",
+          "name": "LA MER 5%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 74,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_la_mer"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "mac",
+          "name": "MAC 5%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 82,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_mac"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "bobbi_brown",
+          "name": "BOBBI BROWN 5%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 89,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_bobbi_brown"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "origins",
+          "name": "品木宣言 5%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 97,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_origins"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "clinique",
+          "name": "倩碧 5%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 105,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_clinique"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "shiseido",
+          "name": "資生堂國際櫃 6%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 112,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_shiseido"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "cle_de_peau",
+          "name": "肌膚之鑰 6%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 120,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_cle_de_peau"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "ipsa",
+          "name": "IPSA 6%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 128,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_ipsa"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "nars",
+          "name": "NARS 6%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 135,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_nars"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "watashi",
+          "name": "Watashi+ 6%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 143,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_watashi"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "kafen",
+          "name": "KAFEN 8%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 151,
+          "ruleIds": [
+            "rule_fe3b235a35f6c2330652"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "sabon",
+          "name": "SABON 6%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 158,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_sabon"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "hearth",
+          "name": "hearth 6%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 166,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_hearth"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "sulwhasoo",
+          "name": "雪花秀 6%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 174,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_sulwhasoo"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "laneige",
+          "name": "蘭芝 6%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 181,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_laneige"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "mirae",
+          "name": "mirae 未來美 ShopBack 5%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 189,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_mirae"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "m2",
+          "name": "M2 美度 ShopBack 5%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 197,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_m2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "dv",
+          "name": "DV 麗彤生醫 ShopBack 8%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 204,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_dv"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "poya",
+          "name": "POYA 寶雅最高 3%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 211,
+          "ruleIds": [
+            "pending_ctbc_linepay_fashion_2026_poya"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；卡別、付款、回饋上限、名額及登錄條款待逐欄核對，暫停推薦"
+        }
+      ],
+      "liveListingStatus": "NOT_RECHECKED_IN_24H",
+      "liveCheckedAt": null,
+      "liveMissingKnownOffers": [],
+      "liveChangedDateOffers": [],
+      "liveListingMatchPercent": null
+    },
+    {
+      "catalogId": "ctbc_linepay_food_2026h2",
+      "scope": "中國信託 LINE Pay 卡脆饗食頁 2026-11-02 可見的全部 14 個活動入口；包含銀行、LINE Pay 與 ShopBack 合作優惠",
+      "observedAt": "2026-11-03",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_food.html",
+      "catalogFresh": true,
+      "officialOffers": 14,
+      "matchedRecords": 14,
+      "candidateRecords": 0,
+      "missingRecords": 0,
+      "scopedListingMatchPercent": 100.0,
+      "fullTermsVerifiedPercent": null,
+      "marketAccuracyPercent": null,
+      "marketCoveragePercent": null,
+      "acceptanceStatus": "NOT_ESTABLISHED",
+      "rows": [
+        {
+          "offerId": "caesar_park",
+          "name": "板橋凱薩大飯店 Lotus 餐廳折扣",
+          "channel": "CARD",
+          "sourceLineHint": 30,
+          "ruleIds": [
+            "review_ctbc_linepay_caesar_202609"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "selected_hotels",
+          "name": "精選飯店／餐廳 LINE POINTS 5%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 39,
+          "ruleIds": [
+            "review_linepay_selected_hotels_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "foodpanda",
+          "name": "foodpanda 指定代碼滿額折價",
+          "channel": "CARD",
+          "sourceLineHint": 45,
+          "ruleIds": [
+            "rule_08a40a8180ff16448a91",
+            "rule_3d990c1ffca1103a85f3",
+            "review_ctbc_foodpanda_first_grocery_2026",
+            "review_ctbc_foodpanda_breakfast_2026"
+          ],
+          "presentRuleCount": 4,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "uber_eats",
+          "name": "Uber Eats LINE POINTS 5%",
+          "channel": "CARD",
+          "sourceLineHint": 52,
+          "ruleIds": [
+            "rule_141a6550938b29d8ba13"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "starbucks",
+          "name": "Starbucks LINE POINTS 5%",
+          "channel": "CARD",
+          "sourceLineHint": 60,
+          "ruleIds": [
+            "rule_77b16b4262cd2c2704ad"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "sushiro",
+          "name": "SUSHIRO LINE POINTS 10%",
+          "channel": "CARD",
+          "sourceLineHint": 68,
+          "ruleIds": [
+            "rule_26ab533bf77c05b5133c"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "komeda",
+          "name": "Komeda's Coffee LINE POINTS 10%",
+          "channel": "CARD",
+          "sourceLineHint": 75,
+          "ruleIds": [
+            "rule_1e1328f849591e9e8f10"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "mos_burger",
+          "name": "MOS Burger LINE POINTS 10%",
+          "channel": "CARD",
+          "sourceLineHint": 83,
+          "ruleIds": [
+            "rule_e74497743e60187f7f2a"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "kura_sushi",
+          "name": "Kura Sushi LINE POINTS 10%",
+          "channel": "CARD",
+          "sourceLineHint": 91,
+          "ruleIds": [
+            "rule_a7fcac04b54ea87a2f43"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "pizza_hut_shopback",
+          "name": "必勝客 ShopBack 4%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 98,
+          "ruleIds": [
+            "review_ctbc_shopback_pizzahut_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "kfc_shopback",
+          "name": "肯德基 ShopBack 4%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 106,
+          "ruleIds": [
+            "review_ctbc_shopback_kfc_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "breakfast_coffee",
+          "name": "早餐咖啡每週 10 元券",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 114,
+          "ruleIds": [
+            "review_linepay_breakfast_coffee_coupon_2026q4"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "brand_restaurants",
+          "name": "品牌餐廳每週 20 元券",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 121,
+          "ruleIds": [
+            "review_linepay_brand_restaurant_coupon_2026q4"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "lopia",
+          "name": "LOPIA LINE POINTS 最高 6%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 129,
+          "ruleIds": [
+            "review_linepay_lopia_2026q4"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        }
+      ],
+      "liveListingStatus": "NOT_RECHECKED_IN_24H",
+      "liveCheckedAt": null,
+      "liveMissingKnownOffers": [],
+      "liveChangedDateOffers": [],
+      "liveListingMatchPercent": null
+    },
+    {
+      "catalogId": "ctbc_linepay_life_2026",
+      "scope": "中國信託 LINE Pay 卡脆慢活頁 2026-11-03 可見的全部 31 個活動入口，含逾期仍展示、LINE Pay 與 ShopBack 合作活動；僅核對入口收錄，不代表條款正確",
+      "observedAt": "2026-11-03",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+      "catalogFresh": true,
+      "officialOffers": 31,
+      "matchedRecords": 6,
+      "candidateRecords": 25,
+      "missingRecords": 0,
+      "scopedListingMatchPercent": 19.35,
+      "fullTermsVerifiedPercent": null,
+      "marketAccuracyPercent": null,
+      "marketCoveragePercent": null,
+      "acceptanceStatus": "NOT_ESTABLISHED",
+      "rows": [
+        {
+          "offerId": "adidas_nov",
+          "name": "Adidas 最高16%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 32,
+          "ruleIds": [
+            "review_ctbc_adidas_2026_11_pending"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已記錄官方日期與兩段門檻，但名額與回饋上限尚未核實，禁止試算推薦"
+        },
+        {
+          "offerId": "greattree",
+          "name": "大樹藥局最高6%",
+          "channel": "CARD",
+          "sourceLineHint": 40,
+          "ruleIds": [
+            "rule_4a815ab4479aa69a6253"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "同一官方頁列表寫最高6%，下方活動詳情標題寫最高8%，需核對實際回饋組成"
+        },
+        {
+          "offerId": "casetify",
+          "name": "CASETiFY 4%",
+          "channel": "CARD",
+          "sourceLineHint": 46,
+          "ruleIds": [
+            "review_ctbc_casetify_2026q4"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "verve",
+          "name": "Verve 85折加5%",
+          "channel": "CARD",
+          "sourceLineHint": 54,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_verve"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "funte",
+          "name": "FUNTE 88折加5%",
+          "channel": "CARD",
+          "sourceLineHint": 63,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_funte"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "greendays",
+          "name": "綠綠好日現折加5%",
+          "channel": "CARD",
+          "sourceLineHint": 71,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_greendays"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "goamazing",
+          "name": "GoAmazing 購精彩滿額折扣加6%",
+          "channel": "CARD",
+          "sourceLineHint": 78,
+          "ruleIds": [
+            "review_ctbc_goamazing_code_2026_pending"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "官方 10/7–11/30 折扣碼與 5/1–12/31 點數方案已拆分；結帳時折扣碼可用性及卡別仍待驗證"
+        },
+        {
+          "offerId": "xiaomi_shopback",
+          "name": "Xiaomi ShopBack 3%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 86,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_xiaomi_shopback"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "emma_shopback",
+          "name": "Emma Sleep ShopBack 5.5%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 93,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_emma_shopback"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "kkbox",
+          "name": "KKBOX 最高省432元",
+          "channel": "CARD",
+          "sourceLineHint": 99,
+          "ruleIds": [
+            "rule_12b96d96f580a52b4648"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "netflix",
+          "name": "Netflix 5%",
+          "channel": "CARD",
+          "sourceLineHint": 107,
+          "ruleIds": [
+            "rule_d06f4a5bdc36a2ea8e23"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "under_armour",
+          "name": "Under Armour 7%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 114,
+          "ruleIds": [
+            "rule_04710b8837a6e3f2b94f"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "studio_a",
+          "name": "STUDIO A 2%",
+          "channel": "CARD",
+          "sourceLineHint": 120,
+          "ruleIds": [
+            "rule_c442e0aac014708858e2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "dyson",
+          "name": "Dyson 6%",
+          "channel": "CARD",
+          "sourceLineHint": 126,
+          "ruleIds": [
+            "rule_7d6f97e638c3e5042864"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "xiaobei",
+          "name": "小北百貨5%",
+          "channel": "CARD",
+          "sourceLineHint": 132,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_xiaobei"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "wanjiafu_card",
+          "name": "萬家福／樂家康卡片5%",
+          "channel": "CARD",
+          "sourceLineHint": 139,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_wanjiafu_card"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "donki",
+          "name": "唐吉訶德10%",
+          "channel": "CARD",
+          "sourceLineHint": 147,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_donki"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "ikea_card",
+          "name": "IKEA卡片5%",
+          "channel": "CARD",
+          "sourceLineHint": 155,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_ikea_card"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "nitori",
+          "name": "NITORI宜得利10%",
+          "channel": "CARD",
+          "sourceLineHint": 162,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_nitori"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "nike_shopback",
+          "name": "NIKE ShopBack 7%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 170,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_nike_shopback"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "adidas_shopback",
+          "name": "Adidas ShopBack 5%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 178,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_adidas_shopback"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "momentum_shopback",
+          "name": "摩曼頓 ShopBack 5%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 185,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_momentum_shopback"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "ispo_shopback",
+          "name": "ISPO ShopBack 5%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 193,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_ispo_shopback"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "wanjiafu_linepay",
+          "name": "萬家福／樂家康 LINE Pay 8%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 201,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_wanjiafu_linepay"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "ikea_linepay",
+          "name": "IKEA LINE Pay 4%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 208,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_ikea_linepay"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "skm_coupon",
+          "name": "新光三越200元優惠券",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 216,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_skm_coupon"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "outlet_coupon",
+          "name": "人氣Outlet每週120元優惠券",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 224,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_outlet_coupon"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "department_coupon",
+          "name": "百貨購物每週100元優惠券",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 231,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_department_coupon"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "decathlon",
+          "name": "迪卡儂最高6%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 239,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_decathlon"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "leisure_coupon",
+          "name": "休閒娛樂每週50元優惠券",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 247,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_leisure_coupon"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "daily_coupon",
+          "name": "生活日用每週40元優惠券",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 254,
+          "ruleIds": [
+            "pending_ctbc_linepay_life_2026_daily_coupon"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        }
+      ],
+      "liveListingStatus": "NOT_RECHECKED_IN_24H",
+      "liveCheckedAt": null,
+      "liveMissingKnownOffers": [],
+      "liveChangedDateOffers": [],
+      "liveListingMatchPercent": null
+    },
+    {
+      "catalogId": "ctbc_linepay_pet_2026",
+      "scope": "中國信託 LINE Pay 卡脆萌寵頁 2026-11-08 可見的 12 個列表入口；僅列入口與日期，付款、名額及排除需逐案核對",
+      "observedAt": "2026-11-08",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_pet.html",
+      "catalogFresh": true,
+      "officialOffers": 12,
+      "matchedRecords": 12,
+      "candidateRecords": 0,
+      "missingRecords": 0,
+      "scopedListingMatchPercent": 100.0,
+      "fullTermsVerifiedPercent": null,
+      "marketAccuracyPercent": null,
+      "marketCoveragePercent": null,
+      "acceptanceStatus": "NOT_ESTABLISHED",
+      "rows": [
+        {
+          "offerId": "fish",
+          "name": "魚中魚最高4%",
+          "channel": "CARD",
+          "sourceLineHint": 28,
+          "ruleIds": [
+            "rule_959a861cabb8b515f17f"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "good_life",
+          "name": "好狗命5%",
+          "channel": "CARD",
+          "sourceLineHint": 34,
+          "ruleIds": [
+            "rule_b0e3b7c1e8eb9111f052"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "good_dog",
+          "name": "好狗運30點",
+          "channel": "CARD",
+          "sourceLineHint": 40,
+          "ruleIds": [
+            "rule_8993c54bfe963a2c628a"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "popocat",
+          "name": "撥撥10%",
+          "channel": "CARD",
+          "sourceLineHint": 46,
+          "ruleIds": [
+            "rule_d4ed298d1db9c2c09f54"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "wonderpet",
+          "name": "寵物公園8%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 52,
+          "ruleIds": [
+            "rule_5597df0306591339c831"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "petstimes",
+          "name": "毛孩時代8%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 60,
+          "ruleIds": [
+            "rule_135b9e6c4621fc0c2dc8"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "ladynpet",
+          "name": "超凝小姐5%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 68,
+          "ruleIds": [
+            "rule_80b907fa6a35daa916fd"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "dogcatstar",
+          "name": "汪喵星球5%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 75,
+          "ruleIds": [
+            "pending_ctbc_linepay_pet_2026_dogcatstar"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "litomon",
+          "name": "怪獸部落5%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 83,
+          "ruleIds": [
+            "pending_ctbc_linepay_pet_2026_litomon"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "heromama",
+          "name": "HeroMama 5%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 91,
+          "ruleIds": [
+            "pending_ctbc_linepay_pet_2026_heromama"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "maohao",
+          "name": "毛好多 ShopBack 6%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 97,
+          "ruleIds": [
+            "pending_ctbc_linepay_pet_2026_maohao"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "petlife",
+          "name": "寵物生活每週80元優惠券",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 104,
+          "ruleIds": [
+            "pending_ctbc_linepay_pet_2026_petlife"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        }
+      ],
+      "liveListingStatus": "NOT_RECHECKED_IN_24H",
+      "liveCheckedAt": null,
+      "liveMissingKnownOffers": [],
+      "liveChangedDateOffers": [],
+      "liveListingMatchPercent": null
+    },
+    {
+      "catalogId": "ctbc_linepay_shopping_2026h2",
+      "scope": "中國信託 LINE Pay 卡脆好購頁 2026-11-03 可見的全部 24 個活動入口；含銀行、LINE Pay 與 ShopBack 合作優惠",
+      "observedAt": "2026-11-03",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_shopping.html",
+      "catalogFresh": true,
+      "officialOffers": 24,
+      "matchedRecords": 24,
+      "candidateRecords": 0,
+      "missingRecords": 0,
+      "scopedListingMatchPercent": 100.0,
+      "fullTermsVerifiedPercent": null,
+      "marketAccuracyPercent": null,
+      "marketCoveragePercent": null,
+      "acceptanceStatus": "NOT_ESTABLISHED",
+      "rows": [
+        {
+          "offerId": "coupang",
+          "name": "Coupang 酷澎滿額最高9%",
+          "channel": "CARD",
+          "sourceLineHint": 32,
+          "ruleIds": [
+            "review_ctbc_shopping_coupang_discount_2026h2",
+            "review_ctbc_shopping_coupang_points_2026h2"
+          ],
+          "presentRuleCount": 2,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "popchill",
+          "name": "Popchill ShopBack 3.5%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 40,
+          "ruleIds": [
+            "review_ctbc_shopback_popchill_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "mercari",
+          "name": "Mercari ShopBack 3.5%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 48,
+          "ruleIds": [
+            "review_ctbc_shopback_mercari_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "samsung",
+          "name": "三星商城 LINE POINTS 1000點",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 55,
+          "ruleIds": [
+            "rule_59a9da0c6ecc1c0d909f"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "lg",
+          "name": "LG官方線上商城 LINE POINTS 500點",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 63,
+          "ruleIds": [
+            "rule_0056b90e9684f6396cb5"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "shopee",
+          "name": "蝦皮購物 LINE POINTS 5%",
+          "channel": "CARD",
+          "sourceLineHint": 71,
+          "ruleIds": [
+            "review_ctbc_linepay_shopee_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "skm",
+          "name": "新光三越online ShopBack 3.5%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 78,
+          "ruleIds": [
+            "review_ctbc_shopback_skm_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "pchome",
+          "name": "PChome24h ShopBack 3%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 86,
+          "ruleIds": [
+            "review_ctbc_shopback_pchome_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "yahoo",
+          "name": "yahoo購物中心 ShopBack 2.9%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 94,
+          "ruleIds": [
+            "review_ctbc_shopback_yahoo_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "friday",
+          "name": "遠傳friday購物 ShopBack 3.5%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 101,
+          "ruleIds": [
+            "review_ctbc_shopback_friday_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "rakuten",
+          "name": "樂天市場 ShopBack 4%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 109,
+          "ruleIds": [
+            "review_ctbc_shopback_rakuten_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "dietician",
+          "name": "營養師輕食 LINE POINTS 5%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 116,
+          "ruleIds": [
+            "review_ctbc_shopping_dietician_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "pinkoi",
+          "name": "Pinkoi 最高 LINE POINTS 5%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 122,
+          "ruleIds": [
+            "review_ctbc_shopping_pinkoi_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "eslite",
+          "name": "誠品線上 ShopBack 3.8%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 130,
+          "ruleIds": [
+            "review_ctbc_shopback_eslite_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "uniqlo",
+          "name": "UNIQLO LINE POINTS 10%",
+          "channel": "CARD",
+          "sourceLineHint": 137,
+          "ruleIds": [
+            "review_ctbc_linepay_uniqlo_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "gu",
+          "name": "GU LINE POINTS 10%",
+          "channel": "CARD",
+          "sourceLineHint": 145,
+          "ruleIds": [
+            "review_ctbc_linepay_gu_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "iherb",
+          "name": "iHerb ShopBack 4%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 153,
+          "ruleIds": [
+            "review_ctbc_shopback_iherb_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "myprotein",
+          "name": "myprotein ShopBack 6.5%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 160,
+          "ruleIds": [
+            "review_ctbc_shopback_myprotein_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "life_market",
+          "name": "生活市集 ShopBack 3.5%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 168,
+          "ruleIds": [
+            "review_ctbc_shopback_life_market_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "books",
+          "name": "博客來 ShopBack 3%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 176,
+          "ruleIds": [
+            "review_ctbc_shopback_books_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "etmall",
+          "name": "ETMall東森購物 ShopBack 3%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 183,
+          "ruleIds": [
+            "review_ctbc_shopback_etmall_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "global_mall",
+          "name": "環球Online ShopBack 4%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 191,
+          "ruleIds": [
+            "review_ctbc_shopback_global_mall_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "style_shopping",
+          "name": "風格選品每週80元優惠券",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 199,
+          "ruleIds": [
+            "review_ctbc_shopping_style_coupon_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "good_coupon",
+          "name": "購好券精選商店50元優惠券",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 206,
+          "ruleIds": [
+            "review_ctbc_shopping_good_coupon_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        }
+      ],
+      "liveListingStatus": "NOT_RECHECKED_IN_24H",
+      "liveCheckedAt": null,
+      "liveMissingKnownOffers": [],
+      "liveChangedDateOffers": [],
+      "liveListingMatchPercent": null
+    },
+    {
+      "catalogId": "ctbc_linepay_travel_2026",
+      "scope": "中國信託LINE Pay卡脆自遊頁 2026-11-03 可見的28個活動入口及KKday入口下另列的每週四方案，共29個方案；含銀行、LINE Pay、ShopBack合作及即將開始活動；只評估紀錄收錄",
+      "observedAt": "2026-11-03",
+      "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_travel.html",
+      "catalogFresh": true,
+      "officialOffers": 29,
+      "matchedRecords": 3,
+      "candidateRecords": 26,
+      "missingRecords": 0,
+      "scopedListingMatchPercent": 10.34,
+      "fullTermsVerifiedPercent": null,
+      "marketAccuracyPercent": null,
+      "marketCoveragePercent": null,
+      "acceptanceStatus": "NOT_ESTABLISHED",
+      "rows": [
+        {
+          "offerId": "itf",
+          "name": "ITF台灣國際旅展最高6%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 32,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_itf"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "hotels",
+          "name": "Hotels.com最高16%",
+          "channel": "CARD",
+          "sourceLineHint": 38,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_hotels",
+            "review_ctbc_hotels_stamp_2026"
+          ],
+          "presentRuleCount": 2,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "16%優惠碼與6%印花方案已拆分；持卡卡別範圍、每月優惠碼剩餘名額與實際入住仍待交易時確認"
+        },
+        {
+          "offerId": "wamazing",
+          "name": "完美行滑雪現折加5%",
+          "channel": "CARD",
+          "sourceLineHint": 45,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_wamazing"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "overseas",
+          "name": "不限國別國外實體店5%需登錄",
+          "channel": "CARD",
+          "sourceLineHint": 52,
+          "ruleIds": [
+            "rule_a84722535184bc3700e1"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "uspace_parking",
+          "name": "USPACE停車金加7%",
+          "channel": "CARD",
+          "sourceLineHint": 59,
+          "ruleIds": [
+            "rule_f779db66e56a34ac7cfc"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "uspace_wash",
+          "name": "USPACE洗車7%",
+          "channel": "CARD",
+          "sourceLineHint": 65,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_uspace_wash"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "ugo",
+          "name": "UGO機場接送7%",
+          "channel": "CARD",
+          "sourceLineHint": 70,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_ugo"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "carplus",
+          "name": "格上租車現折加8%",
+          "channel": "CARD",
+          "sourceLineHint": 78,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_carplus"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "driver",
+          "name": "台灣代駕現折加6%",
+          "channel": "CARD",
+          "sourceLineHint": 85,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_driver"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "korea_shops",
+          "name": "韓國指定商店最高25%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 93,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_korea_shops"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "olive_korea",
+          "name": "韓國OLIVE YOUNG最高10%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 100,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_olive_korea"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "olive_global",
+          "name": "OLIVE YOUNG Global最高10%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 109,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_olive_global"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "weverse",
+          "name": "韓國Weverse最高20%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 117,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_weverse"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "kkday_member_day",
+          "name": "KKday會員日最高20%",
+          "channel": "CARD",
+          "sourceLineHint": 123,
+          "ruleIds": [
+            "review_ctbc_kkday_member_day_2026_pending"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": false,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "三段不連續日期尚未由推薦執行期判斷，暫停推薦；列表整體結束12/31但最後可用日12/11"
+        },
+        {
+          "offerId": "kkday_weekly",
+          "name": "KKday指定商品每週四最高10%",
+          "channel": "CARD",
+          "sourceLineHint": 445,
+          "ruleIds": [
+            "rule_d1385d908fb4b07473ef"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "matched",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": null
+        },
+        {
+          "offerId": "agoda",
+          "name": "Agoda最高12%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 131,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_agoda"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "trip",
+          "name": "Trip.com 5%需登錄",
+          "channel": "CARD",
+          "sourceLineHint": 138,
+          "ruleIds": [
+            "review_ctbc_trip_registration_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "登錄關閉時間及即時名額尚未確認，暫停推薦"
+        },
+        {
+          "offerId": "airbnb",
+          "name": "Airbnb 5%需登錄",
+          "channel": "CARD",
+          "sourceLineHint": 146,
+          "ruleIds": [
+            "review_ctbc_airbnb_registration_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "登錄關閉時間及即時名額尚未確認，暫停推薦"
+        },
+        {
+          "offerId": "tigerair",
+          "name": "台灣虎航10%需登錄",
+          "channel": "CARD",
+          "sourceLineHint": 153,
+          "ruleIds": [
+            "review_ctbc_tigerair_registration_2026h2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "登錄關閉時間及即時名額尚未確認，暫停推薦"
+        },
+        {
+          "offerId": "eztravel",
+          "name": "易遊網最高3%",
+          "channel": "CARD",
+          "sourceLineHint": 159,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_eztravel"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "saily",
+          "name": "Saily eSim ShopBack 7%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 167,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_saily"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "southeast",
+          "name": "東南旅遊 ShopBack 4.5%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 174,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_southeast"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "npc",
+          "name": "NPC全國加油站5%",
+          "channel": "CARD",
+          "sourceLineHint": 180,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_npc"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "powerexpress",
+          "name": "全國特急電10%",
+          "channel": "CARD",
+          "sourceLineHint": 186,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_powerexpress"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "klook",
+          "name": "Klook指定日最高20%",
+          "channel": "CARD",
+          "sourceLineHint": 192,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_klook"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "funnow",
+          "name": "FunNow指定類別10%",
+          "channel": "CARD",
+          "sourceLineHint": 197,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_funnow"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "expedia",
+          "name": "Expedia指定網頁8%",
+          "channel": "CARD",
+          "sourceLineHint": 203,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_expedia"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "gogoout",
+          "name": "gogoout ShopBack 5%",
+          "channel": "SHOPBACK",
+          "sourceLineHint": 210,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_gogoout"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        },
+        {
+          "offerId": "experience",
+          "name": "找體驗最高18%",
+          "channel": "LINE_PAY",
+          "sourceLineHint": 217,
+          "ruleIds": [
+            "pending_ctbc_linepay_travel_2026_experience"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "僅官方列表入口與日期已記錄；適用卡、回饋計算、名額及登錄資格未逐欄核對，暫停推薦"
+        }
+      ],
+      "liveListingStatus": "NOT_RECHECKED_IN_24H",
+      "liveCheckedAt": null,
+      "liveMissingKnownOffers": [],
+      "liveChangedDateOffers": [],
+      "liveListingMatchPercent": null
+    },
+    {
+      "catalogId": "icashpay_latest_2026_11",
+      "scope": "icash Pay 官方『最新優惠』2026-11-05 可見的 32 個列表區塊，已將萬家福複合區塊拆成三方案，共 34 個方案候選，含支付、icash2.0 與合作商家；萬家福等區塊含多個方案，此清單僅驗入口收錄與列表期間，不代表完整方案數、資格或全市場收錄率",
+      "observedAt": "2026-11-05",
+      "sourceUrl": "https://www.icashpay.com.tw/advertMessage/view/id/2588",
+      "catalogFresh": true,
+      "officialOffers": 34,
+      "matchedRecords": 0,
+      "candidateRecords": 34,
+      "missingRecords": 0,
+      "scopedListingMatchPercent": 0.0,
+      "fullTermsVerifiedPercent": null,
+      "marketAccuracyPercent": null,
+      "marketCoveragePercent": null,
+      "acceptanceStatus": "NOT_ESTABLISHED",
+      "rows": [
+        {
+          "offerId": "uniopen_all",
+          "name": "全通路 uniopen 聯名卡滿 199 元 4%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 9,
+          "ruleIds": [
+            "rule_35d56eb5f6a21336e1e4"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "sunday_all",
+          "name": "週日最好 Pay 滿 200 元 7%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 17,
+          "ruleIds": [
+            "rule_89b5c2182f6e449769ba"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "mister_donut",
+          "name": "Mister Donut 10%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 25,
+          "ruleIds": [
+            "rule_2a9cf82dbce313caab58"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "cold_stone",
+          "name": "Cold Stone 10%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 32,
+          "ruleIds": [
+            "rule_9d81ce94c4df73c7a36b"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "wanjiafu_base",
+          "name": "萬家福／樂家康／Mia C‘bon icash Pay 基本 5%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 40,
+          "ruleIds": [
+            "review_icashpay_wanjiafu_2026_base"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "官方複合區塊已拆分；每月 10 日起、即時名額與排除待完整驗證"
+        },
+        {
+          "offerId": "wanjiafu_uniopen",
+          "name": "萬家福／樂家康／Mia C‘bon uniopen 卡加碼 5%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 49,
+          "ruleIds": [
+            "review_icashpay_wanjiafu_2026_uniopen"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "官方複合區塊已拆分；每月 10 日起、即時名額與排除待完整驗證"
+        },
+        {
+          "offerId": "wanjiafu_banks",
+          "name": "萬家福／樂家康／Mia C‘bon 指定銀行加碼 5%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 53,
+          "ruleIds": [
+            "icashpay_wanjiafu_2026_cathay",
+            "icashpay_wanjiafu_2026_hncb",
+            "icashpay_wanjiafu_2026_hsbc"
+          ],
+          "presentRuleCount": 3,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "官方銀行加碼頁為另一來源，三家銀行資料已有對應；玉山另依銀行官方登錄頁保存，仍待整體核對"
+        },
+        {
+          "offerId": "kfc_sunday",
+          "name": "肯德基線上訂餐週日 5%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 59,
+          "ruleIds": [
+            "review_icashpay_sunday_food_2026_kfc"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已按官方詳情拆為獨立方案；即時 8 萬點池及完整資格待核"
+        },
+        {
+          "offerId": "pizza_hut_sunday",
+          "name": "必勝客線上點餐週日 5%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 66,
+          "ruleIds": [
+            "review_icashpay_sunday_food_2026_pizza_hut"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已按官方詳情拆為獨立方案；即時 8 萬點池及完整資格待核"
+        },
+        {
+          "offerId": "ikari",
+          "name": "ikari 怡客滿 200 元 10%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 74,
+          "ruleIds": [
+            "review_icashpay_ikari_2026"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "官方詳情建檔；每戶活動期上限、即時點數池與指定門市未能自動驗證"
+        },
+        {
+          "offerId": "taia_fuel",
+          "name": "台亞加油站人工島 2.5%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 82,
+          "ruleIds": [
+            "review_icashpay_taia_fuel_2026"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "官網詳情建檔；人工島及即時活動點數池無法機器核對"
+        },
+        {
+          "offerId": "starbucks",
+          "name": "星巴克週一四 5%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 91,
+          "ruleIds": [
+            "rule_ada0fae75352287b9fe8"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "cosmed_monday",
+          "name": "康是美實體門市週一 5%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 99,
+          "ruleIds": [
+            "rule_7647a98b1201fe830bb0"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "cosmed_11_22",
+          "name": "康是美每月 11／22 日滿額贈 100 點",
+          "channel": "PAYMENT",
+          "sourceLineHint": 106,
+          "ruleIds": [
+            "rule_bade284eeb5637b1d04e"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": false,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "foodomo",
+          "name": "foodomo 週二滿 500 元 5%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 114,
+          "ruleIds": [
+            "rule_c7b20af99070fd82995e"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": false,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "dream_plaza",
+          "name": "統一時代百貨／DREAM PLAZA 週二滿額贈點",
+          "channel": "PARTNER",
+          "sourceLineHint": 122,
+          "ruleIds": [
+            "rule_013375e0585b4bb72251"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "既有紀錄依當前 icash Pay 官方列表修正週二、每週上限與起日；商場指定櫃位與名額詳情讀取逾時"
+        },
+        {
+          "offerId": "saint_cosmed",
+          "name": "聖德科斯週三六滿 500 元 5%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 131,
+          "ruleIds": [
+            "rule_6895d9b86b00609d127b"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "plus21_points",
+          "name": "21Plus 週五至週日滿 150 元 5%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 138,
+          "ruleIds": [
+            "rule_972b475ac1da2c36dc06"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "simple_mart",
+          "name": "美廉社週日滿 250 元 5%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 146,
+          "ruleIds": [
+            "rule_8ba866d3dd2cf2b9cd56"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": false,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "global_mall",
+          "name": "環球購物中心週日滿 666 元 5%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 154,
+          "ruleIds": [
+            "rule_270417bec8b3e896d89f"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": false,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "miramar",
+          "name": "美麗華百樂園週日滿 1,000 元 5%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 162,
+          "ruleIds": [
+            "rule_53391ec191a7e6bc9126"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": false,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "auto_reload",
+          "name": "uniopen 聯名卡 icash2.0 自動加值 10%",
+          "channel": "ICASH_CARD",
+          "sourceLineHint": 170,
+          "ruleIds": [
+            "rule_c2608a63f2e39c6340bb"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "舊紀錄修正為 icash2.0 自動加值而非消費回饋；十一月官網已公告額滿，十二月待重查"
+        },
+        {
+          "offerId": "etmall",
+          "name": "東森購物滿 1,000 元 5%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 179,
+          "ruleIds": [
+            "review_icashpay_etmall_2026"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "官網詳情建檔；每月即時點數池及完整排除尚待核對"
+        },
+        {
+          "offerId": "transit_points",
+          "name": "乘車碼點數折抵享 30%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 187,
+          "ruleIds": [
+            "rule_f453c2d76fbbf0c5ee42"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "metro_icash",
+          "name": "uniopen 聯名卡 icash2.0 北捷 7%",
+          "channel": "ICASH_CARD",
+          "sourceLineHint": 194,
+          "ruleIds": [
+            "rule_e089cf455d4d59d9337b"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": false,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "twqr",
+          "name": "全台 TWQR 跨店累積贈點",
+          "channel": "PAYMENT",
+          "sourceLineHint": 202,
+          "ruleIds": [
+            "review_icashpay_twqr_novdec_2026_listing"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "11–12 月獨立方案依當前官方列表建檔；詳情內文不可讀，跨店筆數、登錄及排除未核"
+        },
+        {
+          "offerId": "five_hundred_bowls",
+          "name": "500 碗／500 甜週五至週日 5%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 210,
+          "ruleIds": [
+            "review_icashpay_500bowls_2026"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": false,
+          "reason": "官方詳情建檔；得獎店家名單及即時點數池待核"
+        },
+        {
+          "offerId": "mobile_tea_ice",
+          "name": "行動隨時取冰淇淋紅茶買 2 送 2",
+          "channel": "PARTNER",
+          "sourceLineHint": 217,
+          "ruleIds": [
+            "review_mobile_tea_ice_2026_listing"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "當前官方列表有四個日期及買 2 送 2 摘要；連結詳情 404，付款、兌換及庫存待核"
+        },
+        {
+          "offerId": "mobile_tea_pearl",
+          "name": "行動隨時取珍珠奶茶 2 杯 88 元",
+          "channel": "PARTNER",
+          "sourceLineHint": 226,
+          "ruleIds": [
+            "review_mobile_tea_pearl_2026_listing"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "當前官方列表有四個日期及 2 杯 88 元摘要；連結詳情 404，付款、兌換及庫存待核"
+        },
+        {
+          "offerId": "ipreorder",
+          "name": "i 預購／i 划算滿 1,500 元贈 60 點",
+          "channel": "PAYMENT",
+          "sourceLineHint": 235,
+          "ruleIds": [
+            "rule_f7fe1c73b8f47d8e1ce2"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "plus21_meal",
+          "name": "21Plus 雞腿綠茶 99 元",
+          "channel": "ICASH_CARD",
+          "sourceLineHint": 244,
+          "ruleIds": [
+            "review_icash_21plus_meal_2026"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "官網詳情建檔為指定組合 99 元折價；三個排除日期與商品／門市可用性待機器核對"
+        },
+        {
+          "offerId": "seven_eleven_banks",
+          "name": "7-ELEVEN 指定銀行滿 150 元 10%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 251,
+          "ruleIds": [
+            "rule_03c6624bfab0b5fd3b70"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "lifestyle_11",
+          "name": "指定享鑽生活通路累積滿 5,000 元 11%",
+          "channel": "PAYMENT",
+          "sourceLineHint": 260,
+          "ruleIds": [
+            "rule_690f1da15e08b3ae6731"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": false,
+          "sameSource": true,
+          "titleMatch": true,
+          "reason": "已找到同詳情頁與名稱的資料候選；期間、完整資格、回饋及名額仍須逐欄核對"
+        },
+        {
+          "offerId": "post_office_draw",
+          "name": "郵局帳戶滿 350 元登錄抽 800 點",
+          "channel": "PAYMENT",
+          "sourceLineHint": 267,
+          "ruleIds": [
+            "review_icashpay_postoffice_draw_2026"
+          ],
+          "presentRuleCount": 1,
+          "missingRuleIds": [],
+          "status": "candidate",
+          "datesMatch": true,
+          "sameSource": true,
+          "titleMatch": false,
+          "reason": "官方詳情建檔為抽獎資格；不保證得 800 點，個人累積消費與登錄待核"
+        }
+      ],
+      "liveListingStatus": "NOT_RECHECKED_IN_24H",
+      "liveCheckedAt": null,
+      "liveMissingKnownOffers": [],
+      "liveChangedDateOffers": [],
+      "liveListingMatchPercent": null
+    }
+  ],
+  "acceptanceStatus": "NOT_ESTABLISHED",
+  "marketAccuracyPercent": null,
+  "marketCoveragePercent": null,
+  "limitations": "Static catalog presence is not live coverage. Check liveListingStatus for source drift; neither report proves full terms, current quota, or market recall."
+}

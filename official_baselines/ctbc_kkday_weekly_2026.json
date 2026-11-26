@@ -1,0 +1,64 @@
+{
+  "baselineId": "ctbc_kkday_weekly_2026",
+  "scope": "中國信託LINE Pay卡脆自遊頁 KKday 每週四指定商品10%點數方案；不含會員日20%",
+  "observedAt": "2026-11-03",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_travel.html",
+  "offers": [
+    {
+      "id": "weekly_thursday_10pct",
+      "conditions": "每週四指定商品，結帳前輸入當週優惠碼，直接輸入中信LINE Pay卡卡號；每週60組，每帳號每週一次",
+      "fields": {
+        "cardId": {
+          "value": "card_中國信託_51",
+          "sourceLineHint": 446
+        },
+        "baseRate": {
+          "value": 1,
+          "sourceLineHint": 425
+        },
+        "promoRate": {
+          "value": 9,
+          "sourceLineHint": 425
+        },
+        "rewardType": {
+          "value": "points",
+          "sourceLineHint": 425
+        },
+        "rewardUnit": {
+          "value": "percent",
+          "sourceLineHint": 425
+        },
+        "rewardAmount": {
+          "value": null,
+          "sourceLineHint": 425
+        },
+        "capAmount": {
+          "value": 360,
+          "sourceLineHint": 426
+        },
+        "capPeriod": {
+          "value": "PER_TRANSACTION",
+          "sourceLineHint": 426
+        },
+        "needReg": {
+          "value": false,
+          "sourceLineHint": 446
+        },
+        "validFrom": {
+          "value": "2026-01-01",
+          "sourceLineHint": 445
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": 445
+        },
+        "eligibleWeekdays": {
+          "value": [
+            4
+          ],
+          "sourceLineHint": "L444-L448: KKday weekly Thursday 00:00–23:59"
+        }
+      }
+    }
+  ]
+}

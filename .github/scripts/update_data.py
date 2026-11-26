@@ -4,7 +4,10 @@ import re
 import time
 import hashlib
 from urllib.parse import urljoin, urlsplit
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
+
+def utc_naive():
+    return datetime.now(timezone.utc).replace(tzinfo=None)
 from playwright.sync_api import sync_playwright
 from google import genai
 from model_pool import ModelPool
@@ -172,7 +175,7 @@ def load_crawl_state():
         return {"pageHashes": {}, "lastRunAt": ""}
 
 def save_crawl_state(state):
-    state["lastRunAt"] = datetime.utcnow().isoformat() + "Z"
+    state["lastRunAt"] = utc_naive().isoformat() + "Z"
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=2)
 
@@ -204,9 +207,27 @@ def parse_explicit_date(value):
 
 def should_retain_rule(rule, now=None, retention_days=30):
     """Keep expired offers for a short audit/history window, then remove them."""
-    now = now or datetime.utcnow()
+    now = now or utc_naive()
     explicit_end = parse_explicit_date(rule.get("validUntil")) or parse_explicit_date(rule.get("regDeadline"))
     return not explicit_end or explicit_end >= now - timedelta(days=retention_days)
+
+def quarantine_ambiguous_point_cap(rule):
+    """A percentage plus a point amount needs explicit fixed-award proof."""
+    amount = rule.get("rewardAmount")
+    unit = str(rule.get("rewardUnit") or "").lower()
+    if (rule.get("rewardType") != "points" or not (rule.get("baseRate") or rule.get("promoRate"))
+            or unit in {"percent", "%"} or isinstance(amount, bool)
+            or not isinstance(amount, (int, float)) or amount <= 0):
+        return rule
+    proof = rule.get("fixedAwardEvidence") or {}
+    if (proof.get("sourceUrl") == rule.get("sourceUrl")
+            and isinstance(proof.get("locator"), str) and proof["locator"].strip()):
+        return rule
+    issues = list(rule.get("validationIssues") or [])
+    rule["validationIssues"] = list(dict.fromkeys([*issues, "AMBIGUOUS_PERCENT_AND_FIXED_POINT_REWARD"]))
+    rule["quickSearchEligible"] = False
+    return rule
+
 
 def enrich_reward_fields(rule, source_url):
     title = f"{rule.get('title', '')} {rule.get('quotaInfo', '')}"
@@ -231,14 +252,12 @@ def enrich_reward_fields(rule, source_url):
         rule["quickSearchEligible"] = False
         rule["rewardCalculationMode"] = "UNKNOWN"
         rule["rewardTiers"] = []
-        rule.setdefault("validationIssues", []).append("NOT_SPENDING_REWARD")
+        issues = list(rule.get("validationIssues") or [])
+        rule["validationIssues"] = list(dict.fromkeys([*issues, "NOT_SPENDING_REWARD"]))
         reward_type = "insurance_benefit"
-    # 模型有時把「每月回饋上限 150 元」誤當成固定 150 元刷卡金，或把
-    # 百分比 e point 寫成 points=0。已有百分比欄位時，上限只能用來封頂。
-    if (base_rate or promo_rate) and (
-        (reward_type == "cash" and cap and reward_amount == cap)
-        or (reward_type == "points" and reward_amount == 0)
-    ):
+    # 模型有時把「每月回饋上限 150 元」誤當成固定 150 元刷卡金。
+    # 點數以百分比累積時仍是點數，不能在更新舊資料時改寫成現金百分比。
+    if (base_rate or promo_rate) and reward_type == "cash" and cap and reward_amount == cap:
         rule["rewardType"] = "percent"
         rule["rewardUnit"] = "percent"
         rule["rewardAmount"] = promo_rate or base_rate
@@ -261,6 +280,7 @@ def enrich_reward_fields(rule, source_url):
     # 因而遺失爬蟲其實已知的官方來源頁；空值時必須明確補回目前頁面。
     if not rule.get("sourceUrl"):
         rule["sourceUrl"] = source_url
+    quarantine_ambiguous_point_cap(rule)
     rule.setdefault("registrationUrl", "")
     methods = []
     for method in rule.get("registrationMethods") or []:
@@ -273,7 +293,7 @@ def enrich_reward_fields(rule, source_url):
         cleaned["type"] = method_type
         methods.append(cleaned)
     rule["registrationMethods"] = methods
-    rule.setdefault("fetchedAt", datetime.utcnow().isoformat() + "Z")
+    rule.setdefault("fetchedAt", utc_naive().isoformat() + "Z")
     return rule
 
 def extract_with_gemini(bank_name, content, source_url, is_event_detail=False, product_types=None):
@@ -355,7 +375,7 @@ def extract_with_gemini(bank_name, content, source_url, is_event_detail=False, p
       "rewardAmount": 200,
       "rewardUnit": "percent 或 TWD 或 points 或 chance",
       "capAmount": 500,
-      "capPeriod": "PER_TRANSACTION 或 MONTHLY 或 PER_ACCOUNT 或 CAMPAIGN；內文未明示則留空字串",
+      "capPeriod": "PER_TRANSACTION、MONTHLY、QUARTERLY、PER_ACCOUNT 或 CAMPAIGN；內文未明示則留空字串。每季每戶上限必須為 QUARTERLY，不能因每月開放登錄而寫 MONTHLY。",
       "capScope": "PROMO=只限制加碼、TOTAL=總回饋上限、NONE=明示無上限；不確定留空",
       "roundingMode": "FLOOR_COMPONENT=基本和加碼各別捨去、FLOOR=合計捨去、ROUND=四捨五入；無證據留空",
       "spendBasis": "PER_TRANSACTION 或 CUMULATIVE；未明示留空",
@@ -466,7 +486,7 @@ def main():
                 if result is None:
                     return 'ai_failed'
 
-                merge_data(bank, result, cards_map, rules_map, url)
+                merge_data(bank, result, cards_map, rules_map, url, text)
                 crawl_state.setdefault('pageHashes', {})[url] = digest
                 return 'analyzed'
 
@@ -479,7 +499,7 @@ def main():
 
     save_crawl_state(crawl_state)
 
-    now = datetime.utcnow()
+    now = utc_naive()
     active_rules = []
     for rule in rules_map.values():
         if not should_retain_rule(rule, now, retention_days=30):
@@ -488,8 +508,8 @@ def main():
 
     data["cards"] = list(cards_map.values())
     data["rules"] = active_rules
-    data["version"] = datetime.utcnow().strftime("%Y.%m.%d-v%H%M%S")
-    data["lastUpdated"] = datetime.utcnow().isoformat() + "Z"
+    data["version"] = utc_naive().strftime("%Y.%m.%d-v%H%M%S")
+    data["lastUpdated"] = utc_naive().isoformat() + "Z"
 
     with open(db_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
@@ -501,7 +521,76 @@ def main():
     print(f"總卡片數: {len(data['cards'])}, 總規則/活動數: {len(data['rules'])}")
     print(f"需登錄活動: {total_reg} 項, 免登錄與常態活動: {total_direct} 項")
 
-def merge_data(bank, result, cards_map, rules_map, source_url):
+def source_claim_issues(rule, source_text):
+    """Check whether a browser-rendered page contains a model's basic claims.
+
+    This is a negative gate, never an independent review of all offer terms.
+    """
+    if source_text is None:
+        return ['SOURCE_PAGE_TEXT_UNAVAILABLE']
+    compact = re.sub(r"[\s，。,:：；;、（）()【】\[\]・|｜/\\_-]", "", source_text).upper()
+    title = re.sub(r"[\s，。,:：；;、（）()【】\[\]・|｜/\\_-]", "", str(rule.get('title') or '')).upper()
+    issues = []
+    positions = []
+    if len(title) >= 8:
+        start = 0
+        while (position := compact.find(title, start)) >= 0:
+            positions.append(position)
+            start = position + len(title)
+    if not positions:
+        issues.append('SOURCE_TITLE_UNCONFIRMED')
+    rates = set()
+    for field in ('baseRate', 'promoRate'):
+        value = rule.get(field)
+        if isinstance(value, (int, float)) and not isinstance(value, bool) and value > 0:
+            rates.add(f'{value:g}' if isinstance(value, float) else str(value))
+    if rates:
+        # A list page may mention another campaign's rate far away from this
+        # title. Keep all rates in one nearby excerpt, never whole-page match.
+        excerpts = [compact[max(0, pos - 80):pos + len(title) + 350] for pos in positions]
+        if not any(all(re.search(r'(?<![\d.])' + re.escape(rate) + r'%(?![\d.])', excerpt)
+                       for rate in rates) for excerpt in excerpts):
+            issues.append('SOURCE_RATE_UNCONFIRMED')
+    return issues
+
+
+def source_claim_evidence(rule, source_text, source_url, captured_at):
+    """Record reproducible locator candidates; never treat them as term review."""
+    claims = {'title': rule.get('title'), 'baseRate': rule.get('baseRate'),
+              'promoRate': rule.get('promoRate')}
+    if source_text is None:
+        return {'sourceUrl': source_url, 'capturedAt': captured_at, 'pageHash': None,
+                'method': 'machine_text_locator',
+                'fields': {name: {'status': 'source_unavailable'} for name in claims}}
+    compact = re.sub(r"[\s，。,:：；;、（）()【】\[\]・|｜/\\_-]", "", source_text).upper()
+    title = re.sub(r"[\s，。,:：；;、（）()【】\[\]・|｜/\\_-]", "",
+                   str(rule.get('title') or '')).upper()
+    locations = []
+    if len(title) >= 8:
+        start = 0
+        while (position := compact.find(title, start)) >= 0:
+            locations.append(position)
+            start = position + len(title)
+    fields = {'title': {'status': 'candidate_present' if locations else 'not_found',
+                        'normalizedOffset': locations[0] if locations else None}}
+    for name in ('baseRate', 'promoRate'):
+        value = rule.get(name)
+        if not isinstance(value, (int, float)) or isinstance(value, bool) or value <= 0:
+            fields[name] = {'status': 'not_reviewed'}
+            continue
+        rate = f'{value:g}' if isinstance(value, float) else str(value)
+        pattern = r'(?<![\d.])' + re.escape(rate) + r'%(?![\d.])'
+        matching = [pos for pos in locations if re.search(
+            pattern, compact[max(0, pos - 80):pos + len(title) + 350])]
+        fields[name] = {'status': 'candidate_present' if matching else 'not_found',
+                        'nearTitleOffset': matching[0] if matching else None}
+    return {'sourceUrl': source_url, 'capturedAt': captured_at,
+            'pageHash': hashlib.sha256(source_text.encode('utf-8')).hexdigest(),
+            'method': 'machine_text_locator', 'fields': fields,
+            'disclaimer': 'Text proximity is only a candidate location; eligibility, caps, dates, registration, and exclusions remain unreviewed.'}
+
+
+def merge_data(bank, result, cards_map, rules_map, source_url, source_text=None, source_links=None):
     id_map = {}
     for c in result.get("cards", []):
         original_id = c.get('id')
@@ -557,9 +646,88 @@ def merge_data(bank, result, cards_map, rules_map, source_url):
         r.pop("accuracyReview", None)
         r["sourceUrl"] = source_url
         r['bank'] = bank
-        r['fetchedAt'] = datetime.utcnow().isoformat() + 'Z'
+        r['fetchedAt'] = utc_naive().isoformat() + 'Z'
+        r.pop('sourceClaimEvidence', None)
+        r['sourceClaimEvidence'] = source_claim_evidence(r, source_text, source_url, r['fetchedAt'])
+        # Only the fetcher may attest that a registration URL was an actual
+        # hyperlink on the source page. Never accept an AI-produced marker.
+        r.pop('registrationLinkEvidence', None)
+        linked_urls = {href for href, _ in (source_links or [])}
+        registration_urls = {r.get('registrationUrl') or ''}
+        registration_urls.update(m.get('url') or '' for m in r.get('registrationMethods', [])
+                                 if isinstance(m, dict) and m.get('type') == 'WEB')
+        observed = sorted(url for url in registration_urls if url and url in linked_urls)
+        if observed:
+            r['registrationLinkEvidence'] = {'sourceUrl': source_url, 'urls': observed,
+                'method': 'observed_page_anchor', 'capturedAt': r['fetchedAt']}
+        claim_issues = source_claim_issues(r, source_text)
+        if claim_issues:
+            r['validationIssues'] = sorted(set(r.get('validationIssues') or [])
+                                           | set(claim_issues) | {'SOURCE_CLAIM_UNCONFIRMED'})
+            r['quickSearchEligible'] = False
+            r['sourceClaimStatus'] = 'UNCONFIRMED_IN_RENDERED_PAGE'
+        elif source_text is not None:
+            r['sourceClaimStatus'] = 'TITLE_AND_RATES_PRESENT_NOT_TERM_REVIEWED'
         rule_key = f"{r.get('cardId')}_{title}_{source_url}"
         r['id'] = 'rule_' + hashlib.sha256(rule_key.encode('utf-8')).hexdigest()[:20]
+        previous = rules_map.get(rule_key) or {}
+        if previous.get('sourceFacts') and (previous.get('accuracyReview') or {}).get('status') not in {'SOURCE_CHECKED', 'RECHECK_REQUIRED'}:
+            # AI extraction from a changed page is a candidate, not authority to
+            # replace fields that were individually located in official text.
+            compare_fields = ('title', 'cardId', 'validFrom', 'validUntil',
+                              'eligibleDateRanges', 'excludedDateRanges',
+                              'eligibleWeekdays', 'eligibleMonthDayFrom',
+                              'baseRate', 'promoRate', 'rewardType', 'rewardUnit',
+                              'rewardAmount', 'capAmount', 'capPeriod',
+                              'minimumSpend', 'needReg', 'registrationUrl')
+            previous['sourceRecheckCandidate'] = {
+                'capturedAt': r['fetchedAt'],
+                'sourceUrl': source_url,
+                'fields': {field: r.get(field) for field in compare_fields
+                           if previous.get(field) != r.get(field)}
+            }
+            previous['validationIssues'] = sorted(set(previous.get('validationIssues') or [])
+                                                  | {'SOURCE_CHANGED_AFTER_CURATED_SNAPSHOT'})
+            previous['quickSearchEligible'] = False
+            rules_map[rule_key] = previous
+            continue
+        prior_cap = previous.get('capEvidence') or {}
+        if (prior_cap.get('sourceUrl') == source_url and
+                previous.get('capPeriod') == 'QUARTERLY'):
+            if r.get('capPeriod') == 'QUARTERLY':
+                r['capEvidence'] = prior_cap
+                r['registrationCycle'] = previous.get('registrationCycle', '')
+            else:
+                # Model output cannot silently reverse an independently read
+                # official cap; the page may have changed, so require recheck.
+                r['validationIssues'] = sorted(set(r.get('validationIssues') or []) |
+                                               {'OFFICIAL_CAP_PERIOD_CONFLICT'})
+                r['quickSearchEligible'] = False
+        if (previous.get('accuracyReview') or {}).get('status') in {'SOURCE_CHECKED', 'RECHECK_REQUIRED'}:
+            # A page changed enough to trigger new AI extraction. The previous
+            # human term review cannot certify this newly extracted record.
+            review_fields = (
+                'cardId', 'eligibleCardScope', 'baseRate', 'promoRate',
+                'rewardType', 'rewardUnit', 'rewardAmount', 'capAmount',
+                'capPeriod', 'minimumSpend', 'validFrom', 'validUntil',
+                'needReg', 'regDeadline', 'registrationUrl',
+                'eligibilityRequirements', 'excludedMerchants',
+            )
+            prior_review = previous['accuracyReview']
+            baseline = prior_review.get('reviewedValues') or {
+                field: previous.get(field) for field in review_fields
+            }
+            changed_fields = [field for field in review_fields
+                              if baseline.get(field) != r.get(field)]
+            r['accuracyReview'] = {'status': 'RECHECK_REQUIRED',
+                                   'reason': 'SOURCE_PAGE_CHANGED_AFTER_REVIEW',
+                                   'previousCheckedAt': prior_review.get('checkedAt')
+                                        or prior_review.get('previousCheckedAt'),
+                                   'reviewedValues': baseline,
+                                   'changedFields': changed_fields}
+            r['validationIssues'] = sorted(set(r.get('validationIssues') or [])
+                                           | {'SOURCE_CHANGED_AFTER_REVIEW'})
+            r['quickSearchEligible'] = False
         if rule_key not in rules_map:
             RUN_STATS["new_rules"] += 1
         rules_map[rule_key] = r

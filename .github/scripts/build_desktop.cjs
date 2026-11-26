@@ -1,6 +1,10 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const root = path.resolve(__dirname, '../..');
+const dataObject = JSON.parse(fs.readFileSync(path.join(root, 'data.json'), 'utf8'));
+if (!/^\d{4}\.\d{2}\.\d{2}-v\d{6}(?:-|$)/.test(dataObject.version || '')) {
+  throw new Error(`Data version cannot be ordered by the app: ${dataObject.version}`);
+}
 const core = fs.readFileSync(path.join(root, 'accuracy-core.js'), 'utf8');
 let html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 html = html.replace(/\/\* Shared deterministic rules\.[\s\S]*?(?=    function safePlainText)/, () => core + '\n');

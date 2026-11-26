@@ -1,0 +1,72 @@
+{
+  "baselineId": "ctbc_lg_2026h2",
+  "scope": "中國信託LINE Pay卡脆好購頁 LG 商城固定加碼點數的選定結構欄位",
+  "observedAt": "2026-11-03",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_shopping.html",
+  "offers": [
+    {
+      "id": "lg_fixed_500_points",
+      "conditions": "週一至週五、LG官網、LINE Pay綁定中信LINE Pay卡、單筆滿兩萬元；每帳號最多500點，月總量額滿為止",
+      "fields": {
+        "cardId": {
+          "value": "card_中國信託_51",
+          "sourceLineHint": 274
+        },
+        "baseRate": {
+          "value": 0,
+          "sourceLineHint": 276
+        },
+        "promoRate": {
+          "value": 0,
+          "sourceLineHint": 274
+        },
+        "rewardType": {
+          "value": "points",
+          "sourceLineHint": 274
+        },
+        "rewardUnit": {
+          "value": "points",
+          "sourceLineHint": 274
+        },
+        "rewardAmount": {
+          "value": 500,
+          "sourceLineHint": 274
+        },
+        "capAmount": {
+          "value": 500,
+          "sourceLineHint": 275
+        },
+        "capPeriod": {
+          "value": "CAMPAIGN",
+          "sourceLineHint": 275
+        },
+        "minimumSpend": {
+          "value": 20000,
+          "sourceLineHint": 274
+        },
+        "needReg": {
+          "value": false,
+          "sourceLineHint": 273
+        },
+        "validFrom": {
+          "value": "2026-09-01",
+          "sourceLineHint": 63
+        },
+        "validUntil": {
+          "value": "2026-12-31",
+          "sourceLineHint": 63
+        },
+        "eligibleWeekdays": {
+          "value": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "sourceLineHint": "L269-L275: LG official online store, Monday through Friday"
+        }
+      }
+    }
+  ]
+}

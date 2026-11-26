@@ -1,0 +1,36 @@
+{
+  "baselineId":"icashpay_sunday_food_2026_partial",
+  "scope":"icash Pay 肯德基與必勝客 2026/11–12 月週日線上訂餐兩個分開的公開方案；個人資格與即時總點數池未核",
+  "observedAt":"2026-11-05",
+  "sourceUrl":"https://www.icashpay.com.tw/advertMessage/view/id/2584",
+  "offers":[
+    {"id":"kfc","fields":{
+      "validFrom":{"value":"2026-11-01","sourceLineHint":"L8"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L8"},
+      "eligibleWeekdays":{"value":[0],"sourceLineHint":"L8 and L14: 每週日"},
+      "minimumSpend":{"value":399,"sourceLineHint":"L14"},
+      "promoRate":{"value":5,"sourceLineHint":"L14"},
+      "rewardType":{"value":"points","sourceLineHint":"L14: OPENPOINT"},
+      "rewardUnit":{"value":"percent","sourceLineHint":"L14: 交易金額 5%"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L14: 100 點是活動期間上限"},
+      "capAmount":{"value":100,"sourceLineHint":"L14"},
+      "capPeriod":{"value":"CAMPAIGN","sourceLineHint":"L14: 活動期間每戶"},
+      "campaignCapAmount":{"value":80000,"sourceLineHint":"L14: 活動總點數上限"},
+      "needReg":{"value":false,"sourceLineHint":"L30: 只有 icash Pay 帳號註冊資訊，無活動登錄要求"}
+    }},
+    {"id":"pizza_hut","fields":{
+      "validFrom":{"value":"2026-11-01","sourceLineHint":"L8"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L8"},
+      "eligibleWeekdays":{"value":[0],"sourceLineHint":"L8 and L22: 每週日"},
+      "minimumSpend":{"value":599,"sourceLineHint":"L22"},
+      "promoRate":{"value":5,"sourceLineHint":"L22"},
+      "rewardType":{"value":"points","sourceLineHint":"L22: OPENPOINT"},
+      "rewardUnit":{"value":"percent","sourceLineHint":"L22: 交易金額 5%"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L22: 100 點是活動期間上限"},
+      "capAmount":{"value":100,"sourceLineHint":"L22"},
+      "capPeriod":{"value":"CAMPAIGN","sourceLineHint":"L22: 活動期間每戶"},
+      "campaignCapAmount":{"value":80000,"sourceLineHint":"L22: 活動總點數上限"},
+      "needReg":{"value":false,"sourceLineHint":"L30: 只有 icash Pay 帳號註冊資訊，無活動登錄要求"}
+    }}
+  ]
+}

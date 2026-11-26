@@ -1,4 +1,5 @@
 checkpoints/
+node_modules/
 .test-deps/
 .build-deps/
 test-output/

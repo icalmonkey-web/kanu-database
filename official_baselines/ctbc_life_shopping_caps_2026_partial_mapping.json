@@ -1,0 +1,17 @@
+{
+  "baselineId": "ctbc_life_shopping_caps_2026_partial",
+  "mappings": [
+    {
+      "offerId": "netflix",
+      "ruleId": "rule_d06f4a5bdc36a2ea8e23"
+    },
+    {
+      "offerId": "studio_a",
+      "ruleId": "rule_c442e0aac014708858e2"
+    },
+    {
+      "offerId": "dyson",
+      "ruleId": "rule_7d6f97e638c3e5042864"
+    }
+  ]
+}

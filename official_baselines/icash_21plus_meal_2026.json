@@ -1,0 +1,15 @@
+{
+  "baselineId":"icash_21plus_meal_2026",
+  "scope":"21Plus 指定雞腿及綠茶組合 99 元優惠之公開欄位；商品及門市即時可用性待核",
+  "observedAt":"2026-11-05",
+  "sourceUrl":"https://www.icash.com.tw/Home/NewsDetail/?ID=12697",
+  "offers":[{"id":"meal_99","fields":{
+    "validFrom":{"value":"2026-01-01","sourceLineHint":"L59"},
+    "validUntil":{"value":"2026-12-31","sourceLineHint":"L59"},
+    "rewardType":{"value":"discount","sourceLineHint":"L63-L65: 指定組合優惠價，非回饋"},
+    "promoRate":{"value":0,"sourceLineHint":"L63-L65: 無百分比回饋"},
+    "bundlePriceAmount":{"value":99,"sourceLineHint":"L65"},
+    "excludedDateRanges":{"value":[["2026-12-24","2026-12-24"],["2026-12-25","2026-12-25"],["2026-12-31","2026-12-31"]],"sourceLineHint":"L65"},
+    "needReg":{"value":false,"sourceLineHint":"L63-L65: 僅要求指定支付，未要求活動登錄"}
+  }}]
+}

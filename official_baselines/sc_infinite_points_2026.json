@@ -1,0 +1,32 @@
+{
+  "baselineId":"sc_infinite_points_2026",
+  "scope":"渣打優先理財無限卡 2026 年官網所列一般、百貨餐飲飯店、海外外幣三個紅利積點方案；不驗證交易排除、點數計算取整與卡戶個人資格",
+  "observedAt":"2026-11-04",
+  "sourceUrl":"https://www.sc.com/tw/credit-cards/visa-infinite-card/",
+  "offers":[
+    {"id":"general","fields":{
+      "rewardType":{"value":"points","sourceLineHint":"L377-L379"},
+      "rewardUnit":{"value":"points_per_spend","sourceLineHint":"L379: 每新增刷卡消費NT$10得1點"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L379: 點數按消費額累積，非單筆固定贈點"},
+      "pointEarnRate":{"value":{"spendTwd":10,"points":1},"sourceLineHint":"L379"},
+      "promoRate":{"value":0,"sourceLineHint":"L379: 無百分比回饋"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L377"}
+    }},
+    {"id":"dining_department_hotel","fields":{
+      "rewardType":{"value":"points","sourceLineHint":"L380"},
+      "rewardUnit":{"value":"points_per_spend","sourceLineHint":"L379-L380"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L380: 三倍為點數累積倍數"},
+      "pointEarnRate":{"value":{"spendTwd":10,"points":3},"sourceLineHint":"L379-L380: 三倍含原一倍"},
+      "promoRate":{"value":0,"sourceLineHint":"L380: 非百分比回饋"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L377"}
+    }},
+    {"id":"overseas_foreign_currency","fields":{
+      "rewardType":{"value":"points","sourceLineHint":"L381"},
+      "rewardUnit":{"value":"points_per_spend","sourceLineHint":"L379-L381"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L381: 六倍為點數累積倍數"},
+      "pointEarnRate":{"value":{"spendTwd":10,"points":6},"sourceLineHint":"L379-L381: 六倍含原一倍"},
+      "promoRate":{"value":0,"sourceLineHint":"L381: 非百分比回饋"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L377"}
+    }}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "baselineId":"esun_digital_e_card_2026",
+  "scope":"玉山數位 e 卡 2026 年三個指定加碼方案的比率、每期上限與登錄要求；不驗證個人卡面版本、付款方式、帳單與扣款設定",
+  "observedAt":"2026-11-04",
+  "sourceUrl":"https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/e-card",
+  "offers":[
+    {"id":"eco_organic","fields":{
+      "validFrom":{"value":"2026-07-01","sourceLineHint":"L268"},"validUntil":{"value":"2026-12-31","sourceLineHint":"L268"},
+      "baseRate":{"value":0.5,"sourceLineHint":"L270"},"promoRate":{"value":4.5,"sourceLineHint":"L270"},
+      "rewardType":{"value":"points","sourceLineHint":"L270"},"rewardAmount":{"value":null,"sourceLineHint":"L270-L271; 250 is a cap, not an award"},
+      "capAmount":{"value":250,"sourceLineHint":"L271"},"capScope":{"value":"PROMO","sourceLineHint":"L271"},
+      "capPeriod":{"value":"STATEMENT","sourceLineHint":"L271,L289"},"needReg":{"value":true,"sourceLineHint":"L273,L284"}
+    }},
+    {"id":"fashion","fields":{
+      "validFrom":{"value":"2026-07-01","sourceLineHint":"L315"},"validUntil":{"value":"2026-12-31","sourceLineHint":"L315"},
+      "baseRate":{"value":0.5,"sourceLineHint":"L317"},"promoRate":{"value":2.5,"sourceLineHint":"L317"},
+      "rewardType":{"value":"points","sourceLineHint":"L317"},"rewardAmount":{"value":null,"sourceLineHint":"L317-L318; 250 is a cap, not an award"},
+      "capAmount":{"value":250,"sourceLineHint":"L318"},"capScope":{"value":"PROMO","sourceLineHint":"L318"},
+      "capPeriod":{"value":"STATEMENT","sourceLineHint":"L318,L332"},"needReg":{"value":false,"sourceLineHint":"L326-L344"}
+    }},
+    {"id":"pet","fields":{
+      "validFrom":{"value":"2026-07-01","sourceLineHint":"L352"},"validUntil":{"value":"2026-12-31","sourceLineHint":"L352"},
+      "baseRate":{"value":0.5,"sourceLineHint":"L354"},"promoRate":{"value":2.5,"sourceLineHint":"L354"},
+      "rewardType":{"value":"points","sourceLineHint":"L354"},"rewardAmount":{"value":null,"sourceLineHint":"L354-L355; 250 is a cap, not an award"},
+      "capAmount":{"value":250,"sourceLineHint":"L355"},"capScope":{"value":"PROMO","sourceLineHint":"L355"},
+      "capPeriod":{"value":"STATEMENT","sourceLineHint":"L355,L369"},"needReg":{"value":false,"sourceLineHint":"L363-L384"}
+    }}
+  ]
+}

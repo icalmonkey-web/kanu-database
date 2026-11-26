@@ -1,0 +1,24 @@
+{
+  "baselineId": "ctbc_greattree_2026_partial",
+  "scope": "中信 LINE Pay Visa 卡大樹藥局 2026 年每週三、六方案的公開結構欄位；官方列表 6% 與詳情圖片 8% 不一致，固定贈點及折價券不得當作單筆百分比",
+  "observedAt": "2026-11-04",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+  "offers": [
+    {
+      "id": "greattree_card_points",
+      "fields": {
+        "validFrom": {"value": "2026-09-01", "sourceLineHint": "L30-L34"},
+        "validUntil": {"value": "2026-12-31", "sourceLineHint": "L30-L34"},
+        "baseRate": {"value": 1, "sourceLineHint": "L30-L34 and L240; inferred as listed 2% less additional 1%"},
+        "promoRate": {"value": 1, "sourceLineHint": "L240: 加碼 LINE POINTS 1%"},
+        "rewardType": {"value": "points", "sourceLineHint": "L240-L242: LINE POINTS"},
+        "rewardUnit": {"value": "percent", "sourceLineHint": "L240: percentage earning of points"},
+        "rewardAmount": {"value": null, "sourceLineHint": "L240-L242: 70 points are a separate monthly threshold gift"},
+        "capAmount": {"value": 60, "sourceLineHint": "L240: additional points monthly cap"},
+        "capPeriod": {"value": "MONTHLY", "sourceLineHint": "L240: 每人每月"},
+        "minimumSpend": {"value": 0, "sourceLineHint": "L240-L242: 3,000 is for separate gift, not the 1% extra points"},
+        "eligibleWeekdays": {"value": [3, 6], "sourceLineHint": "L240: 每週三六，臺北時間"}
+      }
+    }
+  ]
+}

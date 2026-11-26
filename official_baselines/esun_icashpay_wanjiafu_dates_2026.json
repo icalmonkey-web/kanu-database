@@ -1,0 +1,18 @@
+{
+  "baselineId":"esun_icashpay_wanjiafu_dates_2026",
+  "scope":"玉山銀行 icash Pay 萬家福等通路的 13 段指定消費日期與公開登錄要求；不驗證當月名額是否已滿或持卡人實際登錄資格",
+  "observedAt":"2026-11-04",
+  "sourceUrl":"https://www.esunbank.com/zh-tw/personal/credit-card/discount/shopInfo?sno=8023",
+  "offers":[{"id":"esun_dates","fields":{
+    "eligibleDateRanges":{"value":[
+      {"from":"2026-09-11","until":"2026-09-13"},{"from":"2026-09-18","until":"2026-09-20"},{"from":"2026-09-25","until":"2026-09-27"},
+      {"from":"2026-10-10","until":"2026-10-11"},{"from":"2026-10-16","until":"2026-10-18"},{"from":"2026-10-23","until":"2026-10-25"},{"from":"2026-10-30","until":"2026-10-31"},
+      {"from":"2026-11-13","until":"2026-11-15"},{"from":"2026-11-20","until":"2026-11-22"},{"from":"2026-11-27","until":"2026-11-29"},
+      {"from":"2026-12-11","until":"2026-12-13"},{"from":"2026-12-18","until":"2026-12-20"},{"from":"2026-12-25","until":"2026-12-27"}
+    ],"sourceLineHint":"L230"},
+    "needReg":{"value":true,"sourceLineHint":"L223,L232-L233"},
+    "promoRate":{"value":5,"sourceLineHint":"L219"},
+    "capAmount":{"value":150,"sourceLineHint":"L221,L234"},
+    "capPeriod":{"value":"MONTHLY","sourceLineHint":"L221,L234"}
+  }}]
+}

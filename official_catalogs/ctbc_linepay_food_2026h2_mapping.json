@@ -1,0 +1,19 @@
+{
+  "catalogId": "ctbc_linepay_food_2026h2",
+  "mappings": [
+    {"offerId":"caesar_park", "ruleId":"review_ctbc_linepay_caesar_202609", "status":"matched"},
+    {"offerId":"selected_hotels", "ruleId":"review_linepay_selected_hotels_2026h2", "status":"matched"},
+    {"offerId":"foodpanda", "ruleIds":["rule_08a40a8180ff16448a91","rule_3d990c1ffca1103a85f3","review_ctbc_foodpanda_first_grocery_2026","review_ctbc_foodpanda_breakfast_2026"], "status":"matched"},
+    {"offerId":"uber_eats", "ruleId":"rule_141a6550938b29d8ba13", "status":"matched"},
+    {"offerId":"starbucks", "ruleId":"rule_77b16b4262cd2c2704ad", "status":"matched"},
+    {"offerId":"sushiro", "ruleId":"rule_26ab533bf77c05b5133c", "status":"matched"},
+    {"offerId":"komeda", "ruleId":"rule_1e1328f849591e9e8f10", "status":"matched"},
+    {"offerId":"mos_burger", "ruleId":"rule_e74497743e60187f7f2a", "status":"matched"},
+    {"offerId":"kura_sushi", "ruleId":"rule_a7fcac04b54ea87a2f43", "status":"matched"},
+    {"offerId":"pizza_hut_shopback", "ruleId":"review_ctbc_shopback_pizzahut_2026h2", "status":"matched"},
+    {"offerId":"kfc_shopback", "ruleId":"review_ctbc_shopback_kfc_2026h2", "status":"matched"},
+    {"offerId":"breakfast_coffee", "ruleId":"review_linepay_breakfast_coffee_coupon_2026q4", "status":"matched"},
+    {"offerId":"brand_restaurants", "ruleId":"review_linepay_brand_restaurant_coupon_2026q4", "status":"matched"},
+    {"offerId":"lopia", "ruleId":"review_linepay_lopia_2026q4", "status":"matched"}
+  ]
+}

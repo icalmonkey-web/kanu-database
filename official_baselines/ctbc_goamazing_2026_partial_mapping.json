@@ -1,0 +1,7 @@
+{
+  "baselineId": "ctbc_goamazing_2026_partial",
+  "mappings": [
+    {"offerId":"points","ruleId":"rule_414f177bc95a5bcc3ad1"},
+    {"offerId":"discount_code","ruleId":"review_ctbc_goamazing_code_2026_pending"}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "baselineId": "icashpay_latest_three_missing_2026",
+  "mappings": [
+    {"offerId":"ikari","ruleId":"review_icashpay_ikari_2026"},
+    {"offerId":"five_hundred_bowls","ruleId":"review_icashpay_500bowls_2026"},
+    {"offerId":"post_office_draw","ruleId":"review_icashpay_postoffice_draw_2026"}
+  ]
+}

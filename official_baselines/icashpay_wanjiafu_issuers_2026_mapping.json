@@ -1,0 +1,9 @@
+{
+  "baselineId":"icashpay_wanjiafu_issuers_2026",
+  "mappings":[
+    {"offerId":"cathay","ruleId":"icashpay_wanjiafu_2026_cathay"},
+    {"offerId":"hncb","ruleId":"icashpay_wanjiafu_2026_hncb"},
+    {"offerId":"hsbc","ruleId":"icashpay_wanjiafu_2026_hsbc"},
+    {"offerId":"esun","ruleId":"rule_e5062b26fc4d515cb603"}
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "catalogId": "ctbc_linepay_food_2026h2",
+  "scope": "中國信託 LINE Pay 卡脆饗食頁 2026-11-02 可見的全部 14 個活動入口；包含銀行、LINE Pay 與 ShopBack 合作優惠",
+  "observedAt": "2026-11-03",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_food.html",
+  "offers": [
+    {
+      "id": "caesar_park",
+      "name": "板橋凱薩大飯店 Lotus 餐廳折扣",
+      "sourceLineHint": 30,
+      "validFrom": "2026-09-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD",
+      "matchToken": "板橋凱薩"
+    },
+    {
+      "id": "selected_hotels",
+      "name": "精選飯店／餐廳 LINE POINTS 5%",
+      "sourceLineHint": 39,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "LINE_PAY",
+      "matchToken": "精選飯店",
+      "detailUrl": "https://web-tw-pay.line.me/cms/event/template1.3/abe1dd00-34be-4bb4-800a-68daff4207f5"
+    },
+    {
+      "id": "foodpanda",
+      "name": "foodpanda 指定代碼滿額折價",
+      "sourceLineHint": 45,
+      "validFrom": "2026-01-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD",
+      "matchToken": "foodpanda"
+    },
+    {
+      "id": "uber_eats",
+      "name": "Uber Eats LINE POINTS 5%",
+      "sourceLineHint": 52,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD",
+      "matchToken": "Uber Eats"
+    },
+    {
+      "id": "starbucks",
+      "name": "Starbucks LINE POINTS 5%",
+      "sourceLineHint": 60,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD",
+      "matchToken": "Starbucks"
+    },
+    {
+      "id": "sushiro",
+      "name": "SUSHIRO LINE POINTS 10%",
+      "sourceLineHint": 68,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD",
+      "matchToken": "SUSHIRO"
+    },
+    {
+      "id": "komeda",
+      "name": "Komeda's Coffee LINE POINTS 10%",
+      "sourceLineHint": 75,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD",
+      "matchToken": "Komeda"
+    },
+    {
+      "id": "mos_burger",
+      "name": "MOS Burger LINE POINTS 10%",
+      "sourceLineHint": 83,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD",
+      "matchToken": "MOS Burger"
+    },
+    {
+      "id": "kura_sushi",
+      "name": "Kura Sushi LINE POINTS 10%",
+      "sourceLineHint": 91,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "CARD",
+      "matchToken": "Kura Sushi"
+    },
+    {
+      "id": "pizza_hut_shopback",
+      "name": "必勝客 ShopBack 4%",
+      "sourceLineHint": 98,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK",
+      "matchToken": "必勝客"
+    },
+    {
+      "id": "kfc_shopback",
+      "name": "肯德基 ShopBack 4%",
+      "sourceLineHint": 106,
+      "validFrom": "2026-07-01",
+      "validUntil": "2026-12-31",
+      "channel": "SHOPBACK",
+      "matchToken": "肯德基"
+    },
+    {
+      "id": "breakfast_coffee",
+      "name": "早餐咖啡每週 10 元券",
+      "sourceLineHint": 114,
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "LINE_PAY",
+      "matchToken": "早餐咖啡",
+      "detailUrl": "https://web-tw-pay.line.me/cms/event/template1.3/ddcbb977-f788-4516-850a-d096276a0a63"
+    },
+    {
+      "id": "brand_restaurants",
+      "name": "品牌餐廳每週 20 元券",
+      "sourceLineHint": 121,
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "LINE_PAY",
+      "matchToken": "品牌餐廳",
+      "detailUrl": "https://web-tw-pay.line.me/cms/event/template1.3/5fe245b4-3af4-4699-9476-e0e6b8389a00"
+    },
+    {
+      "id": "lopia",
+      "name": "LOPIA LINE POINTS 最高 6%",
+      "sourceLineHint": 129,
+      "validFrom": "2026-10-01",
+      "validUntil": "2026-12-31",
+      "channel": "LINE_PAY",
+      "matchToken": "LOPIA",
+      "detailUrl": "https://web-tw-pay.line.me/cms/event/template1.3/4d2df854-31ea-4240-8d7c-11d607d7f719"
+    }
+  ]
+}

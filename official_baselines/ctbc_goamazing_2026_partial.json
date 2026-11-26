@@ -1,0 +1,26 @@
+{
+  "baselineId": "ctbc_goamazing_2026_partial",
+  "scope": "中信購精彩官方商城 6% LINE POINTS 與 CTBC2610 折扣碼兩個不同期間方案的公開欄位；折扣碼即時可用性與完整卡別仍待核",
+  "observedAt": "2026-11-04",
+  "sourceUrl": "https://www.ctbcbank.com/content/dam/minisite/long/creditcard/LINEPay/page_life.html",
+  "offers": [
+    {"id":"points","fields":{
+      "validFrom":{"value":"2026-05-01","sourceLineHint":"L280-L282"},
+      "validUntil":{"value":"2026-12-31","sourceLineHint":"L280-L282"},
+      "baseRate":{"value":1,"sourceLineHint":"L282"},
+      "promoRate":{"value":5,"sourceLineHint":"L282"},
+      "rewardType":{"value":"points","sourceLineHint":"L282: LINE POINTS"},
+      "rewardAmount":{"value":null,"sourceLineHint":"L282: percentage of points, no fixed points"},
+      "minimumSpend":{"value":0,"sourceLineHint":"L282: 不限消費金額門檻"},
+      "needReg":{"value":false,"sourceLineHint":"L267: 免登錄"}
+    }},
+    {"id":"discount_code","fields":{
+      "validFrom":{"value":"2026-10-07","sourceLineHint":"L267-L268"},
+      "validUntil":{"value":"2026-11-30","sourceLineHint":"L267-L268"},
+      "minimumSpend":{"value":2000,"sourceLineHint":"L268"},
+      "rewardType":{"value":"discount","sourceLineHint":"L267-L268: 現折"},
+      "rewardAmount":{"value":200,"sourceLineHint":"L268"},
+      "needReg":{"value":false,"sourceLineHint":"L267: 免登錄"}
+    }}
+  ]
+}

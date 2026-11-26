@@ -154,6 +154,13 @@ def refresh_issuer_inventory(registry, data):
 
 
 def copy_equivalent_sources(data, issuer_by_bank):
+    def identity(rule, bank):
+        # A shared headline is not sufficient: campaigns often reuse a title
+        # while changing the eligible card, period, rate, or registration.
+        return (bank, normalized_title(rule.get("title")), rule.get("cardId"),
+                rule.get("validFrom"), rule.get("validUntil"),
+                rule.get("baseRate"), rule.get("promoRate"),
+                rule.get("rewardType"), rule.get("needReg"))
     card_bank = {card.get("id"): card.get("bank", "") for card in data.get("cards", [])}
     known = defaultdict(set)
     for rule in data.get("rules", []):
@@ -161,17 +168,47 @@ def copy_equivalent_sources(data, issuer_by_bank):
         source = str(rule.get("sourceUrl") or "").strip()
         hosts = official_hosts(issuer_by_bank.get(bank, {}))
         if source and urlsplit(source).hostname in hosts:
-            known[(bank, title_family(rule.get("title")))].add(source)
+            known[identity(rule, bank)].add(source)
     repaired = 0
     for rule in data.get("rules", []):
         if rule.get("sourceUrl"):
             continue
         bank = infer_rule_bank(rule, card_bank)
-        choices = known.get((bank, title_family(rule.get("title"))), set())
+        choices = known.get(identity(rule, bank), set())
         if len(choices) == 1:
             apply_repaired_source(rule, next(iter(choices)), "equivalent_rule")
             repaired += 1
     return repaired
+
+
+def revoke_unmatched_equivalent_sources(data, issuer_by_bank):
+    """Undo historical headline-only copies without corroborating terms."""
+    card_bank = {c.get('id'): c.get('bank', '') for c in data.get('cards', [])}
+    def identity(rule):
+        return (infer_rule_bank(rule, card_bank), normalized_title(rule.get('title')),
+                rule.get('cardId'), rule.get('validFrom'), rule.get('validUntil'),
+                rule.get('baseRate'), rule.get('promoRate'), rule.get('rewardType'),
+                rule.get('needReg'))
+    evidence = defaultdict(set)
+    for rule in data.get('rules', []):
+        if rule.get('sourceRepairMethod') == 'equivalent_rule':
+            continue
+        bank = infer_rule_bank(rule, card_bank)
+        url = rule.get('sourceUrl') or ''
+        if url and urlsplit(url).hostname in official_hosts(issuer_by_bank.get(bank, {})):
+            evidence[identity(rule)].add(url)
+    revoked = 0
+    for rule in data.get('rules', []):
+        if rule.get('sourceRepairMethod') != 'equivalent_rule':
+            continue
+        if rule.get('sourceUrl') in evidence.get(identity(rule), set()):
+            continue
+        rule['sourceUrl'] = ''
+        rule.pop('sourceRepairMethod', None)
+        rule['validationIssues'] = list(dict.fromkeys([*(rule.get('validationIssues') or []), 'SOURCE_MISSING']))
+        rule['evidenceStatus'] = 'MISSING_SOURCE'
+        revoked += 1
+    return revoked
 
 
 def candidate_urls(bank, issuer, state, data, card_bank):
@@ -213,6 +250,7 @@ async def run():
     registry = load_json(ISSUER_FILE, {"issuers": []})
     issuer_by_bank = {issuer.get("name"): issuer for issuer in registry.get("issuers", [])}
     card_bank = {card.get("id"): card.get("bank", "") for card in data.get("cards", [])}
+    revoked_sources = revoke_unmatched_equivalent_sources(data, issuer_by_bank)
     normalized_markers = normalize_existing_source_markers(data)
     before = sum(not rule.get("sourceUrl") for rule in data.get("rules", []))
     duplicate_repairs = copy_equivalent_sources(data, issuer_by_bank)
@@ -257,7 +295,7 @@ async def run():
                 unresolved["no_exact_title_match"].append(rule)
 
     after = sum(not rule.get("sourceUrl") for rule in data.get("rules", []))
-    if after < before or normalized_markers:
+    if after != before or normalized_markers or revoked_sources:
         data["version"] = datetime.now(timezone.utc).strftime("%Y.%m.%d-v%H%M%S-sourcefix")
         data["lastUpdated"] = utc_now()
         atomic_json(DATA_FILE, data)

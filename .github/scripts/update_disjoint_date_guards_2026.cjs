@@ -1,0 +1,13 @@
+const fs=require('node:fs');
+const path=require('node:path');
+const file=path.resolve(__dirname,'../../data.json');
+const data=JSON.parse(fs.readFileSync(file,'utf8'));
+const kkday=data.rules.find(r=>r.id==='review_ctbc_kkday_member_day_2026_pending');
+const esun=data.rules.find(r=>r.id==='rule_e5062b26fc4d515cb603');
+if(!kkday?.validationIssues?.includes('DISCONTINUOUS_ACTIVITY_DATES_NEED_RUNTIME_SUPPORT')||!esun?.validationIssues?.includes('RECURRING_ELIGIBLE_DATES_NOT_MACHINE_CHECKED'))throw Error('Unexpected date guard state');
+kkday.validationIssues=kkday.validationIssues.filter(x=>x!=='DISCONTINUOUS_ACTIVITY_DATES_NEED_RUNTIME_SUPPORT');
+kkday.validationIssues.push('LIVE_MONTHLY_COUPON_QUOTA_UNVERIFIED','COUPON_AND_DEPARTURE_QUALIFICATION_NOT_MACHINE_CHECKED');
+esun.validationIssues=esun.validationIssues.filter(x=>x!=='RECURRING_ELIGIBLE_DATES_NOT_MACHINE_CHECKED');
+data.version='2026.11.04-v195500-dateguard';
+fs.writeFileSync(file,JSON.stringify(data,null,2)+'\n');
+console.log('Structured date windows supported; remaining KKday and Esun terms stay blocked');

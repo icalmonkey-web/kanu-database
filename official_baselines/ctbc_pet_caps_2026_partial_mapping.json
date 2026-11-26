@@ -1,0 +1,10 @@
+{
+  "baselineId": "ctbc_pet_caps_2026_partial",
+  "mappings": [
+    {"offerId":"fish","ruleId":"rule_959a861cabb8b515f17f"},
+    {"offerId":"gooddog","ruleId":"rule_b0e3b7c1e8eb9111f052"},
+    {"offerId":"wonderpet","ruleId":"rule_5597df0306591339c831"},
+    {"offerId":"petstimes","ruleId":"rule_135b9e6c4621fc0c2dc8"},
+    {"offerId":"ladynpet","ruleId":"rule_80b907fa6a35daa916fd"}
+  ]
+}
